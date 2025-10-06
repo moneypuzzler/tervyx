@@ -1,0 +1,163 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "version": "v1.0.0",
+  "title": "HBV 5-Tier Category Taxonomy",
+  "description": "Hierarchical taxonomy for health benefit verification categories and tiers",
+  "created": "2025-10-06",
+  "tiers": [
+    {
+      "name": "Gold",
+      "min_p": 0.80,
+      "label": "PASS",
+      "color": "#FFD700",
+      "confidence": "High",
+      "description": "Strong evidence of beneficial effect (P ≥ 0.80)",
+      "recommendation": "Evidence strongly supports the claimed benefit",
+      "icon": "🥇"
+    },
+    {
+      "name": "Silver", 
+      "min_p": 0.60,
+      "label": "PASS",
+      "color": "#C0C0C0", 
+      "confidence": "Moderate-High",
+      "description": "Good evidence of beneficial effect (P ≥ 0.60)",
+      "recommendation": "Evidence supports the claimed benefit",
+      "icon": "🥈"
+    },
+    {
+      "name": "Bronze",
+      "min_p": 0.40,
+      "label": "AMBER",
+      "color": "#CD7F32",
+      "confidence": "Moderate",
+      "description": "Limited evidence of beneficial effect (P ≥ 0.40)",
+      "recommendation": "Evidence provides limited support; further research needed",
+      "icon": "🥉"
+    },
+    {
+      "name": "Red",
+      "min_p": 0.20,
+      "label": "AMBER", 
+      "color": "#DC3545",
+      "confidence": "Low",
+      "description": "Weak evidence of beneficial effect (P ≥ 0.20)",
+      "recommendation": "Evidence is insufficient; caution advised",
+      "icon": "🟥"
+    },
+    {
+      "name": "Black",
+      "min_p": 0.00,
+      "label": "FAIL",
+      "color": "#000000",
+      "confidence": "None", 
+      "description": "No credible evidence or safety concerns (P < 0.20 or gate violations)",
+      "recommendation": "Claim not supported by evidence or poses safety concerns",
+      "icon": "⬛"
+    }
+  ],
+  "categories": {
+    "sleep": {
+      "id": "sleep",
+      "name": "Sleep Quality & Insomnia",
+      "description": "Sleep quality, sleep duration, insomnia severity, and sleep-related disorders",
+      "primary_measures": ["PSQI", "ISI", "sleep efficiency", "sleep latency"],
+      "delta_typical": 0.20,
+      "delta_units": "SMD",
+      "domain": "behavioral",
+      "safety_priority": "low",
+      "examples": ["magnesium for sleep", "melatonin for insomnia", "valerian for sleep quality"]
+    },
+    "cognition": {
+      "id": "cognition", 
+      "name": "Cognitive Function",
+      "description": "Memory, attention, executive function, processing speed, and overall cognitive performance",
+      "primary_measures": ["MMSE", "MoCA", "Trail Making Test", "digit span"],
+      "delta_typical": 0.25,
+      "delta_units": "SMD",
+      "domain": "neurological",
+      "safety_priority": "medium",
+      "examples": ["ginkgo for memory", "omega-3 for cognitive function", "B-vitamins for cognition"]
+    },
+    "mental_health": {
+      "id": "mental_health",
+      "name": "Mental Health & Mood", 
+      "description": "Depression, anxiety, mood disorders, and psychological well-being",
+      "primary_measures": ["PHQ-9", "GAD-7", "Hamilton Depression Scale", "Beck Depression Inventory"],
+      "delta_typical": 0.30,
+      "delta_units": "SMD",
+      "domain": "psychological",
+      "safety_priority": "high",
+      "examples": ["St. John's wort for depression", "ashwagandha for anxiety", "SAMe for mood"]
+    },
+    "renal_safety": {
+      "id": "renal_safety",
+      "name": "Kidney Function & Safety",
+      "description": "Kidney function markers, renal safety parameters, and nephrotoxicity assessment",
+      "primary_measures": ["eGFR", "serum creatinine", "BUN", "proteinuria"],
+      "delta_typical": 5.0,
+      "delta_units": "MD (mL/min/1.73m²)",
+      "domain": "safety",
+      "safety_priority": "critical", 
+      "examples": ["high-dose vitamin C safety", "herbal nephrotoxicity", "supplement kidney effects"]
+    },
+    "cardiovascular": {
+      "id": "cardiovascular",
+      "name": "Cardiovascular Health",
+      "description": "Blood pressure, heart rate, lipid profiles, and cardiovascular risk factors", 
+      "primary_measures": ["SBP", "DBP", "LDL", "HDL", "total cholesterol"],
+      "delta_typical": 2.0,
+      "delta_units": "MD (mmHg for BP)",
+      "domain": "physiological",
+      "safety_priority": "high",
+      "examples": ["coQ10 for blood pressure", "fish oil for lipids", "garlic for cardiovascular health"]
+    }
+  },
+  "gates": {
+    "phi": {
+      "name": "Φ (Phi) - Natural/Category Violation",
+      "description": "Checks for category misrouting and physical/physiological impossibilities",
+      "type": "deterministic",
+      "safety_critical": true,
+      "monotonic": true
+    },
+    "r": {
+      "name": "R - Relevance Assessment", 
+      "description": "Evaluates relevance of evidence to the claimed category and intervention",
+      "type": "probabilistic",
+      "safety_critical": false,
+      "monotonic": false
+    },
+    "j": {
+      "name": "J - Journal Trust Oracle",
+      "description": "Assesses source credibility using JCR/SJR metrics and predatory journal detection",
+      "type": "probabilistic", 
+      "safety_critical": false,
+      "monotonic": false
+    },
+    "k": {
+      "name": "K - Safety Assessment",
+      "description": "Evaluates safety concerns and contraindications",
+      "type": "deterministic",
+      "safety_critical": true,
+      "monotonic": true
+    },
+    "l": {
+      "name": "L - Language Exaggeration",
+      "description": "Detects exaggerated claims and misleading language patterns",
+      "type": "rule-based",
+      "safety_critical": false, 
+      "monotonic": false
+    }
+  },
+  "metadata": {
+    "total_tiers": 5,
+    "total_categories": 5,
+    "total_gates": 5,
+    "safety_gates": ["phi", "k"],
+    "probabilistic_gates": ["r", "j"],
+    "deterministic_gates": ["phi", "k"],
+    "rule_based_gates": ["l"],
+    "schema_version": "1.0.0"
+  }
+}

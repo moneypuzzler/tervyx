@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "nutrient:magnesium-glycinate:sleep:v1",
+  "title": "Magnesium Glycinate \u2014 Sleep",
+  "category": "sleep",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.978,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.9,
+    "j": 0.59,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "I2": 0.0,
+    "tau2": 0.0
+  },
+  "policy_refs": {
+    "policy_version": "v1.0.1",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "audit_hash": "sha256:5e7cc6e27d93d2c9d1d9148845132f120576f8561eda0bbb9b7153ead9f0763e",
+  "policy_fingerprint": "sha256:c1d2e332441c9cccf0e8a7fd3a5c565e92cd60267e88d6b220d30127562ced72",
+  "created": "2025-10-06T02:45:14.079191Z"
+}

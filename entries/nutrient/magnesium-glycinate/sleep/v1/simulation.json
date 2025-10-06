@@ -1,0 +1,20 @@
+{
+  "seed": 20251005,
+  "n_draws": 10000,
+  "tau2_method": "REML",
+  "delta": 0.2,
+  "P_effect_gt_delta": 0.9776,
+  "mu_point": 0.34295420231504786,
+  "mu_CI95": [
+    0.20364087444728662,
+    0.4822675301828091
+  ],
+  "mu_se": 0.07107822850395981,
+  "I2": 0.0,
+  "tau2": 0.0,
+  "tau": 0.0,
+  "Q": 1.0399467175582688,
+  "n_studies": 3,
+  "environment": "Python/NumPy",
+  "policy_fingerprint": "sha256:c1d2e332441c9cccf0e8a7fd3a5c565e92cd60267e88d6b220d30127562ced72"
+}

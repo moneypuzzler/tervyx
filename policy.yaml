@@ -1,0 +1,75 @@
+version: "v1.0.1"
+
+hbv_tiers:
+  gold:
+    min_p: 0.80
+    label: PASS
+  silver:
+    min_p: 0.60
+    label: PASS
+  bronze:
+    min_p: 0.40
+    label: AMBER
+  red:
+    min_p: 0.20
+    label: AMBER
+  black:
+    min_p: 0.00
+    label: FAIL
+
+categories:
+  sleep:
+    delta: 0.20      # SMD (benefit positive)
+    measures: [PSQI, ISI]
+    description: "Sleep quality and insomnia severity"
+  cognition:
+    delta: 0.25
+    measures: [MMSE, MoCA]
+    description: "Cognitive function and performance"
+  mental_health:
+    delta: 0.30
+    measures: [PHQ-9, GAD-7]
+    description: "Depression and anxiety symptoms"
+  renal_safety:
+    delta: 5.0       # MD, eGFR mL/min
+    measures: [eGFR]
+    description: "Kidney function safety markers"
+  cardiovascular:
+    delta: 2.0       # MD, SBP mmHg
+    measures: [SBP]
+    description: "Cardiovascular health indicators"
+
+gates:
+  phi:
+    # Category misrouting / physical/physiological violations etc.
+    hard_cap: true
+    description: "Natural/Category violation gate"
+  r:
+    min_relevance: 0.5
+    description: "Relevance assessment gate"
+  j:
+    use_snapshot: "snapshots/journal_trust@2025-10-05.json"
+    min_j: 0.25
+    blacklist_nulls: true   # retraction/predatory/hijacked -> 0
+    description: "Journal trust oracle gate"
+  k:
+    hard_cap: true          # Safety violations -> FAIL
+    description: "Safety assessment gate"
+  l:
+    deny_patterns:
+      - "\\b(cure|completely\\s*cured|permanent\\s*cure)\\b"
+      - "\\b(instant(ly)?|immediate(ly)?)\\b"
+      - "\\b(cure[-\\s]?all|panacea|works\\s*for\\s*everything)\\b"
+      - "\\b(no\\s*side\\s*effects|risk[-\\s]?free)\\b"
+    description: "Language exaggeration detection gate"
+
+monte_carlo:
+  seed: 20251005
+  n_draws: 10000
+  tau2_method: REML
+  description: "Monte Carlo simulation parameters for meta-analysis"
+
+audit:
+  enable_logging: true
+  log_file: "AUDIT_LOG.jsonl"
+  include_policy_fingerprint: true
