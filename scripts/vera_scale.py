@@ -1,0 +1,497 @@
+#!/usr/bin/env python3
+"""
+VERA Protocol - Scaling CLI Interface
+Command-line interface for 1000+ entry scaling operations
+"""
+
+import sys
+import argparse
+import json
+from pathlib import Path
+from datetime import datetime
+from typing import Dict, List, Optional
+
+# Add project root to path
+project_root = Path(__file__).parent.parent
+sys.path.insert(0, str(project_root))
+
+try:
+    from registry.journal_registry import JournalRegistry
+    from catalog.entry_catalog import EntryCatalog
+    from automation.collection_pipeline import CollectionPipeline
+    from scoring.relevance_scorer import RelevanceScorer
+    from workflows.prisma_screening import PRISMAWorkflow
+    SCALING_AVAILABLE = True
+except ImportError as e:
+    print(f"⚠️  Scaling components not available: {e}")
+    print("Install scaling dependencies with: pip install -r requirements_scaling.txt")
+    SCALING_AVAILABLE = False
+
+def cmd_init_scaling(args):
+    """Initialize scaling infrastructure"""
+    
+    if not SCALING_AVAILABLE:
+        print("❌ Scaling components not available. Install dependencies first.")
+        return 1
+    
+    print("🚀 Initializing VERA scaling infrastructure...")
+    
+    # Initialize journal registry
+    print("\n📋 Setting up journal registry...")
+    registry = JournalRegistry()
+    
+    # Add sample journals
+    sample_issns = [
+        "1389-9457",  # Sleep Medicine
+        "1365-2869",  # Journal of Sleep Research
+        "0006-3223",  # Biological Psychiatry
+        "1529-9430",  # Sleep Medicine Reviews
+        "1087-0792",  # Sleep
+        "1099-1166",  # Depression and Anxiety
+        "0033-2909",  # Psychological Bulletin
+        "1073-449X"   # American Journal of Respiratory and Critical Care Medicine
+    ]
+    
+    registry.bulk_update_registry(sample_issns, batch_size=10)
+    
+    registry_stats = registry.get_registry_stats()
+    print(f"✅ Journal registry: {registry_stats['total_journals']} journals")
+    
+    # Initialize entry catalog
+    print("\n📚 Setting up entry catalog...")
+    catalog = EntryCatalog()
+    
+    catalog_stats = catalog.get_catalog_statistics()
+    print(f"✅ Entry catalog: {catalog_stats['total_entries']} entry seeds")
+    
+    # Display category breakdown
+    categories = catalog_stats.get('categories', {}).get('breakdown', {})
+    for category, count in categories.items():
+        print(f"   {category}: {count} entries")
+    
+    # Initialize relevance scorer
+    print("\n🧠 Setting up relevance scorer...")
+    try:
+        scorer = RelevanceScorer()
+        print("✅ Relevance scorer initialized with BERT support")
+    except Exception as e:
+        print(f"⚠️  Relevance scorer initialized with limited functionality: {e}")
+    
+    print("\n🎉 Scaling infrastructure ready!")
+    print(f"📊 Total system capacity: {catalog_stats['estimates']['total_studies']} estimated studies")
+    
+    return 0
+
+def cmd_registry(args):
+    """Manage journal registry"""
+    
+    if not SCALING_AVAILABLE:
+        print("❌ Registry not available. Install dependencies first.")
+        return 1
+    
+    registry = JournalRegistry()
+    
+    if args.action == 'stats':
+        stats = registry.get_registry_stats()
+        print("📋 Journal Registry Statistics:")
+        print(f"   Total journals: {stats['total_journals']}")
+        print(f"   DOAJ members: {stats['doaj_members']}")
+        print(f"   COPE members: {stats['cope_members']}")
+        print(f"   Average trust score: {stats['avg_trust_score']:.3f}")
+        print(f"   Last updated: {stats['last_updated']}")
+        
+    elif args.action == 'update':
+        if args.issn_list:
+            issns = args.issn_list.split(',')
+            print(f"Updating registry with {len(issns)} ISSNs...")
+            registry.bulk_update_registry(issns)
+            print("✅ Registry updated")
+        else:
+            print("Please provide --issn-list")
+            return 1
+    
+    elif args.action == 'search':
+        if args.query:
+            results = registry.search_journals(args.query, limit=10)
+            print(f"🔍 Search results for '{args.query}':")
+            for result in results:
+                print(f"   {result['journal_name']} ({result['issn']})")
+                print(f"   Trust score: {result.get('trust_score', 0):.3f}")
+        else:
+            print("Please provide --query")
+            return 1
+    
+    elif args.action == 'get':
+        if args.issn:
+            scorecard = registry.get_journal_scorecard(args.issn)
+            if scorecard:
+                print(f"📄 Scorecard for {args.issn}:")
+                for key, value in scorecard.items():
+                    if not key.startswith('raw_'):
+                        print(f"   {key}: {value}")
+            else:
+                print(f"❌ No scorecard found for {args.issn}")
+        else:
+            print("Please provide --issn")
+            return 1
+    
+    return 0
+
+def cmd_catalog(args):
+    """Manage entry catalog"""
+    
+    if not SCALING_AVAILABLE:
+        print("❌ Catalog not available. Install dependencies first.")
+        return 1
+    
+    catalog = EntryCatalog()
+    
+    if args.action == 'stats':
+        stats = catalog.get_catalog_statistics()
+        print("📚 Entry Catalog Statistics:")
+        print(f"   Total entries: {stats['total_entries']}")
+        print(f"   Completion rate: {stats['progress']['completion_rate']:.1f}%")
+        print(f"   Pending high priority: {stats['progress']['pending_high_priority']}")
+        
+        print("\n📊 Categories:")
+        for category, breakdown in stats['categories']['completion_by_category'].items():
+            print(f"   {category}: {breakdown['completed']}/{breakdown['total']} ({breakdown['rate']:.1f}%)")
+        
+        print(f"\n🎯 Estimated total studies: {stats['estimates']['total_studies']}")
+        
+    elif args.action == 'batch':
+        batch_size = args.batch_size or 10
+        priority = args.priority
+        category = args.category
+        
+        batch = catalog.get_next_batch(batch_size, priority, category)
+        
+        print(f"📦 Next batch ({len(batch)} entries):")
+        for entry in batch:
+            print(f"   {entry['entry_id']}: {entry['substance']} → {entry['indication']}")
+            print(f"      Priority: {entry['priority']}, Est. studies: {entry['estimated_studies']}")
+        
+        if args.export:
+            output_file = f"batch_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
+            catalog.export_batch_assignments(output_file, batch_size)
+            print(f"📄 Batch exported to {output_file}")
+    
+    elif args.action == 'search':
+        if args.query:
+            results = catalog.search_entries(args.query, limit=10)
+            print(f"🔍 Search results for '{args.query}':")
+            for result in results:
+                print(f"   {result['entry_id']}: {result['substance']} → {result['indication']}")
+                print(f"      Category: {result['category']}, Status: {result['status']}")
+        else:
+            print("Please provide --query")
+            return 1
+    
+    elif args.action == 'update':
+        if args.entry_id and args.status:
+            success = catalog.update_entry_status(
+                args.entry_id, 
+                args.status,
+                assignee=args.assignee,
+                final_tier=args.tier,
+                notes=args.notes or ""
+            )
+            if success:
+                print(f"✅ Updated {args.entry_id} status to {args.status}")
+            else:
+                print(f"❌ Failed to update {args.entry_id}")
+        else:
+            print("Please provide --entry-id and --status")
+            return 1
+    
+    return 0
+
+def cmd_collect(args):
+    """Run evidence collection pipeline"""
+    
+    if not SCALING_AVAILABLE:
+        print("❌ Collection pipeline not available. Install dependencies first.")
+        return 1
+    
+    pipeline = CollectionPipeline()
+    
+    query = args.query
+    max_results = args.max_results or 100
+    databases = args.databases.split(',') if args.databases else ['openalex', 'pubmed']
+    
+    print(f"🔍 Collecting evidence for: {query}")
+    print(f"📊 Max results: {max_results}")
+    print(f"🗄️  Databases: {', '.join(databases)}")
+    
+    studies = pipeline.collect_evidence(query, max_results, databases)
+    
+    print(f"\n✅ Collected {len(studies)} unique studies")
+    
+    # Show sample results
+    for i, study in enumerate(studies[:3]):
+        print(f"\n{i+1}. {study.title}")
+        print(f"   Authors: {', '.join(study.authors[:2])}{'...' if len(study.authors) > 2 else ''}")
+        print(f"   Journal: {study.journal} ({study.publication_year})")
+        print(f"   DOI: {study.doi}")
+        print(f"   Source: {study.data_source}")
+        print(f"   Type: {study.study_type}")
+    
+    # Save results
+    if args.output:
+        pipeline.save_collection_results(studies, args.output)
+        print(f"\n💾 Results saved to {args.output}")
+    
+    return 0
+
+def cmd_score(args):
+    """Run relevance scoring"""
+    
+    if not SCALING_AVAILABLE:
+        print("❌ Relevance scorer not available. Install dependencies first.")
+        return 1
+    
+    scorer = RelevanceScorer()
+    
+    if args.abstract and args.category and args.substance and args.indication:
+        # Single abstract scoring
+        score = scorer.compute_relevance_score(
+            args.abstract,
+            args.category,
+            args.substance, 
+            args.indication
+        )
+        
+        print(f"🧠 Relevance Score Results:")
+        print(f"   Semantic Score: {score.semantic_score:.3f}")
+        print(f"   Keyword Score: {score.keyword_score:.3f}")
+        print(f"   Combined Score: {score.combined_score:.3f}")
+        print(f"   Confidence: {score.confidence:.3f}")
+        print(f"   Model: {score.scoring_model}")
+        print(f"   Matched Concepts: {score.matched_concepts}")
+        
+        # Get relevance level
+        thresholds = scorer.get_category_relevance_thresholds()
+        category_thresholds = thresholds.get(args.category, thresholds['sleep'])
+        
+        if score.combined_score >= category_thresholds['high_relevance']:
+            level = "High"
+        elif score.combined_score >= category_thresholds['medium_relevance']:
+            level = "Medium"  
+        elif score.combined_score >= category_thresholds['low_relevance']:
+            level = "Low"
+        else:
+            level = "Very Low"
+        
+        print(f"   Relevance Level: {level}")
+        
+    elif args.batch_file:
+        # Batch scoring from file
+        try:
+            with open(args.batch_file, 'r') as f:
+                if args.batch_file.endswith('.json'):
+                    studies_data = json.load(f)
+                else:
+                    print("❌ Only JSON batch files supported currently")
+                    return 1
+            
+            scores = scorer.batch_score_studies(
+                studies_data,
+                args.category,
+                args.substance,
+                args.indication
+            )
+            
+            print(f"🧠 Batch scoring complete: {len(scores)} studies scored")
+            
+            # Show distribution
+            high_count = sum(1 for s in scores if s.combined_score >= 0.7)
+            medium_count = sum(1 for s in scores if 0.4 <= s.combined_score < 0.7)
+            low_count = len(scores) - high_count - medium_count
+            
+            print(f"   High relevance: {high_count}")
+            print(f"   Medium relevance: {medium_count}")  
+            print(f"   Low relevance: {low_count}")
+            
+            if args.output:
+                # Save scores
+                scores_data = [asdict(score) for score in scores]
+                with open(args.output, 'w') as f:
+                    json.dump(scores_data, f, indent=2)
+                print(f"💾 Scores saved to {args.output}")
+                
+        except FileNotFoundError:
+            print(f"❌ Batch file not found: {args.batch_file}")
+            return 1
+        except Exception as e:
+            print(f"❌ Error processing batch file: {e}")
+            return 1
+    
+    else:
+        print("❌ Provide either --abstract with PICO parameters, or --batch-file")
+        return 1
+    
+    return 0
+
+def cmd_prisma(args):
+    """Run PRISMA screening workflow"""
+    
+    if not SCALING_AVAILABLE:
+        print("❌ PRISMA workflow not available. Install dependencies first.")
+        return 1
+    
+    workflow = PRISMAWorkflow(args.review_id)
+    
+    if args.action == 'init':
+        if not all([args.title, args.question, args.inclusion, args.exclusion]):
+            print("❌ Please provide --title, --question, --inclusion, and --exclusion")
+            return 1
+        
+        # Parse criteria (simplified - expects JSON strings)
+        try:
+            inclusion_criteria = json.loads(args.inclusion)
+            exclusion_criteria = json.loads(args.exclusion)
+        except json.JSONDecodeError:
+            print("❌ Inclusion and exclusion criteria must be valid JSON")
+            return 1
+        
+        workflow.initialize_review(
+            args.title,
+            args.question,
+            inclusion_criteria,
+            exclusion_criteria
+        )
+        
+        print(f"✅ PRISMA review initialized: {args.title}")
+    
+    elif args.action == 'import':
+        if not args.input_file:
+            print("❌ Please provide --input-file")
+            return 1
+        
+        try:
+            with open(args.input_file, 'r') as f:
+                search_results = json.load(f)
+            
+            workflow.import_search_results(search_results, args.database or "unknown")
+            print(f"✅ Imported {len(search_results)} records")
+            
+        except FileNotFoundError:
+            print(f"❌ Input file not found: {args.input_file}")
+            return 1
+        except Exception as e:
+            print(f"❌ Error importing data: {e}")
+            return 1
+    
+    elif args.action == 'dedupe':
+        removed = workflow.remove_duplicates()
+        print(f"✅ Removed {removed} duplicate records")
+    
+    elif args.action == 'screen':
+        batch_size = args.batch_size or 50
+        batch = workflow.title_abstract_screening(batch_size, args.reviewer_id or "auto")
+        print(f"✅ Screened {len(batch)} records")
+    
+    elif args.action == 'stats':
+        stats = workflow.get_screening_statistics()
+        print("📊 PRISMA Screening Statistics:")
+        print(f"   Total records: {stats['total_records']}")
+        print(f"   Title/abstract screened: {stats['screening_progress']['abstract_screened']}")
+        print(f"   Included: {stats['decisions']['included']}")
+        print(f"   Excluded: {stats['decisions']['excluded']}")
+        print(f"   Pending: {stats['decisions']['pending']}")
+        print(f"   Overall completion: {stats['completion_rate']['overall']:.1f}%")
+    
+    elif args.action == 'flow':
+        flow_data = workflow.generate_prisma_flow_diagram()
+        print("📈 PRISMA Flow Diagram:")
+        for key, value in flow_data.items():
+            if isinstance(value, (int, str)) and not key.startswith('generated'):
+                print(f"   {key}: {value}")
+    
+    elif args.action == 'export':
+        output_format = args.format or 'csv'
+        output_file = workflow.export_screening_results(output_format)
+        print(f"💾 Screening results exported to {output_file}")
+    
+    return 0
+
+def main():
+    """Main CLI entry point"""
+    
+    parser = argparse.ArgumentParser(
+        description="VERA Protocol - Scaling Operations CLI",
+        formatter_class=argparse.RawDescriptionHelpFormatter
+    )
+    
+    subparsers = parser.add_subparsers(dest='command', help='Available commands')
+    
+    # Initialize scaling
+    init_parser = subparsers.add_parser('init', help='Initialize scaling infrastructure')
+    init_parser.set_defaults(func=cmd_init_scaling)
+    
+    # Journal registry
+    registry_parser = subparsers.add_parser('registry', help='Manage journal registry')
+    registry_parser.add_argument('action', choices=['stats', 'update', 'search', 'get'])
+    registry_parser.add_argument('--issn-list', help='Comma-separated ISSN list')
+    registry_parser.add_argument('--issn', help='Single ISSN')
+    registry_parser.add_argument('--query', help='Search query')
+    registry_parser.set_defaults(func=cmd_registry)
+    
+    # Entry catalog  
+    catalog_parser = subparsers.add_parser('catalog', help='Manage entry catalog')
+    catalog_parser.add_argument('action', choices=['stats', 'batch', 'search', 'update'])
+    catalog_parser.add_argument('--batch-size', type=int, help='Batch size')
+    catalog_parser.add_argument('--priority', choices=['high', 'medium', 'low'])
+    catalog_parser.add_argument('--category', help='Filter by category')
+    catalog_parser.add_argument('--export', action='store_true', help='Export batch')
+    catalog_parser.add_argument('--query', help='Search query')
+    catalog_parser.add_argument('--entry-id', help='Entry ID to update')
+    catalog_parser.add_argument('--status', help='New status')
+    catalog_parser.add_argument('--assignee', help='Assignee')
+    catalog_parser.add_argument('--tier', help='Final tier')
+    catalog_parser.add_argument('--notes', help='Notes')
+    catalog_parser.set_defaults(func=cmd_catalog)
+    
+    # Collection pipeline
+    collect_parser = subparsers.add_parser('collect', help='Run evidence collection')
+    collect_parser.add_argument('query', help='Search query')
+    collect_parser.add_argument('--max-results', type=int, default=100)
+    collect_parser.add_argument('--databases', help='Comma-separated database list')
+    collect_parser.add_argument('--output', help='Output file')
+    collect_parser.set_defaults(func=cmd_collect)
+    
+    # Relevance scoring
+    score_parser = subparsers.add_parser('score', help='Run relevance scoring')
+    score_parser.add_argument('--abstract', help='Abstract text')
+    score_parser.add_argument('--category', help='Target category')
+    score_parser.add_argument('--substance', help='Target substance')
+    score_parser.add_argument('--indication', help='Target indication')
+    score_parser.add_argument('--batch-file', help='Batch file (JSON)')
+    score_parser.add_argument('--output', help='Output file')
+    score_parser.set_defaults(func=cmd_score)
+    
+    # PRISMA workflow
+    prisma_parser = subparsers.add_parser('prisma', help='Run PRISMA screening')
+    prisma_parser.add_argument('review_id', help='Review identifier')
+    prisma_parser.add_argument('action', choices=['init', 'import', 'dedupe', 'screen', 'stats', 'flow', 'export'])
+    prisma_parser.add_argument('--title', help='Review title')
+    prisma_parser.add_argument('--question', help='Research question')
+    prisma_parser.add_argument('--inclusion', help='Inclusion criteria (JSON)')
+    prisma_parser.add_argument('--exclusion', help='Exclusion criteria (JSON)')
+    prisma_parser.add_argument('--input-file', help='Input file')
+    prisma_parser.add_argument('--database', help='Database name')
+    prisma_parser.add_argument('--batch-size', type=int)
+    prisma_parser.add_argument('--reviewer-id', help='Reviewer ID')
+    prisma_parser.add_argument('--format', choices=['csv', 'excel', 'json'])
+    prisma_parser.set_defaults(func=cmd_prisma)
+    
+    args = parser.parse_args()
+    
+    if not hasattr(args, 'func'):
+        parser.print_help()
+        return 1
+    
+    return args.func(args)
+
+if __name__ == '__main__':
+    sys.exit(main())
