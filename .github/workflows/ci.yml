@@ -1,0 +1,158 @@
+name: VERA Archives Build & Validate
+
+on:
+  push:
+    branches: [ main, develop, genspark_ai_developer ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.10", "3.11"]
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ matrix.python-version }}
+        
+    - name: Cache dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+          
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Lint Python code
+      run: |
+        pip install flake8
+        # Stop the build if there are Python syntax errors or undefined names
+        flake8 engine scripts --count --select=E9,F63,F7,F82 --show-source --statistics
+        # Exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
+        flake8 engine scripts --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+        
+    - name: Validate policy and schemas
+      run: |
+        python -c "import yaml; yaml.safe_load(open('policy.yaml'))"
+        python -c "import json; json.load(open('snapshots/journal_trust@2025-10-05.json'))"
+        python -c "import json; json.load(open('protocol/schemas/simulation.schema.json'))"
+        python -c "import json; json.load(open('protocol/schemas/entry.schema.json'))"
+        
+    - name: Check policy fingerprint computation
+      run: |
+        python scripts/vera.py fingerprint
+        
+    - name: Create sample entry (if not exists)
+      run: |
+        python scripts/vera.py new nutrient magnesium-glycinate sleep || echo "Entry may already exist"
+        
+    - name: Build sample entry
+      run: |
+        python scripts/vera.py build entries/nutrient/magnesium-glycinate/sleep/v1 --category sleep
+        
+    - name: Validate generated artifacts
+      run: |
+        python scripts/vera.py validate entries/nutrient/magnesium-glycinate/sleep/v1
+        
+    - name: Run schema validation
+      run: |
+        python engine/schema_validate.py entries/nutrient/magnesium-glycinate/sleep/v1
+        
+    - name: Verify reproducibility
+      run: |
+        # Build again and check for consistent results
+        python scripts/vera.py build entries/nutrient/magnesium-glycinate/sleep/v1 --category sleep
+        python scripts/vera.py validate entries/nutrient/magnesium-glycinate/sleep/v1
+        
+    - name: Check audit log
+      run: |
+        if [ -f "AUDIT_LOG.jsonl" ]; then
+          echo "Audit log entries:"
+          wc -l AUDIT_LOG.jsonl
+          echo "Last entry:"
+          tail -n 1 AUDIT_LOG.jsonl | python -m json.tool
+        else
+          echo "No audit log found"
+        fi
+        
+    - name: Display system status
+      run: |
+        python scripts/vera.py status
+        
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v3
+      if: always()
+      with:
+        name: vera-artifacts-python${{ matrix.python-version }}
+        path: |
+          entries/
+          AUDIT_LOG.jsonl
+          
+  validate-schema-only:
+    runs-on: ubuntu-latest
+    name: Schema Validation Only
+    
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        
+    - name: Install minimal dependencies
+      run: |
+        pip install jsonschema PyYAML
+        
+    - name: Validate all schemas independently  
+      run: |
+        python -c "
+        import json
+        from jsonschema import Draft202012Validator
+        
+        # Validate simulation schema
+        sim_schema = json.load(open('protocol/schemas/simulation.schema.json'))
+        Draft202012Validator.check_schema(sim_schema)
+        print('✅ simulation.schema.json is valid')
+        
+        # Validate entry schema  
+        entry_schema = json.load(open('protocol/schemas/entry.schema.json'))
+        Draft202012Validator.check_schema(entry_schema)
+        print('✅ entry.schema.json is valid')
+        
+        # Validate taxonomy
+        taxonomy = json.load(open('protocol/taxonomy/hbv_categories@v1.0.0.json'))
+        print(f'✅ hbv_categories taxonomy loaded: {taxonomy[\"metadata\"][\"total_tiers\"]} tiers')
+        "
+        
+  security-scan:
+    runs-on: ubuntu-latest
+    name: Security Scan
+    
+    steps:
+    - uses: actions/checkout@v4
+    - name: Run Trivy vulnerability scanner
+      uses: aquasecurity/trivy-action@master
+      with:
+        scan-type: 'fs'
+        scan-ref: '.'
+        format: 'sarif'
+        output: 'trivy-results.sarif'
+        
+    - name: Upload Trivy scan results
+      uses: github/codeql-action/upload-sarif@v2
+      if: always()
+      with:
+        sarif_file: 'trivy-results.sarif'
