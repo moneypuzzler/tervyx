@@ -1,0 +1,71 @@
+# Citation File Format (CFF) for TERVYX Protocol
+# This file provides standardized citation information for academic and AI use
+
+cff-version: 1.2.0
+title: "TERVYX Protocol v1.0: A Reproducible Governance & Labeling Standard for Health-Information Evidence"
+message: "If you use this dataset or methodology, please cite it using the metadata from this file."
+type: dataset
+authors:
+  - family-names: Kim
+    given-names: Geonyeop
+    orcid: "https://orcid.org/0009-0005-7640-2510"
+    affiliation: "Independent Researcher"
+    email: "contact@tervyx.org"
+repository-code: "https://github.com/moneypuzzler/tervyx"
+url: "https://github.com/moneypuzzler/tervyx"
+abstract: >-
+  The TERVYX Protocol (Tiered Evidence & Risk Verification sYstem) is a comprehensive framework 
+  for evaluating health-information claims using evidence-based methodology. It implements a 
+  five-tier classification system (TEL-5: Gold, Silver, Bronze, Red, Black) with gate governance 
+  protocol (GGP) featuring safety-first monotonicity principles. The system combines REML + 
+  Monte Carlo meta-analysis with automated journal quality assessment and AI-powered literature 
+  review capabilities. Patent-protected methodologies ensure reproducible and standardized 
+  evaluation of nutritional supplements and health interventions.
+keywords:
+  - evidence-based medicine
+  - meta-analysis
+  - health information
+  - systematic review
+  - nutritional supplements
+  - reproducible research
+  - REML estimation
+  - Monte Carlo simulation
+  - gate governance protocol
+  - safety assessment
+license: MIT
+version: "1.0"
+date-released: "2025-10-15"
+doi: "10.5281/zenodo.XXXXX"  # To be assigned upon Zenodo upload
+identifiers:
+  - type: url
+    value: "https://github.com/moneypuzzler/tervyx"
+  - type: other
+    value: "KR 10-2025-0143351"
+    description: "Korean Patent Application Number"
+preferred-citation:
+  type: generic
+  title: "TERVYX Protocol v1.0: A Reproducible Governance & Labeling Standard for Health-Information Evidence"
+  authors:
+    - family-names: Kim
+      given-names: Geonyeop
+      orcid: "https://orcid.org/0009-0005-7640-2510"
+  year: 2025
+  publisher: "GitHub"
+  url: "https://github.com/moneypuzzler/tervyx"
+  notes: "Patent: KR 10-2025-0143351"
+references:
+  - type: article
+    title: "A Reproducible Governance & Labeling Standard for Health-Information Evidence"
+    authors:
+      - family-names: Kim
+        given-names: Geonyeop
+    journal: "TERVYX Protocol Documentation"
+    year: 2025
+    url: "https://github.com/moneypuzzler/tervyx/blob/main/TERVYX_Protocol_v1.0.md"
+  - type: software
+    title: "Real-Data TERVYX System"
+    authors:
+      - family-names: Kim
+        given-names: Geonyeop
+    year: 2025
+    url: "https://github.com/moneypuzzler/tervyx/tree/main/system"

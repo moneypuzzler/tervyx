@@ -1,0 +1,245 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "@id": "https://github.com/moneypuzzler/tervyx",
+  "name": "TERVYX Protocol v1.0: Evidence Database",
+  "alternateName": "Tiered Evidence & Risk Verification sYstem",
+  "description": "A comprehensive database of health-information evidence evaluations using the TERVYX Protocol's TEL-5 classification system. Contains 70+ evidence entries for nutritional supplements across 5 outcome categories (sleep, cognition, mental health, cardiovascular, renal safety) with real literature-based analysis, AI-powered extraction, and patent-protected methodologies.",
+  "version": "1.0",
+  "dateCreated": "2025-10-15",
+  "dateModified": "2025-10-15",
+  "datePublished": "2025-10-15",
+  "url": "https://github.com/moneypuzzler/tervyx",
+  "sameAs": [
+    "https://zenodo.org/records/XXXXX",
+    "https://github.com/moneypuzzler/tervyx"
+  ],
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "GitHub Repository",
+      "value": "moneypuzzler/tervyx"
+    },
+    {
+      "@type": "PropertyValue", 
+      "propertyID": "DOI",
+      "value": "10.5281/zenodo.XXXXX"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "Patent Application",
+      "value": "KR 10-2025-0143351"
+    }
+  ],
+  "creator": {
+    "@type": "Person",
+    "name": "Geonyeop Kim",
+    "givenName": "Geonyeop",
+    "familyName": "Kim",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "ORCID",
+      "value": "https://orcid.org/0009-0005-7640-2510"
+    },
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Independent Researcher"
+    },
+    "email": "contact@tervyx.org"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "GitHub",
+    "url": "https://github.com"
+  },
+  "provider": {
+    "@type": "Organization", 
+    "name": "GitHub",
+    "url": "https://github.com"
+  },
+  "license": {
+    "@type": "CreativeWork",
+    "name": "MIT License",
+    "url": "https://opensource.org/licenses/MIT"
+  },
+  "keywords": [
+    "evidence-based medicine",
+    "meta-analysis",
+    "health information",
+    "systematic review", 
+    "nutritional supplements",
+    "reproducible research",
+    "REML estimation",
+    "Monte Carlo simulation",
+    "gate governance protocol", 
+    "safety assessment",
+    "TEL-5 classification",
+    "TERVYX protocol"
+  ],
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Evidence-Based Medicine",
+      "url": "http://id.nlm.nih.gov/mesh/D019317"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Meta-Analysis",
+      "url": "http://id.nlm.nih.gov/mesh/D017418"  
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Dietary Supplements",
+      "url": "http://id.nlm.nih.gov/mesh/D004269"
+    }
+  ],
+  "mainEntity": {
+    "@type": "Thing",
+    "name": "TEL-5 Classification System",
+    "description": "Five-tier evidence classification: Gold (≥80% probability), Silver (60-80%), Bronze (40-60%), Red (<40%), Black (safety violations)"
+  },
+  "hasPart": [
+    {
+      "@type": "Dataset",
+      "name": "Sleep Category Evidence",
+      "description": "Evidence evaluations for sleep-related nutritional interventions",
+      "url": "https://github.com/moneypuzzler/tervyx/tree/main/entries/nutrient",
+      "numberOfItems": 14
+    },
+    {
+      "@type": "Dataset", 
+      "name": "Cognition Category Evidence",
+      "description": "Evidence evaluations for cognitive enhancement supplements",
+      "url": "https://github.com/moneypuzzler/tervyx/tree/main/entries/nutrient",
+      "numberOfItems": 14
+    },
+    {
+      "@type": "Dataset",
+      "name": "Mental Health Category Evidence", 
+      "description": "Evidence evaluations for mental health and mood supplements",
+      "url": "https://github.com/moneypuzzler/tervyx/tree/main/entries/nutrient",
+      "numberOfItems": 14
+    },
+    {
+      "@type": "Dataset",
+      "name": "Cardiovascular Category Evidence",
+      "description": "Evidence evaluations for cardiovascular health supplements", 
+      "url": "https://github.com/moneypuzzler/tervyx/tree/main/entries/nutrient",
+      "numberOfItems": 14
+    },
+    {
+      "@type": "Dataset",
+      "name": "Renal Safety Category Evidence",
+      "description": "Safety evaluations for potential nephrotoxic substances",
+      "url": "https://github.com/moneypuzzler/tervyx/tree/main/entries/nutrient", 
+      "numberOfItems": 14
+    }
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/zip",
+      "contentUrl": "https://github.com/moneypuzzler/tervyx/archive/refs/heads/main.zip",
+      "name": "Complete TERVYX Database ZIP"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://github.com/moneypuzzler/tervyx/tree/main/entries",
+      "name": "Individual JSON-LD Entries"
+    }
+  ],
+  "spatialCoverage": "Global",
+  "temporalCoverage": "2000-2025",
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "Effect Size",
+      "description": "Standardized mean difference (SMD) or equivalent effect size measure"
+    },
+    {
+      "@type": "PropertyValue", 
+      "name": "P(effect > δ)",
+      "description": "Probability that effect exceeds clinical significance threshold"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "TEL-5 Tier",
+      "description": "Evidence tier classification: Gold, Silver, Bronze, Red, or Black"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Gate Results", 
+      "description": "Φ, R, J, K, L gate evaluation results"
+    }
+  ],
+  "measurementTechnique": [
+    "REML Meta-Analysis",
+    "Monte Carlo Simulation", 
+    "Gate Governance Protocol",
+    "AI-Powered Literature Analysis",
+    "Journal Quality Assessment"
+  ],
+  "isAccessibleForFree": true,
+  "conditionsOfAccess": "Open access under MIT License",
+  "usageInfo": {
+    "@type": "CreativeWork",
+    "name": "Usage Guidelines",
+    "url": "https://github.com/moneypuzzler/tervyx/blob/main/README.md"
+  },
+  "citation": {
+    "@type": "ScholarlyArticle", 
+    "name": "TERVYX Protocol v1.0: A Reproducible Governance & Labeling Standard for Health-Information Evidence",
+    "author": {
+      "@type": "Person",
+      "name": "Geonyeop Kim"
+    },
+    "datePublished": "2025",
+    "publisher": {
+      "@type": "Organization",
+      "name": "GitHub"
+    },
+    "url": "https://github.com/moneypuzzler/tervyx"
+  },
+  "funding": {
+    "@type": "Grant",
+    "name": "Self-funded Research Project",
+    "funder": {
+      "@type": "Person",
+      "name": "Geonyeop Kim"
+    }
+  },
+  "isBasedOn": [
+    {
+      "@type": "ScholarlyArticle",
+      "name": "REML Estimation in Meta-Analysis",
+      "description": "Restricted Maximum Likelihood estimation methodology"
+    },
+    {
+      "@type": "ScholarlyArticle", 
+      "name": "Monte Carlo Methods in Statistics",
+      "description": "Monte Carlo simulation for probability estimation"
+    }
+  ],
+  "potentialAction": [
+    {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://github.com/moneypuzzler/tervyx/tree/main/entries/nutrient/{substance}/{outcome}/v1",
+        "description": "Search for specific substance-outcome evidence entries"
+      },
+      "query-input": "required name=substance description=Substance name (e.g., melatonin, omega-3)",
+      "query-input": "required name=outcome description=Outcome category (sleep, cognition, mental_health, cardiovascular, renal_safety)"
+    },
+    {
+      "@type": "DownloadAction",
+      "target": "https://github.com/moneypuzzler/tervyx/archive/refs/heads/main.zip",
+      "name": "Download Complete Database"
+    }
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "url": "https://github.com/moneypuzzler/tervyx"
+  }
+}

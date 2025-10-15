@@ -6,6 +6,9 @@
 [![Patent](https://img.shields.io/badge/Patent-KR%2010--2025--0143351-red)](https://doi.org/10.5281/zenodo.XXXXX)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Data License: CC BY 4.0](https://img.shields.io/badge/Data%20License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![AI Ready](https://img.shields.io/badge/AI-Ready-brightgreen.svg)](./AI-INTEGRATION-GUIDE.md)
+[![Schema.org](https://img.shields.io/badge/Schema.org-Compliant-blue.svg)](./schema.org.jsonld)
+[![OpenAPI](https://img.shields.io/badge/OpenAPI-3.0-green.svg)](./api-schema.json)
 
 TERVYX (Tiered Evidence & Risk Verification sYstem) makes the entire lifecycle of health claims—generation, evaluation, and citation—reproducible and auditable. It combines probabilistic meta-analysis with multi-gate governance to produce standardized evidence labels for humans and LLMs.
 
@@ -307,6 +310,49 @@ This protocol does not constitute medical advice and cannot replace clinical dia
 - **ORCID**: [0009-0005-7640-2510](https://orcid.org/0009-0005-7640-2510)
 - **Contact**: moneypuzzler@gmail.com
 
+## 🤖 AI & Machine Learning Integration
+
+### For AI Developers & Researchers
+
+TERVYX is designed for seamless AI integration with structured metadata and standardized schemas:
+
+- **[AI Integration Guide](./AI-INTEGRATION-GUIDE.md)**: Complete guide for AI systems
+- **[Schema.org JSON-LD](./schema.org.jsonld)**: Machine-readable metadata  
+- **[OpenAPI Schema](./api-schema.json)**: RESTful API specification
+- **[CodeMeta](./codemeta.json)**: Software metadata for discovery
+- **[Citation File Format](./CITATION.cff)**: Standardized citation data
+
+### Machine-Readable Formats
+
+All TERVYX entries include:
+```json
+{
+  "llm_hint": "TEL-5=Gold, PASS; strong evidence for sleep improvement",
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.847
+}
+```
+
+### AI Training & Usage
+
+- **Training Data**: 70+ curated entries under MIT License
+- **Validation Sets**: Complete with audit trails and confidence metrics
+- **API Access**: RESTful endpoints for programmatic access
+- **Schema Validation**: JSON Schema definitions for all data types
+
+### Repository Metadata Files
+
+| File | Purpose | AI Usage |
+|------|---------|----------|
+| `.tervyx-metadata.json` | Complete protocol metadata | System understanding |
+| `CITATION.cff` | Citation File Format | Academic attribution |  
+| `codemeta.json` | Software metadata | Tool discovery |
+| `schema.org.jsonld` | Structured data | Knowledge graphs |
+| `.zenodo.json` | Research data metadata | Dataset discovery |
+
 ---
 
-**TERVYX Protocol v1.0.2** (2025-10-15) — Reproducible governance for the health information age.
+**TERVYX Protocol v1.0** (2025-10-15) — Reproducible governance for the health information age.

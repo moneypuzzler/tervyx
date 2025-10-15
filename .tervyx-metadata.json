@@ -1,0 +1,135 @@
+{
+  "protocol": {
+    "name": "TERVYX Protocol",
+    "version": "1.0",
+    "full_name": "Tiered Evidence & Risk Verification sYstem",
+    "description": "A reproducible governance and labeling standard for health-information evidence evaluation with patent-protected methodologies",
+    "classification_system": "TEL-5 (TERVYX Evidence Levels)"
+  },
+  "citation": {
+    "title": "TERVYX Protocol v1.0: A Reproducible Governance & Labeling Standard for Health-Information Evidence",
+    "authors": ["Kim, Geonyeop"],
+    "year": 2025,
+    "doi": "10.5281/zenodo.XXXXX",
+    "url": "https://github.com/moneypuzzler/tervyx",
+    "license": "MIT",
+    "bibtex": "@misc{kim2025tervyx,\n  title={TERVYX Protocol v1.0: A Reproducible Governance \\& Labeling Standard for Health-Information Evidence},\n  author={Kim, Geonyeop},\n  year={2025},\n  publisher={GitHub},\n  journal={GitHub repository},\n  howpublished={\\url{https://github.com/moneypuzzler/tervyx}},\n  note={Patent: KR 10-2025-0143351}\n}"
+  },
+  "patent": {
+    "application_number": "KR 10-2025-0143351",
+    "filing_date": "2025-10-01",
+    "title": "Verification of Non-scientific Health-Information Claims — GGP-based Hybrid Control",
+    "inventor": "Kim, Geonyeop",
+    "status": "Filed",
+    "jurisdiction": "South Korea"
+  },
+  "tel5_system": {
+    "name": "TEL-5 (TERVYX Evidence Levels)",
+    "tiers": {
+      "Gold": {
+        "description": "Strong positive evidence with high confidence",
+        "threshold": "P(effect > δ) ≥ 0.80",
+        "gate_requirements": "All gates PASS"
+      },
+      "Silver": {
+        "description": "Moderate positive evidence with reasonable confidence", 
+        "threshold": "0.60 ≤ P(effect > δ) < 0.80",
+        "gate_requirements": "All gates PASS"
+      },
+      "Bronze": {
+        "description": "Weak positive evidence with limited confidence",
+        "threshold": "0.40 ≤ P(effect > δ) < 0.60", 
+        "gate_requirements": "All gates PASS"
+      },
+      "Red": {
+        "description": "Inconsistent or insufficient evidence",
+        "threshold": "P(effect > δ) < 0.40",
+        "gate_requirements": "All gates PASS"
+      },
+      "Black": {
+        "description": "Safety violations or failed quality gates",
+        "threshold": "Any value",
+        "gate_requirements": "Φ-gate or K-gate FAIL"
+      }
+    },
+    "labels": {
+      "PASS": "Evidence meets safety and quality standards",
+      "AMBER": "Uncertain evidence with quality concerns", 
+      "FAIL": "Safety violations or severe quality issues"
+    }
+  },
+  "gate_governance_protocol": {
+    "name": "GGP (Gate Governance Protocol)",
+    "sequence": "Φ → R → J → K → L",
+    "gates": {
+      "Phi": {
+        "name": "Physiological Plausibility",
+        "purpose": "Detect physiological impossibilities and category misalignment",
+        "failure_action": "Immediate BLACK classification"
+      },
+      "R": {
+        "name": "Relevance Assessment", 
+        "purpose": "Evaluate population and intervention relevance",
+        "scoring": "PASS/FAIL based on clinical applicability"
+      },
+      "J": {
+        "name": "Journal-Trust Oracle",
+        "purpose": "Assess study and journal quality with BLACK pre-masking",
+        "scoring": "0.0-1.0 continuous score"
+      },
+      "K": {
+        "name": "Safety Gate",
+        "purpose": "Detect contraindications and serious adverse events",
+        "failure_action": "Immediate BLACK classification"
+      },
+      "L": {
+        "name": "Language Gate",
+        "purpose": "Detect exaggerated claims and marketing language",
+        "patterns": ["cure", "miracle", "instant", "permanent", "guaranteed"]
+      }
+    },
+    "safety_first_monotonicity": "Φ or K gate failures cannot be offset by high J scores"
+  },
+  "methodology": {
+    "meta_analysis": "REML + Monte Carlo simulation",
+    "effect_size_calculation": "P(effect > δ) where δ is clinical significance threshold",
+    "heterogeneity_assessment": "I² statistic with tau² estimation",
+    "benefit_direction": "Unified positive direction across all outcomes",
+    "monte_carlo_draws": 10000,
+    "confidence_intervals": "95% CI using percentile method"
+  },
+  "data_formats": {
+    "entry_format": "JSON-LD with Schema.org vocabulary",
+    "evidence_format": "CSV with standardized columns",
+    "simulation_format": "JSON with reproducibility metadata",
+    "citation_format": "JSON with BibTeX and DOI integration"
+  },
+  "api_usage": {
+    "entry_access": "GET /entries/{category}/{substance}/{outcome}/v1/entry.jsonld",
+    "bulk_download": "Available via GitHub repository cloning",
+    "programmatic_access": "Python package and REST API planned",
+    "update_frequency": "Continuous integration with literature monitoring"
+  },
+  "quality_assurance": {
+    "peer_review": "Open source community review",
+    "reproducibility": "Complete audit trails and policy fingerprints",
+    "validation": "JSON Schema validation for all data formats",
+    "transparency": "Full methodology and code publication"
+  },
+  "ai_integration": {
+    "llm_hints": "Embedded in each entry for AI interpretation",
+    "structured_data": "JSON-LD format compatible with knowledge graphs",
+    "citation_ready": "Complete BibTeX and DOI information",
+    "api_endpoints": "RESTful API for programmatic access",
+    "schema_validation": "JSON Schema definitions for all data types"
+  },
+  "repository": {
+    "url": "https://github.com/moneypuzzler/tervyx",
+    "branch": "main",
+    "documentation": "README.md and system/README.md",
+    "examples": "entries/ directory with 70+ real examples",
+    "schemas": "protocol/schemas/ directory",
+    "license": "MIT License",
+    "last_updated": "2025-10-15"
+  }
+}
