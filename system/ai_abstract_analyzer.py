@@ -78,12 +78,20 @@ class AbstractAnalysis:
 
 class GeminiAbstractAnalyzer:
     """
-    Production AI analyzer using Gemini API for cost-effective abstract analysis
+    Production AI analyzer with cost-optimized tiered model approach
+    - Uses Flash-Lite for initial screening (cheapest)
+    - Uses Flash for detailed analysis (best cost/quality balance)
+    - Falls back to Pro for complex cases
     """
     
-    def __init__(self, api_key: str, model: str = "gemini-1.5-flash"):
+    def __init__(self, api_key: str, 
+                 screening_model: str = "gemini-2.5-flash-lite",
+                 analysis_model: str = "gemini-2.5-flash", 
+                 fallback_model: str = "gemini-2.5-pro"):
         self.api_key = api_key
-        self.model = model
+        self.screening_model = screening_model  # $0.10/$0.40 per 1M tokens
+        self.analysis_model = analysis_model    # $0.15/$0.60 per 1M tokens  
+        self.fallback_model = fallback_model    # $2.50/$10.00 per 1M tokens
         self.base_url = "https://generativelanguage.googleapis.com/v1beta"
         self.rate_limit_delay = 1.0  # 1 second between requests
         self.last_request_time = 0
@@ -92,19 +100,48 @@ class GeminiAbstractAnalyzer:
         self.max_retries = 3
         self.retry_delay = 2.0
         
+        # Cost tracking
+        self.token_usage = {
+            'screening': {'input': 0, 'output': 0},
+            'analysis': {'input': 0, 'output': 0}, 
+            'fallback': {'input': 0, 'output': 0}
+        }
+        
     async def analyze_batch(self, 
                           papers: List[PubMedPaper], 
                           substance: str, 
-                          outcome_category: str) -> List[AbstractAnalysis]:
+                          outcome_category: str,
+                          use_tiered_approach: bool = True) -> List[AbstractAnalysis]:
         """
-        Analyze a batch of papers with rate limiting and error handling
+        Analyze a batch of papers with cost-optimized tiered approach:
+        1. Fast screening with Flash-Lite ($0.10/$0.40)
+        2. Detailed analysis with Flash ($0.15/$0.60) 
+        3. Complex cases with Pro ($2.50/$10.00)
         """
         results = []
+        cost_savings = 0.0
         
-        print(f"🤖 Starting AI analysis of {len(papers)} abstracts...")
+        print(f"🤖 Starting {'tiered ' if use_tiered_approach else ''}AI analysis of {len(papers)} abstracts...")
         
-        for i, paper in enumerate(papers):
-            print(f"  📄 Analyzing paper {i+1}/{len(papers)}: {paper.title[:60]}...")
+        if use_tiered_approach:
+            # PHASE 1: Quick relevance screening with cheapest model
+            print(f"🔍 Phase 1: Relevance screening with {self.screening_model}...")
+            relevant_papers = await self._screen_relevance(papers, substance, outcome_category)
+            
+            screened_out = len(papers) - len(relevant_papers)
+            if screened_out > 0:
+                cost_savings = screened_out * 0.15  # Estimated savings per paper
+                print(f"  💰 Filtered out {screened_out} irrelevant papers, saving ~${cost_savings:.2f}")
+            
+            papers_to_analyze = relevant_papers
+        else:
+            papers_to_analyze = papers
+        
+        # PHASE 2: Detailed analysis of relevant papers
+        print(f"🔬 Phase 2: Detailed analysis of {len(papers_to_analyze)} papers...")
+        
+        for i, paper in enumerate(papers_to_analyze):
+            print(f"  📄 Analyzing paper {i+1}/{len(papers_to_analyze)}: {paper.title[:60]}...")
             
             try:
                 start_time = time.time()
@@ -127,6 +164,11 @@ class GeminiAbstractAnalyzer:
         
         successful = len(results)
         print(f"🎯 Analysis complete: {successful}/{len(papers)} papers successfully analyzed")
+        if cost_savings > 0:
+            print(f"💰 Estimated cost savings: ${cost_savings:.2f}")
+        
+        # Print cost summary
+        self._print_cost_summary()
         
         return results
     
@@ -162,8 +204,8 @@ class GeminiAbstractAnalyzer:
         # Construct comprehensive analysis prompt
         prompt = self._build_analysis_prompt(paper, substance, outcome_category)
         
-        # API request
-        url = f"{self.base_url}/models/{self.model}:generateContent?key={self.api_key}"
+        # API request - use analysis model for detailed analysis
+        url = f"{self.base_url}/models/{self.analysis_model}:generateContent?key={self.api_key}"
         
         payload = {
             "contents": [{
