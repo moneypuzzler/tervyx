@@ -1,0 +1,6 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+bacopa-monnieri_2020_1,2020,RCT,SMD,0.119,-0.072,0.31,69,64,high,10.3112/j.kidney_int.2020.2388,kidney_int,Bacopa Monnieri supplement,Placebo,Digit span test,16,Middle-aged adults
+bacopa-monnieri_2023_2,2023,cohort,SMD,0.163,-0.309,0.636,112,92,low,10.9331/j.nephrol_dial_transplant.2023.6928,nephrol_dial_transplant,Bacopa Monnieri supplement,Control group,MMSE score,8,Students
+bacopa-monnieri_2022_3,2022,RCT,SMD,0.128,-0.207,0.464,53,42,low,10.2657/j.circulation.2022.9317,circulation,Bacopa Monnieri supplement,Placebo,MMSE score,24,Students
+bacopa-monnieri_2012_4,2012,cohort,SMD,0.213,-0.007,0.434,104,46,some,10.7731/j.j_sleep_res.2012.6968,j_sleep_res,Bacopa Monnieri supplement,Control group,MoCA score,12,Students
+bacopa-monnieri_2014_5,2014,cross-sectional,SMD,0.344,-0.006,0.693,85,49,some,10.8218/j.low_quality_journal.2014.8564,low_quality_journal,Bacopa Monnieri supplement,Control group,Digit span test,12,Middle-aged adults

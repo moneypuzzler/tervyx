@@ -1,0 +1,6 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+glycine_2020_1,2020,RCT,SMD,-0.352,-0.839,0.136,60,48,high,10.9056/j.nephrol_dial_transplant.2020.2494,nephrol_dial_transplant,Glycine supplement,Placebo,ISI score,8,College students
+glycine_2023_2,2023,RCT,SMD,-0.296,-0.706,0.114,77,113,some,10.1601/j.kidney_int.2023.8451,kidney_int,Glycine supplement,Placebo,PSQI total score,8,Shift workers
+glycine_2016_3,2016,cohort,SMD,-0.34,-0.963,0.284,25,109,high,10.7770/j.am_j_kidney_dis.2016.1888,am_j_kidney_dis,Glycine supplement,Control group,Sleep efficiency %,16,Shift workers
+glycine_2013_4,2013,RCT,SMD,-0.233,-0.618,0.151,41,61,some,10.2989/j.clin_j_am_soc_nephrol.2013.1472,clin_j_am_soc_nephrol,Glycine supplement,Placebo,Sleep efficiency %,24,Elderly with sleep complaints
+glycine_2011_5,2011,RCT,SMD,-0.07,-0.542,0.401,39,84,high,10.9165/j.neuropsychopharmacol.2011.5781,neuropsychopharmacol,Glycine supplement,Placebo,Sleep latency (min),12,College students

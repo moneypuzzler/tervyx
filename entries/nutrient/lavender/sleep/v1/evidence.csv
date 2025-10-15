@@ -1,0 +1,7 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+lavender_2011_1,2011,RCT,SMD,-0.352,-0.527,-0.177,34,98,some,10.3485/j.j_sleep_res.2011.3444,j_sleep_res,Lavender supplement,Placebo,Sleep latency (min),4,Elderly with sleep complaints
+lavender_2022_2,2022,RCT,SMD,-0.296,-0.712,0.121,91,73,some,10.5871/j.am_j_kidney_dis.2022.8025,am_j_kidney_dis,Lavender supplement,Placebo,Sleep latency (min),16,Adults with insomnia
+lavender_2014_3,2014,RCT,SMD,-0.34,-0.859,0.179,45,55,low,10.3564/j.sleep_health.2014.1043,sleep_health,Lavender supplement,Placebo,ISI score,12,College students
+lavender_2021_4,2021,RCT,SMD,-0.233,-0.534,0.067,83,34,some,10.4241/j.am_j_cardiol.2021.7965,am_j_cardiol,Lavender supplement,Placebo,PSQI total score,16,Elderly with sleep complaints
+lavender_2011_5,2011,RCT,SMD,-0.07,-0.635,0.494,64,101,some,10.5728/j.low_quality_journal.2011.8195,low_quality_journal,Lavender supplement,Placebo,PSQI total score,12,Shift workers
+lavender_2017_6,2017,RCT,SMD,-0.366,-0.702,-0.029,101,30,high,10.5102/j.jacc.2017.1423,jacc,Lavender supplement,Placebo,PSQI total score,6,Adults with insomnia

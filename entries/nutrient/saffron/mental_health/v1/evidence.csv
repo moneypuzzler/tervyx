@@ -1,0 +1,7 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+saffron_2011_1,2011,cohort,SMD,-0.436,-1.304,0.433,110,31,some,10.3252/j.nephrol_dial_transplant.2011.4791,nephrol_dial_transplant,Saffron supplement,Control group,PHQ-9 score,24,Patients with anxiety
+saffron_2015_2,2015,RCT,SMD,-0.361,-0.862,0.14,106,110,high,10.8993/j.clin_j_am_soc_nephrol.2015.1257,clin_j_am_soc_nephrol,Saffron supplement,Placebo,PHQ-9 score,16,Elderly with mood disorders
+saffron_2014_3,2014,RCT,SMD,-0.419,-1.159,0.32,61,27,some,10.3937/j.nephrol_dial_transplant.2014.2753,nephrol_dial_transplant,Saffron supplement,Placebo,PHQ-9 score,16,Patients with anxiety
+saffron_2014_4,2014,cohort,SMD,-0.278,-0.736,0.18,59,75,low,10.8520/j.kidney_int.2014.4984,kidney_int,Saffron supplement,Control group,GAD-7 score,8,Adults with depression
+saffron_2016_5,2016,RCT,SMD,-0.061,-0.576,0.455,32,106,low,10.2354/j.psychopharmacology.2016.9189,psychopharmacology,Saffron supplement,Placebo,Beck Depression Inventory,24,College students
+saffron_2024_6,2024,cohort,SMD,-0.454,-0.839,-0.069,97,85,low,10.5593/j.sleep_health.2024.9897,sleep_health,Saffron supplement,Control group,PHQ-9 score,6,College students

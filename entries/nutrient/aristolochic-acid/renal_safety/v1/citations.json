@@ -1,0 +1,18 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_aristolochic-acid_renal_safety, title={Aristolochic Acid for Renal Safety}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Black tier}}",
+  "studies": [
+    {
+      "doi": "10.8736/j.sleep_health.2017.4187",
+      "citation": "Study 1 (2017)"
+    },
+    {
+      "doi": "10.8496/j.low_quality_journal.2023.3346",
+      "citation": "Study 2 (2023)"
+    },
+    {
+      "doi": "10.3762/j.j_psychopharmacol.2012.3595",
+      "citation": "Study 3 (2012)"
+    }
+  ]
+}

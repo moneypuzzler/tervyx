@@ -1,0 +1,22 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_omega-3_cognition, title={Omega 3 for Cognition}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Bronze tier}}",
+  "studies": [
+    {
+      "doi": "10.3129/j.neuropsychopharmacol.2012.9850",
+      "citation": "Study 1 (2012)"
+    },
+    {
+      "doi": "10.1858/j.am_j_cardiol.2022.3076",
+      "citation": "Study 2 (2022)"
+    },
+    {
+      "doi": "10.9543/j.j_sleep_res.2015.5941",
+      "citation": "Study 3 (2015)"
+    },
+    {
+      "doi": "10.2323/j.sleep_health.2016.6277",
+      "citation": "Study 4 (2016)"
+    }
+  ]
+}

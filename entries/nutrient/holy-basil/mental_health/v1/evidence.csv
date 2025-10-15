@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+holy-basil_2021_1,2021,RCT,SMD,-0.436,-0.846,-0.026,119,68,some,10.4164/j.low_quality_journal.2021.3875,low_quality_journal,Holy Basil supplement,Placebo,Beck Depression Inventory,12,College students
+holy-basil_2012_2,2012,cross-sectional,SMD,-0.361,-0.821,0.099,86,66,high,10.5272/j.sleep_medicine.2012.7284,sleep_medicine,Holy Basil supplement,Control group,GAD-7 score,12,College students
+holy-basil_2019_3,2019,RCT,SMD,-0.419,-0.799,-0.04,108,71,some,10.2936/j.j_sleep_res.2019.8625,j_sleep_res,Holy Basil supplement,Placebo,Hamilton Depression Scale,6,Elderly with mood disorders

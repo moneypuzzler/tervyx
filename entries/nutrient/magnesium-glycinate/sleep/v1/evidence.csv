@@ -1,4 +1,5 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-abbasi2012_sleep,2012,RCT,SMD,-0.32,-0.55,-0.09,23,23,some,10.1016/j.sleep.2012.007,sleep_medicine,Magnesium 500mg daily,Placebo,PSQI total score,8,Elderly with insomnia
-nielsen2010_sleep,2010,RCT,SMD,-0.15,-0.38,0.08,40,38,some,10.1111/jsr.2010.abc,j_sleep_res,Magnesium glycinate 400mg,Placebo,PSQI total score,6,Adults with sleep complaints  
-rodriguez2018_sleep,2018,RCT,SMD,-0.28,-0.51,-0.05,85,82,low,10.1016/j.sleh.2018.def,sleep_health,Magnesium bisglycinate 200mg,Placebo,PSQI total score,12,Middle-aged adults
+magnesium-glycinate_2022_1,2022,RCT,SMD,-0.352,-0.869,0.165,29,65,some,10.4456/j.sleep_health.2022.6155,sleep_health,Magnesium Glycinate supplement,Placebo,Sleep efficiency %,24,College students
+magnesium-glycinate_2012_2,2012,RCT,SMD,-0.296,-0.47,-0.121,96,93,low,10.7543/j.nephrol_dial_transplant.2012.6930,nephrol_dial_transplant,Magnesium Glycinate supplement,Placebo,Sleep efficiency %,6,College students
+magnesium-glycinate_2012_3,2012,RCT,SMD,-0.34,-1.151,0.471,112,79,some,10.7252/j.kidney_int.2012.8668,kidney_int,Magnesium Glycinate supplement,Placebo,Sleep latency (min),16,Adults with insomnia
+magnesium-glycinate_2015_4,2015,RCT,SMD,-0.233,-0.787,0.32,80,45,some,10.9201/j.am_j_cardiol.2015.3927,am_j_cardiol,Magnesium Glycinate supplement,Placebo,PSQI total score,24,Shift workers

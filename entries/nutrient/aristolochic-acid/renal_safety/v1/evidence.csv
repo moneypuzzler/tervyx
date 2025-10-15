@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+aristolochic-acid_2017_1,2017,RCT,MD,-0.535,-0.992,-0.079,106,99,some,10.8736/j.sleep_health.2017.4187,sleep_health,Aristolochic Acid supplement,Placebo,eGFR (mL/min/1.73m²),24,Athletes
+aristolochic-acid_2023_2,2023,RCT,MD,0.584,0.43,0.737,50,68,some,10.8496/j.low_quality_journal.2023.3346,low_quality_journal,Aristolochic Acid supplement,Placebo,BUN (mg/dL),24,Patients with CKD
+aristolochic-acid_2012_3,2012,RCT,MD,-0.292,-0.581,-0.003,32,25,some,10.3762/j.j_psychopharmacol.2012.3595,j_psychopharmacol,Aristolochic Acid supplement,Placebo,Proteinuria,4,Patients with CKD

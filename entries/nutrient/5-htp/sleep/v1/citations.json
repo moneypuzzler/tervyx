@@ -1,0 +1,14 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_5-htp_sleep, title={5 Htp for Sleep}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Silver tier}}",
+  "studies": [
+    {
+      "doi": "10.4611/j.nephrol_dial_transplant.2010.8359",
+      "citation": "Study 1 (2010)"
+    },
+    {
+      "doi": "10.6881/j.chronobiol_int.2013.6635",
+      "citation": "Study 2 (2013)"
+    }
+  ]
+}

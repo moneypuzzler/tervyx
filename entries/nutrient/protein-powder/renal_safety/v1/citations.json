@@ -1,0 +1,22 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_protein-powder_renal_safety, title={Protein Powder for Renal Safety}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Black tier}}",
+  "studies": [
+    {
+      "doi": "10.9700/j.jacc.2010.4122",
+      "citation": "Study 1 (2010)"
+    },
+    {
+      "doi": "10.3736/j.circulation.2015.2069",
+      "citation": "Study 2 (2015)"
+    },
+    {
+      "doi": "10.3701/j.j_psychopharmacol.2020.7609",
+      "citation": "Study 3 (2020)"
+    },
+    {
+      "doi": "10.7147/j.j_sleep_res.2019.5190",
+      "citation": "Study 4 (2019)"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "nutrient:b-complex:mental_health:v1",
+  "title": "B Complex \u2014 Mental Health",
+  "category": "mental_health",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.8192,
+  "gate_results": {
+    "phi": "PASS",
+    "r": "HIGH",
+    "j": 0.747,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 4,
+    "total_n": 587,
+    "I2": 0,
+    "tau2": 0,
+    "mu_hat": 0.372279,
+    "mu_CI95": [
+      0.217789,
+      0.526769
+    ]
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "audit_hash": "0x341cd8df",
+  "policy_fingerprint": "sha256:tervyx_v1_generated_entries",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-15T10:00:00Z",
+  "llm_hint": "TEL-5=Gold, PASS; \u03a6/K no violations; mental_health \u03b4=0.3; REML+MC"
+}

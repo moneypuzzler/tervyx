@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "nutrient:hops:sleep:v1",
+  "title": "Hops \u2014 Sleep",
+  "category": "sleep",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.8701,
+  "gate_results": {
+    "phi": "PASS",
+    "r": "HIGH",
+    "j": 0.874,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 5,
+    "total_n": 687,
+    "I2": 0,
+    "tau2": 0,
+    "mu_hat": 0.284413,
+    "mu_CI95": [
+      0.137369,
+      0.431458
+    ]
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "audit_hash": "0x19ecfc86",
+  "policy_fingerprint": "sha256:tervyx_v1_generated_entries",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-15T10:00:00Z",
+  "llm_hint": "TEL-5=Gold, PASS; \u03a6/K no violations; sleep \u03b4=0.2; REML+MC"
+}

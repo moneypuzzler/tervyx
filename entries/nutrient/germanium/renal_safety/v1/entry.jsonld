@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "nutrient:germanium:renal_safety:v1",
+  "title": "Germanium \u2014 Renal Safety",
+  "category": "renal_safety",
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.0,
+  "gate_results": {
+    "phi": "PASS",
+    "r": "LOW",
+    "j": 0.692,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 5,
+    "total_n": 722,
+    "I2": 98.9,
+    "tau2": 3.01779476,
+    "mu_hat": -0.469904,
+    "mu_CI95": [
+      -2.005865,
+      1.066058
+    ]
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "audit_hash": "0x1d0643a0",
+  "policy_fingerprint": "sha256:tervyx_v1_generated_entries",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-15T10:00:00Z",
+  "llm_hint": "TEL-5=Black, FAIL; \u03a6/K no violations; renal_safety \u03b4=5.0; REML+MC"
+}

@@ -1,0 +1,6 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+plant-sterols_2017_1,2017,RCT,MD,-3.518,-3.691,-3.344,50,62,some,10.4974/j.circulation.2017.8600,circulation,Plant Sterols supplement,Placebo,Total cholesterol,16,Post-MI patients
+plant-sterols_2024_2,2024,RCT,MD,-2.958,-3.189,-2.727,54,94,some,10.6488/j.sleep_medicine.2024.1023,sleep_medicine,Plant Sterols supplement,Placebo,HDL cholesterol,24,Healthy adults
+plant-sterols_2013_3,2013,RCT,MD,-3.396,-3.863,-2.929,32,43,some,10.1719/j.sleep_health.2013.4792,sleep_health,Plant Sterols supplement,Placebo,HDL cholesterol,24,Healthy adults
+plant-sterols_2018_4,2018,RCT,MD,-2.334,-2.737,-1.932,75,34,some,10.8126/j.j_sleep_res.2018.3141,j_sleep_res,Plant Sterols supplement,Placebo,LDL cholesterol (mg/dL),8,Healthy adults
+plant-sterols_2021_5,2021,RCT,MD,-0.704,-1.114,-0.294,82,59,low,10.3230/j.j_psychopharmacol.2021.2785,j_psychopharmacol,Plant Sterols supplement,Placebo,LDL cholesterol (mg/dL),4,Patients with hyperlipidemia

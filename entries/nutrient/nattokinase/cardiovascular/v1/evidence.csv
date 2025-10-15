@@ -1,0 +1,5 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+nattokinase_2022_1,2022,RCT,MD,-3.518,-4.048,-2.988,100,33,low,10.1652/j.j_psychopharmacol.2022.1990,j_psychopharmacol,Nattokinase supplement,Placebo,HDL cholesterol,16,Healthy adults
+nattokinase_2016_2,2016,RCT,MD,-2.958,-3.227,-2.689,93,93,some,10.2369/j.am_j_cardiol.2016.6077,am_j_cardiol,Nattokinase supplement,Placebo,Systolic BP (mmHg),16,Patients with hyperlipidemia
+nattokinase_2020_3,2020,cohort,MD,-3.396,-3.731,-3.062,108,112,some,10.8167/j.circulation.2020.4909,circulation,Nattokinase supplement,Control group,Systolic BP (mmHg),6,Adults with hypertension
+nattokinase_2019_4,2019,RCT,MD,-2.334,-2.679,-1.99,110,119,some,10.2956/j.psychopharmacology.2019.1207,psychopharmacology,Nattokinase supplement,Placebo,LDL cholesterol (mg/dL),24,Adults with hypertension

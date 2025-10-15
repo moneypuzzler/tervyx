@@ -1,0 +1,22 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_niacin_cardiovascular, title={Niacin for Cardiovascular}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Gold tier}}",
+  "studies": [
+    {
+      "doi": "10.7636/j.eur_neuropsychopharmacol.2018.4022",
+      "citation": "Study 1 (2018)"
+    },
+    {
+      "doi": "10.4371/j.j_psychopharmacol.2024.5560",
+      "citation": "Study 2 (2024)"
+    },
+    {
+      "doi": "10.7367/j.jacc.2017.7431",
+      "citation": "Study 3 (2017)"
+    },
+    {
+      "doi": "10.6131/j.neuropsychopharmacol.2021.2931",
+      "citation": "Study 4 (2021)"
+    }
+  ]
+}

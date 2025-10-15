@@ -1,0 +1,5 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+passionflower_2012_1,2012,cohort,SMD,-0.436,-0.712,-0.16,85,55,high,10.3365/j.circulation.2012.8586,circulation,Passionflower supplement,Control group,PHQ-9 score,16,Elderly with mood disorders
+passionflower_2014_2,2014,RCT,SMD,-0.361,-0.677,-0.045,107,35,high,10.2514/j.eur_heart_j.2014.9775,eur_heart_j,Passionflower supplement,Placebo,GAD-7 score,4,College students
+passionflower_2013_3,2013,cohort,SMD,-0.419,-1.007,0.168,100,117,some,10.8854/j.j_psychopharmacol.2013.4422,j_psychopharmacol,Passionflower supplement,Control group,Hamilton Depression Scale,8,Adults with depression
+passionflower_2011_4,2011,cohort,SMD,-0.278,-0.917,0.361,86,56,some,10.7498/j.j_psychopharmacol.2011.4921,j_psychopharmacol,Passionflower supplement,Control group,Hamilton Depression Scale,8,Elderly with mood disorders

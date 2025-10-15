@@ -1,0 +1,18 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_modafinil_cognition, title={Modafinil for Cognition}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Bronze tier}}",
+  "studies": [
+    {
+      "doi": "10.9864/j.clin_j_am_soc_nephrol.2023.1588",
+      "citation": "Study 1 (2023)"
+    },
+    {
+      "doi": "10.1474/j.circulation.2011.1753",
+      "citation": "Study 2 (2011)"
+    },
+    {
+      "doi": "10.3868/j.psychopharmacology.2013.2293",
+      "citation": "Study 3 (2013)"
+    }
+  ]
+}

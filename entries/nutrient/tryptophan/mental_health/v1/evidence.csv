@@ -1,0 +1,5 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+tryptophan_2016_1,2016,RCT,SMD,-0.436,-1.197,0.326,68,96,high,10.4261/j.neuropsychopharmacol.2016.9341,neuropsychopharmacol,Tryptophan supplement,Placebo,Beck Depression Inventory,16,Adults with depression
+tryptophan_2015_2,2015,cohort,SMD,-0.361,-0.718,-0.004,91,83,low,10.3290/j.predatory_journal_1.2015.6373,predatory_journal_1,Tryptophan supplement,Control group,Hamilton Depression Scale,6,Elderly with mood disorders
+tryptophan_2018_3,2018,RCT,SMD,-0.419,-0.767,-0.072,115,97,low,10.7035/j.sleep_medicine.2018.6427,sleep_medicine,Tryptophan supplement,Placebo,PHQ-9 score,12,College students
+tryptophan_2020_4,2020,cohort,SMD,-0.278,-0.55,-0.005,99,98,low,10.8871/j.j_sleep_res.2020.3793,j_sleep_res,Tryptophan supplement,Control group,Beck Depression Inventory,6,Patients with anxiety

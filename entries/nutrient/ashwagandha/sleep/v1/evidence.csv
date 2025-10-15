@@ -1,0 +1,5 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+ashwagandha_2012_1,2012,RCT,SMD,-0.352,-0.617,-0.087,25,38,some,10.3881/j.eur_neuropsychopharmacol.2012.9486,eur_neuropsychopharmacol,Ashwagandha supplement,Placebo,ISI score,4,Elderly with sleep complaints
+ashwagandha_2017_2,2017,RCT,SMD,-0.296,-0.496,-0.095,96,101,some,10.9270/j.am_j_kidney_dis.2017.7991,am_j_kidney_dis,Ashwagandha supplement,Placebo,ISI score,6,College students
+ashwagandha_2023_3,2023,RCT,SMD,-0.34,-0.769,0.09,91,87,some,10.8206/j.am_j_cardiol.2023.2269,am_j_cardiol,Ashwagandha supplement,Placebo,Sleep latency (min),6,Shift workers
+ashwagandha_2011_4,2011,RCT,SMD,-0.233,-0.736,0.269,54,74,some,10.2052/j.j_psychopharmacol.2011.7797,j_psychopharmacol,Ashwagandha supplement,Placebo,ISI score,8,College students

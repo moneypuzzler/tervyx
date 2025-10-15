@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+kava-kava_2017_1,2017,RCT,SMD,-0.436,-0.979,0.108,64,88,low,10.9281/j.kidney_int.2017.8491,kidney_int,Kava Kava supplement,Placebo,GAD-7 score,6,College students
+kava-kava_2019_2,2019,cohort,SMD,-0.361,-0.813,0.091,108,111,some,10.1133/j.predatory_journal_2.2019.2761,predatory_journal_2,Kava Kava supplement,Control group,Beck Depression Inventory,6,College students
+kava-kava_2016_3,2016,RCT,SMD,-0.419,-0.687,-0.152,96,49,some,10.2204/j.circulation.2016.7329,circulation,Kava Kava supplement,Placebo,Beck Depression Inventory,16,College students

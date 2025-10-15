@@ -1,0 +1,18 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_kava-kava_mental_health, title={Kava Kava for Mental Health}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Gold tier}}",
+  "studies": [
+    {
+      "doi": "10.9281/j.kidney_int.2017.8491",
+      "citation": "Study 1 (2017)"
+    },
+    {
+      "doi": "10.1133/j.predatory_journal_2.2019.2761",
+      "citation": "Study 2 (2019)"
+    },
+    {
+      "doi": "10.2204/j.circulation.2016.7329",
+      "citation": "Study 3 (2016)"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_lemon-balm_mental_health, title={Lemon Balm for Mental Health}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Gold tier}}",
+  "studies": [
+    {
+      "doi": "10.4328/j.jacc.2017.7073",
+      "citation": "Study 1 (2017)"
+    },
+    {
+      "doi": "10.4214/j.neuropsychopharmacol.2018.6404",
+      "citation": "Study 2 (2018)"
+    },
+    {
+      "doi": "10.3756/j.am_j_kidney_dis.2023.6770",
+      "citation": "Study 3 (2023)"
+    }
+  ]
+}

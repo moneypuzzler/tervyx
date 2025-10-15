@@ -2,51 +2,38 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "nutrient:magnesium-glycinate:sleep:v1",
-  "title": "Magnesium Glycinate — Sleep",
+  "title": "Magnesium Glycinate \u2014 Sleep",
   "category": "sleep",
-  "tier": "Silver",
+  "tier": "Gold",
   "label": "PASS",
-  "P_effect_gt_delta": 0.683,
+  "P_effect_gt_delta": 0.8901,
   "gate_results": {
     "phi": "PASS",
     "r": "HIGH",
-    "j": 0.78,
+    "j": 0.81,
     "k": "PASS",
     "l": "PASS"
   },
   "evidence_summary": {
-    "n_studies": 3,
-    "total_n": 502,
-    "I2": 12.4,
-    "tau2": 0.009,
-    "mu_hat": 0.24,
-    "mu_CI95": [0.122, 0.318],
-    "design_breakdown": {
-      "RCT": 3,
-      "cohort": 0,
-      "other": 0
-    }
+    "n_studies": 4,
+    "total_n": 599,
+    "I2": 0,
+    "tau2": 0,
+    "mu_hat": 0.297711,
+    "mu_CI95": [
+      0.14223,
+      0.453192
+    ]
   },
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05",
-    "gate_governance": "v1.1.0"
+    "journal_trust": "2025-10-05"
   },
   "version": "v1",
-  "audit_hash": "0x2f8a9b1c3d4e5f67",
-  "policy_fingerprint": "sha256:a1b2c3d4e5f6789abcdef0123456789abcdef0123456789abcdef0123456789ab",
+  "audit_hash": "0x26736d75",
+  "policy_fingerprint": "sha256:tervyx_v1_generated_entries",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-15T09:40:00Z",
-  "preferred_citation": "Kim, G. (2025). TERVYX Protocol v1.0: A Reproducible Governance & Labeling Standard for Health-Information Evidence. Preprint, doi:10.5281/zenodo.XXXXX",
-  "bibtex": "@dataset{kim2025tervyx_mg_sleep,\n  title={Magnesium Glycinate for Sleep Quality},\n  author={Kim, Geonyeob},\n  year={2025},\n  note={TERVYX Protocol v1.0, TEL-5 Silver tier},\n  doi={10.5281/zenodo.XXXXX}\n}",
-  "csl_json": {
-    "type": "dataset",
-    "title": "Magnesium Glycinate for Sleep Quality",
-    "author": [{"family": "Kim", "given": "Geonyeob"}],
-    "issued": {"date-parts": [[2025]]},
-    "DOI": "10.5281/zenodo.XXXXX"
-  },
-  "doi": "10.5281/zenodo.XXXXX",
-  "llm_hint": "TEL-5=Silver, PASS; Φ/K no violations; sleep δ=0.20; REML+MC"
+  "created": "2025-10-15T10:00:00Z",
+  "llm_hint": "TEL-5=Gold, PASS; \u03a6/K no violations; sleep \u03b4=0.2; REML+MC"
 }

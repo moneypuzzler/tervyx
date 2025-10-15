@@ -1,0 +1,26 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_alpha-gpc_cognition, title={Alpha Gpc for Cognition}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Silver tier}}",
+  "studies": [
+    {
+      "doi": "10.9647/j.predatory_journal_2.2024.7934",
+      "citation": "Study 1 (2024)"
+    },
+    {
+      "doi": "10.9782/j.clin_j_am_soc_nephrol.2016.1269",
+      "citation": "Study 2 (2016)"
+    },
+    {
+      "doi": "10.9576/j.sleep_health.2015.6908",
+      "citation": "Study 3 (2015)"
+    },
+    {
+      "doi": "10.6649/j.sleep_health.2016.4950",
+      "citation": "Study 4 (2016)"
+    },
+    {
+      "doi": "10.3986/j.clin_j_am_soc_nephrol.2015.3209",
+      "citation": "Study 5 (2015)"
+    }
+  ]
+}

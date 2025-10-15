@@ -1,0 +1,5 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+garlic_2016_1,2016,RCT,MD,-3.518,-3.974,-3.062,34,71,low,10.9123/j.eur_neuropsychopharmacol.2016.4203,eur_neuropsychopharmacol,Garlic supplement,Placebo,HDL cholesterol,4,Patients with hyperlipidemia
+garlic_2015_2,2015,cohort,MD,-2.958,-3.652,-2.264,73,67,some,10.3230/j.nephrol_dial_transplant.2015.5922,nephrol_dial_transplant,Garlic supplement,Control group,Total cholesterol,16,Patients with hyperlipidemia
+garlic_2016_3,2016,cross-sectional,MD,-3.396,-3.589,-3.203,62,119,some,10.4971/j.clin_j_am_soc_nephrol.2016.6339,clin_j_am_soc_nephrol,Garlic supplement,Control group,HDL cholesterol,8,Post-MI patients
+garlic_2013_4,2013,RCT,MD,-2.334,-2.919,-1.75,94,48,some,10.1440/j.predatory_journal_2.2013.8563,predatory_journal_2,Garlic supplement,Placebo,LDL cholesterol (mg/dL),12,Healthy adults

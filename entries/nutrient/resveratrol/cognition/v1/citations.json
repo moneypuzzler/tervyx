@@ -1,0 +1,22 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_resveratrol_cognition, title={Resveratrol for Cognition}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Bronze tier}}",
+  "studies": [
+    {
+      "doi": "10.2443/j.eur_heart_j.2010.8155",
+      "citation": "Study 1 (2010)"
+    },
+    {
+      "doi": "10.9363/j.sleep_health.2014.2868",
+      "citation": "Study 2 (2014)"
+    },
+    {
+      "doi": "10.3902/j.sleep_health.2014.9095",
+      "citation": "Study 3 (2014)"
+    },
+    {
+      "doi": "10.1920/j.low_quality_journal.2011.6766",
+      "citation": "Study 4 (2011)"
+    }
+  ]
+}

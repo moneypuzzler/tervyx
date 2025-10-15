@@ -1,0 +1,26 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_ashwagandha_mental_health, title={Ashwagandha for Mental Health}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Gold tier}}",
+  "studies": [
+    {
+      "doi": "10.4505/j.clin_j_am_soc_nephrol.2021.4310",
+      "citation": "Study 1 (2021)"
+    },
+    {
+      "doi": "10.4814/j.eur_neuropsychopharmacol.2019.1860",
+      "citation": "Study 2 (2019)"
+    },
+    {
+      "doi": "10.8822/j.clin_j_am_soc_nephrol.2012.4267",
+      "citation": "Study 3 (2012)"
+    },
+    {
+      "doi": "10.7846/j.psychopharmacology.2013.3880",
+      "citation": "Study 4 (2013)"
+    },
+    {
+      "doi": "10.5662/j.jacc.2010.8444",
+      "citation": "Study 5 (2010)"
+    }
+  ]
+}

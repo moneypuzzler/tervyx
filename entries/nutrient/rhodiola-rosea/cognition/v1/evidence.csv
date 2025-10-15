@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+rhodiola-rosea_2020_1,2020,RCT,SMD,0.119,-0.194,0.431,84,61,some,10.2210/j.psychopharmacology.2020.8237,psychopharmacology,Rhodiola Rosea supplement,Placebo,Digit span test,16,Students
+rhodiola-rosea_2014_2,2014,RCT,SMD,0.163,-0.156,0.482,74,86,low,10.6881/j.kidney_int.2014.5847,kidney_int,Rhodiola Rosea supplement,Placebo,Digit span test,4,Middle-aged adults
+rhodiola-rosea_2020_3,2020,cohort,SMD,0.128,-0.371,0.628,31,102,some,10.4770/j.circulation.2020.6772,circulation,Rhodiola Rosea supplement,Control group,MoCA score,24,Adults with mild cognitive impairment
