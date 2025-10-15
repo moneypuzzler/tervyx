@@ -1,8 +1,9 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://vera-protocol.org/schemas/entry.schema.json",
-  "title": "VERA Protocol Entry Schema", 
-  "description": "Schema for entry.jsonld files containing complete VERA assessments",
+  "$id": "https://tervyx.org/schemas/entry/v1.0.0",
+  "title": "TERVYX Protocol Entry Schema", 
+  "description": "Schema for entry.jsonld files containing complete TERVYX assessments with TEL-5 classification",
+  "version": "1.0.0",
   "type": "object",
   "properties": {
     "@context": {
@@ -18,12 +19,14 @@
     "id": {
       "type": "string",
       "pattern": "^[a-z_]+:[a-z0-9_-]+:[a-z_]+:v[0-9]+$",
-      "description": "Unique entry identifier (domain:slug:category:version)"
+      "description": "Unique entry identifier (domain:substance:category:version)",
+      "examples": ["nutrient:magnesium-glycinate:sleep:v1"]
     },
     "title": {
       "type": "string",
       "minLength": 5,
-      "description": "Human-readable title"
+      "description": "Human-readable title",
+      "examples": ["Magnesium Glycinate — Sleep"]
     },
     "category": {
       "type": "string",
@@ -34,58 +37,56 @@
         "renal_safety",
         "cardiovascular"
       ],
-      "description": "Evidence category"
+      "description": "Evidence category from TEL-5 taxonomy"
     },
     "tier": {
       "type": "string",
       "enum": ["Gold", "Silver", "Bronze", "Red", "Black"],
-      "description": "HBV 5-tier assignment"
+      "description": "TEL-5 tier assignment based on P(effect > δ)"
     },
     "label": {
       "type": "string",
       "enum": ["PASS", "AMBER", "FAIL"],
-      "description": "Overall assessment label"
+      "description": "Overall assessment label (PASS: Gold/Silver; AMBER: Bronze/Red; FAIL: Black)"
     },
     "P_effect_gt_delta": {
       "type": "number",
       "minimum": 0,
       "maximum": 1,
-      "description": "Probability that effect > δ"
+      "description": "Probability that effect > δ from Monte Carlo simulation"
     },
     "gate_results": {
       "type": "object",
       "properties": {
         "phi": {
           "type": "string",
-          "enum": ["PASS", "AMBER", "FAIL"],
-          "description": "Φ gate (Natural/Category violation) result"
+          "enum": ["PASS", "FAIL"],
+          "description": "Φ gate (Natural/Category violation) result - deterministic safety gate"
         },
         "r": {
-          "type": "number",
-          "minimum": 0,
-          "maximum": 1,
-          "description": "R gate (Relevance) score"
+          "type": ["number", "string"],
+          "description": "R gate (Relevance) score or qualitative result (HIGH/MEDIUM/LOW)"
         },
         "j": {
           "type": "number", 
           "minimum": 0,
           "maximum": 1,
-          "description": "J gate (Journal Trust) score"
+          "description": "J gate (Journal Trust Oracle) normalized score [0,1]"
         },
         "k": {
           "type": "string",
-          "enum": ["PASS", "AMBER", "FAIL"],
-          "description": "K gate (Safety) result"
+          "enum": ["PASS", "FAIL"],
+          "description": "K gate (Safety) result - deterministic safety gate"
         },
         "l": {
           "type": "string",
           "enum": ["PASS", "FLAG"],
-          "description": "L gate (Language exaggeration) result"
+          "description": "L gate (Language exaggeration) result from pattern matching"
         }
       },
       "required": ["phi", "r", "j", "k", "l"],
       "additionalProperties": false,
-      "description": "Results from all five gates"
+      "description": "Results from Gate Governance Protocol (GGP): Φ → R → J → K → L"
     },
     "evidence_summary": {
       "type": "object",
@@ -93,55 +94,98 @@
         "n_studies": {
           "type": "integer",
           "minimum": 0,
-          "description": "Number of studies included"
+          "description": "Number of studies included in meta-analysis"
+        },
+        "total_n": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Total sample size across all studies"
         },
         "I2": {
           "type": ["number", "null"],
           "minimum": 0,
           "maximum": 100,
-          "description": "I² heterogeneity statistic"
+          "description": "I² heterogeneity statistic (percentage)"
         },
         "tau2": {
           "type": ["number", "null"],
           "minimum": 0,
-          "description": "Between-study variance"
+          "description": "Between-study variance (τ²)"
+        },
+        "mu_hat": {
+          "type": "number",
+          "description": "Pooled effect size estimate (μ̂)"
+        },
+        "mu_CI95": {
+          "type": "array",
+          "items": {"type": "number"},
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "95% confidence interval [lower, upper]"
+        },
+        "design_breakdown": {
+          "type": "object",
+          "description": "Count of studies by design type",
+          "properties": {
+            "RCT": {"type": "integer", "minimum": 0},
+            "cohort": {"type": "integer", "minimum": 0},
+            "other": {"type": "integer", "minimum": 0}
+          }
         }
       },
       "required": ["n_studies"],
       "additionalProperties": true,
-      "description": "Summary of evidence base"
+      "description": "Summary of evidence base and meta-analysis results"
     },
     "policy_refs": {
       "type": "object",
       "properties": {
-        "policy_version": {
+        "tel5_levels": {
           "type": "string",
-          "description": "Version of policy.yaml used"
+          "description": "Version of TEL-5 tier system used",
+          "examples": ["v1.2.0"]
+        },
+        "monte_carlo": {
+          "type": "string", 
+          "description": "Version of Monte Carlo configuration",
+          "examples": ["v1.0.1-reml-grid"]
         },
         "journal_trust": {
           "type": "string",
           "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
-          "description": "Date of journal trust snapshot"
+          "description": "Date of Journal-Trust Oracle snapshot",
+          "examples": ["2025-10-05"]
+        },
+        "gate_governance": {
+          "type": "string",
+          "description": "Version of Gate Governance Protocol",
+          "examples": ["v1.1.0"]
         }
       },
-      "required": ["policy_version", "journal_trust"],
+      "required": ["tel5_levels", "monte_carlo", "journal_trust"],
       "additionalProperties": true,
-      "description": "References to policy configuration"
+      "description": "References to policy configuration versions"
     },
     "version": {
       "type": "string",
       "pattern": "^v[0-9]+$",
-      "description": "Entry version"
+      "description": "Entry version (semantic versioning)"
     },
     "audit_hash": {
       "type": "string",
-      "pattern": "^sha256:[a-f0-9]{64}$",
-      "description": "SHA256 audit hash for integrity"
+      "pattern": "^0x[a-f0-9]{16}$",
+      "description": "Compact audit hash for integrity verification",
+      "examples": ["0x2f8a9b1c3d4e5f67"]
     },
     "policy_fingerprint": {
       "type": "string", 
       "pattern": "^sha256:[a-f0-9]{64}$",
-      "description": "SHA256 fingerprint of policy configuration"
+      "description": "SHA256 fingerprint of complete policy configuration"
+    },
+    "tier_label_system": {
+      "type": "string",
+      "const": "TEL-5",
+      "description": "Identification of tier labeling system used"
     },
     "created": {
       "type": "string",
@@ -150,24 +194,60 @@
     },
     "preferred_citation": {
       "type": "string",
-      "description": "Preferred citation format"
+      "description": "Preferred citation format for the TERVYX Protocol paper"
     },
     "bibtex": {
       "type": "string",
-      "description": "BibTeX citation"
+      "description": "BibTeX citation for academic use"
     },
     "csl_json": {
       "type": "object",
-      "description": "CSL-JSON citation data"
+      "description": "CSL-JSON citation data for reference managers"
     },
     "doi": {
       "type": "string",
       "pattern": "^10\\..+",
-      "description": "Digital Object Identifier"
+      "description": "Digital Object Identifier for this entry",
+      "examples": ["10.5281/zenodo.XXXXX"]
     },
     "llm_hint": {
       "type": "string",
-      "description": "Structured hint for LLM consumption"
+      "description": "Structured hint for LLM consumption and citation",
+      "examples": ["TEL-5=Silver, PASS; Φ/K no violations; sleep δ=0.20; REML+MC"]
+    },
+    "amber_protocol": {
+      "type": "object",
+      "description": "AMBER handling metadata (reserved for future use)",
+      "properties": {
+        "reason_codes": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "retry_after": {
+          "type": "string",
+          "format": "date"
+        },
+        "required_evidence": {
+          "type": "array", 
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "j_vector": {
+      "type": "object",
+      "description": "Structured summary of evidence certainty dimensions (reserved)",
+      "properties": {
+        "risk_of_bias": {"type": "number"},
+        "inconsistency": {"type": "number"},
+        "indirectness": {"type": "number"},
+        "imprecision": {"type": "number"},
+        "publication_bias": {"type": "number"}
+      }
+    },
+    "evidence_iris": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Persistent identifiers for structured evidence facts (reserved)"
     }
   },
   "required": [
@@ -184,7 +264,46 @@
     "policy_refs",
     "version",
     "audit_hash",
-    "policy_fingerprint"
+    "policy_fingerprint",
+    "tier_label_system"
   ],
-  "additionalProperties": true
+  "additionalProperties": false,
+  "examples": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "id": "nutrient:magnesium-glycinate:sleep:v1",
+      "title": "Magnesium Glycinate — Sleep",
+      "category": "sleep",
+      "tier": "Silver",
+      "label": "PASS",
+      "P_effect_gt_delta": 0.683,
+      "gate_results": {
+        "phi": "PASS",
+        "r": "HIGH",
+        "j": 0.78,
+        "k": "PASS",
+        "l": "PASS"
+      },
+      "evidence_summary": {
+        "n_studies": 3,
+        "total_n": 502,
+        "I2": 12.4,
+        "tau2": 0.009,
+        "mu_hat": 0.24,
+        "mu_CI95": [0.122, 0.318]
+      },
+      "policy_refs": {
+        "tel5_levels": "v1.2.0",
+        "monte_carlo": "v1.0.1-reml-grid",
+        "journal_trust": "2025-10-05"
+      },
+      "version": "v1",
+      "audit_hash": "0x2f8a9b1c3d4e5f67",
+      "policy_fingerprint": "sha256:a1b2c3d4e5f6789abcdef0123456789abcdef0123456789abcdef0123456789ab",
+      "tier_label_system": "TEL-5",
+      "llm_hint": "TEL-5=Silver, PASS; Φ/K no violations; sleep δ=0.20; REML+MC",
+      "doi": "10.5281/zenodo.XXXXX"
+    }
+  ]
 }

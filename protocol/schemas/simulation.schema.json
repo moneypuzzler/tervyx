@@ -1,38 +1,41 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://vera-protocol.org/schemas/simulation.schema.json",
-  "title": "VERA Protocol Simulation Schema",
-  "description": "Schema for simulation.json files containing Monte Carlo meta-analysis results",
+  "$id": "https://tervyx.org/schemas/simulation/v1.0.0",
+  "title": "TERVYX Protocol Simulation Schema",
+  "description": "Schema for simulation.json files containing REML + Monte Carlo meta-analysis results",
+  "version": "1.0.0",
   "type": "object",
   "properties": {
     "seed": {
       "type": "integer",
       "minimum": 1,
-      "description": "Random seed used for Monte Carlo simulation"
+      "description": "Random seed used for Monte Carlo simulation (deterministic reproducibility)"
     },
     "n_draws": {
       "type": "integer", 
       "minimum": 1000,
+      "default": 10000,
       "description": "Number of Monte Carlo draws"
     },
     "tau2_method": {
       "type": "string",
-      "enum": ["REML", "DL", "ML"],
-      "description": "Method for estimating between-study variance (tau²)"
+      "enum": ["REML", "DL", "ML", "HKSJ"],
+      "default": "REML",
+      "description": "Method for estimating between-study variance (τ²)"
     },
     "delta": {
       "type": "number",
-      "description": "Minimally important difference (δ) threshold"
+      "description": "Minimally important difference (δ) threshold for P(effect > δ)"
     },
     "P_effect_gt_delta": {
       "type": "number",
       "minimum": 0,
       "maximum": 1,
-      "description": "Probability that effect > δ"
+      "description": "Probability that effect > δ (core TEL-5 input)"
     },
-    "mu_point": {
+    "mu_hat": {
       "type": "number",
-      "description": "Pooled effect size point estimate"
+      "description": "Pooled effect size point estimate (μ̂)"
     },
     "mu_CI95": {
       "type": "array",
@@ -43,10 +46,15 @@
       "maxItems": 2,
       "description": "95% confidence interval for pooled effect [lower, upper]"
     },
+    "var_mu": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Variance of pooled effect estimate Var(μ̂)"
+    },
     "mu_se": {
       "type": "number",
       "minimum": 0,
-      "description": "Standard error of pooled effect"
+      "description": "Standard error of pooled effect √Var(μ̂)"
     },
     "I2": {
       "type": ["number", "null"],
@@ -57,39 +65,116 @@
     "tau2": {
       "type": ["number", "null"],
       "minimum": 0,
-      "description": "Between-study variance (tau²)"
+      "description": "Between-study variance (τ²) from REML"
     },
     "tau": {
       "type": ["number", "null"],
       "minimum": 0,
-      "description": "Between-study standard deviation (tau)"
+      "description": "Between-study standard deviation (τ = √τ²)"
     },
     "Q": {
       "type": ["number", "null"],
       "minimum": 0,
-      "description": "Cochran's Q statistic"
+      "description": "Cochran's Q statistic for heterogeneity"
+    },
+    "prediction_interval_95": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "minItems": 2,
+      "maxItems": 2,
+      "description": "95% prediction interval [μ̂ ± 1.96 × √(τ² + Var(μ̂))]"
     },
     "n_studies": {
       "type": "integer",
       "minimum": 0,
-      "description": "Number of studies included"
+      "description": "Number of studies included in meta-analysis"
+    },
+    "total_n": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Total sample size across all studies"
+    },
+    "benefit_direction": {
+      "type": "integer",
+      "enum": [1, -1],
+      "description": "Direction multiplier for unified benefit direction (+1 or -1)"
+    },
+    "benefit_note": {
+      "type": "string",
+      "description": "Human-readable explanation of benefit direction",
+      "examples": ["PSQI decrease is beneficial → multiply by −1", "Higher cognitive scores indicate improvement"]
     },
     "environment": {
       "type": "string",
-      "description": "Software environment used for computation"
+      "description": "Software environment used for computation",
+      "examples": ["Python 3.11, NumPy 1.24.0, SciPy 1.11.0"]
     },
     "policy_fingerprint": {
       "type": "string",
       "pattern": "^sha256:[a-f0-9]{64}$",
-      "description": "SHA256 fingerprint of policy configuration"
+      "description": "SHA256 fingerprint of policy configuration (deterministic reproducibility)"
     },
     "gate_terminated": {
       "type": "boolean",
-      "description": "Whether simulation was terminated early due to gate violations"
+      "description": "Whether simulation was terminated early due to Φ or K gate violations"
+    },
+    "termination_gate": {
+      "type": "string",
+      "enum": ["phi", "k", "none"],
+      "description": "Which safety gate caused early termination (if any)"
+    },
+    "reml_convergence": {
+      "type": "object",
+      "properties": {
+        "converged": {
+          "type": "boolean",
+          "description": "Whether REML estimation converged"
+        },
+        "iterations": {
+          "type": "integer", 
+          "minimum": 0,
+          "description": "Number of iterations used"
+        },
+        "final_nll": {
+          "type": "number",
+          "description": "Final negative log-likelihood value"
+        }
+      }
+    },
+    "computation_time_ms": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Computation time in milliseconds"
+    },
+    "tel5_input": {
+      "type": "object",
+      "description": "Input parameters for TEL-5 classification",
+      "properties": {
+        "P_value": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "phi_violation": {
+          "type": "boolean"
+        },
+        "k_violation": {
+          "type": "boolean"
+        }
+      }
     },
     "error": {
       "type": "string",
       "description": "Error message if simulation failed"
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Non-fatal warnings during computation"
     }
   },
   "required": [
@@ -100,5 +185,36 @@
     "P_effect_gt_delta",
     "policy_fingerprint"
   ],
-  "additionalProperties": true
+  "additionalProperties": false,
+  "examples": [
+    {
+      "seed": 20251005,
+      "n_draws": 10000,
+      "tau2_method": "REML",
+      "delta": 0.20,
+      "P_effect_gt_delta": 0.683,
+      "mu_hat": 0.24,
+      "mu_CI95": [0.122, 0.318],
+      "var_mu": 0.0032,
+      "mu_se": 0.0566,
+      "I2": 12.4,
+      "tau2": 0.009,
+      "tau": 0.095,
+      "Q": 2.28,
+      "prediction_interval_95": [0.12, 0.32],
+      "n_studies": 3,
+      "total_n": 502,
+      "benefit_direction": -1,
+      "benefit_note": "PSQI decrease is beneficial → multiply by −1",
+      "environment": "Python 3.11, NumPy 1.24.0, SciPy 1.11.0",
+      "policy_fingerprint": "sha256:a1b2c3d4e5f6789abcdef0123456789abcdef0123456789abcdef0123456789ab",
+      "gate_terminated": false,
+      "reml_convergence": {
+        "converged": true,
+        "iterations": 15,
+        "final_nll": -2.45
+      },
+      "computation_time_ms": 125.5
+    }
+  ]
 }
