@@ -1,0 +1,30 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_passionflower_sleep, title={Passionflower for Sleep}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Gold tier}}",
+  "studies": [
+    {
+      "doi": "10.5279/j.chronobiol_int.2016.3925",
+      "citation": "Study 1 (2016)"
+    },
+    {
+      "doi": "10.4114/j.low_quality_journal.2015.5173",
+      "citation": "Study 2 (2015)"
+    },
+    {
+      "doi": "10.5920/j.chronobiol_int.2011.9308",
+      "citation": "Study 3 (2011)"
+    },
+    {
+      "doi": "10.5930/j.psychopharmacology.2018.7653",
+      "citation": "Study 4 (2018)"
+    },
+    {
+      "doi": "10.9375/j.j_psychopharmacol.2019.8752",
+      "citation": "Study 5 (2019)"
+    },
+    {
+      "doi": "10.1400/j.neuropsychopharmacol.2022.1757",
+      "citation": "Study 6 (2022)"
+    }
+  ]
+}

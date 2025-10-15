@@ -1,0 +1,22 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_yohimbine_renal_safety, title={Yohimbine for Renal Safety}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Black tier}}",
+  "studies": [
+    {
+      "doi": "10.4271/j.clin_j_am_soc_nephrol.2010.2589",
+      "citation": "Study 1 (2010)"
+    },
+    {
+      "doi": "10.2493/j.am_j_cardiol.2011.9914",
+      "citation": "Study 2 (2011)"
+    },
+    {
+      "doi": "10.2009/j.am_j_cardiol.2010.3476",
+      "citation": "Study 3 (2010)"
+    },
+    {
+      "doi": "10.4860/j.clin_j_am_soc_nephrol.2023.8803",
+      "citation": "Study 4 (2023)"
+    }
+  ]
+}

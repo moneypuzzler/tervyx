@@ -1,0 +1,18 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_caffeine_cognition, title={Caffeine for Cognition}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Bronze tier}}",
+  "studies": [
+    {
+      "doi": "10.1672/j.low_quality_journal.2023.8368",
+      "citation": "Study 1 (2023)"
+    },
+    {
+      "doi": "10.1641/j.psychopharmacology.2017.5059",
+      "citation": "Study 2 (2017)"
+    },
+    {
+      "doi": "10.2079/j.jacc.2016.6401",
+      "citation": "Study 3 (2016)"
+    }
+  ]
+}

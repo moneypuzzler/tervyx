@@ -1,0 +1,22 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_ephedra_renal_safety, title={Ephedra for Renal Safety}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Black tier}}",
+  "studies": [
+    {
+      "doi": "10.9283/j.psychopharmacology.2018.8688",
+      "citation": "Study 1 (2018)"
+    },
+    {
+      "doi": "10.4850/j.kidney_int.2014.2291",
+      "citation": "Study 2 (2014)"
+    },
+    {
+      "doi": "10.7755/j.kidney_int.2011.1587",
+      "citation": "Study 3 (2011)"
+    },
+    {
+      "doi": "10.6439/j.am_j_kidney_dis.2017.8751",
+      "citation": "Study 4 (2017)"
+    }
+  ]
+}

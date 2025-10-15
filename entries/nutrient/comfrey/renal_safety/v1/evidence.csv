@@ -1,0 +1,6 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+comfrey_2016_1,2016,RCT,MD,-0.535,-1.026,-0.045,57,85,some,10.1152/j.j_psychopharmacol.2016.5933,j_psychopharmacol,Comfrey supplement,Placebo,Proteinuria,24,Healthy volunteers
+comfrey_2024_2,2024,RCT,MD,0.584,0.215,0.952,117,104,low,10.2741/j.chronobiol_int.2024.9154,chronobiol_int,Comfrey supplement,Placebo,Serum creatinine (mg/dL),16,Patients with CKD
+comfrey_2016_3,2016,RCT,MD,-0.292,-0.616,0.031,30,95,some,10.8875/j.j_psychopharmacol.2016.6416,j_psychopharmacol,Comfrey supplement,Placebo,Serum creatinine (mg/dL),4,Healthy volunteers
+comfrey_2020_4,2020,RCT,MD,1.831,1.107,2.556,36,90,low,10.5192/j.chronobiol_int.2020.4787,chronobiol_int,Comfrey supplement,Placebo,Proteinuria,8,Elderly adults
+comfrey_2012_5,2012,cohort,MD,5.092,4.896,5.287,62,71,high,10.7979/j.jacc.2012.2898,jacc,Comfrey supplement,Control group,eGFR (mL/min/1.73m²),4,Healthy volunteers

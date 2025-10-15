@@ -1,1 +1,22 @@
-[]
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_magnesium-glycinate_sleep, title={Magnesium Glycinate for Sleep}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Gold tier}}",
+  "studies": [
+    {
+      "doi": "10.4456/j.sleep_health.2022.6155",
+      "citation": "Study 1 (2022)"
+    },
+    {
+      "doi": "10.7543/j.nephrol_dial_transplant.2012.6930",
+      "citation": "Study 2 (2012)"
+    },
+    {
+      "doi": "10.7252/j.kidney_int.2012.8668",
+      "citation": "Study 3 (2012)"
+    },
+    {
+      "doi": "10.9201/j.am_j_cardiol.2015.3927",
+      "citation": "Study 4 (2015)"
+    }
+  ]
+}

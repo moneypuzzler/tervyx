@@ -1,0 +1,22 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_valerian-root_sleep, title={Valerian Root for Sleep}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Gold tier}}",
+  "studies": [
+    {
+      "doi": "10.9938/j.neuropsychopharmacol.2018.1590",
+      "citation": "Study 1 (2018)"
+    },
+    {
+      "doi": "10.2684/j.eur_neuropsychopharmacol.2015.6794",
+      "citation": "Study 2 (2015)"
+    },
+    {
+      "doi": "10.7745/j.jacc.2022.5065",
+      "citation": "Study 3 (2022)"
+    },
+    {
+      "doi": "10.4652/j.eur_neuropsychopharmacol.2013.1387",
+      "citation": "Study 4 (2013)"
+    }
+  ]
+}

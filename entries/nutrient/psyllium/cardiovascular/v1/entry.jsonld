@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "nutrient:psyllium:cardiovascular:v1",
+  "title": "Psyllium \u2014 Cardiovascular",
+  "category": "cardiovascular",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 1.0,
+  "gate_results": {
+    "phi": "PASS",
+    "r": "MEDIUM",
+    "j": 0.823,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 485,
+    "I2": 79.3,
+    "tau2": 0.03768084,
+    "mu_hat": 3.225052,
+    "mu_CI95": [
+      2.945495,
+      3.504608
+    ]
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "audit_hash": "0x3432348f",
+  "policy_fingerprint": "sha256:tervyx_v1_generated_entries",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-15T10:00:00Z",
+  "llm_hint": "TEL-5=Gold, PASS; \u03a6/K no violations; cardiovascular \u03b4=2.0; REML+MC"
+}

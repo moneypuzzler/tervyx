@@ -1,0 +1,18 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_omega-3_cardiovascular, title={Omega 3 for Cardiovascular}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Gold tier}}",
+  "studies": [
+    {
+      "doi": "10.3733/j.psychopharmacology.2019.9022",
+      "citation": "Study 1 (2019)"
+    },
+    {
+      "doi": "10.9281/j.kidney_int.2023.9109",
+      "citation": "Study 2 (2023)"
+    },
+    {
+      "doi": "10.9808/j.eur_neuropsychopharmacol.2011.5729",
+      "citation": "Study 3 (2011)"
+    }
+  ]
+}

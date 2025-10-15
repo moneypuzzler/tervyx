@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+acetyl-l-carnitine_2017_1,2017,cohort,SMD,0.119,-0.074,0.311,95,38,some,10.3042/j.predatory_journal_1.2017.5670,predatory_journal_1,Acetyl L Carnitine supplement,Control group,MMSE score,6,Students
+acetyl-l-carnitine_2011_2,2011,cohort,SMD,0.163,-0.331,0.657,53,82,high,10.7797/j.sleep_medicine.2011.1872,sleep_medicine,Acetyl L Carnitine supplement,Control group,Trail Making Test,16,Students
+acetyl-l-carnitine_2015_3,2015,RCT,SMD,0.128,-0.427,0.683,65,37,high,10.3392/j.jacc.2015.3254,jacc,Acetyl L Carnitine supplement,Placebo,MMSE score,8,Middle-aged adults

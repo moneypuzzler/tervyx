@@ -1,0 +1,18 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_piracetam_cognition, title={Piracetam for Cognition}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Bronze tier}}",
+  "studies": [
+    {
+      "doi": "10.7180/j.predatory_journal_2.2017.8460",
+      "citation": "Study 1 (2017)"
+    },
+    {
+      "doi": "10.7325/j.kidney_int.2016.3492",
+      "citation": "Study 2 (2016)"
+    },
+    {
+      "doi": "10.3361/j.sleep_medicine.2023.7717",
+      "citation": "Study 3 (2023)"
+    }
+  ]
+}

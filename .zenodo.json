@@ -1,0 +1,113 @@
+{
+  "title": "TERVYX Protocol v1.0: A Reproducible Governance & Labeling Standard for Health-Information Evidence",
+  "description": "The TERVYX Protocol (Tiered Evidence & Risk Verification sYstem) provides a comprehensive framework for evaluating health-information claims using evidence-based methodology. It implements a five-tier classification system (TEL-5: Gold, Silver, Bronze, Red, Black) with gate governance protocol (GGP) featuring safety-first monotonicity principles. The system combines REML + Monte Carlo meta-analysis with automated journal quality assessment and AI-powered literature review capabilities. This repository contains the complete implementation including 70+ real evidence entries, production-ready analysis pipeline, and patent-protected methodologies for reproducible evaluation of nutritional supplements and health interventions.",
+  "creators": [
+    {
+      "name": "Kim, Geonyeop",
+      "orcid": "0009-0005-7640-2510",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kim, Geonyeop", 
+      "type": "ProjectLeader",
+      "orcid": "0009-0005-7640-2510"
+    }
+  ],
+  "keywords": [
+    "evidence-based medicine",
+    "meta-analysis",
+    "health information", 
+    "systematic review",
+    "nutritional supplements",
+    "reproducible research",
+    "REML estimation", 
+    "Monte Carlo simulation",
+    "gate governance protocol",
+    "safety assessment",
+    "TEL-5 classification",
+    "TERVYX protocol",
+    "patent-protected methodology"
+  ],
+  "license": {
+    "id": "MIT"
+  },
+  "upload_type": "dataset",
+  "access_right": "open",
+  "language": "eng",
+  "subjects": [
+    {
+      "term": "Evidence-Based Medicine",
+      "identifier": "http://id.nlm.nih.gov/mesh/D019317"
+    },
+    {
+      "term": "Meta-Analysis as Topic", 
+      "identifier": "http://id.nlm.nih.gov/mesh/D017418"
+    },
+    {
+      "term": "Dietary Supplements",
+      "identifier": "http://id.nlm.nih.gov/mesh/D004269"
+    },
+    {
+      "term": "Reproducibility of Results",
+      "identifier": "http://id.nlm.nih.gov/mesh/D015203"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/moneypuzzler/tervyx",
+      "relation": "isSupplementTo",
+      "scheme": "url",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "KR 10-2025-0143351",
+      "relation": "references", 
+      "scheme": "other",
+      "resource_type": "other"
+    }
+  ],
+  "references": [
+    "Kim, G. (2025). TERVYX Protocol v1.0: A Reproducible Governance & Labeling Standard for Health-Information Evidence. GitHub repository. https://github.com/moneypuzzler/tervyx",
+    "Korean Patent Application No. KR 10-2025-0143351: Verification of Non-scientific Health-Information Claims — GGP-based Hybrid Control"
+  ],
+  "notes": "This work includes patent-protected methodologies under Korean Patent Application KR 10-2025-0143351. The TERVYX Protocol represents a novel approach to automated evidence evaluation with safety-first principles and multi-gate quality control.",
+  "version": "1.0",
+  "publication_date": "2025-10-15",
+  "prereserve_doi": true,
+  "communities": [
+    {
+      "identifier": "zenodo"
+    }
+  ],
+  "grants": [
+    {
+      "id": "self-funded"
+    }
+  ],
+  "method": "The TERVYX Protocol employs a five-tier evidence classification system (TEL-5) with Gate Governance Protocol (GGP) implementing Φ → R → J → K → L sequential evaluation. Meta-analysis uses REML estimation with Monte Carlo simulation (n=10,000 draws) to calculate P(effect > δ) probabilities. Safety-first monotonicity ensures that Φ-gate (physiological plausibility) or K-gate (safety) failures result in immediate BLACK classification regardless of other quality scores. The system integrates real-time literature search via PubMed E-utilities, AI-powered abstract analysis using Gemini API, comprehensive journal quality assessment, and automated evidence synthesis.",
+  "custom": {
+    "patent_info": {
+      "application_number": "KR 10-2025-0143351",
+      "filing_date": "2025-10-01",
+      "title": "Verification of Non-scientific Health-Information Claims — GGP-based Hybrid Control",
+      "inventor": "Kim, Geonyeop",
+      "status": "Filed"
+    },
+    "tel5_system": {
+      "Gold": "P(effect > δ) ≥ 0.80, all gates PASS",
+      "Silver": "0.60 ≤ P(effect > δ) < 0.80, all gates PASS", 
+      "Bronze": "0.40 ≤ P(effect > δ) < 0.60, all gates PASS",
+      "Red": "P(effect > δ) < 0.40, all gates PASS",
+      "Black": "Φ-gate or K-gate FAIL (safety violations)"
+    },
+    "data_summary": {
+      "total_entries": 70,
+      "categories": 5,
+      "real_literature_based": true,
+      "ai_powered_analysis": true,
+      "production_ready": true
+    }
+  }
+}

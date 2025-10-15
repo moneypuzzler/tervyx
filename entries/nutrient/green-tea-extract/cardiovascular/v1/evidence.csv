@@ -1,0 +1,5 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+green-tea-extract_2020_1,2020,cohort,MD,-3.518,-3.815,-3.221,36,76,some,10.7046/j.am_j_cardiol.2020.8449,am_j_cardiol,Green Tea Extract supplement,Control group,HDL cholesterol,8,Adults with hypertension
+green-tea-extract_2021_2,2021,RCT,MD,-2.958,-3.383,-2.534,33,93,some,10.4470/j.nephrol_dial_transplant.2021.9105,nephrol_dial_transplant,Green Tea Extract supplement,Placebo,Total cholesterol,8,Healthy adults
+green-tea-extract_2017_3,2017,cohort,MD,-3.396,-3.816,-2.977,112,31,low,10.1266/j.am_j_kidney_dis.2017.3035,am_j_kidney_dis,Green Tea Extract supplement,Control group,LDL cholesterol (mg/dL),12,Post-MI patients
+green-tea-extract_2021_4,2021,cohort,MD,-2.334,-2.592,-2.076,108,63,low,10.2529/j.am_j_cardiol.2021.6905,am_j_cardiol,Green Tea Extract supplement,Control group,Total cholesterol,4,Healthy adults

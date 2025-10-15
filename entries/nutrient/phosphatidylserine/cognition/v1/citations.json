@@ -1,0 +1,18 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_phosphatidylserine_cognition, title={Phosphatidylserine for Cognition}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Bronze tier}}",
+  "studies": [
+    {
+      "doi": "10.7797/j.neuropsychopharmacol.2021.2622",
+      "citation": "Study 1 (2021)"
+    },
+    {
+      "doi": "10.9920/j.eur_heart_j.2013.6876",
+      "citation": "Study 2 (2013)"
+    },
+    {
+      "doi": "10.1828/j.sleep_medicine.2023.6464",
+      "citation": "Study 3 (2023)"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+germanium_2012_1,2012,RCT,MD,-2.335,-2.668,-2.003,99,37,high,10.2654/j.low_quality_journal.2012.5687,low_quality_journal,Germanium supplement,Placebo,BUN (mg/dL),12,Elderly adults
+germanium_2017_2,2017,RCT,MD,-1.216,-1.545,-0.888,60,76,low,10.1635/j.kidney_int.2017.7484,kidney_int,Germanium supplement,Placebo,BUN (mg/dL),24,Patients with CKD
+germanium_2024_3,2024,RCT,MD,-2.092,-2.653,-1.531,68,63,some,10.2609/j.clin_j_am_soc_nephrol.2024.4734,clin_j_am_soc_nephrol,Germanium supplement,Placebo,Serum creatinine (mg/dL),8,Athletes
+germanium_2019_4,2019,RCT,MD,0.031,-0.422,0.484,49,81,low,10.8937/j.nephrol_dial_transplant.2019.9462,nephrol_dial_transplant,Germanium supplement,Placebo,BUN (mg/dL),4,Patients with CKD
+germanium_2016_5,2016,RCT,MD,3.292,2.764,3.819,92,97,low,10.4288/j.j_psychopharmacol.2016.1944,j_psychopharmacol,Germanium supplement,Placebo,Serum creatinine (mg/dL),4,Athletes

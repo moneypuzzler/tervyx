@@ -1,75 +1,211 @@
-version: "v1.0.1"
+version: "v1.2.0"
+protocol: "TERVYX"
+tier_system: "TEL-5"
 
-hbv_tiers:
+# TERVYX Evidence Levels (TEL-5) - Updated from HBV to TEL-5
+tel5_tiers:
   gold:
     min_p: 0.80
     label: PASS
+    confidence: "High"
+    tel5_level: 1
+    description: "High confidence evidence"
   silver:
     min_p: 0.60
     label: PASS
+    confidence: "Moderate"
+    tel5_level: 2
+    description: "Moderate confidence evidence"
   bronze:
     min_p: 0.40
     label: AMBER
+    confidence: "Low"
+    tel5_level: 3
+    description: "Low confidence evidence"
   red:
     min_p: 0.20
     label: AMBER
+    confidence: "Very Low"
+    tel5_level: 4
+    description: "Very low confidence evidence"
   black:
     min_p: 0.00
     label: FAIL
+    confidence: "None/Inappropriate"
+    tel5_level: 5
+    description: "Inappropriate/Risky"
 
+# Categories with unified benefit direction
 categories:
   sleep:
-    delta: 0.20      # SMD (benefit positive)
-    measures: [PSQI, ISI]
+    delta: 0.20
+    benefit_direction: -1  # PSQI decrease is beneficial
+    delta_units: "SMD"
+    measures: [PSQI, ISI, "sleep efficiency", "sleep latency"]
     description: "Sleep quality and insomnia severity"
+    domain: "behavioral"
+    safety_priority: "low"
   cognition:
-    delta: 0.25
-    measures: [MMSE, MoCA]
+    delta: 0.15  # Updated from paper
+    benefit_direction: 1   # Higher scores indicate improvement
+    delta_units: "SMD" 
+    measures: [MMSE, MoCA, "cognitive function"]
     description: "Cognitive function and performance"
+    domain: "neurological"
+    safety_priority: "medium"
   mental_health:
     delta: 0.30
-    measures: [PHQ-9, GAD-7]
+    benefit_direction: -1  # Lower depression/anxiety scores are beneficial
+    delta_units: "SMD"
+    measures: [PHQ-9, GAD-7, "Hamilton Depression Scale"]
     description: "Depression and anxiety symptoms"
+    domain: "psychological"
+    safety_priority: "high"
   renal_safety:
-    delta: 5.0       # MD, eGFR mL/min
-    measures: [eGFR]
+    delta: 5.0
+    benefit_direction: 1   # Higher eGFR indicates better kidney function
+    delta_units: "MD (mL/min/1.73m²)"
+    measures: [eGFR, "serum creatinine", BUN]
     description: "Kidney function safety markers"
+    domain: "safety"
+    safety_priority: "critical"
   cardiovascular:
-    delta: 2.0       # MD, SBP mmHg
-    measures: [SBP]
+    delta: 2.0
+    benefit_direction: -1  # Lower BP and LDL are beneficial
+    delta_units: "MD (mmHg for BP)"
+    measures: [SBP, DBP, LDL, HDL]
     description: "Cardiovascular health indicators"
+    domain: "physiological"
+    safety_priority: "high"
 
+# Gate Governance Protocol (GGP): Φ → R → J → K → L
 gates:
+  version: "v1.1.0"
+  sequence: ["Φ", "R", "J", "K", "L"]
+  
   phi:
-    # Category misrouting / physical/physiological violations etc.
-    hard_cap: true
-    description: "Natural/Category violation gate"
+    name: "Φ (Phi) - Natural/Category Violation"
+    order: 1
+    type: "deterministic"
+    safety_critical: true
+    hard_cap: true  # Cannot be offset by J
+    monotonic: true
+    description: "Physiological impossibility / category misrouting → FAIL"
+    
   r:
-    min_relevance: 0.5
-    description: "Relevance assessment gate"
+    name: "R - Relevance Assessment"
+    order: 2
+    type: "probabilistic"
+    threshold: 0.7  # Updated from paper
+    description: "Routing fit between claim and category"
+    
   j:
+    name: "J - Journal Trust Oracle"
+    order: 3
+    type: "probabilistic"
     use_snapshot: "snapshots/journal_trust@2025-10-05.json"
-    min_j: 0.25
-    blacklist_nulls: true   # retraction/predatory/hijacked -> 0
-    description: "Journal trust oracle gate"
+    threshold: 0.25
+    blacklist_nulls: true   # retraction/predatory/hijacked → J-BLACK = 0
+    weights:
+      if_z: 0.35      # JCR percentile
+      sjr_z: 0.35     # SJR percentile
+      doaj: 0.15      # DOAJ membership
+      cope: 0.05      # COPE compliance
+    sigmoid_params:
+      a: 3.0
+      b: -1.5
+    description: "J-Oracle score; predatory/hijacked/retracted → J-BLACK = 0"
+    
   k:
-    hard_cap: true          # Safety violations -> FAIL
-    description: "Safety assessment gate"
+    name: "K - Safety Assessment"
+    order: 4
+    type: "deterministic"
+    safety_critical: true
+    hard_cap: true  # Cannot be offset by J
+    monotonic: true
+    description: "Absolute caps for contraindications and serious adverse events"
+    
   l:
-    deny_patterns:
-      - "\\b(cure|completely\\s*cured|permanent\\s*cure)\\b"
-      - "\\b(instant(ly)?|immediate(ly)?)\\b"
-      - "\\b(cure[-\\s]?all|panacea|works\\s*for\\s*everything)\\b"
-      - "\\b(no\\s*side\\s*effects|risk[-\\s]?free)\\b"
-    description: "Language exaggeration detection gate"
+    name: "L - Exaggeration Language"
+    order: 5
+    type: "rule-based"
+    description: "cure/permanent/instant/miracle/risk-free triggers corrective down-shifts"
+    patterns:
+      english:
+        - "\\b(cure|completely\\s*cured|permanent\\s*cure)\\b"
+        - "\\b(instant(ly)?|immediate(ly)?)\\b"
+        - "\\b(cure[-\\s]?all|panacea|works\\s*for\\s*everything)\\b"
+        - "\\b(no\\s*side\\s*effects|risk[-\\s]?free)\\b"
+        - "\\b(world[-\\s]?first|medical\\s*breakthrough)\\b"
+      korean:
+        - "완전(히)?\\s*(치료|완치)"
+        - "즉시|바로|당장"
+        - "모든\\s*질병|만병통치|만능"
+        - "부작용\\s*(전혀\\s*)?없(음|다)"
+        - "세계\\s*최초|의학계\\s*혁신"
+      exceptions:
+        - "adjuvant\\s*to\\s*treatment"
+        - "helps\\s*with"
+        - "gradual"
+        - "over\\s*weeks"
 
+# REML + Monte Carlo configuration
 monte_carlo:
+  version: "v1.0.1-reml-grid"
   seed: 20251005
   n_draws: 10000
-  tau2_method: REML
-  description: "Monte Carlo simulation parameters for meta-analysis"
+  tau2_method: "REML"
+  benefit_unification: true  # All effects transformed so benefit is positive
+  description: "REML-based Monte Carlo meta-analysis with unified benefit direction"
 
+# Policy fingerprint and audit
 audit:
   enable_logging: true
   log_file: "AUDIT_LOG.jsonl"
   include_policy_fingerprint: true
+  include_audit_hash: true
+  hash_algorithm: "sha256"
+
+# Patent and trademark information
+intellectual_property:
+  patent:
+    application_no: "10-2025-0143351"
+    country: "KR"
+    filing_date: "2025-10-01"
+    receipt_no: "1-1-2025-1119765-45"
+    das_access: "F05F"
+    title: "Verification of Non-scientific Health-Information Claims — GGP-based Hybrid Control"
+    inventor: "Geonyeob Kim"
+    orcid: "0009-0005-7640-2510"
+    status: "pending"
+  
+  trademarks:
+    - name: "TERVYX"
+      status: "pending"
+      type: "protocol_name"
+    - name: "TEL-5"
+      status: "pending" 
+      type: "tier_system"
+    - name: "Journal-Trust Oracle"
+      status: "pending"
+      type: "component"
+    - name: "Gate Governance Protocol"
+      status: "pending"
+      type: "framework"
+
+# Version and citation information
+metadata:
+  protocol_version: "TERVYX v1.0"
+  tel5_version: "v1.2.0"
+  paper_citation: "Kim, G. (2025). TERVYX Protocol v1.0: A Reproducible Governance & Labeling Standard for Health-Information Evidence"
+  doi: "10.5281/zenodo.XXXXX"
+  repository: "https://github.com/your-org/tervyx-protocol"
+  license_code: "MIT"
+  license_data: "CC BY 4.0"
+  
+# Monotone invariant enforcement
+safety_first_monotonicity:
+  enabled: true
+  description: "Φ or K violations cannot be offset by high J scores"
+  affected_gates: ["phi", "k"]
+  masking_function: "hard_zero"  # Apply 0.0 to J* score if Φ/K violations

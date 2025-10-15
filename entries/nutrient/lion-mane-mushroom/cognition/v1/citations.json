@@ -1,0 +1,26 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_lion-mane-mushroom_cognition, title={Lion Mane Mushroom for Cognition}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Silver tier}}",
+  "studies": [
+    {
+      "doi": "10.2476/j.neuropsychopharmacol.2020.5835",
+      "citation": "Study 1 (2020)"
+    },
+    {
+      "doi": "10.3695/j.am_j_cardiol.2018.5210",
+      "citation": "Study 2 (2018)"
+    },
+    {
+      "doi": "10.6992/j.kidney_int.2012.2479",
+      "citation": "Study 3 (2012)"
+    },
+    {
+      "doi": "10.2775/j.eur_heart_j.2021.4830",
+      "citation": "Study 4 (2021)"
+    },
+    {
+      "doi": "10.1742/j.neuropsychopharmacol.2017.1609",
+      "citation": "Study 5 (2017)"
+    }
+  ]
+}

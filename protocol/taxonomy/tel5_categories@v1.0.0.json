@@ -1,0 +1,226 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "version": "v1.0.0",
+  "title": "TEL-5 Category Taxonomy (TERVYX Evidence Levels)",
+  "description": "Hierarchical taxonomy for TERVYX evidence levels and health information categories",
+  "created": "2025-10-15",
+  "protocol": "TERVYX",
+  "tier_system": "TEL-5",
+  "tiers": [
+    {
+      "name": "Gold",
+      "min_p": 0.80,
+      "label": "PASS",
+      "color": "#FFD700",
+      "confidence": "High",
+      "description": "High confidence evidence (P ≥ 0.80)",
+      "recommendation": "Evidence strongly supports the claimed benefit",
+      "icon": "🥇",
+      "tel5_level": 1
+    },
+    {
+      "name": "Silver", 
+      "min_p": 0.60,
+      "label": "PASS",
+      "color": "#C0C0C0", 
+      "confidence": "Moderate",
+      "description": "Moderate confidence evidence (P ≥ 0.60)",
+      "recommendation": "Evidence supports the claimed benefit",
+      "icon": "🥈",
+      "tel5_level": 2
+    },
+    {
+      "name": "Bronze",
+      "min_p": 0.40,
+      "label": "AMBER",
+      "color": "#CD7F32",
+      "confidence": "Low",
+      "description": "Low confidence evidence (P ≥ 0.40)",
+      "recommendation": "Evidence provides limited support; further research needed",
+      "icon": "🥉",
+      "tel5_level": 3
+    },
+    {
+      "name": "Red",
+      "min_p": 0.20,
+      "label": "AMBER", 
+      "color": "#DC3545",
+      "confidence": "Very Low",
+      "description": "Very low confidence evidence (P ≥ 0.20)",
+      "recommendation": "Evidence is insufficient; caution advised",
+      "icon": "🔴",
+      "tel5_level": 4
+    },
+    {
+      "name": "Black",
+      "min_p": 0.00,
+      "label": "FAIL",
+      "color": "#000000",
+      "confidence": "None/Inappropriate", 
+      "description": "Inappropriate/Risky (P < 0.20 or Φ/K violations)",
+      "recommendation": "Claim not supported by evidence or poses safety concerns",
+      "icon": "⚫",
+      "tel5_level": 5
+    }
+  ],
+  "categories": {
+    "sleep": {
+      "id": "sleep",
+      "name": "Sleep Quality & Insomnia",
+      "description": "Sleep quality, sleep duration, insomnia severity, and sleep-related disorders",
+      "primary_measures": ["PSQI", "ISI", "sleep efficiency", "sleep latency"],
+      "delta_typical": 0.20,
+      "delta_units": "SMD",
+      "benefit_direction": -1,
+      "benefit_note": "PSQI decrease is beneficial → multiply by −1 to unify direction",
+      "domain": "behavioral",
+      "safety_priority": "low",
+      "examples": ["magnesium glycinate for sleep", "melatonin for insomnia", "valerian for sleep quality"]
+    },
+    "cognition": {
+      "id": "cognition", 
+      "name": "Cognitive Function",
+      "description": "Memory, attention, executive function, processing speed, and overall cognitive performance",
+      "primary_measures": ["MMSE", "MoCA", "Trail Making Test", "digit span"],
+      "delta_typical": 0.15,
+      "delta_units": "SMD", 
+      "benefit_direction": 1,
+      "benefit_note": "Higher cognitive scores indicate improvement",
+      "domain": "neurological",
+      "safety_priority": "medium",
+      "examples": ["ginkgo for memory", "omega-3 for cognitive function", "B-vitamins for cognition"]
+    },
+    "mental_health": {
+      "id": "mental_health",
+      "name": "Mental Health & Mood", 
+      "description": "Depression, anxiety, mood disorders, and psychological well-being",
+      "primary_measures": ["PHQ-9", "GAD-7", "Hamilton Depression Scale", "Beck Depression Inventory"],
+      "delta_typical": 0.30,
+      "delta_units": "SMD",
+      "benefit_direction": -1,
+      "benefit_note": "Lower depression/anxiety scores are beneficial",
+      "domain": "psychological",
+      "safety_priority": "high",
+      "examples": ["St. John's wort for depression", "ashwagandha for anxiety", "SAMe for mood"]
+    },
+    "renal_safety": {
+      "id": "renal_safety",
+      "name": "Kidney Function & Safety",
+      "description": "Kidney function markers, renal safety parameters, and nephrotoxicity assessment",
+      "primary_measures": ["eGFR", "serum creatinine", "BUN", "proteinuria"],
+      "delta_typical": 5.0,
+      "delta_units": "MD (mL/min/1.73m²)",
+      "benefit_direction": 1,
+      "benefit_note": "Higher eGFR indicates better kidney function",
+      "domain": "safety",
+      "safety_priority": "critical", 
+      "examples": ["high-dose vitamin C safety", "herbal nephrotoxicity", "supplement kidney effects"]
+    },
+    "cardiovascular": {
+      "id": "cardiovascular",
+      "name": "Cardiovascular Health",
+      "description": "Blood pressure, heart rate, lipid profiles, and cardiovascular risk factors", 
+      "primary_measures": ["SBP", "DBP", "LDL", "HDL", "total cholesterol"],
+      "delta_typical": 2.0,
+      "delta_units": "MD (mmHg for BP)",
+      "benefit_direction": -1,
+      "benefit_note": "Lower blood pressure and LDL are beneficial",
+      "domain": "physiological",
+      "safety_priority": "high",
+      "examples": ["coQ10 for blood pressure", "fish oil for lipids", "garlic for cardiovascular health"]
+    }
+  },
+  "gates": {
+    "phi": {
+      "name": "Φ (Phi) - Natural/Category Violation",
+      "symbol": "Φ",
+      "description": "Physiological impossibility / category misrouting → FAIL",
+      "type": "deterministic",
+      "safety_critical": true,
+      "monotonic": true,
+      "order": 1,
+      "failure_result": "BLACK"
+    },
+    "r": {
+      "name": "R - Relevance Assessment", 
+      "symbol": "R",
+      "description": "Routing fit between claim and category (below threshold → AMBER↓ or exclude)",
+      "type": "probabilistic",
+      "safety_critical": false,
+      "monotonic": false,
+      "order": 2,
+      "threshold_default": 0.7
+    },
+    "j": {
+      "name": "J - Journal Trust Oracle",
+      "symbol": "J",
+      "description": "J-Oracle score; predatory/hijacked/retracted → J-BLACK = 0",
+      "type": "probabilistic", 
+      "safety_critical": false,
+      "monotonic": false,
+      "order": 3,
+      "blacklist_triggers": ["retraction", "predatory", "hijacked"]
+    },
+    "k": {
+      "name": "K - Safety Assessment",
+      "symbol": "K",
+      "description": "Absolute caps for contraindications and serious adverse events",
+      "type": "deterministic",
+      "safety_critical": true,
+      "monotonic": true,
+      "order": 4,
+      "failure_result": "BLACK"
+    },
+    "l": {
+      "name": "L - Exaggeration Language",
+      "symbol": "L",
+      "description": "\"cure/permanent/instant/miracle/risk-free\" triggers corrective down-shifts",
+      "type": "rule-based",
+      "safety_critical": false, 
+      "monotonic": false,
+      "order": 5,
+      "patterns": {
+        "forbidden_english": [
+          "\\b(cure|completely\\s*cured|permanent\\s*cure)\\b",
+          "\\b(instant(ly)?|immediate(ly)?)\\b", 
+          "\\b(cure[-\\s]?all|panacea|works\\s*for\\s*everything)\\b",
+          "\\b(no\\s*side\\s*effects|risk[-\\s]?free)\\b",
+          "\\b(world[-\\s]?first|medical\\s*breakthrough)\\b"
+        ],
+        "forbidden_korean": [
+          "완전(히)? (치료|완치)",
+          "즉시|바로|당장",
+          "모든 질병|만병통치|만능",
+          "부작용 (전혀 )?없(음|다)",
+          "세계 최초|의학계 혁신"
+        ]
+      }
+    }
+  },
+  "processing": {
+    "gate_sequence": ["Φ", "R", "J", "K", "L"],
+    "monotone_invariant": "Φ or K violations cannot be offset by high J",
+    "reml_method": "REML",
+    "monte_carlo_draws": 10000,
+    "seed": 20251005,
+    "benefit_unification": "All effects transformed so benefit is positive"
+  },
+  "metadata": {
+    "total_tiers": 5,
+    "total_categories": 5,
+    "total_gates": 5,
+    "safety_gates": ["phi", "k"],
+    "probabilistic_gates": ["r", "j"],
+    "deterministic_gates": ["phi", "k"],
+    "rule_based_gates": ["l"],
+    "schema_version": "1.0.0",
+    "protocol_version": "TERVYX v1.0",
+    "tel5_version": "v1.2.0",
+    "patent_info": {
+      "application_no": "10-2025-0143351",
+      "country": "KR",
+      "filing_date": "2025-10-01",
+      "title": "Verification of Non-scientific Health-Information Claims — GGP-based Hybrid Control"
+    }
+  }
+}

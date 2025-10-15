@@ -1,0 +1,22 @@
+{
+  "seed": 20251005,
+  "n_draws": 10000,
+  "tau2_method": "REML",
+  "delta": 0.3,
+  "P_effect_gt_delta": 0.4877,
+  "mu_hat": 0.298196,
+  "mu_CI95": [
+    0.165918,
+    0.430474
+  ],
+  "var_mu": 0.00455475,
+  "mu_se": 0.067489,
+  "I2": 32.3,
+  "tau2": 0.00602138,
+  "tau": 0.077598,
+  "n_studies": 5,
+  "total_n": 741,
+  "benefit_direction": -1,
+  "environment": "Python 3.11, NumPy 1.24.0, SciPy 1.11.0",
+  "policy_fingerprint": "sha256:tervyx_v1_generated_entries"
+}

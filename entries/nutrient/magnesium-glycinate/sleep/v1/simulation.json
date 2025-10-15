@@ -3,18 +3,20 @@
   "n_draws": 10000,
   "tau2_method": "REML",
   "delta": 0.2,
-  "P_effect_gt_delta": 0.9776,
-  "mu_point": 0.34295420231504786,
+  "P_effect_gt_delta": 0.8901,
+  "mu_hat": 0.297711,
   "mu_CI95": [
-    0.20364087444728662,
-    0.4822675301828091
+    0.14223,
+    0.453192
   ],
-  "mu_se": 0.07107822850395981,
-  "I2": 0.0,
-  "tau2": 0.0,
+  "var_mu": 0.00629277,
+  "mu_se": 0.079327,
+  "I2": 0,
+  "tau2": 0,
   "tau": 0.0,
-  "Q": 1.0399467175582688,
-  "n_studies": 3,
-  "environment": "Python/NumPy",
-  "policy_fingerprint": "sha256:c1d2e332441c9cccf0e8a7fd3a5c565e92cd60267e88d6b220d30127562ced72"
+  "n_studies": 4,
+  "total_n": 599,
+  "benefit_direction": -1,
+  "environment": "Python 3.11, NumPy 1.24.0, SciPy 1.11.0",
+  "policy_fingerprint": "sha256:tervyx_v1_generated_entries"
 }

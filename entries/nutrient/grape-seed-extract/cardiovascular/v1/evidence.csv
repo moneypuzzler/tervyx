@@ -1,0 +1,6 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+grape-seed-extract_2014_1,2014,RCT,MD,-3.518,-3.687,-3.349,109,44,some,10.2211/j.kidney_int.2014.8357,kidney_int,Grape Seed Extract supplement,Placebo,HDL cholesterol,16,Post-MI patients
+grape-seed-extract_2022_2,2022,cross-sectional,MD,-2.958,-3.269,-2.648,114,93,some,10.2791/j.sleep_health.2022.5067,sleep_health,Grape Seed Extract supplement,Control group,Total cholesterol,6,Adults with hypertension
+grape-seed-extract_2016_3,2016,RCT,MD,-3.396,-3.904,-2.888,37,58,low,10.4621/j.predatory_journal_1.2016.8303,predatory_journal_1,Grape Seed Extract supplement,Placebo,Total cholesterol,12,Post-MI patients
+grape-seed-extract_2010_4,2010,RCT,MD,-2.334,-2.612,-2.056,62,78,high,10.2901/j.sleep_health.2010.3321,sleep_health,Grape Seed Extract supplement,Placebo,Total cholesterol,8,Healthy adults
+grape-seed-extract_2015_5,2015,RCT,MD,-0.704,-1.053,-0.356,81,117,some,10.2100/j.jacc.2015.5919,jacc,Grape Seed Extract supplement,Placebo,Systolic BP (mmHg),24,Adults with hypertension

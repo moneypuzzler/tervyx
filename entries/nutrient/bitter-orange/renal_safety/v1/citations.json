@@ -1,0 +1,22 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_bitter-orange_renal_safety, title={Bitter Orange for Renal Safety}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Black tier}}",
+  "studies": [
+    {
+      "doi": "10.3996/j.jacc.2019.2865",
+      "citation": "Study 1 (2019)"
+    },
+    {
+      "doi": "10.3611/j.j_sleep_res.2017.2699",
+      "citation": "Study 2 (2017)"
+    },
+    {
+      "doi": "10.8914/j.neuropsychopharmacol.2022.8997",
+      "citation": "Study 3 (2022)"
+    },
+    {
+      "doi": "10.4669/j.low_quality_journal.2015.6542",
+      "citation": "Study 4 (2015)"
+    }
+  ]
+}

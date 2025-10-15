@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+modafinil_2023_1,2023,RCT,SMD,0.119,-0.431,0.668,93,73,high,10.9864/j.clin_j_am_soc_nephrol.2023.1588,clin_j_am_soc_nephrol,Modafinil supplement,Placebo,MMSE score,6,Students
+modafinil_2011_2,2011,cohort,SMD,0.163,-0.247,0.573,115,37,some,10.1474/j.circulation.2011.1753,circulation,Modafinil supplement,Control group,Digit span test,4,Students
+modafinil_2013_3,2013,RCT,SMD,0.128,-0.171,0.427,97,112,some,10.3868/j.psychopharmacology.2013.2293,psychopharmacology,Modafinil supplement,Placebo,Trail Making Test,16,Adults with mild cognitive impairment

@@ -1,0 +1,18 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_rhodiola-rosea_cognition, title={Rhodiola Rosea for Cognition}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Bronze tier}}",
+  "studies": [
+    {
+      "doi": "10.2210/j.psychopharmacology.2020.8237",
+      "citation": "Study 1 (2020)"
+    },
+    {
+      "doi": "10.6881/j.kidney_int.2014.5847",
+      "citation": "Study 2 (2014)"
+    },
+    {
+      "doi": "10.4770/j.circulation.2020.6772",
+      "citation": "Study 3 (2020)"
+    }
+  ]
+}

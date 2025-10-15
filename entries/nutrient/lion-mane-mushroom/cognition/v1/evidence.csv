@@ -1,0 +1,6 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+lion-mane-mushroom_2020_1,2020,RCT,SMD,0.119,-0.612,0.849,81,29,some,10.2476/j.neuropsychopharmacol.2020.5835,neuropsychopharmacol,Lion Mane Mushroom supplement,Placebo,Digit span test,24,Middle-aged adults
+lion-mane-mushroom_2018_2,2018,cohort,SMD,0.163,-0.072,0.399,71,92,some,10.3695/j.am_j_cardiol.2018.5210,am_j_cardiol,Lion Mane Mushroom supplement,Control group,Trail Making Test,8,Students
+lion-mane-mushroom_2012_3,2012,cohort,SMD,0.128,-0.428,0.684,53,111,some,10.6992/j.kidney_int.2012.2479,kidney_int,Lion Mane Mushroom supplement,Control group,Trail Making Test,4,Students
+lion-mane-mushroom_2021_4,2021,RCT,SMD,0.213,-0.089,0.515,99,73,high,10.2775/j.eur_heart_j.2021.4830,eur_heart_j,Lion Mane Mushroom supplement,Placebo,Trail Making Test,4,Students
+lion-mane-mushroom_2017_5,2017,cohort,SMD,0.344,-0.195,0.882,63,108,some,10.1742/j.neuropsychopharmacol.2017.1609,neuropsychopharmacol,Lion Mane Mushroom supplement,Control group,Digit span test,12,Healthy elderly

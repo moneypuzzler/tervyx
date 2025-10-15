@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "nutrient:coq10:cardiovascular:v1",
+  "title": "Coq10 \u2014 Cardiovascular",
+  "category": "cardiovascular",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 1.0,
+  "gate_results": {
+    "phi": "PASS",
+    "r": "HIGH",
+    "j": 0.575,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 4,
+    "total_n": 642,
+    "I2": 91.7,
+    "tau2": 0.17717321,
+    "mu_hat": 3.317099,
+    "mu_CI95": [
+      2.876202,
+      3.757997
+    ]
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "audit_hash": "0x398ed3c6",
+  "policy_fingerprint": "sha256:tervyx_v1_generated_entries",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-15T10:00:00Z",
+  "llm_hint": "TEL-5=Gold, PASS; \u03a6/K no violations; cardiovascular \u03b4=2.0; REML+MC"
+}

@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+rhodiola_2012_1,2012,RCT,SMD,-0.436,-0.74,-0.131,51,77,some,10.2020/j.clin_j_am_soc_nephrol.2012.3262,clin_j_am_soc_nephrol,Rhodiola supplement,Placebo,GAD-7 score,16,College students
+rhodiola_2012_2,2012,RCT,SMD,-0.361,-0.598,-0.124,93,68,some,10.8932/j.am_j_cardiol.2012.4150,am_j_cardiol,Rhodiola supplement,Placebo,GAD-7 score,8,College students
+rhodiola_2021_3,2021,RCT,SMD,-0.419,-0.913,0.074,115,87,some,10.5480/j.eur_heart_j.2021.5715,eur_heart_j,Rhodiola supplement,Placebo,PHQ-9 score,16,Elderly with mood disorders

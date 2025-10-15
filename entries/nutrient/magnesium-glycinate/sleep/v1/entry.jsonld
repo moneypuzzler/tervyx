@@ -6,25 +6,34 @@
   "category": "sleep",
   "tier": "Gold",
   "label": "PASS",
-  "P_effect_gt_delta": 0.978,
+  "P_effect_gt_delta": 0.8901,
   "gate_results": {
     "phi": "PASS",
-    "r": 0.9,
-    "j": 0.59,
+    "r": "HIGH",
+    "j": 0.81,
     "k": "PASS",
     "l": "PASS"
   },
   "evidence_summary": {
-    "n_studies": 3,
-    "I2": 0.0,
-    "tau2": 0.0
+    "n_studies": 4,
+    "total_n": 599,
+    "I2": 0,
+    "tau2": 0,
+    "mu_hat": 0.297711,
+    "mu_CI95": [
+      0.14223,
+      0.453192
+    ]
   },
   "policy_refs": {
-    "policy_version": "v1.0.1",
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
     "journal_trust": "2025-10-05"
   },
   "version": "v1",
-  "audit_hash": "sha256:5e7cc6e27d93d2c9d1d9148845132f120576f8561eda0bbb9b7153ead9f0763e",
-  "policy_fingerprint": "sha256:c1d2e332441c9cccf0e8a7fd3a5c565e92cd60267e88d6b220d30127562ced72",
-  "created": "2025-10-06T02:47:01.152283Z"
+  "audit_hash": "0x26736d75",
+  "policy_fingerprint": "sha256:tervyx_v1_generated_entries",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-15T10:00:00Z",
+  "llm_hint": "TEL-5=Gold, PASS; \u03a6/K no violations; sleep \u03b4=0.2; REML+MC"
 }

@@ -1,0 +1,5 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+lemon-balm_2013_1,2013,RCT,SMD,-0.352,-0.839,0.135,113,105,low,10.2983/j.circulation.2013.1672,circulation,Lemon Balm supplement,Placebo,Sleep latency (min),16,College students
+lemon-balm_2015_2,2015,RCT,SMD,-0.296,-0.697,0.106,78,87,low,10.8532/j.eur_heart_j.2015.3506,eur_heart_j,Lemon Balm supplement,Placebo,ISI score,6,Shift workers
+lemon-balm_2021_3,2021,RCT,SMD,-0.34,-0.609,-0.07,66,56,high,10.5569/j.sleep_health.2021.8385,sleep_health,Lemon Balm supplement,Placebo,Sleep efficiency %,12,College students
+lemon-balm_2015_4,2015,RCT,SMD,-0.233,-0.655,0.189,52,70,some,10.5581/j.jacc.2015.5526,jacc,Lemon Balm supplement,Placebo,PSQI total score,16,Elderly with sleep complaints

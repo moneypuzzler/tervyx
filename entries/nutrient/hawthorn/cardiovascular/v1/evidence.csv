@@ -1,0 +1,5 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+hawthorn_2021_1,2021,cohort,MD,-3.518,-3.859,-3.177,59,118,high,10.6488/j.sleep_medicine.2021.8034,sleep_medicine,Hawthorn supplement,Control group,Total cholesterol,16,Adults with hypertension
+hawthorn_2018_2,2018,RCT,MD,-2.958,-3.393,-2.524,88,97,low,10.5179/j.psychopharmacology.2018.2685,psychopharmacology,Hawthorn supplement,Placebo,Systolic BP (mmHg),6,Adults with hypertension
+hawthorn_2017_3,2017,RCT,MD,-3.396,-3.858,-2.934,44,47,high,10.7870/j.j_sleep_res.2017.4678,j_sleep_res,Hawthorn supplement,Placebo,Total cholesterol,6,Post-MI patients
+hawthorn_2019_4,2019,RCT,MD,-2.334,-2.829,-1.84,89,111,high,10.4656/j.psychopharmacology.2019.9450,psychopharmacology,Hawthorn supplement,Placebo,Systolic BP (mmHg),12,Adults with hypertension

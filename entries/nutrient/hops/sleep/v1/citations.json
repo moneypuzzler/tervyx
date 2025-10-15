@@ -1,0 +1,26 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_hops_sleep, title={Hops for Sleep}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Gold tier}}",
+  "studies": [
+    {
+      "doi": "10.7389/j.circulation.2022.7865",
+      "citation": "Study 1 (2022)"
+    },
+    {
+      "doi": "10.3091/j.am_j_kidney_dis.2016.9751",
+      "citation": "Study 2 (2016)"
+    },
+    {
+      "doi": "10.6355/j.am_j_kidney_dis.2017.6529",
+      "citation": "Study 3 (2017)"
+    },
+    {
+      "doi": "10.1508/j.j_sleep_res.2021.5051",
+      "citation": "Study 4 (2021)"
+    },
+    {
+      "doi": "10.3749/j.eur_heart_j.2011.2876",
+      "citation": "Study 5 (2011)"
+    }
+  ]
+}

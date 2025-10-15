@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "nutrient:herbal-mixtures:renal_safety:v1",
+  "title": "Herbal Mixtures \u2014 Renal Safety",
+  "category": "renal_safety",
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.0,
+  "gate_results": {
+    "phi": "PASS",
+    "r": "LOW",
+    "j": 0.415,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 2,
+    "total_n": 295,
+    "I2": 97.6,
+    "tau2": 0.29401103,
+    "mu_hat": -1.780834,
+    "mu_CI95": [
+      -2.551547,
+      -1.010121
+    ]
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "audit_hash": "0x2a8dc166",
+  "policy_fingerprint": "sha256:tervyx_v1_generated_entries",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-15T10:00:00Z",
+  "llm_hint": "TEL-5=Black, FAIL; \u03a6/K no violations; renal_safety \u03b4=5.0; REML+MC"
+}

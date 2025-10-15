@@ -1,0 +1,5 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+tart-cherry_2017_1,2017,RCT,SMD,-0.352,-0.738,0.035,27,36,low,10.4986/j.kidney_int.2017.6016,kidney_int,Tart Cherry supplement,Placebo,Sleep latency (min),12,Shift workers
+tart-cherry_2017_2,2017,RCT,SMD,-0.296,-0.56,-0.031,57,54,low,10.6169/j.j_psychopharmacol.2017.2958,j_psychopharmacol,Tart Cherry supplement,Placebo,Sleep efficiency %,6,Elderly with sleep complaints
+tart-cherry_2022_3,2022,RCT,SMD,-0.34,-0.747,0.068,61,37,high,10.4727/j.circulation.2022.6912,circulation,Tart Cherry supplement,Placebo,Sleep efficiency %,8,Adults with insomnia
+tart-cherry_2010_4,2010,RCT,SMD,-0.233,-0.42,-0.046,114,41,some,10.2680/j.clin_j_am_soc_nephrol.2010.1200,clin_j_am_soc_nephrol,Tart Cherry supplement,Placebo,Sleep latency (min),12,College students

@@ -1,0 +1,14 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_ginkgo-biloba_cognition, title={Ginkgo Biloba for Cognition}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Red tier}}",
+  "studies": [
+    {
+      "doi": "10.9149/j.sleep_medicine.2022.8055",
+      "citation": "Study 1 (2022)"
+    },
+    {
+      "doi": "10.8147/j.j_sleep_res.2020.1307",
+      "citation": "Study 2 (2020)"
+    }
+  ]
+}

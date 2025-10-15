@@ -1,0 +1,26 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_bacopa-monnieri_cognition, title={Bacopa Monnieri for Cognition}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Silver tier}}",
+  "studies": [
+    {
+      "doi": "10.3112/j.kidney_int.2020.2388",
+      "citation": "Study 1 (2020)"
+    },
+    {
+      "doi": "10.9331/j.nephrol_dial_transplant.2023.6928",
+      "citation": "Study 2 (2023)"
+    },
+    {
+      "doi": "10.2657/j.circulation.2022.9317",
+      "citation": "Study 3 (2022)"
+    },
+    {
+      "doi": "10.7731/j.j_sleep_res.2012.6968",
+      "citation": "Study 4 (2012)"
+    },
+    {
+      "doi": "10.8218/j.low_quality_journal.2014.8564",
+      "citation": "Study 5 (2014)"
+    }
+  ]
+}

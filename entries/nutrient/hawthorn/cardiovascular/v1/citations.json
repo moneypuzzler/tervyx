@@ -1,0 +1,22 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_hawthorn_cardiovascular, title={Hawthorn for Cardiovascular}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Gold tier}}",
+  "studies": [
+    {
+      "doi": "10.6488/j.sleep_medicine.2021.8034",
+      "citation": "Study 1 (2021)"
+    },
+    {
+      "doi": "10.5179/j.psychopharmacology.2018.2685",
+      "citation": "Study 2 (2018)"
+    },
+    {
+      "doi": "10.7870/j.j_sleep_res.2017.4678",
+      "citation": "Study 3 (2017)"
+    },
+    {
+      "doi": "10.4656/j.psychopharmacology.2019.9450",
+      "citation": "Study 4 (2019)"
+    }
+  ]
+}

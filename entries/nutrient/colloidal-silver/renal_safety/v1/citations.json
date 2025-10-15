@@ -1,0 +1,26 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_colloidal-silver_renal_safety, title={Colloidal Silver for Renal Safety}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Black tier}}",
+  "studies": [
+    {
+      "doi": "10.3872/j.low_quality_journal.2018.7199",
+      "citation": "Study 1 (2018)"
+    },
+    {
+      "doi": "10.4619/j.jacc.2021.2705",
+      "citation": "Study 2 (2021)"
+    },
+    {
+      "doi": "10.8317/j.jacc.2015.1186",
+      "citation": "Study 3 (2015)"
+    },
+    {
+      "doi": "10.3725/j.nephrol_dial_transplant.2011.7783",
+      "citation": "Study 4 (2011)"
+    },
+    {
+      "doi": "10.2207/j.am_j_kidney_dis.2022.1547",
+      "citation": "Study 5 (2022)"
+    }
+  ]
+}

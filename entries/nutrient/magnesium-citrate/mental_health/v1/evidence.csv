@@ -1,0 +1,5 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+magnesium-citrate_2019_1,2019,RCT,SMD,-0.436,-0.736,-0.136,81,29,low,10.7001/j.eur_neuropsychopharmacol.2019.6933,eur_neuropsychopharmacol,Magnesium Citrate supplement,Placebo,Beck Depression Inventory,16,Adults with depression
+magnesium-citrate_2015_2,2015,RCT,SMD,-0.361,-0.902,0.18,34,98,low,10.7521/j.eur_heart_j.2015.6150,eur_heart_j,Magnesium Citrate supplement,Placebo,Hamilton Depression Scale,6,Adults with depression
+magnesium-citrate_2016_3,2016,cohort,SMD,-0.419,-0.927,0.088,40,58,some,10.4515/j.am_j_kidney_dis.2016.5678,am_j_kidney_dis,Magnesium Citrate supplement,Control group,Beck Depression Inventory,6,Adults with depression
+magnesium-citrate_2024_4,2024,cohort,SMD,-0.278,-0.759,0.204,36,112,high,10.6692/j.jacc.2024.2063,jacc,Magnesium Citrate supplement,Control group,Hamilton Depression Scale,8,Patients with anxiety

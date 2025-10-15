@@ -1,0 +1,6 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+ashwagandha_2021_1,2021,RCT,SMD,-0.436,-0.615,-0.256,81,108,low,10.4505/j.clin_j_am_soc_nephrol.2021.4310,clin_j_am_soc_nephrol,Ashwagandha supplement,Placebo,Hamilton Depression Scale,16,College students
+ashwagandha_2019_2,2019,RCT,SMD,-0.361,-0.914,0.191,31,110,high,10.4814/j.eur_neuropsychopharmacol.2019.1860,eur_neuropsychopharmacol,Ashwagandha supplement,Placebo,PHQ-9 score,12,College students
+ashwagandha_2012_3,2012,RCT,SMD,-0.419,-0.858,0.019,95,45,some,10.8822/j.clin_j_am_soc_nephrol.2012.4267,clin_j_am_soc_nephrol,Ashwagandha supplement,Placebo,Hamilton Depression Scale,8,College students
+ashwagandha_2013_4,2013,RCT,SMD,-0.278,-0.938,0.383,117,29,high,10.7846/j.psychopharmacology.2013.3880,psychopharmacology,Ashwagandha supplement,Placebo,PHQ-9 score,12,Elderly with mood disorders
+ashwagandha_2010_5,2010,RCT,SMD,-0.061,-0.621,0.5,102,38,high,10.5662/j.jacc.2010.8444,jacc,Ashwagandha supplement,Placebo,Beck Depression Inventory,6,Elderly with mood disorders

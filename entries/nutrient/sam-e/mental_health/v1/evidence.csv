@@ -1,0 +1,6 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+sam-e_2018_1,2018,RCT,SMD,-0.436,-0.644,-0.228,41,118,high,10.1372/j.sleep_medicine.2018.5888,sleep_medicine,Sam E supplement,Placebo,Beck Depression Inventory,24,Elderly with mood disorders
+sam-e_2015_2,2015,RCT,SMD,-0.361,-0.606,-0.117,49,117,some,10.7868/j.j_sleep_res.2015.1256,j_sleep_res,Sam E supplement,Placebo,GAD-7 score,6,Adults with depression
+sam-e_2020_3,2020,cohort,SMD,-0.419,-0.956,0.117,31,56,some,10.8191/j.kidney_int.2020.4839,kidney_int,Sam E supplement,Control group,GAD-7 score,4,Patients with anxiety
+sam-e_2024_4,2024,cohort,SMD,-0.278,-0.492,-0.063,65,98,some,10.4881/j.jacc.2024.5944,jacc,Sam E supplement,Control group,GAD-7 score,24,Patients with anxiety
+sam-e_2018_5,2018,cohort,SMD,-0.061,-0.301,0.18,119,47,some,10.9120/j.nephrol_dial_transplant.2018.1768,nephrol_dial_transplant,Sam E supplement,Control group,Hamilton Depression Scale,24,Elderly with mood disorders

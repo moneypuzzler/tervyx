@@ -1,0 +1,22 @@
+{
+  "preferred_citation": "Generated TERVYX entry (2025)",
+  "bibtex": "@dataset{tervyx_bergamot_cardiovascular, title={Bergamot for Cardiovascular}, year={2025}, note={TERVYX Protocol v1.0, TEL-5 Gold tier}}",
+  "studies": [
+    {
+      "doi": "10.1660/j.circulation.2017.4522",
+      "citation": "Study 1 (2017)"
+    },
+    {
+      "doi": "10.8408/j.kidney_int.2010.5093",
+      "citation": "Study 2 (2010)"
+    },
+    {
+      "doi": "10.7098/j.kidney_int.2023.2376",
+      "citation": "Study 3 (2023)"
+    },
+    {
+      "doi": "10.1829/j.am_j_kidney_dis.2017.3752",
+      "citation": "Study 4 (2017)"
+    }
+  ]
+}

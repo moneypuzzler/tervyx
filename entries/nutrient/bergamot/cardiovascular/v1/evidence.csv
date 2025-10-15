@@ -1,0 +1,5 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
+bergamot_2017_1,2017,RCT,MD,-3.518,-3.858,-3.177,40,36,low,10.1660/j.circulation.2017.4522,circulation,Bergamot supplement,Placebo,Total cholesterol,6,Adults with hypertension
+bergamot_2010_2,2010,RCT,MD,-2.958,-3.266,-2.65,58,47,low,10.8408/j.kidney_int.2010.5093,kidney_int,Bergamot supplement,Placebo,Systolic BP (mmHg),12,Adults with hypertension
+bergamot_2023_3,2023,cohort,MD,-3.396,-3.593,-3.199,53,41,low,10.7098/j.kidney_int.2023.2376,kidney_int,Bergamot supplement,Control group,Total cholesterol,4,Adults with hypertension
+bergamot_2017_4,2017,cohort,MD,-2.334,-3.04,-1.629,36,67,low,10.1829/j.am_j_kidney_dis.2017.3752,am_j_kidney_dis,Bergamot supplement,Control group,HDL cholesterol,24,Post-MI patients

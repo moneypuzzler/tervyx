@@ -1,0 +1,149 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "identifier": "tervyx-protocol",
+  "name": "TERVYX Protocol",
+  "description": "A reproducible governance and labeling standard for health-information evidence evaluation using TEL-5 classification system and Gate Governance Protocol with patent-protected methodologies.",
+  "version": "1.0",
+  "dateCreated": "2025-10-15",
+  "dateModified": "2025-10-15",
+  "datePublished": "2025-10-15",
+  "codeRepository": "https://github.com/moneypuzzler/tervyx",
+  "issueTracker": "https://github.com/moneypuzzler/tervyx/issues",
+  "license": "https://spdx.org/licenses/MIT",
+  "programmingLanguage": [
+    "Python"
+  ],
+  "runtimePlatform": [
+    "Python 3.8+",
+    "Linux",
+    "macOS", 
+    "Windows"
+  ],
+  "operatingSystem": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "softwareRequirements": [
+    "numpy",
+    "scipy", 
+    "pandas",
+    "aiohttp",
+    "sqlite3"
+  ],
+  "relatedLink": [
+    "https://github.com/moneypuzzler/tervyx/blob/main/TERVYX_Protocol_v1.0.md",
+    "https://github.com/moneypuzzler/tervyx/tree/main/system"
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Geonyeop",
+      "familyName": "Kim", 
+      "email": "contact@tervyx.org",
+      "@id": "https://orcid.org/0009-0005-7640-2510",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Independent Researcher"
+      }
+    }
+  ],
+  "maintainer": [
+    {
+      "@type": "Person",
+      "givenName": "Geonyeop", 
+      "familyName": "Kim",
+      "email": "contact@tervyx.org",
+      "@id": "https://orcid.org/0009-0005-7640-2510"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "givenName": "Geonyeop",
+      "familyName": "Kim",
+      "@id": "https://orcid.org/0009-0005-7640-2510"
+    }
+  ],
+  "copyrightHolder": [
+    {
+      "@type": "Person", 
+      "givenName": "Geonyeop",
+      "familyName": "Kim"
+    }
+  ],
+  "applicationCategory": [
+    "Scientific Software",
+    "Data Analysis",
+    "Evidence-Based Medicine",
+    "Meta-Analysis"
+  ],
+  "keywords": [
+    "evidence-based medicine",
+    "meta-analysis", 
+    "health information",
+    "systematic review",
+    "nutritional supplements",
+    "reproducible research",
+    "REML estimation",
+    "Monte Carlo simulation",
+    "gate governance protocol",
+    "safety assessment",
+    "TEL-5 classification",
+    "TERVYX protocol"
+  ],
+  "softwareHelp": [
+    {
+      "@type": "WebPage",
+      "url": "https://github.com/moneypuzzler/tervyx/blob/main/README.md"
+    },
+    {
+      "@type": "WebPage", 
+      "url": "https://github.com/moneypuzzler/tervyx/blob/main/system/README.md"
+    }
+  ],
+  "readme": "https://github.com/moneypuzzler/tervyx/blob/main/README.md",
+  "buildInstructions": "https://github.com/moneypuzzler/tervyx/blob/main/README.md#installation",
+  "developmentStatus": "active",
+  "downloadUrl": "https://github.com/moneypuzzler/tervyx/archive/refs/heads/main.zip",
+  "funding": "Self-funded",
+  "isPartOf": "https://github.com/moneypuzzler/tervyx",
+  "referencePublication": [
+    {
+      "@type": "ScholarlyArticle",
+      "name": "TERVYX Protocol v1.0: A Reproducible Governance & Labeling Standard for Health-Information Evidence",
+      "author": [
+        {
+          "@type": "Person",
+          "givenName": "Geonyeop",
+          "familyName": "Kim"
+        }
+      ],
+      "datePublished": "2025",
+      "url": "https://github.com/moneypuzzler/tervyx/blob/main/TERVYX_Protocol_v1.0.md"
+    }
+  ],
+  "review": {
+    "@type": "Review",
+    "reviewBody": "Open source community review via GitHub",
+    "url": "https://github.com/moneypuzzler/tervyx/pulls"
+  },
+  "hasSourceCode": "https://github.com/moneypuzzler/tervyx",
+  "targetProduct": {
+    "@type": "SoftwareApplication",
+    "name": "TERVYX Evidence Evaluation System",
+    "applicationCategory": "Scientific Software",
+    "operatingSystem": [
+      "Linux",
+      "macOS", 
+      "Windows"
+    ]
+  },
+  "releaseNotes": "https://github.com/moneypuzzler/tervyx/releases",
+  "fileSize": "50MB",
+  "installUrl": "https://github.com/moneypuzzler/tervyx.git",
+  "contIntegration": "https://github.com/moneypuzzler/tervyx/actions",
+  "embargoDate": null,
+  "copyrightYear": 2025
+}

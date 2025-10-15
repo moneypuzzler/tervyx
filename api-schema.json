@@ -1,0 +1,395 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "TERVYX Protocol API",
+    "description": "API for accessing TERVYX evidence evaluations and TEL-5 classifications",
+    "version": "1.0.0",
+    "contact": {
+      "name": "TERVYX Protocol",
+      "email": "contact@tervyx.org",
+      "url": "https://github.com/moneypuzzler/tervyx"
+    },
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://api.tervyx.org/v1",
+      "description": "TERVYX Protocol API v1"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/moneypuzzler/tervyx/main",
+      "description": "GitHub Raw Content (Read-only)"
+    }
+  ],
+  "paths": {
+    "/entries/{category}": {
+      "get": {
+        "summary": "List all entries in a category",
+        "parameters": [
+          {
+            "name": "category",
+            "in": "path", 
+            "required": true,
+            "schema": {
+              "type": "string",
+              "enum": ["sleep", "cognition", "mental_health", "cardiovascular", "renal_safety"]
+            },
+            "description": "Evidence category"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "List of entries in category",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CategoryListing"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entries/{category}/{substance}": {
+      "get": {
+        "summary": "Get all entries for a substance in category",
+        "parameters": [
+          {
+            "name": "category", 
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "substance",
+            "in": "path",
+            "required": true, 
+            "schema": {
+              "type": "string"
+            },
+            "description": "Substance name (e.g., melatonin, omega-3)"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Substance entries",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SubstanceEntries"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entries/{category}/{substance}/{outcome}/v1/entry.jsonld": {
+      "get": {
+        "summary": "Get specific TERVYX entry",
+        "parameters": [
+          {
+            "name": "category",
+            "in": "path", 
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "substance",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string" 
+            }
+          },
+          {
+            "name": "outcome",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "TERVYX entry with complete evidence evaluation",
+            "content": {
+              "application/ld+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TERVYXEntry"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/search": {
+      "get": {
+        "summary": "Search TERVYX entries",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Search query (substance name, category, etc.)"
+          },
+          {
+            "name": "tier",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": ["Gold", "Silver", "Bronze", "Red", "Black"]
+            },
+            "description": "Filter by TEL-5 tier"
+          },
+          {
+            "name": "label",
+            "in": "query", 
+            "schema": {
+              "type": "string",
+              "enum": ["PASS", "AMBER", "FAIL"]
+            },
+            "description": "Filter by safety label"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Search results",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SearchResults"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "TERVYXEntry": {
+        "type": "object",
+        "required": ["@context", "@type", "id", "title", "category", "tier", "label", "P_effect_gt_delta", "gate_results", "evidence_summary"],
+        "properties": {
+          "@context": {
+            "type": "string",
+            "example": "https://schema.org/"
+          },
+          "@type": {
+            "type": "string",
+            "example": "Dataset"
+          },
+          "id": {
+            "type": "string", 
+            "description": "Unique entry identifier",
+            "example": "nutrient:melatonin:sleep:v1"
+          },
+          "title": {
+            "type": "string",
+            "description": "Human-readable entry title",
+            "example": "Melatonin — Sleep"
+          },
+          "category": {
+            "type": "string",
+            "enum": ["sleep", "cognition", "mental_health", "cardiovascular", "renal_safety"],
+            "description": "Evidence category"
+          },
+          "tier": {
+            "type": "string", 
+            "enum": ["Gold", "Silver", "Bronze", "Red", "Black"],
+            "description": "TEL-5 evidence tier"
+          },
+          "label": {
+            "type": "string",
+            "enum": ["PASS", "AMBER", "FAIL"], 
+            "description": "Safety and quality label"
+          },
+          "P_effect_gt_delta": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Probability that effect exceeds clinical significance threshold"
+          },
+          "gate_results": {
+            "$ref": "#/components/schemas/GateResults"
+          },
+          "evidence_summary": {
+            "$ref": "#/components/schemas/EvidenceSummary"
+          },
+          "llm_hint": {
+            "type": "string", 
+            "description": "Brief interpretation hint for AI systems",
+            "example": "TEL-5=Gold, PASS; strong sleep improvement evidence"
+          }
+        }
+      },
+      "GateResults": {
+        "type": "object",
+        "required": ["phi", "r", "j", "k", "l"],
+        "properties": {
+          "phi": {
+            "type": "string",
+            "enum": ["PASS", "FAIL"],
+            "description": "Φ-gate: Physiological plausibility"
+          },
+          "r": {
+            "type": "string", 
+            "enum": ["PASS", "FAIL", "LOW", "HIGH"],
+            "description": "R-gate: Relevance assessment"
+          },
+          "j": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "J-gate: Journal quality score"
+          },
+          "k": {
+            "type": "string",
+            "enum": ["PASS", "FAIL"],
+            "description": "K-gate: Safety assessment"
+          },
+          "l": {
+            "type": "string",
+            "enum": ["PASS", "FAIL"], 
+            "description": "L-gate: Language appropriateness"
+          }
+        }
+      },
+      "EvidenceSummary": {
+        "type": "object",
+        "required": ["n_studies", "total_n"],
+        "properties": {
+          "n_studies": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Number of studies included"
+          },
+          "total_n": {
+            "type": "integer", 
+            "minimum": 0,
+            "description": "Total number of participants"
+          },
+          "I2": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100,
+            "description": "I² heterogeneity statistic"
+          },
+          "tau2": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Between-study variance (τ²)"
+          },
+          "mu_hat": {
+            "type": "number",
+            "description": "Pooled effect size estimate"
+          },
+          "mu_CI95": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 2,
+            "maxItems": 2,
+            "description": "95% confidence interval for effect size"
+          }
+        }
+      },
+      "CategoryListing": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "entries": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "substance": {"type": "string"},
+                "outcome": {"type": "string"},
+                "tier": {"type": "string"},
+                "label": {"type": "string"},
+                "url": {"type": "string"}
+              }
+            }
+          },
+          "total_count": {
+            "type": "integer"
+          },
+          "tier_distribution": {
+            "type": "object",
+            "properties": {
+              "Gold": {"type": "integer"},
+              "Silver": {"type": "integer"}, 
+              "Bronze": {"type": "integer"},
+              "Red": {"type": "integer"},
+              "Black": {"type": "integer"}
+            }
+          }
+        }
+      },
+      "SubstanceEntries": {
+        "type": "object",
+        "properties": {
+          "substance": {"type": "string"},
+          "category": {"type": "string"},
+          "entries": {
+            "type": "array",
+            "items": {"$ref": "#/components/schemas/TERVYXEntry"}
+          }
+        }
+      },
+      "SearchResults": {
+        "type": "object",
+        "properties": {
+          "query": {"type": "string"},
+          "total_results": {"type": "integer"},
+          "results": {
+            "type": "array", 
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {"type": "string"},
+                "title": {"type": "string"},
+                "tier": {"type": "string"},
+                "label": {"type": "string"},
+                "category": {"type": "string"},
+                "url": {"type": "string"},
+                "relevance_score": {"type": "number"}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Entries",
+      "description": "TERVYX evidence entries"
+    },
+    {
+      "name": "Search", 
+      "description": "Search and discovery"
+    }
+  ],
+  "externalDocs": {
+    "description": "Complete TERVYX Protocol Documentation",
+    "url": "https://github.com/moneypuzzler/tervyx/blob/main/README.md"
+  }
+}

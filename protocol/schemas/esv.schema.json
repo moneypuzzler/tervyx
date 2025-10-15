@@ -1,0 +1,187 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tervyx.org/schemas/esv/v1.0.0",
+  "title": "Evidence State Vector (ESV) Schema",
+  "description": "Normalized atomic evidence unit schema for TERVYX Protocol",
+  "version": "1.0.0",
+  "type": "object",
+  "required": [
+    "study_id",
+    "year", 
+    "design",
+    "effect_type",
+    "effect_point",
+    "ci_low",
+    "ci_high",
+    "n_treat",
+    "n_ctrl",
+    "risk_of_bias",
+    "doi",
+    "journal_id"
+  ],
+  "properties": {
+    "study_id": {
+      "type": "string",
+      "description": "Unique study identifier",
+      "minLength": 1,
+      "maxLength": 100,
+      "examples": ["smith2023_rct", "jones2024_cohort"]
+    },
+    "year": {
+      "type": "integer",
+      "description": "Publication year",
+      "minimum": 1900,
+      "maximum": 2030
+    },
+    "design": {
+      "type": "string", 
+      "description": "Study design type",
+      "enum": [
+        "RCT",
+        "cohort",
+        "case-control",
+        "cross-sectional",
+        "case-series",
+        "systematic-review",
+        "meta-analysis",
+        "other"
+      ]
+    },
+    "effect_type": {
+      "type": "string",
+      "description": "Effect size type",
+      "enum": [
+        "SMD",
+        "MD", 
+        "OR",
+        "RR",
+        "HR",
+        "Cohen-d",
+        "Hedges-g"
+      ]
+    },
+    "effect_point": {
+      "type": "number",
+      "description": "Point estimate of effect size",
+      "examples": [0.18, -0.32, 1.25]
+    },
+    "ci_low": {
+      "type": "number",
+      "description": "95% confidence interval lower bound"
+    },
+    "ci_high": {
+      "type": "number", 
+      "description": "95% confidence interval upper bound"
+    },
+    "n_treat": {
+      "type": "integer",
+      "description": "Treatment group sample size",
+      "minimum": 1
+    },
+    "n_ctrl": {
+      "type": "integer",
+      "description": "Control group sample size", 
+      "minimum": 1
+    },
+    "risk_of_bias": {
+      "type": "string",
+      "description": "Risk of bias assessment",
+      "enum": ["low", "some", "high", "unclear"]
+    },
+    "doi": {
+      "type": "string",
+      "description": "Digital Object Identifier",
+      "pattern": "^10\\..+/.+$",
+      "examples": ["10.1001/jama.2023.12345", "10.1016/j.sleep.2024.01.001"]
+    },
+    "journal_id": {
+      "type": "string", 
+      "description": "Journal identifier (links to Journal-Trust Oracle)",
+      "minLength": 1,
+      "maxLength": 50,
+      "examples": ["sleep_med", "jama", "nejm", "bmj"]
+    },
+    "pmid": {
+      "type": "string",
+      "description": "PubMed ID (optional)",
+      "pattern": "^[0-9]+$"
+    },
+    "title": {
+      "type": "string",
+      "description": "Study title (optional)",
+      "maxLength": 500
+    },
+    "authors": {
+      "type": "string",
+      "description": "First author or author list (optional)",
+      "maxLength": 200
+    },
+    "intervention": {
+      "type": "string",
+      "description": "Intervention description",
+      "maxLength": 200,
+      "examples": ["Magnesium glycinate 400mg", "Omega-3 2g daily"]
+    },
+    "control": {
+      "type": "string", 
+      "description": "Control/comparator description",
+      "maxLength": 200,
+      "examples": ["Placebo", "No treatment", "Standard care"]
+    },
+    "outcome": {
+      "type": "string",
+      "description": "Primary outcome measure",
+      "maxLength": 200,
+      "examples": ["PSQI total score", "Sleep efficiency %", "Sleep latency (min)"]
+    },
+    "duration_weeks": {
+      "type": "number",
+      "description": "Intervention duration in weeks",
+      "minimum": 0
+    },
+    "population": {
+      "type": "string",
+      "description": "Study population description",
+      "maxLength": 200,
+      "examples": ["Adults with insomnia", "Healthy elderly", "College students"]
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional notes or comments",
+      "maxLength": 500
+    },
+    "extracted_by": {
+      "type": "string",
+      "description": "Data extractor identifier",
+      "maxLength": 50
+    },
+    "extraction_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of data extraction (YYYY-MM-DD)"
+    }
+  },
+  "additionalProperties": false,
+  "examples": [
+    {
+      "study_id": "abbasi2012_sleep",
+      "year": 2012,
+      "design": "RCT", 
+      "effect_type": "SMD",
+      "effect_point": -0.32,
+      "ci_low": -0.55,
+      "ci_high": -0.09,
+      "n_treat": 23,
+      "n_ctrl": 23,
+      "risk_of_bias": "some",
+      "doi": "10.1016/j.sleep.2012.07.007",
+      "journal_id": "sleep_medicine",
+      "pmid": "22906286",
+      "intervention": "Magnesium 500mg daily",
+      "control": "Placebo",
+      "outcome": "PSQI total score", 
+      "duration_weeks": 8,
+      "population": "Elderly with insomnia"
+    }
+  ]
+}
