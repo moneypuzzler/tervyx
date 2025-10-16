@@ -6,7 +6,6 @@ Implements actual PubMed E-utilities API integration for paper search and metada
 Handles rate limiting, XML parsing, and data enrichment from multiple sources.
 """
 
-import requests
 import xml.etree.ElementTree as ET
 import asyncio
 import aiohttp
@@ -16,6 +15,9 @@ import json
 import time
 import re
 from urllib.parse import quote
+import csv
+from pathlib import Path
+from datetime import datetime
 
 @dataclass
 class PubMedPaper:
@@ -42,20 +44,203 @@ class PubMedPaper:
         if self.grant_numbers is None:
             self.grant_numbers = []
 
+
+class _PubMedPaperCache:
+    """Simple CSV-backed cache for PubMed papers."""
+
+    FIELDNAMES = [
+        "cache_key",
+        "pmid",
+        "doi",
+        "title",
+        "abstract",
+        "authors_json",
+        "journal",
+        "journal_issn",
+        "publication_year",
+        "mesh_terms_json",
+        "publication_types_json",
+        "grant_numbers_json",
+        "last_seen",
+        "substances_json",
+        "outcomes_json",
+    ]
+
+    def __init__(self, path: Path) -> None:
+        self.path = path
+        self.by_key: Dict[str, Dict[str, str]] = {}
+        self.by_pmid: Dict[str, Dict[str, str]] = {}
+        self.dirty = False
+
+        self._ensure_file()
+        self._load()
+
+    def _ensure_file(self) -> None:
+        self.path.parent.mkdir(parents=True, exist_ok=True)
+        if not self.path.exists():
+            with self.path.open("w", newline="", encoding="utf-8") as handle:
+                writer = csv.DictWriter(handle, fieldnames=self.FIELDNAMES)
+                writer.writeheader()
+
+    def _load(self) -> None:
+        with self.path.open("r", newline="", encoding="utf-8") as handle:
+            reader = csv.DictReader(handle)
+            for row in reader:
+                key = row.get("cache_key") or row.get("doi") or f"PMID:{row['pmid']}"
+                self.by_key[key] = row
+                self.by_pmid[row["pmid"]] = row
+
+    def _row_to_paper(self, row: Dict[str, str]) -> PubMedPaper:
+        def _loads(field: str) -> List[str]:
+            if not row.get(field):
+                return []
+            try:
+                loaded = json.loads(row[field])
+                if isinstance(loaded, list):
+                    return loaded
+            except json.JSONDecodeError:
+                pass
+            return []
+
+        return PubMedPaper(
+            pmid=row["pmid"],
+            doi=row.get("doi") or None,
+            title=row.get("title", ""),
+            abstract=row.get("abstract", ""),
+            authors=_loads("authors_json"),
+            journal=row.get("journal", ""),
+            journal_issn=row.get("journal_issn", ""),
+            publication_year=int(row.get("publication_year") or 0),
+            mesh_terms=_loads("mesh_terms_json"),
+            publication_types=_loads("publication_types_json"),
+            grant_numbers=_loads("grant_numbers_json"),
+        )
+
+    def get_many(
+        self,
+        pmids: List[str],
+        *,
+        substance: Optional[str] = None,
+        outcome: Optional[str] = None,
+    ) -> Dict[str, PubMedPaper]:
+        results: Dict[str, PubMedPaper] = {}
+
+        for pmid in pmids:
+            row = self.by_pmid.get(pmid)
+            if not row:
+                continue
+            self._update_context(row, substance=substance, outcome=outcome)
+            results[pmid] = self._row_to_paper(row)
+
+        if results:
+            self.dirty = True
+
+        return results
+
+    def _update_context(
+        self,
+        row: Dict[str, str],
+        *,
+        substance: Optional[str] = None,
+        outcome: Optional[str] = None,
+    ) -> None:
+        changed = False
+
+        if substance:
+            substances = set()
+            if row.get("substances_json"):
+                try:
+                    substances = set(json.loads(row["substances_json"]))
+                except json.JSONDecodeError:
+                    substances = set()
+            if substance not in substances:
+                substances.add(substance)
+                row["substances_json"] = json.dumps(sorted(substances))
+                changed = True
+
+        if outcome:
+            outcomes = set()
+            if row.get("outcomes_json"):
+                try:
+                    outcomes = set(json.loads(row["outcomes_json"]))
+                except json.JSONDecodeError:
+                    outcomes = set()
+            if outcome not in outcomes:
+                outcomes.add(outcome)
+                row["outcomes_json"] = json.dumps(sorted(outcomes))
+                changed = True
+
+        if changed:
+            row["last_seen"] = datetime.utcnow().isoformat()
+
+    def store(
+        self,
+        paper: PubMedPaper,
+        *,
+        substance: Optional[str] = None,
+        outcome: Optional[str] = None,
+    ) -> None:
+        key = (paper.doi or "").lower() or f"PMID:{paper.pmid}"
+        record = self.by_key.get(key, {}).copy()
+
+        record.update(
+            {
+                "cache_key": key,
+                "pmid": paper.pmid,
+                "doi": paper.doi or "",
+                "title": paper.title,
+                "abstract": paper.abstract,
+                "authors_json": json.dumps(paper.authors, ensure_ascii=False),
+                "journal": paper.journal,
+                "journal_issn": paper.journal_issn,
+                "publication_year": str(paper.publication_year or 0),
+                "mesh_terms_json": json.dumps(paper.mesh_terms, ensure_ascii=False),
+                "publication_types_json": json.dumps(
+                    paper.publication_types, ensure_ascii=False
+                ),
+                "grant_numbers_json": json.dumps(paper.grant_numbers, ensure_ascii=False),
+                "last_seen": datetime.utcnow().isoformat(),
+            }
+        )
+
+        self.by_key[key] = record
+        self.by_pmid[paper.pmid] = record
+
+        self._update_context(record, substance=substance, outcome=outcome)
+
+        self.dirty = True
+
+    def flush(self) -> None:
+        with self.path.open("w", newline="", encoding="utf-8") as handle:
+            writer = csv.DictWriter(handle, fieldnames=self.FIELDNAMES)
+            writer.writeheader()
+            for key in sorted(self.by_key):
+                writer.writerow(self.by_key[key])
+
+        self.dirty = False
+
+
 class PubMedAPI:
     """
     Production-ready PubMed API client with rate limiting and error handling
     """
-    
+
+    CACHE_FILENAME = "pubmed_cache.csv"
+
     def __init__(self, email: str, tool_name: str = "tervyx", api_key: Optional[str] = None):
         self.email = email
         self.tool_name = tool_name
         self.api_key = api_key  # Optional NCBI API key for higher rate limits
         self.base_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
-        
+
         # Rate limiting: 3 requests/second without API key, 10/second with key
         self.rate_limit = 10 if api_key else 3
         self.last_request_time = 0
+
+        # Disk cache for previously fetched paper metadata
+        root = Path(__file__).resolve().parents[1]
+        cache_path = root / "registry" / self.CACHE_FILENAME
+        self._paper_cache = _PubMedPaperCache(cache_path)
         
     async def _rate_limit(self):
         """Enforce rate limiting"""
@@ -243,27 +428,51 @@ class PubMedAPI:
         
         return outcome_mappings.get(outcome, [outcome])
     
-    async def fetch_detailed_metadata(self, pmids: List[str], batch_size: int = 20) -> List[PubMedPaper]:
+    async def fetch_detailed_metadata(
+        self,
+        pmids: List[str],
+        batch_size: int = 20,
+        *,
+        substance: Optional[str] = None,
+        outcome: Optional[str] = None,
+    ) -> List[PubMedPaper]:
         """
         Fetch detailed metadata for papers in batches
         """
         if not pmids:
             return []
-        
-        papers = []
-        
+
+        paper_map: Dict[str, PubMedPaper] = {}
+
+        # Populate with cached papers first
+        cached = self._paper_cache.get_many(pmids, substance=substance, outcome=outcome)
+        paper_map.update(cached)
+
         # Process in batches to avoid overwhelming the API
-        for i in range(0, len(pmids), batch_size):
-            batch_pmids = pmids[i:i + batch_size]
+        missing_pmids = [pmid for pmid in pmids if pmid not in paper_map]
+
+        for i in range(0, len(missing_pmids), batch_size):
+            batch_pmids = missing_pmids[i : i + batch_size]
+            if not batch_pmids:
+                continue
             batch_papers = await self._fetch_batch_metadata(batch_pmids)
-            papers.extend(batch_papers)
-            
+            for paper in batch_papers:
+                paper_map[paper.pmid] = paper
+                self._paper_cache.store(paper, substance=substance, outcome=outcome)
+
             # Rate limiting between batches
-            if i + batch_size < len(pmids):
+            if i + batch_size < len(missing_pmids):
                 await asyncio.sleep(0.5)
-        
-        print(f"📄 Successfully fetched metadata for {len(papers)}/{len(pmids)} papers")
-        return papers
+
+        if self._paper_cache.dirty:
+            self._paper_cache.flush()
+
+        ordered_papers = [paper_map[pmid] for pmid in pmids if pmid in paper_map]
+
+        print(
+            f"📄 Successfully fetched metadata for {len(ordered_papers)}/{len(pmids)} papers"
+        )
+        return ordered_papers
     
     async def _fetch_batch_metadata(self, pmids: List[str]) -> List[PubMedPaper]:
         """Fetch metadata for a batch of PMIDs"""
@@ -471,7 +680,11 @@ async def test_pubmed_integration():
             
             if pmids:
                 # Fetch detailed metadata
-                papers = await pubmed.fetch_detailed_metadata(pmids[:10])  # Limit for testing
+                papers = await pubmed.fetch_detailed_metadata(
+                    pmids[:10],
+                    substance=substance,
+                    outcome=outcome,
+                )  # Limit for testing
                 
                 # Analyze results
                 rcts = [p for p in papers if 'randomized controlled trial' in ' '.join(p.publication_types).lower()]
