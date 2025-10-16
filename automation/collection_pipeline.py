@@ -1,5 +1,5 @@
 """
-VERA Protocol - Automated Collection Pipeline
+TERVYX Protocol - Automated Collection Pipeline
 Integrates OpenAlex, PubMed, and Crossref APIs for evidence collection
 """
 
@@ -67,7 +67,7 @@ class CollectionPipeline:
         self.logger = logging.getLogger(__name__)
         
         # Email for API requests (required by some APIs)
-        self.email = "research@vera-protocol.org"
+        self.email = "research@tervyx-protocol.org"
     
     def collect_evidence(self, search_query: str, max_results: int = 100,
                         databases: List[str] = None) -> List[StudyRecord]:
@@ -178,7 +178,7 @@ class CollectionPipeline:
             'retmax': max_results,
             'retmode': 'json',
             'sort': 'relevance',
-            'tool': 'vera-protocol',
+            'tool': 'tervyx-protocol',
             'email': self.email
         }
         
@@ -210,7 +210,7 @@ class CollectionPipeline:
                 'db': 'pubmed',
                 'id': ','.join(batch_pmids),
                 'retmode': 'xml',
-                'tool': 'vera-protocol',
+                'tool': 'tervyx-protocol',
                 'email': self.email
             }
             
@@ -510,7 +510,7 @@ class CollectionPipeline:
             return None
     
     def _convert_query_for_openalex(self, query: str) -> str:
-        """Convert VERA search query for OpenAlex format"""
+        """Convert TERVYX search query for OpenAlex format"""
         
         # Remove PubMed-specific operators
         query = re.sub(r'\[MeSH\]|\[tiab\]|\[tw\]', '', query)
@@ -526,7 +526,7 @@ class CollectionPipeline:
         return query
     
     def _convert_query_for_pubmed(self, query: str) -> str:
-        """Convert VERA search query for PubMed format"""
+        """Convert TERVYX search query for PubMed format"""
         
         # Add MeSH terms and field tags for better precision
         

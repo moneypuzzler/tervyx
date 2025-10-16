@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-lemon-balm_2017_1,2017,RCT,SMD,-0.436,-0.789,-0.082,117,85,some,10.4328/j.jacc.2017.7073,jacc,Lemon Balm supplement,Placebo,Hamilton Depression Scale,12,Adults with depression
-lemon-balm_2018_2,2018,cohort,SMD,-0.361,-0.539,-0.183,99,117,some,10.4214/j.neuropsychopharmacol.2018.6404,neuropsychopharmacol,Lemon Balm supplement,Control group,GAD-7 score,12,Patients with anxiety
-lemon-balm_2023_3,2023,RCT,SMD,-0.419,-0.638,-0.201,117,107,some,10.3756/j.am_j_kidney_dis.2023.6770,am_j_kidney_dis,Lemon Balm supplement,Placebo,GAD-7 score,6,Elderly with mood disorders

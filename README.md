@@ -82,14 +82,16 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-# Create new evidence entry
-python scripts/tervyx.py new nutrient magnesium-glycinate sleep
+# Option 1 — manual curation: scaffold and populate evidence.csv
+python scripts/tervyx.py new nutrient melatonin sleep
+# ... populate entries/nutrient/melatonin/sleep/v1/evidence.csv with real study rows ...
+python scripts/tervyx.py build entries/nutrient/melatonin/sleep/v1 --category sleep
 
-# Build entry with TEL-5 classification
-python scripts/tervyx.py build entries/nutrient/magnesium-glycinate/sleep/v1 --category sleep
+# Option 2 — automated ingestion (requires GEMINI_API_KEY and TERVYX_EMAIL)
+python scripts/tervyx.py ingest --substance melatonin --category sleep --email you@example.com --gemini-key $GEMINI_API_KEY
 
-# Verify reproducibility
-python scripts/tervyx.py fingerprint --verify
+# Fingerprint current policy configuration
+python scripts/tervyx.py fingerprint
 ```
 
 ## 📁 Repository Structure
@@ -103,12 +105,10 @@ tervyx-protocol/
 │   │   └── entry.schema.json   # Final output format
 │   └── taxonomy/
 │       └── tel5_categories@v1.0.0.json
-├── entries/                     # Evidence entries
-│   └── nutrient/magnesium-glycinate/sleep/v1/
-│       ├── evidence.csv        # Input evidence table
-│       ├── simulation.json     # REML+MC results  
-│       ├── entry.jsonld        # Final TEL-5 output
-│       └── citations.json      # Bibliography
+├── entries/                     # Curated TEL-5 entries (blank scaffold by default)
+│   └── .gitkeep
+├── entries_real/                # (Optional) outputs produced by the ingestion pipeline
+│   └── ...
 ├── engine/                      # Core processing engine
 │   ├── mc_meta.py             # REML + Monte Carlo
 │   ├── tel5_rules.py          # P(effect>δ) → TEL-5 mapping
@@ -248,14 +248,16 @@ jobs:
 4. **Validation**: Schema validation and gate governance checks
 5. **Audit**: Policy fingerprint and audit hash generation
 
-## 🔬 Pilot Results
+## 🔬 Real-data Ingestion
 
-| Substance | Category | P(effect>δ) | Tier | Label | Limiting Factor |
-|-----------|----------|-------------|------|--------|----------------|
-| Magnesium glycinate | Sleep | 0.683 | Silver | **PASS** | Moderate evidence |
-| Magnesium glycinate | Cognition | 0.340 | Red | **AMBER** | Low confidence |
-| Omega-3 | Cardiovascular | 0.820 | Gold | **PASS** | High-quality evidence |
-| Melatonin | Sleep | 0.915 | Gold | **PASS** | Strong evidence |
+TERVYX no longer distributes synthetic demonstration entries. Evidence artefacts are generated directly from
+primary literature using the ingestion pipeline:
+
+1. Search PubMed and fetch detailed metadata (`system/pubmed_integration.py`).
+2. Run tiered Gemini analysis for structured effect extraction (`system/cost_optimized_analyzer.py`).
+3. Assess journal trust and safety gates (`system/journal_quality_db.py`).
+4. Execute REML + Monte Carlo meta-analysis and TEL-5 labeling (`system/real_meta_analysis.py`).
+5. Persist entries under `entries/` (manual) or `entries_real/` (automated) with full audit provenance.
 
 ## 📚 Citation & Attribution
 
@@ -338,8 +340,8 @@ All TERVYX entries include:
 
 ### AI Training & Usage
 
-- **Training Data**: 70+ curated entries under MIT License
-- **Validation Sets**: Complete with audit trails and confidence metrics
+- **Training Data**: Generated on demand from real PubMed evidence (repository ships without synthetic samples)
+- **Validation Sets**: Built dynamically alongside each TEL-5 entry with audit trails and confidence metrics
 - **API Access**: RESTful endpoints for programmatic access
 - **Schema Validation**: JSON Schema definitions for all data types
 

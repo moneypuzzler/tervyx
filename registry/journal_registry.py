@@ -1,5 +1,5 @@
 """
-VERA Protocol - Journal Registry Management
+TERVYX Protocol - Journal Registry Management
 Handles journal scorecards with Parquet-based storage for scalability
 """
 

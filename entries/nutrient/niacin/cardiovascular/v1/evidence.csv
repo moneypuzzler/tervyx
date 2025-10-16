@@ -1,5 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-niacin_2018_1,2018,RCT,MD,-3.518,-3.934,-3.102,96,79,high,10.7636/j.eur_neuropsychopharmacol.2018.4022,eur_neuropsychopharmacol,Niacin supplement,Placebo,LDL cholesterol (mg/dL),24,Post-MI patients
-niacin_2024_2,2024,RCT,MD,-2.958,-3.476,-2.441,100,79,some,10.4371/j.j_psychopharmacol.2024.5560,j_psychopharmacol,Niacin supplement,Placebo,Systolic BP (mmHg),16,Adults with hypertension
-niacin_2017_3,2017,RCT,MD,-3.396,-3.685,-3.107,110,87,some,10.7367/j.jacc.2017.7431,jacc,Niacin supplement,Placebo,Systolic BP (mmHg),8,Healthy adults
-niacin_2021_4,2021,cohort,MD,-2.334,-2.81,-1.859,103,100,low,10.6131/j.neuropsychopharmacol.2021.2931,neuropsychopharmacol,Niacin supplement,Control group,LDL cholesterol (mg/dL),8,Adults with hypertension

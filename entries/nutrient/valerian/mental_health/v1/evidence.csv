@@ -1,6 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-valerian_2013_1,2013,RCT,SMD,-0.436,-0.778,-0.093,42,86,low,10.7813/j.eur_heart_j.2013.9998,eur_heart_j,Valerian supplement,Placebo,Beck Depression Inventory,16,Patients with anxiety
-valerian_2018_2,2018,cohort,SMD,-0.361,-0.816,0.094,34,97,low,10.9281/j.predatory_journal_2.2018.4312,predatory_journal_2,Valerian supplement,Control group,GAD-7 score,6,College students
-valerian_2021_3,2021,RCT,SMD,-0.419,-0.861,0.022,36,90,some,10.8429/j.j_sleep_res.2021.3161,j_sleep_res,Valerian supplement,Placebo,Beck Depression Inventory,12,Adults with depression
-valerian_2016_4,2016,RCT,SMD,-0.278,-0.682,0.127,25,120,low,10.1742/j.sleep_health.2016.7941,sleep_health,Valerian supplement,Placebo,Hamilton Depression Scale,24,Adults with depression
-valerian_2017_5,2017,RCT,SMD,-0.061,-0.975,0.854,77,48,some,10.7135/j.nephrol_dial_transplant.2017.7266,nephrol_dial_transplant,Valerian supplement,Placebo,Beck Depression Inventory,12,Elderly with mood disorders

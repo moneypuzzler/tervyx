@@ -1,5 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-ephedra_2018_1,2018,cohort,MD,-0.535,-1.055,-0.016,103,31,low,10.9283/j.psychopharmacology.2018.8688,psychopharmacology,Ephedra supplement,Control group,Proteinuria,6,Healthy volunteers
-ephedra_2014_2,2014,RCT,MD,0.584,0.369,0.798,53,95,some,10.4850/j.kidney_int.2014.2291,kidney_int,Ephedra supplement,Placebo,Proteinuria,12,Athletes
-ephedra_2011_3,2011,cross-sectional,MD,-0.292,-0.626,0.042,120,108,low,10.7755/j.kidney_int.2011.1587,kidney_int,Ephedra supplement,Control group,eGFR (mL/min/1.73m²),4,Elderly adults
-ephedra_2017_4,2017,cross-sectional,MD,1.831,1.441,2.221,71,31,high,10.6439/j.am_j_kidney_dis.2017.8751,am_j_kidney_dis,Ephedra supplement,Control group,BUN (mg/dL),24,Athletes

@@ -1,5 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-chamomile_2012_1,2012,cohort,SMD,-0.352,-0.562,-0.142,98,98,some,10.7669/j.clin_j_am_soc_nephrol.2012.4119,clin_j_am_soc_nephrol,Chamomile supplement,Control group,PSQI total score,4,College students
-chamomile_2023_2,2023,cohort,SMD,-0.296,-0.58,-0.012,111,108,high,10.1993/j.chronobiol_int.2023.7596,chronobiol_int,Chamomile supplement,Control group,Sleep latency (min),4,Elderly with sleep complaints
-chamomile_2012_3,2012,RCT,SMD,-0.34,-0.776,0.097,60,84,low,10.8260/j.sleep_health.2012.2604,sleep_health,Chamomile supplement,Placebo,PSQI total score,24,Adults with insomnia
-chamomile_2017_4,2017,RCT,SMD,-0.233,-0.498,0.031,76,32,low,10.7396/j.sleep_medicine.2017.5345,sleep_medicine,Chamomile supplement,Placebo,ISI score,8,College students

@@ -1,5 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-kava-extract_2020_1,2020,cross-sectional,MD,-0.535,-0.895,-0.176,62,95,some,10.1750/j.chronobiol_int.2020.3689,chronobiol_int,Kava Extract supplement,Control group,Proteinuria,6,Athletes
-kava-extract_2013_2,2013,RCT,MD,0.584,0.1,1.067,75,52,some,10.6536/j.j_psychopharmacol.2013.2765,j_psychopharmacol,Kava Extract supplement,Placebo,Proteinuria,4,Healthy volunteers
-kava-extract_2018_3,2018,RCT,MD,-0.292,-0.646,0.061,88,25,some,10.8091/j.j_sleep_res.2018.8912,j_sleep_res,Kava Extract supplement,Placebo,Serum creatinine (mg/dL),24,Patients with CKD
-kava-extract_2019_4,2019,RCT,MD,1.831,1.403,2.259,66,89,high,10.5067/j.nephrol_dial_transplant.2019.5482,nephrol_dial_transplant,Kava Extract supplement,Placebo,Proteinuria,8,Elderly adults

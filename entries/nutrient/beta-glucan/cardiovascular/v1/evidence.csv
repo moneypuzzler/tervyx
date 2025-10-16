@@ -1,6 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-beta-glucan_2015_1,2015,RCT,MD,-3.518,-4.021,-3.015,80,54,high,10.7499/j.jacc.2015.6347,jacc,Beta Glucan supplement,Placebo,Systolic BP (mmHg),24,Healthy adults
-beta-glucan_2018_2,2018,cohort,MD,-2.958,-3.156,-2.761,80,48,some,10.2404/j.kidney_int.2018.5839,kidney_int,Beta Glucan supplement,Control group,LDL cholesterol (mg/dL),24,Adults with hypertension
-beta-glucan_2021_3,2021,cohort,MD,-3.396,-3.648,-3.144,44,119,some,10.2745/j.eur_heart_j.2021.2499,eur_heart_j,Beta Glucan supplement,Control group,Systolic BP (mmHg),8,Post-MI patients
-beta-glucan_2011_4,2011,RCT,MD,-2.334,-2.515,-2.154,82,96,some,10.2692/j.nephrol_dial_transplant.2011.1430,nephrol_dial_transplant,Beta Glucan supplement,Placebo,Systolic BP (mmHg),8,Adults with hypertension
-beta-glucan_2016_5,2016,RCT,MD,-0.704,-0.841,-0.568,35,117,high,10.9537/j.eur_neuropsychopharmacol.2016.3778,eur_neuropsychopharmacol,Beta Glucan supplement,Placebo,HDL cholesterol,6,Patients with hyperlipidemia

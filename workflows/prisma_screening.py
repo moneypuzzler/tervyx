@@ -1,5 +1,5 @@
 """
-VERA Protocol - PRISMA-Compliant Screening Workflows
+TERVYX Protocol - PRISMA-Compliant Screening Workflows
 Implements systematic review screening following PRISMA 2020 guidelines
 """
 

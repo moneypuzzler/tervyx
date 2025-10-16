@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-caffeine_2023_1,2023,RCT,SMD,0.119,-0.382,0.619,101,89,some,10.1672/j.low_quality_journal.2023.8368,low_quality_journal,Caffeine supplement,Placebo,MoCA score,8,Middle-aged adults
-caffeine_2017_2,2017,RCT,SMD,0.163,-0.366,0.692,68,116,low,10.1641/j.psychopharmacology.2017.5059,psychopharmacology,Caffeine supplement,Placebo,Trail Making Test,12,Adults with mild cognitive impairment
-caffeine_2016_3,2016,RCT,SMD,0.128,-0.359,0.616,68,111,some,10.2079/j.jacc.2016.6401,jacc,Caffeine supplement,Placebo,MMSE score,16,Middle-aged adults

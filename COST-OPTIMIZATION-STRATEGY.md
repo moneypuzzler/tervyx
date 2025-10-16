@@ -47,23 +47,23 @@ Estimated total cost: $25-35 (30% savings)
 
 ### **1. Sequential Processing Pipeline**
 ```python
-# Phase 1: Quick screening with Flash-Lite
-relevant_papers = await analyzer._screen_relevance(
-    papers, substance, outcome, threshold=0.6
-)
+from system.cost_optimized_analyzer import CostOptimizedAnalyzer
 
-# Phase 2: Detailed analysis with Flash  
-analyses = await analyzer.analyze_batch(
-    relevant_papers, substance, outcome, model="flash"
-)
+analyzer = CostOptimizedAnalyzer(api_key=api_key)
 
-# Phase 3: Retry failures with Pro (automatic fallback)
+analyses = await analyzer.process_batch_optimized(
+    papers=papers,
+    substance=substance,
+    outcome_category=outcome,
+    relevance_threshold=0.6,
+    confidence_threshold=0.7,
+)
 ```
 
 ### **2. Quality Thresholds**
-- **Screening threshold**: 0.6 (conservative - include borderline cases)
-- **Confidence threshold**: 0.7 (retry with Pro if below)
-- **Relevance threshold**: 0.5 (minimum for inclusion)
+- **Screening threshold**: 0.6 (Flash-Lite relevance cut-off)
+- **Confidence threshold**: 0.7 (Flash → Pro retry if below)
+- **Inclusion criteria**: AI recommendation plus gate-quality checks
 
 ### **3. Cost Monitoring**
 - Track token usage by model tier
@@ -90,12 +90,14 @@ analyses = await analyzer.analyze_batch(
 ## 🚀 **Recommended Configuration**
 
 ```python
-analyzer = GeminiAbstractAnalyzer(
+from system.cost_optimized_analyzer import CostOptimizedAnalyzer
+
+analyzer = CostOptimizedAnalyzer(
     api_key=api_key,
-    screening_model="gemini-2.5-flash-lite",    # $0.10/$0.40
-    analysis_model="gemini-2.5-flash",          # $0.15/$0.60  
-    fallback_model="gemini-2.5-pro",           # $2.50/$10.00
-    use_tiered_approach=True                    # Enable smart routing
+    screening_model="gemini-2.5-flash-lite",  # $0.10/$0.40
+    analysis_model="gemini-2.5-flash",        # $0.15/$0.60
+    fallback_model="gemini-2.5-pro",         # $2.50/$10.00
+    enable_cost_tracking=True                 # Detailed token + cost telemetry
 )
 ```
 

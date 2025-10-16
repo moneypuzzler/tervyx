@@ -1,11 +1,11 @@
-# VERA Archives Makefile
-# Provides convenient targets for common development tasks
+# TERVYX Protocol Makefile
+# Provides convenient targets for common development tasks aligned with the TEL-5 pipeline
 
 .PHONY: init install new build validate test clean lint format help status
 
 # Default target
 help:
-	@echo "VERA Archives - Available Commands:"
+	@echo "TERVYX Protocol - Available Commands:"
 	@echo "=================================="
 	@echo "  init        Initialize development environment"
 	@echo "  install     Install Python dependencies"
@@ -21,8 +21,8 @@ help:
 
 # Initialize development environment
 init: install
-	@echo "🚀 VERA Archives initialized successfully"
-	@python scripts/vera.py fingerprint
+	@echo "🚀 TERVYX Protocol initialized successfully"
+	@python scripts/tervyx.py fingerprint
 
 # Install dependencies
 install:
@@ -33,31 +33,31 @@ install:
 # Create sample entry
 new:
 	@echo "📝 Creating sample entry..."
-	python scripts/vera.py new nutrient magnesium-glycinate sleep
+	python scripts/tervyx.py new nutrient magnesium-glycinate sleep
 
 # Build sample entry  
 build:
 	@echo "🔨 Building sample entry..."
-	python scripts/vera.py build entries/nutrient/magnesium-glycinate/sleep/v1 --category sleep
+	python scripts/tervyx.py build entries/nutrient/magnesium-glycinate/sleep/v1 --category sleep
 
 # Validate sample entry
 validate:
 	@echo "✅ Validating sample entry..."
-	python scripts/vera.py validate entries/nutrient/magnesium-glycinate/sleep/v1
+	python scripts/tervyx.py validate entries/nutrient/magnesium-glycinate/sleep/v1
 	python engine/schema_validate.py entries/nutrient/magnesium-glycinate/sleep/v1
 
 # Run comprehensive tests
 test: validate
 	@echo "🧪 Running comprehensive tests..."
 	@echo "Policy fingerprint:"
-	@python scripts/vera.py fingerprint
+	@python scripts/tervyx.py fingerprint
 	@echo ""
 	@echo "System status:"
-	@python scripts/vera.py status
+	@python scripts/tervyx.py status
 	@echo ""
 	@echo "Checking reproducibility..."
-	@python scripts/vera.py build entries/nutrient/magnesium-glycinate/sleep/v1 --category sleep
-	@python scripts/vera.py validate entries/nutrient/magnesium-glycinate/sleep/v1
+	@python scripts/tervyx.py build entries/nutrient/magnesium-glycinate/sleep/v1 --category sleep
+	@python scripts/tervyx.py validate entries/nutrient/magnesium-glycinate/sleep/v1
 	@echo "✅ All tests passed"
 
 # Lint code
@@ -74,7 +74,7 @@ format:
 
 # Show system status
 status:
-	@python scripts/vera.py status
+	@python scripts/tervyx.py status
 
 # Clean generated files
 clean:

@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-pomegranate_2017_1,2017,cohort,MD,-3.518,-3.93,-3.105,36,37,low,10.7291/j.chronobiol_int.2017.6759,chronobiol_int,Pomegranate supplement,Control group,HDL cholesterol,8,Patients with hyperlipidemia
-pomegranate_2013_2,2013,RCT,MD,-2.958,-3.395,-2.521,101,117,some,10.5942/j.sleep_medicine.2013.4366,sleep_medicine,Pomegranate supplement,Placebo,LDL cholesterol (mg/dL),24,Post-MI patients
-pomegranate_2022_3,2022,cross-sectional,MD,-3.396,-3.977,-2.815,88,74,low,10.2163/j.clin_j_am_soc_nephrol.2022.9655,clin_j_am_soc_nephrol,Pomegranate supplement,Control group,Systolic BP (mmHg),8,Healthy adults

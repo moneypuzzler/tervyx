@@ -1,5 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-inositol_2013_1,2013,cohort,SMD,-0.436,-0.638,-0.233,55,88,low,10.7044/j.predatory_journal_2.2013.8657,predatory_journal_2,Inositol supplement,Control group,GAD-7 score,16,Adults with depression
-inositol_2021_2,2021,cohort,SMD,-0.361,-0.731,0.009,92,77,some,10.2208/j.low_quality_journal.2021.3053,low_quality_journal,Inositol supplement,Control group,Hamilton Depression Scale,24,Adults with depression
-inositol_2015_3,2015,RCT,SMD,-0.419,-0.779,-0.059,95,106,some,10.8088/j.neuropsychopharmacol.2015.9238,neuropsychopharmacol,Inositol supplement,Placebo,PHQ-9 score,4,Patients with anxiety
-inositol_2024_4,2024,cohort,SMD,-0.278,-0.509,-0.047,69,91,high,10.5105/j.sleep_health.2024.4216,sleep_health,Inositol supplement,Control group,Hamilton Depression Scale,6,College students

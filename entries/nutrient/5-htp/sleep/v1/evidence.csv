@@ -1,3 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-5-htp_2010_1,2010,RCT,SMD,-0.175,-0.573,0.222,116,108,some,10.4611/j.nephrol_dial_transplant.2010.8359,nephrol_dial_transplant,5 Htp supplement,Placebo,Sleep latency (min),4,Elderly with sleep complaints
-5-htp_2013_2,2013,cross-sectional,SMD,-0.271,-0.505,-0.036,68,38,low,10.6881/j.chronobiol_int.2013.6635,chronobiol_int,5 Htp supplement,Control group,Sleep latency (min),4,College students

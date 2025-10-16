@@ -1,5 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-l-theanine_2018_1,2018,cross-sectional,SMD,-0.352,-0.84,0.137,92,25,some,10.1319/j.clin_j_am_soc_nephrol.2018.2832,clin_j_am_soc_nephrol,L Theanine supplement,Control group,Sleep latency (min),8,Elderly with sleep complaints
-l-theanine_2011_2,2011,RCT,SMD,-0.296,-0.96,0.368,87,33,high,10.3060/j.predatory_journal_2.2011.3103,predatory_journal_2,L Theanine supplement,Placebo,ISI score,16,Elderly with sleep complaints
-l-theanine_2024_3,2024,RCT,SMD,-0.34,-0.86,0.181,118,113,low,10.7537/j.circulation.2024.7118,circulation,L Theanine supplement,Placebo,ISI score,16,College students
-l-theanine_2015_4,2015,RCT,SMD,-0.233,-0.518,0.051,95,54,some,10.2163/j.sleep_medicine.2015.1964,sleep_medicine,L Theanine supplement,Placebo,Sleep efficiency %,4,Adults with insomnia

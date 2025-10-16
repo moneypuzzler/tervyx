@@ -1,5 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-protein-powder_2010_1,2010,RCT,MD,-2.335,-2.591,-2.08,118,72,high,10.9700/j.jacc.2010.4122,jacc,Protein Powder supplement,Placebo,eGFR (mL/min/1.73m²),24,Healthy volunteers
-protein-powder_2015_2,2015,RCT,MD,-1.216,-1.694,-0.739,38,74,some,10.3736/j.circulation.2015.2069,circulation,Protein Powder supplement,Placebo,eGFR (mL/min/1.73m²),8,Elderly adults
-protein-powder_2020_3,2020,cross-sectional,MD,-2.092,-2.382,-1.802,68,87,some,10.3701/j.j_psychopharmacol.2020.7609,j_psychopharmacol,Protein Powder supplement,Control group,eGFR (mL/min/1.73m²),6,Patients with CKD
-protein-powder_2019_4,2019,RCT,MD,0.031,-0.526,0.588,40,71,some,10.7147/j.j_sleep_res.2019.5190,j_sleep_res,Protein Powder supplement,Placebo,eGFR (mL/min/1.73m²),16,Healthy volunteers

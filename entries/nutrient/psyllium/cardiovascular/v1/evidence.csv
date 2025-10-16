@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-psyllium_2022_1,2022,RCT,MD,-3.518,-3.939,-3.097,108,36,some,10.4496/j.sleep_medicine.2022.8812,sleep_medicine,Psyllium supplement,Placebo,Systolic BP (mmHg),6,Patients with hyperlipidemia
-psyllium_2015_2,2015,cohort,MD,-2.958,-3.119,-2.797,79,113,low,10.4751/j.sleep_health.2015.7276,sleep_health,Psyllium supplement,Control group,Systolic BP (mmHg),24,Adults with hypertension
-psyllium_2014_3,2014,RCT,MD,-3.396,-3.737,-3.055,42,107,high,10.2120/j.neuropsychopharmacol.2014.9691,neuropsychopharmacol,Psyllium supplement,Placebo,Systolic BP (mmHg),16,Patients with hyperlipidemia

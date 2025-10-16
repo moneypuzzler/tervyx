@@ -1,3 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-high-dose-vitamin-c_2017_1,2017,RCT,MD,-0.535,-1.265,0.194,46,52,high,10.1699/j.neuropsychopharmacol.2017.7936,neuropsychopharmacol,High Dose Vitamin C supplement,Placebo,eGFR (mL/min/1.73m²),24,Athletes
-high-dose-vitamin-c_2014_2,2014,RCT,MD,0.584,-0.023,1.19,118,33,low,10.7510/j.predatory_journal_2.2014.6343,predatory_journal_2,High Dose Vitamin C supplement,Placebo,BUN (mg/dL),16,Athletes

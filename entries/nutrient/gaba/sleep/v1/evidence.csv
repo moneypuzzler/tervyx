@@ -1,7 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-gaba_2013_1,2013,cross-sectional,SMD,-0.352,-0.568,-0.136,99,119,some,10.1936/j.jacc.2013.1821,jacc,Gaba supplement,Control group,ISI score,16,Elderly with sleep complaints
-gaba_2012_2,2012,RCT,SMD,-0.296,-0.475,-0.117,33,111,high,10.2964/j.kidney_int.2012.5033,kidney_int,Gaba supplement,Placebo,PSQI total score,16,Adults with insomnia
-gaba_2013_3,2013,RCT,SMD,-0.34,-0.834,0.155,65,55,low,10.5915/j.neuropsychopharmacol.2013.8491,neuropsychopharmacol,Gaba supplement,Placebo,Sleep latency (min),4,Adults with insomnia
-gaba_2013_4,2013,RCT,SMD,-0.233,-0.411,-0.056,41,69,high,10.7054/j.eur_neuropsychopharmacol.2013.5669,eur_neuropsychopharmacol,Gaba supplement,Placebo,Sleep efficiency %,12,Shift workers
-gaba_2011_5,2011,cohort,SMD,-0.07,-0.755,0.614,42,58,low,10.3546/j.chronobiol_int.2011.5462,chronobiol_int,Gaba supplement,Control group,Sleep latency (min),16,Elderly with sleep complaints
-gaba_2023_6,2023,RCT,SMD,-0.366,-0.814,0.083,87,57,high,10.2512/j.j_sleep_res.2023.7939,j_sleep_res,Gaba supplement,Placebo,Sleep latency (min),4,Adults with insomnia

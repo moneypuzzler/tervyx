@@ -1,16 +1,379 @@
 """
-Real Evidence Extraction and Meta-Analysis Automation
-===================================================
+Real-data meta-analysis orchestration for the TERVYX pipeline.
 
-Complete pipeline for automated meta-analysis using real extracted data:
-1. Convert AI-extracted data to standardized format
-2. Quality filtering and bias assessment  
-3. Effect size standardization and harmonization
-4. REML + Monte Carlo meta-analysis (using existing engine)
-5. Heterogeneity assessment and sensitivity analysis
-6. TEL-5 classification and final entry generation
-
-Integrates with existing TERVYX engine while handling real-world data complexities.
+This module converts AI-extracted study summaries into the evidence schema used
+by the core TEL-5 engine, executes REML + Monte Carlo meta-analysis, evaluates
+Gate Governance Protocol criteria, and assembles a TEL-5 compliant entry
+payload. The implementation is intentionally lightweight so it can run inside
+continuous-integration environments while still reflecting the production data
+flow (PubMed → Gemini → Journal Quality → Meta-analysis → TEL-5).
 """
 
-import numpy as np\nimport pandas as pd\nimport asyncio\nfrom typing import Dict, List, Optional, Tuple, Any\nfrom dataclasses import dataclass, asdict\nfrom enum import Enum\nimport json\nfrom datetime import datetime\nimport warnings\nfrom scipy import stats\n\n# Import existing TERVYX components\nfrom engine.mc_meta import run_reml_mc_analysis\nfrom engine.tel5_rules import tel5_classify\nfrom engine.gates import evaluate_all_gates\n\n# Import new system components\nfrom .ai_abstract_analyzer import AbstractAnalysis, ExtractedData\nfrom .journal_quality_db import JournalAssessment\n\nclass EffectSizeType(Enum):\n    SMD = \"standardized_mean_difference\"  # Cohen's d, Hedges' g\n    MD = \"mean_difference\"  # Raw mean difference\n    OR = \"odds_ratio\"  # Odds ratio\n    RR = \"risk_ratio\"  # Risk/Rate ratio\n    CORRELATION = \"correlation\"  # Pearson r\n    COHEN_D = \"cohen_d\"  # Specific SMD type\n    HEDGES_G = \"hedges_g\"  # Bias-corrected SMD\n\nclass StudyQuality(Enum):\n    HIGH = \"high\"  # Low risk of bias, good methodology\n    MODERATE = \"moderate\"  # Some concerns\n    LOW = \"low\"  # High risk of bias\n    EXCLUDE = \"exclude\"  # Should not be included\n\n@dataclass\nclass StandardizedStudy:\n    \"\"\"Standardized study data for meta-analysis\"\"\"\n    study_id: str  # Usually PMID\n    \n    # Effect size data (standardized to SMD)\n    effect_size: float\n    standard_error: float\n    variance: float\n    \n    # Sample size\n    n_treatment: int\n    n_control: int\n    total_n: int\n    \n    # Study characteristics\n    study_type: str  # RCT, observational, etc.\n    duration_weeks: Optional[int]\n    population: str\n    intervention_details: str\n    outcome_measure: str\n    \n    # Quality metrics\n    risk_of_bias: StudyQuality\n    journal_quality_score: float\n    confidence_in_extraction: float\n    \n    # Original data for reference\n    original_effect_size: Optional[float]\n    original_effect_type: Optional[str]\n    confidence_interval: Tuple[Optional[float], Optional[float]]\n    p_value: Optional[float]\n    \n    # Metadata\n    journal: str\n    publication_year: int\n    doi: Optional[str]\n\nclass RealMetaAnalyzer:\n    \"\"\"\n    Automated meta-analysis using real extracted study data\n    \"\"\"\n    \n    def __init__(self):\n        self.min_studies = 2\n        self.max_studies = 50  # Computational limit\n        self.quality_thresholds = {\n            'min_confidence': 0.6,\n            'min_journal_score': 0.3,\n            'exclude_predatory': True\n        }\n    \n    async def perform_full_analysis(self,\n                                  analyses: List[AbstractAnalysis],\n                                  journal_assessments: Dict[str, JournalAssessment],\n                                  substance: str,\n                                  outcome_category: str) -> Dict[str, Any]:\n        \"\"\"\n        Complete pipeline from AI analyses to TERVYX entry\n        \"\"\"\n        \n        print(f\"🔬 Starting real meta-analysis for {substance} + {outcome_category}...\")\n        \n        # Step 1: Convert and standardize study data\n        standardized_studies = await self._convert_to_standardized_studies(\n            analyses, journal_assessments\n        )\n        \n        print(f\"📊 Standardized {len(standardized_studies)} studies\")\n        \n        if len(standardized_studies) < self.min_studies:\n            return {\n                'error': f'Insufficient studies ({len(standardized_studies)} < {self.min_studies})',\n                'n_total_papers': len(analyses),\n                'n_standardized': len(standardized_studies)\n            }\n        \n        # Step 2: Quality filtering\n        quality_studies = self._filter_by_quality(standardized_studies)\n        \n        print(f\"✅ Quality filter: {len(quality_studies)} studies retained\")\n        \n        if len(quality_studies) < self.min_studies:\n            return {\n                'error': f'Insufficient quality studies ({len(quality_studies)} < {self.min_studies})',\n                'n_standardized': len(standardized_studies),\n                'n_quality_filtered': len(quality_studies)\n            }\n        \n        # Step 3: Effect size harmonization\n        harmonized_studies = self._harmonize_effect_sizes(quality_studies, outcome_category)\n        \n        # Step 4: REML + Monte Carlo meta-analysis\n        meta_results = await self._run_meta_analysis(harmonized_studies, outcome_category)\n        \n        # Step 5: Heterogeneity and sensitivity analysis\n        heterogeneity_results = self._assess_heterogeneity(harmonized_studies, meta_results)\n        \n        # Step 6: Gate evaluation based on real data\n        gate_results = await self._evaluate_gates_from_studies(\n            harmonized_studies, journal_assessments, substance, outcome_category\n        )\n        \n        # Step 7: TEL-5 classification\n        P_effect = meta_results.get('P_effect_gt_delta', 0.0)\n        phi_violation = gate_results['phi'] == 'FAIL'\n        k_violation = gate_results['k'] == 'FAIL'\n        \n        tier, label = tel5_classify(P_effect, phi_violation, k_violation)\n        \n        # Step 8: Generate comprehensive results\n        results = {\n            'substance': substance,\n            'outcome_category': outcome_category,\n            'analysis_date': datetime.now().isoformat(),\n            \n            # Classification\n            'tier': tier,\n            'label': label,\n            'P_effect_gt_delta': P_effect,\n            \n            # Gate results\n            'gate_results': gate_results,\n            \n            # Meta-analysis results\n            'meta_analysis': meta_results,\n            'heterogeneity': heterogeneity_results,\n            \n            # Study data\n            'studies_included': [asdict(s) for s in harmonized_studies],\n            'n_studies': len(harmonized_studies),\n            'total_participants': sum(s.total_n for s in harmonized_studies),\n            \n            # Quality metrics\n            'quality_summary': self._summarize_study_quality(harmonized_studies),\n            'data_extraction_confidence': np.mean([s.confidence_in_extraction for s in harmonized_studies]),\n            \n            # Processing summary\n            'pipeline_summary': {\n                'n_papers_analyzed': len(analyses),\n                'n_standardized': len(standardized_studies),\n                'n_quality_filtered': len(quality_studies),\n                'n_final_included': len(harmonized_studies)\n            }\n        }\n        \n        print(f\"🎯 Analysis complete: TEL-{tier} ({label}) with {len(harmonized_studies)} studies\")\n        \n        return results\n    \n    async def _convert_to_standardized_studies(self,\n                                             analyses: List[AbstractAnalysis],\n                                             journal_assessments: Dict[str, JournalAssessment]) -> List[StandardizedStudy]:\n        \"\"\"\n        Convert AI analyses to standardized study format\n        \"\"\"\n        \n        standardized = []\n        \n        for analysis in analyses:\n            # Skip if insufficient data for meta-analysis\n            if not self._has_sufficient_data(analysis.extracted_data):\n                continue\n            \n            # Get journal quality\n            journal_score = 0.5  # Default\n            if analysis.paper_pmid in journal_assessments:\n                journal_score = journal_assessments[analysis.paper_pmid].j_gate_score\n            \n            # Convert effect size to standardized form\n            standardized_effect, se, variance = self._standardize_effect_size(\n                analysis.extracted_data\n            )\n            \n            if standardized_effect is None:\n                continue\n            \n            # Assess study quality\n            risk_of_bias = self._assess_study_risk_of_bias(analysis)\n            \n            study = StandardizedStudy(\n                study_id=analysis.paper_pmid,\n                effect_size=standardized_effect,\n                standard_error=se,\n                variance=variance,\n                n_treatment=analysis.extracted_data.sample_size_treatment or 0,\n                n_control=analysis.extracted_data.sample_size_control or 0,\n                total_n=(analysis.extracted_data.sample_size_treatment or 0) + \n                        (analysis.extracted_data.sample_size_control or 0),\n                study_type=self._infer_study_type(analysis),\n                duration_weeks=analysis.extracted_data.study_duration_weeks,\n                population=analysis.extracted_data.population or \"Not specified\",\n                intervention_details=analysis.extracted_data.intervention_details or \"Not specified\",\n                outcome_measure=analysis.extracted_data.outcome_measure or \"Not specified\",\n                risk_of_bias=risk_of_bias,\n                journal_quality_score=journal_score,\n                confidence_in_extraction=analysis.analysis_confidence,\n                original_effect_size=analysis.extracted_data.effect_size,\n                original_effect_type=analysis.extracted_data.effect_type,\n                confidence_interval=(\n                    analysis.extracted_data.confidence_interval_lower,\n                    analysis.extracted_data.confidence_interval_upper\n                ),\n                p_value=analysis.extracted_data.p_value,\n                journal=\"Unknown\",  # Would be populated from PubMed data\n                publication_year=0,  # Would be populated from PubMed data\n                doi=None\n            )\n            \n            standardized.append(study)\n        \n        return standardized\n    \n    def _has_sufficient_data(self, data: ExtractedData) -> bool:\n        \"\"\"\n        Check if extracted data is sufficient for meta-analysis\n        \"\"\"\n        \n        # Require effect size and sample sizes\n        if data.effect_size is None:\n            return False\n        \n        if not data.sample_size_treatment or not data.sample_size_control:\n            return False\n        \n        # Require minimum sample size\n        total_n = data.sample_size_treatment + data.sample_size_control\n        if total_n < 10:\n            return False\n        \n        return True\n    \n    def _standardize_effect_size(self, data: ExtractedData) -> Tuple[Optional[float], Optional[float], Optional[float]]:\n        \"\"\"\n        Convert various effect size measures to standardized mean difference (SMD)\n        \"\"\"\n        \n        effect_size = data.effect_size\n        effect_type = data.effect_type or \"SMD\"\n        \n        n_treatment = data.sample_size_treatment or 0\n        n_control = data.sample_size_control or 0\n        \n        if effect_size is None or n_treatment == 0 or n_control == 0:\n            return None, None, None\n        \n        # Handle different effect size types\n        if effect_type.upper() in [\"SMD\", \"COHEN_D\", \"HEDGES_G\", \"STANDARDIZED_MEAN_DIFFERENCE\"]:\n            # Already standardized\n            smd = effect_size\n            \n        elif effect_type.upper() == \"MD\" or effect_type.upper() == \"MEAN_DIFFERENCE\":\n            # Convert mean difference to SMD (requires pooled SD estimate)\n            # Use approximation: assume moderate effect size variability\n            # In real implementation, would try to extract SDs from CI or other sources\n            \n            # Rough approximation: assume pooled SD based on sample sizes\n            pooled_sd_estimate = 1.0  # This is a major limitation - need better SD estimation\n            smd = effect_size / pooled_sd_estimate\n            \n        elif effect_type.upper() in [\"OR\", \"ODDS_RATIO\"]:\n            # Convert odds ratio to SMD using logit transformation\n            if effect_size <= 0:\n                return None, None, None\n            \n            log_or = np.log(effect_size)\n            smd = log_or * np.sqrt(3) / np.pi  # Approximation\n            \n        elif effect_type.upper() in [\"RR\", \"RISK_RATIO\"]:\n            # Convert risk ratio to SMD\n            if effect_size <= 0:\n                return None, None, None\n            \n            log_rr = np.log(effect_size)\n            smd = log_rr * 0.8  # Rough approximation\n            \n        elif effect_type.upper() == \"CORRELATION\":\n            # Convert correlation to SMD\n            if abs(effect_size) >= 1:\n                return None, None, None\n            \n            # Fisher's z-transform\n            r = effect_size\n            smd = 2 * r / np.sqrt(1 - r**2)\n            \n        else:\n            # Unknown effect type - treat as SMD with low confidence\n            smd = effect_size\n        \n        # Calculate standard error\n        # Use confidence interval if available\n        if (data.confidence_interval_lower is not None and \n            data.confidence_interval_upper is not None):\n            \n            ci_width = data.confidence_interval_upper - data.confidence_interval_lower\n            se = ci_width / (2 * 1.96)  # Assume 95% CI\n            \n        else:\n            # Use sample size approximation\n            n_total = n_treatment + n_control\n            \n            # Standard error approximation for SMD\n            se = np.sqrt(\n                (n_treatment + n_control) / (n_treatment * n_control) + \n                (smd ** 2) / (2 * n_total)\n            )\n        \n        variance = se ** 2\n        \n        return smd, se, variance\n    \n    def _assess_study_risk_of_bias(self, analysis: AbstractAnalysis) -> StudyQuality:\n        \"\"\"\n        Assess risk of bias based on AI analysis\n        \"\"\"\n        \n        # Use AI-provided risk assessment as base\n        ai_risk = analysis.gate_evaluation.risk_of_bias\n        \n        # Adjust based on other factors\n        quality_score = analysis.gate_evaluation.overall_quality_score\n        confidence = analysis.analysis_confidence\n        \n        # Start with AI assessment\n        if ai_risk == \"low\":\n            base_quality = StudyQuality.HIGH\n        elif ai_risk == \"some\":\n            base_quality = StudyQuality.MODERATE\n        else:  # \"high\"\n            base_quality = StudyQuality.LOW\n        \n        # Adjust based on confidence and quality scores\n        if confidence < 0.5 or quality_score < 0.3:\n            # Downgrade if low confidence in extraction\n            if base_quality == StudyQuality.HIGH:\n                base_quality = StudyQuality.MODERATE\n            elif base_quality == StudyQuality.MODERATE:\n                base_quality = StudyQuality.LOW\n            # LOW stays LOW\n        \n        return base_quality\n    \n    def _infer_study_type(self, analysis: AbstractAnalysis) -> str:\n        \"\"\"\n        Infer study type from AI analysis\n        \"\"\"\n        \n        # Check AI reasoning for study type indicators\n        reasoning = analysis.ai_reasoning.lower()\n        \n        if \"randomized\" in reasoning or \"rct\" in reasoning:\n            return \"RCT\"\n        elif \"controlled trial\" in reasoning:\n            return \"Controlled Trial\"\n        elif \"observational\" in reasoning:\n            return \"Observational\"\n        elif \"cohort\" in reasoning:\n            return \"Cohort\"\n        elif \"case-control\" in reasoning:\n            return \"Case-Control\"\n        elif \"cross-sectional\" in reasoning:\n            return \"Cross-Sectional\"\n        else:\n            return \"Unknown\"\n    \n    def _filter_by_quality(self, studies: List[StandardizedStudy]) -> List[StandardizedStudy]:\n        \"\"\"\n        Filter studies based on quality thresholds\n        \"\"\"\n        \n        filtered = []\n        \n        for study in studies:\n            # Skip studies marked for exclusion\n            if study.risk_of_bias == StudyQuality.EXCLUDE:\n                continue\n            \n            # Check confidence threshold\n            if study.confidence_in_extraction < self.quality_thresholds['min_confidence']:\n                continue\n            \n            # Check journal quality threshold\n            if study.journal_quality_score < self.quality_thresholds['min_journal_score']:\n                continue\n            \n            # Check for predatory journals (would be implemented via journal assessment)\n            # This is handled in journal quality score\n            \n            # Check minimum sample size\n            if study.total_n < 20:  # Very small studies are unreliable\n                continue\n            \n            # Check for extreme effect sizes (potential errors)\n            if abs(study.effect_size) > 5.0:  # Extremely large effects are suspicious\n                continue\n            \n            filtered.append(study)\n        \n        return filtered\n    \n    def _harmonize_effect_sizes(self, studies: List[StandardizedStudy], outcome_category: str) -> List[StandardizedStudy]:\n        \"\"\"\n        Harmonize effect sizes for consistent direction (benefit vs harm)\n        \"\"\"\n        \n        # Determine benefit direction for outcome category\n        benefit_positive_categories = {\n            'sleep': True,  # Higher scores = better sleep\n            'cognition': True,  # Higher scores = better cognition\n            'mental_health': True,  # Higher scores = better mental health\n            'cardiovascular': False,  # Lower BP/cholesterol = better\n        }\n        \n        benefit_positive = benefit_positive_categories.get(outcome_category, True)\n        \n        harmonized = []\n        \n        for study in studies:\n            harmonized_study = study\n            \n            # Apply direction harmonization if needed\n            if not benefit_positive:\n                # Flip effect size for harm-focused outcomes\n                harmonized_study.effect_size = -harmonized_study.effect_size\n            \n            # For renal safety, harm indicators should be negative\n            if outcome_category == 'renal_safety':\n                # Positive effects indicate harm, so flip to make harm negative\n                harmonized_study.effect_size = -abs(harmonized_study.effect_size)\n            \n            harmonized.append(harmonized_study)\n        \n        return harmonized\n    \n    async def _run_meta_analysis(self, studies: List[StandardizedStudy], outcome_category: str) -> Dict[str, Any]:\n        \"\"\"\n        Run REML + Monte Carlo meta-analysis using existing TERVYX engine\n        \"\"\"\n        \n        # Prepare data for existing meta-analysis engine\n        effect_sizes = [s.effect_size for s in studies]\n        variances = [s.variance for s in studies]\n        sample_sizes = [s.total_n for s in studies]\n        \n        # Get delta threshold for outcome category\n        delta_thresholds = {\n            'sleep': 0.2,\n            'cognition': 0.15,\n            'mental_health': 0.2,\n            'cardiovascular': 0.1,\n            'renal_safety': 5.0  # Different scale for safety outcomes\n        }\n        \n        delta = delta_thresholds.get(outcome_category, 0.2)\n        \n        # Run existing REML + Monte Carlo analysis\n        try:\n            results = run_reml_mc_analysis(\n                effect_sizes=effect_sizes,\n                variances=variances,\n                sample_sizes=sample_sizes,\n                delta=delta,\n                n_draws=10000\n            )\n            \n            # Add study-level details\n            results['study_effects'] = [\n                {\n                    'study_id': s.study_id,\n                    'effect_size': s.effect_size,\n                    'weight': 1.0 / s.variance  # Inverse variance weight\n                 n                for s in studies\n            ]\n            \n            return results\n            \n        except Exception as e:\n            print(f\"❌ Meta-analysis failed: {str(e)}\")\n            return {\n                'error': f'Meta-analysis computation failed: {str(e)}',\n                'n_studies': len(studies),\n                'effect_sizes': effect_sizes\n            }\n    \n    def _assess_heterogeneity(self, studies: List[StandardizedStudy], meta_results: Dict[str, Any]) -> Dict[str, Any]:\n        \"\"\"\n        Assess between-study heterogeneity and conduct sensitivity analysis\n        \"\"\"\n        \n        if 'I2' not in meta_results:\n            return {'error': 'No heterogeneity data available'}\n        \n        I2 = meta_results.get('I2', 0)\n        tau2 = meta_results.get('tau2', 0)\n        \n        # Interpret heterogeneity\n        if I2 < 25:\n            heterogeneity_interpretation = \"Low heterogeneity\"\n        elif I2 < 50:\n            heterogeneity_interpretation = \"Moderate heterogeneity\"\n        elif I2 < 75:\n            heterogeneity_interpretation = \"Substantial heterogeneity\"\n        else:\n            heterogeneity_interpretation = \"Considerable heterogeneity\"\n        \n        # Identify potential sources of heterogeneity\n        heterogeneity_sources = []\n        \n        # Check for different study types\n        study_types = set(s.study_type for s in studies)\n        if len(study_types) > 1:\n            heterogeneity_sources.append(f\"Mixed study designs: {', '.join(study_types)}\")\n        \n        # Check for duration variability\n        durations = [s.duration_weeks for s in studies if s.duration_weeks]\n        if len(durations) > 1:\n            duration_range = max(durations) - min(durations)\n            if duration_range > 8:  # More than 8 weeks difference\n                heterogeneity_sources.append(f\"Variable study duration: {min(durations)}-{max(durations)} weeks\")\n        \n        # Check for population heterogeneity\n        populations = set(s.population for s in studies)\n        if len(populations) > 2:\n            heterogeneity_sources.append(\"Diverse study populations\")\n        \n        # Check for quality heterogeneity\n        quality_scores = [s.journal_quality_score for s in studies]\n        quality_range = max(quality_scores) - min(quality_scores)\n        if quality_range > 0.4:\n            heterogeneity_sources.append(\"Variable study quality\")\n        \n        return {\n            'I2': I2,\n            'tau2': tau2,\n            'interpretation': heterogeneity_interpretation,\n            'potential_sources': heterogeneity_sources,\n            'n_studies': len(studies),\n            'study_type_distribution': {stype: sum(1 for s in studies if s.study_type == stype) for stype in study_types}\n        }\n    \n    async def _evaluate_gates_from_studies(self,\n                                         studies: List[StandardizedStudy],\n                                         journal_assessments: Dict[str, JournalAssessment],\n                                         substance: str,\n                                         outcome_category: str) -> Dict[str, Any]:\n        \"\"\"\n        Evaluate TERVYX gates based on aggregated real study data\n        \"\"\"\n        \n        # Φ Gate: Physiological plausibility (aggregate from studies)\n        phi_violations = 0\n        for study in studies:\n            # Would check for physiological implausibility signals\n            # For now, use study quality as proxy\n            if study.risk_of_bias == StudyQuality.LOW:\n                phi_violations += 1\n        \n        phi_gate = \"FAIL\" if phi_violations > len(studies) * 0.3 else \"PASS\"\n        \n        # R Gate: Relevance (check population and intervention relevance)\n        relevant_studies = 0\n        for study in studies:\n            # Check if study population and intervention are relevant\n            # For now, assume all filtered studies are relevant\n            if study.risk_of_bias != StudyQuality.LOW:\n                relevant_studies += 1\n        \n        r_gate = \"PASS\" if relevant_studies >= len(studies) * 0.6 else \"FAIL\"\n        \n        # J Gate: Journal quality (aggregate from journal assessments)\n        j_scores = []\n        for study in studies:\n            if study.study_id in journal_assessments:\n                j_scores.append(journal_assessments[study.study_id].j_gate_score)\n            else:\n                j_scores.append(study.journal_quality_score)\n        \n        avg_j_score = np.mean(j_scores) if j_scores else 0.5\n        \n        # K Gate: Safety (check for safety signals)\n        safety_violations = 0\n        for study in studies:\n            # For safety outcomes, check if there are concerning signals\n            if outcome_category == 'renal_safety':\n                # For renal safety, positive effects indicate harm\n                if study.effect_size > 0:  # Indicates potential harm\n                    safety_violations += 1\n        \n        k_gate = \"FAIL\" if safety_violations > 0 else \"PASS\"\n        \n        # L Gate: Language appropriateness (assume PASS for peer-reviewed papers)\n        l_gate = \"PASS\"\n        \n        return {\n            'phi': phi_gate,\n            'r': r_gate,\n            'j': avg_j_score,\n            'k': k_gate,\n            'l': l_gate,\n            'gate_details': {\n                'phi_violations': phi_violations,\n                'relevant_studies': relevant_studies,\n                'j_score_range': [min(j_scores), max(j_scores)] if j_scores else [0, 0],\n                'safety_violations': safety_violations\n            }\n        }\n    \n    def _summarize_study_quality(self, studies: List[StandardizedStudy]) -> Dict[str, Any]:\n        \"\"\"\n        Summarize overall study quality\n        \"\"\"\n        \n        quality_counts = {\n            'HIGH': sum(1 for s in studies if s.risk_of_bias == StudyQuality.HIGH),\n            'MODERATE': sum(1 for s in studies if s.risk_of_bias == StudyQuality.MODERATE),\n            'LOW': sum(1 for s in studies if s.risk_of_bias == StudyQuality.LOW)\n        }\n        \n        study_type_counts = {}\n        for study in studies:\n            study_type_counts[study.study_type] = study_type_counts.get(study.study_type, 0) + 1\n        \n        return {\n            'quality_distribution': quality_counts,\n            'study_type_distribution': study_type_counts,\n            'mean_sample_size': np.mean([s.total_n for s in studies]),\n            'total_participants': sum(s.total_n for s in studies),\n            'mean_journal_quality': np.mean([s.journal_quality_score for s in studies]),\n            'rct_percentage': (study_type_counts.get('RCT', 0) / len(studies)) * 100 if studies else 0\n        }\n\n# ============================================================================\n# Integration Function\n# ============================================================================\n\nasync def generate_real_tervyx_entry(substance: str, \n                                    outcome_category: str,\n                                    analyses: List[AbstractAnalysis],\n                                    journal_assessments: Dict[str, JournalAssessment]) -> Dict[str, Any]:\n    \"\"\"\n    Complete integration function to generate TERVYX entry from real data\n    \"\"\"\n    \n    meta_analyzer = RealMetaAnalyzer()\n    \n    # Perform full analysis\n    results = await meta_analyzer.perform_full_analysis(\n        analyses, journal_assessments, substance, outcome_category\n    )\n    \n    if 'error' in results:\n        return results\n    \n    # Generate final TERVYX entry\n    entry = {\n        \"@context\": \"https://schema.org/\",\n        \"@type\": \"Dataset\",\n        \"id\": f\"nutrient:{substance}:{outcome_category}:v1\",\n        \"title\": f\"{substance.title()} — {outcome_category.title()}\",\n        \"category\": outcome_category,\n        \"tier\": results['tier'],\n        \"label\": results['label'],\n        \"P_effect_gt_delta\": results['P_effect_gt_delta'],\n        \"gate_results\": results['gate_results'],\n        \"evidence_summary\": {\n            \"n_studies\": results['n_studies'],\n            \"total_n\": results['total_participants'],\n            \"I2\": results['heterogeneity'].get('I2', 0),\n            \"tau2\": results['meta_analysis'].get('tau2', 0),\n            \"mu_hat\": results['meta_analysis'].get('mu_hat', 0),\n            \"mu_CI95\": results['meta_analysis'].get('mu_CI95', [0, 0])\n        },\n        \"real_studies\": [\n            {\n                \"study_id\": study['study_id'],\n                \"effect_size\": study['effect_size'],\n                \"total_n\": study['total_n'],\n                \"study_type\": study['study_type'],\n                \"risk_of_bias\": study['risk_of_bias']\n            }\n            for study in results['studies_included']\n        ],\n        \"quality_metrics\": results['quality_summary'],\n        \"heterogeneity_assessment\": results['heterogeneity'],\n        \"data_extraction_confidence\": results['data_extraction_confidence'],\n        \"pipeline_summary\": results['pipeline_summary'],\n        \"policy_refs\": {\n            \"tel5_levels\": \"v1.2.0\",\n            \"monte_carlo\": \"v1.0.1-reml-grid\",\n            \"journal_trust\": \"real-time\"\n        },\n        \"version\": \"v1\",\n        \"data_source\": \"real_literature\",\n        \"created\": datetime.now().isoformat(),\n        \"llm_hint\": f\"TEL-5={results['tier']}, {results['label']}; Real-data analysis; {results['n_studies']} studies\"\n    }\n    \n    return entry\n\n# ============================================================================\n# Testing\n# ============================================================================\n\nasync def test_real_meta_analysis():\n    \"\"\"\n    Test the real meta-analysis system with mock data\n    \"\"\"\n    \n    print(\"🧪 Testing Real Meta-Analysis System...\")\n    \n    # This would use real data in production\n    # For testing, we'll create a minimal example\n    \n    print(\"✅ Real meta-analysis system ready for integration\")\n    print(\"   Use generate_real_tervyx_entry() with actual AI analyses and journal assessments\")\n\nif __name__ == \"__main__\":\n    asyncio.run(test_real_meta_analysis())
+from __future__ import annotations
+
+import math
+import pathlib
+from dataclasses import dataclass, asdict
+from datetime import datetime
+from enum import Enum
+from typing import Any, Dict, Iterable, List, Optional, Tuple
+
+import numpy as np
+import yaml
+
+from engine.mc_meta import run_reml_mc_analysis
+from engine.tel5_rules import apply_l_gate_penalty, tel5_classify
+from engine.gates import evaluate_all_gates
+
+from .ai_abstract_analyzer import AbstractAnalysis, ExtractedData
+from .journal_quality_db import JournalAssessment
+
+ROOT = pathlib.Path(__file__).resolve().parents[1]
+POLICY_PATH = ROOT / "policy.yaml"
+
+
+class StudyQuality(Enum):
+    """Discrete quality buckets used for coarse filtering."""
+
+    HIGH = "high"
+    MODERATE = "moderate"
+    LOW = "low"
+
+
+@dataclass
+class StandardizedStudy:
+    """Normalized study representation suitable for meta-analysis."""
+
+    study_id: str
+    effect_size: float
+    standard_error: float
+    variance: float
+    n_treatment: int
+    n_control: int
+    total_n: int
+    risk_of_bias: StudyQuality
+    journal_quality: float
+    confidence: float
+    duration_weeks: Optional[int]
+    population: Optional[str]
+    intervention: Optional[str]
+    outcome: Optional[str]
+    doi: Optional[str]
+    journal_id: Optional[str]
+
+    def to_evidence_row(self) -> Dict[str, Any]:
+        """Translate into the evidence schema expected by TEL-5 engine."""
+
+        ci_low = self.effect_size - 1.96 * self.standard_error
+        ci_high = self.effect_size + 1.96 * self.standard_error
+
+        return {
+            "study_id": self.study_id,
+            "effect_point": self.effect_size,
+            "ci_low": ci_low,
+            "ci_high": ci_high,
+            "effect_type": "SMD",
+            "n_treat": self.n_treatment,
+            "n_ctrl": self.n_control,
+            "risk_of_bias": self.risk_of_bias.value,
+            "doi": self.doi,
+            "journal_id": self.journal_id or "unknown",
+            "design": "RCT",
+            "year": None,
+        }
+
+
+class RealMetaAnalyzer:
+    """Bridge AI-extracted study data with TEL-5 engine."""
+
+    def __init__(self, min_studies: int = 2) -> None:
+        self.min_studies = min_studies
+
+    # ------------------------------------------------------------------
+    # Public API
+    # ------------------------------------------------------------------
+    def perform_full_analysis(
+        self,
+        analyses: Iterable[AbstractAnalysis],
+        journal_assessments: Dict[str, JournalAssessment],
+        substance: str,
+        outcome_category: str,
+    ) -> Dict[str, Any]:
+        studies = self._convert_to_standardized_studies(analyses, journal_assessments)
+        if len(studies) < self.min_studies:
+            return {
+                "error": f"Insufficient studies after extraction ({len(studies)} found)",
+                "studies": len(studies),
+            }
+
+        studies = self._filter_by_quality(studies)
+        if len(studies) < self.min_studies:
+            return {
+                "error": f"Insufficient studies after quality filtering ({len(studies)})",
+                "studies": len(studies),
+            }
+
+        policy = load_policy()
+        category_cfg = policy["categories"].get(outcome_category)
+        if category_cfg is None:
+            return {"error": f"Unknown outcome category '{outcome_category}' in policy"}
+
+        studies = self._harmonize_effect_direction(studies, category_cfg.get("benefit_direction", 1))
+        evidence_rows = [study.to_evidence_row() for study in studies]
+
+        simulation = run_reml_mc_analysis(
+            evidence_rows=evidence_rows,
+            delta=category_cfg["delta"],
+            benefit_direction=category_cfg.get("benefit_direction", 1),
+            seed=policy["monte_carlo"]["seed"],
+            n_draws=policy["monte_carlo"]["n_draws"],
+            tau2_method=policy["monte_carlo"].get("tau2_method", "REML"),
+        )
+
+        gate_results = self._evaluate_gates(evidence_rows, policy, substance, outcome_category)
+        phi_fail = gate_results["phi"]["violation"]
+        k_fail = gate_results["k"]["violation"]
+        P_effect = simulation.get("P_effect_gt_delta", 0.0)
+        label, tier = tel5_classify(P_effect, phi_fail, k_fail)
+        label, tier = apply_l_gate_penalty(label, tier, gate_results["l"]["violation"])
+
+        return {
+            "simulation": simulation,
+            "studies": studies,
+            "evidence_rows": evidence_rows,
+            "gate_results": gate_results,
+            "tier": tier,
+            "label": label,
+            "policy": policy,
+        }
+
+    # ------------------------------------------------------------------
+    # Conversion helpers
+    # ------------------------------------------------------------------
+    def _convert_to_standardized_studies(
+        self,
+        analyses: Iterable[AbstractAnalysis],
+        journal_assessments: Dict[str, JournalAssessment],
+    ) -> List[StandardizedStudy]:
+        studies: List[StandardizedStudy] = []
+
+        for analysis in analyses:
+            data = analysis.extracted_data
+            if not self._has_sufficient_data(data):
+                continue
+
+            se, variance = self._estimate_uncertainty(data)
+            if se is None or variance is None:
+                continue
+
+            risk = self._map_risk_of_bias(analysis.gate_evaluation.risk_of_bias)
+            journal_assessment = journal_assessments.get(analysis.paper_pmid)
+            j_score = journal_assessment.j_gate_score if journal_assessment else 0.5
+
+            studies.append(
+                StandardizedStudy(
+                    study_id=analysis.paper_pmid,
+                    effect_size=float(data.effect_size),
+                    standard_error=se,
+                    variance=variance,
+                    n_treatment=int(data.sample_size_treatment),
+                    n_control=int(data.sample_size_control),
+                    total_n=int(data.sample_size_treatment + data.sample_size_control),
+                    risk_of_bias=risk,
+                    journal_quality=j_score,
+                    confidence=analysis.analysis_confidence,
+                    duration_weeks=data.study_duration_weeks,
+                    population=data.population,
+                    intervention=data.intervention_details,
+                    outcome=data.outcome_measure,
+                    doi=getattr(analysis, "doi", None),
+                    journal_id=journal_assessment.issn if journal_assessment else None,
+                )
+            )
+
+        return studies
+
+    def _has_sufficient_data(self, data: ExtractedData) -> bool:
+        return (
+            data.effect_size is not None
+            and data.sample_size_treatment is not None
+            and data.sample_size_control is not None
+            and data.sample_size_treatment > 0
+            and data.sample_size_control > 0
+        )
+
+    def _estimate_uncertainty(self, data: ExtractedData) -> Tuple[Optional[float], Optional[float]]:
+        if data.confidence_interval_lower is not None and data.confidence_interval_upper is not None:
+            half_width = (data.confidence_interval_upper - data.confidence_interval_lower) / 2.0
+            se = half_width / 1.96
+        else:
+            # Fallback: approximate using standard formula for SMD
+            n_t = float(data.sample_size_treatment)
+            n_c = float(data.sample_size_control)
+            n_total = n_t + n_c
+            if n_t <= 0 or n_c <= 0:
+                return None, None
+            se = math.sqrt((n_total / (n_t * n_c)) + (data.effect_size**2 / (2.0 * n_total)))
+
+        variance = se**2
+        return se, variance
+
+    def _map_risk_of_bias(self, risk: str) -> StudyQuality:
+        mapping = {
+            "low": StudyQuality.HIGH,
+            "some": StudyQuality.MODERATE,
+            "moderate": StudyQuality.MODERATE,
+            "high": StudyQuality.LOW,
+        }
+        return mapping.get(risk.lower(), StudyQuality.MODERATE)
+
+    # ------------------------------------------------------------------
+    # Quality filtering
+    # ------------------------------------------------------------------
+    def _filter_by_quality(self, studies: List[StandardizedStudy]) -> List[StandardizedStudy]:
+        filtered: List[StandardizedStudy] = []
+        for study in studies:
+            if study.total_n < 20:
+                continue
+            if abs(study.effect_size) > 5:
+                continue
+            if study.confidence < 0.4:
+                continue
+            filtered.append(study)
+        return filtered
+
+    # ------------------------------------------------------------------
+    # Harmonisation
+    # ------------------------------------------------------------------
+    def _harmonize_effect_direction(
+        self, studies: List[StandardizedStudy], benefit_direction: int
+    ) -> List[StandardizedStudy]:
+        adjusted: List[StandardizedStudy] = []
+        for study in studies:
+            effect = study.effect_size * benefit_direction
+            adjusted.append(
+                StandardizedStudy(
+                    study_id=study.study_id,
+                    effect_size=effect,
+                    standard_error=study.standard_error,
+                    variance=study.variance,
+                    n_treatment=study.n_treatment,
+                    n_control=study.n_control,
+                    total_n=study.total_n,
+                    risk_of_bias=study.risk_of_bias,
+                    journal_quality=study.journal_quality,
+                    confidence=study.confidence,
+                    duration_weeks=study.duration_weeks,
+                    population=study.population,
+                    intervention=study.intervention,
+                    outcome=study.outcome,
+                    doi=study.doi,
+                    journal_id=study.journal_id,
+                )
+            )
+        return adjusted
+
+    # ------------------------------------------------------------------
+    # Gate evaluation
+    # ------------------------------------------------------------------
+    def _evaluate_gates(
+        self,
+        evidence_rows: List[Dict[str, Any]],
+        policy: Dict[str, Any],
+        substance: str,
+        outcome_category: str,
+    ) -> Dict[str, Any]:
+        snapshot_path = ROOT / policy["gates"]["j"]["use_snapshot"]
+        snapshot = {}
+        if snapshot_path.exists():
+            snapshot = json_load(snapshot_path)
+        text_hint = f"{substance} {outcome_category}"
+        return evaluate_all_gates(evidence_rows, outcome_category, snapshot, policy, text_hint)
+
+
+# ----------------------------------------------------------------------
+# Public helper for pipeline
+# ----------------------------------------------------------------------
+
+def load_policy() -> Dict[str, Any]:
+    return yaml.safe_load(POLICY_PATH.read_text(encoding="utf-8"))
+
+
+def json_load(path: pathlib.Path) -> Dict[str, Any]:
+    import json
+
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def compute_policy_fingerprint(policy: Dict[str, Any], snapshot: Dict[str, Any]) -> str:
+    import hashlib
+    import json
+
+    minimal = {
+        "version": policy.get("version"),
+        "protocol": policy.get("protocol"),
+        "tel5_tiers": policy.get("tel5_tiers"),
+        "categories": policy.get("categories"),
+        "monte_carlo": policy.get("monte_carlo"),
+    }
+
+    policy_hash = hashlib.sha256(json.dumps(minimal, sort_keys=True).encode("utf-8")).hexdigest()
+    snapshot_hash = hashlib.sha256(json.dumps(snapshot.get("journals", {}), sort_keys=True).encode("utf-8")).hexdigest()
+    combined = hashlib.sha256(f"{policy_hash}{snapshot_hash}".encode("utf-8")).hexdigest()
+    return f"sha256:{combined}"
+
+
+async def generate_real_tervyx_entry(
+    substance: str,
+    outcome_category: str,
+    analyses: Iterable[AbstractAnalysis],
+    journal_assessments: Dict[str, JournalAssessment],
+) -> Dict[str, Any]:
+    analyzer = RealMetaAnalyzer()
+    analysis_result = analyzer.perform_full_analysis(analyses, journal_assessments, substance, outcome_category)
+
+    if "error" in analysis_result:
+        return analysis_result
+
+    policy: Dict[str, Any] = analysis_result["policy"]
+    snapshot_path = ROOT / policy["gates"]["j"]["use_snapshot"]
+    snapshot = json_load(snapshot_path) if snapshot_path.exists() else {}
+    fingerprint = compute_policy_fingerprint(policy, snapshot)
+
+    studies: List[StandardizedStudy] = analysis_result["studies"]
+    simulation: Dict[str, Any] = analysis_result["simulation"]
+    gate_results = analysis_result["gate_results"]
+    label = analysis_result["label"]
+    tier = analysis_result["tier"]
+
+    simulation["policy_fingerprint"] = fingerprint
+
+    evidence_summary = {
+        "n_studies": len(studies),
+        "total_n": int(sum(study.total_n for study in studies)),
+        "I2": simulation.get("I2"),
+        "tau2": simulation.get("tau2"),
+        "mu_hat": simulation.get("mu_hat"),
+        "mu_CI95": simulation.get("mu_CI95"),
+    }
+
+    return {
+        "@context": "https://schema.org/",
+        "@type": "Dataset",
+        "id": f"{substance}:{outcome_category}:v1",
+        "title": f"{substance.title()} — {outcome_category.replace('_', ' ').title()}",
+        "tier_label_system": "TEL-5",
+        "tier": tier,
+        "label": label,
+        "P_effect_gt_delta": simulation.get("P_effect_gt_delta", 0.0),
+        "gate_results": gate_results,
+        "evidence_summary": evidence_summary,
+        "policy_refs": {
+            "policy_version": policy.get("version"),
+            "journal_trust_snapshot": policy["gates"]["j"].get("use_snapshot"),
+        },
+        "policy_fingerprint": fingerprint,
+        "created": datetime.utcnow().isoformat() + "Z",
+        "real_studies": [asdict(study) for study in studies],
+        "meta_analysis": simulation,
+    }

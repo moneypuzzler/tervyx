@@ -1,5 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-omega-3_2012_1,2012,cohort,SMD,0.139,-0.175,0.452,101,25,low,10.3129/j.neuropsychopharmacol.2012.9850,neuropsychopharmacol,Omega 3 supplement,Control group,Digit span test,6,Healthy elderly
-omega-3_2022_2,2022,cohort,SMD,0.183,-0.047,0.414,100,66,low,10.1858/j.am_j_cardiol.2022.3076,am_j_cardiol,Omega 3 supplement,Control group,Trail Making Test,16,Healthy elderly
-omega-3_2015_3,2015,RCT,SMD,0.148,-0.197,0.494,38,82,some,10.9543/j.j_sleep_res.2015.5941,j_sleep_res,Omega 3 supplement,Placebo,Trail Making Test,24,Healthy elderly
-omega-3_2016_4,2016,RCT,SMD,0.233,-0.289,0.755,87,116,high,10.2323/j.sleep_health.2016.6277,sleep_health,Omega 3 supplement,Placebo,MoCA score,4,Adults with mild cognitive impairment

@@ -1,5 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-nsaids_2015_1,2015,cross-sectional,MD,-0.535,-0.936,-0.135,106,66,high,10.5895/j.am_j_cardiol.2015.4086,am_j_cardiol,Nsaids supplement,Control group,Serum creatinine (mg/dL),16,Patients with CKD
-nsaids_2020_2,2020,RCT,MD,0.584,0.117,1.05,28,108,some,10.5250/j.circulation.2020.7857,circulation,Nsaids supplement,Placebo,Proteinuria,12,Healthy volunteers
-nsaids_2013_3,2013,RCT,MD,-0.292,-0.763,0.179,106,85,high,10.9311/j.eur_heart_j.2013.5918,eur_heart_j,Nsaids supplement,Placebo,Serum creatinine (mg/dL),24,Patients with CKD
-nsaids_2021_4,2021,RCT,MD,1.831,1.43,2.232,96,48,high,10.2463/j.jacc.2021.4641,jacc,Nsaids supplement,Placebo,BUN (mg/dL),6,Elderly adults

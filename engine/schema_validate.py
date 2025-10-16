@@ -1,5 +1,5 @@
 """
-Schema validation for VERA Protocol artifacts.
+Schema validation for TERVYX Protocol artifacts.
 
 Validates simulation.json and entry.jsonld files against their schemas
 to ensure consistency and completeness of generated outputs.
@@ -300,7 +300,7 @@ def main():
     """Command-line interface for schema validation."""
     import argparse
     
-    parser = argparse.ArgumentParser(description="Validate VERA Protocol artifacts")
+    parser = argparse.ArgumentParser(description="Validate TERVYX Protocol artifacts")
     parser.add_argument("entry_path", 
                        help="Path to entry directory", 
                        type=pathlib.Path,

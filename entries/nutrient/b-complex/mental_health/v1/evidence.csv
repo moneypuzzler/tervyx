@@ -1,5 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-b-complex_2019_1,2019,cohort,SMD,-0.436,-0.704,-0.167,102,68,high,10.1674/j.low_quality_journal.2019.1464,low_quality_journal,B Complex supplement,Control group,PHQ-9 score,4,College students
-b-complex_2010_2,2010,RCT,SMD,-0.361,-0.758,0.035,105,94,low,10.8912/j.circulation.2010.5012,circulation,B Complex supplement,Placebo,Beck Depression Inventory,8,Elderly with mood disorders
-b-complex_2016_3,2016,RCT,SMD,-0.419,-0.758,-0.081,51,68,some,10.6231/j.jacc.2016.6658,jacc,B Complex supplement,Placebo,Beck Depression Inventory,6,College students
-b-complex_2011_4,2011,RCT,SMD,-0.278,-0.556,0.0,56,43,low,10.7293/j.circulation.2011.7850,circulation,B Complex supplement,Placebo,GAD-7 score,6,College students

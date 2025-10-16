@@ -1,3 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-ma-huang_2017_1,2017,RCT,MD,-2.335,-2.502,-2.169,103,50,high,10.3907/j.jacc.2017.6301,jacc,Ma Huang supplement,Placebo,eGFR (mL/min/1.73m²),4,Patients with CKD
-ma-huang_2023_2,2023,RCT,MD,-1.216,-1.897,-0.536,34,72,some,10.2655/j.kidney_int.2023.6514,kidney_int,Ma Huang supplement,Placebo,BUN (mg/dL),8,Patients with CKD

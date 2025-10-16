@@ -1,5 +1,5 @@
 """
-HBV 5-tier labeling system for VERA Protocol.
+HBV 5-tier labeling system for TERVYX Protocol.
 
 Implements the Health Benefit Verification system that maps
 P(effect > δ) probabilities to tier labels (Gold/Silver/Bronze/Red/Black).

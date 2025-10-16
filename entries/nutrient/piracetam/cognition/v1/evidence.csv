@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-piracetam_2017_1,2017,RCT,SMD,0.119,-0.335,0.573,69,67,some,10.7180/j.predatory_journal_2.2017.8460,predatory_journal_2,Piracetam supplement,Placebo,Digit span test,6,Adults with mild cognitive impairment
-piracetam_2016_2,2016,RCT,SMD,0.163,-0.335,0.662,120,85,some,10.7325/j.kidney_int.2016.3492,kidney_int,Piracetam supplement,Placebo,Trail Making Test,4,Adults with mild cognitive impairment
-piracetam_2023_3,2023,cohort,SMD,0.128,-0.317,0.574,37,92,high,10.3361/j.sleep_medicine.2023.7717,sleep_medicine,Piracetam supplement,Control group,MoCA score,4,Middle-aged adults

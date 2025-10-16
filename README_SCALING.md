@@ -1,8 +1,8 @@
-# VERA Protocol - Scaling Architecture 🚀
+# TERVYX Protocol - Scaling Architecture 🚀
 
 ## Overview
 
-The VERA Protocol scaling architecture enables processing of **1000+ entries** with automated evidence collection, BERT-based relevance scoring, and PRISMA-compliant systematic review workflows.
+The TERVYX Protocol scaling architecture enables processing of **1000+ entries** with automated evidence collection, BERT-based relevance scoring, and PRISMA-compliant systematic review workflows.
 
 ## 🏗️ Architecture Components
 
@@ -13,7 +13,7 @@ The VERA Protocol scaling architecture enables processing of **1000+ entries** w
 - Efficient batch updates for thousands of journals
 
 ### 2. Entry Catalog (`/catalog/`)
-- **1000+ entry seeds** across 5 HBV categories
+- **1000+ entry seeds** across 5 TEL-5 categories
 - CSV-based catalog with priority assignment
 - Batch processing and progress tracking
 - Distributed assignment system
@@ -52,46 +52,46 @@ pip install -r requirements_scaling.txt
 
 ```bash
 # Initialize all scaling components
-python scripts/vera_scale.py init
+python scripts/tervyx_scale.py init
 ```
 
 ### Journal Registry Management
 
 ```bash
 # View registry statistics
-python scripts/vera_scale.py registry stats
+python scripts/tervyx_scale.py registry stats
 
 # Update registry with new ISSNs
-python scripts/vera_scale.py registry update --issn-list "1389-9457,1365-2869,0006-3223"
+python scripts/tervyx_scale.py registry update --issn-list "1389-9457,1365-2869,0006-3223"
 
 # Search for journals
-python scripts/vera_scale.py registry search --query "sleep medicine"
+python scripts/tervyx_scale.py registry search --query "sleep medicine"
 
 # Get specific journal scorecard
-python scripts/vera_scale.py registry get --issn "1389-9457"
+python scripts/tervyx_scale.py registry get --issn "1389-9457"
 ```
 
 ### Entry Catalog Operations
 
 ```bash
 # View catalog statistics
-python scripts/vera_scale.py catalog stats
+python scripts/tervyx_scale.py catalog stats
 
 # Get next batch for processing
-python scripts/vera_scale.py catalog batch --batch-size 20 --priority high --category sleep
+python scripts/tervyx_scale.py catalog batch --batch-size 20 --priority high --category sleep
 
 # Search entries
-python scripts/vera_scale.py catalog search --query "magnesium sleep"
+python scripts/tervyx_scale.py catalog search --query "magnesium sleep"
 
 # Update entry status
-python scripts/vera_scale.py catalog update --entry-id "vera_sleep_12345678" --status "completed" --tier "Gold"
+python scripts/tervyx_scale.py catalog update --entry-id "tervyx_sleep_12345678" --status "completed" --tier "Gold"
 ```
 
 ### Evidence Collection
 
 ```bash
 # Collect evidence from multiple databases
-python scripts/vera_scale.py collect "magnesium AND sleep quality AND randomized controlled trial" \
+python scripts/tervyx_scale.py collect "magnesium AND sleep quality AND randomized controlled trial" \
   --max-results 100 \
   --databases "openalex,pubmed" \
   --output "evidence_results.json"
@@ -101,14 +101,14 @@ python scripts/vera_scale.py collect "magnesium AND sleep quality AND randomized
 
 ```bash
 # Score single abstract
-python scripts/vera_scale.py score \
+python scripts/tervyx_scale.py score \
   --abstract "Magnesium supplementation improved sleep quality in this RCT..." \
   --category "sleep" \
   --substance "magnesium" \
   --indication "sleep_quality"
 
 # Batch scoring from file
-python scripts/vera_scale.py score \
+python scripts/tervyx_scale.py score \
   --batch-file "collected_studies.json" \
   --category "sleep" \
   --substance "magnesium" \
@@ -120,33 +120,33 @@ python scripts/vera_scale.py score \
 
 ```bash
 # Initialize systematic review
-python scripts/vera_scale.py prisma "magnesium_sleep_review" init \
+python scripts/tervyx_scale.py prisma "magnesium_sleep_review" init \
   --title "Magnesium for Sleep Quality: Systematic Review" \
   --question "Does magnesium supplementation improve sleep quality?" \
   --inclusion '{"population":["adults"],"intervention":["magnesium"],"outcome":["sleep"]}' \
   --exclusion '{"population":["children"],"study_design":["case report"]}'
 
 # Import search results
-python scripts/vera_scale.py prisma "magnesium_sleep_review" import \
+python scripts/tervyx_scale.py prisma "magnesium_sleep_review" import \
   --input-file "search_results.json" \
   --database "pubmed"
 
 # Remove duplicates
-python scripts/vera_scale.py prisma "magnesium_sleep_review" dedupe
+python scripts/tervyx_scale.py prisma "magnesium_sleep_review" dedupe
 
 # Screen studies
-python scripts/vera_scale.py prisma "magnesium_sleep_review" screen \
+python scripts/tervyx_scale.py prisma "magnesium_sleep_review" screen \
   --batch-size 50 \
   --reviewer-id "researcher1"
 
 # View statistics
-python scripts/vera_scale.py prisma "magnesium_sleep_review" stats
+python scripts/tervyx_scale.py prisma "magnesium_sleep_review" stats
 
 # Generate PRISMA flow diagram
-python scripts/vera_scale.py prisma "magnesium_sleep_review" flow
+python scripts/tervyx_scale.py prisma "magnesium_sleep_review" flow
 
 # Export results
-python scripts/vera_scale.py prisma "magnesium_sleep_review" export --format excel
+python scripts/tervyx_scale.py prisma "magnesium_sleep_review" export --format excel
 ```
 
 ## 📊 Data Structures
@@ -170,7 +170,7 @@ python scripts/vera_scale.py prisma "magnesium_sleep_review" export --format exc
 ### Entry Seed Schema
 ```python
 {
-  "entry_id": "vera_sleep_a1b2c3d4",
+  "entry_id": "tervyx_sleep_a1b2c3d4",
   "category": "sleep",
   "substance": "magnesium_glycinate",
   "formulation": "glycinate", 
@@ -313,11 +313,11 @@ The catalog automatically generates 1000+ entry seeds across:
 - **Medium Priority** (45%): Moderate evidence, research interest
 - **Low Priority** (25%): Exploratory, limited evidence
 
-## 🔗 Integration with Core VERA
+## 🔗 Integration with Core TERVYX
 
-The scaling architecture seamlessly integrates with the core VERA Protocol:
+The scaling architecture seamlessly integrates with the core TERVYX Protocol:
 
-- **Policy compliance**: All entries follow HBV 5-tier system
+- **Policy compliance**: All entries follow the TEL-5 evidence system
 - **Gate validation**: Automated Φ/R/J/K/L gate processing  
 - **Schema validation**: JSON Schema compliance for all artifacts
 - **Audit trails**: Complete traceability through audit logs
@@ -341,4 +341,4 @@ The scaling architecture seamlessly integrates with the core VERA Protocol:
 
 ---
 
-*The VERA Protocol scaling architecture: From single entries to systematic evidence synthesis at scale.*
+*The TERVYX Protocol scaling architecture: From single entries to systematic evidence synthesis at scale.*

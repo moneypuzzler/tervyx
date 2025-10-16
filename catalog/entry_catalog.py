@@ -1,5 +1,5 @@
 """
-VERA Protocol - Entry Catalog Management
+TERVYX Protocol - Entry Catalog Management
 Manages 1000+ entry seeds with CSV-based catalog system
 """
 
@@ -425,7 +425,7 @@ class EntryCatalog:
         hash_obj = hashlib.md5(id_string.encode())
         hash_hex = hash_obj.hexdigest()[:8]
         
-        return f"vera_{category}_{hash_hex}"
+        return f"tervyx_{category}_{hash_hex}"
     
     def load_catalog(self) -> pd.DataFrame:
         """Load entry catalog from CSV"""

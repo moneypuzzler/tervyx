@@ -1,5 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-l-tyrosine_2020_1,2020,cohort,SMD,0.119,-0.326,0.564,59,28,low,10.6567/j.circulation.2020.6751,circulation,L Tyrosine supplement,Control group,MMSE score,6,Adults with mild cognitive impairment
-l-tyrosine_2020_2,2020,cross-sectional,SMD,0.163,-0.058,0.385,36,120,some,10.7878/j.kidney_int.2020.8432,kidney_int,L Tyrosine supplement,Control group,Digit span test,6,Students
-l-tyrosine_2019_3,2019,RCT,SMD,0.128,-0.331,0.588,31,44,low,10.2336/j.j_sleep_res.2019.5458,j_sleep_res,L Tyrosine supplement,Placebo,Trail Making Test,24,Middle-aged adults
-l-tyrosine_2013_4,2013,cohort,SMD,0.213,-0.051,0.477,39,69,some,10.8972/j.circulation.2013.9633,circulation,L Tyrosine supplement,Control group,Digit span test,4,Adults with mild cognitive impairment

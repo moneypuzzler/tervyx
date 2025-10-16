@@ -253,10 +253,13 @@ numpy, scipy     # Statistical computations
 
 ```python
 config = {
-    'max_papers_search': 100,      # PubMed search limit
-    'max_papers_analyze': 30,      # AI analysis limit  
-    'min_papers_meta_analysis': 3, # Minimum for meta-analysis
-    'analysis_timeout_minutes': 30  # Per-entry timeout
+    'max_papers_search': 100,        # PubMed search limit
+    'max_papers_analyze': 30,        # AI analysis limit
+    'min_papers_meta_analysis': 3,   # Minimum for meta-analysis
+    'analysis_timeout_minutes': 30,  # Per-entry timeout
+    'relevance_threshold': 0.6,      # Flash-Lite screening cut-off
+    'confidence_threshold': 0.7,     # Flash/Pro inclusion cut-off
+    'batch_delay_seconds': 30,       # Cool-down between batch entries
 }
 ```
 
@@ -270,14 +273,16 @@ config = {
    - Study type and quality filters applied
 
 2. **AI Analysis Quality**  
-   - Confidence thresholds (>0.6 for inclusion)
-   - Relevance scoring (>0.5 for inclusion)
+   - Relevance screening threshold ≥0.6 (Flash-Lite)
+   - Confidence threshold ≥0.7 (Flash → Pro retry)
+   - Inclusion requires analyzer recommendation + quality checks
    - Cross-validation with multiple AI assessments
 
 3. **Journal Quality Control**
    - Predatory journal detection and exclusion
    - Impact factor and indexing verification
    - Publisher reputation assessment
+   - Only includable PMIDs trigger live journal queries (cost-aware)
 
 4. **Meta-Analysis Quality**
    - Effect size standardization and harmonization

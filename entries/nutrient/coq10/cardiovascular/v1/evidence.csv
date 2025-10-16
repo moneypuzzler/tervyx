@@ -1,5 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-coq10_2012_1,2012,RCT,MD,-3.768,-4.012,-3.523,82,44,low,10.5835/j.eur_neuropsychopharmacol.2012.9173,eur_neuropsychopharmacol,Coq10 supplement,Placebo,HDL cholesterol,16,Post-MI patients
-coq10_2012_2,2012,RCT,MD,-3.208,-3.619,-2.797,107,92,low,10.1319/j.predatory_journal_2.2012.7266,predatory_journal_2,Coq10 supplement,Placebo,Total cholesterol,12,Post-MI patients
-coq10_2014_3,2014,RCT,MD,-3.646,-3.887,-3.405,65,101,low,10.1959/j.am_j_cardiol.2014.8728,am_j_cardiol,Coq10 supplement,Placebo,Total cholesterol,16,Patients with hyperlipidemia
-coq10_2013_4,2013,RCT,MD,-2.584,-2.918,-2.251,119,32,some,10.7363/j.eur_neuropsychopharmacol.2013.6813,eur_neuropsychopharmacol,Coq10 supplement,Placebo,LDL cholesterol (mg/dL),6,Patients with hyperlipidemia

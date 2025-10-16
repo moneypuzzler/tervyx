@@ -595,7 +595,7 @@ def evaluate_gate_governance_protocol(evidence_rows: List[Dict[str, Any]],
     }
 
 
-# Maintain backward compatibility with VERA naming
+# Maintain backward compatibility with legacy naming
 def evaluate_all_gates(*args, **kwargs):
     """Backward compatibility wrapper for evaluate_gate_governance_protocol."""
     logger.warning("evaluate_all_gates() is deprecated, use evaluate_gate_governance_protocol() instead")

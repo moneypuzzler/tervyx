@@ -1,5 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-valerian-root_2018_1,2018,cohort,SMD,-0.352,-0.871,0.168,96,26,low,10.9938/j.neuropsychopharmacol.2018.1590,neuropsychopharmacol,Valerian Root supplement,Control group,Sleep latency (min),16,Elderly with sleep complaints
-valerian-root_2015_2,2015,cohort,SMD,-0.296,-0.459,-0.132,30,70,low,10.2684/j.eur_neuropsychopharmacol.2015.6794,eur_neuropsychopharmacol,Valerian Root supplement,Control group,ISI score,16,Elderly with sleep complaints
-valerian-root_2022_3,2022,RCT,SMD,-0.34,-0.988,0.309,77,28,low,10.7745/j.jacc.2022.5065,jacc,Valerian Root supplement,Placebo,Sleep latency (min),6,Adults with insomnia
-valerian-root_2013_4,2013,RCT,SMD,-0.233,-0.813,0.347,83,69,some,10.4652/j.eur_neuropsychopharmacol.2013.1387,eur_neuropsychopharmacol,Valerian Root supplement,Placebo,Sleep efficiency %,12,Shift workers

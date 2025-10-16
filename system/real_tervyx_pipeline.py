@@ -4,7 +4,7 @@ Complete Real-Data TERVYX Pipeline
 
 Integrated pipeline that combines all components:
 1. PubMed paper search and metadata extraction
-2. AI-powered abstract analysis and gate evaluation  
+2. AI-powered abstract analysis and gate evaluation
 3. Journal quality assessment
 4. Real meta-analysis with REML + Monte Carlo
 5. TEL-5 classification and TERVYX entry generation
@@ -12,16 +12,520 @@ Integrated pipeline that combines all components:
 Production-ready system for generating actual TERVYX entries using real scientific literature.
 """
 
+from __future__ import annotations
+
 import asyncio
-import os
 import json
-from typing import Dict, List, Optional, Any
-from datetime import datetime
+import os
 import traceback
+from datetime import datetime
+from typing import Any, Dict, List, Optional, Tuple
 
 # Import system components
 from .pubmed_integration import PubMedAPI, PubMedPaper
-from .ai_abstract_analyzer import AnalysisAggregator
 from .cost_optimized_analyzer import CostOptimizedAnalyzer  # NEW: Cost-optimized AI analysis
 from .journal_quality_db import JournalQualityDatabase
-from .real_meta_analysis import RealMetaAnalyzer, generate_real_tervyx_entry\n\nclass RealTERVYXPipeline:\n    \"\"\"\n    Complete pipeline for generating TERVYX entries using real literature data\n    \"\"\"\n    \n    def __init__(self, \n                 email: str,\n                 gemini_api_key: str,\n                 ncbi_api_key: Optional[str] = None):\n        \"\"\"\n        Initialize pipeline with required API keys and configuration\n        \"\"\"\n        \n        self.email = email\n        self.gemini_api_key = gemini_api_key\n        self.ncbi_api_key = ncbi_api_key\n        \n        # Initialize components\n        self.pubmed_api = PubMedAPI(email, api_key=ncbi_api_key)\n        self.ai_analyzer = CostOptimizedAnalyzer(gemini_api_key)  # NEW: Cost-optimized analyzer\n        self.analysis_aggregator = AnalysisAggregator()\n        self.journal_db = JournalQualityDatabase()\n        self.meta_analyzer = RealMetaAnalyzer()\n        \n        # Configuration\n        self.config = {\n            'max_papers_search': 100,\n            'max_papers_analyze': 30,\n            'min_papers_meta_analysis': 3,\n            'analysis_timeout_minutes': 30\n        }\n    \n    async def generate_entry(self, substance: str, outcome_category: str) -> Dict[str, Any]:\n        \"\"\"\n        Generate complete TERVYX entry using real literature data\n        \n        Args:\n            substance: Substance name (e.g., \"melatonin\", \"omega-3\")\n            outcome_category: Category (\"sleep\", \"cognition\", \"mental_health\", \"cardiovascular\", \"renal_safety\")\n        \n        Returns:\n            Complete TERVYX entry dictionary or error information\n        \"\"\"\n        \n        start_time = datetime.now()\n        \n        try:\n            print(f\"\\n🚀 Starting Real TERVYX Analysis: {substance} + {outcome_category}\")\n            print(f\"⏰ Started at: {start_time.isoformat()}\")\n            \n            # Step 1: Search PubMed for relevant papers\n            print(f\"\\n📚 Step 1: Searching PubMed...\")\n            \n            pmids = await self.pubmed_api.search_papers(\n                substance=substance,\n                outcome=outcome_category,\n                max_results=self.config['max_papers_search']\n            )\n            \n            if not pmids:\n                return {\n                    'error': 'No papers found in PubMed search',\n                    'substance': substance,\n                    'outcome_category': outcome_category,\n                    'search_results': 0\n                }\n            \n            print(f\"✅ Found {len(pmids)} papers\")\n            \n            # Step 2: Fetch detailed paper metadata\n            print(f\"\\n📄 Step 2: Fetching paper metadata...\")\n            \n            papers = await self.pubmed_api.fetch_detailed_metadata(\n                pmids[:self.config['max_papers_analyze']]\n            )\n            \n            if len(papers) < 2:\n                return {\n                    'error': 'Insufficient papers with complete metadata',\n                    'substance': substance,\n                    'outcome_category': outcome_category,\n                    'papers_found': len(pmids),\n                    'papers_with_metadata': len(papers)\n                }\n            \n            print(f\"✅ Retrieved metadata for {len(papers)} papers\")\n            \n            # Step 3: AI analysis of abstracts\n            print(f\"\\n🤖 Step 3: AI analysis of abstracts...\")\n            \n            analyses = await self.ai_analyzer.analyze_batch(\n                papers=papers,\n                substance=substance,\n                outcome_category=outcome_category\n            )\n            \n            if len(analyses) < 2:\n                return {\n                    'error': 'Insufficient successful AI analyses',\n                    'substance': substance,\n                    'outcome_category': outcome_category,\n                    'papers_analyzed': len(papers),\n                    'successful_analyses': len(analyses)\n                }\n            \n            print(f\"✅ Successfully analyzed {len(analyses)} abstracts\")\n            \n            # Step 4: Journal quality assessment\n            print(f\"\\n🏛️ Step 4: Assessing journal quality...\")\n            \n            journal_assessments = {}\n            \n            for paper in papers:\n                if paper.journal_issn:\n                    assessment = await self.journal_db.assess_journal(\n                        issn=paper.journal_issn,\n                        title=paper.journal\n                    )\n                    journal_assessments[paper.pmid] = assessment\n            \n            print(f\"✅ Assessed {len(journal_assessments)} journals\")\n            \n            # Step 5: Meta-analysis and entry generation\n            print(f\"\\n📊 Step 5: Performing meta-analysis...\")\n            \n            entry = await generate_real_tervyx_entry(\n                substance=substance,\n                outcome_category=outcome_category,\n                analyses=analyses,\n                journal_assessments=journal_assessments\n            )\n            \n            if 'error' in entry:\n                return {\n                    **entry,\n                    'pipeline_step': 'meta_analysis',\n                    'analyses_input': len(analyses),\n                    'journal_assessments_input': len(journal_assessments)\n                }\n            \n            # Step 6: Add pipeline metadata\n            processing_time = (datetime.now() - start_time).total_seconds()\n            \n            entry['pipeline_metadata'] = {\n                'processing_time_seconds': processing_time,\n                'pubmed_search_results': len(pmids),\n                'papers_with_metadata': len(papers),\n                'successful_ai_analyses': len(analyses),\n                'journal_assessments': len(journal_assessments),\n                'pipeline_version': 'v1.0-real-data',\n                'components_used': {\n                    'pubmed_api': True,\n                    'gemini_ai': True,\n                    'journal_quality_db': True,\n                    'reml_monte_carlo': True\n                },\n                'data_sources': {\n                    'literature_search': 'PubMed E-utilities',\n                    'ai_analysis': 'Gemini Tiered (Flash-Lite + Flash + Pro)',\n                    'journal_quality': 'Multi-source aggregated',\n                    'meta_analysis': 'TERVYX REML+MC Engine'\n                }\n            }\n            \n            print(f\"\\n🎉 SUCCESS: Generated TEL-{entry['tier']} entry ({entry['label']})\")\n            print(f\"📊 Evidence: {entry['evidence_summary']['n_studies']} studies, {entry['evidence_summary']['total_n']} participants\")\n            print(f\"⏱️ Total processing time: {processing_time:.1f} seconds\")\n            \n            return entry\n            \n        except Exception as e:\n            error_info = {\n                'error': f'Pipeline failed: {str(e)}',\n                'error_type': type(e).__name__,\n                'traceback': traceback.format_exc(),\n                'substance': substance,\n                'outcome_category': outcome_category,\n                'processing_time': (datetime.now() - start_time).total_seconds()\n            }\n            \n            print(f\"\\n💥 PIPELINE FAILED: {str(e)}\")\n            \n            return error_info\n    \n    async def generate_multiple_entries(self, \n                                      substance_outcome_pairs: List[Tuple[str, str]],\n                                      output_dir: str = \"/home/user/webapp/entries_real\") -> Dict[str, Any]:\n        \"\"\"\n        Generate multiple TERVYX entries in batch\n        \"\"\"\n        \n        print(f\"\\n🚀 Batch Generation: {len(substance_outcome_pairs)} entries\")\n        \n        results = {\n            'successful_entries': [],\n            'failed_entries': [],\n            'summary': {}\n        }\n        \n        os.makedirs(output_dir, exist_ok=True)\n        \n        for i, (substance, outcome_category) in enumerate(substance_outcome_pairs):\n            print(f\"\\n{'='*60}\")\n            print(f\"Processing {i+1}/{len(substance_outcome_pairs)}: {substance} + {outcome_category}\")\n            print(f\"{'='*60}\")\n            \n            try:\n                entry = await self.generate_entry(substance, outcome_category)\n                \n                if 'error' in entry:\n                    results['failed_entries'].append({\n                        'substance': substance,\n                        'outcome_category': outcome_category,\n                        'error': entry['error']\n                    })\n                else:\n                    # Save successful entry\n                    entry_dir = os.path.join(output_dir, f\"nutrient/{substance}/{outcome_category}/v1\")\n                    os.makedirs(entry_dir, exist_ok=True)\n                    \n                    # Save entry files\n                    with open(os.path.join(entry_dir, \"entry.jsonld\"), 'w') as f:\n                        json.dump({\n                            k: v for k, v in entry.items() \n                            if k not in ['real_studies', 'pipeline_metadata']\n                        }, f, indent=2)\n                    \n                    # Save detailed analysis\n                    with open(os.path.join(entry_dir, \"analysis_detailed.json\"), 'w') as f:\n                        json.dump(entry, f, indent=2, default=str)\n                    \n                    results['successful_entries'].append({\n                        'substance': substance,\n                        'outcome_category': outcome_category,\n                        'tier': entry['tier'],\n                        'label': entry['label'],\n                        'n_studies': entry['evidence_summary']['n_studies']\n                    })\n                    \n                    print(f\"✅ Saved to {entry_dir}\")\n                \n            except Exception as e:\n                print(f\"💥 Failed to process {substance} + {outcome_category}: {str(e)}\")\n                results['failed_entries'].append({\n                    'substance': substance,\n                    'outcome_category': outcome_category,\n                    'error': str(e)\n                })\n            \n            # Rate limiting between entries\n            if i < len(substance_outcome_pairs) - 1:\n                print(f\"⏳ Waiting 30 seconds before next entry...\")\n                await asyncio.sleep(30)\n        \n        # Generate summary\n        successful = len(results['successful_entries'])\n        failed = len(results['failed_entries'])\n        \n        results['summary'] = {\n            'total_attempted': len(substance_outcome_pairs),\n            'successful': successful,\n            'failed': failed,\n            'success_rate': successful / len(substance_outcome_pairs) * 100,\n            'tier_distribution': {},\n            'label_distribution': {}\n        }\n        \n        # Calculate distributions\n        for entry in results['successful_entries']:\n            tier = entry['tier']\n            label = entry['label']\n            \n            results['summary']['tier_distribution'][tier] = results['summary']['tier_distribution'].get(tier, 0) + 1\n            results['summary']['label_distribution'][label] = results['summary']['label_distribution'].get(label, 0) + 1\n        \n        # Save batch results\n        with open(os.path.join(output_dir, \"batch_results.json\"), 'w') as f:\n            json.dump(results, f, indent=2)\n        \n        print(f\"\\n📊 BATCH COMPLETE:\")\n        print(f\"   Successful: {successful}/{len(substance_outcome_pairs)} ({successful/len(substance_outcome_pairs)*100:.1f}%)\")\n        print(f\"   Results saved to: {output_dir}\")\n        \n        return results\n    \n    def validate_configuration(self) -> Dict[str, bool]:\n        \"\"\"\n        Validate that all required components are properly configured\n        \"\"\"\n        \n        validation = {\n            'pubmed_api': False,\n            'gemini_api': False,\n            'journal_db': False,\n            'meta_analyzer': False,\n            'overall': False\n        }\n        \n        try:\n            # Check PubMed API\n            validation['pubmed_api'] = bool(self.email and '@' in self.email)\n            \n            # Check Gemini API\n            validation['gemini_api'] = bool(self.gemini_api_key and len(self.gemini_api_key) > 10)\n            \n            # Check Journal DB\n            validation['journal_db'] = os.path.exists(os.path.dirname(self.journal_db.db_path))\n            \n            # Check Meta Analyzer\n            validation['meta_analyzer'] = hasattr(self.meta_analyzer, 'perform_full_analysis')\n            \n            # Overall validation\n            validation['overall'] = all([\n                validation['pubmed_api'],\n                validation['gemini_api'],\n                validation['journal_db'],\n                validation['meta_analyzer']\n            ])\n            \n        except Exception as e:\n            print(f\"⚠️ Validation error: {str(e)}\")\n        \n        return validation\n\n# ============================================================================\n# Production Usage Examples\n# ============================================================================\n\nasync def run_priority_substances():\n    \"\"\"\n    Generate entries for high-priority substances with substantial literature\n    \"\"\"\n    \n    # Check environment variables\n    email = os.getenv('TERVYX_EMAIL', 'your-email@domain.com')\n    gemini_key = os.getenv('GEMINI_API_KEY')\n    ncbi_key = os.getenv('NCBI_API_KEY')  # Optional\n    \n    if not gemini_key or gemini_key == 'your-api-key-here':\n        print(\"❌ Missing GEMINI_API_KEY environment variable\")\n        print(\"   Set with: export GEMINI_API_KEY='your-actual-api-key'\")\n        return\n    \n    if email == 'your-email@domain.com':\n        print(\"❌ Update TERVYX_EMAIL environment variable with your real email\")\n        return\n    \n    # Initialize pipeline\n    pipeline = RealTERVYXPipeline(\n        email=email,\n        gemini_api_key=gemini_key,\n        ncbi_api_key=ncbi_key\n    )\n    \n    # Validate configuration\n    validation = pipeline.validate_configuration()\n    if not validation['overall']:\n        print(f\"❌ Configuration validation failed: {validation}\")\n        return\n    \n    print(\"✅ Pipeline configuration validated\")\n    \n    # Priority substances with strong literature base\n    priority_pairs = [\n        # Sleep category - well-researched substances\n        ('melatonin', 'sleep'),\n        ('magnesium', 'sleep'),\n        ('valerian', 'sleep'),\n        \n        # Cognition category - nootropics with RCT evidence\n        ('omega-3', 'cognition'),\n        ('ginkgo', 'cognition'),\n        ('bacopa', 'cognition'),\n        \n        # Mental health - supplements with psychiatric research\n        ('st-john-wort', 'mental_health'),\n        ('omega-3', 'mental_health'),\n        ('saffron', 'mental_health'),\n        \n        # Cardiovascular - heart health supplements\n        ('omega-3', 'cardiovascular'),\n        ('coq10', 'cardiovascular'),\n        ('garlic', 'cardiovascular'),\n        \n        # Renal safety - known nephrotoxic substances\n        ('aristolochic-acid', 'renal_safety'),\n        ('nsaids', 'renal_safety')\n    ]\n    \n    print(f\"\\n🎯 Generating {len(priority_pairs)} high-priority TERVYX entries...\")\n    \n    # Run batch generation\n    results = await pipeline.generate_multiple_entries(priority_pairs)\n    \n    print(f\"\\n🏁 FINAL RESULTS:\")\n    print(f\"   ✅ Successful: {results['summary']['successful']}\")\n    print(f\"   ❌ Failed: {results['summary']['failed']}\")\n    print(f\"   📊 Success Rate: {results['summary']['success_rate']:.1f}%\")\n    \n    if results['summary']['tier_distribution']:\n        print(f\"   🏆 Tier Distribution:\")\n        for tier, count in results['summary']['tier_distribution'].items():\n            print(f\"      {tier}: {count}\")\n    \n    return results\n\nasync def test_single_entry():\n    \"\"\"\n    Test pipeline with a single well-studied substance\n    \"\"\"\n    \n    email = os.getenv('TERVYX_EMAIL', 'test@example.com')\n    gemini_key = os.getenv('GEMINI_API_KEY')\n    \n    if not gemini_key:\n        print(\"⚠️ No Gemini API key found - running validation test only\")\n        \n        pipeline = RealTERVYXPipeline(\n            email=email,\n            gemini_api_key='test-key',\n            ncbi_api_key=None\n        )\n        \n        validation = pipeline.validate_configuration()\n        print(f\"Pipeline validation: {validation}\")\n        return\n    \n    pipeline = RealTERVYXPipeline(\n        email=email,\n        gemini_api_key=gemini_key\n    )\n    \n    print(\"🧪 Testing with melatonin + sleep (well-studied combination)\")\n    \n    entry = await pipeline.generate_entry('melatonin', 'sleep')\n    \n    if 'error' not in entry:\n        print(f\"\\n✅ SUCCESS: Generated TEL-{entry['tier']} entry\")\n        print(f\"   Label: {entry['label']}\")\n        print(f\"   Studies: {entry['evidence_summary']['n_studies']}\")\n        print(f\"   Participants: {entry['evidence_summary']['total_n']}\")\n        print(f\"   Processing time: {entry['pipeline_metadata']['processing_time_seconds']:.1f}s\")\n        \n        # Save test entry\n        with open('/home/user/webapp/system/test_real_entry.json', 'w') as f:\n            json.dump(entry, f, indent=2, default=str)\n        \n        print(f\"   Saved to: test_real_entry.json\")\n        \n    else:\n        print(f\"\\n❌ FAILED: {entry['error']}\")\n    \n    return entry\n\n# Main execution\nif __name__ == \"__main__\":\n    import sys\n    \n    if len(sys.argv) > 1 and sys.argv[1] == \"full\":\n        # Full production run\n        asyncio.run(run_priority_substances())\n    else:\n        # Single test entry\n        asyncio.run(test_single_entry())
+from .real_meta_analysis import RealMetaAnalyzer, generate_real_tervyx_entry
+
+
+class RealTERVYXPipeline:
+    """Complete pipeline for generating TERVYX entries using real literature data."""
+
+    def __init__(self, email: str, gemini_api_key: str, ncbi_api_key: Optional[str] = None) -> None:
+        """Initialize pipeline with required API keys and configuration."""
+
+        self.email = email
+        self.gemini_api_key = gemini_api_key
+        self.ncbi_api_key = ncbi_api_key
+
+        # Initialize components
+        self.pubmed_api = PubMedAPI(email, api_key=ncbi_api_key)
+        self.ai_analyzer = CostOptimizedAnalyzer(gemini_api_key)  # NEW: Cost-optimized analyzer
+        self.journal_db = JournalQualityDatabase()
+        self.meta_analyzer = RealMetaAnalyzer()
+
+        # Configuration (tuned for real-data production runs)
+        self.config: Dict[str, Any] = {
+            "max_papers_search": 100,
+            "max_papers_analyze": 30,
+            "min_papers_meta_analysis": 3,
+            "analysis_timeout_minutes": 30,
+            "relevance_threshold": 0.6,
+            "confidence_threshold": 0.7,
+            "batch_delay_seconds": 30,
+        }
+
+    async def generate_entry(self, substance: str, outcome_category: str) -> Dict[str, Any]:
+        """Generate complete TERVYX entry using real literature data."""
+
+        start_time = datetime.now()
+
+        try:
+            print(f"\n🚀 Starting Real TERVYX Analysis: {substance} + {outcome_category}")
+            print(f"⏰ Started at: {start_time.isoformat()}")
+
+            # Step 1: Search PubMed for relevant papers
+            print("\n📚 Step 1: Searching PubMed...")
+
+            pmids = await self.pubmed_api.search_papers(
+                substance=substance,
+                outcome=outcome_category,
+                max_results=self.config["max_papers_search"],
+            )
+
+            if not pmids:
+                return {
+                    "error": "No papers found in PubMed search",
+                    "substance": substance,
+                    "outcome_category": outcome_category,
+                    "search_results": 0,
+                }
+
+            print(f"✅ Found {len(pmids)} papers")
+
+            # Step 2: Fetch detailed paper metadata
+            print("\n📄 Step 2: Fetching paper metadata...")
+
+            papers = await self.pubmed_api.fetch_detailed_metadata(
+                pmids[: self.config["max_papers_analyze"]]
+            )
+
+            if len(papers) < 2:
+                return {
+                    "error": "Insufficient papers with complete metadata",
+                    "substance": substance,
+                    "outcome_category": outcome_category,
+                    "papers_found": len(pmids),
+                    "papers_with_metadata": len(papers),
+                }
+
+            print(f"✅ Retrieved metadata for {len(papers)} papers")
+
+            # Step 3: AI analysis of abstracts (tiered cost optimized)
+            print("\n🤖 Step 3: AI analysis of abstracts...")
+
+            analyses = await self.ai_analyzer.process_batch_optimized(
+                papers=papers,
+                substance=substance,
+                outcome_category=outcome_category,
+                relevance_threshold=self.config["relevance_threshold"],
+                confidence_threshold=self.config["confidence_threshold"],
+            )
+
+            if len(analyses) < self.config["min_papers_meta_analysis"]:
+                return {
+                    "error": "Insufficient successful AI analyses for meta-analysis",
+                    "substance": substance,
+                    "outcome_category": outcome_category,
+                    "papers_analyzed": len(papers),
+                    "successful_analyses": len(analyses),
+                    "required_minimum": self.config["min_papers_meta_analysis"],
+                }
+
+            included_analyses = [analysis for analysis in analyses if analysis.inclusion_recommendation]
+
+            if len(included_analyses) < self.meta_analyzer.min_studies:
+                return {
+                    "error": "Not enough includable studies after AI review",
+                    "substance": substance,
+                    "outcome_category": outcome_category,
+                    "successful_analyses": len(analyses),
+                    "included_analyses": len(included_analyses),
+                    "required_minimum": self.meta_analyzer.min_studies,
+                }
+
+            print(
+                f"✅ Successfully analyzed {len(analyses)} abstracts "
+                f"({len(included_analyses)} includable)"
+            )
+
+            # Step 4: Journal quality assessment (only includable PMIDs)
+            print("\n🏛️ Step 4: Assessing journal quality...")
+
+            includable_pmids = {analysis.paper_pmid for analysis in included_analyses}
+            journal_assessments: Dict[str, Any] = {}
+
+            for paper in papers:
+                if paper.pmid not in includable_pmids:
+                    continue
+                if not paper.journal_issn:
+                    continue
+
+                assessment = await self.journal_db.assess_journal(
+                    issn=paper.journal_issn,
+                    title=paper.journal,
+                )
+
+                if assessment is not None:
+                    journal_assessments[paper.pmid] = assessment
+
+            print(f"✅ Assessed {len(journal_assessments)} journals")
+
+            # Step 5: Meta-analysis and entry generation
+            print("\n📊 Step 5: Performing meta-analysis...")
+
+            entry = await generate_real_tervyx_entry(
+                substance=substance,
+                outcome_category=outcome_category,
+                analyses=included_analyses,
+                journal_assessments=journal_assessments,
+            )
+
+            if "error" in entry:
+                return {
+                    **entry,
+                    "pipeline_step": "meta_analysis",
+                    "analyses_input": len(analyses),
+                    "included_ai_analyses": len(included_analyses),
+                    "journal_assessments_input": len(journal_assessments),
+                }
+
+            # Step 6: Add pipeline metadata
+            processing_time = (datetime.now() - start_time).total_seconds()
+
+            entry["pipeline_metadata"] = {
+                "processing_time_seconds": processing_time,
+                "pubmed_search_results": len(pmids),
+                "papers_with_metadata": len(papers),
+                "successful_ai_analyses": len(analyses),
+                "included_ai_analyses": len(included_analyses),
+                "journal_assessments": len(journal_assessments),
+                "pipeline_version": "v1.1-real-data",
+                "components_used": {
+                    "pubmed_api": True,
+                    "gemini_ai": True,
+                    "journal_quality_db": True,
+                    "reml_monte_carlo": True,
+                },
+                "data_sources": {
+                    "literature_search": "PubMed E-utilities",
+                    "ai_analysis": "Gemini Tiered (Flash-Lite + Flash + Pro)",
+                    "journal_quality": "Multi-source aggregated",
+                    "meta_analysis": "TERVYX REML+MC Engine",
+                },
+            }
+
+            print(
+                f"\n🎉 SUCCESS: Generated TEL-{entry['tier']} entry ({entry['label']})"
+            )
+            print(
+                "📊 Evidence: "
+                f"{entry['evidence_summary']['n_studies']} studies, "
+                f"{entry['evidence_summary']['total_n']} participants"
+            )
+            print(f"⏱️ Total processing time: {processing_time:.1f} seconds")
+
+            return entry
+
+        except Exception as exc:  # pragma: no cover - defensive logging path
+            error_info = {
+                "error": f"Pipeline failed: {exc}",
+                "error_type": type(exc).__name__,
+                "traceback": traceback.format_exc(),
+                "substance": substance,
+                "outcome_category": outcome_category,
+                "processing_time": (datetime.now() - start_time).total_seconds(),
+            }
+
+            print(f"\n💥 PIPELINE FAILED: {exc}")
+
+            return error_info
+
+    async def generate_multiple_entries(
+        self,
+        substance_outcome_pairs: List[Tuple[str, str]],
+        output_dir: str = "/home/user/webapp/entries_real",
+    ) -> Dict[str, Any]:
+        """Generate multiple TERVYX entries in batch."""
+
+        print(f"\n🚀 Batch Generation: {len(substance_outcome_pairs)} entries")
+
+        results: Dict[str, Any] = {
+            "successful_entries": [],
+            "failed_entries": [],
+            "summary": {},
+        }
+
+        os.makedirs(output_dir, exist_ok=True)
+        delay_seconds = self.config.get("batch_delay_seconds", 30)
+
+        for index, (substance, outcome_category) in enumerate(substance_outcome_pairs):
+            print("\n" + "=" * 60)
+            print(
+                f"Processing {index + 1}/{len(substance_outcome_pairs)}: "
+                f"{substance} + {outcome_category}"
+            )
+            print("=" * 60)
+
+            try:
+                entry = await self.generate_entry(substance, outcome_category)
+
+                if "error" in entry:
+                    results["failed_entries"].append(
+                        {
+                            "substance": substance,
+                            "outcome_category": outcome_category,
+                            "error": entry["error"],
+                        }
+                    )
+                else:
+                    entry_dir = os.path.join(
+                        output_dir, f"nutrient/{substance}/{outcome_category}/v1"
+                    )
+                    os.makedirs(entry_dir, exist_ok=True)
+
+                    # Save entry files (exclude heavy metadata for entry.jsonld)
+                    clean_entry = {
+                        key: value
+                        for key, value in entry.items()
+                        if key not in {"real_studies", "pipeline_metadata"}
+                    }
+
+                    with open(os.path.join(entry_dir, "entry.jsonld"), "w", encoding="utf-8") as file:
+                        json.dump(clean_entry, file, indent=2, ensure_ascii=False)
+
+                    with open(
+                        os.path.join(entry_dir, "analysis_detailed.json"),
+                        "w",
+                        encoding="utf-8",
+                    ) as file:
+                        json.dump(entry, file, indent=2, default=str, ensure_ascii=False)
+
+                    results["successful_entries"].append(
+                        {
+                            "substance": substance,
+                            "outcome_category": outcome_category,
+                            "tier": entry["tier"],
+                            "label": entry["label"],
+                            "n_studies": entry["evidence_summary"]["n_studies"],
+                        }
+                    )
+
+                    print(f"✅ Saved to {entry_dir}")
+
+            except Exception as exc:  # pragma: no cover - defensive logging path
+                print(
+                    f"💥 Failed to process {substance} + {outcome_category}: {exc}"
+                )
+                results["failed_entries"].append(
+                    {
+                        "substance": substance,
+                        "outcome_category": outcome_category,
+                        "error": str(exc),
+                    }
+                )
+
+            # Rate limiting between entries
+            if index < len(substance_outcome_pairs) - 1:
+                print(f"⏳ Waiting {delay_seconds} seconds before next entry...")
+                await asyncio.sleep(delay_seconds)
+
+        # Generate summary
+        successful = len(results["successful_entries"])
+        failed = len(results["failed_entries"])
+
+        results["summary"] = {
+            "total_attempted": len(substance_outcome_pairs),
+            "successful": successful,
+            "failed": failed,
+            "success_rate": (successful / len(substance_outcome_pairs)) * 100
+            if substance_outcome_pairs
+            else 0.0,
+            "tier_distribution": {},
+            "label_distribution": {},
+        }
+
+        for entry in results["successful_entries"]:
+            tier = entry["tier"]
+            label = entry["label"]
+            results["summary"]["tier_distribution"][tier] = (
+                results["summary"]["tier_distribution"].get(tier, 0) + 1
+            )
+            results["summary"]["label_distribution"][label] = (
+                results["summary"]["label_distribution"].get(label, 0) + 1
+            )
+
+        with open(os.path.join(output_dir, "batch_results.json"), "w", encoding="utf-8") as file:
+            json.dump(results, file, indent=2, ensure_ascii=False)
+
+        print("\n📊 BATCH COMPLETE:")
+        print(
+            f"   Successful: {successful}/{len(substance_outcome_pairs)} "
+            f"({results['summary']['success_rate']:.1f}%)"
+        )
+        print(f"   Results saved to: {output_dir}")
+
+        return results
+
+    def validate_configuration(self) -> Dict[str, bool]:
+        """Validate that all required components are properly configured."""
+
+        validation = {
+            "pubmed_api": False,
+            "gemini_api": False,
+            "journal_db": False,
+            "meta_analyzer": False,
+            "overall": False,
+        }
+
+        try:
+            validation["pubmed_api"] = bool(self.email and "@" in self.email)
+            validation["gemini_api"] = bool(
+                self.gemini_api_key and len(self.gemini_api_key) > 10
+            )
+            validation["journal_db"] = os.path.exists(
+                os.path.dirname(getattr(self.journal_db, "db_path", "")) or "/"
+            )
+            validation["meta_analyzer"] = hasattr(
+                self.meta_analyzer, "perform_full_analysis"
+            )
+            validation["overall"] = all(
+                [
+                    validation["pubmed_api"],
+                    validation["gemini_api"],
+                    validation["journal_db"],
+                    validation["meta_analyzer"],
+                ]
+            )
+
+        except Exception as exc:  # pragma: no cover - defensive logging path
+            print(f"⚠️ Validation error: {exc}")
+
+        return validation
+
+
+# ============================================================================
+# Production Usage Examples
+# ============================================================================
+
+
+async def run_priority_substances() -> Dict[str, Any]:
+    """Generate entries for high-priority substances with substantial literature."""
+
+    # Check environment variables
+    email = os.getenv("TERVYX_EMAIL", "your-email@domain.com")
+    gemini_key = os.getenv("GEMINI_API_KEY")
+    ncbi_key = os.getenv("NCBI_API_KEY")  # Optional
+
+    if not gemini_key or gemini_key == "your-api-key-here":
+        print("❌ Missing GEMINI_API_KEY environment variable")
+        print("   Set with: export GEMINI_API_KEY='your-actual-api-key'")
+        return {}
+
+    if email == "your-email@domain.com":
+        print("❌ Update TERVYX_EMAIL environment variable with your real email")
+        return {}
+
+    # Initialize pipeline
+    pipeline = RealTERVYXPipeline(
+        email=email,
+        gemini_api_key=gemini_key,
+        ncbi_api_key=ncbi_key,
+    )
+
+    # Validate configuration
+    validation = pipeline.validate_configuration()
+    if not validation["overall"]:
+        print(f"❌ Configuration validation failed: {validation}")
+        return {}
+
+    print("✅ Pipeline configuration validated")
+
+    # Priority substances with strong literature base
+    priority_pairs = [
+        # Sleep category - well-researched substances
+        ("melatonin", "sleep"),
+        ("magnesium", "sleep"),
+        ("valerian", "sleep"),
+        # Cognition category - nootropics with RCT evidence
+        ("omega-3", "cognition"),
+        ("ginkgo", "cognition"),
+        ("bacopa", "cognition"),
+        # Mental health - supplements with psychiatric research
+        ("st-john-wort", "mental_health"),
+        ("omega-3", "mental_health"),
+        ("saffron", "mental_health"),
+        # Cardiovascular - heart health supplements
+        ("omega-3", "cardiovascular"),
+        ("coq10", "cardiovascular"),
+        ("garlic", "cardiovascular"),
+        # Renal safety - known nephrotoxic substances
+        ("aristolochic-acid", "renal_safety"),
+        ("nsaids", "renal_safety"),
+    ]
+
+    print(f"\n🎯 Generating {len(priority_pairs)} high-priority TERVYX entries...")
+
+    # Run batch generation
+    results = await pipeline.generate_multiple_entries(priority_pairs)
+
+    print("\n🏁 FINAL RESULTS:")
+    print(f"   ✅ Successful: {results['summary']['successful']}")
+    print(f"   ❌ Failed: {results['summary']['failed']}")
+    print(f"   📊 Success Rate: {results['summary']['success_rate']:.1f}%")
+
+    if results["summary"]["tier_distribution"]:
+        print("   🏆 Tier Distribution:")
+        for tier, count in results["summary"]["tier_distribution"].items():
+            print(f"      {tier}: {count}")
+
+    return results
+
+
+async def test_single_entry() -> Dict[str, Any]:
+    """Test pipeline with a single well-studied substance."""
+
+    email = os.getenv("TERVYX_EMAIL", "test@example.com")
+    gemini_key = os.getenv("GEMINI_API_KEY")
+
+    if not gemini_key:
+        print("⚠️ No Gemini API key found - running validation test only")
+
+        pipeline = RealTERVYXPipeline(
+            email=email,
+            gemini_api_key="test-key",
+            ncbi_api_key=None,
+        )
+
+        validation = pipeline.validate_configuration()
+        print(f"Pipeline validation: {validation}")
+        return {}
+
+    pipeline = RealTERVYXPipeline(
+        email=email,
+        gemini_api_key=gemini_key,
+    )
+
+    print("🧪 Testing with melatonin + sleep (well-studied combination)")
+
+    entry = await pipeline.generate_entry("melatonin", "sleep")
+
+    if "error" not in entry:
+        print(f"\n✅ SUCCESS: Generated TEL-{entry['tier']} entry")
+        print(f"   Label: {entry['label']}")
+        print(f"   Studies: {entry['evidence_summary']['n_studies']}")
+        print(f"   Participants: {entry['evidence_summary']['total_n']}")
+        print(
+            "   Processing time: "
+            f"{entry['pipeline_metadata']['processing_time_seconds']:.1f}s"
+        )
+
+        with open(
+            "/home/user/webapp/system/test_real_entry.json", "w", encoding="utf-8"
+        ) as file:
+            json.dump(entry, file, indent=2, default=str, ensure_ascii=False)
+
+        print("   Saved to: test_real_entry.json")
+    else:
+        print(f"\n❌ FAILED: {entry['error']}")
+
+    return entry
+
+
+if __name__ == "__main__":  # pragma: no cover - manual execution helper
+    import sys
+
+    if len(sys.argv) > 1 and sys.argv[1] == "full":
+        asyncio.run(run_priority_substances())
+    else:
+        asyncio.run(test_single_entry())

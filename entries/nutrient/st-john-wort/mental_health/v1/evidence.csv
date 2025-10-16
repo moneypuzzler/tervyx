@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-st-john-wort_2022_1,2022,RCT,SMD,-0.526,-0.832,-0.22,76,120,some,10.6554/j.kidney_int.2022.4060,kidney_int,St John Wort supplement,Placebo,Beck Depression Inventory,24,Elderly with mood disorders
-st-john-wort_2021_2,2021,RCT,SMD,-0.451,-0.92,0.018,80,102,high,10.9937/j.psychopharmacology.2021.5813,psychopharmacology,St John Wort supplement,Placebo,Hamilton Depression Scale,4,Adults with depression
-st-john-wort_2019_3,2019,cohort,SMD,-0.509,-0.777,-0.242,46,113,some,10.1693/j.am_j_kidney_dis.2019.6776,am_j_kidney_dis,St John Wort supplement,Control group,Beck Depression Inventory,8,Adults with depression

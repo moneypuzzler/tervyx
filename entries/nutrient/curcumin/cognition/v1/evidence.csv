@@ -1,5 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-curcumin_2018_1,2018,RCT,SMD,0.119,-0.408,0.645,89,102,some,10.4522/j.chronobiol_int.2018.8046,chronobiol_int,Curcumin supplement,Placebo,Trail Making Test,6,Middle-aged adults
-curcumin_2021_2,2021,RCT,SMD,0.163,-0.113,0.44,79,65,some,10.3500/j.eur_heart_j.2021.8770,eur_heart_j,Curcumin supplement,Placebo,MMSE score,4,Healthy elderly
-curcumin_2021_3,2021,RCT,SMD,0.128,-0.064,0.32,41,96,low,10.6400/j.predatory_journal_2.2021.3002,predatory_journal_2,Curcumin supplement,Placebo,Trail Making Test,8,Middle-aged adults
-curcumin_2015_4,2015,RCT,SMD,0.213,-0.276,0.702,89,52,low,10.4674/j.clin_j_am_soc_nephrol.2015.2773,clin_j_am_soc_nephrol,Curcumin supplement,Placebo,Digit span test,16,Students

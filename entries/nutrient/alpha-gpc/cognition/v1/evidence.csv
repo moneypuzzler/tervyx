@@ -1,6 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-alpha-gpc_2024_1,2024,RCT,SMD,0.119,-0.218,0.456,57,52,high,10.9647/j.predatory_journal_2.2024.7934,predatory_journal_2,Alpha Gpc supplement,Placebo,MMSE score,8,Adults with mild cognitive impairment
-alpha-gpc_2016_2,2016,RCT,SMD,0.163,-0.021,0.348,104,83,low,10.9782/j.clin_j_am_soc_nephrol.2016.1269,clin_j_am_soc_nephrol,Alpha Gpc supplement,Placebo,MoCA score,24,Adults with mild cognitive impairment
-alpha-gpc_2015_3,2015,RCT,SMD,0.128,-0.004,0.26,78,48,some,10.9576/j.sleep_health.2015.6908,sleep_health,Alpha Gpc supplement,Placebo,MMSE score,16,Healthy elderly
-alpha-gpc_2016_4,2016,cross-sectional,SMD,0.213,0.076,0.351,57,120,low,10.6649/j.sleep_health.2016.4950,sleep_health,Alpha Gpc supplement,Control group,MMSE score,16,Students
-alpha-gpc_2015_5,2015,cohort,SMD,0.344,-0.094,0.781,47,112,some,10.3986/j.clin_j_am_soc_nephrol.2015.3209,clin_j_am_soc_nephrol,Alpha Gpc supplement,Control group,MMSE score,24,Middle-aged adults

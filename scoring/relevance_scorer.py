@@ -1,5 +1,5 @@
 """
-VERA Protocol - BERT-based Relevance Scoring
+TERVYX Protocol - BERT-based Relevance Scoring
 Implements abstract-based relevance scoring using transformer models
 """
 

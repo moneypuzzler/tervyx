@@ -1,5 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-red-yeast-rice_2022_1,2022,RCT,MD,-3.518,-3.881,-3.155,117,81,some,10.2677/j.nephrol_dial_transplant.2022.5055,nephrol_dial_transplant,Red Yeast Rice supplement,Placebo,Total cholesterol,4,Post-MI patients
-red-yeast-rice_2011_2,2011,RCT,MD,-2.958,-3.46,-2.456,40,55,low,10.6744/j.low_quality_journal.2011.8015,low_quality_journal,Red Yeast Rice supplement,Placebo,LDL cholesterol (mg/dL),16,Patients with hyperlipidemia
-red-yeast-rice_2019_3,2019,RCT,MD,-3.396,-3.954,-2.838,60,101,some,10.5794/j.jacc.2019.5740,jacc,Red Yeast Rice supplement,Placebo,Total cholesterol,16,Adults with hypertension
-red-yeast-rice_2014_4,2014,cohort,MD,-2.334,-2.885,-1.784,41,114,high,10.3396/j.eur_neuropsychopharmacol.2014.6277,eur_neuropsychopharmacol,Red Yeast Rice supplement,Control group,LDL cholesterol (mg/dL),24,Post-MI patients

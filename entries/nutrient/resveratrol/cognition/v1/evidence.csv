@@ -1,5 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-resveratrol_2010_1,2010,cross-sectional,SMD,0.119,-0.059,0.296,46,104,some,10.2443/j.eur_heart_j.2010.8155,eur_heart_j,Resveratrol supplement,Control group,MMSE score,6,Middle-aged adults
-resveratrol_2014_2,2014,cohort,SMD,0.163,-0.173,0.5,53,67,some,10.9363/j.sleep_health.2014.2868,sleep_health,Resveratrol supplement,Control group,MoCA score,8,Students
-resveratrol_2014_3,2014,RCT,SMD,0.128,-0.091,0.347,102,44,some,10.3902/j.sleep_health.2014.9095,sleep_health,Resveratrol supplement,Placebo,Trail Making Test,16,Middle-aged adults
-resveratrol_2011_4,2011,RCT,SMD,0.213,0.013,0.414,105,63,some,10.1920/j.low_quality_journal.2011.6766,low_quality_journal,Resveratrol supplement,Placebo,MMSE score,8,Middle-aged adults

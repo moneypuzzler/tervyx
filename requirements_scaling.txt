@@ -1,4 +1,4 @@
-# VERA Protocol - Scaling Architecture Requirements
+# TERVYX Protocol - Scaling Architecture Requirements
 # Additional dependencies for 1000+ entries scaling system
 
 # Core scaling dependencies  

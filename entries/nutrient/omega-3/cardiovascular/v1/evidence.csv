@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,intervention,control,outcome,duration_weeks,population
-omega-3_2019_1,2019,RCT,MD,-3.768,-4.116,-3.419,48,87,some,10.3733/j.psychopharmacology.2019.9022,psychopharmacology,Omega 3 supplement,Placebo,Total cholesterol,6,Patients with hyperlipidemia
-omega-3_2023_2,2023,RCT,MD,-3.208,-3.574,-2.843,26,87,low,10.9281/j.kidney_int.2023.9109,kidney_int,Omega 3 supplement,Placebo,HDL cholesterol,24,Post-MI patients
-omega-3_2011_3,2011,RCT,MD,-3.646,-3.946,-3.346,53,62,low,10.9808/j.eur_neuropsychopharmacol.2011.5729,eur_neuropsychopharmacol,Omega 3 supplement,Placebo,LDL cholesterol (mg/dL),12,Post-MI patients
