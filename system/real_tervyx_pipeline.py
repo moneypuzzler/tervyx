@@ -26,6 +26,7 @@ from .pubmed_integration import PubMedAPI, PubMedPaper
 from .cost_optimized_analyzer import CostOptimizedAnalyzer  # NEW: Cost-optimized AI analysis
 from .journal_quality_db import JournalQualityDatabase
 from .real_meta_analysis import RealMetaAnalyzer, generate_real_tervyx_entry
+from .credential_validation import validate_gemini_api_key, redact_gemini_api_key
 
 
 class RealTERVYXPipeline:
@@ -87,7 +88,9 @@ class RealTERVYXPipeline:
             print("\n📄 Step 2: Fetching paper metadata...")
 
             papers = await self.pubmed_api.fetch_detailed_metadata(
-                pmids[: self.config["max_papers_analyze"]]
+                pmids[: self.config["max_papers_analyze"]],
+                substance=substance,
+                outcome=outcome_category,
             )
 
             if len(papers) < 2:
@@ -357,22 +360,30 @@ class RealTERVYXPipeline:
 
         return results
 
-    def validate_configuration(self) -> Dict[str, bool]:
+    def validate_configuration(self) -> Dict[str, Any]:
         """Validate that all required components are properly configured."""
 
-        validation = {
+        validation: Dict[str, Any] = {
             "pubmed_api": False,
             "gemini_api": False,
             "journal_db": False,
             "meta_analyzer": False,
             "overall": False,
+            "details": {},
         }
 
         try:
             validation["pubmed_api"] = bool(self.email and "@" in self.email)
-            validation["gemini_api"] = bool(
-                self.gemini_api_key and len(self.gemini_api_key) > 10
+
+            gemini_valid, cleaned_key, gemini_error = validate_gemini_api_key(
+                self.gemini_api_key
             )
+            if gemini_valid and cleaned_key:
+                self.gemini_api_key = cleaned_key
+            else:
+                validation["details"]["gemini_api"] = gemini_error
+            validation["gemini_api"] = gemini_valid
+
             validation["journal_db"] = os.path.exists(
                 os.path.dirname(getattr(self.journal_db, "db_path", "")) or "/"
             )
@@ -407,10 +418,20 @@ async def run_priority_substances() -> Dict[str, Any]:
     gemini_key = os.getenv("GEMINI_API_KEY")
     ncbi_key = os.getenv("NCBI_API_KEY")  # Optional
 
-    if not gemini_key or gemini_key == "your-api-key-here":
-        print("❌ Missing GEMINI_API_KEY environment variable")
-        print("   Set with: export GEMINI_API_KEY='your-actual-api-key'")
+    gemini_valid, cleaned_key, gemini_error = validate_gemini_api_key(gemini_key)
+    if not gemini_valid:
+        print(f"❌ {gemini_error}")
+        print(
+            "   Export GEMINI_API_KEY='AIza...' or map GitHub secrets using:\n"
+            "   env:\n"
+            "     GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}\n"
+            "     TERVYX_EMAIL: ${{ secrets.TERVYX_EMAIL }}"
+        )
+        if cleaned_key:
+            print(f"   Provided key looked like: {redact_gemini_api_key(cleaned_key)}")
         return {}
+
+    gemini_key = cleaned_key or gemini_key
 
     if email == "your-email@domain.com":
         print("❌ Update TERVYX_EMAIL environment variable with your real email")
@@ -478,18 +499,21 @@ async def test_single_entry() -> Dict[str, Any]:
     email = os.getenv("TERVYX_EMAIL", "test@example.com")
     gemini_key = os.getenv("GEMINI_API_KEY")
 
-    if not gemini_key:
-        print("⚠️ No Gemini API key found - running validation test only")
+    gemini_valid, cleaned_key, gemini_error = validate_gemini_api_key(gemini_key)
+    if not gemini_valid:
+        print(f"⚠️ {gemini_error} — running validation-only mode")
 
         pipeline = RealTERVYXPipeline(
             email=email,
-            gemini_api_key="test-key",
+            gemini_api_key=cleaned_key or "AIzaSyFakeTokenForDocs1234567890",
             ncbi_api_key=None,
         )
 
         validation = pipeline.validate_configuration()
         print(f"Pipeline validation: {validation}")
         return {}
+
+    gemini_key = cleaned_key or gemini_key
 
     pipeline = RealTERVYXPipeline(
         email=email,

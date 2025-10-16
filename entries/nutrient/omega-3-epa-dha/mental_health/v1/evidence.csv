@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
+Liao2019,2019,RCT,SMD,-0.37,-0.64,-0.10,60,60,low,10.3390/nu11081702,nutrients
+Chang2020,2020,RCT,SMD,-0.43,-0.71,-0.15,68,68,low,10.3390/nu12092586,nutrients
+Su2021,2021,RCT,SMD,-0.39,-0.66,-0.12,74,72,unclear,10.3390/nu13072263,nutrients

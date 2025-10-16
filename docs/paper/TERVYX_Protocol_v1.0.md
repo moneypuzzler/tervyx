@@ -186,7 +186,7 @@ else:
   "preferred_citation": "Kim, G. (2025). TERVYX Protocol...",
   "bibtex": "@dataset{kim2025tervyx, ...}",
   "csl_json": { "...": "..." },
-  "doi": "10.5281/zenodo.XXXXX",
+  "doi": "10.5281/zenodo.17364486",
   "version": "v1",
   "audit_hash": "0x2f8a9b1c3d4e5f67",
   "llm_hint": "TEL-5=Silver, PASS; Φ/K no violations; sleep δ=0.20; REML+MC",
@@ -344,7 +344,7 @@ Protocol, engine, entries, and schemas will be released with DOIs. All `/entry/{
 
 - **Code repository:** GitHub (MIT License)
 - **Data repository:** Zenodo (CC BY 4.0)
-- **Protocol DOI:** 10.5281/zenodo.XXXXX (pending)
+- **Protocol DOI:** 10.5281/zenodo.17364486
 - **Software DOI:** 10.5281/zenodo.YYYYY (pending)
 
 ## Competing Interests

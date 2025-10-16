@@ -57,6 +57,12 @@ try:  # Optional: real-data pipeline (skips gracefully in environments without d
 except Exception:  # pragma: no cover - pipeline is optional for fast tests
     RealTERVYXPipeline = None  # type: ignore
 
+# Shared credential helpers
+try:  # noqa: E402 - depends on SYSTEM_PATH injection above
+    from credential_validation import validate_gemini_api_key  # type: ignore
+except Exception:  # pragma: no cover - helper is only required for ingest
+    validate_gemini_api_key = None  # type: ignore
+
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
@@ -315,10 +321,20 @@ def cmd_build(args: argparse.Namespace) -> None:
     # Persist simulation.json
     write_json(entry_dir / "simulation.json", simulation)
 
-    audit_hash = sha256_bytes(
+    audit_digest = sha256_bytes(
         canonical_json(simulation)
         + canonical_json({"path": str(entry_dir.relative_to(ROOT)), "timestamp": datetime.utcnow().isoformat()})
-    )
+    ).split(":", 1)[1]
+    audit_hash = f"0x{audit_digest[:16]}"
+
+    r_score = gate_results["r"].get("score")
+    r_display = gate_results["r"].get("result")
+    if r_score is not None:
+        r_display = f"{gate_results['r']['result']} ({r_score:.3f})"
+
+    j_score_masked = gate_results["j"].get("score_masked")
+    if j_score_masked is None:
+        j_score_masked = gate_results["j"].get("score", 0.0)
 
     entry_payload = {
         "@context": "https://schema.org/",
@@ -332,28 +348,34 @@ def cmd_build(args: argparse.Namespace) -> None:
         "P_effect_gt_delta": round(simulation.get("P_effect_gt_delta", 0.0), 6),
         "gate_results": {
             "phi": gate_results["phi"]["result"],
-            "r": gate_results["r"]["result"],
-            "r_score": round(gate_results["r"].get("score", 0.0), 3),
-            "j": round(gate_results["j"].get("score_capped", 0.0), 3),
+            "r": r_display,
+            "j": round(j_score_masked, 3),
             "k": gate_results["k"]["result"],
             "l": gate_results["l"]["result"],
         },
         "evidence_summary": {
             "n_studies": len(evidence),
+            "total_n": simulation.get("total_n"),
             "I2": simulation.get("I2"),
             "tau2": simulation.get("tau2"),
             "mu_hat": simulation.get("mu_hat"),
             "mu_CI95": simulation.get("mu_CI95"),
         },
         "policy_refs": {
-            "policy_version": policy.get("version"),
-            "journal_trust_snapshot": policy["gates"]["j"].get("use_snapshot"),
+            "tel5_levels": policy.get("metadata", {}).get("tel5_version", "unknown"),
+            "monte_carlo": policy.get("monte_carlo", {}).get("version", "unknown"),
+            "journal_trust": journal_snapshot.get("snapshot_date", "unknown"),
         },
         "policy_fingerprint": policy_fingerprint,
         "audit_hash": audit_hash,
         "version": metadata["version"],
         "created": datetime.utcnow().isoformat() + "Z",
     }
+
+    entry_payload["llm_hint"] = (
+        f"TEL-5={tier}, {label}; P(effect>δ)={simulation.get('P_effect_gt_delta', 0.0):.3f}; "
+        f"J*={j_score_masked:.3f}; studies={len(evidence)}; total_n={simulation.get('total_n')}"
+    )
 
     write_json(entry_dir / "entry.jsonld", entry_payload)
 
@@ -362,6 +384,7 @@ def cmd_build(args: argparse.Namespace) -> None:
             "timestamp": datetime.utcnow().isoformat() + "Z",
             "entry_id": entry_payload["id"],
             "audit_hash": audit_hash,
+            "audit_digest_full": audit_digest,
             "policy_fingerprint": policy_fingerprint,
             "tier": tier,
             "label": label,
@@ -443,8 +466,24 @@ def cmd_ingest(args: argparse.Namespace) -> None:
     gemini_key = args.gemini_key or os.getenv("GEMINI_API_KEY")
     ncbi_key = args.ncbi_key or os.getenv("NCBI_API_KEY")
 
-    if not gemini_key:
-        raise ValueError("Gemini API key is required (use --gemini-key or GEMINI_API_KEY env var).")
+    if validate_gemini_api_key is None:
+        raise RuntimeError(
+            "Credential validation helpers are unavailable. Ensure system/credential_validation.py is importable."
+        )
+
+    is_valid_key, cleaned_key, key_error = validate_gemini_api_key(gemini_key)
+    if not is_valid_key:
+        guidance = [key_error]
+        guidance.append(
+            "If you are running inside GitHub Actions, expose the secret using:\n"
+            "  env:\n"
+            "    GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}\n"
+            "    TERVYX_EMAIL: ${{ secrets.TERVYX_EMAIL }}"
+        )
+        raise ValueError("\n".join(guidance))
+
+    gemini_key = cleaned_key or gemini_key
+
     if not email:
         raise ValueError("Contact email is required (use --email or TERVYX_EMAIL env var).")
 

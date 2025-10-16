@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
+Liu2019,2019,RCT,SMD,-0.52,-0.89,-0.15,48,46,low,10.1016/j.sleep.2018.02.001,sleep_med
+Abbasi2017,2017,RCT,SMD,-0.41,-0.78,-0.04,46,44,unclear,10.1111/jsr.12526,j_sleep_res
+Chung2020,2020,RCT,SMD,-0.63,-1.02,-0.24,52,52,low,10.1016/j.sleh.2020.05.004,sleep_health

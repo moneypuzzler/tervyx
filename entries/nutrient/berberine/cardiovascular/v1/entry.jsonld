@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "nutrient:berberine:cardiovascular:v1",
+  "title": "Berberine — Cardiovascular",
+  "category": "cardiovascular",
+  "tier_label_system": "TEL-5",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 1.0,
+  "gate_results": {
+    "phi": "PASS",
+    "r": "HIGH (0.900)",
+    "j": 0.589,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 530,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 6.388401,
+    "mu_CI95": [
+      4.615403,
+      8.161399
+    ]
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "policy_fingerprint": "sha256:26545d853c97caeca80693e7a322b3d9158b82471e67554bb870e0458dcf86c2",
+  "audit_hash": "0xb0d1d7e4c8d998d4",
+  "version": "v1",
+  "created": "2025-10-16T02:36:26.925940Z",
+  "llm_hint": "TEL-5=Gold, PASS; P(effect>δ)=1.000; J*=0.589; studies=3; total_n=530"
+}

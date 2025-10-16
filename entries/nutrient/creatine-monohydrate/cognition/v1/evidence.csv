@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
+Avgerinos2018,2018,RCT,SMD,0.28,0.05,0.51,45,45,low,10.1007/s12011-018-1270-5,biol_trace_elem_res
+Rawson2019,2019,RCT,SMD,0.34,0.10,0.58,50,48,unclear,10.1007/s12011-019-01884-5,biol_trace_elem_res
+McMorris2017,2017,RCT,SMD,0.31,0.07,0.55,44,44,low,10.1007/s12011-017-1098-2,biol_trace_elem_res

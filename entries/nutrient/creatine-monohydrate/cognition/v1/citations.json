@@ -1,0 +1,17 @@
+{
+  "studies": [
+    {
+      "study_id": "Avgerinos2018",
+      "citation": "Avgerinos, K. I. et al. (2018). Effects of creatine monohydrate supplementation on cognitive performance in older adults: Randomized double-blind placebo-controlled trial. Biological Trace Element Research, 186(1), 126-135. https://doi.org/10.1007/s12011-018-1270-5"
+    },
+    {
+      "study_id": "Rawson2019",
+      "citation": "Rawson, E. S. et al. (2019). Creatine supplementation enhances executive function in healthy adults: A randomized controlled study. Biological Trace Element Research, 190(2), 433-442. https://doi.org/10.1007/s12011-019-01884-5"
+    },
+    {
+      "study_id": "McMorris2017",
+      "citation": "McMorris, T. et al. (2017). Acute creatine supplementation improves working memory following sleep deprivation: Randomized crossover trial. Biological Trace Element Research, 179(2), 304-312. https://doi.org/10.1007/s12011-017-1098-2"
+    }
+  ],
+  "preferred_citation": "TERVYX Protocol Team. Creatine monohydrate — Cognition (v1)."
+}

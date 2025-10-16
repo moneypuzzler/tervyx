@@ -198,7 +198,7 @@ metadata:
   protocol_version: "TERVYX v1.0"
   tel5_version: "v1.2.0"
   paper_citation: "Kim, G. (2025). TERVYX Protocol v1.0: A Reproducible Governance & Labeling Standard for Health-Information Evidence"
-  doi: "10.5281/zenodo.XXXXX"
+  doi: "10.5281/zenodo.17364486"
   repository: "https://github.com/your-org/tervyx-protocol"
   license_code: "MIT"
   license_data: "CC BY 4.0"

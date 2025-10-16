@@ -275,7 +275,7 @@ else:
   "preferred_citation": "Kim, G. (2025). TERVYX Protocol...",
   "bibtex": "@dataset{kim2025tervyx, ...}",
   "csl_json": { "...": "..." },
-  "doi": "10.5281/zenodo.XXXXX",
+  "doi": "10.5281/zenodo.17364486",
   "version": "v1",
   "audit_hash": "0x2f8a9b1c3d4e5f67",
   "llm_hint": "TEL-5=Silver, PASS; Φ/K no violations; sleep δ=0.20; REML+MC",
@@ -563,7 +563,7 @@ jobs:
     <ul class="small">
       <li><strong>Code repository:</strong> GitHub (MIT License)</li>
       <li><strong>Data repository:</strong> Zenodo (CC BY 4.0)</li>
-      <li><strong>Protocol DOI:</strong> 10.5281/zenodo.XXXXX (pending)</li>
+      <li><strong>Protocol DOI:</strong> 10.5281/zenodo.17364486</li>
       <li><strong>Software DOI:</strong> 10.5281/zenodo.YYYYY (pending)</li>
     </ul>
   </section>
@@ -694,7 +694,7 @@ jobs:
     <p class="small muted">
       Trademarks: “TERVYX”, “TERVYX Evidence Levels (TEL-5)”, and “Journal-Trust Oracle” are pending/registered trademarks.<br/>
       Version: <strong>v1.0.2</strong> (2025-10-06, KST) — Rename to TERVYX; Silver=PASS; direction unification; 5-tier (TEL-5); J* normalization + BLACK pre-mask; English L-rules; formal DAG propagation; policy_fingerprint in artifacts; revised Figure 1 caption (safety-first monotonicity).<br/>
-      arXiv ID: arXiv:2501.XXXXX (pending) | Zenodo DOI: 10.5281/zenodo.XXXXX (pending) | Contact: moneypuzzler@gmail.com
+      arXiv ID: arXiv:2501.XXXXX (pending) | Zenodo DOI: 10.5281/zenodo.17364486 | Contact: moneypuzzler@gmail.com
     </p>
   </section>
 

@@ -304,7 +304,7 @@ config = {
 # Test pipeline configuration
 python -c "
 from system.real_tervyx_pipeline import RealTERVYXPipeline
-pipeline = RealTERVYXPipeline('test@example.com', 'test-key')
+pipeline = RealTERVYXPipeline('test@example.com', 'AIzaSyFakeTokenForDocs1234567890')
 print(pipeline.validate_configuration())
 "
 

@@ -357,6 +357,11 @@ async def generate_real_tervyx_entry(
         "mu_CI95": simulation.get("mu_CI95"),
     }
 
+    snapshot_hint = policy["gates"]["j"].get("use_snapshot", "")
+    snapshot_date = snapshot.get("snapshot_date")
+    if not snapshot_date and "@" in snapshot_hint:
+        snapshot_date = snapshot_hint.split("@")[-1].split(".")[0]
+
     return {
         "@context": "https://schema.org/",
         "@type": "Dataset",
@@ -369,8 +374,9 @@ async def generate_real_tervyx_entry(
         "gate_results": gate_results,
         "evidence_summary": evidence_summary,
         "policy_refs": {
-            "policy_version": policy.get("version"),
-            "journal_trust_snapshot": policy["gates"]["j"].get("use_snapshot"),
+            "tel5_levels": policy.get("metadata", {}).get("tel5_version", "unknown"),
+            "monte_carlo": policy.get("monte_carlo", {}).get("version", "unknown"),
+            "journal_trust": snapshot_date or "unknown",
         },
         "policy_fingerprint": fingerprint,
         "created": datetime.utcnow().isoformat() + "Z",
