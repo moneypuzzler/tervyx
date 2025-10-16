@@ -108,7 +108,7 @@ The inventor commits to:
 All uses must include proper attribution to:
 - **TERVYX Protocol v1.0** (Kim, G. 2025)
 - **Patent Application:** KR 10-2025-0143351
-- **DOI:** 10.5281/zenodo.XXXXX (when published)
+- **DOI:** 10.5281/zenodo.17364486
 
 ## Contact Information
 

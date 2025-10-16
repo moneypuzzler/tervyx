@@ -1,7 +1,7 @@
 # TERVYX Protocol Makefile
 # Provides convenient targets for common development tasks aligned with the TEL-5 pipeline
 
-.PHONY: init install new build validate test clean lint format help status
+.PHONY: init install new build validate test clean lint format help status zenodo-bundle
 
 # Default target
 help:
@@ -18,6 +18,7 @@ help:
 	@echo "  status      Show system status"
 	@echo "  clean       Clean generated files"
 	@echo "  help        Show this help message"
+	@echo "  zenodo-bundle Package Zenodo-ready archive"
 
 # Initialize development environment
 init: install
@@ -98,3 +99,33 @@ dev: init new build validate
 # CI simulation (run all CI checks locally)
 ci: lint test
 	@echo "🚀 CI simulation complete - ready for push!"
+
+# Package release artifact for Zenodo upload
+zenodo-bundle:
+	@mkdir -p dist
+	@echo "📦 Creating Zenodo-ready archive (excluding VCS, caches, and secrets)..."
+	@tar \
+	--exclude='tervyx/.git' \
+	--exclude='tervyx/.venv' \
+	--exclude='tervyx/__pycache__' \
+	--exclude='*/__pycache__' \
+	--exclude='tervyx/node_modules' \
+	--exclude='tervyx/.mypy_cache' \
+	--exclude='tervyx/.pytest_cache' \
+	--exclude='tervyx/.ruff_cache' \
+	--exclude='tervyx/dist' \
+	--exclude='*.pyc' \
+	--exclude='*.pyo' \
+	--exclude='*.pyd' \
+	--exclude='*.env' \
+	--exclude='*.secret' \
+	--exclude='*.pem' \
+	--exclude='*.key' \
+	--exclude='*.crt' \
+	--exclude='secrets*' \
+	--exclude='.DS_Store' \
+	--exclude='Thumbs.db' \
+	-czf dist/TERVYX_v1.0_artifact.tar.gz \
+	-C .. \
+	tervyx
+	@echo "✅ Archive ready: dist/TERVYX_v1.0_artifact.tar.gz"

@@ -23,6 +23,7 @@ from .cost_optimized_analyzer import CostOptimizedAnalyzer
 from .journal_quality_db import JournalQualityDatabase
 from .real_meta_analysis import RealMetaAnalyzer, generate_real_tervyx_entry
 from .author_metadata import get_standardized_metadata, AUTHOR_METADATA
+from .credential_validation import validate_gemini_api_key
 
 class EnhancedTERVYXPipeline:
     """
@@ -426,10 +427,18 @@ async def test_enhanced_pipeline():
     
     email = os.getenv('TERVYX_EMAIL', 'moneypuzzler@gmail.com')
     gemini_key = os.getenv('GEMINI_API_KEY')
-    
-    if not gemini_key:
-        print("⚠️ Set GEMINI_API_KEY environment variable")
+
+    is_valid_key, cleaned_key, key_error = validate_gemini_api_key(gemini_key)
+    if not is_valid_key:
+        print(f"❌ {key_error}")
+        print("   Export GEMINI_API_KEY='AIza...'")
+        print("   Or map repository secrets in GitHub Actions using:\n"
+              "   env:\n"
+              "     GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}\n"
+              "     TERVYX_EMAIL: ${{ secrets.TERVYX_EMAIL }}")
         return
+
+    gemini_key = cleaned_key or gemini_key
     
     # Initialize enhanced pipeline
     pipeline = EnhancedTERVYXPipeline(

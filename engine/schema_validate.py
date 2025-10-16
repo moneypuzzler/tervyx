@@ -139,25 +139,25 @@ def validate_policy_yaml(policy_path: pathlib.Path) -> Dict[str, Any]:
     errors = []
     
     # Check required top-level keys
-    required_keys = ["version", "hbv_tiers", "categories", "gates", "monte_carlo"]
+    required_keys = ["version", "tel5_tiers", "categories", "gates", "monte_carlo"]
     for key in required_keys:
         if key not in policy_data:
             errors.append({"path": [key], "message": f"Missing required key: {key}"})
     
-    # Validate HBV tiers
-    if "hbv_tiers" in policy_data:
-        tiers = policy_data["hbv_tiers"]
+    # Validate TEL-5 tiers
+    if "tel5_tiers" in policy_data:
+        tiers = policy_data["tel5_tiers"]
         expected_tiers = ["gold", "silver", "bronze", "red", "black"]
-        
+
         for tier in expected_tiers:
             if tier not in tiers:
-                errors.append({"path": ["hbv_tiers", tier], "message": f"Missing tier: {tier}"})
+                errors.append({"path": ["tel5_tiers", tier], "message": f"Missing tier: {tier}"})
             else:
                 tier_data = tiers[tier]
                 if "min_p" not in tier_data:
-                    errors.append({"path": ["hbv_tiers", tier, "min_p"], "message": "Missing min_p"})
+                    errors.append({"path": ["tel5_tiers", tier, "min_p"], "message": "Missing min_p"})
                 if "label" not in tier_data:
-                    errors.append({"path": ["hbv_tiers", tier, "label"], "message": "Missing label"})
+                    errors.append({"path": ["tel5_tiers", tier, "label"], "message": "Missing label"})
     
     # Validate categories
     if "categories" in policy_data:

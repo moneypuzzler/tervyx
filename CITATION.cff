@@ -35,8 +35,10 @@ keywords:
 license: MIT
 version: "1.0"
 date-released: "2025-10-15"
-doi: "10.5281/zenodo.XXXXX"  # To be assigned upon Zenodo upload
+doi: "10.5281/zenodo.17364486"
 identifiers:
+  - type: doi
+    value: "10.5281/zenodo.17364486"
   - type: url
     value: "https://github.com/moneypuzzler/tervyx"
   - type: other

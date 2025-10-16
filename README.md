@@ -2,8 +2,8 @@
 
 **A Reproducible Governance & Labeling Standard for Health-Information Evidence**
 
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.XXXXX-blue)](https://doi.org/10.5281/zenodo.XXXXX)
-[![Patent](https://img.shields.io/badge/Patent-KR%2010--2025--0143351-red)](https://doi.org/10.5281/zenodo.XXXXX)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17364486-blue)](https://doi.org/10.5281/zenodo.17364486)
+[![Patent](https://img.shields.io/badge/Patent-KR%2010--2025--0143351-red)](https://doi.org/10.5281/zenodo.17364486)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Data License: CC BY 4.0](https://img.shields.io/badge/Data%20License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![AI Ready](https://img.shields.io/badge/AI-Ready-brightgreen.svg)](./AI-INTEGRATION-GUIDE.md)
@@ -90,6 +90,27 @@ python scripts/tervyx.py build entries/nutrient/melatonin/sleep/v1 --category sl
 # Option 2 — automated ingestion (requires GEMINI_API_KEY and TERVYX_EMAIL)
 python scripts/tervyx.py ingest --substance melatonin --category sleep --email you@example.com --gemini-key $GEMINI_API_KEY
 
+# When running inside GitHub Actions, surface repository secrets as env vars
+# so the ingestion command can see them:
+# env:
+#   GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+#   TERVYX_EMAIL: ${{ secrets.TERVYX_EMAIL }}
+#   NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}  # optional but recommended for higher PubMed quotas
+
+### 🔑 Getting a PubMed (NCBI) API key
+
+PubMed requests work as long as you provide a contact email, but adding an
+NCBI API key raises your hourly quota ~10×. The process is quick:
+
+1. Create or log in to an [NCBI account](https://account.ncbi.nlm.nih.gov/).
+2. Open **Dashboard → API Keys → Create** and copy the generated value.
+3. Store it as `NCBI_API_KEY` (for example under **Settings → Secrets → Actions** in GitHub).
+4. Export the same key locally when you run `scripts/tervyx.py ingest` so PubMed calls pick it up.
+
+If you skip the key, ingestion still works—it just runs under PubMed’s
+default, much lower request limits.
+
+```bash
 # Fingerprint current policy configuration
 python scripts/tervyx.py fingerprint
 ```
@@ -162,7 +183,7 @@ def classify_tel5(P: float, phi_violation: bool, k_violation: bool) -> tuple:
   "mu_CI95": [0.122, 0.318],
   "I2": 12.4,
   "tau2": 0.009,
-  "policy_fingerprint": "sha256:..."
+  "policy_fingerprint": "0x4d3c2b1a0f9e8d7c"
 }
 ```
 
@@ -184,7 +205,7 @@ def classify_tel5(P: float, phi_violation: bool, k_violation: bool) -> tuple:
     "l": "PASS"
   },
   "llm_hint": "TEL-5=Silver, PASS; Φ/K no violations; sleep δ=0.20; REML+MC",
-  "policy_fingerprint": "sha256:...",
+  "policy_fingerprint": "0x4d3c2b1a0f9e8d7c",
   "audit_hash": "0x2f8a9b1c3d4e5f67"
 }
 ```
@@ -259,6 +280,12 @@ primary literature using the ingestion pipeline:
 4. Execute REML + Monte Carlo meta-analysis and TEL-5 labeling (`system/real_meta_analysis.py`).
 5. Persist entries under `entries/` (manual) or `entries_real/` (automated) with full audit provenance.
 
+## 📦 Zenodo Release Checklist
+
+1. Run `make zenodo-bundle` to generate `TERVYX_v1.0_artifact.tar.gz` with `.git/`, `.venv/`, `__pycache__/`, `node_modules/`, and secret material excluded.
+2. Upload the archive to Zenodo and verify the record resolves to DOI **10.5281/zenodo.17364486**.
+3. Confirm `CITATION.cff`, `.zenodo.json`, and the README badges reference the published DOI before publishing.
+
 ## 📚 Citation & Attribution
 
 **Paper Citation:**
@@ -268,7 +295,7 @@ primary literature using the ingestion pipeline:
   author={Kim, Geonyeob},
   journal={Preprint},
   year={2025},
-  doi={10.5281/zenodo.XXXXX},
+  doi={10.5281/zenodo.17364486},
   note={Patent: KR 10-2025-0143351}
 }
 ```
@@ -307,8 +334,8 @@ This protocol does not constitute medical advice and cannot replace clinical dia
 
 ## 🔗 Links
 
-- **Paper**: [DOI 10.5281/zenodo.XXXXX](https://doi.org/10.5281/zenodo.XXXXX)
-- **Patent**: [KR 10-2025-0143351](https://doi.org/10.5281/zenodo.XXXXX)
+- **Paper**: [DOI 10.5281/zenodo.17364486](https://doi.org/10.5281/zenodo.17364486)
+- **Patent**: [KR 10-2025-0143351](https://doi.org/10.5281/zenodo.17364486)
 - **ORCID**: [0009-0005-7640-2510](https://orcid.org/0009-0005-7640-2510)
 - **Contact**: moneypuzzler@gmail.com
 

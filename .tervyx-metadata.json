@@ -10,7 +10,7 @@
     "title": "TERVYX Protocol v1.0: A Reproducible Governance & Labeling Standard for Health-Information Evidence",
     "authors": ["Kim, Geonyeop"],
     "year": 2025,
-    "doi": "10.5281/zenodo.XXXXX",
+    "doi": "10.5281/zenodo.17364486",
     "url": "https://github.com/moneypuzzler/tervyx",
     "license": "MIT",
     "bibtex": "@misc{kim2025tervyx,\n  title={TERVYX Protocol v1.0: A Reproducible Governance \\& Labeling Standard for Health-Information Evidence},\n  author={Kim, Geonyeop},\n  year={2025},\n  publisher={GitHub},\n  journal={GitHub repository},\n  howpublished={\\url{https://github.com/moneypuzzler/tervyx}},\n  note={Patent: KR 10-2025-0143351}\n}"

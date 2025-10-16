@@ -103,7 +103,7 @@ python update_author_info.py
 # 입력 예시:
 # ORCID: 0000-0002-1234-5678
 # DOI: 10.1038/s41467-024-12345-6
-# Zenodo: 10.5281/zenodo.1234567
+# Zenodo: 10.5281/zenodo.17364486
 ```
 
 ---

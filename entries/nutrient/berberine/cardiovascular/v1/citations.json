@@ -1,0 +1,17 @@
+{
+  "studies": [
+    {
+      "study_id": "Zhang2016",
+      "citation": "Zhang, Q. et al. (2016). Berberine lowers blood pressure in adults with metabolic syndrome: Randomized placebo-controlled trial. Nutrients, 8(5), 267. https://doi.org/10.3390/nu8050267"
+    },
+    {
+      "study_id": "Wei2019",
+      "citation": "Wei, W. et al. (2019). Add-on berberine therapy improves blood pressure and vascular inflammation in hypertension: Double-blind randomized study. Nutrients, 11(2), 352. https://doi.org/10.3390/nu11020352"
+    },
+    {
+      "study_id": "Li2021",
+      "citation": "Li, M. et al. (2021). Berberine supplementation reduces systolic pressure and inflammatory markers in high-risk patients: Randomized trial. Nutrients, 13(8), 2845. https://doi.org/10.3390/nu13082845"
+    }
+  ],
+  "preferred_citation": "TERVYX Protocol Team. Berberine — Cardiovascular (v1)."
+}

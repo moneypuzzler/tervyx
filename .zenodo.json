@@ -73,9 +73,10 @@
     "Korean Patent Application No. KR 10-2025-0143351: Verification of Non-scientific Health-Information Claims — GGP-based Hybrid Control"
   ],
   "notes": "This work includes patent-protected methodologies under Korean Patent Application KR 10-2025-0143351. The TERVYX Protocol represents a novel approach to automated evidence evaluation with safety-first principles and multi-gate quality control.",
+  "doi": "10.5281/zenodo.17364486",
   "version": "1.0",
   "publication_date": "2025-10-15",
-  "prereserve_doi": true,
+  "prereserve_doi": false,
   "communities": [
     {
       "identifier": "zenodo"

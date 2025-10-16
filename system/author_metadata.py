@@ -214,7 +214,7 @@ if __name__ == "__main__":
     # AUTHOR_METADATA.update_publication_info(
     #     doi="10.1000/example-doi",
     #     orcid="0000-0000-0000-0000",
-    #     zenodo_doi="10.5281/zenodo.example"
+    #     zenodo_doi="10.5281/zenodo.17364486"
     # )
     
     print("✅ Metadata system ready for integration!")
