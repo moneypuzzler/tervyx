@@ -87,7 +87,9 @@ class RealTERVYXPipeline:
             print("\n📄 Step 2: Fetching paper metadata...")
 
             papers = await self.pubmed_api.fetch_detailed_metadata(
-                pmids[: self.config["max_papers_analyze"]]
+                pmids[: self.config["max_papers_analyze"]],
+                substance=substance,
+                outcome=outcome_category,
             )
 
             if len(papers) < 2:
