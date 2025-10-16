@@ -30,11 +30,11 @@
     "iterations": 1,
     "final_nll": -3.6161675324716573
   },
-  "computation_time_ms": 42.8,
+  "computation_time_ms": 36.9,
   "tel5_input": {
     "P_value": 0.9896,
     "phi_violation": false,
     "k_violation": false
   },
-  "policy_fingerprint": "sha256:26545d853c97caeca80693e7a322b3d9158b82471e67554bb870e0458dcf86c2"
+  "policy_fingerprint": "0x26545d853c97caec"
 }

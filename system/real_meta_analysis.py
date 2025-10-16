@@ -16,7 +16,7 @@ import pathlib
 from dataclasses import dataclass, asdict
 from datetime import datetime
 from enum import Enum
-from typing import Any, Dict, Iterable, List, Optional, Tuple
+from typing import Any, Dict, Iterable, List, NamedTuple, Optional, Tuple
 
 import numpy as np
 import yaml
@@ -305,7 +305,27 @@ def json_load(path: pathlib.Path) -> Dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def compute_policy_fingerprint(policy: Dict[str, Any], snapshot: Dict[str, Any]) -> str:
+class Fingerprint(NamedTuple):
+    compact: str
+    full: str
+
+
+def _sha256_digest(payload: Any) -> str:
+    import hashlib
+    import json
+
+    if isinstance(payload, (dict, list)):
+        payload = json.dumps(payload, sort_keys=True)
+    if isinstance(payload, str):
+        payload = payload.encode("utf-8")
+    return hashlib.sha256(payload).hexdigest()
+
+
+def _compact_hex(full_digest: str, length: int = 16) -> str:
+    return f"0x{full_digest[:length]}"
+
+
+def compute_policy_fingerprint(policy: Dict[str, Any], snapshot: Dict[str, Any]) -> Fingerprint:
     import hashlib
     import json
 
@@ -317,10 +337,10 @@ def compute_policy_fingerprint(policy: Dict[str, Any], snapshot: Dict[str, Any])
         "monte_carlo": policy.get("monte_carlo"),
     }
 
-    policy_hash = hashlib.sha256(json.dumps(minimal, sort_keys=True).encode("utf-8")).hexdigest()
-    snapshot_hash = hashlib.sha256(json.dumps(snapshot.get("journals", {}), sort_keys=True).encode("utf-8")).hexdigest()
+    policy_hash = _sha256_digest(json.dumps(minimal, sort_keys=True))
+    snapshot_hash = _sha256_digest(json.dumps(snapshot.get("journals", {}), sort_keys=True))
     combined = hashlib.sha256(f"{policy_hash}{snapshot_hash}".encode("utf-8")).hexdigest()
-    return f"sha256:{combined}"
+    return Fingerprint(compact=_compact_hex(combined), full=combined)
 
 
 async def generate_real_tervyx_entry(
@@ -346,7 +366,7 @@ async def generate_real_tervyx_entry(
     label = analysis_result["label"]
     tier = analysis_result["tier"]
 
-    simulation["policy_fingerprint"] = fingerprint
+    simulation["policy_fingerprint"] = fingerprint.compact
 
     evidence_summary = {
         "n_studies": len(studies),

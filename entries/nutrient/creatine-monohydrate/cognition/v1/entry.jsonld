@@ -31,9 +31,9 @@
     "monte_carlo": "v1.0.1-reml-grid",
     "journal_trust": "2025-10-05"
   },
-  "policy_fingerprint": "sha256:26545d853c97caeca80693e7a322b3d9158b82471e67554bb870e0458dcf86c2",
-  "audit_hash": "0xadd9393273f5d7e0",
+  "policy_fingerprint": "0x26545d853c97caec",
+  "audit_hash": "0xf9b5265d68d70c9d",
   "version": "v1",
-  "created": "2025-10-16T02:36:19.417053Z",
+  "created": "2025-10-16T05:09:29.003616Z",
   "llm_hint": "TEL-5=Gold, PASS; P(effect>δ)=0.990; J*=0.408; studies=3; total_n=276"
 }

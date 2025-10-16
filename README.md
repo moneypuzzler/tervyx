@@ -183,7 +183,7 @@ def classify_tel5(P: float, phi_violation: bool, k_violation: bool) -> tuple:
   "mu_CI95": [0.122, 0.318],
   "I2": 12.4,
   "tau2": 0.009,
-  "policy_fingerprint": "sha256:..."
+  "policy_fingerprint": "0x4d3c2b1a0f9e8d7c"
 }
 ```
 
@@ -205,7 +205,7 @@ def classify_tel5(P: float, phi_violation: bool, k_violation: bool) -> tuple:
     "l": "PASS"
   },
   "llm_hint": "TEL-5=Silver, PASS; Φ/K no violations; sleep δ=0.20; REML+MC",
-  "policy_fingerprint": "sha256:...",
+  "policy_fingerprint": "0x4d3c2b1a0f9e8d7c",
   "audit_hash": "0x2f8a9b1c3d4e5f67"
 }
 ```

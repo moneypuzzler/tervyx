@@ -1,6 +1,6 @@
 {
   "snapshot_date": "2025-10-05",
-  "snapshot_hash": "sha256:REPLACE_ON_BUILD",
+  "snapshot_hash": "0xa3770c3483338728",
   "signer": "ed25519:0xPLACEHOLDER",
   "data_sources": {
     "jcr_update": "2025-06-15",

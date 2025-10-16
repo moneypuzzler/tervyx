@@ -119,7 +119,7 @@ else:
 ```json
 {
   "snapshot_date": "2025-10-05",
-  "snapshot_hash": "sha256:... (canonical JSON over sorted journals)",
+  "snapshot_hash": "0x4d3c2b1a0f9e8d7c (first 16 hex of SHA-256 over sorted journals)",
   "signer": "ed25519:0x...",
   "data_sources": {
     "jcr_update": "2025-06-15",
@@ -164,7 +164,7 @@ else:
   "I2": 12.4,
   "tau2": 0.009,
   "environment": "Python 3.11, NumPy 1.24.0, SciPy 1.11.0",
-  "policy_fingerprint": "sha256:REPLACE_WITH_ACTUAL_BUILD_DIGEST"
+  "policy_fingerprint": "0x4d3c2b1a0f9e8d7c"
 }
 ```
 
@@ -190,7 +190,7 @@ else:
   "version": "v1",
   "audit_hash": "0x2f8a9b1c3d4e5f67",
   "llm_hint": "TEL-5=Silver, PASS; Φ/K no violations; sleep δ=0.20; REML+MC",
-  "policy_fingerprint": "sha256:REPLACE_WITH_ACTUAL_BUILD_DIGEST",
+  "policy_fingerprint": "0x4d3c2b1a0f9e8d7c",
   "tier_label_system": "TEL-5"
 }
 ```
@@ -345,7 +345,7 @@ Protocol, engine, entries, and schemas will be released with DOIs. All `/entry/{
 - **Code repository:** GitHub (MIT License)
 - **Data repository:** Zenodo (CC BY 4.0)
 - **Protocol DOI:** 10.5281/zenodo.17364486
-- **Software DOI:** 10.5281/zenodo.YYYYY (pending)
+- **Software DOI:** Pending (GitHub release in progress)
 
 ## Competing Interests
 

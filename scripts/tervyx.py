@@ -31,7 +31,7 @@ import os
 import pathlib
 import sys
 from datetime import datetime
-from typing import Any, Dict, Iterable, List, Optional
+from typing import Any, Dict, Iterable, List, NamedTuple, Optional
 
 import yaml
 
@@ -81,6 +81,7 @@ PRISMA_HEADERS = [
     "n_found",
     "n_screened",
     "n_excluded",
+    "included",
     "reasons",
     "notes",
 ]
@@ -93,8 +94,17 @@ def load_yaml(path: pathlib.Path) -> Dict[str, Any]:
     return yaml.safe_load(path.read_text(encoding="utf-8"))
 
 
-def sha256_bytes(data: bytes) -> str:
-    return "sha256:" + hashlib.sha256(data).hexdigest()
+class Fingerprint(NamedTuple):
+    compact: str
+    full: str
+
+
+def sha256_digest(data: bytes) -> str:
+    return hashlib.sha256(data).hexdigest()
+
+
+def compact_hex(full_digest: str, length: int = 16) -> str:
+    return f"0x{full_digest[:length]}"
 
 
 def canonical_json(data: Any) -> bytes:
@@ -107,7 +117,7 @@ def read_policy() -> Dict[str, Any]:
     return load_yaml(POLICY_PATH)
 
 
-def compute_policy_fingerprint() -> str:
+def compute_policy_fingerprint() -> Fingerprint:
     policy = read_policy()
 
     gates_cfg = policy.get("gates", {})
@@ -144,10 +154,10 @@ def compute_policy_fingerprint() -> str:
         "monte_carlo": policy.get("monte_carlo"),
     }
 
-    policy_hash = sha256_bytes(canonical_json(minimal_policy)).split(":", 1)[1]
-    snapshot_hash = sha256_bytes(canonical_json(snapshot_data.get("journals", {}))).split(":", 1)[1]
-    combined = hashlib.sha256(f"{policy_hash}{snapshot_hash}".encode("utf-8")).hexdigest()
-    return f"sha256:{combined}"
+    policy_hash = sha256_digest(canonical_json(minimal_policy))
+    snapshot_hash = sha256_digest(canonical_json(snapshot_data.get("journals", {})))
+    combined = sha256_digest(f"{policy_hash}{snapshot_hash}".encode("utf-8"))
+    return Fingerprint(compact=compact_hex(combined), full=combined)
 
 
 def ensure_directory(path: pathlib.Path) -> None:
@@ -298,7 +308,7 @@ def cmd_build(args: argparse.Namespace) -> None:
             "tau2": None,
             "var_mu": None,
             "mu_se": None,
-            "policy_fingerprint": policy_fingerprint,
+            "policy_fingerprint": policy_fingerprint.compact,
             "gate_terminated": True,
         }
         label, tier = ("FAIL", "Black")
@@ -312,7 +322,7 @@ def cmd_build(args: argparse.Namespace) -> None:
             n_draws=policy["monte_carlo"]["n_draws"],
             tau2_method=policy["monte_carlo"].get("tau2_method", "REML"),
         )
-        simulation["policy_fingerprint"] = policy_fingerprint
+        simulation["policy_fingerprint"] = policy_fingerprint.compact
 
         P_effect = simulation.get("P_effect_gt_delta", 0.0)
         label, tier = tel5_classify(P_effect, phi_violation, k_violation)
@@ -321,11 +331,11 @@ def cmd_build(args: argparse.Namespace) -> None:
     # Persist simulation.json
     write_json(entry_dir / "simulation.json", simulation)
 
-    audit_digest = sha256_bytes(
+    audit_digest_full = sha256_digest(
         canonical_json(simulation)
         + canonical_json({"path": str(entry_dir.relative_to(ROOT)), "timestamp": datetime.utcnow().isoformat()})
-    ).split(":", 1)[1]
-    audit_hash = f"0x{audit_digest[:16]}"
+    )
+    audit_hash = compact_hex(audit_digest_full)
 
     r_score = gate_results["r"].get("score")
     r_display = gate_results["r"].get("result")
@@ -366,7 +376,7 @@ def cmd_build(args: argparse.Namespace) -> None:
             "monte_carlo": policy.get("monte_carlo", {}).get("version", "unknown"),
             "journal_trust": journal_snapshot.get("snapshot_date", "unknown"),
         },
-        "policy_fingerprint": policy_fingerprint,
+        "policy_fingerprint": policy_fingerprint.compact,
         "audit_hash": audit_hash,
         "version": metadata["version"],
         "created": datetime.utcnow().isoformat() + "Z",
@@ -384,8 +394,9 @@ def cmd_build(args: argparse.Namespace) -> None:
             "timestamp": datetime.utcnow().isoformat() + "Z",
             "entry_id": entry_payload["id"],
             "audit_hash": audit_hash,
-            "audit_digest_full": audit_digest,
-            "policy_fingerprint": policy_fingerprint,
+            "audit_digest_full": audit_digest_full,
+            "policy_fingerprint": policy_fingerprint.compact,
+            "policy_fingerprint_full": policy_fingerprint.full,
             "tier": tier,
             "label": label,
             "P_effect_gt_delta": simulation.get("P_effect_gt_delta"),
@@ -416,7 +427,9 @@ def cmd_validate(args: argparse.Namespace) -> None:
 
 
 def cmd_fingerprint(_: argparse.Namespace) -> None:
-    print(compute_policy_fingerprint())
+    fingerprint = compute_policy_fingerprint()
+    print(fingerprint.compact)
+    print(fingerprint.full)
 
 
 def cmd_status(_: argparse.Namespace) -> None:
@@ -430,7 +443,10 @@ def cmd_status(_: argparse.Namespace) -> None:
     print("=" * 80)
     print(f"Policy Version      : {policy.get('version')} ({policy.get('protocol')})")
     print(f"TEL-5 Tier System   : {policy.get('tier_system')}" )
-    print(f"Policy Fingerprint  : {fingerprint}")
+    print(
+        "Policy Fingerprint  : "
+        f"{fingerprint.compact} (full {fingerprint.full})"
+    )
     print(f"Entries Detected    : {len(entry_files)}")
 
     tier_counts: Dict[str, int] = {}
