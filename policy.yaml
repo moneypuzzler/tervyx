@@ -1,23 +1,23 @@
-version: "v1.2.0"
+version: "v1.3.0"
 protocol: "TERVYX"
 tier_system: "TEL-5"
 
 # TERVYX Evidence Levels (TEL-5) - Updated from HBV to TEL-5
 tel5_tiers:
   gold:
-    min_p: 0.80
+    min_p: 0.90
     label: PASS
     confidence: "High"
     tel5_level: 1
     description: "High confidence evidence"
   silver:
-    min_p: 0.60
+    min_p: 0.75
     label: PASS
     confidence: "Moderate"
     tel5_level: 2
     description: "Moderate confidence evidence"
   bronze:
-    min_p: 0.40
+    min_p: 0.60
     label: AMBER
     confidence: "Low"
     tel5_level: 3
@@ -34,6 +34,18 @@ tel5_tiers:
     confidence: "None/Inappropriate"
     tel5_level: 5
     description: "Inappropriate/Risky"
+
+evidence_floor:
+  gold:
+    min_studies: 5
+    min_rct: 2
+
+caps:
+  heterogeneity:
+    i2_silver_cap: 75  # I² ≥ 75 → Gold forbidden
+  freshness:
+    recency_years: 5
+    silver_cap: true  # No studies within recency window → Gold forbidden
 
 # Categories with unified benefit direction
 categories:
