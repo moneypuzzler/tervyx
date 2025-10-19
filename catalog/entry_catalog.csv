@@ -1,9 +1,9 @@
 entry_id,category,substance,formulation_policy,formulation_detail,primary_indication,priority,evidence_tier,source_hint,status,assignee,final_tier,notes,last_updated,algo_version_pinned,data_freeze_policy,deprecation_policy
+
 SLP-MAG-CORE,sleep,magnesium,merge,glycinate baseline with sleep maintenance co-factors,sleep_quality,high,P0,PMID: 37611507,in_progress,auto,,"Anchor magnesium glycinate stack for adult insomnia cohorts
-Versioned scaffold generated via scaling CLI
-Scaffold generated via manual CLI",2025-10-19T07:49:55Z,,,
-SLP-MEL-ACUTE,sleep,melatonin,split,acute dosing vs sustained release decision gate,sleep_onset,high,P0,doi:10.7326/M20-0741,in_progress,auto,,"Focus on short latency onset protocols; capture pediatric safety notes
-Scaffold generated via manual CLI",2025-10-19T07:49:55Z,,,
+
+Versioned scaffold generated via scaling CLI",2025-10-19T06:32:39Z,,,
+SLP-MEL-ACUTE,sleep,melatonin,split,acute dosing vs sustained release decision gate,sleep_onset,high,P0,doi:10.7326/M20-0741,pending,,,Focus on short latency onset protocols; capture pediatric safety notes,2024-05-01T00:00:00Z,,,
 SLP-VAL-REST,sleep,valerian,merge,standardized valerenic acid extracts,sleep_latency,medium,P1,PMID: 31124745,pending,,,Compare extract ratios 0.8% vs 1.0% valerenic acid,2024-05-01T00:00:00Z,,,
 SLP-ASH-HPA,sleep,ashwagandha,merge,KSM-66 vs Sensoril adaptogen comparison,stress_insomnia,medium,P1,PMID: 31317699,pending,,,Capture cortisol reduction outcomes alongside sleep scores,2024-05-01T00:00:00Z,,,
 SLP-GLY-THERM,sleep,glycine,merge,3g evening dosing with cooling protocol,sleep_latency,medium,P1,PMID: 20110082,pending,,,Track core body temperature change and morning alertness,2024-05-01T00:00:00Z,,,
@@ -22,10 +22,8 @@ SLP-INOS-OCULAR,sleep,inositol,merge,myo-inositol bedtime dosing,sleep_latency,l
 SLP-THEA-MATCHA,sleep,matcha,split,decaf ceremonial vs capsule,sleep_quality,low,P1,PMID: 35061279,pending,,,Separate caffeine-containing blends,2024-05-01T00:00:00Z,,,
 SLP-MAG-THR,sleep,magnesium_threonate,merge,L-threonate cognitive-sleep crossover,sleep_quality,medium,P1,PMID: 32748788,pending,,,Highlight blood-brain barrier penetration claims,2024-05-01T00:00:00Z,,,
 SLP-CBD-MICRO,sleep,cbd_microdose,merge,sub-10mg nightly titration,sleep_maintenance,medium,P1,PMID: 30624194,pending,,,Evaluate microdosing adherence,2024-05-01T00:00:00Z,,,
-COG-BAC-MEM,cognition,bacopa,merge,bacoside A standardized,memory,high,P0,PMID: 21129626,in_progress,auto,,"Emphasize long-term memory endpoints
-Scaffold generated via manual CLI",2025-10-19T07:49:55Z,,,
-COG-LION-NEURO,cognition,lions_mane,merge,hericenone vs erinacine,cognitive_decline,high,P0,PMID: 24266378,in_progress,auto,,"Separate dementia vs mild impairment cohorts
-Scaffold generated via manual CLI",2025-10-19T07:49:55Z,,,
+COG-BAC-MEM,cognition,bacopa,merge,bacoside A standardized,memory,high,P0,PMID: 21129626,pending,,,Emphasize long-term memory endpoints,2024-05-01T00:00:00Z,,,
+COG-LION-NEURO,cognition,lions_mane,merge,hericenone vs erinacine,cognitive_decline,high,P0,PMID: 24266378,pending,,,Separate dementia vs mild impairment cohorts,2024-05-01T00:00:00Z,,,
 COG-GINK-CIRC,cognition,ginkgo,merge,EGb 761 standard,memory,medium,P1,PMID: 24294394,pending,,,Document platelet interaction warnings,2024-05-01T00:00:00Z,,,
 COG-PSER-EXEC,cognition,phosphatidylserine,merge,soy vs sunflower source,executive_function,medium,P1,PMID: 21432743,pending,,,Segment ADHD adult cohorts,2024-05-01T00:00:00Z,,,
 COG-ALPGPC-FOCUS,cognition,alpha_gpc,merge,cognitive enhancement,attention,medium,P1,PMID: 23909254,pending,,,Include stroke recovery data,2024-05-01T00:00:00Z,,,
@@ -35,15 +33,13 @@ COG-CIT-CIRC,cognition,citicoline,merge,CDP-choline oral,attention,medium,P1,PMI
 COG-LUTE-VIS,cognition,lutein,merge,brain-eye axis,processing_speed,low,P1,PMID: 26864365,pending,,,Track macular pigment density,2024-05-01T00:00:00Z,,,
 COG-RESV-NEURO,cognition,resveratrol,merge,microencapsulated brain delivery,cerebral_blood_flow,medium,P1,PMID: 22976155,pending,,,Highlight hemodynamic outcomes,2024-05-01T00:00:00Z,,,
 COG-CURC-NEURO,cognition,curcumin,split,BCM-95 vs Theracurmin,memory,medium,P1,PMID: 28196908,pending,,,Compare bioavailability enhancements,2024-05-01T00:00:00Z,,,
-COG-OMEGA-COG,cognition,omega_3,split,DHA dominant vs balanced,cognitive_decline,high,P0,PMID: 26502823,in_progress,auto,,"Stratify APOE4 carriers
-Scaffold generated via manual CLI",2025-10-19T07:49:55Z,,,
+COG-OMEGA-COG,cognition,omega_3,split,DHA dominant vs balanced,cognitive_decline,high,P0,PMID: 26502823,pending,,,Stratify APOE4 carriers,2024-05-01T00:00:00Z,,,
 COG-BRAIN-MULTI,cognition,nootropic_blend,merge,multi-ingredient capsules,attention,low,P1,PMID: 33601557,pending,,,Request component disclosure,2024-05-01T00:00:00Z,,,
 COG-PEP-NEURO,cognition,cerebrolysin_peptide,split,injectable vs oral mimetics,cognitive_decline,medium,P1,PMID: 26059819,pending,,,Flag invasive delivery methods,2024-05-01T00:00:00Z,,,
 COG-B12-COG,cognition,methyl_b12,merge,high-dose methylcobalamin,cognitive_decline,medium,P1,PMID: 31630248,pending,,,Capture neuropathy improvements,2024-05-01T00:00:00Z,,,
 COG-FOL-MCI,cognition,methylfolate,merge,L-methylfolate cognition,memory,medium,P1,PMID: 26015964,pending,,,Include homocysteine modulation,2024-05-01T00:00:00Z,,,
 COG-NICO-NOOT,cognition,nicotinamide_riboside,split,NR vs NMN comparative,mitochondrial_support,medium,P1,PMID: 34253274,pending,,,Track NAD+ biomarker response,2024-05-01T00:00:00Z,,,
-COG-CAFF-ADJ,cognition,caffeine_l_theanine,merge,synergy dosing,attention,high,P0,PMID: 23606881,in_progress,auto,,"Monitor jitter reduction
-Scaffold generated via manual CLI",2025-10-19T07:50:57Z,,,
+COG-CAFF-ADJ,cognition,caffeine_l_theanine,merge,synergy dosing,attention,high,P0,PMID: 23606881,pending,,,Monitor jitter reduction,2024-05-01T00:00:00Z,,,
 COG-GINS-ADAPT,cognition,panax_ginseng,merge,standardized ginsenosides,processing_speed,medium,P1,PMID: 23737848,pending,,,Highlight mental fatigue endpoints,2024-05-01T00:00:00Z,,,
 COG-VINC-CIRC,cognition,vinpocetine,merge,synthetic semisynthetic,cerebral_blood_flow,low,P1,PMID: 15982915,pending,,,Address regulatory warnings,2024-05-01T00:00:00Z,,,
 MENT-OMEGA-MOOD,mental_health,omega_3,merge,EPA dominant formulations for mood,depression,high,P0,doi:10.1001/jama.2018.8047,pending,,,Flag trials with EPA:DHA >= 2:1,2024-05-01T00:00:00Z,,,

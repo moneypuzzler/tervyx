@@ -638,8 +638,7 @@ def cmd_catalog(args):
             if label_value not in {"PASS", "AMBER", "FAIL"}:
                 label_value = tier_to_label.get(tier_value, "AMBER")
 
-            dataset_outcome_slug = outcome_slug.replace('-', '_')
-            entry_identifier = f"{entry.category}:{substance_slug}:{dataset_outcome_slug}:{version}"
+            entry_identifier = f"{entry.category}:{substance_slug}:{outcome_slug}:{version}"
 
             entry_stub = {
                 "@context": "https://schema.org/",
