@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "preferred_citation": "TERVYX Protocol Team. Cbd \u2014 Sleep \u2014 Sleep Quality (v1).",
   "studies": [
     {
@@ -11,3 +12,14 @@
     }
   ]
 }
+=======
+  "doi_bundle": {
+    "dataset": "",
+    "paper": "",
+    "patent": ""
+  },
+  "notes": "Populate with structured citation metadata (paper, dataset, patent).",
+  "primary_sources": [],
+  "secondary_sources": []
+}
+>>>>>>> main
