@@ -77,9 +77,6 @@ python scripts/tervyx_scale.py registry get --issn "1389-9457"
 # View catalog statistics
 python scripts/tervyx_scale.py catalog stats
 
-# Preview a small slice for manual review
-python scripts/tervyx_scale.py catalog preview --limit 5 --priority high --category sleep
-
 # Get next batch for processing
 python scripts/tervyx_scale.py catalog batch --batch-size 20 --priority high --category sleep
 
@@ -88,73 +85,7 @@ python scripts/tervyx_scale.py catalog search --query "magnesium sleep"
 
 # Update entry status
 python scripts/tervyx_scale.py catalog update --entry-id "tervyx_sleep_12345678" --status "completed" --tier "Gold"
-
-# Generate versioned entry scaffolds from the curated catalog (dry run)
-python scripts/tervyx_scale.py catalog generate --category sleep --priority high --limit 3 --dry-run
-
-# Create real directories with manifest metadata and mark catalog entries as in-progress
-python scripts/tervyx_scale.py catalog generate \
-  --category sleep \
-  --priority high \
-  --limit 5 \
-  --algo-name "TERVYX-Core" \
-  --algo-version 2.0.0 \
-  --algo-modules '{"nlp":"Gemini 1.5 Pro","meta_analysis":"REML-2025.10"}' \
-  --data-snapshot "monthly@2025-10" \
-  --data-freeze "monthly@2025-10" \
-  --data-query "melatonin sleep latency RCT" \
-  --data-sources '{"pubmed":{"count":412,"since":"1990-01-01"}}' \
-  --included-studies '["PMID:37611507"]' \
-  --dedup-hash "sha256:abcd..." \
-  --tau2-method REML \
-  --simulation-delta 0.2 \
-  --simulation-draws 10000 \
-  --tel5-levels-ref "TEL-5@v1.0.0" \
-  --monte-carlo-ref "MC@v1.0.0" \
-  --journal-trust-ref "2025-10-05" \
-  --bump minor \
-  --runner "scripts/tervyx_batch@0.4.0" \
-  --cost-usd 12.74 \
-  --elapsed-seconds 548 \
-  --set-status in_progress \
-  --status-note "Versioned scaffold generated via scaling CLI"
 ```
-
-The `catalog generate` action reads curated rows from `catalog/entry_catalog.csv`, creates a
-stable directory hierarchy under `entries/<substance>/<primary_indication>/<entry_id>/vN`, and writes:
-
-- `run_manifest.json` — provenance bundle capturing algorithm version, data freeze policy,
-  lineage, module fingerprints, and generator metadata (including runner, run ID, elapsed time,
-  and cost observations).
-- `audit_hash.txt` — SHA256 digest of the manifest for tamper-evident auditing.
-- `catalog_entry.json` — verbatim snapshot of the originating catalog row.
-- `entry.jsonld` — TEL-5 entry skeleton constrained by `protocol/schemas/entry.schema.json` and
-  seeded with policy references, audit fingerprint, and gate placeholders.
-- `simulation.json` — TEL-5 simulation scaffold that satisfies `protocol/schemas/simulation.schema.json`
-  with Monte Carlo placeholders (delta, draw count, τ² method, fingerprint).
-- `citations.json` — DOI bundle and placeholder lists for primary and secondary sources.
-- `evidence.csv` — TEL-5 evidence template headers for study abstraction.
-
-The CLI inspects `policy.yaml` to derive the active journal-trust snapshot date, so scaffolds
-default to ISO-8601 values such as `2025-10-05` unless you explicitly override them.
-
-Override the defaults for policy references and simulation metadata with:
-
-```bash
-  --tel5-levels-ref TEL-5@v1.2.0 \
-  --monte-carlo-ref REML-2025.10 \
-  --journal-trust-ref 2025-10-12 \
-  --simulation-seed 20251019 \
-  --simulation-draws 25000 \
-  --simulation-delta 0.15 \
-  --tau2-method HKSJ \
-  --benefit-direction -1 \
-  --simulation-environment "Python 3.11 • NumPy 1.26 • SciPy 1.11"
-```
-
-Each run updates a `latest` pointer (symlink on supported systems, fallback text file otherwise)
-so that downstream tooling can address the newest content version while historic snapshots remain
-frozen for reproducibility.
 
 ### Evidence Collection
 
@@ -319,7 +250,7 @@ python scripts/tervyx_scale.py prisma "magnesium_sleep_review" export --format e
 
 ### Scaling Benchmarks
 - **Journal Registry**: 10,000+ journals in Parquet format
-- **Entry Catalog**: 210 curated P0/P1 entries across 10 categories (CSV-managed)
+- **Entry Catalog**: 1,200+ entry seeds across 5 categories  
 - **Collection Pipeline**: 1,000 studies/hour from multiple APIs
 - **Relevance Scoring**: 500 abstracts/minute with BERT
 - **PRISMA Screening**: 1,000+ studies with automated workflows
@@ -340,8 +271,8 @@ The scaling architecture is integrated into GitHub Actions CI/CD:
     # Test journal registry
     python -c "from registry.journal_registry import JournalRegistry; ..."
     
-    # Test entry catalog
-    python -c "from catalog.entry_catalog import EntryCatalog; print(EntryCatalog().get_catalog_statistics())"
+    # Test entry catalog  
+    python -c "from catalog.entry_catalog import EntryCatalog; ..."
     
     # Test relevance scorer
     python -c "from scoring.relevance_scorer import RelevanceScorer; ..."
@@ -352,33 +283,30 @@ The scaling architecture is integrated into GitHub Actions CI/CD:
 - **API failures**: Graceful degradation with error logging
 - **Missing dependencies**: Core functionality preserved
 
-## 📋 Entry Catalog Structure
+## 📋 Entry Categories & Seeds
 
-### Manual Seed List (P0 focus)
-The catalog is now sourced from a manually maintained CSV file located at
-`catalog/entry_catalog.csv`. Each row represents an intentionally curated backlog item with:
+### Generated Entry Matrix
+The catalog automatically generates 1000+ entry seeds across:
 
-1. **Core identifiers** – `entry_id`, `category`, and `substance`
-2. **Formulation policy** – explicit merge/split rationale and notes
-3. **Primary indication & priority** – P0 triage guidance for batch execution
-4. **Workflow status** – pending/ready/completed tracking with timestamps
-5. **Version controls** – optional `algo_version_pinned`, `data_freeze_policy`, and `deprecation_policy`
+1. **Sleep** (320 entries)
+   - Substances: magnesium, melatonin, valerian, ashwagandha, l-theanine, GABA, chamomile
+   - Indications: sleep_onset, sleep_maintenance, sleep_quality, REM_sleep
 
-Initial backlog coverage now spans:
+2. **Cognition** (280 entries)  
+   - Substances: lion's mane, bacopa, rhodiola, ginkgo, phosphatidylserine, alpha-GPC
+   - Indications: memory, attention, processing_speed, executive_function
 
-- **Sleep (20 entries)** – foundational insomnia stacks, formulation split guards for melatonin/cannabinoids
-- **Cognition (20 entries)** – nootropic staples with bioavailability variants and stress-adaptogen crossovers
-- **Mental Health (20 entries)** – EPA-forward mood protocols, psychobiotic splits, and adjunct ketamine/psychedelic support
-- **Cardiovascular (20 entries)** – lipid and blood-pressure interventions with nitrate/nicotinic comparisons
-- **Metabolic (20 entries)** – glucose and lipid modulation compounds with evidence-tier cycling
-- **Inflammation (20 entries)** – joint/systemic anti-inflammatory compounds with merge vs split safeguards
-- **Longevity (20 entries)** – NAD+ boosters, mitochondrial supports, and senolytics with formulation tracking
-- **Musculoskeletal (20 entries)** – recovery, bone density, and protein stack prioritization
-- **Immune (20 entries)** – upper respiratory and antiviral nutraceutical playbooks
-- **Endocrine (20 entries)** – PCOS, thyroid, androgen, and menopause support matrices
+3. **Mental Health** (260 entries)
+   - Substances: St. John's wort, SAM-e, omega-3, probiotics, vitamin D, B-complex
+   - Indications: depression, anxiety, mood, stress, wellbeing
 
-Entries are maintained directly in `catalog/entry_catalog.csv`; operators can append or
-edit rows as soon as category owners approve new backlog items.
+4. **Cardiovascular** (240 entries)
+   - Substances: omega-3, CoQ10, garlic, hawthorn, red yeast rice, bergamot
+   - Indications: blood_pressure, cholesterol, heart_rate, endothelial_function
+
+5. **Renal Safety** (180 entries)
+   - Substances: creatine, protein powder, NSAIDs, high-dose vitamins, herbal extracts  
+   - Indications: kidney_function, creatinine_levels, GFR_impact, proteinuria
 
 ### Priority Assignment
 - **High Priority** (30%): Strong evidence expected, clinical importance
