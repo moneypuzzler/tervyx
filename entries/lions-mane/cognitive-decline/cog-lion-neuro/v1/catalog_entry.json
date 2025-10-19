@@ -1,0 +1,20 @@
+{
+  "algo_version_pinned": "",
+  "assignee": "auto",
+  "category": "cognition",
+  "data_freeze_policy": "",
+  "deprecation_policy": "",
+  "entry_id": "COG-LION-NEURO",
+  "evidence_tier": "P0",
+  "final_tier": "",
+  "formulation_detail": "hericenone vs erinacine",
+  "formulation_policy": "merge",
+  "generated_version": "v1",
+  "last_updated": "2025-10-19T07:49:55Z",
+  "notes": "Separate dementia vs mild impairment cohorts\nScaffold generated via manual CLI",
+  "primary_indication": "cognitive_decline",
+  "priority": "high",
+  "source_hint": "PMID: 24266378",
+  "status": "in_progress",
+  "substance": "lions_mane"
+}

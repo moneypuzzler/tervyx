@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "P_effect_gt_delta": 0.0,
+  "audit_hash": "0x2d2a0cb7d199590e",
+  "category": "cognition",
+  "created": "2025-10-19T07:49:55Z",
+  "evidence_summary": {
+    "I2": null,
+    "mu_CI95": [
+      0.0,
+      0.0
+    ],
+    "mu_hat": 0.0,
+    "n_studies": 0,
+    "tau2": null,
+    "total_n": 0
+  },
+  "gate_results": {
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS",
+    "phi": "PASS",
+    "r": "LOW"
+  },
+  "id": "cognition:bacopa:memory:v1",
+  "label": "AMBER",
+  "policy_fingerprint": "0x2d2a0cb7d199590e",
+  "policy_refs": {
+    "journal_trust": "2025-10-05",
+    "monte_carlo": "MC@v1.0.0",
+    "tel5_levels": "TEL-5@v1.0.0"
+  },
+  "tier": "Bronze",
+  "tier_label_system": "TEL-5",
+  "title": "Bacopa \u2014 Cognition \u2014 Memory",
+  "version": "v1"
+}

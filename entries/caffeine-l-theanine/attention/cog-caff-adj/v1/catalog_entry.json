@@ -1,0 +1,20 @@
+{
+  "algo_version_pinned": "",
+  "assignee": "auto",
+  "category": "cognition",
+  "data_freeze_policy": "",
+  "deprecation_policy": "",
+  "entry_id": "COG-CAFF-ADJ",
+  "evidence_tier": "P0",
+  "final_tier": "",
+  "formulation_detail": "synergy dosing",
+  "formulation_policy": "merge",
+  "generated_version": "v1",
+  "last_updated": "2025-10-19T07:50:57Z",
+  "notes": "Monitor jitter reduction\nScaffold generated via manual CLI",
+  "primary_indication": "attention",
+  "priority": "high",
+  "source_hint": "PMID: 23606881",
+  "status": "in_progress",
+  "substance": "caffeine_l_theanine"
+}

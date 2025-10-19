@@ -1,0 +1,70 @@
+{
+  "algo": {
+    "modules": {},
+    "name": "TERVYX-Core",
+    "parameters": {},
+    "policy_commit": "",
+    "version": "0.0.0"
+  },
+  "artifacts": {
+    "audit_log": "audit_hash.txt",
+    "catalog_snapshot": "catalog_entry.json",
+    "citations": "citations.json",
+    "entry_schema": "entry.jsonld",
+    "evidence": "evidence.csv",
+    "simulation": "simulation.json"
+  },
+  "audit_hash": "ded1c766834eea476f62dfff8305b0ef71e3248ffcf5842b1ed98e5d1e3c22ce",
+  "catalog_entry": {
+    "algo_version_pinned": "",
+    "assignee": "auto",
+    "category": "cognition",
+    "data_freeze_policy": "",
+    "deprecation_policy": "",
+    "entry_id": "COG-CAFF-ADJ",
+    "evidence_tier": "P0",
+    "final_tier": "",
+    "formulation_detail": "synergy dosing",
+    "formulation_policy": "merge",
+    "generated_version": "v1",
+    "last_updated": "2025-10-19T07:50:57Z",
+    "notes": "Monitor jitter reduction\nScaffold generated via manual CLI",
+    "primary_indication": "attention",
+    "priority": "high",
+    "source_hint": "PMID: 23606881",
+    "status": "in_progress",
+    "substance": "caffeine_l_theanine"
+  },
+  "content_version": "v1",
+  "created_at": "2025-10-19T07:50:57Z",
+  "data_snapshot": {
+    "dedup_hash": "",
+    "excluded_studies": [],
+    "freeze_policy": "",
+    "included_studies": [],
+    "label": "unfrozen",
+    "notes": "",
+    "query": "",
+    "source": "",
+    "sources": {}
+  },
+  "entry_id": "COG-CAFF-ADJ",
+  "lineage": {
+    "breaking_change": false,
+    "bump_type": "initial",
+    "change_log": "",
+    "change_note": "",
+    "previous_content_version": null
+  },
+  "provenance": {
+    "completed_at": "2025-10-19T07:50:57Z",
+    "cost_usd": null,
+    "dry_run": false,
+    "elapsed_seconds": null,
+    "executor": "unknown",
+    "generator": "scripts/tervyx_scale.py@catalog-generate",
+    "run_id": "RUN-20251019-075057-AEDAAE",
+    "runner": "scripts/tervyx_scale.py@catalog-generate",
+    "started_at": "2025-10-19T07:50:57Z"
+  }
+}
