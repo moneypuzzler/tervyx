@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "P_effect_gt_delta": null,
+  "auditHash": "e18a842e1fc1b00fd51931592f4c2ca1374931ad062b41b73488dbee5a09a7dd",
+  "catalogSnapshot": "catalog_entry.json",
+  "category": "sleep",
+  "citationsFile": "citations.json",
+  "contentVersion": "v1",
+  "created": "2025-10-19T06:32:39Z",
+  "evidenceFile": "evidence.csv",
+  "formulation_policy": "merge",
+  "identifier": "SLP-MAG-CORE",
+  "label": null,
+  "name": "Magnesium \u2014 Sleep \u2014 Sleep Quality",
+  "notes": "Anchor magnesium glycinate stack for adult insomnia cohorts\nVersioned scaffold generated via scaling CLI",
+  "primary_indication": "sleep_quality",
+  "priority": "high",
+  "runManifest": "run_manifest.json",
+  "simulationFile": "simulation.json",
+  "status": "in_progress",
+  "tier": null
+}

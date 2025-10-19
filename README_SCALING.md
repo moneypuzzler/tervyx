@@ -97,21 +97,35 @@ python scripts/tervyx_scale.py catalog generate \
   --category sleep \
   --priority high \
   --limit 5 \
+  --algo-name "TERVYX-Core" \
   --algo-version 2.0.0 \
+  --algo-modules '{"nlp":"Gemini 1.5 Pro","meta_analysis":"REML-2025.10"}' \
   --data-snapshot "monthly@2025-10" \
+  --data-freeze "monthly@2025-10" \
+  --data-query "melatonin sleep latency RCT" \
+  --data-sources '{"pubmed":{"count":412,"since":"1990-01-01"}}' \
+  --included-studies '["PMID:37611507"]' \
+  --dedup-hash "sha256:abcd..." \
   --bump minor \
+  --runner "scripts/tervyx_batch@0.4.0" \
+  --cost-usd 12.74 \
+  --elapsed-seconds 548 \
   --set-status in_progress \
   --status-note "Versioned scaffold generated via scaling CLI"
 ```
 
 The `catalog generate` action reads curated rows from `catalog/entry_catalog.csv`, creates a
-stable directory hierarchy under `entries/<category>/<substance>/<entry_id>/vN`, and writes:
+stable directory hierarchy under `entries/<substance>/<primary_indication>/<entry_id>/vN`, and writes:
 
 - `run_manifest.json` — provenance bundle capturing algorithm version, data freeze policy,
-  lineage, and generator metadata.
+  lineage, module fingerprints, and generator metadata (including runner, run ID, elapsed time,
+  and cost observations).
 - `audit_hash.txt` — SHA256 digest of the manifest for tamper-evident auditing.
 - `catalog_entry.json` — verbatim snapshot of the originating catalog row.
-- `entry.jsonld` — a schema.org-aligned placeholder ready to be populated after analysis.
+- `entry.jsonld` — a schema.org-aligned placeholder wired to manifest, evidence, simulation,
+  and citation artifacts.
+- `simulation.json` — REML/Monte Carlo scaffold capturing model identifiers and parameters.
+- `citations.json` — DOI bundle and placeholder lists for primary and secondary sources.
 - `evidence.csv` — TEL-5 evidence template headers for study abstraction.
 
 Each run updates a `latest` pointer (symlink on supported systems, fallback text file otherwise)
@@ -324,6 +338,7 @@ The catalog is now sourced from a manually maintained CSV file located at
 2. **Formulation policy** – explicit merge/split rationale and notes
 3. **Primary indication & priority** – P0 triage guidance for batch execution
 4. **Workflow status** – pending/ready/completed tracking with timestamps
+5. **Version controls** – optional `algo_version_pinned`, `data_freeze_policy`, and `deprecation_policy`
 
 Initial backlog coverage now spans:
 

@@ -5,7 +5,7 @@ from __future__ import annotations
 import csv
 from collections import Counter
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional
 
@@ -186,9 +186,11 @@ class EntryCatalog:
         assignee: Optional[str] = None,
         final_tier: Optional[str] = None,
         notes: Optional[str] = None,
+        timestamp: Optional[str] = None,
     ) -> bool:
         updated = False
-        timestamp = datetime.utcnow().isoformat()
+        if timestamp is None:
+            timestamp = datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
 
         for entry in self.entries:
             if entry.entry_id == entry_id:

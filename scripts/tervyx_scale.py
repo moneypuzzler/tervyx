@@ -11,9 +11,10 @@ import argparse
 import json
 import hashlib
 import os
+import uuid
 from dataclasses import asdict
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Dict, List, Optional
 
 # Add project root to path
@@ -356,6 +357,64 @@ def cmd_catalog(args):
             print(f"❌ Failed to decode --algo-params: {exc}")
             return 1
 
+        try:
+            algo_modules = json.loads(args.algo_modules) if args.algo_modules else {}
+            if algo_modules is None:
+                algo_modules = {}
+            if isinstance(algo_modules, list):
+                algo_modules = {
+                    str(index): value for index, value in enumerate(algo_modules)
+                }
+            if not isinstance(algo_modules, dict):
+                raise TypeError("Expected an object for --algo-modules")
+        except (json.JSONDecodeError, TypeError) as exc:
+            print(f"❌ Failed to decode --algo-modules: {exc}")
+            return 1
+
+        try:
+            data_sources = json.loads(args.data_sources) if args.data_sources else {}
+            if data_sources is None:
+                data_sources = {}
+            if isinstance(data_sources, list):
+                data_sources = {
+                    str(index): value for index, value in enumerate(data_sources)
+                }
+            if not isinstance(data_sources, dict):
+                raise TypeError("Expected an object for --data-sources")
+        except (json.JSONDecodeError, TypeError) as exc:
+            print(f"❌ Failed to decode --data-sources: {exc}")
+            return 1
+
+        try:
+            included_studies = (
+                json.loads(args.included_studies)
+                if args.included_studies
+                else []
+            )
+        except json.JSONDecodeError as exc:
+            print(f"❌ Failed to decode --included-studies: {exc}")
+            return 1
+        if included_studies is None:
+            included_studies = []
+        if not isinstance(included_studies, list):
+            print("❌ --included-studies must decode to a list")
+            return 1
+
+        try:
+            excluded_studies = (
+                json.loads(args.excluded_studies)
+                if args.excluded_studies
+                else []
+            )
+        except json.JSONDecodeError as exc:
+            print(f"❌ Failed to decode --excluded-studies: {exc}")
+            return 1
+        if excluded_studies is None:
+            excluded_studies = []
+        if not isinstance(excluded_studies, list):
+            print("❌ --excluded-studies must decode to a list")
+            return 1
+
         selected: List[CatalogEntry] = []
         for entry in catalog.entries:
             if entry_ids and entry.entry_id not in entry_ids:
@@ -377,15 +436,21 @@ def cmd_catalog(args):
 
         created = 0
         skipped = 0
-        timestamp = datetime.utcnow().isoformat(timespec="seconds") + "Z"
-        generator_id = "tervyx_scale catalog generate"
+        run_started_at = datetime.now(timezone.utc)
+        run_id = (
+            args.run_id
+            or f"RUN-{run_started_at.strftime('%Y%m%d-%H%M%S')}-{uuid.uuid4().hex[:6].upper()}"
+        )
+        runner = args.runner or "scripts/tervyx_scale.py@catalog-generate"
+        generator_id = runner
         executor = args.executor or os.getenv("USER") or os.getenv("USERNAME") or "unknown"
 
         for entry in selected:
-            category_slug = slugify(entry.category or "uncategorized")
             substance_slug = slugify(entry.data.get("substance") or entry.entry_id)
+            outcome_source = entry.data.get("primary_indication") or entry.category or "unspecified"
+            outcome_slug = slugify(outcome_source)
             entry_slug = slugify(entry.entry_id)
-            entry_root = output_root / category_slug / substance_slug / entry_slug
+            entry_root = output_root / substance_slug / outcome_slug / entry_slug
             manager = EntryVersionManager(entry_root)
 
             try:
@@ -397,7 +462,10 @@ def cmd_catalog(args):
 
             version = resolution.version
             previous = resolution.previous
-            relative_target = entry_root.relative_to(project_root)
+            try:
+                relative_target = entry_root.relative_to(project_root)
+            except ValueError:
+                relative_target = entry_root
 
             if args.dry_run:
                 print(f"📝 {entry.entry_id}: would create {relative_target}/{version}")
@@ -410,8 +478,33 @@ def cmd_catalog(args):
                 skipped += 1
                 continue
 
+            entry_now = datetime.now(timezone.utc)
+            timestamp = entry_now.isoformat(timespec="seconds").replace("+00:00", "Z")
+
+            existing_notes = entry.data.get("notes", "").strip()
+            note_appendix_raw = (args.status_note or args.notes or "").strip()
+            note_appendix = ""
+            if note_appendix_raw:
+                existing_lines = {line.strip() for line in existing_notes.splitlines() if line.strip()}
+                if note_appendix_raw not in existing_lines:
+                    note_appendix = note_appendix_raw
+
+            if args.set_status:
+                catalog.update_entry_status(
+                    entry.entry_id,
+                    args.set_status,
+                    assignee=args.assignee,
+                    notes=note_appendix or None,
+                    timestamp=timestamp,
+                )
+
             catalog_payload = dict(entry.data)
             catalog_payload.setdefault("generated_version", version)
+            catalog_payload["last_updated"] = catalog_payload.get("last_updated", timestamp)
+            if args.set_status:
+                catalog_payload["status"] = catalog_payload.get("status") or args.set_status
+            if args.assignee:
+                catalog_payload["assignee"] = args.assignee
 
             manifest = {
                 "entry_id": entry.entry_id,
@@ -420,24 +513,47 @@ def cmd_catalog(args):
                 "catalog_entry": catalog_payload,
                 "algo": {
                     "name": args.algo_name or "TERVYX-Core",
-                    "version": args.algo_version or "0.0.0",
+                    "version": args.algo_version or catalog_payload.get("algo_version_pinned") or "0.0.0",
                     "policy_commit": args.policy_commit or "",
+                    "modules": algo_modules,
                     "parameters": algo_params,
                 },
                 "data_snapshot": {
-                    "label": args.data_snapshot or "unfrozen",
-                    "freeze_policy": args.data_freeze or "",
+                    "label": args.data_snapshot or catalog_payload.get("data_freeze_policy") or "unfrozen",
+                    "freeze_policy": args.data_freeze or catalog_payload.get("data_freeze_policy", ""),
                     "source": args.data_source or "",
+                    "query": args.data_query or "",
+                    "dedup_hash": args.dedup_hash or "",
+                    "notes": args.snapshot_note or "",
+                    "sources": data_sources,
+                    "included_studies": included_studies,
+                    "excluded_studies": excluded_studies,
                 },
                 "provenance": {
+                    "runner": runner,
                     "generator": generator_id,
+                    "run_id": run_id,
                     "executor": executor,
+                    "cost_usd": args.cost_usd,
+                    "elapsed_seconds": args.elapsed_seconds,
+                    "started_at": run_started_at.isoformat(timespec="seconds").replace("+00:00", "Z"),
+                    "completed_at": timestamp,
                     "dry_run": False,
                 },
                 "lineage": {
                     "previous_content_version": previous,
                     "bump_type": args.bump or ("initial" if previous is None else "minor"),
+                    "breaking_change": bool(args.breaking_change),
                     "change_note": args.change_note or "",
+                    "change_log": args.change_log or "",
+                },
+                "artifacts": {
+                    "catalog_snapshot": "catalog_entry.json",
+                    "entry_schema": "entry.jsonld",
+                    "evidence": "evidence.csv",
+                    "simulation": "simulation.json",
+                    "citations": "citations.json",
+                    "audit_log": "audit_hash.txt",
                 },
             }
 
@@ -472,21 +588,49 @@ def cmd_catalog(args):
                 "category": entry.category,
                 "primary_indication": entry.data.get("primary_indication"),
                 "formulation_policy": entry.data.get("formulation_policy"),
-                "status": entry.status or "pending",
+                "status": catalog_payload.get("status") or entry.status or "pending",
                 "priority": entry.priority or "",
                 "notes": entry.data.get("notes", ""),
-                "version": version,
-                "manifest": "run_manifest.json",
-                "catalog_snapshot": "catalog_entry.json",
-                "audit_hash": manifest_hash,
+                "contentVersion": version,
+                "runManifest": "run_manifest.json",
+                "catalogSnapshot": "catalog_entry.json",
+                "evidenceFile": "evidence.csv",
+                "simulationFile": "simulation.json",
+                "citationsFile": "citations.json",
+                "auditHash": manifest_hash,
                 "created": timestamp,
-                "tier": None,
-                "label": None,
+                "tier": entry.data.get("final_tier") or None,
+                "label": catalog_payload.get("final_tier") or None,
                 "P_effect_gt_delta": None,
             }
 
             with (version_dir / "entry.jsonld").open("w", encoding="utf-8") as handle:
                 json.dump(entry_stub, handle, indent=2, sort_keys=True)
+
+            simulation_template = {
+                "status": "pending",
+                "model": args.simulation_model or "reml-meta-analysis",
+                "parameters": algo_params,
+                "generated_at": timestamp,
+                "notes": "Populate with REML/Monte Carlo outputs once analysis completes.",
+            }
+
+            with (version_dir / "simulation.json").open("w", encoding="utf-8") as handle:
+                json.dump(simulation_template, handle, indent=2, sort_keys=True)
+
+            citations_template = {
+                "primary_sources": [],
+                "secondary_sources": [],
+                "notes": "Populate with structured citation metadata (paper, dataset, patent).",
+                "doi_bundle": {
+                    "paper": entry.data.get("doi_paper", ""),
+                    "dataset": entry.data.get("doi_dataset", ""),
+                    "patent": entry.data.get("doi_patent", ""),
+                },
+            }
+
+            with (version_dir / "citations.json").open("w", encoding="utf-8") as handle:
+                json.dump(citations_template, handle, indent=2, sort_keys=True)
 
             evidence_header = (
                 "study_id,year,design,effect_type,effect_point,ci_low,ci_high,"  # noqa: B950
@@ -499,14 +643,6 @@ def cmd_catalog(args):
 
             created += 1
             print(f"✅ {entry.entry_id}: created {relative_target}/{version}")
-
-            if args.set_status:
-                catalog.update_entry_status(
-                    entry.entry_id,
-                    args.set_status,
-                    assignee=args.assignee,
-                    notes=args.status_note or args.notes or "",
-                )
 
         if args.dry_run:
             print(f"👁️  Previewed {len(selected)} entries for generation")
@@ -778,11 +914,25 @@ def main():
     catalog_parser.add_argument('--algo-name', help='Algorithm name for manifest metadata')
     catalog_parser.add_argument('--policy-commit', help='Policy commit hash or reference for manifest metadata')
     catalog_parser.add_argument('--algo-params', help='JSON-encoded algorithm parameters')
+    catalog_parser.add_argument('--algo-modules', help='JSON-encoded algorithm module metadata')
     catalog_parser.add_argument('--data-snapshot', help='Data snapshot label for manifest metadata')
     catalog_parser.add_argument('--data-freeze', help='Data freeze policy for manifest metadata')
     catalog_parser.add_argument('--data-source', help='Data source identifier for manifest metadata')
+    catalog_parser.add_argument('--data-sources', help='JSON object describing contributing data sources')
+    catalog_parser.add_argument('--data-query', help='Primary literature query used for the run')
+    catalog_parser.add_argument('--included-studies', help='JSON array of included study identifiers')
+    catalog_parser.add_argument('--excluded-studies', help='JSON array of excluded study descriptors')
+    catalog_parser.add_argument('--dedup-hash', help='Deduplication hash for the data snapshot')
+    catalog_parser.add_argument('--snapshot-note', help='Additional notes to store in data snapshot metadata')
     catalog_parser.add_argument('--executor', help='Executor identifier recorded in manifests')
+    catalog_parser.add_argument('--runner', help='Runner identifier stored in provenance metadata')
+    catalog_parser.add_argument('--run-id', help='Override run identifier stored in provenance metadata')
+    catalog_parser.add_argument('--cost-usd', type=float, help='Recorded generation cost in USD')
+    catalog_parser.add_argument('--elapsed-seconds', type=float, help='Recorded wall time in seconds')
     catalog_parser.add_argument('--change-note', help='Change note recorded in manifest lineage')
+    catalog_parser.add_argument('--change-log', help='Detailed change log recorded in manifest lineage')
+    catalog_parser.add_argument('--breaking-change', action='store_true', help='Mark lineage as a breaking change')
+    catalog_parser.add_argument('--simulation-model', help='Simulation model identifier stored in scaffolds')
     catalog_parser.add_argument('--set-status', help='Update catalog status after generation')
     catalog_parser.add_argument('--status-note', help='Append note when updating status')
     catalog_parser.set_defaults(func=cmd_catalog)
