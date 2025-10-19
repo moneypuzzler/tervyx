@@ -1,0 +1,20 @@
+{
+  "algo_version_pinned": "",
+  "assignee": "",
+  "category": "sleep",
+  "data_freeze_policy": "",
+  "deprecation_policy": "",
+  "entry_id": "SLP-INOS-OCULAR",
+  "evidence_tier": "P1",
+  "final_tier": "",
+  "formulation_detail": "myo-inositol bedtime dosing",
+  "formulation_policy": "merge",
+  "generated_version": "v1",
+  "last_updated": "2024-05-01T00:00:00Z",
+  "notes": "Cross-reference PCOS insomnia cohorts",
+  "primary_indication": "sleep_latency",
+  "priority": "low",
+  "source_hint": "PMID: 29083590",
+  "status": "pending",
+  "substance": "inositol"
+}
