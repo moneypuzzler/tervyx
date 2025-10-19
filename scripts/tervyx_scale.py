@@ -4,9 +4,14 @@ TERVYX Protocol - Scaling CLI Interface
 Command-line interface for 1000+ entry scaling operations
 """
 
+from __future__ import annotations
+
 import sys
 import argparse
 import json
+import hashlib
+import os
+from dataclasses import asdict
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Optional
@@ -15,23 +20,72 @@ from typing import Dict, List, Optional
 project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
+component_errors: Dict[str, ImportError] = {}
+
+try:
+    from catalog.entry_catalog import CatalogEntry, EntryCatalog
+except ImportError as exc:  # pragma: no cover - handled via runtime availability
+    CatalogEntry = None  # type: ignore[assignment]
+    EntryCatalog = None  # type: ignore[assignment]
+    component_errors["catalog"] = exc
+
 try:
     from registry.journal_registry import JournalRegistry
-    from catalog.entry_catalog import EntryCatalog
+except ImportError as exc:  # pragma: no cover - handled via runtime availability
+    JournalRegistry = None  # type: ignore[assignment]
+    component_errors["registry"] = exc
+
+try:
     from automation.collection_pipeline import CollectionPipeline
+except ImportError as exc:  # pragma: no cover - handled via runtime availability
+    CollectionPipeline = None  # type: ignore[assignment]
+    component_errors["collection"] = exc
+
+try:
     from scoring.relevance_scorer import RelevanceScorer
+except ImportError as exc:  # pragma: no cover - handled via runtime availability
+    RelevanceScorer = None  # type: ignore[assignment]
+    component_errors["scorer"] = exc
+
+try:
     from workflows.prisma_screening import PRISMAWorkflow
-    SCALING_AVAILABLE = True
-except ImportError as e:
-    print(f"⚠️  Scaling components not available: {e}")
+except ImportError as exc:  # pragma: no cover - handled via runtime availability
+    PRISMAWorkflow = None  # type: ignore[assignment]
+    component_errors["prisma"] = exc
+
+try:
+    from system.versioning import EntryVersionManager, slugify
+except ImportError as exc:  # pragma: no cover - handled via runtime availability
+    EntryVersionManager = None  # type: ignore[assignment]
+    slugify = None  # type: ignore[assignment]
+    component_errors["versioning"] = exc
+
+CATALOG_AVAILABLE = EntryCatalog is not None
+REGISTRY_AVAILABLE = JournalRegistry is not None
+COLLECTION_AVAILABLE = CollectionPipeline is not None
+SCORER_AVAILABLE = RelevanceScorer is not None
+PRISMA_AVAILABLE = PRISMAWorkflow is not None
+VERSIONING_AVAILABLE = EntryVersionManager is not None and slugify is not None
+
+if component_errors:
+    for name, error in component_errors.items():
+        friendly_name = name.capitalize()
+        print(f"⚠️  {friendly_name} component not available: {error}")
     print("Install scaling dependencies with: pip install -r requirements_scaling.txt")
-    SCALING_AVAILABLE = False
+
 
 def cmd_init_scaling(args):
     """Initialize scaling infrastructure"""
-    
-    if not SCALING_AVAILABLE:
-        print("❌ Scaling components not available. Install dependencies first.")
+
+    if not (REGISTRY_AVAILABLE and CATALOG_AVAILABLE):
+        missing = []
+        if not REGISTRY_AVAILABLE:
+            missing.append("journal registry")
+        if not CATALOG_AVAILABLE:
+            missing.append("entry catalog")
+        missing_text = ", ".join(missing) or "core components"
+        print(f"❌ Scaling initialization unavailable: {missing_text} missing.")
+        print("Install scaling dependencies with: pip install -r requirements_scaling.txt")
         return 1
     
     print("🚀 Initializing TERVYX scaling infrastructure...")
@@ -60,10 +114,11 @@ def cmd_init_scaling(args):
     # Initialize entry catalog
     print("\n📚 Setting up entry catalog...")
     catalog = EntryCatalog()
-    
+
     catalog_stats = catalog.get_catalog_statistics()
-    print(f"✅ Entry catalog: {catalog_stats['total_entries']} entry seeds")
-    
+    total_entries = catalog_stats.get('summary', {}).get('total_entries', 0)
+    print(f"✅ Entry catalog: {total_entries} curated entries")
+
     # Display category breakdown
     categories = catalog_stats.get('categories', {}).get('breakdown', {})
     for category, count in categories.items():
@@ -71,22 +126,28 @@ def cmd_init_scaling(args):
     
     # Initialize relevance scorer
     print("\n🧠 Setting up relevance scorer...")
-    try:
-        scorer = RelevanceScorer()
-        print("✅ Relevance scorer initialized with BERT support")
-    except Exception as e:
-        print(f"⚠️  Relevance scorer initialized with limited functionality: {e}")
+    if SCORER_AVAILABLE:
+        try:
+            scorer = RelevanceScorer()
+            print("✅ Relevance scorer initialized with BERT support")
+        except Exception as e:
+            print(f"⚠️  Relevance scorer initialized with limited functionality: {e}")
+    else:
+        print("⚠️  Relevance scorer unavailable at import time. Skipping initialization.")
     
     print("\n🎉 Scaling infrastructure ready!")
-    print(f"📊 Total system capacity: {catalog_stats['estimates']['total_studies']} estimated studies")
+    completion_rate = catalog_stats.get('summary', {}).get('completion_rate', 0.0)
+    print(f"📊 Catalog completion rate: {completion_rate:.1f}%")
     
     return 0
 
 def cmd_registry(args):
     """Manage journal registry"""
-    
-    if not SCALING_AVAILABLE:
-        print("❌ Registry not available. Install dependencies first.")
+
+    if not REGISTRY_AVAILABLE:
+        error = component_errors.get("registry")
+        detail = f" ({error})" if error else ""
+        print(f"❌ Registry not available{detail}. Install dependencies first.")
         return 1
     
     registry = JournalRegistry()
@@ -139,25 +200,31 @@ def cmd_registry(args):
 
 def cmd_catalog(args):
     """Manage entry catalog"""
-    
-    if not SCALING_AVAILABLE:
-        print("❌ Catalog not available. Install dependencies first.")
+
+    if not CATALOG_AVAILABLE:
+        error = component_errors.get("catalog")
+        detail = f" ({error})" if error else ""
+        print(f"❌ Catalog not available{detail}. Install dependencies first.")
         return 1
     
     catalog = EntryCatalog()
     
     if args.action == 'stats':
         stats = catalog.get_catalog_statistics()
+        summary = stats.get('summary', {})
+        progress = stats.get('progress', {})
+
         print("📚 Entry Catalog Statistics:")
-        print(f"   Total entries: {stats['total_entries']}")
-        print(f"   Completion rate: {stats['progress']['completion_rate']:.1f}%")
-        print(f"   Pending high priority: {stats['progress']['pending_high_priority']}")
-        
+        print(f"   Total entries: {summary.get('total_entries', 0)}")
+        print(f"   Completion rate: {summary.get('completion_rate', 0.0):.1f}%")
+        print(f"   Pending high priority: {progress.get('pending_high_priority', 0)}")
+
         print("\n📊 Categories:")
-        for category, breakdown in stats['categories']['completion_by_category'].items():
-            print(f"   {category}: {breakdown['completed']}/{breakdown['total']} ({breakdown['rate']:.1f}%)")
-        
-        print(f"\n🎯 Estimated total studies: {stats['estimates']['total_studies']}")
+        for category, breakdown in stats.get('categories', {}).get('completion_by_category', {}).items():
+            print(
+                f"   {category}: {breakdown['completed']}/{breakdown['total']} "
+                f"({breakdown['rate']:.1f}%)"
+            )
         
     elif args.action == 'batch':
         batch_size = args.batch_size or 10
@@ -165,15 +232,16 @@ def cmd_catalog(args):
         category = args.category
         
         batch = catalog.get_next_batch(batch_size, priority, category)
-        
+
         print(f"📦 Next batch ({len(batch)} entries):")
         for entry in batch:
-            print(f"   {entry['entry_id']}: {entry['substance']} → {entry['indication']}")
-            print(f"      Priority: {entry['priority']}, Est. studies: {entry['estimated_studies']}")
-        
+            indication = entry.get('primary_indication', 'n/a')
+            print(f"   {entry.get('entry_id', 'unknown')}: {entry.get('substance', 'n/a')} → {indication}")
+            print(f"      Priority: {entry.get('priority', 'n/a')}, Status: {entry.get('status', 'n/a')}")
+
         if args.export:
             output_file = f"batch_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
-            catalog.export_batch_assignments(output_file, batch_size)
+            catalog.export_entries(batch, output_file)
             print(f"📄 Batch exported to {output_file}")
     
     elif args.action == 'search':
@@ -181,16 +249,71 @@ def cmd_catalog(args):
             results = catalog.search_entries(args.query, limit=10)
             print(f"🔍 Search results for '{args.query}':")
             for result in results:
-                print(f"   {result['entry_id']}: {result['substance']} → {result['indication']}")
-                print(f"      Category: {result['category']}, Status: {result['status']}")
+                print(
+                    f"   {result.get('entry_id', 'unknown')}: "
+                    f"{result.get('substance', 'n/a')} → {result.get('primary_indication', 'n/a')}"
+                )
+                print(
+                    f"      Category: {result.get('category', 'n/a')}, "
+                    f"Status: {result.get('status', 'n/a')}"
+                )
         else:
             print("Please provide --query")
             return 1
-    
+
+    elif args.action == 'preview':
+        limit = args.limit or 5
+        priority = args.priority
+        category = args.category
+
+        filtered_entries = catalog.entries
+
+        if priority:
+            filtered_entries = [
+                entry for entry in filtered_entries
+                if entry.priority.lower() == priority.lower()
+            ]
+
+        if category:
+            filtered_entries = [
+                entry for entry in filtered_entries
+                if entry.category.lower() == category.lower()
+            ]
+
+        limited_entries = filtered_entries[:limit]
+
+        if not limited_entries:
+            print("❌ No entries matched the preview criteria.")
+            return 1
+
+        print(f"👀 Previewing {len(limited_entries)} catalog entries:")
+        for entry in limited_entries:
+            data = entry.data
+            entry_id = data.get('entry_id', 'unknown')
+            substance = data.get('substance', 'n/a')
+            indication = data.get('primary_indication', 'n/a')
+            policy = data.get('formulation_policy', 'n/a')
+            policy_detail = data.get('formulation_detail', '').strip()
+            status = data.get('status', 'n/a')
+            priority_value = data.get('priority', 'n/a')
+            source = data.get('source_hint', 'n/a')
+
+            print(f"   {entry_id} [{priority_value} / {status}]")
+            print(f"      Category: {data.get('category', 'n/a')} → {indication}")
+            print(f"      Substance: {substance}")
+            print(f"      Evidence source: {source}")
+            if policy_detail:
+                print(f"      Formulation: {policy} – {policy_detail}")
+            else:
+                print(f"      Formulation: {policy}")
+            notes = data.get('notes', '').strip()
+            if notes:
+                print(f"      Notes: {notes}")
+
     elif args.action == 'update':
         if args.entry_id and args.status:
             success = catalog.update_entry_status(
-                args.entry_id, 
+                args.entry_id,
                 args.status,
                 assignee=args.assignee,
                 final_tier=args.tier,
@@ -203,14 +326,202 @@ def cmd_catalog(args):
         else:
             print("Please provide --entry-id and --status")
             return 1
-    
+
+    elif args.action == 'generate':
+        if not VERSIONING_AVAILABLE:
+            error = component_errors.get("versioning")
+            detail = f" ({error})" if error else ""
+            print(f"❌ Versioning utilities unavailable{detail}.")
+            return 1
+
+        output_root = Path(args.output_dir or project_root / "entries")
+        if args.dry_run:
+            print(f"🧪 Dry run — entries will be previewed but not written (target {output_root})")
+        else:
+            output_root.mkdir(parents=True, exist_ok=True)
+
+        entry_ids = None
+        if args.entry_id:
+            entry_ids = {entry.strip() for entry in args.entry_id.split(',') if entry.strip()}
+
+        status_filter = None
+        if args.status_filter:
+            status_filter = {status.strip().lower() for status in args.status_filter.split(',') if status.strip()}
+
+        try:
+            algo_params = json.loads(args.algo_params) if args.algo_params else {}
+            if algo_params is None:
+                algo_params = {}
+        except json.JSONDecodeError as exc:
+            print(f"❌ Failed to decode --algo-params: {exc}")
+            return 1
+
+        selected: List[CatalogEntry] = []
+        for entry in catalog.entries:
+            if entry_ids and entry.entry_id not in entry_ids:
+                continue
+            if args.category and entry.category.lower() != args.category.lower():
+                continue
+            if args.priority and entry.priority.lower() != args.priority.lower():
+                continue
+            if status_filter and entry.status.lower() not in status_filter:
+                continue
+            selected.append(entry)
+
+        if args.limit:
+            selected = selected[: args.limit]
+
+        if not selected:
+            print("❌ No catalog entries matched the generation criteria.")
+            return 1
+
+        created = 0
+        skipped = 0
+        timestamp = datetime.utcnow().isoformat(timespec="seconds") + "Z"
+        generator_id = "tervyx_scale catalog generate"
+        executor = args.executor or os.getenv("USER") or os.getenv("USERNAME") or "unknown"
+
+        for entry in selected:
+            category_slug = slugify(entry.category or "uncategorized")
+            substance_slug = slugify(entry.data.get("substance") or entry.entry_id)
+            entry_slug = slugify(entry.entry_id)
+            entry_root = output_root / category_slug / substance_slug / entry_slug
+            manager = EntryVersionManager(entry_root)
+
+            try:
+                resolution = manager.resolve_version(args.content_version, args.bump)
+            except ValueError as exc:
+                print(f"❌ {entry.entry_id}: {exc}")
+                skipped += 1
+                continue
+
+            version = resolution.version
+            previous = resolution.previous
+            relative_target = entry_root.relative_to(project_root)
+
+            if args.dry_run:
+                print(f"📝 {entry.entry_id}: would create {relative_target}/{version}")
+                continue
+
+            try:
+                version_dir = manager.create_version_dir(version)
+            except FileExistsError:
+                print(f"⚠️  {entry.entry_id}: {relative_target}/{version} already exists — skipping")
+                skipped += 1
+                continue
+
+            catalog_payload = dict(entry.data)
+            catalog_payload.setdefault("generated_version", version)
+
+            manifest = {
+                "entry_id": entry.entry_id,
+                "content_version": version,
+                "created_at": timestamp,
+                "catalog_entry": catalog_payload,
+                "algo": {
+                    "name": args.algo_name or "TERVYX-Core",
+                    "version": args.algo_version or "0.0.0",
+                    "policy_commit": args.policy_commit or "",
+                    "parameters": algo_params,
+                },
+                "data_snapshot": {
+                    "label": args.data_snapshot or "unfrozen",
+                    "freeze_policy": args.data_freeze or "",
+                    "source": args.data_source or "",
+                },
+                "provenance": {
+                    "generator": generator_id,
+                    "executor": executor,
+                    "dry_run": False,
+                },
+                "lineage": {
+                    "previous_content_version": previous,
+                    "bump_type": args.bump or ("initial" if previous is None else "minor"),
+                    "change_note": args.change_note or "",
+                },
+            }
+
+            manifest_serialized = json.dumps(manifest, sort_keys=True)
+            manifest_hash = hashlib.sha256(manifest_serialized.encode("utf-8")).hexdigest()
+            manifest["audit_hash"] = manifest_hash
+
+            with (version_dir / "run_manifest.json").open("w", encoding="utf-8") as handle:
+                json.dump(manifest, handle, indent=2, sort_keys=True)
+
+            (version_dir / "audit_hash.txt").write_text(f"{manifest_hash}\n", encoding="utf-8")
+
+            with (version_dir / "catalog_entry.json").open("w", encoding="utf-8") as handle:
+                json.dump(catalog_payload, handle, indent=2, sort_keys=True)
+
+            title_parts = []
+            substance_name = entry.data.get("substance", "").strip()
+            indication_name = entry.data.get("primary_indication", "").strip()
+            if substance_name:
+                title_parts.append(substance_name.title())
+            if entry.category:
+                title_parts.append(entry.category.replace("_", " ").title())
+            if indication_name and indication_name.lower() != entry.category.lower():
+                title_parts.append(indication_name.replace("_", " ").title())
+            title = " — ".join(title_parts) or entry.entry_id
+
+            entry_stub = {
+                "@context": "https://schema.org/",
+                "@type": "Dataset",
+                "identifier": entry.entry_id,
+                "name": title,
+                "category": entry.category,
+                "primary_indication": entry.data.get("primary_indication"),
+                "formulation_policy": entry.data.get("formulation_policy"),
+                "status": entry.status or "pending",
+                "priority": entry.priority or "",
+                "notes": entry.data.get("notes", ""),
+                "version": version,
+                "manifest": "run_manifest.json",
+                "catalog_snapshot": "catalog_entry.json",
+                "audit_hash": manifest_hash,
+                "created": timestamp,
+                "tier": None,
+                "label": None,
+                "P_effect_gt_delta": None,
+            }
+
+            with (version_dir / "entry.jsonld").open("w", encoding="utf-8") as handle:
+                json.dump(entry_stub, handle, indent=2, sort_keys=True)
+
+            evidence_header = (
+                "study_id,year,design,effect_type,effect_point,ci_low,ci_high,"  # noqa: B950
+                "n_treat,n_ctrl,risk_of_bias,doi,journal_id\n"
+            )
+            evidence_path = version_dir / "evidence.csv"
+            evidence_path.write_text(evidence_header, encoding="utf-8")
+
+            manager.update_latest_pointer(version)
+
+            created += 1
+            print(f"✅ {entry.entry_id}: created {relative_target}/{version}")
+
+            if args.set_status:
+                catalog.update_entry_status(
+                    entry.entry_id,
+                    args.set_status,
+                    assignee=args.assignee,
+                    notes=args.status_note or args.notes or "",
+                )
+
+        if args.dry_run:
+            print(f"👁️  Previewed {len(selected)} entries for generation")
+        else:
+            print(f"🎯 Generation complete: {created} created, {skipped} skipped")
+
     return 0
 
 def cmd_collect(args):
     """Run evidence collection pipeline"""
-    
-    if not SCALING_AVAILABLE:
-        print("❌ Collection pipeline not available. Install dependencies first.")
+
+    if not COLLECTION_AVAILABLE:
+        error = component_errors.get("collection")
+        detail = f" ({error})" if error else ""
+        print(f"❌ Collection pipeline not available{detail}. Install dependencies first.")
         return 1
     
     pipeline = CollectionPipeline()
@@ -245,9 +556,11 @@ def cmd_collect(args):
 
 def cmd_score(args):
     """Run relevance scoring"""
-    
-    if not SCALING_AVAILABLE:
-        print("❌ Relevance scorer not available. Install dependencies first.")
+
+    if not SCORER_AVAILABLE:
+        error = component_errors.get("scorer")
+        detail = f" ({error})" if error else ""
+        print(f"❌ Relevance scorer not available{detail}. Install dependencies first.")
         return 1
     
     scorer = RelevanceScorer()
@@ -334,9 +647,11 @@ def cmd_score(args):
 
 def cmd_prisma(args):
     """Run PRISMA screening workflow"""
-    
-    if not SCALING_AVAILABLE:
-        print("❌ PRISMA workflow not available. Install dependencies first.")
+
+    if not PRISMA_AVAILABLE:
+        error = component_errors.get("prisma")
+        detail = f" ({error})" if error else ""
+        print(f"❌ PRISMA workflow not available{detail}. Install dependencies first.")
         return 1
     
     workflow = PRISMAWorkflow(args.review_id)
@@ -439,7 +754,10 @@ def main():
     
     # Entry catalog  
     catalog_parser = subparsers.add_parser('catalog', help='Manage entry catalog')
-    catalog_parser.add_argument('action', choices=['stats', 'batch', 'search', 'update'])
+    catalog_parser.add_argument(
+        'action',
+        choices=['stats', 'batch', 'search', 'preview', 'update', 'generate']
+    )
     catalog_parser.add_argument('--batch-size', type=int, help='Batch size')
     catalog_parser.add_argument('--priority', choices=['high', 'medium', 'low'])
     catalog_parser.add_argument('--category', help='Filter by category')
@@ -450,6 +768,23 @@ def main():
     catalog_parser.add_argument('--assignee', help='Assignee')
     catalog_parser.add_argument('--tier', help='Final tier')
     catalog_parser.add_argument('--notes', help='Notes')
+    catalog_parser.add_argument('--limit', type=int, help='Preview limit')
+    catalog_parser.add_argument('--output-dir', help='Output directory for generated entries')
+    catalog_parser.add_argument('--status-filter', help='Comma-separated status filter for generation')
+    catalog_parser.add_argument('--dry-run', action='store_true', help='Preview generation without writing files')
+    catalog_parser.add_argument('--content-version', help='Explicit content version to create')
+    catalog_parser.add_argument('--bump', choices=['major', 'minor', 'patch'], help='Version bump strategy')
+    catalog_parser.add_argument('--algo-version', help='Algorithm version for manifest metadata')
+    catalog_parser.add_argument('--algo-name', help='Algorithm name for manifest metadata')
+    catalog_parser.add_argument('--policy-commit', help='Policy commit hash or reference for manifest metadata')
+    catalog_parser.add_argument('--algo-params', help='JSON-encoded algorithm parameters')
+    catalog_parser.add_argument('--data-snapshot', help='Data snapshot label for manifest metadata')
+    catalog_parser.add_argument('--data-freeze', help='Data freeze policy for manifest metadata')
+    catalog_parser.add_argument('--data-source', help='Data source identifier for manifest metadata')
+    catalog_parser.add_argument('--executor', help='Executor identifier recorded in manifests')
+    catalog_parser.add_argument('--change-note', help='Change note recorded in manifest lineage')
+    catalog_parser.add_argument('--set-status', help='Update catalog status after generation')
+    catalog_parser.add_argument('--status-note', help='Append note when updating status')
     catalog_parser.set_defaults(func=cmd_catalog)
     
     # Collection pipeline
