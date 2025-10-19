@@ -34,11 +34,11 @@ def tel5_classify(P: float, phi_violation: bool = False, k_violation: bool = Fal
         return "FAIL", "Black"
     
     # Standard TEL-5 tier assignment based on P(effect > δ)
-    if P >= 0.80:
+    if P >= 0.90:
         return "PASS", "Gold"      # High confidence
+    elif P >= 0.75:
+        return "PASS", "Silver"    # Moderate confidence
     elif P >= 0.60:
-        return "PASS", "Silver"    # Moderate confidence  
-    elif P >= 0.40:
         return "AMBER", "Bronze"   # Low confidence
     elif P >= 0.20:
         return "AMBER", "Red"      # Very low confidence
@@ -95,31 +95,31 @@ def get_tel5_tier_info(tier: str) -> Dict[str, Any]:
     tier_info = {
         "Gold": {
             "tel5_level": 1,
-            "min_probability": 0.80,
+            "min_probability": 0.90,
             "label": "PASS",
             "color": "#FFD700",
             "confidence": "High",
-            "description": "High confidence evidence (P ≥ 0.80)",
+            "description": "High confidence evidence (P ≥ 0.90)",
             "recommendation": "Evidence strongly supports the claimed benefit",
             "icon": "🥇"
         },
         "Silver": {
             "tel5_level": 2,
-            "min_probability": 0.60,
-            "label": "PASS", 
+            "min_probability": 0.75,
+            "label": "PASS",
             "color": "#C0C0C0",
             "confidence": "Moderate",
-            "description": "Moderate confidence evidence (P ≥ 0.60)",
+            "description": "Moderate confidence evidence (P ≥ 0.75)",
             "recommendation": "Evidence supports the claimed benefit",
             "icon": "🥈"
         },
         "Bronze": {
             "tel5_level": 3,
-            "min_probability": 0.40,
+            "min_probability": 0.60,
             "label": "AMBER",
-            "color": "#CD7F32", 
+            "color": "#CD7F32",
             "confidence": "Low",
-            "description": "Low confidence evidence (P ≥ 0.40)",
+            "description": "Low confidence evidence (P ≥ 0.60)",
             "recommendation": "Evidence provides limited support; further research needed",
             "icon": "🥉"
         },
