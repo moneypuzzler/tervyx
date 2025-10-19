@@ -6,7 +6,7 @@
   "deprecation_policy": "",
   "entry_id": "SLP-THN-ALPHA",
   "evidence_tier": "P1",
-  "final_tier": "",
+  "final_tier": "Gold",
   "formulation_detail": "evening alpha-wave modulation",
   "formulation_policy": "merge",
   "generated_version": "v1",
@@ -15,6 +15,6 @@
   "primary_indication": "sleep_quality",
   "priority": "medium",
   "source_hint": "PMID: 32239622",
-  "status": "pending",
+  "status": "curated",
   "substance": "l_theanine"
 }

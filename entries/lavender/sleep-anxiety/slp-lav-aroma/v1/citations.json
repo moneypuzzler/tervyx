@@ -1,10 +1,13 @@
 {
-  "doi_bundle": {
-    "dataset": "",
-    "paper": "",
-    "patent": ""
-  },
-  "notes": "Populate with structured citation metadata (paper, dataset, patent).",
-  "primary_sources": [],
-  "secondary_sources": []
+  "preferred_citation": "TERVYX Protocol Team. Lavender \u2014 Sleep \u2014 Sleep Anxiety (v1).",
+  "studies": [
+    {
+      "citation": "Chien, L.-W. et al. (2012). Aromatherapy with lavender oil on sleep quality of middle-aged women with insomnia. Journal of Alternative and Complementary Medicine, 18(10), 984-991. https://doi.org/10.1089/acm.2011.0551",
+      "study_id": "Chien2012"
+    },
+    {
+      "citation": "Lillehei, A. S. & Halcon, L. L. (2014). A systematic review of aromatherapy for sleep. Journal of Alternative and Complementary Medicine, 20(5), 397-412. https://doi.org/10.1089/acm.2013.0211",
+      "study_id": "Lillehei2014"
+    }
+  ]
 }

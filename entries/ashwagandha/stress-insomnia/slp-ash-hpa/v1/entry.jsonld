@@ -1,37 +1,38 @@
 {
   "@context": "https://schema.org/",
   "@type": "Dataset",
-  "P_effect_gt_delta": 0.0,
-  "audit_hash": "0x82ff353f64d90926",
+  "P_effect_gt_delta": 0.9998,
+  "audit_hash": "0xf673787a01492db9",
   "category": "sleep",
   "created": "2025-10-19T12:51:57Z",
   "evidence_summary": {
-    "I2": null,
+    "I2": 0.0,
     "mu_CI95": [
-      0.0,
-      0.0
+      -0.8963,
+      -0.3956
     ],
-    "mu_hat": 0.0,
-    "n_studies": 0,
-    "tau2": null,
-    "total_n": 0
+    "mu_hat": -0.6459,
+    "n_studies": 2,
+    "tau2": 0.0,
+    "total_n": 200
   },
   "gate_results": {
-    "j": 0.0,
+    "j": 0.4,
     "k": "PASS",
     "l": "PASS",
     "phi": "PASS",
-    "r": "LOW"
+    "r": "HIGH (1.000)"
   },
   "id": "sleep:ashwagandha:stress-insomnia:v1",
-  "label": "AMBER",
-  "policy_fingerprint": "0x82ff353f64d90926",
+  "label": "PASS",
+  "llm_hint": "TEL-5=Gold, PASS; P(effect>\u03b4)=1.000; J*=0.400; studies=2; total_n=200",
+  "policy_fingerprint": "0x4485241d902becb4",
   "policy_refs": {
     "journal_trust": "2025-10-05",
     "monte_carlo": "MC@v1.0.0",
     "tel5_levels": "TEL-5@v1.0.0"
   },
-  "tier": "Bronze",
+  "tier": "Gold",
   "tier_label_system": "TEL-5",
   "title": "Ashwagandha \u2014 Sleep \u2014 Stress Insomnia",
   "version": "v1"

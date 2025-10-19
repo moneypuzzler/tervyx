@@ -1,37 +1,38 @@
 {
   "@context": "https://schema.org/",
   "@type": "Dataset",
-  "P_effect_gt_delta": 0.0,
-  "audit_hash": "0xc36f3b6785839fff",
+  "P_effect_gt_delta": 0.5434,
+  "audit_hash": "0xc3e828594c098db4",
   "category": "sleep",
   "created": "2025-10-19T12:51:57Z",
   "evidence_summary": {
-    "I2": null,
+    "I2": 0.0,
     "mu_CI95": [
-      0.0,
-      0.0
+      -0.39,
+      -0.03
     ],
-    "mu_hat": 0.0,
-    "n_studies": 0,
-    "tau2": null,
-    "total_n": 0
+    "mu_hat": -0.21,
+    "n_studies": 16,
+    "tau2": 0.0,
+    "total_n": 1132
   },
   "gate_results": {
-    "j": 0.0,
+    "j": 0.35,
     "k": "PASS",
     "l": "PASS",
     "phi": "PASS",
-    "r": "LOW"
+    "r": "LOW (0.543)"
   },
   "id": "sleep:valerian:sleep-latency:v1",
   "label": "AMBER",
-  "policy_fingerprint": "0xc36f3b6785839fff",
+  "llm_hint": "TEL-5=Red, AMBER; P(effect>\u03b4)=0.543; J*=0.350; studies=16; total_n=1132",
+  "policy_fingerprint": "0x4485241d902becb4",
   "policy_refs": {
     "journal_trust": "2025-10-05",
     "monte_carlo": "MC@v1.0.0",
     "tel5_levels": "TEL-5@v1.0.0"
   },
-  "tier": "Bronze",
+  "tier": "Red",
   "tier_label_system": "TEL-5",
   "title": "Valerian \u2014 Sleep \u2014 Sleep Latency",
   "version": "v1"

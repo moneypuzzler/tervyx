@@ -1,10 +1,13 @@
 {
-  "doi_bundle": {
-    "dataset": "",
-    "paper": "",
-    "patent": ""
-  },
-  "notes": "Populate with structured citation metadata (paper, dataset, patent).",
-  "primary_sources": [],
-  "secondary_sources": []
+  "preferred_citation": "TERVYX Protocol Team. L_Theanine \u2014 Sleep \u2014 Sleep Quality (v1).",
+  "studies": [
+    {
+      "citation": "Hidese, S. et al. (2019). Effects of L-theanine administration on stress-related symptoms and cognitive functions in healthy adults: A randomized controlled trial. Nutrients, 11(2), 236. https://doi.org/10.3390/nu11020236",
+      "study_id": "Hidese2019"
+    },
+    {
+      "citation": "Kim, S.-Y. et al. (2019). L-theanine improves sleep quality in patients with generalized anxiety disorder. Nutrition Research and Practice, 13(3), 225-232. https://doi.org/10.4162/nrp.2019.13.3.225",
+      "study_id": "Kim2019"
+    }
+  ]
 }

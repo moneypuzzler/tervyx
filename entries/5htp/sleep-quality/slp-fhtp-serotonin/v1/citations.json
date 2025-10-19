@@ -1,10 +1,13 @@
 {
-  "doi_bundle": {
-    "dataset": "",
-    "paper": "",
-    "patent": ""
-  },
-  "notes": "Populate with structured citation metadata (paper, dataset, patent).",
-  "primary_sources": [],
-  "secondary_sources": []
+  "preferred_citation": "TERVYX Protocol Team. 5Htp \u2014 Sleep \u2014 Sleep Quality (v1).",
+  "studies": [
+    {
+      "citation": "Sarris, J. & Byrne, G. (2011). A systematic review of herbal medicines for insomnia. Sleep Medicine Reviews, 15(2), 79-91. https://doi.org/10.1016/j.smrv.2010.04.001",
+      "study_id": "Sarris2011"
+    },
+    {
+      "citation": "Fernstrom, J. D. (2012). 5-Hydroxytryptophan in the treatment of disorders of serotonin deficiency. Journal of Psychiatry & Neuroscience, 37(4), 225-226. https://doi.org/10.1503/jpn.120099",
+      "study_id": "Fernstrom2012"
+    }
+  ]
 }

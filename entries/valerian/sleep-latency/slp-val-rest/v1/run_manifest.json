@@ -14,7 +14,7 @@
     "evidence": "evidence.csv",
     "simulation": "simulation.json"
   },
-  "audit_hash": "c36f3b6785839fff58afdb1ad65b4507e1526539f605893469375d638df32502",
+  "audit_hash": "c3e828594c098db43f7d75249fef77fa894471d82bf3b1909572b20add59c651",
   "catalog_entry": {
     "algo_version_pinned": "",
     "assignee": "",
@@ -23,7 +23,7 @@
     "deprecation_policy": "",
     "entry_id": "SLP-VAL-REST",
     "evidence_tier": "P1",
-    "final_tier": "",
+    "final_tier": "Red",
     "formulation_detail": "standardized valerenic acid extracts",
     "formulation_policy": "merge",
     "generated_version": "v1",
@@ -32,7 +32,7 @@
     "primary_indication": "sleep_latency",
     "priority": "medium",
     "source_hint": "PMID: 31124745",
-    "status": "pending",
+    "status": "curated",
     "substance": "valerian"
   },
   "content_version": "v1",
@@ -41,12 +41,23 @@
     "dedup_hash": "",
     "excluded_studies": [],
     "freeze_policy": "",
-    "included_studies": [],
-    "label": "unfrozen",
-    "notes": "",
+    "included_studies": [
+      {
+        "design": "Meta-analysis",
+        "doi": "10.1016/j.amjmed.2006.02.026",
+        "effect_type": "SMD",
+        "study_id": "Bent2006"
+      }
+    ],
+    "label": "curated",
+    "notes": "16 randomized trials of standardized Valeriana officinalis extracts",
     "query": "",
     "source": "",
-    "sources": {}
+    "sources": {
+      "doi": [
+        "10.1016/j.amjmed.2006.02.026"
+      ]
+    }
   },
   "entry_id": "SLP-VAL-REST",
   "lineage": {

@@ -14,7 +14,7 @@
     "evidence": "evidence.csv",
     "simulation": "simulation.json"
   },
-  "audit_hash": "0720ef2b857c61eea9c50ab6efc28a472712f380477494e1146f37a2da1e64a5",
+  "audit_hash": "955d92f261c02ed520a896b2b90209178844e35277aa54e500afc645b8516873",
   "catalog_entry": {
     "algo_version_pinned": "",
     "assignee": "",
@@ -23,7 +23,7 @@
     "deprecation_policy": "",
     "entry_id": "COG-BAC-MEM",
     "evidence_tier": "P0",
-    "final_tier": "",
+    "final_tier": "Gold",
     "formulation_detail": "bacoside A standardized",
     "formulation_policy": "merge",
     "generated_version": "v1",
@@ -32,7 +32,7 @@
     "primary_indication": "memory",
     "priority": "high",
     "source_hint": "PMID: 21129626",
-    "status": "pending",
+    "status": "curated",
     "substance": "bacopa"
   },
   "content_version": "v1",
@@ -41,12 +41,37 @@
     "dedup_hash": "",
     "excluded_studies": [],
     "freeze_policy": "",
-    "included_studies": [],
-    "label": "unfrozen",
-    "notes": "",
+    "included_studies": [
+      {
+        "design": "RCT",
+        "doi": "10.1007/s002130100815",
+        "effect_type": "SMD",
+        "study_id": "Stough2001"
+      },
+      {
+        "design": "RCT",
+        "doi": "10.1089/acm.2009.0342",
+        "effect_type": "SMD",
+        "study_id": "Morgan2010"
+      },
+      {
+        "design": "RCT",
+        "doi": "10.1089/acm.2011.0367",
+        "effect_type": "SMD",
+        "study_id": "Pase2012"
+      }
+    ],
+    "label": "curated",
+    "notes": "Memory composite scores across standardized bacoside A extracts",
     "query": "",
     "source": "",
-    "sources": {}
+    "sources": {
+      "doi": [
+        "10.1007/s002130100815",
+        "10.1089/acm.2009.0342",
+        "10.1089/acm.2011.0367"
+      ]
+    }
   },
   "entry_id": "COG-BAC-MEM",
   "lineage": {

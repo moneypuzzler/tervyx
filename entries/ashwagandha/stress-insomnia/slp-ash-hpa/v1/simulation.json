@@ -1,33 +1,40 @@
 {
-  "I2": null,
-  "P_effect_gt_delta": 0.0,
-  "Q": null,
-  "benefit_direction": 1,
-  "benefit_note": "Placeholder \u2014 update after simulation run",
+  "I2": 0.0,
+  "P_effect_gt_delta": 0.9998,
+  "Q": 0.2982,
+  "benefit_direction": -1,
+  "benefit_note": "Standardized KSM-66 extract trials with PSQI reductions",
+  "computation_time_ms": 45.0,
   "delta": 0.2,
-  "environment": "TERVYX scaffold \u2014 populate with REML/MC outputs",
+  "environment": "Python 3.11, NumPy 2.3.4, SciPy 1.11.0",
   "gate_terminated": false,
   "mu_CI95": [
-    0.0,
-    0.0
+    -0.8963,
+    -0.3956
   ],
-  "mu_hat": 0.0,
-  "mu_se": 0.0,
+  "mu_hat": -0.6459,
+  "mu_se": 0.12773,
   "n_draws": 10000,
-  "n_studies": 0,
-  "policy_fingerprint": "0x82ff353f64d90926",
+  "n_studies": 2,
+  "policy_fingerprint": "0x4485241d902becb4",
   "prediction_interval_95": [
-    0.0,
-    0.0
+    -0.8963,
+    -0.3956
   ],
-  "seed": 2197763391,
-  "tau": null,
-  "tau2": null,
+  "reml_convergence": {
+    "converged": true,
+    "final_nll": -0.1491,
+    "iterations": 1
+  },
+  "seed": 20251005,
+  "tau": 0.0,
+  "tau2": 0.0,
   "tau2_method": "REML",
-  "termination_gate": "none",
-  "total_n": 0,
-  "var_mu": 0.0,
-  "warnings": [
-    "Simulation pending \u2014 populate with REML/MC outputs"
-  ]
+  "tel5_input": {
+    "P_value": 0.9998,
+    "k_violation": false,
+    "phi_violation": false
+  },
+  "total_n": 200,
+  "var_mu": 0.016315
 }

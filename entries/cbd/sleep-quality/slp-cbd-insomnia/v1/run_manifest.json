@@ -14,7 +14,11 @@
     "evidence": "evidence.csv",
     "simulation": "simulation.json"
   },
+<<<<<<< HEAD
+  "audit_hash": "7481c0d5a32489d1d865b4e9daea73be9f9e0724c3d359e4cc07a85900ba9090",
+=======
   "audit_hash": "b8f72bc9060235217bdb2d0a6b4c6300997c3229204a7582a6b2a2566c0632c3",
+>>>>>>> main
   "catalog_entry": {
     "algo_version_pinned": "",
     "assignee": "",
@@ -23,7 +27,11 @@
     "deprecation_policy": "",
     "entry_id": "SLP-CBD-INSOMNIA",
     "evidence_tier": "P1",
+<<<<<<< HEAD
+    "final_tier": "Red",
+=======
     "final_tier": "",
+>>>>>>> main
     "formulation_detail": "isolate vs full-spectrum nighttime dosing",
     "formulation_policy": "split",
     "generated_version": "v1",
@@ -42,11 +50,21 @@
     "excluded_studies": [],
     "freeze_policy": "",
     "included_studies": [],
+<<<<<<< HEAD
+    "label": "insufficient",
+    "notes": "Evidence limited to observational studies and case series",
+    "query": "",
+    "source": "",
+    "sources": {
+      "doi": []
+    }
+=======
     "label": "unfrozen",
     "notes": "",
     "query": "",
     "source": "",
     "sources": {}
+>>>>>>> main
   },
   "entry_id": "SLP-CBD-INSOMNIA",
   "lineage": {
@@ -67,4 +85,8 @@
     "runner": "scripts/tervyx_scale.py@catalog-generate",
     "started_at": "2025-10-19T12:51:57Z"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> main

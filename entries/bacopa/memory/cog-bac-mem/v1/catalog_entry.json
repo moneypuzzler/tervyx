@@ -6,7 +6,7 @@
   "deprecation_policy": "",
   "entry_id": "COG-BAC-MEM",
   "evidence_tier": "P0",
-  "final_tier": "",
+  "final_tier": "Gold",
   "formulation_detail": "bacoside A standardized",
   "formulation_policy": "merge",
   "generated_version": "v1",
@@ -15,6 +15,6 @@
   "primary_indication": "memory",
   "priority": "high",
   "source_hint": "PMID: 21129626",
-  "status": "pending",
+  "status": "curated",
   "substance": "bacopa"
 }

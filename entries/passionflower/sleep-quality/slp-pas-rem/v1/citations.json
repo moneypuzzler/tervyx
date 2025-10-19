@@ -1,10 +1,9 @@
 {
-  "doi_bundle": {
-    "dataset": "",
-    "paper": "",
-    "patent": ""
-  },
-  "notes": "Populate with structured citation metadata (paper, dataset, patent).",
-  "primary_sources": [],
-  "secondary_sources": []
+  "preferred_citation": "TERVYX Protocol Team. Passionflower \u2014 Sleep \u2014 Sleep Quality (v1).",
+  "studies": [
+    {
+      "citation": "Ngan, A. & Conduit, R. (2011). A double-blind, placebo-controlled investigation of the effects of Passiflora incarnata (Passionflower) herbal tea on subjective sleep quality. Phytotherapy Research, 25(8), 1153-1159. https://doi.org/10.1002/ptr.3400",
+      "study_id": "Ngan2011"
+    }
+  ]
 }

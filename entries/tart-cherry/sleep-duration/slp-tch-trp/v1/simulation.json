@@ -1,33 +1,40 @@
 {
-  "I2": null,
-  "P_effect_gt_delta": 0.0,
-  "Q": null,
-  "benefit_direction": 1,
-  "benefit_note": "Placeholder \u2014 update after simulation run",
+  "I2": 0.0,
+  "P_effect_gt_delta": 0.9585,
+  "Q": 0.3313,
+  "benefit_direction": -1,
+  "benefit_note": "Actigraphy-confirmed improvements in sleep duration",
+  "computation_time_ms": 45.0,
   "delta": 0.2,
-  "environment": "TERVYX scaffold \u2014 populate with REML/MC outputs",
+  "environment": "Python 3.11, NumPy 2.3.4, SciPy 1.11.0",
   "gate_terminated": false,
   "mu_CI95": [
-    0.0,
-    0.0
+    -0.8704,
+    -0.1589
   ],
-  "mu_hat": 0.0,
-  "mu_se": 0.0,
+  "mu_hat": -0.5146,
+  "mu_se": 0.181519,
   "n_draws": 10000,
-  "n_studies": 0,
-  "policy_fingerprint": "0x572279dbecd25df0",
+  "n_studies": 2,
+  "policy_fingerprint": "0x4485241d902becb4",
   "prediction_interval_95": [
-    0.0,
-    0.0
+    -0.8704,
+    -0.1589
   ],
-  "seed": 1461877211,
-  "tau": null,
-  "tau2": null,
+  "reml_convergence": {
+    "converged": true,
+    "final_nll": -0.16567,
+    "iterations": 1
+  },
+  "seed": 20251005,
+  "tau": 0.0,
+  "tau2": 0.0,
   "tau2_method": "REML",
-  "termination_gate": "none",
-  "total_n": 0,
-  "var_mu": 0.0,
-  "warnings": [
-    "Simulation pending \u2014 populate with REML/MC outputs"
-  ]
+  "tel5_input": {
+    "P_value": 0.9585,
+    "k_violation": false,
+    "phi_violation": false
+  },
+  "total_n": 50,
+  "var_mu": 0.032949
 }

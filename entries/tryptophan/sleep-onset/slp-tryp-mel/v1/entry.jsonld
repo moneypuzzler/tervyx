@@ -1,37 +1,38 @@
 {
   "@context": "https://schema.org/",
   "@type": "Dataset",
-  "P_effect_gt_delta": 0.0,
-  "audit_hash": "0x3f97a0a7efb9f074",
+  "P_effect_gt_delta": 0.9929,
+  "audit_hash": "0x71313dcf282ec200",
   "category": "sleep",
   "created": "2025-10-19T12:51:58Z",
   "evidence_summary": {
-    "I2": null,
+    "I2": 0.0,
     "mu_CI95": [
-      0.0,
-      0.0
+      -0.6422,
+      -0.2493
     ],
-    "mu_hat": 0.0,
-    "n_studies": 0,
-    "tau2": null,
-    "total_n": 0
+    "mu_hat": -0.4457,
+    "n_studies": 2,
+    "tau2": 0.0,
+    "total_n": 90
   },
   "gate_results": {
-    "j": 0.0,
+    "j": 0.4,
     "k": "PASS",
     "l": "PASS",
     "phi": "PASS",
-    "r": "LOW"
+    "r": "HIGH (0.993)"
   },
   "id": "sleep:tryptophan:sleep-onset:v1",
-  "label": "AMBER",
-  "policy_fingerprint": "0x3f97a0a7efb9f074",
+  "label": "PASS",
+  "llm_hint": "TEL-5=Gold, PASS; P(effect>\u03b4)=0.993; J*=0.400; studies=2; total_n=90",
+  "policy_fingerprint": "0x4485241d902becb4",
   "policy_refs": {
     "journal_trust": "2025-10-05",
     "monte_carlo": "MC@v1.0.0",
     "tel5_levels": "TEL-5@v1.0.0"
   },
-  "tier": "Bronze",
+  "tier": "Gold",
   "tier_label_system": "TEL-5",
   "title": "Tryptophan \u2014 Sleep \u2014 Sleep Onset",
   "version": "v1"

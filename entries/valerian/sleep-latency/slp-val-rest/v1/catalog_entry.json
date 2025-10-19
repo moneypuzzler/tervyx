@@ -6,7 +6,7 @@
   "deprecation_policy": "",
   "entry_id": "SLP-VAL-REST",
   "evidence_tier": "P1",
-  "final_tier": "",
+  "final_tier": "Red",
   "formulation_detail": "standardized valerenic acid extracts",
   "formulation_policy": "merge",
   "generated_version": "v1",
@@ -15,6 +15,6 @@
   "primary_indication": "sleep_latency",
   "priority": "medium",
   "source_hint": "PMID: 31124745",
-  "status": "pending",
+  "status": "curated",
   "substance": "valerian"
 }

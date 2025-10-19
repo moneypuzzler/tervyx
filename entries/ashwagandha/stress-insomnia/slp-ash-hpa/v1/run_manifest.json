@@ -14,7 +14,7 @@
     "evidence": "evidence.csv",
     "simulation": "simulation.json"
   },
-  "audit_hash": "82ff353f64d90926d967d3d12f77dbde585ecf7c56adaf25501563d5373945ff",
+  "audit_hash": "f673787a01492db9f23054d20a7ab6c7cd95616270a7456eeb3ffade4180f356",
   "catalog_entry": {
     "algo_version_pinned": "",
     "assignee": "",
@@ -23,7 +23,7 @@
     "deprecation_policy": "",
     "entry_id": "SLP-ASH-HPA",
     "evidence_tier": "P1",
-    "final_tier": "",
+    "final_tier": "Gold",
     "formulation_detail": "KSM-66 vs Sensoril adaptogen comparison",
     "formulation_policy": "merge",
     "generated_version": "v1",
@@ -32,7 +32,7 @@
     "primary_indication": "stress_insomnia",
     "priority": "medium",
     "source_hint": "PMID: 31317699",
-    "status": "pending",
+    "status": "curated",
     "substance": "ashwagandha"
   },
   "content_version": "v1",
@@ -41,12 +41,30 @@
     "dedup_hash": "",
     "excluded_studies": [],
     "freeze_policy": "",
-    "included_studies": [],
-    "label": "unfrozen",
-    "notes": "",
+    "included_studies": [
+      {
+        "design": "RCT",
+        "doi": "10.7759/cureus.5797",
+        "effect_type": "SMD",
+        "study_id": "Langade2019"
+      },
+      {
+        "design": "RCT",
+        "doi": "10.1016/j.jaim.2019.01.007",
+        "effect_type": "SMD",
+        "study_id": "Salve2019"
+      }
+    ],
+    "label": "curated",
+    "notes": "Standardized KSM-66 extract trials with PSQI reductions",
     "query": "",
     "source": "",
-    "sources": {}
+    "sources": {
+      "doi": [
+        "10.7759/cureus.5797",
+        "10.1016/j.jaim.2019.01.007"
+      ]
+    }
   },
   "entry_id": "SLP-ASH-HPA",
   "lineage": {

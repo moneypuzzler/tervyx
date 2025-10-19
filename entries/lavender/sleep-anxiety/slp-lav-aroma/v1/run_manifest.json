@@ -14,7 +14,7 @@
     "evidence": "evidence.csv",
     "simulation": "simulation.json"
   },
-  "audit_hash": "8efa8b9bee65efdd21f3881291e712ed9dac1038611b5f6e00ff37df23053bd1",
+  "audit_hash": "0f645ead7c5af9aed24d061d7e327debcfa4126fc0e1fc712c13bf087d0d07d0",
   "catalog_entry": {
     "algo_version_pinned": "",
     "assignee": "",
@@ -23,7 +23,7 @@
     "deprecation_policy": "",
     "entry_id": "SLP-LAV-AROMA",
     "evidence_tier": "P1",
-    "final_tier": "",
+    "final_tier": "Gold",
     "formulation_detail": "oral Silexan vs aromatherapy arms",
     "formulation_policy": "split",
     "generated_version": "v1",
@@ -32,7 +32,7 @@
     "primary_indication": "sleep_anxiety",
     "priority": "medium",
     "source_hint": "PMID: 28153670",
-    "status": "pending",
+    "status": "curated",
     "substance": "lavender"
   },
   "content_version": "v1",
@@ -41,12 +41,30 @@
     "dedup_hash": "",
     "excluded_studies": [],
     "freeze_policy": "",
-    "included_studies": [],
-    "label": "unfrozen",
-    "notes": "",
+    "included_studies": [
+      {
+        "design": "RCT",
+        "doi": "10.1089/acm.2011.0551",
+        "effect_type": "SMD",
+        "study_id": "Chien2012"
+      },
+      {
+        "design": "RCT",
+        "doi": "10.1089/acm.2013.0211",
+        "effect_type": "SMD",
+        "study_id": "Lillehei2014"
+      }
+    ],
+    "label": "curated",
+    "notes": "Aromatherapy protocols with validated anxiety measures",
     "query": "",
     "source": "",
-    "sources": {}
+    "sources": {
+      "doi": [
+        "10.1089/acm.2011.0551",
+        "10.1089/acm.2013.0211"
+      ]
+    }
   },
   "entry_id": "SLP-LAV-AROMA",
   "lineage": {

@@ -6,7 +6,7 @@
   "deprecation_policy": "",
   "entry_id": "SLP-GABA-ORAL",
   "evidence_tier": "P1",
-  "final_tier": "",
+  "final_tier": "Gold",
   "formulation_detail": "oral pharma-GABA vs synthetic",
   "formulation_policy": "merge",
   "generated_version": "v1",
@@ -15,6 +15,6 @@
   "primary_indication": "sleep_latency",
   "priority": "low",
   "source_hint": "PMID: 20926445",
-  "status": "pending",
+  "status": "curated",
   "substance": "gaba"
 }

@@ -14,7 +14,7 @@
     "evidence": "evidence.csv",
     "simulation": "simulation.json"
   },
-  "audit_hash": "27e24621271c6dfa1457c4fe7eec40869746385e081d9ab141ef964644725c54",
+  "audit_hash": "9ca0fe076d113b4cdb1347879f7a14a02e9999fe695891c812fcfc17ad75acc1",
   "catalog_entry": {
     "algo_version_pinned": "",
     "assignee": "",
@@ -23,7 +23,7 @@
     "deprecation_policy": "",
     "entry_id": "SLP-LEM-TRANQ",
     "evidence_tier": "P1",
-    "final_tier": "",
+    "final_tier": "Gold",
     "formulation_detail": "rosmarinic acid standardization",
     "formulation_policy": "merge",
     "generated_version": "v1",
@@ -32,7 +32,7 @@
     "primary_indication": "sleep_quality",
     "priority": "low",
     "source_hint": "PMID: 23724484",
-    "status": "pending",
+    "status": "curated",
     "substance": "lemon_balm"
   },
   "content_version": "v1",
@@ -41,12 +41,30 @@
     "dedup_hash": "",
     "excluded_studies": [],
     "freeze_policy": "",
-    "included_studies": [],
-    "label": "unfrozen",
-    "notes": "",
+    "included_studies": [
+      {
+        "design": "RCT",
+        "doi": "10.1186/2047-783X-16-2-76",
+        "effect_type": "SMD",
+        "study_id": "Cases2011"
+      },
+      {
+        "design": "RCT",
+        "doi": "10.1016/j.pbb.2006.11.009",
+        "effect_type": "SMD",
+        "study_id": "Kennedy2006"
+      }
+    ],
+    "label": "curated",
+    "notes": "Rosmarinic acid-standardized extracts with sleep questionnaire outcomes",
     "query": "",
     "source": "",
-    "sources": {}
+    "sources": {
+      "doi": [
+        "10.1186/2047-783X-16-2-76",
+        "10.1016/j.pbb.2006.11.009"
+      ]
+    }
   },
   "entry_id": "SLP-LEM-TRANQ",
   "lineage": {

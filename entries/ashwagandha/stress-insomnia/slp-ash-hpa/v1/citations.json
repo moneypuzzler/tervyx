@@ -1,10 +1,13 @@
 {
-  "doi_bundle": {
-    "dataset": "",
-    "paper": "",
-    "patent": ""
-  },
-  "notes": "Populate with structured citation metadata (paper, dataset, patent).",
-  "primary_sources": [],
-  "secondary_sources": []
+  "preferred_citation": "TERVYX Protocol Team. Ashwagandha \u2014 Sleep \u2014 Stress Insomnia (v1).",
+  "studies": [
+    {
+      "citation": "Langade, D. et al. (2019). Efficacy and Safety of Ashwagandha Root Extract in Insomnia and Anxiety. Cureus, 11(9), e5797. https://doi.org/10.7759/cureus.5797",
+      "study_id": "Langade2019"
+    },
+    {
+      "citation": "Salve, J. et al. (2019). Adaptogenic and anxiolytic effects of ashwagandha root extract in healthy adults. Journal of Ayurveda and Integrative Medicine, 10(4), 195-199. https://doi.org/10.1016/j.jaim.2019.01.007",
+      "study_id": "Salve2019"
+    }
+  ]
 }

@@ -14,7 +14,7 @@
     "evidence": "evidence.csv",
     "simulation": "simulation.json"
   },
-  "audit_hash": "dc4d671b45c2de81149bbb18e6ee633345b5068e21a7c2b099410632dc4c4f5c",
+  "audit_hash": "7ea9ea7246782bf70592912cb60de71b4816a06021783b469a650138c10c91a8",
   "catalog_entry": {
     "algo_version_pinned": "",
     "assignee": "",
@@ -23,7 +23,7 @@
     "deprecation_policy": "",
     "entry_id": "SLP-FHTP-SEROTONIN",
     "evidence_tier": "P1",
-    "final_tier": "",
+    "final_tier": "Red",
     "formulation_detail": "5-HTP alone vs with vitamin B6",
     "formulation_policy": "split",
     "generated_version": "v1",
@@ -42,11 +42,13 @@
     "excluded_studies": [],
     "freeze_policy": "",
     "included_studies": [],
-    "label": "unfrozen",
-    "notes": "",
+    "label": "insufficient",
+    "notes": "No randomized sleep trials isolating 5-HTP monotherapy",
     "query": "",
     "source": "",
-    "sources": {}
+    "sources": {
+      "doi": []
+    }
   },
   "entry_id": "SLP-FHTP-SEROTONIN",
   "lineage": {

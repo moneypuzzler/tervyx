@@ -14,7 +14,7 @@
     "evidence": "evidence.csv",
     "simulation": "simulation.json"
   },
-  "audit_hash": "8211063333e4670b7e79fac8da2d665b5b363b6ae538a68fb98187b7e9313656",
+  "audit_hash": "3e1c01029eb954f678dd8eae110b276df5a0c6f09a411b98bfe187ccb0085796",
   "catalog_entry": {
     "algo_version_pinned": "",
     "assignee": "",
@@ -23,7 +23,7 @@
     "deprecation_policy": "",
     "entry_id": "SLP-GLY-THERM",
     "evidence_tier": "P1",
-    "final_tier": "",
+    "final_tier": "Gold",
     "formulation_detail": "3g evening dosing with cooling protocol",
     "formulation_policy": "merge",
     "generated_version": "v1",
@@ -32,7 +32,7 @@
     "primary_indication": "sleep_latency",
     "priority": "medium",
     "source_hint": "PMID: 20110082",
-    "status": "pending",
+    "status": "curated",
     "substance": "glycine"
   },
   "content_version": "v1",
@@ -41,12 +41,30 @@
     "dedup_hash": "",
     "excluded_studies": [],
     "freeze_policy": "",
-    "included_studies": [],
-    "label": "unfrozen",
-    "notes": "",
+    "included_studies": [
+      {
+        "design": "RCT",
+        "doi": "10.3389/fneur.2012.00061",
+        "effect_type": "SMD",
+        "study_id": "Bannai2012"
+      },
+      {
+        "design": "RCT",
+        "doi": "10.1111/j.1479-8425.2007.00236.x",
+        "effect_type": "SMD",
+        "study_id": "Yamadera2007"
+      }
+    ],
+    "label": "curated",
+    "notes": "Consistent reduction in sleep latency across lab and home settings",
     "query": "",
     "source": "",
-    "sources": {}
+    "sources": {
+      "doi": [
+        "10.3389/fneur.2012.00061",
+        "10.1111/j.1479-8425.2007.00236.x"
+      ]
+    }
   },
   "entry_id": "SLP-GLY-THERM",
   "lineage": {

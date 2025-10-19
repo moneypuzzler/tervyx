@@ -6,7 +6,7 @@
   "deprecation_policy": "",
   "entry_id": "SLP-CHM-APNEA",
   "evidence_tier": "P2",
-  "final_tier": "",
+  "final_tier": "Gold",
   "formulation_detail": "apigenin standardized extracts",
   "formulation_policy": "merge",
   "generated_version": "v1",
@@ -15,6 +15,6 @@
   "primary_indication": "sleep_quality",
   "priority": "low",
   "source_hint": "PMID: 26726741",
-  "status": "pending",
+  "status": "curated",
   "substance": "chamomile"
 }

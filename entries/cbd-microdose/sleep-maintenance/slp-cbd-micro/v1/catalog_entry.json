@@ -6,7 +6,7 @@
   "deprecation_policy": "",
   "entry_id": "SLP-CBD-MICRO",
   "evidence_tier": "P1",
-  "final_tier": "",
+  "final_tier": "Red",
   "formulation_detail": "sub-10mg nightly titration",
   "formulation_policy": "merge",
   "generated_version": "v1",

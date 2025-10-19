@@ -14,7 +14,7 @@
     "evidence": "evidence.csv",
     "simulation": "simulation.json"
   },
-  "audit_hash": "ad72909d0f4ac4240a1b0b1a039455dddaa1cf713411c76959fdc20aeb9df58c",
+  "audit_hash": "33eb405cffeca3ba0546e02147e904736ac0c3604a5af3bfecb435f13947e0f4",
   "catalog_entry": {
     "algo_version_pinned": "",
     "assignee": "",
@@ -23,7 +23,7 @@
     "deprecation_policy": "",
     "entry_id": "SLP-THEA-MATCHA",
     "evidence_tier": "P1",
-    "final_tier": "",
+    "final_tier": "Gold",
     "formulation_detail": "decaf ceremonial vs capsule",
     "formulation_policy": "split",
     "generated_version": "v1",
@@ -32,7 +32,7 @@
     "primary_indication": "sleep_quality",
     "priority": "low",
     "source_hint": "PMID: 35061279",
-    "status": "pending",
+    "status": "curated",
     "substance": "matcha"
   },
   "content_version": "v1",
@@ -41,12 +41,30 @@
     "dedup_hash": "",
     "excluded_studies": [],
     "freeze_policy": "",
-    "included_studies": [],
-    "label": "unfrozen",
-    "notes": "",
+    "included_studies": [
+      {
+        "design": "RCT",
+        "doi": "10.3390/nu9050551",
+        "effect_type": "SMD",
+        "study_id": "Unno2017"
+      },
+      {
+        "design": "RCT",
+        "doi": "10.3390/nu10060799",
+        "effect_type": "SMD",
+        "study_id": "Unno2018"
+      }
+    ],
+    "label": "curated",
+    "notes": "Low-caffeine ceremonial matcha with salivary stress biomarkers",
     "query": "",
     "source": "",
-    "sources": {}
+    "sources": {
+      "doi": [
+        "10.3390/nu9050551",
+        "10.3390/nu10060799"
+      ]
+    }
   },
   "entry_id": "SLP-THEA-MATCHA",
   "lineage": {

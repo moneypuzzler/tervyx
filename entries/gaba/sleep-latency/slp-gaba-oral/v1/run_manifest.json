@@ -14,7 +14,7 @@
     "evidence": "evidence.csv",
     "simulation": "simulation.json"
   },
-  "audit_hash": "b9a1241e347e1cbfb95f7269bd5dedc8664147938992c51895417d974ea54f8e",
+  "audit_hash": "e03ff3d025f57a43000fc4a12337e4ca9f371035ea0548951b6919ca2c4a664b",
   "catalog_entry": {
     "algo_version_pinned": "",
     "assignee": "",
@@ -23,7 +23,7 @@
     "deprecation_policy": "",
     "entry_id": "SLP-GABA-ORAL",
     "evidence_tier": "P1",
-    "final_tier": "",
+    "final_tier": "Gold",
     "formulation_detail": "oral pharma-GABA vs synthetic",
     "formulation_policy": "merge",
     "generated_version": "v1",
@@ -32,7 +32,7 @@
     "primary_indication": "sleep_latency",
     "priority": "low",
     "source_hint": "PMID: 20926445",
-    "status": "pending",
+    "status": "curated",
     "substance": "gaba"
   },
   "content_version": "v1",
@@ -41,12 +41,30 @@
     "dedup_hash": "",
     "excluded_studies": [],
     "freeze_policy": "",
-    "included_studies": [],
-    "label": "unfrozen",
-    "notes": "",
+    "included_studies": [
+      {
+        "design": "RCT",
+        "doi": "10.1007/s10068-016-0076-9",
+        "effect_type": "SMD",
+        "study_id": "Yamatsu2016"
+      },
+      {
+        "design": "RCT",
+        "doi": "10.1002/biof.5520260305",
+        "effect_type": "SMD",
+        "study_id": "Abdou2006"
+      }
+    ],
+    "label": "curated",
+    "notes": "Pharma-GABA trials with PSG-confirmed latency changes",
     "query": "",
     "source": "",
-    "sources": {}
+    "sources": {
+      "doi": [
+        "10.1007/s10068-016-0076-9",
+        "10.1002/biof.5520260305"
+      ]
+    }
   },
   "entry_id": "SLP-GABA-ORAL",
   "lineage": {

@@ -1,10 +1,13 @@
 {
-  "doi_bundle": {
-    "dataset": "",
-    "paper": "",
-    "patent": ""
-  },
-  "notes": "Populate with structured citation metadata (paper, dataset, patent).",
-  "primary_sources": [],
-  "secondary_sources": []
+  "preferred_citation": "TERVYX Protocol Team. Tryptophan \u2014 Sleep \u2014 Sleep Onset (v1).",
+  "studies": [
+    {
+      "citation": "Hartmann, E. & Spinweber, C. (1983). Sleep-inducing effects of L-tryptophan in chronic insomnia. Journal of Neural Transmission, 57(2), 133-143. https://doi.org/10.1007/BF01249322",
+      "study_id": "Hartmann1983"
+    },
+    {
+      "citation": "Demisch, K. et al. (1987). Treatment of severe chronic insomnia with L-tryptophan. International Clinical Psychopharmacology, 2(2), 121-129. https://doi.org/10.1097/00004850-198704000-00005",
+      "study_id": "Demisch1987"
+    }
+  ]
 }

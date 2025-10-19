@@ -6,7 +6,11 @@
   "deprecation_policy": "",
   "entry_id": "SLP-CBD-INSOMNIA",
   "evidence_tier": "P1",
+<<<<<<< HEAD
+  "final_tier": "Red",
+=======
   "final_tier": "",
+>>>>>>> main
   "formulation_detail": "isolate vs full-spectrum nighttime dosing",
   "formulation_policy": "split",
   "generated_version": "v1",
@@ -17,4 +21,8 @@
   "source_hint": "PMID: 31447135",
   "status": "pending",
   "substance": "cbd"
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> main

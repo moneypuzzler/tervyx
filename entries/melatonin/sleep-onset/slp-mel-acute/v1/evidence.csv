@@ -1,1 +1,2 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
+FerracioliOda2013,2013,Meta-analysis,SMD,-0.2300,-0.3300,-0.1200,849,834,mixed,10.1213/ANE.0b013e3182a39963,anesth_analg

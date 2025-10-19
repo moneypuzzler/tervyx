@@ -14,7 +14,7 @@
     "evidence": "evidence.csv",
     "simulation": "simulation.json"
   },
-  "audit_hash": "3f97a0a7efb9f0748e3d3498c10a9fa73d4635aeabc1ef3c032a5733b07218b7",
+  "audit_hash": "71313dcf282ec2005c40bcde98b95e79765587281878f242663a63e2b4c01c95",
   "catalog_entry": {
     "algo_version_pinned": "",
     "assignee": "",
@@ -23,7 +23,7 @@
     "deprecation_policy": "",
     "entry_id": "SLP-TRYP-MEL",
     "evidence_tier": "P1",
-    "final_tier": "",
+    "final_tier": "Gold",
     "formulation_detail": "evening carbohydrate pairing",
     "formulation_policy": "merge",
     "generated_version": "v1",
@@ -32,7 +32,7 @@
     "primary_indication": "sleep_onset",
     "priority": "medium",
     "source_hint": "PMID: 36313330",
-    "status": "pending",
+    "status": "curated",
     "substance": "tryptophan"
   },
   "content_version": "v1",
@@ -41,12 +41,30 @@
     "dedup_hash": "",
     "excluded_studies": [],
     "freeze_policy": "",
-    "included_studies": [],
-    "label": "unfrozen",
-    "notes": "",
+    "included_studies": [
+      {
+        "design": "RCT",
+        "doi": "10.1007/BF01249322",
+        "effect_type": "SMD",
+        "study_id": "Hartmann1983"
+      },
+      {
+        "design": "RCT",
+        "doi": "10.1097/00004850-198704000-00005",
+        "effect_type": "SMD",
+        "study_id": "Demisch1987"
+      }
+    ],
+    "label": "curated",
+    "notes": "Serotonin precursor trials with polysomnography endpoints",
     "query": "",
     "source": "",
-    "sources": {}
+    "sources": {
+      "doi": [
+        "10.1007/BF01249322",
+        "10.1097/00004850-198704000-00005"
+      ]
+    }
   },
   "entry_id": "SLP-TRYP-MEL",
   "lineage": {

@@ -6,7 +6,7 @@
   "deprecation_policy": "",
   "entry_id": "SLP-GLY-THERM",
   "evidence_tier": "P1",
-  "final_tier": "",
+  "final_tier": "Gold",
   "formulation_detail": "3g evening dosing with cooling protocol",
   "formulation_policy": "merge",
   "generated_version": "v1",
@@ -15,6 +15,6 @@
   "primary_indication": "sleep_latency",
   "priority": "medium",
   "source_hint": "PMID: 20110082",
-  "status": "pending",
+  "status": "curated",
   "substance": "glycine"
 }

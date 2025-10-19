@@ -14,7 +14,7 @@
     "evidence": "evidence.csv",
     "simulation": "simulation.json"
   },
-  "audit_hash": "572279dbecd25df06572efccbb813150a5a3d186106594eda58aa61ebcc945bf",
+  "audit_hash": "31e382a9d8a260327773cc93e415791553567e3a3117eb721a54e26823b89d08",
   "catalog_entry": {
     "algo_version_pinned": "",
     "assignee": "",
@@ -23,7 +23,7 @@
     "deprecation_policy": "",
     "entry_id": "SLP-TCH-TRP",
     "evidence_tier": "P1",
-    "final_tier": "",
+    "final_tier": "Gold",
     "formulation_detail": "proanthocyanidin-rich concentrate",
     "formulation_policy": "merge",
     "generated_version": "v1",
@@ -32,7 +32,7 @@
     "primary_indication": "sleep_duration",
     "priority": "medium",
     "source_hint": "doi:10.1080/07315724.2012.10720465",
-    "status": "pending",
+    "status": "curated",
     "substance": "tart_cherry"
   },
   "content_version": "v1",
@@ -41,12 +41,30 @@
     "dedup_hash": "",
     "excluded_studies": [],
     "freeze_policy": "",
-    "included_studies": [],
-    "label": "unfrozen",
-    "notes": "",
+    "included_studies": [
+      {
+        "design": "RCT",
+        "doi": "10.1089/jmf.2009.0071",
+        "effect_type": "SMD",
+        "study_id": "Pigeon2010"
+      },
+      {
+        "design": "RCT",
+        "doi": "10.1007/s00394-012-0431-2",
+        "effect_type": "SMD",
+        "study_id": "Howatson2012"
+      }
+    ],
+    "label": "curated",
+    "notes": "Actigraphy-confirmed improvements in sleep duration",
     "query": "",
     "source": "",
-    "sources": {}
+    "sources": {
+      "doi": [
+        "10.1089/jmf.2009.0071",
+        "10.1007/s00394-012-0431-2"
+      ]
+    }
   },
   "entry_id": "SLP-TCH-TRP",
   "lineage": {

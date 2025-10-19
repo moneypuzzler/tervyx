@@ -6,7 +6,7 @@
   "deprecation_policy": "",
   "entry_id": "SLP-THEA-MATCHA",
   "evidence_tier": "P1",
-  "final_tier": "",
+  "final_tier": "Gold",
   "formulation_detail": "decaf ceremonial vs capsule",
   "formulation_policy": "split",
   "generated_version": "v1",
@@ -15,6 +15,6 @@
   "primary_indication": "sleep_quality",
   "priority": "low",
   "source_hint": "PMID: 35061279",
-  "status": "pending",
+  "status": "curated",
   "substance": "matcha"
 }

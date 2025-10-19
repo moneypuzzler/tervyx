@@ -14,7 +14,7 @@
     "evidence": "evidence.csv",
     "simulation": "simulation.json"
   },
-  "audit_hash": "b935d0bea56962da941e70efd9244790f4373a59443774f3fb592fc1e24be14a",
+  "audit_hash": "52e6f24a99360d5100c5c840490d4e2bd2d75a55b020ad58fdd0643baf1b49e6",
   "catalog_entry": {
     "algo_version_pinned": "",
     "assignee": "",
@@ -23,7 +23,7 @@
     "deprecation_policy": "",
     "entry_id": "SLP-CBD-MICRO",
     "evidence_tier": "P1",
-    "final_tier": "",
+    "final_tier": "Red",
     "formulation_detail": "sub-10mg nightly titration",
     "formulation_policy": "merge",
     "generated_version": "v1",
@@ -42,11 +42,13 @@
     "excluded_studies": [],
     "freeze_policy": "",
     "included_studies": [],
-    "label": "unfrozen",
-    "notes": "",
+    "label": "insufficient",
+    "notes": "No controlled trials on <10 mg nightly titration",
     "query": "",
     "source": "",
-    "sources": {}
+    "sources": {
+      "doi": []
+    }
   },
   "entry_id": "SLP-CBD-MICRO",
   "lineage": {

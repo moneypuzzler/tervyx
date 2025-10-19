@@ -14,7 +14,7 @@
     "evidence": "evidence.csv",
     "simulation": "simulation.json"
   },
-  "audit_hash": "9fe628ea270dd26afc22998a7990d116d04560206e9f78ac96978bdaf4c2e3c9",
+  "audit_hash": "37fe26dcbe4079cdb0e630ef0f694a3c0b2378bdefd2f4db6604ff9dee06e597",
   "catalog_entry": {
     "algo_version_pinned": "",
     "assignee": "",
@@ -23,7 +23,7 @@
     "deprecation_policy": "",
     "entry_id": "SLP-PAS-REM",
     "evidence_tier": "P1",
-    "final_tier": "",
+    "final_tier": "Gold",
     "formulation_detail": "herbal tea vs extract",
     "formulation_policy": "merge",
     "generated_version": "v1",
@@ -32,7 +32,7 @@
     "primary_indication": "sleep_quality",
     "priority": "low",
     "source_hint": "PMID: 22305049",
-    "status": "pending",
+    "status": "curated",
     "substance": "passionflower"
   },
   "content_version": "v1",
@@ -41,12 +41,23 @@
     "dedup_hash": "",
     "excluded_studies": [],
     "freeze_policy": "",
-    "included_studies": [],
-    "label": "unfrozen",
-    "notes": "",
+    "included_studies": [
+      {
+        "design": "RCT",
+        "doi": "10.1002/ptr.3400",
+        "effect_type": "SMD",
+        "study_id": "Ngan2011"
+      }
+    ],
+    "label": "curated",
+    "notes": "Single crossover trial with week-long sleep diaries",
     "query": "",
     "source": "",
-    "sources": {}
+    "sources": {
+      "doi": [
+        "10.1002/ptr.3400"
+      ]
+    }
   },
   "entry_id": "SLP-PAS-REM",
   "lineage": {

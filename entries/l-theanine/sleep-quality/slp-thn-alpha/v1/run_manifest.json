@@ -14,7 +14,7 @@
     "evidence": "evidence.csv",
     "simulation": "simulation.json"
   },
-  "audit_hash": "97a569eed7b4cc12f6c5c7e29de9e2bad41644f69bb44b5bcf01048f38d0ef53",
+  "audit_hash": "45f44df66fef7e53954cf410558d304c5fea1718c55b574d3e6f710f13ec6347",
   "catalog_entry": {
     "algo_version_pinned": "",
     "assignee": "",
@@ -23,7 +23,7 @@
     "deprecation_policy": "",
     "entry_id": "SLP-THN-ALPHA",
     "evidence_tier": "P1",
-    "final_tier": "",
+    "final_tier": "Gold",
     "formulation_detail": "evening alpha-wave modulation",
     "formulation_policy": "merge",
     "generated_version": "v1",
@@ -32,7 +32,7 @@
     "primary_indication": "sleep_quality",
     "priority": "medium",
     "source_hint": "PMID: 32239622",
-    "status": "pending",
+    "status": "curated",
     "substance": "l_theanine"
   },
   "content_version": "v1",
@@ -41,12 +41,30 @@
     "dedup_hash": "",
     "excluded_studies": [],
     "freeze_policy": "",
-    "included_studies": [],
-    "label": "unfrozen",
-    "notes": "",
+    "included_studies": [
+      {
+        "design": "RCT",
+        "doi": "10.3390/nu11020236",
+        "effect_type": "SMD",
+        "study_id": "Hidese2019"
+      },
+      {
+        "design": "RCT",
+        "doi": "10.4162/nrp.2019.13.3.225",
+        "effect_type": "SMD",
+        "study_id": "Kim2019"
+      }
+    ],
+    "label": "curated",
+    "notes": "Alpha-wave modulation trials targeting insomnia and anxiety",
     "query": "",
     "source": "",
-    "sources": {}
+    "sources": {
+      "doi": [
+        "10.3390/nu11020236",
+        "10.4162/nrp.2019.13.3.225"
+      ]
+    }
   },
   "entry_id": "SLP-THN-ALPHA",
   "lineage": {
