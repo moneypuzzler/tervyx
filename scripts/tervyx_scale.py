@@ -559,6 +559,7 @@ def cmd_catalog(args):
 
             manifest_serialized = json.dumps(manifest, sort_keys=True)
             manifest_hash = hashlib.sha256(manifest_serialized.encode("utf-8")).hexdigest()
+            policy_fingerprint = f"0x{manifest_hash[:16]}"
             manifest["audit_hash"] = manifest_hash
 
             with (version_dir / "run_manifest.json").open("w", encoding="utf-8") as handle:
@@ -580,39 +581,108 @@ def cmd_catalog(args):
                 title_parts.append(indication_name.replace("_", " ").title())
             title = " — ".join(title_parts) or entry.entry_id
 
+            tel5_levels_ref = getattr(args, "tel5_levels_ref", None) or "TEL-5@v1.0.0"
+            monte_carlo_ref = getattr(args, "monte_carlo_ref", None) or (
+                args.algo_version or "MC@v1.0.0"
+            )
+            journal_trust_ref = getattr(args, "journal_trust_ref", None) or "JT-Registry@v1.0.0"
+
+            tier_value = (entry.data.get("final_tier") or "").strip()
+            valid_tiers = {"Gold", "Silver", "Bronze", "Red", "Black"}
+            if tier_value not in valid_tiers:
+                tier_value = "Bronze"
+
+            tier_to_label = {
+                "Gold": "PASS",
+                "Silver": "PASS",
+                "Bronze": "AMBER",
+                "Red": "AMBER",
+                "Black": "FAIL",
+            }
+            label_value = (entry.data.get("label") or "").strip()
+            if label_value not in {"PASS", "AMBER", "FAIL"}:
+                label_value = tier_to_label.get(tier_value, "AMBER")
+
+            entry_identifier = f"{entry.category}:{substance_slug}:{outcome_slug}:{version}"
+
             entry_stub = {
                 "@context": "https://schema.org/",
                 "@type": "Dataset",
-                "identifier": entry.entry_id,
-                "name": title,
+                "id": entry_identifier,
+                "title": title,
                 "category": entry.category,
-                "primary_indication": entry.data.get("primary_indication"),
-                "formulation_policy": entry.data.get("formulation_policy"),
-                "status": catalog_payload.get("status") or entry.status or "pending",
-                "priority": entry.priority or "",
-                "notes": entry.data.get("notes", ""),
-                "contentVersion": version,
-                "runManifest": "run_manifest.json",
-                "catalogSnapshot": "catalog_entry.json",
-                "evidenceFile": "evidence.csv",
-                "simulationFile": "simulation.json",
-                "citationsFile": "citations.json",
-                "auditHash": manifest_hash,
+                "tier": tier_value,
+                "label": label_value,
+                "P_effect_gt_delta": 0.0,
+                "gate_results": {
+                    "phi": entry.data.get("gate_phi", "PASS"),
+                    "r": entry.data.get("gate_r", "LOW"),
+                    "j": float(entry.data.get("gate_j", 0.0) or 0.0),
+                    "k": entry.data.get("gate_k", "PASS"),
+                    "l": entry.data.get("gate_l", "PASS"),
+                },
+                "evidence_summary": {
+                    "n_studies": int(entry.data.get("n_studies") or 0),
+                    "total_n": int(entry.data.get("total_n") or 0),
+                    "I2": None,
+                    "tau2": None,
+                    "mu_hat": 0.0,
+                    "mu_CI95": [0.0, 0.0],
+                },
+                "policy_refs": {
+                    "tel5_levels": tel5_levels_ref,
+                    "monte_carlo": monte_carlo_ref,
+                    "journal_trust": journal_trust_ref,
+                },
+                "version": version,
+                "audit_hash": manifest_hash,
+                "policy_fingerprint": policy_fingerprint,
+                "tier_label_system": "TEL-5",
                 "created": timestamp,
-                "tier": entry.data.get("final_tier") or None,
-                "label": catalog_payload.get("final_tier") or None,
-                "P_effect_gt_delta": None,
             }
 
             with (version_dir / "entry.jsonld").open("w", encoding="utf-8") as handle:
                 json.dump(entry_stub, handle, indent=2, sort_keys=True)
 
+            simulation_seed = getattr(args, "simulation_seed", None) or int(
+                manifest_hash[:8], 16
+            )
+            simulation_draws = getattr(args, "simulation_draws", None) or 10000
+            simulation_delta = getattr(args, "simulation_delta", None) or 0.2
+            tau2_method = getattr(args, "tau2_method", None) or "REML"
+            tau2_method = str(tau2_method).upper()
+            if tau2_method not in {"REML", "DL", "ML", "HKSJ"}:
+                tau2_method = "REML"
+            simulation_environment = (
+                getattr(args, "simulation_environment", None)
+                or "TERVYX scaffold — populate with REML/MC outputs"
+            )
+            benefit_direction = getattr(args, "benefit_direction", None) or 1
+
             simulation_template = {
-                "status": "pending",
-                "model": args.simulation_model or "reml-meta-analysis",
-                "parameters": algo_params,
-                "generated_at": timestamp,
-                "notes": "Populate with REML/Monte Carlo outputs once analysis completes.",
+                "seed": int(simulation_seed),
+                "n_draws": int(simulation_draws),
+                "tau2_method": tau2_method,
+                "delta": float(simulation_delta),
+                "P_effect_gt_delta": 0.0,
+                "mu_hat": 0.0,
+                "mu_CI95": [0.0, 0.0],
+                "var_mu": 0.0,
+                "mu_se": 0.0,
+                "I2": None,
+                "tau2": None,
+                "tau": None,
+                "Q": None,
+                "prediction_interval_95": [0.0, 0.0],
+                "n_studies": int(entry.data.get("n_studies") or 0),
+                "total_n": int(entry.data.get("total_n") or 0),
+                "benefit_direction": int(benefit_direction),
+                "benefit_note": "Placeholder — update after simulation run",
+                "environment": simulation_environment,
+                "policy_fingerprint": policy_fingerprint,
+                "gate_terminated": False,
+                "termination_gate": "none",
+                "warnings": ["Simulation pending — populate with REML/MC outputs"],
             }
 
             with (version_dir / "simulation.json").open("w", encoding="utf-8") as handle:
@@ -933,6 +1003,15 @@ def main():
     catalog_parser.add_argument('--change-log', help='Detailed change log recorded in manifest lineage')
     catalog_parser.add_argument('--breaking-change', action='store_true', help='Mark lineage as a breaking change')
     catalog_parser.add_argument('--simulation-model', help='Simulation model identifier stored in scaffolds')
+    catalog_parser.add_argument('--simulation-seed', type=int, help='Seed recorded in simulation scaffold metadata')
+    catalog_parser.add_argument('--simulation-draws', type=int, help='Draw count recorded in simulation scaffold metadata')
+    catalog_parser.add_argument('--simulation-delta', type=float, help='Delta threshold stored in simulation scaffold metadata')
+    catalog_parser.add_argument('--tau2-method', help='Tau-squared estimation method stored in simulation scaffolds')
+    catalog_parser.add_argument('--benefit-direction', type=int, choices=[-1, 1], help='Benefit direction multiplier stored in simulation scaffolds')
+    catalog_parser.add_argument('--simulation-environment', help='Computation environment note stored in simulation scaffolds')
+    catalog_parser.add_argument('--tel5-levels-ref', help='TEL-5 policy reference stored in entry scaffolds')
+    catalog_parser.add_argument('--monte-carlo-ref', help='Monte Carlo policy reference stored in entry scaffolds')
+    catalog_parser.add_argument('--journal-trust-ref', help='Journal trust policy reference stored in entry scaffolds')
     catalog_parser.add_argument('--set-status', help='Update catalog status after generation')
     catalog_parser.add_argument('--status-note', help='Append note when updating status')
     catalog_parser.set_defaults(func=cmd_catalog)

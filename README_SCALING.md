@@ -106,6 +106,12 @@ python scripts/tervyx_scale.py catalog generate \
   --data-sources '{"pubmed":{"count":412,"since":"1990-01-01"}}' \
   --included-studies '["PMID:37611507"]' \
   --dedup-hash "sha256:abcd..." \
+  --tau2-method REML \
+  --simulation-delta 0.2 \
+  --simulation-draws 10000 \
+  --tel5-levels-ref "TEL-5@v1.0.0" \
+  --monte-carlo-ref "MC@v1.0.0" \
+  --journal-trust-ref "JT-Registry@v1.0.0" \
   --bump minor \
   --runner "scripts/tervyx_batch@0.4.0" \
   --cost-usd 12.74 \
@@ -122,11 +128,26 @@ stable directory hierarchy under `entries/<substance>/<primary_indication>/<entr
   and cost observations).
 - `audit_hash.txt` — SHA256 digest of the manifest for tamper-evident auditing.
 - `catalog_entry.json` — verbatim snapshot of the originating catalog row.
-- `entry.jsonld` — a schema.org-aligned placeholder wired to manifest, evidence, simulation,
-  and citation artifacts.
-- `simulation.json` — REML/Monte Carlo scaffold capturing model identifiers and parameters.
+- `entry.jsonld` — TEL-5 entry skeleton constrained by `protocol/schemas/entry.schema.json` and
+  seeded with policy references, audit fingerprint, and gate placeholders.
+- `simulation.json` — TEL-5 simulation scaffold that satisfies `protocol/schemas/simulation.schema.json`
+  with Monte Carlo placeholders (delta, draw count, τ² method, fingerprint).
 - `citations.json` — DOI bundle and placeholder lists for primary and secondary sources.
 - `evidence.csv` — TEL-5 evidence template headers for study abstraction.
+
+Override the defaults for policy references and simulation metadata with:
+
+```bash
+  --tel5-levels-ref TEL-5@v1.2.0 \
+  --monte-carlo-ref REML-2025.10 \
+  --journal-trust-ref Registry@2025-10 \
+  --simulation-seed 20251019 \
+  --simulation-draws 25000 \
+  --simulation-delta 0.15 \
+  --tau2-method HKSJ \
+  --benefit-direction -1 \
+  --simulation-environment "Python 3.11 • NumPy 1.26 • SciPy 1.11"
+```
 
 Each run updates a `latest` pointer (symlink on supported systems, fallback text file otherwise)
 so that downstream tooling can address the newest content version while historic snapshots remain
