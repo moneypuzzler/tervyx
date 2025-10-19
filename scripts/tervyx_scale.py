@@ -411,7 +411,7 @@ def cmd_catalog(args):
         if priority:
             filtered_entries = [
                 entry for entry in filtered_entries
-                if entry.priority.lower() == priority.lower()
+                if _matches_priority_filter(entry, priority)
             ]
 
         if category:
@@ -837,7 +837,10 @@ def main():
     catalog_parser = subparsers.add_parser('catalog', help='Manage entry catalog')
     catalog_parser.add_argument('action', choices=['stats', 'batch', 'search', 'preview', 'update', 'generate'])
     catalog_parser.add_argument('--batch-size', type=int, help='Batch size')
-    catalog_parser.add_argument('--priority', choices=['high', 'medium', 'low'])
+    catalog_parser.add_argument(
+        '--priority',
+        help='Filter by operational priority (high/medium/low) or evidence tier (P0-P4)'
+    )
     catalog_parser.add_argument('--category', help='Filter by category')
     catalog_parser.add_argument('--export', action='store_true', help='Export batch')
     catalog_parser.add_argument('--query', help='Search query')
