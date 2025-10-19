@@ -1,5 +1,7 @@
 entry_id,category,substance,formulation_policy,formulation_detail,primary_indication,priority,evidence_tier,source_hint,status,assignee,final_tier,notes,last_updated,algo_version_pinned,data_freeze_policy,deprecation_policy
+
 SLP-MAG-CORE,sleep,magnesium,merge,glycinate baseline with sleep maintenance co-factors,sleep_quality,high,P0,PMID: 37611507,in_progress,auto,,"Anchor magnesium glycinate stack for adult insomnia cohorts
+
 Versioned scaffold generated via scaling CLI",2025-10-19T06:32:39Z,,,
 SLP-MEL-ACUTE,sleep,melatonin,split,acute dosing vs sustained release decision gate,sleep_onset,high,P0,doi:10.7326/M20-0741,pending,,,Focus on short latency onset protocols; capture pediatric safety notes,2024-05-01T00:00:00Z,,,
 SLP-VAL-REST,sleep,valerian,merge,standardized valerenic acid extracts,sleep_latency,medium,P1,PMID: 31124745,pending,,,Compare extract ratios 0.8% vs 1.0% valerenic acid,2024-05-01T00:00:00Z,,,
