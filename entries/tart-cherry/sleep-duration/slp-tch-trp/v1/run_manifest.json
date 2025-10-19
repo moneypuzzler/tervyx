@@ -1,0 +1,70 @@
+{
+  "algo": {
+    "modules": {},
+    "name": "TERVYX-Core",
+    "parameters": {},
+    "policy_commit": "",
+    "version": "0.0.0"
+  },
+  "artifacts": {
+    "audit_log": "audit_hash.txt",
+    "catalog_snapshot": "catalog_entry.json",
+    "citations": "citations.json",
+    "entry_schema": "entry.jsonld",
+    "evidence": "evidence.csv",
+    "simulation": "simulation.json"
+  },
+  "audit_hash": "572279dbecd25df06572efccbb813150a5a3d186106594eda58aa61ebcc945bf",
+  "catalog_entry": {
+    "algo_version_pinned": "",
+    "assignee": "",
+    "category": "sleep",
+    "data_freeze_policy": "",
+    "deprecation_policy": "",
+    "entry_id": "SLP-TCH-TRP",
+    "evidence_tier": "P1",
+    "final_tier": "",
+    "formulation_detail": "proanthocyanidin-rich concentrate",
+    "formulation_policy": "merge",
+    "generated_version": "v1",
+    "last_updated": "2024-05-01T00:00:00Z",
+    "notes": "Differentiate juice vs extract capsules",
+    "primary_indication": "sleep_duration",
+    "priority": "medium",
+    "source_hint": "doi:10.1080/07315724.2012.10720465",
+    "status": "pending",
+    "substance": "tart_cherry"
+  },
+  "content_version": "v1",
+  "created_at": "2025-10-19T12:51:58Z",
+  "data_snapshot": {
+    "dedup_hash": "",
+    "excluded_studies": [],
+    "freeze_policy": "",
+    "included_studies": [],
+    "label": "unfrozen",
+    "notes": "",
+    "query": "",
+    "source": "",
+    "sources": {}
+  },
+  "entry_id": "SLP-TCH-TRP",
+  "lineage": {
+    "breaking_change": false,
+    "bump_type": "initial",
+    "change_log": "",
+    "change_note": "",
+    "previous_content_version": null
+  },
+  "provenance": {
+    "completed_at": "2025-10-19T12:51:58Z",
+    "cost_usd": null,
+    "dry_run": false,
+    "elapsed_seconds": null,
+    "executor": "unknown",
+    "generator": "scripts/tervyx_scale.py@catalog-generate",
+    "run_id": "RUN-20251019-125157-DDBB35",
+    "runner": "scripts/tervyx_scale.py@catalog-generate",
+    "started_at": "2025-10-19T12:51:57Z"
+  }
+}

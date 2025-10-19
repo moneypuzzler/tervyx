@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "P_effect_gt_delta": 0.0,
+  "audit_hash": "0x3f97a0a7efb9f074",
+  "category": "sleep",
+  "created": "2025-10-19T12:51:58Z",
+  "evidence_summary": {
+    "I2": null,
+    "mu_CI95": [
+      0.0,
+      0.0
+    ],
+    "mu_hat": 0.0,
+    "n_studies": 0,
+    "tau2": null,
+    "total_n": 0
+  },
+  "gate_results": {
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS",
+    "phi": "PASS",
+    "r": "LOW"
+  },
+  "id": "sleep:tryptophan:sleep-onset:v1",
+  "label": "AMBER",
+  "policy_fingerprint": "0x3f97a0a7efb9f074",
+  "policy_refs": {
+    "journal_trust": "2025-10-05",
+    "monte_carlo": "MC@v1.0.0",
+    "tel5_levels": "TEL-5@v1.0.0"
+  },
+  "tier": "Bronze",
+  "tier_label_system": "TEL-5",
+  "title": "Tryptophan \u2014 Sleep \u2014 Sleep Onset",
+  "version": "v1"
+}

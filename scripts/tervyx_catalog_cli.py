@@ -369,7 +369,7 @@ def cmd_catalog(args):
             print(f"❌ Versioning utilities unavailable{detail}.")
             return 1
 
-        output_root = Path(args.output_dir or project_root / "entries")
+        output_root = Path(args.output_dir or PROJECT_ROOT / "entries")
         if args.dry_run:
             print(f"🧪 Dry run — entries will be previewed but not written (target {output_root})")
         else:
@@ -497,7 +497,7 @@ def cmd_catalog(args):
             version = resolution.version
             previous = resolution.previous
             try:
-                relative_target = entry_root.relative_to(project_root)
+                relative_target = entry_root.relative_to(PROJECT_ROOT)
             except ValueError:
                 relative_target = entry_root
 

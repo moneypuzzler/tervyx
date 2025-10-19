@@ -1,0 +1,70 @@
+{
+  "algo": {
+    "modules": {},
+    "name": "TERVYX-Core",
+    "parameters": {},
+    "policy_commit": "",
+    "version": "0.0.0"
+  },
+  "artifacts": {
+    "audit_log": "audit_hash.txt",
+    "catalog_snapshot": "catalog_entry.json",
+    "citations": "citations.json",
+    "entry_schema": "entry.jsonld",
+    "evidence": "evidence.csv",
+    "simulation": "simulation.json"
+  },
+  "audit_hash": "82ff353f64d90926d967d3d12f77dbde585ecf7c56adaf25501563d5373945ff",
+  "catalog_entry": {
+    "algo_version_pinned": "",
+    "assignee": "",
+    "category": "sleep",
+    "data_freeze_policy": "",
+    "deprecation_policy": "",
+    "entry_id": "SLP-ASH-HPA",
+    "evidence_tier": "P1",
+    "final_tier": "",
+    "formulation_detail": "KSM-66 vs Sensoril adaptogen comparison",
+    "formulation_policy": "merge",
+    "generated_version": "v1",
+    "last_updated": "2024-05-01T00:00:00Z",
+    "notes": "Capture cortisol reduction outcomes alongside sleep scores",
+    "primary_indication": "stress_insomnia",
+    "priority": "medium",
+    "source_hint": "PMID: 31317699",
+    "status": "pending",
+    "substance": "ashwagandha"
+  },
+  "content_version": "v1",
+  "created_at": "2025-10-19T12:51:57Z",
+  "data_snapshot": {
+    "dedup_hash": "",
+    "excluded_studies": [],
+    "freeze_policy": "",
+    "included_studies": [],
+    "label": "unfrozen",
+    "notes": "",
+    "query": "",
+    "source": "",
+    "sources": {}
+  },
+  "entry_id": "SLP-ASH-HPA",
+  "lineage": {
+    "breaking_change": false,
+    "bump_type": "initial",
+    "change_log": "",
+    "change_note": "",
+    "previous_content_version": null
+  },
+  "provenance": {
+    "completed_at": "2025-10-19T12:51:57Z",
+    "cost_usd": null,
+    "dry_run": false,
+    "elapsed_seconds": null,
+    "executor": "unknown",
+    "generator": "scripts/tervyx_scale.py@catalog-generate",
+    "run_id": "RUN-20251019-125157-DDBB35",
+    "runner": "scripts/tervyx_scale.py@catalog-generate",
+    "started_at": "2025-10-19T12:51:57Z"
+  }
+}

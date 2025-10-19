@@ -1,0 +1,10 @@
+{
+  "doi_bundle": {
+    "dataset": "",
+    "paper": "",
+    "patent": ""
+  },
+  "notes": "Populate with structured citation metadata (paper, dataset, patent).",
+  "primary_sources": [],
+  "secondary_sources": []
+}
