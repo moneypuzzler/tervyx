@@ -1,0 +1,88 @@
+{
+  "algo": {
+    "modules": {},
+    "name": "TERVYX-Core",
+    "parameters": {},
+    "policy_commit": "",
+    "version": "0.0.0"
+  },
+  "artifacts": {
+    "audit_log": "audit_hash.txt",
+    "catalog_snapshot": "catalog_entry.json",
+    "citations": "citations.json",
+    "entry_schema": "entry.jsonld",
+    "evidence": "evidence.csv",
+    "simulation": "simulation.json"
+  },
+  "audit_hash": "e03ff3d025f57a43000fc4a12337e4ca9f371035ea0548951b6919ca2c4a664b",
+  "catalog_entry": {
+    "algo_version_pinned": "",
+    "assignee": "",
+    "category": "sleep",
+    "data_freeze_policy": "",
+    "deprecation_policy": "",
+    "entry_id": "SLP-GABA-ORAL",
+    "evidence_tier": "P1",
+    "final_tier": "Gold",
+    "formulation_detail": "oral pharma-GABA vs synthetic",
+    "formulation_policy": "merge",
+    "generated_version": "v1",
+    "last_updated": "2024-05-01T00:00:00Z",
+    "notes": "Include heart-rate variability outcomes",
+    "primary_indication": "sleep_latency",
+    "priority": "low",
+    "source_hint": "PMID: 20926445",
+    "status": "curated",
+    "substance": "gaba"
+  },
+  "content_version": "v1",
+  "created_at": "2025-10-19T12:51:58Z",
+  "data_snapshot": {
+    "dedup_hash": "",
+    "excluded_studies": [],
+    "freeze_policy": "",
+    "included_studies": [
+      {
+        "design": "RCT",
+        "doi": "10.1007/s10068-016-0076-9",
+        "effect_type": "SMD",
+        "study_id": "Yamatsu2016"
+      },
+      {
+        "design": "RCT",
+        "doi": "10.1002/biof.5520260305",
+        "effect_type": "SMD",
+        "study_id": "Abdou2006"
+      }
+    ],
+    "label": "curated",
+    "notes": "Pharma-GABA trials with PSG-confirmed latency changes",
+    "query": "",
+    "source": "",
+    "sources": {
+      "doi": [
+        "10.1007/s10068-016-0076-9",
+        "10.1002/biof.5520260305"
+      ]
+    }
+  },
+  "entry_id": "SLP-GABA-ORAL",
+  "lineage": {
+    "breaking_change": false,
+    "bump_type": "initial",
+    "change_log": "",
+    "change_note": "",
+    "previous_content_version": null
+  },
+  "provenance": {
+    "completed_at": "2025-10-19T12:51:58Z",
+    "cost_usd": null,
+    "dry_run": false,
+    "elapsed_seconds": null,
+    "executor": "unknown",
+    "generator": "scripts/tervyx_scale.py@catalog-generate",
+    "run_id": "RUN-20251019-125157-DDBB35",
+    "runner": "scripts/tervyx_scale.py@catalog-generate",
+    "started_at": "2025-10-19T12:51:57Z"
+  }
+}

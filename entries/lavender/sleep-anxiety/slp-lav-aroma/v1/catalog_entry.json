@@ -1,0 +1,20 @@
+{
+  "algo_version_pinned": "",
+  "assignee": "",
+  "category": "sleep",
+  "data_freeze_policy": "",
+  "deprecation_policy": "",
+  "entry_id": "SLP-LAV-AROMA",
+  "evidence_tier": "P1",
+  "final_tier": "Gold",
+  "formulation_detail": "oral Silexan vs aromatherapy arms",
+  "formulation_policy": "split",
+  "generated_version": "v1",
+  "last_updated": "2024-05-01T00:00:00Z",
+  "notes": "Keep smell-based protocols separate from oral dosing",
+  "primary_indication": "sleep_anxiety",
+  "priority": "medium",
+  "source_hint": "PMID: 28153670",
+  "status": "curated",
+  "substance": "lavender"
+}

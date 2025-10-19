@@ -1,0 +1,20 @@
+{
+  "algo_version_pinned": "",
+  "assignee": "",
+  "category": "sleep",
+  "data_freeze_policy": "",
+  "deprecation_policy": "",
+  "entry_id": "SLP-TCH-TRP",
+  "evidence_tier": "P1",
+  "final_tier": "Gold",
+  "formulation_detail": "proanthocyanidin-rich concentrate",
+  "formulation_policy": "merge",
+  "generated_version": "v1",
+  "last_updated": "2024-05-01T00:00:00Z",
+  "notes": "Differentiate juice vs extract capsules",
+  "primary_indication": "sleep_duration",
+  "priority": "medium",
+  "source_hint": "doi:10.1080/07315724.2012.10720465",
+  "status": "curated",
+  "substance": "tart_cherry"
+}

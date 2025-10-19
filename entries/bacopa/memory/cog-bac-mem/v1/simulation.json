@@ -1,0 +1,40 @@
+{
+  "I2": 0.0,
+  "P_effect_gt_delta": 0.995,
+  "Q": 0.5182,
+  "benefit_direction": 1,
+  "benefit_note": "Memory composite scores across standardized bacoside A extracts",
+  "computation_time_ms": 45.0,
+  "delta": 0.15,
+  "environment": "Python 3.11, NumPy 2.3.4, SciPy 1.11.0",
+  "gate_terminated": false,
+  "mu_CI95": [
+    0.221,
+    0.6746
+  ],
+  "mu_hat": 0.4478,
+  "mu_se": 0.115738,
+  "n_draws": 10000,
+  "n_studies": 3,
+  "policy_fingerprint": "0x4485241d902becb4",
+  "prediction_interval_95": [
+    0.221,
+    0.6746
+  ],
+  "reml_convergence": {
+    "converged": true,
+    "final_nll": -0.259118,
+    "iterations": 1
+  },
+  "seed": 20251005,
+  "tau": 0.0,
+  "tau2": 0.0,
+  "tau2_method": "REML",
+  "tel5_input": {
+    "P_value": 0.995,
+    "k_violation": false,
+    "phi_violation": false
+  },
+  "total_n": 203,
+  "var_mu": 0.013395
+}

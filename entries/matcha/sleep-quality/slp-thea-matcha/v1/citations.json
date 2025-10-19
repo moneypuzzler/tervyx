@@ -1,0 +1,13 @@
+{
+  "preferred_citation": "TERVYX Protocol Team. Matcha \u2014 Sleep \u2014 Sleep Quality (v1).",
+  "studies": [
+    {
+      "citation": "Unno, K. et al. (2017). Reduced-caffeine green tea improved sleep quality in middle-aged and elderly individuals. Nutrients, 9(5), 551. https://doi.org/10.3390/nu9050551",
+      "study_id": "Unno2017"
+    },
+    {
+      "citation": "Unno, K. et al. (2018). Matcha green tea decreases stress and improves sleep quality. Nutrients, 10(6), 799. https://doi.org/10.3390/nu10060799",
+      "study_id": "Unno2018"
+    }
+  ]
+}

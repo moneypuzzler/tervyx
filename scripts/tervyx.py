@@ -25,26 +25,33 @@ from __future__ import annotations
 import argparse
 import asyncio
 import csv
-import hashlib
 import json
 import os
 import pathlib
 import sys
 from datetime import datetime
-from typing import Any, Dict, Iterable, List, NamedTuple, Optional
+from typing import Any, Dict, Iterable, List, Optional
 
-import yaml
 
-# ---------------------------------------------------------------------------
-# Path bootstrap
-# ---------------------------------------------------------------------------
-ROOT = pathlib.Path(__file__).resolve().parents[1]
-ENGINE_PATH = ROOT / "engine"
-SYSTEM_PATH = ROOT / "system"
+PROJECT_ROOT = pathlib.Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
-for extra_path in (ENGINE_PATH, SYSTEM_PATH):
-    if str(extra_path) not in sys.path:
-        sys.path.insert(0, str(extra_path))
+from tervyx.core import ensure_paths_on_sys_path, settings
+from tervyx.policy import (
+    Fingerprint,
+    PolicyError,
+    canonical_json,
+    compact_hex,
+    compute_policy_fingerprint,
+    load_journal_snapshot,
+    read_policy,
+    sha256_digest,
+)
+
+ensure_paths_on_sys_path()
+
+ROOT = settings.root
 
 # Engine imports (kept local to ensure path bootstrap above runs first)
 from mc_meta import run_reml_mc_analysis, validate_evidence_data  # type: ignore  # noqa: E402
@@ -66,8 +73,7 @@ except Exception:  # pragma: no cover - helper is only required for ingest
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
-POLICY_PATH = ROOT / "policy.yaml"
-AUDIT_LOG_PATH = ROOT / "AUDIT_LOG.jsonl"
+AUDIT_LOG_PATH = settings.audit_log_path
 DEFAULT_ENTRY_TEMPLATE_HEADER = (
     "study_id,year,design,effect_type,effect_point,ci_low,ci_high,"  # noqa: B950
     "n_treat,n_ctrl,risk_of_bias,doi,journal_id"
@@ -90,74 +96,26 @@ PRISMA_HEADERS = [
 # Helpers
 # ---------------------------------------------------------------------------
 
-def load_yaml(path: pathlib.Path) -> Dict[str, Any]:
-    return yaml.safe_load(path.read_text(encoding="utf-8"))
+
+def load_policy_or_exit() -> Dict[str, Any]:
+    try:
+        return read_policy()
+    except PolicyError as exc:
+        raise SystemExit(f"❌ {exc}") from exc
 
 
-class Fingerprint(NamedTuple):
-    compact: str
-    full: str
+def load_policy_fingerprint() -> Fingerprint:
+    try:
+        return compute_policy_fingerprint()
+    except PolicyError as exc:
+        raise SystemExit(f"❌ {exc}") from exc
 
 
-def sha256_digest(data: bytes) -> str:
-    return hashlib.sha256(data).hexdigest()
-
-
-def compact_hex(full_digest: str, length: int = 16) -> str:
-    return f"0x{full_digest[:length]}"
-
-
-def canonical_json(data: Any) -> bytes:
-    return json.dumps(data, sort_keys=True, separators=(",", ":")).encode("utf-8")
-
-
-def read_policy() -> Dict[str, Any]:
-    if not POLICY_PATH.exists():
-        raise FileNotFoundError(f"policy.yaml not found at {POLICY_PATH}")
-    return load_yaml(POLICY_PATH)
-
-
-def compute_policy_fingerprint() -> Fingerprint:
-    policy = read_policy()
-
-    gates_cfg = policy.get("gates", {})
-    j_cfg = gates_cfg.get("j", {})
-    snapshot_rel = j_cfg.get("use_snapshot")
-
-    snapshot_data: Dict[str, Any] = {}
-    if snapshot_rel:
-        snapshot_path = ROOT / snapshot_rel
-        if snapshot_path.exists():
-            snapshot_data = json.loads(snapshot_path.read_text(encoding="utf-8"))
-        else:
-            raise FileNotFoundError(
-                f"Journal snapshot referenced in policy not found: {snapshot_path}"
-            )
-
-    minimal_policy = {
-        "version": policy.get("version"),
-        "protocol": policy.get("protocol"),
-        "tel5_tiers": policy.get("tel5_tiers"),
-        "categories": policy.get("categories"),
-        "gates": {
-            "sequence": gates_cfg.get("sequence"),
-            "phi": gates_cfg.get("phi"),
-            "r": {"threshold": gates_cfg.get("r", {}).get("threshold")},
-            "j": {
-                "threshold": j_cfg.get("threshold"),
-                "use_snapshot": snapshot_rel,
-                "weights": j_cfg.get("weights"),
-            },
-            "k": gates_cfg.get("k"),
-            "l": gates_cfg.get("l", {}).get("patterns"),
-        },
-        "monte_carlo": policy.get("monte_carlo"),
-    }
-
-    policy_hash = sha256_digest(canonical_json(minimal_policy))
-    snapshot_hash = sha256_digest(canonical_json(snapshot_data.get("journals", {})))
-    combined = sha256_digest(f"{policy_hash}{snapshot_hash}".encode("utf-8"))
-    return Fingerprint(compact=compact_hex(combined), full=combined)
+def load_snapshot_or_exit(relative_path: Optional[str]) -> Dict[str, Any]:
+    try:
+        return load_journal_snapshot(relative_path)
+    except PolicyError as exc:
+        raise SystemExit(f"❌ {exc}") from exc
 
 
 def ensure_directory(path: pathlib.Path) -> None:
@@ -265,8 +223,8 @@ def cmd_new(args: argparse.Namespace) -> None:
 
 
 def cmd_build(args: argparse.Namespace) -> None:
-    policy = read_policy()
-    policy_fingerprint = compute_policy_fingerprint()
+    policy = load_policy_or_exit()
+    policy_fingerprint = load_policy_fingerprint()
 
     entry_dir = parse_entry_path(args.path)
     metadata = resolve_entry_metadata(entry_dir)
@@ -278,8 +236,8 @@ def cmd_build(args: argparse.Namespace) -> None:
 
     evidence = load_evidence_csv(entry_dir / "evidence.csv")
 
-    snapshot_path = ROOT / policy["gates"]["j"]["use_snapshot"]
-    journal_snapshot = json.loads(snapshot_path.read_text(encoding="utf-8"))
+    snapshot_rel = policy.get("gates", {}).get("j", {}).get("use_snapshot")
+    journal_snapshot = load_snapshot_or_exit(snapshot_rel)
 
     substance_hint = metadata["slug"].replace("-", " ")
     gate_results = evaluate_all_gates(
@@ -427,14 +385,14 @@ def cmd_validate(args: argparse.Namespace) -> None:
 
 
 def cmd_fingerprint(_: argparse.Namespace) -> None:
-    fingerprint = compute_policy_fingerprint()
+    fingerprint = load_policy_fingerprint()
     print(fingerprint.compact)
     print(fingerprint.full)
 
 
 def cmd_status(_: argparse.Namespace) -> None:
-    policy = read_policy()
-    fingerprint = compute_policy_fingerprint()
+    policy = load_policy_or_exit()
+    fingerprint = load_policy_fingerprint()
 
     entries_dir = ROOT / "entries"
     entry_files = list(entries_dir.glob("*/*/*/v*/entry.jsonld")) if entries_dir.exists() else []

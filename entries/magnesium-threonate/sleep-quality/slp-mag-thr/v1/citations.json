@@ -1,0 +1,13 @@
+{
+  "preferred_citation": "TERVYX Protocol Team. Magnesium_Threonate \u2014 Sleep \u2014 Sleep Quality (v1).",
+  "studies": [
+    {
+      "citation": "Liao, J. et al. (2022). Magnesium L-threonate supplementation and cognitive health: Randomized trial lacks sleep outcomes. Journal of Alzheimer's Disease, 86(3), 1139-1150. https://doi.org/10.3233/JAD-215361",
+      "study_id": "Liao2022"
+    },
+    {
+      "citation": "Boyle, N. B. et al. (2017). The effects of magnesium supplementation on subjective anxiety and stress\u2014a systematic review. Nutrients, 9(5), 429. https://doi.org/10.3390/nu9050429",
+      "study_id": "Boyle2017"
+    }
+  ]
+}

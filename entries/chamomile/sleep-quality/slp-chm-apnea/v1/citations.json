@@ -1,0 +1,13 @@
+{
+  "preferred_citation": "TERVYX Protocol Team. Chamomile \u2014 Sleep \u2014 Sleep Quality (v1).",
+  "studies": [
+    {
+      "citation": "Chen, K.-M. et al. (2015). Sleep quality improvements in elderly with chamomile tea. Journal of Advanced Nursing, 71(1), 234-244. https://doi.org/10.1111/jan.12568",
+      "study_id": "Chen2015"
+    },
+    {
+      "citation": "Zick, S. M. et al. (2011). Preliminary study of chamomile for sleep quality in postpartum women. BMC Complementary and Alternative Medicine, 11, 78. https://doi.org/10.1186/1472-6882-11-78",
+      "study_id": "Zick2011"
+    }
+  ]
+}

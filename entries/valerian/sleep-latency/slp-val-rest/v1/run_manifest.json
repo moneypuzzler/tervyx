@@ -1,0 +1,81 @@
+{
+  "algo": {
+    "modules": {},
+    "name": "TERVYX-Core",
+    "parameters": {},
+    "policy_commit": "",
+    "version": "0.0.0"
+  },
+  "artifacts": {
+    "audit_log": "audit_hash.txt",
+    "catalog_snapshot": "catalog_entry.json",
+    "citations": "citations.json",
+    "entry_schema": "entry.jsonld",
+    "evidence": "evidence.csv",
+    "simulation": "simulation.json"
+  },
+  "audit_hash": "c3e828594c098db43f7d75249fef77fa894471d82bf3b1909572b20add59c651",
+  "catalog_entry": {
+    "algo_version_pinned": "",
+    "assignee": "",
+    "category": "sleep",
+    "data_freeze_policy": "",
+    "deprecation_policy": "",
+    "entry_id": "SLP-VAL-REST",
+    "evidence_tier": "P1",
+    "final_tier": "Red",
+    "formulation_detail": "standardized valerenic acid extracts",
+    "formulation_policy": "merge",
+    "generated_version": "v1",
+    "last_updated": "2024-05-01T00:00:00Z",
+    "notes": "Compare extract ratios 0.8% vs 1.0% valerenic acid",
+    "primary_indication": "sleep_latency",
+    "priority": "medium",
+    "source_hint": "PMID: 31124745",
+    "status": "curated",
+    "substance": "valerian"
+  },
+  "content_version": "v1",
+  "created_at": "2025-10-19T12:51:57Z",
+  "data_snapshot": {
+    "dedup_hash": "",
+    "excluded_studies": [],
+    "freeze_policy": "",
+    "included_studies": [
+      {
+        "design": "Meta-analysis",
+        "doi": "10.1016/j.amjmed.2006.02.026",
+        "effect_type": "SMD",
+        "study_id": "Bent2006"
+      }
+    ],
+    "label": "curated",
+    "notes": "16 randomized trials of standardized Valeriana officinalis extracts",
+    "query": "",
+    "source": "",
+    "sources": {
+      "doi": [
+        "10.1016/j.amjmed.2006.02.026"
+      ]
+    }
+  },
+  "entry_id": "SLP-VAL-REST",
+  "lineage": {
+    "breaking_change": false,
+    "bump_type": "initial",
+    "change_log": "",
+    "change_note": "",
+    "previous_content_version": null
+  },
+  "provenance": {
+    "completed_at": "2025-10-19T12:51:57Z",
+    "cost_usd": null,
+    "dry_run": false,
+    "elapsed_seconds": null,
+    "executor": "unknown",
+    "generator": "scripts/tervyx_scale.py@catalog-generate",
+    "run_id": "RUN-20251019-125157-DDBB35",
+    "runner": "scripts/tervyx_scale.py@catalog-generate",
+    "started_at": "2025-10-19T12:51:57Z"
+  }
+}

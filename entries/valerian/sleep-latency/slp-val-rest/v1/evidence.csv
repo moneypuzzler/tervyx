@@ -1,0 +1,2 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
+Bent2006,2006,Meta-analysis,SMD,-0.2100,-0.3900,-0.0300,574,558,mixed,10.1016/j.amjmed.2006.02.026,am_j_med

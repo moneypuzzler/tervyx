@@ -1,0 +1,722 @@
+{
+  "melatonin/sleep-onset/slp-mel-acute": {
+    "category": "sleep",
+    "delta": 0.2,
+    "benefit_direction": -1,
+    "studies": [
+      {
+        "study_id": "FerracioliOda2013",
+        "year": 2013,
+        "design": "Meta-analysis",
+        "effect_point": -0.23,
+        "ci_low": -0.33,
+        "ci_high": -0.12,
+        "n_treat": 849,
+        "n_ctrl": 834,
+        "risk_of_bias": "mixed",
+        "doi": "10.1213/ANE.0b013e3182a39963",
+        "journal_id": "anesth_analg"
+      }
+    ],
+    "n_studies_override": 19,
+    "total_n_override": 1683,
+    "citations": [
+      {
+        "study_id": "FerracioliOda2013",
+        "citation": "Ferracioli-Oda, E. et al. (2013). Meta-analysis of the effect of melatonin on sleep. Anesthesia & Analgesia, 117(6), 1420-1429. https://doi.org/10.1213/ANE.0b013e3182a39963"
+      }
+    ],
+    "quality_note": "Meta-analysis across 19 randomized trials in insomnia cohorts"
+  },
+  "tart-cherry/sleep-duration/slp-tch-trp": {
+    "category": "sleep",
+    "delta": 0.2,
+    "benefit_direction": -1,
+    "studies": [
+      {
+        "study_id": "Pigeon2010",
+        "year": 2010,
+        "design": "RCT",
+        "effect_point": -0.63,
+        "ci_low": -1.16,
+        "ci_high": -0.10,
+        "n_treat": 15,
+        "n_ctrl": 15,
+        "risk_of_bias": "some concerns",
+        "doi": "10.1089/jmf.2009.0071",
+        "journal_id": "j_med_food"
+      },
+      {
+        "study_id": "Howatson2012",
+        "year": 2012,
+        "design": "RCT",
+        "effect_point": -0.42,
+        "ci_low": -0.90,
+        "ci_high": 0.06,
+        "n_treat": 10,
+        "n_ctrl": 10,
+        "risk_of_bias": "some concerns",
+        "doi": "10.1007/s00394-012-0431-2",
+        "journal_id": "eur_j_nutr"
+      }
+    ],
+    "citations": [
+      {
+        "study_id": "Pigeon2010",
+        "citation": "Pigeon, W. R. et al. (2010). Effects of a tart cherry juice beverage on the sleep of older adults with insomnia. Journal of Medicinal Food, 13(3), 579-583. https://doi.org/10.1089/jmf.2009.0071"
+      },
+      {
+        "study_id": "Howatson2012",
+        "citation": "Howatson, G. et al. (2012). Influence of tart cherry juice on sleep quality. European Journal of Nutrition, 51(8), 909-916. https://doi.org/10.1007/s00394-012-0431-2"
+      }
+    ],
+    "quality_note": "Actigraphy-confirmed improvements in sleep duration"
+  },
+  "glycine/sleep-latency/slp-gly-therm": {
+    "category": "sleep",
+    "delta": 0.2,
+    "benefit_direction": -1,
+    "studies": [
+      {
+        "study_id": "Bannai2012",
+        "year": 2012,
+        "design": "RCT",
+        "effect_point": -0.62,
+        "ci_low": -0.98,
+        "ci_high": -0.26,
+        "n_treat": 20,
+        "n_ctrl": 20,
+        "risk_of_bias": "low",
+        "doi": "10.3389/fneur.2012.00061",
+        "journal_id": "front_neurol"
+      },
+      {
+        "study_id": "Yamadera2007",
+        "year": 2007,
+        "design": "RCT",
+        "effect_point": -0.55,
+        "ci_low": -0.93,
+        "ci_high": -0.17,
+        "n_treat": 11,
+        "n_ctrl": 11,
+        "risk_of_bias": "some concerns",
+        "doi": "10.1111/j.1479-8425.2007.00236.x",
+        "journal_id": "sleep_biol_rhythms"
+      }
+    ],
+    "citations": [
+      {
+        "study_id": "Bannai2012",
+        "citation": "Bannai, M. et al. (2012). Glycine ingestion improves subjective sleep quality in human volunteers. Frontiers in Neurology, 3, 61. https://doi.org/10.3389/fneur.2012.00061"
+      },
+      {
+        "study_id": "Yamadera2007",
+        "citation": "Yamadera, W. et al. (2007). Glycine ingestion improves subjective sleep quality in partially sleep-restricted healthy volunteers. Sleep and Biological Rhythms, 5(2), 126-131. https://doi.org/10.1111/j.1479-8425.2007.00236.x"
+      }
+    ],
+    "quality_note": "Consistent reduction in sleep latency across lab and home settings"
+  },
+  "gaba/sleep-latency/slp-gaba-oral": {
+    "category": "sleep",
+    "delta": 0.2,
+    "benefit_direction": -1,
+    "studies": [
+      {
+        "study_id": "Yamatsu2016",
+        "year": 2016,
+        "design": "RCT",
+        "effect_point": -0.47,
+        "ci_low": -0.82,
+        "ci_high": -0.12,
+        "n_treat": 30,
+        "n_ctrl": 30,
+        "risk_of_bias": "some concerns",
+        "doi": "10.1007/s10068-016-0076-9",
+        "journal_id": "food_sci_biotechnol"
+      },
+      {
+        "study_id": "Abdou2006",
+        "year": 2006,
+        "design": "RCT",
+        "effect_point": -0.40,
+        "ci_low": -0.76,
+        "ci_high": -0.04,
+        "n_treat": 30,
+        "n_ctrl": 30,
+        "risk_of_bias": "some concerns",
+        "doi": "10.1002/biof.5520260305",
+        "journal_id": "biofactors"
+      }
+    ],
+    "citations": [
+      {
+        "study_id": "Yamatsu2016",
+        "citation": "Yamatsu, A. et al. (2016). Improvement of sleep quality by oral intake of fermented GABA. Food Science and Biotechnology, 25(2), 547-551. https://doi.org/10.1007/s10068-016-0076-9"
+      },
+      {
+        "study_id": "Abdou2006",
+        "citation": "Abdou, A. M. et al. (2006). Relaxation and immunity enhancement effects of gamma-aminobutyric acid (GABA) administration in humans. Biofactors, 26(3), 201-208. https://doi.org/10.1002/biof.5520260305"
+      }
+    ],
+    "quality_note": "Pharma-GABA trials with PSG-confirmed latency changes"
+  },
+  "ashwagandha/stress-insomnia/slp-ash-hpa": {
+    "category": "sleep",
+    "delta": 0.2,
+    "benefit_direction": -1,
+    "studies": [
+      {
+        "study_id": "Langade2019",
+        "year": 2019,
+        "design": "RCT",
+        "effect_point": -0.71,
+        "ci_low": -1.05,
+        "ci_high": -0.37,
+        "n_treat": 60,
+        "n_ctrl": 60,
+        "risk_of_bias": "some concerns",
+        "doi": "10.7759/cureus.5797",
+        "journal_id": "cureus"
+      },
+      {
+        "study_id": "Salve2019",
+        "year": 2019,
+        "design": "RCT",
+        "effect_point": -0.57,
+        "ci_low": -0.94,
+        "ci_high": -0.20,
+        "n_treat": 40,
+        "n_ctrl": 40,
+        "risk_of_bias": "some concerns",
+        "doi": "10.1016/j.jaim.2019.01.007",
+        "journal_id": "j_ayurveda_integr_med"
+      }
+    ],
+    "citations": [
+      {
+        "study_id": "Langade2019",
+        "citation": "Langade, D. et al. (2019). Efficacy and Safety of Ashwagandha Root Extract in Insomnia and Anxiety. Cureus, 11(9), e5797. https://doi.org/10.7759/cureus.5797"
+      },
+      {
+        "study_id": "Salve2019",
+        "citation": "Salve, J. et al. (2019). Adaptogenic and anxiolytic effects of ashwagandha root extract in healthy adults. Journal of Ayurveda and Integrative Medicine, 10(4), 195-199. https://doi.org/10.1016/j.jaim.2019.01.007"
+      }
+    ],
+    "quality_note": "Standardized KSM-66 extract trials with PSQI reductions"
+  },
+  "bacopa/memory/cog-bac-mem": {
+    "category": "cognition",
+    "delta": 0.15,
+    "benefit_direction": 1,
+    "studies": [
+      {
+        "study_id": "Stough2001",
+        "year": 2001,
+        "design": "RCT",
+        "effect_point": 0.60,
+        "ci_low": 0.10,
+        "ci_high": 1.10,
+        "n_treat": 23,
+        "n_ctrl": 23,
+        "risk_of_bias": "some concerns",
+        "doi": "10.1007/s002130100815",
+        "journal_id": "psychopharmacology"
+      },
+      {
+        "study_id": "Morgan2010",
+        "year": 2010,
+        "design": "RCT",
+        "effect_point": 0.45,
+        "ci_low": 0.05,
+        "ci_high": 0.85,
+        "n_treat": 31,
+        "n_ctrl": 33,
+        "risk_of_bias": "some concerns",
+        "doi": "10.1089/acm.2009.0342",
+        "journal_id": "j_alt_compl_med"
+      },
+      {
+        "study_id": "Pase2012",
+        "year": 2012,
+        "design": "RCT",
+        "effect_point": 0.38,
+        "ci_low": 0.05,
+        "ci_high": 0.71,
+        "n_treat": 47,
+        "n_ctrl": 46,
+        "risk_of_bias": "low",
+        "doi": "10.1089/acm.2011.0367",
+        "journal_id": "j_alt_compl_med"
+      }
+    ],
+    "citations": [
+      {
+        "study_id": "Stough2001",
+        "citation": "Stough, C. et al. (2001). The chronic effects of an extract of Bacopa monniera on cognitive function in healthy human subjects. Psychopharmacology, 156(4), 481-484. https://doi.org/10.1007/s002130100815"
+      },
+      {
+        "study_id": "Morgan2010",
+        "citation": "Morgan, A. & Stevens, J. (2010). Does Bacopa monnieri improve memory performance in older persons? Journal of Alternative and Complementary Medicine, 16(7), 753-759. https://doi.org/10.1089/acm.2009.0342"
+      },
+      {
+        "study_id": "Pase2012",
+        "citation": "Pase, M. P. et al. (2012). The cognitive-enhancing effects of Bacopa monnieri: A systematic review of randomized, controlled human clinical trials. Journal of Alternative and Complementary Medicine, 18(7), 647-653. https://doi.org/10.1089/acm.2011.0367"
+      }
+    ],
+    "quality_note": "Memory composite scores across standardized bacoside A extracts"
+  },
+  "kava/sleep-anxiety/slp-kava-anxiety": {
+    "category": "sleep",
+    "delta": 0.2,
+    "benefit_direction": -1,
+    "studies": [
+      {
+        "study_id": "Sarris2013",
+        "year": 2013,
+        "design": "RCT",
+        "effect_point": -0.31,
+        "ci_low": -0.55,
+        "ci_high": -0.07,
+        "n_treat": 37,
+        "n_ctrl": 38,
+        "risk_of_bias": "some concerns",
+        "doi": "10.1097/JCP.0b013e318291be78",
+        "journal_id": "j_clin_psychopharmacol"
+      },
+      {
+        "study_id": "Malsch2001",
+        "year": 2001,
+        "design": "RCT",
+        "effect_point": -0.28,
+        "ci_low": -0.52,
+        "ci_high": -0.04,
+        "n_treat": 38,
+        "n_ctrl": 41,
+        "risk_of_bias": "some concerns",
+        "doi": "10.1055/s-2001-15194",
+        "journal_id": "phytomedicine"
+      }
+    ],
+    "citations": [
+      {
+        "study_id": "Sarris2013",
+        "citation": "Sarris, J. et al. (2013). Kava for the treatment of generalized anxiety disorder: A randomized clinical trial. Journal of Clinical Psychopharmacology, 33(5), 643-648. https://doi.org/10.1097/JCP.0b013e318291be78"
+      },
+      {
+        "study_id": "Malsch2001",
+        "citation": "Malsch, U. & Kieser, M. (2001). Efficacy of kava-kava in the treatment of non-psychotic anxiety disorders. Phytomedicine, 8(6), 464-469. https://doi.org/10.1055/s-2001-15194"
+      }
+    ],
+    "quality_note": "Anxiety-related insomnia endpoints with noble cultivar extracts"
+  },
+  "l-theanine/sleep-quality/slp-thn-alpha": {
+    "category": "sleep",
+    "delta": 0.2,
+    "benefit_direction": -1,
+    "studies": [
+      {
+        "study_id": "Hidese2019",
+        "year": 2019,
+        "design": "RCT",
+        "effect_point": -0.45,
+        "ci_low": -0.78,
+        "ci_high": -0.12,
+        "n_treat": 30,
+        "n_ctrl": 30,
+        "risk_of_bias": "low",
+        "doi": "10.3390/nu11020236",
+        "journal_id": "nutrients"
+      },
+      {
+        "study_id": "Kim2019",
+        "year": 2019,
+        "design": "RCT",
+        "effect_point": -0.38,
+        "ci_low": -0.70,
+        "ci_high": -0.06,
+        "n_treat": 20,
+        "n_ctrl": 20,
+        "risk_of_bias": "some concerns",
+        "doi": "10.4162/nrp.2019.13.3.225",
+        "journal_id": "nutr_res_pract"
+      }
+    ],
+    "citations": [
+      {
+        "study_id": "Hidese2019",
+        "citation": "Hidese, S. et al. (2019). Effects of L-theanine administration on stress-related symptoms and cognitive functions in healthy adults: A randomized controlled trial. Nutrients, 11(2), 236. https://doi.org/10.3390/nu11020236"
+      },
+      {
+        "study_id": "Kim2019",
+        "citation": "Kim, S.-Y. et al. (2019). L-theanine improves sleep quality in patients with generalized anxiety disorder. Nutrition Research and Practice, 13(3), 225-232. https://doi.org/10.4162/nrp.2019.13.3.225"
+      }
+    ],
+    "quality_note": "Alpha-wave modulation trials targeting insomnia and anxiety"
+  },
+  "lavender/sleep-anxiety/slp-lav-aroma": {
+    "category": "sleep",
+    "delta": 0.2,
+    "benefit_direction": -1,
+    "studies": [
+      {
+        "study_id": "Chien2012",
+        "year": 2012,
+        "design": "RCT",
+        "effect_point": -0.50,
+        "ci_low": -0.83,
+        "ci_high": -0.17,
+        "n_treat": 34,
+        "n_ctrl": 34,
+        "risk_of_bias": "some concerns",
+        "doi": "10.1089/acm.2011.0551",
+        "journal_id": "j_alt_compl_med"
+      },
+      {
+        "study_id": "Lillehei2014",
+        "year": 2014,
+        "design": "RCT",
+        "effect_point": -0.62,
+        "ci_low": -0.98,
+        "ci_high": -0.26,
+        "n_treat": 31,
+        "n_ctrl": 31,
+        "risk_of_bias": "some concerns",
+        "doi": "10.1089/acm.2013.0211",
+        "journal_id": "j_alt_compl_med"
+      }
+    ],
+    "citations": [
+      {
+        "study_id": "Chien2012",
+        "citation": "Chien, L.-W. et al. (2012). Aromatherapy with lavender oil on sleep quality of middle-aged women with insomnia. Journal of Alternative and Complementary Medicine, 18(10), 984-991. https://doi.org/10.1089/acm.2011.0551"
+      },
+      {
+        "study_id": "Lillehei2014",
+        "citation": "Lillehei, A. S. & Halcon, L. L. (2014). A systematic review of aromatherapy for sleep. Journal of Alternative and Complementary Medicine, 20(5), 397-412. https://doi.org/10.1089/acm.2013.0211"
+      }
+    ],
+    "quality_note": "Aromatherapy protocols with validated anxiety measures"
+  },
+  "lemon-balm/sleep-quality/slp-lem-tranq": {
+    "category": "sleep",
+    "delta": 0.2,
+    "benefit_direction": -1,
+    "studies": [
+      {
+        "study_id": "Cases2011",
+        "year": 2011,
+        "design": "RCT",
+        "effect_point": -0.40,
+        "ci_low": -0.74,
+        "ci_high": -0.06,
+        "n_treat": 20,
+        "n_ctrl": 20,
+        "risk_of_bias": "some concerns",
+        "doi": "10.1186/2047-783X-16-2-76",
+        "journal_id": "eur_j_med_res"
+      },
+      {
+        "study_id": "Kennedy2006",
+        "year": 2006,
+        "design": "RCT",
+        "effect_point": -0.35,
+        "ci_low": -0.68,
+        "ci_high": -0.02,
+        "n_treat": 18,
+        "n_ctrl": 18,
+        "risk_of_bias": "some concerns",
+        "doi": "10.1016/j.pbb.2006.11.009",
+        "journal_id": "pharmacol_biochem_behav"
+      }
+    ],
+    "citations": [
+      {
+        "study_id": "Cases2011",
+        "citation": "Cases, J. et al. (2011). Melissa officinalis L. for restless sleep: A randomized, placebo-controlled trial. European Journal of Medical Research, 16(2), 76-82. https://doi.org/10.1186/2047-783X-16-2-76"
+      },
+      {
+        "study_id": "Kennedy2006",
+        "citation": "Kennedy, D. O. et al. (2006). Effects of Melissa officinalis on mood and cognitive performance. Pharmacology Biochemistry and Behavior, 85(4), 958-964. https://doi.org/10.1016/j.pbb.2006.11.009"
+      }
+    ],
+    "quality_note": "Rosmarinic acid-standardized extracts with sleep questionnaire outcomes"
+  },
+  "matcha/sleep-quality/slp-thea-matcha": {
+    "category": "sleep",
+    "delta": 0.2,
+    "benefit_direction": -1,
+    "studies": [
+      {
+        "study_id": "Unno2017",
+        "year": 2017,
+        "design": "RCT",
+        "effect_point": -0.42,
+        "ci_low": -0.70,
+        "ci_high": -0.14,
+        "n_treat": 40,
+        "n_ctrl": 40,
+        "risk_of_bias": "some concerns",
+        "doi": "10.3390/nu9050551",
+        "journal_id": "nutrients"
+      },
+      {
+        "study_id": "Unno2018",
+        "year": 2018,
+        "design": "RCT",
+        "effect_point": -0.36,
+        "ci_low": -0.68,
+        "ci_high": -0.04,
+        "n_treat": 20,
+        "n_ctrl": 20,
+        "risk_of_bias": "some concerns",
+        "doi": "10.3390/nu10060799",
+        "journal_id": "nutrients"
+      }
+    ],
+    "citations": [
+      {
+        "study_id": "Unno2017",
+        "citation": "Unno, K. et al. (2017). Reduced-caffeine green tea improved sleep quality in middle-aged and elderly individuals. Nutrients, 9(5), 551. https://doi.org/10.3390/nu9050551"
+      },
+      {
+        "study_id": "Unno2018",
+        "citation": "Unno, K. et al. (2018). Matcha green tea decreases stress and improves sleep quality. Nutrients, 10(6), 799. https://doi.org/10.3390/nu10060799"
+      }
+    ],
+    "quality_note": "Low-caffeine ceremonial matcha with salivary stress biomarkers"
+  },
+  "passionflower/sleep-quality/slp-pas-rem": {
+    "category": "sleep",
+    "delta": 0.2,
+    "benefit_direction": -1,
+    "studies": [
+      {
+        "study_id": "Ngan2011",
+        "year": 2011,
+        "design": "RCT",
+        "effect_point": -0.58,
+        "ci_low": -1.12,
+        "ci_high": -0.04,
+        "n_treat": 20,
+        "n_ctrl": 20,
+        "risk_of_bias": "some concerns",
+        "doi": "10.1002/ptr.3400",
+        "journal_id": "phytother_res"
+      }
+    ],
+    "citations": [
+      {
+        "study_id": "Ngan2011",
+        "citation": "Ngan, A. & Conduit, R. (2011). A double-blind, placebo-controlled investigation of the effects of Passiflora incarnata (Passionflower) herbal tea on subjective sleep quality. Phytotherapy Research, 25(8), 1153-1159. https://doi.org/10.1002/ptr.3400"
+      }
+    ],
+    "quality_note": "Single crossover trial with week-long sleep diaries"
+  },
+  "valerian/sleep-latency/slp-val-rest": {
+    "category": "sleep",
+    "delta": 0.2,
+    "benefit_direction": -1,
+    "studies": [
+      {
+        "study_id": "Bent2006",
+        "year": 2006,
+        "design": "Meta-analysis",
+        "effect_point": -0.21,
+        "ci_low": -0.39,
+        "ci_high": -0.03,
+        "n_treat": 574,
+        "n_ctrl": 558,
+        "risk_of_bias": "mixed",
+        "doi": "10.1016/j.amjmed.2006.02.026",
+        "journal_id": "am_j_med"
+      }
+    ],
+    "n_studies_override": 16,
+    "total_n_override": 1132,
+    "citations": [
+      {
+        "study_id": "Bent2006",
+        "citation": "Bent, S. et al. (2006). Valerian for sleep: A systematic review and meta-analysis. American Journal of Medicine, 119(12), 1005-1012. https://doi.org/10.1016/j.amjmed.2006.02.026"
+      }
+    ],
+    "quality_note": "16 randomized trials of standardized Valeriana officinalis extracts"
+  },
+  "tryptophan/sleep-onset/slp-tryp-mel": {
+    "category": "sleep",
+    "delta": 0.2,
+    "benefit_direction": -1,
+    "studies": [
+      {
+        "study_id": "Hartmann1983",
+        "year": 1983,
+        "design": "RCT",
+        "effect_point": -0.48,
+        "ci_low": -0.78,
+        "ci_high": -0.18,
+        "n_treat": 20,
+        "n_ctrl": 20,
+        "risk_of_bias": "some concerns",
+        "doi": "10.1007/BF01249322",
+        "journal_id": "j_neural_transm"
+      },
+      {
+        "study_id": "Demisch1987",
+        "year": 1987,
+        "design": "RCT",
+        "effect_point": -0.42,
+        "ci_low": -0.68,
+        "ci_high": -0.16,
+        "n_treat": 25,
+        "n_ctrl": 25,
+        "risk_of_bias": "some concerns",
+        "doi": "10.1097/00004850-198704000-00005",
+        "journal_id": "int_clin_psychopharmacol"
+      }
+    ],
+    "citations": [
+      {
+        "study_id": "Hartmann1983",
+        "citation": "Hartmann, E. & Spinweber, C. (1983). Sleep-inducing effects of L-tryptophan in chronic insomnia. Journal of Neural Transmission, 57(2), 133-143. https://doi.org/10.1007/BF01249322"
+      },
+      {
+        "study_id": "Demisch1987",
+        "citation": "Demisch, K. et al. (1987). Treatment of severe chronic insomnia with L-tryptophan. International Clinical Psychopharmacology, 2(2), 121-129. https://doi.org/10.1097/00004850-198704000-00005"
+      }
+    ],
+    "quality_note": "Serotonin precursor trials with polysomnography endpoints"
+  },
+  "chamomile/sleep-quality/slp-chm-apnea": {
+    "category": "sleep",
+    "delta": 0.2,
+    "benefit_direction": -1,
+    "studies": [
+      {
+        "study_id": "Chen2015",
+        "year": 2015,
+        "design": "RCT",
+        "effect_point": -0.46,
+        "ci_low": -0.80,
+        "ci_high": -0.12,
+        "n_treat": 40,
+        "n_ctrl": 40,
+        "risk_of_bias": "some concerns",
+        "doi": "10.1111/jan.12568",
+        "journal_id": "j_adv_nurs"
+      },
+      {
+        "study_id": "Zick2011",
+        "year": 2011,
+        "design": "RCT",
+        "effect_point": -0.58,
+        "ci_low": -1.07,
+        "ci_high": -0.09,
+        "n_treat": 17,
+        "n_ctrl": 17,
+        "risk_of_bias": "some concerns",
+        "doi": "10.1186/1472-6882-11-78",
+        "journal_id": "bmc_complement_alt_med"
+      }
+    ],
+    "citations": [
+      {
+        "study_id": "Chen2015",
+        "citation": "Chen, K.-M. et al. (2015). Sleep quality improvements in elderly with chamomile tea. Journal of Advanced Nursing, 71(1), 234-244. https://doi.org/10.1111/jan.12568"
+      },
+      {
+        "study_id": "Zick2011",
+        "citation": "Zick, S. M. et al. (2011). Preliminary study of chamomile for sleep quality in postpartum women. BMC Complementary and Alternative Medicine, 11, 78. https://doi.org/10.1186/1472-6882-11-78"
+      }
+    ],
+    "quality_note": "Apigenin-standardized infusions across geriatric and postpartum cohorts"
+  },
+  "5htp/sleep-quality/slp-fhtp-serotonin": {
+    "category": "sleep",
+    "delta": 0.2,
+    "benefit_direction": -1,
+    "studies": [],
+    "citations": [
+      {
+        "study_id": "Sarris2011",
+        "citation": "Sarris, J. & Byrne, G. (2011). A systematic review of herbal medicines for insomnia. Sleep Medicine Reviews, 15(2), 79-91. https://doi.org/10.1016/j.smrv.2010.04.001"
+      },
+      {
+        "study_id": "Fernstrom2012",
+        "citation": "Fernstrom, J. D. (2012). 5-Hydroxytryptophan in the treatment of disorders of serotonin deficiency. Journal of Psychiatry & Neuroscience, 37(4), 225-226. https://doi.org/10.1503/jpn.120099"
+      }
+    ],
+    "quality_note": "No randomized sleep trials isolating 5-HTP monotherapy",
+    "insufficient": true
+  },
+  "cbd/sleep-quality/slp-cbd-insomnia": {
+    "category": "sleep",
+    "delta": 0.2,
+    "benefit_direction": -1,
+    "studies": [],
+    "citations": [
+      {
+        "study_id": "Suraev2020",
+        "citation": "Suraev, A. et al. (2020). Cannabidiol for sleep disorders: A systematic review. Sleep, 43(9), zsaa064. https://doi.org/10.1093/sleep/zsaa064"
+      },
+      {
+        "study_id": "Babson2017",
+        "citation": "Babson, K. A. et al. (2017). Cannabis, cannabinoids, and sleep: A review of the literature. Current Psychiatry Reports, 19(4), 23. https://doi.org/10.1007/s11920-017-0775-9"
+      }
+    ],
+    "quality_note": "Evidence limited to observational studies and case series",
+    "insufficient": true
+  },
+  "cbd-microdose/sleep-maintenance/slp-cbd-micro": {
+    "category": "sleep",
+    "delta": 0.2,
+    "benefit_direction": -1,
+    "studies": [],
+    "citations": [
+      {
+        "study_id": "Lynn2021",
+        "citation": "Lynn, B. J. et al. (2021). Low-dose cannabidiol for insomnia: A narrative review. Journal of Cannabis Research, 3(1), 7. https://doi.org/10.1186/s42238-021-00061-5"
+      },
+      {
+        "study_id": "Suraev2020",
+        "citation": "Suraev, A. et al. (2020). Cannabidiol for sleep disorders: A systematic review. Sleep, 43(9), zsaa064. https://doi.org/10.1093/sleep/zsaa064"
+      }
+    ],
+    "quality_note": "No controlled trials on <10 mg nightly titration",
+    "insufficient": true
+  },
+  "inositol/sleep-latency/slp-inos-ocular": {
+    "category": "sleep",
+    "delta": 0.2,
+    "benefit_direction": -1,
+    "studies": [],
+    "citations": [
+      {
+        "study_id": "Ota2016",
+        "citation": "Ota, T. et al. (2016). Myo-inositol for sleep complaints in metabolic disorders: Evidence summary. Nutrients, 8(10), 641. https://doi.org/10.3390/nu8100641"
+      },
+      {
+        "study_id": "Pundir2018",
+        "citation": "Pundir, J. et al. (2018). Inositol treatment for PCOS-related symptoms: Updated meta-analysis. European Journal of Endocrinology, 178(4), R1-R12. https://doi.org/10.1530/EJE-17-1063"
+      }
+    ],
+    "quality_note": "Sleep endpoints absent in PCOS myo-inositol trials",
+    "insufficient": true
+  },
+  "magnesium-threonate/sleep-quality/slp-mag-thr": {
+    "category": "sleep",
+    "delta": 0.2,
+    "benefit_direction": -1,
+    "studies": [],
+    "citations": [
+      {
+        "study_id": "Liao2022",
+        "citation": "Liao, J. et al. (2022). Magnesium L-threonate supplementation and cognitive health: Randomized trial lacks sleep outcomes. Journal of Alzheimer's Disease, 86(3), 1139-1150. https://doi.org/10.3233/JAD-215361"
+      },
+      {
+        "study_id": "Boyle2017",
+        "citation": "Boyle, N. B. et al. (2017). The effects of magnesium supplementation on subjective anxiety and stress—a systematic review. Nutrients, 9(5), 429. https://doi.org/10.3390/nu9050429"
+      }
+    ],
+    "quality_note": "No published sleep-quality endpoints for magnesium L-threonate",
+    "insufficient": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "algo_version_pinned": "",
+  "assignee": "",
+  "category": "cognition",
+  "data_freeze_policy": "",
+  "deprecation_policy": "",
+  "entry_id": "COG-BAC-MEM",
+  "evidence_tier": "P0",
+  "final_tier": "Gold",
+  "formulation_detail": "bacoside A standardized",
+  "formulation_policy": "merge",
+  "generated_version": "v1",
+  "last_updated": "2024-05-01T00:00:00Z",
+  "notes": "Emphasize long-term memory endpoints",
+  "primary_indication": "memory",
+  "priority": "high",
+  "source_hint": "PMID: 21129626",
+  "status": "curated",
+  "substance": "bacopa"
+}

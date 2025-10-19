@@ -1,0 +1,40 @@
+{
+  "I2": 0.0,
+  "P_effect_gt_delta": 0.9979,
+  "Q": 0.2319,
+  "benefit_direction": -1,
+  "benefit_note": "Aromatherapy protocols with validated anxiety measures",
+  "computation_time_ms": 45.0,
+  "delta": 0.2,
+  "environment": "Python 3.11, NumPy 2.3.4, SciPy 1.11.0",
+  "gate_terminated": false,
+  "mu_CI95": [
+    -0.7981,
+    -0.3115
+  ],
+  "mu_hat": -0.5548,
+  "mu_se": 0.124113,
+  "n_draws": 10000,
+  "n_studies": 2,
+  "policy_fingerprint": "0x4485241d902becb4",
+  "prediction_interval_95": [
+    -0.7981,
+    -0.3115
+  ],
+  "reml_convergence": {
+    "converged": true,
+    "final_nll": -0.115973,
+    "iterations": 1
+  },
+  "seed": 20251005,
+  "tau": 0.0,
+  "tau2": 0.0,
+  "tau2_method": "REML",
+  "tel5_input": {
+    "P_value": 0.9979,
+    "k_violation": false,
+    "phi_violation": false
+  },
+  "total_n": 130,
+  "var_mu": 0.015404
+}

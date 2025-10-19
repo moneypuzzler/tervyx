@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
+Stough2001,2001,RCT,SMD,0.6000,0.1000,1.1000,23,23,some concerns,10.1007/s002130100815,psychopharmacology
+Morgan2010,2010,RCT,SMD,0.4500,0.0500,0.8500,31,33,some concerns,10.1089/acm.2009.0342,j_alt_compl_med
+Pase2012,2012,RCT,SMD,0.3800,0.0500,0.7100,47,46,low,10.1089/acm.2011.0367,j_alt_compl_med

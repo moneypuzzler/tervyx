@@ -1,0 +1,2 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
+Ngan2011,2011,RCT,SMD,-0.5800,-1.1200,-0.0400,20,20,some concerns,10.1002/ptr.3400,phytother_res

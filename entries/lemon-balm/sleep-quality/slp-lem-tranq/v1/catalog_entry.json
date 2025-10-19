@@ -1,0 +1,20 @@
+{
+  "algo_version_pinned": "",
+  "assignee": "",
+  "category": "sleep",
+  "data_freeze_policy": "",
+  "deprecation_policy": "",
+  "entry_id": "SLP-LEM-TRANQ",
+  "evidence_tier": "P1",
+  "final_tier": "Gold",
+  "formulation_detail": "rosmarinic acid standardization",
+  "formulation_policy": "merge",
+  "generated_version": "v1",
+  "last_updated": "2024-05-01T00:00:00Z",
+  "notes": "Track daytime calmness spillover",
+  "primary_indication": "sleep_quality",
+  "priority": "low",
+  "source_hint": "PMID: 23724484",
+  "status": "curated",
+  "substance": "lemon_balm"
+}

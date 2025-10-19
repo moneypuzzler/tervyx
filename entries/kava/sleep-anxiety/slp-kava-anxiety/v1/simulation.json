@@ -1,0 +1,40 @@
+{
+  "I2": 0.0,
+  "P_effect_gt_delta": 0.8637,
+  "Q": 0.03,
+  "benefit_direction": -1,
+  "benefit_note": "Anxiety-related insomnia endpoints with noble cultivar extracts",
+  "computation_time_ms": 45.0,
+  "delta": 0.2,
+  "environment": "Python 3.11, NumPy 2.3.4, SciPy 1.11.0",
+  "gate_terminated": false,
+  "mu_CI95": [
+    -0.4647,
+    -0.1253
+  ],
+  "mu_hat": -0.295,
+  "mu_se": 0.086585,
+  "n_draws": 10000,
+  "n_studies": 2,
+  "policy_fingerprint": "0x4485241d902becb4",
+  "prediction_interval_95": [
+    -0.4647,
+    -0.1253
+  ],
+  "reml_convergence": {
+    "converged": true,
+    "final_nll": -0.015006,
+    "iterations": 1
+  },
+  "seed": 20251005,
+  "tau": 0.0,
+  "tau2": 0.0,
+  "tau2_method": "REML",
+  "tel5_input": {
+    "P_value": 0.8637,
+    "k_violation": false,
+    "phi_violation": false
+  },
+  "total_n": 154,
+  "var_mu": 0.007497
+}

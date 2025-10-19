@@ -1,0 +1,13 @@
+{
+  "preferred_citation": "TERVYX Protocol Team. Lemon_Balm \u2014 Sleep \u2014 Sleep Quality (v1).",
+  "studies": [
+    {
+      "citation": "Cases, J. et al. (2011). Melissa officinalis L. for restless sleep: A randomized, placebo-controlled trial. European Journal of Medical Research, 16(2), 76-82. https://doi.org/10.1186/2047-783X-16-2-76",
+      "study_id": "Cases2011"
+    },
+    {
+      "citation": "Kennedy, D. O. et al. (2006). Effects of Melissa officinalis on mood and cognitive performance. Pharmacology Biochemistry and Behavior, 85(4), 958-964. https://doi.org/10.1016/j.pbb.2006.11.009",
+      "study_id": "Kennedy2006"
+    }
+  ]
+}
