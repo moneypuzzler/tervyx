@@ -14,6 +14,32 @@ from pathlib import Path
 from datetime import datetime
 from typing import Dict, Iterable, List, Optional, Tuple
 
+
+PRIORITY_LEVELS = {"high", "medium", "low"}
+EVIDENCE_PRIORITY_LEVELS = {"p0", "p1", "p2", "p3", "p4"}
+
+
+def _matches_priority_filter(entry, filter_value: str) -> bool:
+    """Return True if entry matches the requested priority/evidence tier filter."""
+
+    normalized = (filter_value or "").strip().lower()
+    if not normalized:
+        return True
+
+    data = entry.data if hasattr(entry, "data") else entry
+    if not isinstance(data, dict):
+        return False
+
+    priority_value = str(data.get("priority") or "").strip().lower()
+    evidence_value = str(data.get("evidence_tier") or "").strip().lower()
+
+    if normalized in PRIORITY_LEVELS:
+        return priority_value == normalized
+    if normalized in EVIDENCE_PRIORITY_LEVELS:
+        return evidence_value == normalized
+
+    return normalized in {priority_value, evidence_value}
+
 # Add project root to path
 project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
@@ -61,7 +87,10 @@ def _extract_entry_tier(data: Dict[str, str]) -> str:
     return "unassigned"
 
 
-def _compute_tier_statistics(entries: Iterable) -> Tuple[Counter, Dict[str, Counter]]:
+def _compute_tier_statistics(
+    entries: Iterable,
+    recalibrated: Optional[Dict[str, Dict[str, object]]] = None,
+) -> Tuple[Counter, Dict[str, Counter]]:
     """Compute tier totals and per-category breakdown for catalog entries."""
 
     tier_counts: Counter = Counter()
@@ -427,16 +456,21 @@ def cmd_catalog(args):
             return 1
 
         policy_data = None
+        recalibrated_info: Dict[str, Dict[str, object]] = {}
         if args.recalibrate:
             policy_data = _load_policy(Path(args.recalibrate))
             if policy_data is None:
                 return 1
             print(f"📐 Recalibrating preview tiers using {args.recalibrate}")
+            recalibrated_info = _recalibrate_entries(limited_entries, policy_data)
 
         if args.dry_run:
             print("🧪 Dry-run mode: no catalog entries will be modified.")
 
-        tier_counts, category_counts = _compute_tier_statistics(limited_entries)
+        tier_counts, category_counts = _compute_tier_statistics(
+            limited_entries,
+            recalibrated=recalibrated_info or None,
+        )
 
         print(f"👀 Previewing {len(limited_entries)} catalog entries:")
         for entry in limited_entries:
@@ -449,7 +483,9 @@ def cmd_catalog(args):
             status = data.get('status', 'n/a')
             priority_value = data.get('priority', 'n/a')
             source = data.get('source_hint', 'n/a')
-            tier = _extract_entry_tier(data)
+            original_tier = _normalize_tier_label(_extract_entry_tier(data))
+            recalibrated = recalibrated_info.get(entry_id) if recalibrated_info else None
+            tier = recalibrated.get('tier') if recalibrated else original_tier
 
             print(f"   {entry_id} [{priority_value} / {status}] → tier: {tier}")
             print(f"      Category: {data.get('category', 'n/a')} → {indication}")
@@ -497,15 +533,57 @@ def cmd_catalog(args):
     elif args.action == 'generate':
         policy_data = None
         recalibrated_info: Dict[str, Dict[str, object]] = {}
+        selected_entries: List = list(catalog.entries)
+
+        if args.priority:
+            selected_entries = [
+                entry for entry in selected_entries
+                if _matches_priority_filter(entry, args.priority)
+            ]
+
+        if args.category:
+            selected_entries = [
+                entry for entry in selected_entries
+                if str(entry.data.get('category', '')).strip().lower() == args.category.strip().lower()
+            ]
+
+        if not selected_entries:
+            print("❌ No catalog entries matched the generation criteria.")
+            return 1
+
+        if args.retry:
+            print(f"🔁 Retry mode: {args.retry}")
+
+        if args.no_formulation_split:
+            print("🧪 Formulation variants will be merged (no split).")
+
+        if args.concurrency:
+            print(f"⚙️  Concurrency set to {args.concurrency}")
+
+        if args.algo_version:
+            print(f"🧠 Algorithm version: {args.algo_version}")
+
+        if args.data_snapshot:
+            print(f"🗂️  Data snapshot: {args.data_snapshot}")
+
+        if args.cost_cap is not None:
+            print(f"💰 Cost cap: ${args.cost_cap:.2f}")
+
+        entry_lookup: Dict[str, Dict[str, object]] = {
+            str(entry.data.get('entry_id') or '').strip(): entry.data
+            for entry in selected_entries
+            if hasattr(entry, 'data') and isinstance(entry.data, dict)
+        }
+
         if args.apply:
             policy_data = _load_policy(Path(args.apply))
             if policy_data is None:
                 return 1
             print(f"🛠️  Applying policy overrides from {args.apply}")
-            recalibrated_info = _recalibrate_entries(catalog.entries, policy_data)
+            recalibrated_info = _recalibrate_entries(selected_entries, policy_data)
 
         tier_counts, category_counts = _compute_tier_statistics(
-            catalog.entries,
+            selected_entries,
             recalibrated=recalibrated_info or None,
         )
 
@@ -528,45 +606,50 @@ def cmd_catalog(args):
             if adjusted_entries:
                 print(f"   Policy adjustments affected {adjusted_entries} entries")
 
-        if args.report:
-            _write_category_report(Path(args.report), category_counts)
+        if args.show_adjustments and recalibrated_info:
+            print("\n🔎 Policy adjustment details")
+            shown = 0
+            for entry_id in sorted(recalibrated_info.keys()):
+                info = recalibrated_info[entry_id]
+                base_tier = info.get('base_tier')
+                tier = info.get('tier')
+                adjustments = info.get('adjustments') or []
+                if not adjustments and base_tier == tier:
+                    continue
 
-        total_entries = sum(tier_counts.values())
-        print("\n✅ Catalog generation complete")
-        print(f"   Entries processed: {total_entries}")
-        for tier, count in tier_counts.items():
-            print(f"   {tier.title()}: {count}")
+                entry_data = entry_lookup.get(entry_id, {})
+                substance = entry_data.get('substance', 'n/a') if isinstance(entry_data, dict) else 'n/a'
+                indication = entry_data.get('primary_indication', 'n/a') if isinstance(entry_data, dict) else 'n/a'
 
-        if args.show_hist:
-            _print_tier_histogram(tier_counts, title="Tier distribution (preview subset)")
+                print(f"   {entry_id}: {substance} → {indication}")
+                print(f"      Base tier: {base_tier} → Adjusted tier: {tier}")
 
-        if args.by_category:
-            _print_category_breakdown(category_counts)
+                probability = info.get('probability')
+                if isinstance(probability, float):
+                    print(f"      P(effect>δ): {probability:.3f}")
 
-        if policy_data:
-            _summarize_policy_adjustments(policy_data)
+                studies = info.get('n_studies')
+                rcts = info.get('n_rct')
+                if studies is not None or rcts is not None:
+                    study_part = f"studies={studies}" if studies is not None else "studies=?"
+                    rct_part = f"RCTs={rcts}" if rcts is not None else "RCTs=?"
+                    print(f"      Evidence counts: {study_part}, {rct_part}")
 
-    elif args.action == 'generate':
-        policy_data = None
-        if args.apply:
-            policy_data = _load_policy(Path(args.apply))
-            if policy_data is None:
-                return 1
-            print(f"🛠️  Applying policy overrides from {args.apply}")
+                latest_year = info.get('latest_year')
+                if latest_year is not None:
+                    print(f"      Latest study year: {latest_year}")
 
-        tier_counts, category_counts = _compute_tier_statistics(catalog.entries)
+                i2_value = info.get('i2')
+                if isinstance(i2_value, (int, float)):
+                    print(f"      I²: {float(i2_value):.1f}")
 
-        if args.recompute:
-            print("♻️  Recomputing catalog tiers using current evidence signals...")
+                for adjustment in adjustments:
+                    print(f"      ⚠️  {adjustment}")
 
-        if args.bump:
-            print(f"🔖 Bumping catalog version ({args.bump} release)")
+                shown += 1
 
-        if args.update_registry:
-            print("📦 Updating registry pointers to latest catalog entries")
-
-        if policy_data:
-            _summarize_policy_adjustments(policy_data)
+            if not shown:
+                print("   No entries required tier adjustments under current policy.")
 
         if args.report:
             _write_category_report(Path(args.report), category_counts)
@@ -854,11 +937,22 @@ def main():
     catalog_parser.add_argument('--recalibrate', help='Path to policy file for recalibration preview')
     catalog_parser.add_argument('--show-hist', action='store_true', help='Show tier histogram in previews')
     catalog_parser.add_argument('--by-category', action='store_true', help='Show category breakdown in previews')
+    catalog_parser.add_argument(
+        '--show-adjustments',
+        action='store_true',
+        help='Display recalibration adjustments for each entry when available',
+    )
     catalog_parser.add_argument('--apply', help='Policy file to apply during generation')
     catalog_parser.add_argument('--recompute', action='store_true', help='Recompute tiers during generation')
     catalog_parser.add_argument('--bump', choices=['patch', 'minor', 'major'], help='Version bump type')
     catalog_parser.add_argument('--update-registry', action='store_true', help='Update registry pointers')
     catalog_parser.add_argument('--report', help='Output path for tier report')
+    catalog_parser.add_argument('--no-formulation-split', action='store_true', help='Disable formulation splitting during generation')
+    catalog_parser.add_argument('--algo-version', help='Algorithm version tag to record in manifests')
+    catalog_parser.add_argument('--data-snapshot', help='Evidence/data snapshot identifier')
+    catalog_parser.add_argument('--concurrency', type=int, help='Number of concurrent workers to use')
+    catalog_parser.add_argument('--retry', help='Retry mode for failed batches (e.g., "failed")')
+    catalog_parser.add_argument('--cost-cap', type=float, help='Maximum allowed spend for generation runs')
     catalog_parser.set_defaults(func=cmd_catalog)
     
     # Collection pipeline
