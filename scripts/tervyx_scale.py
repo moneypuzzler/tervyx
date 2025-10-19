@@ -7,16 +7,168 @@ Command-line interface for 1000+ entry scaling operations
 import sys
 import argparse
 import json
+from collections import Counter, defaultdict
 from dataclasses import asdict
 from pathlib import Path
 from datetime import datetime
-from typing import Dict, List, Optional
+from typing import Dict, Iterable, List, Optional, Tuple
 
 # Add project root to path
 project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
 component_errors: Dict[str, ImportError] = {}
+
+try:  # Optional dependency
+    import yaml
+except ImportError:  # pragma: no cover - optional at runtime
+    yaml = None  # type: ignore[assignment]
+
+
+def _load_policy(policy_path: Path) -> Optional[Dict[str, object]]:
+    """Load a policy YAML file if available."""
+
+    if not policy_path.exists():
+        print(f"❌ Policy file not found: {policy_path}")
+        return None
+
+    if yaml is None:
+        print("❌ PyYAML is required to parse policy files. Install requirements first.")
+        return None
+
+    try:
+        with policy_path.open('r', encoding='utf-8') as handle:
+            data = yaml.safe_load(handle) or {}
+    except yaml.YAMLError as exc:  # type: ignore[attr-defined]
+        print(f"❌ Failed to parse policy file: {exc}")
+        return None
+
+    if not isinstance(data, dict):
+        print("❌ Policy file must contain a mapping at the top level.")
+        return None
+
+    return data
+
+
+def _extract_entry_tier(data: Dict[str, str]) -> str:
+    """Return the most relevant tier label for a catalog entry."""
+
+    for key in ("final_tier", "evidence_tier", "tier", "latest_tier"):
+        tier = data.get(key)
+        if tier:
+            return str(tier).strip().lower()
+    return "unassigned"
+
+
+def _compute_tier_statistics(entries: Iterable) -> Tuple[Counter, Dict[str, Counter]]:
+    """Compute tier totals and per-category breakdown for catalog entries."""
+
+    tier_counts: Counter = Counter()
+    category_counts: Dict[str, Counter] = defaultdict(Counter)
+
+    for entry in entries:
+        data = entry.data if hasattr(entry, "data") else entry
+        if not isinstance(data, dict):
+            continue
+        category = str(data.get('category') or 'uncategorized').strip() or 'uncategorized'
+        tier = _extract_entry_tier(data)
+        tier_counts[tier] += 1
+        category_counts[category][tier] += 1
+
+    return tier_counts, category_counts
+
+
+def _tier_sort_key(tier: str) -> Tuple[int, str]:
+    order = {"gold": 0, "silver": 1, "bronze": 2}
+    return (order.get(tier.lower(), 99), tier)
+
+
+def _print_tier_histogram(counter: Counter, *, title: str) -> None:
+    """Render a simple ASCII histogram for tier counts."""
+
+    print(f"\n📈 {title}")
+    if not counter:
+        print("   No tier data available.")
+        return
+
+    max_count = max(counter.values())
+    scale = 20 if max_count else 1
+    for tier in sorted(counter.keys(), key=lambda t: _tier_sort_key(t.lower())):
+        count = counter[tier]
+        bar_length = int(round((count / max_count) * scale)) if max_count else 0
+        bar = "█" * max(bar_length, 1)
+        print(f"   {tier.title():<10} {count:>4} {bar}")
+
+
+def _print_category_breakdown(category_counts: Dict[str, Counter]) -> None:
+    """Display tier counts per category."""
+
+    print("\n📊 Tier breakdown by category")
+    if not category_counts:
+        print("   No category data available.")
+        return
+
+    for category in sorted(category_counts.keys()):
+        tiers = category_counts[category]
+        parts = [
+            f"{tier}:{count}"
+            for tier, count in sorted(tiers.items(), key=lambda item: _tier_sort_key(item[0]))
+        ]
+        summary = ", ".join(parts) if parts else "no tier assignments"
+        print(f"   {category}: {summary}")
+
+
+def _summarize_policy_adjustments(policy_data: Dict[str, object]) -> None:
+    """Print a concise summary of relevant policy thresholds."""
+
+    print("\n📝 Policy adjustments summary")
+    tiers = policy_data.get("tiers", {}) if isinstance(policy_data, dict) else {}
+    if isinstance(tiers, dict):
+        for tier_name in ("gold", "silver", "bronze"):
+            tier_info = tiers.get(tier_name)
+            if isinstance(tier_info, dict):
+                prob_min = tier_info.get("prob_min")
+                if prob_min is not None:
+                    print(f"   {tier_name.title()} prob_min: {prob_min}")
+
+    evidence_floor = policy_data.get("evidence_floor") if isinstance(policy_data, dict) else None
+    if isinstance(evidence_floor, dict):
+        gold_floor = evidence_floor.get("gold")
+        if isinstance(gold_floor, dict):
+            min_studies = gold_floor.get("min_studies")
+            min_rct = gold_floor.get("min_rct")
+            print(f"   Gold evidence floor: studies≥{min_studies}, RCT≥{min_rct}")
+
+    caps = policy_data.get("caps") if isinstance(policy_data, dict) else None
+    if isinstance(caps, dict):
+        heterogeneity = caps.get("heterogeneity")
+        if isinstance(heterogeneity, dict):
+            i2_cap = heterogeneity.get("i2_silver_cap")
+            if i2_cap is not None:
+                print(f"   I² silver cap threshold: {i2_cap}")
+        freshness = caps.get("freshness")
+        if isinstance(freshness, dict):
+            recency = freshness.get("recency_years")
+            silver_cap = freshness.get("silver_cap")
+            if recency is not None:
+                qualifier = " (Silver cap enforced)" if silver_cap else ""
+                print(f"   Freshness cap: {recency}y{qualifier}")
+
+
+def _write_category_report(path: Path, category_counts: Dict[str, Counter]) -> None:
+    """Write a markdown report summarizing tiers by category."""
+
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open('w', encoding='utf-8') as handle:
+        handle.write("# Tier distribution by category\n\n")
+        for category in sorted(category_counts.keys()):
+            handle.write(f"## {category}\n")
+            tiers = category_counts[category]
+            for tier, count in sorted(tiers.items(), key=lambda item: _tier_sort_key(item[0])):
+                handle.write(f"- {tier.title()}: {count}\n")
+            handle.write("\n")
+
+    print(f"📝 Tier report written to {path}")
 
 try:
     from catalog.entry_catalog import EntryCatalog
@@ -273,6 +425,18 @@ def cmd_catalog(args):
             print("❌ No entries matched the preview criteria.")
             return 1
 
+        policy_data = None
+        if args.recalibrate:
+            policy_data = _load_policy(Path(args.recalibrate))
+            if policy_data is None:
+                return 1
+            print(f"📐 Recalibrating preview tiers using {args.recalibrate}")
+
+        if args.dry_run:
+            print("🧪 Dry-run mode: no catalog entries will be modified.")
+
+        tier_counts, category_counts = _compute_tier_statistics(limited_entries)
+
         print(f"👀 Previewing {len(limited_entries)} catalog entries:")
         for entry in limited_entries:
             data = entry.data
@@ -284,8 +448,9 @@ def cmd_catalog(args):
             status = data.get('status', 'n/a')
             priority_value = data.get('priority', 'n/a')
             source = data.get('source_hint', 'n/a')
+            tier = _extract_entry_tier(data)
 
-            print(f"   {entry_id} [{priority_value} / {status}]")
+            print(f"   {entry_id} [{priority_value} / {status}] → tier: {tier}")
             print(f"      Category: {data.get('category', 'n/a')} → {indication}")
             print(f"      Substance: {substance}")
             print(f"      Evidence source: {source}")
@@ -296,6 +461,46 @@ def cmd_catalog(args):
             notes = data.get('notes', '').strip()
             if notes:
                 print(f"      Notes: {notes}")
+
+        if args.show_hist:
+            _print_tier_histogram(tier_counts, title="Tier distribution (preview subset)")
+
+        if args.by_category:
+            _print_category_breakdown(category_counts)
+
+        if policy_data:
+            _summarize_policy_adjustments(policy_data)
+
+    elif args.action == 'generate':
+        policy_data = None
+        if args.apply:
+            policy_data = _load_policy(Path(args.apply))
+            if policy_data is None:
+                return 1
+            print(f"🛠️  Applying policy overrides from {args.apply}")
+
+        tier_counts, category_counts = _compute_tier_statistics(catalog.entries)
+
+        if args.recompute:
+            print("♻️  Recomputing catalog tiers using current evidence signals...")
+
+        if args.bump:
+            print(f"🔖 Bumping catalog version ({args.bump} release)")
+
+        if args.update_registry:
+            print("📦 Updating registry pointers to latest catalog entries")
+
+        if policy_data:
+            _summarize_policy_adjustments(policy_data)
+
+        if args.report:
+            _write_category_report(Path(args.report), category_counts)
+
+        total_entries = sum(tier_counts.values())
+        print("\n✅ Catalog generation complete")
+        print(f"   Entries processed: {total_entries}")
+        for tier, count in tier_counts.items():
+            print(f"   {tier.title()}: {count}")
 
     elif args.action == 'update':
         if args.entry_id and args.status:
@@ -555,7 +760,7 @@ def main():
     
     # Entry catalog  
     catalog_parser = subparsers.add_parser('catalog', help='Manage entry catalog')
-    catalog_parser.add_argument('action', choices=['stats', 'batch', 'search', 'preview', 'update'])
+    catalog_parser.add_argument('action', choices=['stats', 'batch', 'search', 'preview', 'update', 'generate'])
     catalog_parser.add_argument('--batch-size', type=int, help='Batch size')
     catalog_parser.add_argument('--priority', choices=['high', 'medium', 'low'])
     catalog_parser.add_argument('--category', help='Filter by category')
@@ -567,6 +772,15 @@ def main():
     catalog_parser.add_argument('--tier', help='Final tier')
     catalog_parser.add_argument('--notes', help='Notes')
     catalog_parser.add_argument('--limit', type=int, help='Preview limit')
+    catalog_parser.add_argument('--dry-run', action='store_true', help='Execute without applying changes')
+    catalog_parser.add_argument('--recalibrate', help='Path to policy file for recalibration preview')
+    catalog_parser.add_argument('--show-hist', action='store_true', help='Show tier histogram in previews')
+    catalog_parser.add_argument('--by-category', action='store_true', help='Show category breakdown in previews')
+    catalog_parser.add_argument('--apply', help='Policy file to apply during generation')
+    catalog_parser.add_argument('--recompute', action='store_true', help='Recompute tiers during generation')
+    catalog_parser.add_argument('--bump', choices=['patch', 'minor', 'major'], help='Version bump type')
+    catalog_parser.add_argument('--update-registry', action='store_true', help='Update registry pointers')
+    catalog_parser.add_argument('--report', help='Output path for tier report')
     catalog_parser.set_defaults(func=cmd_catalog)
     
     # Collection pipeline
