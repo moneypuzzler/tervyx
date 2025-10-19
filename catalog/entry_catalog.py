@@ -34,6 +34,10 @@ class CatalogEntry:
         return self.data.get("priority", "").strip()
 
     @property
+    def evidence_tier(self) -> str:
+        return self.data.get("evidence_tier", "").strip()
+
+    @property
     def status(self) -> str:
         return self.data.get("status", "").strip()
 
@@ -148,7 +152,24 @@ class EntryCatalog:
         )
 
         if priority:
-            filtered = (entry for entry in filtered if entry.priority.lower() == priority.lower())
+            normalized = priority.strip().lower()
+            if normalized in {"high", "medium", "low"}:
+                filtered = (
+                    entry for entry in filtered if entry.priority.lower() == normalized
+                )
+            elif normalized in {"p0", "p1", "p2", "p3", "p4"}:
+                filtered = (
+                    entry
+                    for entry in filtered
+                    if entry.evidence_tier.lower() == normalized
+                )
+            else:
+                filtered = (
+                    entry
+                    for entry in filtered
+                    if entry.priority.lower() == normalized
+                    or entry.evidence_tier.lower() == normalized
+                )
         if category:
             filtered = (entry for entry in filtered if entry.category.lower() == category.lower())
 
