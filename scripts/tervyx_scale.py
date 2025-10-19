@@ -11,15 +11,44 @@ import argparse
 import json
 import hashlib
 import os
+import re
 import uuid
 from dataclasses import asdict
 from pathlib import Path
 from datetime import datetime, timezone
 from typing import Dict, List, Optional
 
+import yaml
+
 # Add project root to path
 project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
+
+POLICY_PATH = project_root / "policy.yaml"
+
+
+def _resolve_default_journal_trust_ref() -> str:
+    """Derive the journal-trust snapshot date from the active policy."""
+
+    try:
+        policy_data = yaml.safe_load(POLICY_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        policy_data = None
+
+    if isinstance(policy_data, dict):
+        snapshot = (
+            policy_data.get("gates", {})
+            .get("j", {})
+            .get("use_snapshot")
+        )
+        if isinstance(snapshot, str):
+            candidate = Path(snapshot).stem
+            if "@" in candidate:
+                candidate = candidate.split("@", maxsplit=1)[-1]
+            if re.fullmatch(r"[0-9]{4}-[0-9]{2}-[0-9]{2}", candidate):
+                return candidate
+
+    return datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
 component_errors: Dict[str, ImportError] = {}
 
@@ -559,7 +588,8 @@ def cmd_catalog(args):
 
             manifest_serialized = json.dumps(manifest, sort_keys=True)
             manifest_hash = hashlib.sha256(manifest_serialized.encode("utf-8")).hexdigest()
-            policy_fingerprint = f"0x{manifest_hash[:16]}"
+            compact_hash = f"0x{manifest_hash[:16]}"
+            policy_fingerprint = compact_hash
             manifest["audit_hash"] = manifest_hash
 
             with (version_dir / "run_manifest.json").open("w", encoding="utf-8") as handle:
@@ -585,7 +615,10 @@ def cmd_catalog(args):
             monte_carlo_ref = getattr(args, "monte_carlo_ref", None) or (
                 args.algo_version or "MC@v1.0.0"
             )
-            journal_trust_ref = getattr(args, "journal_trust_ref", None) or "JT-Registry@v1.0.0"
+            journal_trust_ref = (
+                getattr(args, "journal_trust_ref", None)
+                or _resolve_default_journal_trust_ref()
+            )
 
             tier_value = (entry.data.get("final_tier") or "").strip()
             valid_tiers = {"Gold", "Silver", "Bronze", "Red", "Black"}
@@ -635,7 +668,7 @@ def cmd_catalog(args):
                     "journal_trust": journal_trust_ref,
                 },
                 "version": version,
-                "audit_hash": manifest_hash,
+                "audit_hash": compact_hash,
                 "policy_fingerprint": policy_fingerprint,
                 "tier_label_system": "TEL-5",
                 "created": timestamp,

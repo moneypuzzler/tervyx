@@ -2,7 +2,7 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "P_effect_gt_delta": 0.0,
-  "audit_hash": "e18a842e1fc1b00fd51931592f4c2ca1374931ad062b41b73488dbee5a09a7dd",
+  "audit_hash": "0xe18a842e1fc1b00f",
   "category": "sleep",
   "created": "2025-10-19T06:32:39Z",
   "evidence_summary": {
@@ -27,7 +27,7 @@
   "label": "AMBER",
   "policy_fingerprint": "0xe18a842e1fc1b00f",
   "policy_refs": {
-    "journal_trust": "JT-Registry@v1.0.0",
+    "journal_trust": "2025-10-05",
     "monte_carlo": "MC@v1.0.0",
     "tel5_levels": "TEL-5@v1.0.0"
   },

@@ -111,7 +111,7 @@ python scripts/tervyx_scale.py catalog generate \
   --simulation-draws 10000 \
   --tel5-levels-ref "TEL-5@v1.0.0" \
   --monte-carlo-ref "MC@v1.0.0" \
-  --journal-trust-ref "JT-Registry@v1.0.0" \
+  --journal-trust-ref "2025-10-05" \
   --bump minor \
   --runner "scripts/tervyx_batch@0.4.0" \
   --cost-usd 12.74 \
@@ -135,12 +135,15 @@ stable directory hierarchy under `entries/<substance>/<primary_indication>/<entr
 - `citations.json` — DOI bundle and placeholder lists for primary and secondary sources.
 - `evidence.csv` — TEL-5 evidence template headers for study abstraction.
 
+The CLI inspects `policy.yaml` to derive the active journal-trust snapshot date, so scaffolds
+default to ISO-8601 values such as `2025-10-05` unless you explicitly override them.
+
 Override the defaults for policy references and simulation metadata with:
 
 ```bash
   --tel5-levels-ref TEL-5@v1.2.0 \
   --monte-carlo-ref REML-2025.10 \
-  --journal-trust-ref Registry@2025-10 \
+  --journal-trust-ref 2025-10-12 \
   --simulation-seed 20251019 \
   --simulation-draws 25000 \
   --simulation-delta 0.15 \
