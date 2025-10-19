@@ -15,6 +15,16 @@ from datetime import datetime
 from typing import Dict, Iterable, List, Optional, Tuple
 
 
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from tervyx.core import ensure_paths_on_sys_path, settings
+from tervyx.policy import PolicyError, read_policy
+
+ensure_paths_on_sys_path()
+
+
 PRIORITY_LEVELS = {"high", "medium", "low"}
 EVIDENCE_PRIORITY_LEVELS = {"p0", "p1", "p2", "p3", "p4"}
 
@@ -40,38 +50,16 @@ def _matches_priority_filter(entry, filter_value: str) -> bool:
 
     return normalized in {priority_value, evidence_value}
 
-# Add project root to path
-project_root = Path(__file__).parent.parent
-sys.path.insert(0, str(project_root))
-
 component_errors: Dict[str, ImportError] = {}
-
-try:  # Optional dependency
-    import yaml
-except ImportError:  # pragma: no cover - optional at runtime
-    yaml = None  # type: ignore[assignment]
 
 
 def _load_policy(policy_path: Path) -> Optional[Dict[str, object]]:
     """Load a policy YAML file if available."""
 
-    if not policy_path.exists():
-        print(f"❌ Policy file not found: {policy_path}")
-        return None
-
-    if yaml is None:
-        print("❌ PyYAML is required to parse policy files. Install requirements first.")
-        return None
-
     try:
-        with policy_path.open('r', encoding='utf-8') as handle:
-            data = yaml.safe_load(handle) or {}
-    except yaml.YAMLError as exc:  # type: ignore[attr-defined]
-        print(f"❌ Failed to parse policy file: {exc}")
-        return None
-
-    if not isinstance(data, dict):
-        print("❌ Policy file must contain a mapping at the top level.")
+        data = read_policy(policy_path)
+    except PolicyError as exc:
+        print(f"❌ {exc}")
         return None
 
     return data
@@ -293,7 +281,7 @@ def _build_entry_artifact_index() -> None:
     if ENTRY_ARTIFACTS_BUILT:
         return
 
-    base = project_root / "entries"
+    base = settings.entries_path
     if not base.exists():
         ENTRY_ARTIFACTS_BUILT = True
         return

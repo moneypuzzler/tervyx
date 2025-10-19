@@ -18,37 +18,40 @@ from pathlib import Path
 from datetime import datetime, timezone
 from typing import Dict, List, Optional
 
-import yaml
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
-# Add project root to path
-project_root = Path(__file__).parent.parent
-sys.path.insert(0, str(project_root))
+from tervyx.core import ensure_paths_on_sys_path, settings
+from tervyx.policy import PolicyError, load_journal_snapshot, read_policy
 
-POLICY_PATH = project_root / "policy.yaml"
+ensure_paths_on_sys_path()
+
+POLICY_PATH = settings.policy_path
 
 
 def _resolve_default_journal_trust_ref() -> str:
     """Derive the journal-trust snapshot date from the active policy."""
 
     try:
-        policy_data = yaml.safe_load(POLICY_PATH.read_text(encoding="utf-8"))
-    except Exception:
-        policy_data = None
+        policy_data = read_policy(POLICY_PATH)
+    except PolicyError as exc:
+        raise SystemExit(f"❌ {exc}") from exc
 
-    if isinstance(policy_data, dict):
-        snapshot = (
-            policy_data.get("gates", {})
-            .get("j", {})
-            .get("use_snapshot")
-        )
-        if isinstance(snapshot, str):
-            candidate = Path(snapshot).stem
-            if "@" in candidate:
-                candidate = candidate.split("@", maxsplit=1)[-1]
-            if re.fullmatch(r"[0-9]{4}-[0-9]{2}-[0-9]{2}", candidate):
-                return candidate
+    snapshot_rel = (
+        policy_data.get("gates", {})
+        .get("j", {})
+        .get("use_snapshot")
+    )
+    snapshot_data = load_journal_snapshot(snapshot_rel)
+    snapshot_date = snapshot_data.get("snapshot_date") if isinstance(snapshot_data, dict) else None
 
-    return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    if isinstance(snapshot_date, str) and re.fullmatch(r"[0-9]{4}-[0-9]{2}-[0-9]{2}", snapshot_date):
+        return snapshot_date
+
+    raise SystemExit(
+        "❌ Journal trust snapshot date missing or invalid in policy configuration."
+    )
 
 component_errors: Dict[str, ImportError] = {}
 
