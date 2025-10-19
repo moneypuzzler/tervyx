@@ -77,6 +77,9 @@ python scripts/tervyx_scale.py registry get --issn "1389-9457"
 # View catalog statistics
 python scripts/tervyx_scale.py catalog stats
 
+# Preview a small slice for manual review
+python scripts/tervyx_scale.py catalog preview --limit 5 --priority high --category sleep
+
 # Get next batch for processing
 python scripts/tervyx_scale.py catalog batch --batch-size 20 --priority high --category sleep
 
@@ -250,7 +253,7 @@ python scripts/tervyx_scale.py prisma "magnesium_sleep_review" export --format e
 
 ### Scaling Benchmarks
 - **Journal Registry**: 10,000+ journals in Parquet format
-- **Entry Catalog**: 1,200+ entry seeds across 5 categories  
+- **Entry Catalog**: 210 curated P0/P1 entries across 10 categories (CSV-managed)
 - **Collection Pipeline**: 1,000 studies/hour from multiple APIs
 - **Relevance Scoring**: 500 abstracts/minute with BERT
 - **PRISMA Screening**: 1,000+ studies with automated workflows
@@ -271,8 +274,8 @@ The scaling architecture is integrated into GitHub Actions CI/CD:
     # Test journal registry
     python -c "from registry.journal_registry import JournalRegistry; ..."
     
-    # Test entry catalog  
-    python -c "from catalog.entry_catalog import EntryCatalog; ..."
+    # Test entry catalog
+    python -c "from catalog.entry_catalog import EntryCatalog; print(EntryCatalog().get_catalog_statistics())"
     
     # Test relevance scorer
     python -c "from scoring.relevance_scorer import RelevanceScorer; ..."
@@ -283,30 +286,32 @@ The scaling architecture is integrated into GitHub Actions CI/CD:
 - **API failures**: Graceful degradation with error logging
 - **Missing dependencies**: Core functionality preserved
 
-## 📋 Entry Categories & Seeds
+## 📋 Entry Catalog Structure
 
-### Generated Entry Matrix
-The catalog automatically generates 1000+ entry seeds across:
+### Manual Seed List (P0 focus)
+The catalog is now sourced from a manually maintained CSV file located at
+`catalog/entry_catalog.csv`. Each row represents an intentionally curated backlog item with:
 
-1. **Sleep** (320 entries)
-   - Substances: magnesium, melatonin, valerian, ashwagandha, l-theanine, GABA, chamomile
-   - Indications: sleep_onset, sleep_maintenance, sleep_quality, REM_sleep
+1. **Core identifiers** – `entry_id`, `category`, and `substance`
+2. **Formulation policy** – explicit merge/split rationale and notes
+3. **Primary indication & priority** – P0 triage guidance for batch execution
+4. **Workflow status** – pending/ready/completed tracking with timestamps
 
-2. **Cognition** (280 entries)  
-   - Substances: lion's mane, bacopa, rhodiola, ginkgo, phosphatidylserine, alpha-GPC
-   - Indications: memory, attention, processing_speed, executive_function
+Initial backlog coverage now spans:
 
-3. **Mental Health** (260 entries)
-   - Substances: St. John's wort, SAM-e, omega-3, probiotics, vitamin D, B-complex
-   - Indications: depression, anxiety, mood, stress, wellbeing
+- **Sleep (20 entries)** – foundational insomnia stacks, formulation split guards for melatonin/cannabinoids
+- **Cognition (20 entries)** – nootropic staples with bioavailability variants and stress-adaptogen crossovers
+- **Mental Health (20 entries)** – EPA-forward mood protocols, psychobiotic splits, and adjunct ketamine/psychedelic support
+- **Cardiovascular (20 entries)** – lipid and blood-pressure interventions with nitrate/nicotinic comparisons
+- **Metabolic (20 entries)** – glucose and lipid modulation compounds with evidence-tier cycling
+- **Inflammation (20 entries)** – joint/systemic anti-inflammatory compounds with merge vs split safeguards
+- **Longevity (20 entries)** – NAD+ boosters, mitochondrial supports, and senolytics with formulation tracking
+- **Musculoskeletal (20 entries)** – recovery, bone density, and protein stack prioritization
+- **Immune (20 entries)** – upper respiratory and antiviral nutraceutical playbooks
+- **Endocrine (20 entries)** – PCOS, thyroid, androgen, and menopause support matrices
 
-4. **Cardiovascular** (240 entries)
-   - Substances: omega-3, CoQ10, garlic, hawthorn, red yeast rice, bergamot
-   - Indications: blood_pressure, cholesterol, heart_rate, endothelial_function
-
-5. **Renal Safety** (180 entries)
-   - Substances: creatine, protein powder, NSAIDs, high-dose vitamins, herbal extracts  
-   - Indications: kidney_function, creatinine_levels, GFR_impact, proteinuria
+Entries are maintained directly in `catalog/entry_catalog.csv`; operators can append or
+edit rows as soon as category owners approve new backlog items.
 
 ### Priority Assignment
 - **High Priority** (30%): Strong evidence expected, clinical importance
