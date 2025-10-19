@@ -6,6 +6,7 @@ Command-line interface for 1000+ entry scaling operations
 
 import sys
 import argparse
+import csv
 import json
 from collections import Counter, defaultdict
 from dataclasses import asdict
@@ -461,6 +462,80 @@ def cmd_catalog(args):
             notes = data.get('notes', '').strip()
             if notes:
                 print(f"      Notes: {notes}")
+            if recalibrated:
+                base_tier = recalibrated.get('base_tier', tier)
+                if base_tier != tier:
+                    print(f"      Policy base tier: {base_tier} → adjusted: {tier}")
+                else:
+                    print(f"      Policy base tier: {base_tier}")
+                probability = recalibrated.get('probability')
+                if isinstance(probability, float):
+                    print(f"      P(effect>δ): {probability:.3f}")
+                studies = recalibrated.get('n_studies')
+                rcts = recalibrated.get('n_rct')
+                latest_year = recalibrated.get('latest_year')
+                if studies is not None or rcts is not None:
+                    study_part = f"studies={studies}" if studies is not None else "studies=?"
+                    rct_part = f"RCTs={rcts}" if rcts is not None else "RCTs=?"
+                    print(f"      Evidence counts: {study_part}, {rct_part}")
+                if latest_year is not None:
+                    print(f"      Latest study year: {latest_year}")
+                for adjustment in recalibrated.get('adjustments', []):
+                    print(f"      ⚠️  {adjustment}")
+            elif recalibrated_info:
+                print("      ⚠️  No artifacts found for recalibration — catalog tier retained")
+
+        if args.show_hist:
+            _print_tier_histogram(tier_counts, title="Tier distribution (preview subset)")
+
+        if args.by_category:
+            _print_category_breakdown(category_counts)
+
+        if policy_data:
+            _summarize_policy_adjustments(policy_data)
+
+    elif args.action == 'generate':
+        policy_data = None
+        recalibrated_info: Dict[str, Dict[str, object]] = {}
+        if args.apply:
+            policy_data = _load_policy(Path(args.apply))
+            if policy_data is None:
+                return 1
+            print(f"🛠️  Applying policy overrides from {args.apply}")
+            recalibrated_info = _recalibrate_entries(catalog.entries, policy_data)
+
+        tier_counts, category_counts = _compute_tier_statistics(
+            catalog.entries,
+            recalibrated=recalibrated_info or None,
+        )
+
+        if args.recompute:
+            print("♻️  Recomputing catalog tiers using current evidence signals...")
+
+        if args.bump:
+            print(f"🔖 Bumping catalog version ({args.bump} release)")
+
+        if args.update_registry:
+            print("📦 Updating registry pointers to latest catalog entries")
+
+        if policy_data:
+            _summarize_policy_adjustments(policy_data)
+            adjusted_entries = sum(
+                1
+                for entry_id, info in recalibrated_info.items()
+                if info.get('tier') != info.get('base_tier')
+            )
+            if adjusted_entries:
+                print(f"   Policy adjustments affected {adjusted_entries} entries")
+
+        if args.report:
+            _write_category_report(Path(args.report), category_counts)
+
+        total_entries = sum(tier_counts.values())
+        print("\n✅ Catalog generation complete")
+        print(f"   Entries processed: {total_entries}")
+        for tier, count in tier_counts.items():
+            print(f"   {tier.title()}: {count}")
 
         if args.show_hist:
             _print_tier_histogram(tier_counts, title="Tier distribution (preview subset)")
