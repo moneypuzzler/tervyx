@@ -2,7 +2,7 @@
 
 **A Reproducible Governance & Labeling Standard for Health-Information Evidence**
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=[[URL]](https://github.com/moneypuzzler/tervyx/))](https://hits.seeyoufarm.com)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/moneypuzzler/tervyx&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views&edge_flat=false)](https://hits.seeyoufarm.com)
 
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17364486-blue)](https://doi.org/10.5281/zenodo.17364486)
 [![Patent](https://img.shields.io/badge/Patent-KR%2010--2025--0143351-red)](https://doi.org/10.5281/zenodo.17364486)
