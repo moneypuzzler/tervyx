@@ -8,11 +8,31 @@ monotonicity where Φ or K violations cannot be offset by high J scores.
 
 import re
 import math
-import json
+from pathlib import Path
+from functools import lru_cache
 from typing import Dict, Any, List, Tuple, Optional
 import logging
 
+import yaml
+
 logger = logging.getLogger(__name__)
+
+ROOT_DIR = Path(__file__).resolve().parents[1]
+RULES_DIR = ROOT_DIR / "protocol"
+
+
+@lru_cache(maxsize=1)
+def _load_phi_rules() -> Dict[str, Any]:
+    rules_path = RULES_DIR / "phi_rules.yaml"
+    with rules_path.open(encoding="utf-8") as handle:
+        return yaml.safe_load(handle)
+
+
+@lru_cache(maxsize=1)
+def _load_l_rules() -> Dict[str, Any]:
+    rules_path = RULES_DIR / "L_rules.yaml"
+    with rules_path.open(encoding="utf-8") as handle:
+        return yaml.safe_load(handle)
 
 
 def sigmoid(x: float, a: float = 3.0, b: float = -1.5) -> float:
@@ -82,117 +102,74 @@ def compute_journal_trust_score(snapshot: Dict[str, Any], journal_id: str) -> fl
     return max(0.0, min(1.0, j_score))
 
 
-def check_phi_gate(category: str, evidence_rows: List[Dict[str, Any]], 
+def check_phi_gate(category: str, evidence_rows: List[Dict[str, Any]],
                    substance: str = "") -> Tuple[str, str]:
-    """
-    Check Φ (Phi) gate for physiological impossibility and category misrouting.
-    
-    This is the first safety gate that enforces category appropriateness
-    and basic physiological plausibility. Failures here result in BLACK
-    tier regardless of other evidence quality.
-    
-    Args:
-        category: Target evidence category (e.g., 'sleep', 'cognition')
-        evidence_rows: List of study evidence (ESV format)
-        substance: Substance name for context-specific checks
-    
-    Returns:
-        Tuple of (gate_result, reason)
-        gate_result: "PASS" or "FAIL" (no AMBER for safety gates)
-    """
+    """Evaluate Φ gate using deterministic policy rules."""
+
     if not evidence_rows:
         return "FAIL", "No evidence provided for Φ gate evaluation"
-    
-    # Define allowed effect types per category (from TEL-5 taxonomy)
-    category_constraints = {
-        "sleep": {
-            "allowed_effects": {"SMD", "MD"},
-            "forbidden_substances": [],  # No specific substance restrictions
-            "physiological_checks": ["sleep_duration", "sleep_quality"]
-        },
-        "cognition": {
-            "allowed_effects": {"SMD", "MD"},
-            "forbidden_substances": [],
-            "physiological_checks": ["cognitive_function"]
-        },
-        "mental_health": {
-            "allowed_effects": {"SMD", "MD"},
-            "forbidden_substances": [],
-            "physiological_checks": ["mood", "anxiety", "depression"]
-        },
-        "renal_safety": {
-            "allowed_effects": {"MD", "SMD"},
-            "forbidden_substances": ["high_dose_nephrotoxic"],
-            "physiological_checks": ["kidney_function"]
-        },
-        "cardiovascular": {
-            "allowed_effects": {"MD", "SMD"},
-            "forbidden_substances": [],
-            "physiological_checks": ["blood_pressure", "lipids"]
-        }
-    }
-    
-    constraints = category_constraints.get(category)
-    if not constraints:
+
+    rules = _load_phi_rules()
+    category_rules = (rules.get("categories") or {}).get(category)
+
+    if not category_rules:
         return "FAIL", f"Unknown category '{category}' - cannot validate appropriateness"
-    
-    violations = []
-    
-    # Check effect type appropriateness
-    allowed_effects = constraints["allowed_effects"]
-    for i, study in enumerate(evidence_rows):
-        effect_type = study.get("effect_type", "").upper()
-        if effect_type not in allowed_effects:
-            violations.append(f"Study {i+1}: {effect_type} inappropriate for {category}")
-    
-    # Category misrouting checks
-    category_violations = _check_category_misrouting(category, substance, evidence_rows)
-    violations.extend(category_violations)
-    
-    # Physiological impossibility checks  
-    physio_violations = _check_physiological_impossibilities(category, evidence_rows)
-    violations.extend(physio_violations)
-    
+
+    violations: List[str] = []
+    allowed_effects = {str(eff).upper() for eff in category_rules.get("allowed_effects", [])}
+
+    for idx, study in enumerate(evidence_rows, start=1):
+        effect_type = str(study.get("effect_type", "")).upper()
+        if allowed_effects and effect_type not in allowed_effects:
+            violations.append(f"Study {idx}: {effect_type} not permitted for {category}")
+
+        effect_point = float(study.get("effect_point", 0) or 0)
+
+        for cap in category_rules.get("physiological_caps", []) or []:
+            effect_types = {str(e).upper() for e in cap.get("effect_types", []) if e}
+            if effect_types and effect_type not in effect_types:
+                continue
+
+            if "max_abs" in cap and abs(effect_point) > float(cap["max_abs"]):
+                violations.append(
+                    f"Study {idx}: {cap.get('id', 'cap')} |effect| {abs(effect_point):.2f} > {cap['max_abs']}"
+                )
+            if "max" in cap and effect_point > float(cap["max"]):
+                violations.append(
+                    f"Study {idx}: {cap.get('id', 'cap')} effect {effect_point:.2f} > {cap['max']}"
+                )
+            if "min" in cap and effect_point < float(cap["min"]):
+                violations.append(
+                    f"Study {idx}: {cap.get('id', 'cap')} effect {effect_point:.2f} < {cap['min']}"
+                )
+
+    substance_lower = substance.lower()
+    for ban in category_rules.get("forbidden_substances", []) or []:
+        pattern = str(ban.get("pattern", "")).lower()
+        if pattern and pattern in substance_lower:
+            violations.append(ban.get("reason", f"Substance pattern '{pattern}' blocked for {category}"))
+
+    for rule in rules.get("misrouting", []) or []:
+        pattern = str(rule.get("substance_pattern", "")).lower()
+        blocked = {str(cat).lower() for cat in rule.get("blocked_categories", [])}
+        if pattern and pattern in substance_lower and category.lower() in blocked:
+            violations.append(rule.get("reason", "Category misrouting detected"))
+
     if violations:
-        reason = f"Category/physiological violations: {'; '.join(violations[:2])}"
+        reason = "Category/physiological violations: " + "; ".join(violations[:2])
         return "FAIL", reason
-    
+
     return "PASS", "No category misrouting or physiological impossibilities detected"
 
 
-def _check_category_misrouting(category: str, substance: str, 
-                              evidence_rows: List[Dict[str, Any]]) -> List[str]:
-    """Check for obvious category misrouting (internal helper)."""
-    violations = []
-    
-    # Example: Magnesium glycinate for renal improvement (from paper example)
-    if category == "renal_safety" and "magnesium" in substance.lower():
-        # This would be flagged as category misrouting in the paper
-        violations.append("Magnesium supplementation inappropriate for renal improvement claims")
-    
-    # Add more category-specific routing rules as needed
-    return violations
+def _check_category_misrouting(*_args: Any, **_kwargs: Any) -> List[str]:  # pragma: no cover - backward compat
+    logger.warning("_check_category_misrouting is deprecated; Φ rules now handled via protocol/phi_rules.yaml")
+    return []
 
 
-def _check_physiological_impossibilities(category: str, 
-                                       evidence_rows: List[Dict[str, Any]]) -> List[str]:
-    """Check for physiological impossibility (internal helper)."""
-    violations = []
-    
-    for i, study in enumerate(evidence_rows):
-        effect_point = study.get("effect_point", 0)
-        effect_type = study.get("effect_type", "").upper()
-        
-        # Extreme effect size checks (category-specific)
-        if category == "sleep" and abs(effect_point) > 5.0:  # SMD > 5 is implausible
-            violations.append(f"Study {i+1}: Implausibly large effect size ({effect_point})")
-        
-        elif category == "renal_safety" and effect_type == "MD":
-            # For eGFR improvements, extreme values are physiologically implausible
-            if effect_point > 50:  # >50 mL/min/1.73m² improvement
-                violations.append(f"Study {i+1}: Implausible renal function improvement")
-    
-    return violations
+def _check_physiological_impossibilities(*_args: Any, **_kwargs: Any) -> List[str]:  # pragma: no cover
+    logger.warning("_check_physiological_impossibilities is deprecated; Φ caps now handled via protocol rules")
+    return []
 
 
 def check_r_gate(evidence_rows: List[Dict[str, Any]], 
@@ -404,71 +381,43 @@ def _check_substance_safety(substance: str, evidence_rows: List[Dict[str, Any]])
 
 
 def check_l_gate(text_content: str, language: str = "en") -> Tuple[str, bool, Optional[str]]:
-    """
-    Check L (Exaggeration Language) gate for misleading language patterns.
-    
-    Detects "cure/permanent/instant/miracle/risk-free" patterns in multiple languages
-    as specified in the TERVYX Protocol paper.
-    
-    Args:
-        text_content: Text to analyze (claim, title, abstract, etc.)
-        language: Language code ("en", "ko" for English/Korean bilingual support)
-    
-    Returns:
-        Tuple of (gate_result, violation_detected, matched_pattern)
-    """
+    """Check L-gate using rule table from protocol/L_rules.yaml."""
+
     if not text_content:
         return "PASS", False, None
-    
-    # Bilingual exaggeration patterns from TERVYX Protocol Table
-    patterns = {
-        "english": [
-            r"\b(cure|completely\s*cured|permanent\s*cure)\b",
-            r"\b(instant(ly)?|immediate(ly)?)\b",
-            r"\b(cure[-\s]?all|panacea|works\s*for\s*everything)\b", 
-            r"\b(no\s*side\s*effects|risk[-\s]?free)\b",
-            r"\b(world[-\s]?first|medical\s*breakthrough)\b"
-        ],
-        "korean": [
-            r"완전(히)?\s*(치료|완치)",
-            r"즉시|바로|당장",
-            r"모든\s*질병|만병통치|만능",
-            r"부작용\s*(전혀\s*)?없(음|다)",
-            r"세계\s*최초|의학계\s*혁신"
-        ]
-    }
-    
-    # Exception patterns (allowed contexts)
-    exceptions = [
-        r"adjuvant\s*to\s*treatment",
-        r"helps\s*with",
-        r"gradual",
-        r"over\s*weeks",
-        r"few\s*side\s*effects",
-        r"safety\s*established"
-    ]
-    
-    # Check for violations
-    all_patterns = patterns["english"]
-    if language == "ko" or language == "bilingual":
-        all_patterns.extend(patterns["korean"])
-    
-    for pattern in all_patterns:
-        try:
-            match = re.search(pattern, text_content, flags=re.IGNORECASE)
-            if match:
-                # Check if it's in an exception context
-                match_context = text_content[max(0, match.start()-50):match.end()+50]
-                is_exception = any(re.search(exc, match_context, re.IGNORECASE) 
-                                 for exc in exceptions)
-                
-                if not is_exception:
-                    return "FLAG", True, pattern
-                    
-        except re.error as e:
-            logger.warning(f"Invalid regex pattern '{pattern}': {e}")
-            continue
-    
+
+    rules = _load_l_rules()
+    language = language.lower()
+
+    if language not in {"en", "ko", "bilingual"}:
+        language = "bilingual"
+
+    lang_keys = ["en"] if language == "en" else ["ko"] if language == "ko" else ["en", "ko"]
+
+    for entry in rules.get("forbidden", []) or []:
+        patterns: List[str] = []
+        for key in lang_keys:
+            patterns.extend(entry.get(key, []))
+
+        exceptions = [re.compile(exc, re.IGNORECASE) for exc in entry.get("exceptions", [])]
+
+        for pattern in patterns:
+            try:
+                regex = re.compile(pattern, re.IGNORECASE)
+            except re.error as exc:  # pragma: no cover - defensive logging
+                logger.warning("Invalid L-gate regex '%s': %s", pattern, exc)
+                continue
+
+            match = regex.search(text_content)
+            if not match:
+                continue
+
+            context = text_content[max(0, match.start() - 50): match.end() + 50]
+            if any(exc.search(context) for exc in exceptions):
+                continue
+
+            return "FLAG", True, entry.get("id", pattern)
+
     return "PASS", False, None
 
 

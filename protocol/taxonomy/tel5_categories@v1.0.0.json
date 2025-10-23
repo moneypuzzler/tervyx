@@ -9,7 +9,7 @@
   "tiers": [
     {
       "name": "Gold",
-      "min_p": 0.80,
+      "min_p": 0.90,
       "label": "PASS",
       "color": "#FFD700",
       "confidence": "High",
@@ -20,7 +20,7 @@
     },
     {
       "name": "Silver", 
-      "min_p": 0.60,
+      "min_p": 0.75,
       "label": "PASS",
       "color": "#C0C0C0", 
       "confidence": "Moderate",
@@ -31,11 +31,11 @@
     },
     {
       "name": "Bronze",
-      "min_p": 0.40,
+      "min_p": 0.60,
       "label": "AMBER",
       "color": "#CD7F32",
       "confidence": "Low",
-      "description": "Low confidence evidence (P ≥ 0.40)",
+      "description": "Low confidence evidence (P ≥ 0.60)",
       "recommendation": "Evidence provides limited support; further research needed",
       "icon": "🥉",
       "tel5_level": 3

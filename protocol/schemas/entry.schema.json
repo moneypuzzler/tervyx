@@ -200,6 +200,34 @@
       "type": "object",
       "description": "CSL-JSON citation data for reference managers"
     },
+    "references": {
+      "type": "array",
+      "description": "Per-study references embedded for downstream consumers",
+      "items": {
+        "type": "object",
+        "properties": {
+          "study_id": {
+            "type": "string",
+            "description": "Identifier of the cited study"
+          },
+          "citation": {
+            "type": "string",
+            "description": "Deterministic formatted citation text"
+          },
+          "doi": {
+            "type": ["string", "null"],
+            "description": "Digital Object Identifier"
+          },
+          "url": {
+            "type": ["string", "null"],
+            "format": "uri",
+            "description": "Resolvable URL for the reference"
+          }
+        },
+        "required": ["study_id", "citation"],
+        "additionalProperties": false
+      }
+    },
     "doi": {
       "type": "string",
       "pattern": "^10\\..+",

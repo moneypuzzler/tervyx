@@ -1,0 +1,51 @@
+version: v1.0.0
+updated: 2025-10-19
+notes: |
+  Deterministic Φ gate rules enforcing physiological plausibility and
+  category routing for TEL-5 safety governance. Rules are applied before
+  probabilistic gates and must not be bypassed by downstream scores.
+
+categories:
+  sleep:
+    allowed_effects: ["SMD", "MD"]
+    physiological_caps:
+      - id: sleep_extreme_effect
+        description: "Absolute SMD beyond 5 indicates implausible improvement"
+        effect_types: ["SMD", "MD"]
+        max_abs: 5.0
+    forbidden_substances: []
+
+  cognition:
+    allowed_effects: ["SMD", "MD"]
+    physiological_caps: []
+    forbidden_substances: []
+
+  mental_health:
+    allowed_effects: ["SMD", "MD"]
+    physiological_caps: []
+    forbidden_substances: []
+
+  cardiovascular:
+    allowed_effects: ["MD", "SMD"]
+    physiological_caps:
+      - id: bp_implausible_drop
+        description: "Blood pressure mean difference exceeding 40 mmHg is implausible"
+        effect_types: ["MD"]
+        max_abs: 40.0
+    forbidden_substances: []
+
+  renal_safety:
+    allowed_effects: ["MD", "SMD"]
+    physiological_caps:
+      - id: egfr_implausible_gain
+        description: "eGFR improvement greater than 50 mL/min/1.73m² is implausible"
+        effect_types: ["MD"]
+        max_abs: 50.0
+    forbidden_substances:
+      - pattern: "magnesium"
+        reason: "Magnesium supplementation is contraindicated for renal recovery claims"
+
+misrouting:
+  - substance_pattern: "magnesium"
+    blocked_categories: ["renal_safety"]
+    reason: "Magnesium formulations cannot be routed to renal recovery claims per TEL-5"

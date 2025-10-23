@@ -12,6 +12,8 @@ from typing import List, Dict, Any, Tuple, Optional
 import logging
 import time
 
+from engine.policy_fingerprint import compute_policy_fingerprint
+
 logger = logging.getLogger(__name__)
 
 
@@ -158,12 +160,13 @@ def compute_heterogeneity_stats(y: np.ndarray, v: np.ndarray, tau2: float) -> Di
     }
 
 
-def run_reml_mc_analysis(evidence_rows: List[Dict[str, Any]], 
-                        delta: float, 
+def run_reml_mc_analysis(evidence_rows: List[Dict[str, Any]],
+                        delta: float,
                         benefit_direction: int = 1,
-                        seed: int = 20251005, 
-                        n_draws: int = 10000, 
-                        tau2_method: str = "REML") -> Dict[str, Any]:
+                        seed: int = 20251005,
+                        n_draws: int = 10000,
+                        tau2_method: str = "REML",
+                        policy_fingerprint: Optional[str] = None) -> Dict[str, Any]:
     """
     Run REML-based Monte Carlo meta-analysis with unified benefit direction.
     
@@ -187,6 +190,7 @@ def run_reml_mc_analysis(evidence_rows: List[Dict[str, Any]],
     start_time = time.time()
     
     if not evidence_rows:
+        fingerprint = policy_fingerprint or compute_policy_fingerprint().compact
         return {
             "seed": seed,
             "n_draws": n_draws,
@@ -203,7 +207,8 @@ def run_reml_mc_analysis(evidence_rows: List[Dict[str, Any]],
             "total_n": 0,
             "benefit_direction": benefit_direction,
             "environment": f"Python {'.'.join(map(str, [3, 11]))}, NumPy {np.__version__}",
-            "error": "No evidence provided"
+            "error": "No evidence provided",
+            "policy_fingerprint": fingerprint
         }
     
     # Step 1: Preprocess evidence with unified benefit direction
@@ -263,6 +268,7 @@ def run_reml_mc_analysis(evidence_rows: List[Dict[str, Any]],
     computation_time = (time.time() - start_time) * 1000  # Convert to milliseconds
     
     # Step 4: Return results in simulation.json format
+    fingerprint = policy_fingerprint or compute_policy_fingerprint().compact
     result = {
         "seed": seed,
         "n_draws": n_draws,
@@ -284,6 +290,7 @@ def run_reml_mc_analysis(evidence_rows: List[Dict[str, Any]],
         "benefit_note": _get_benefit_note(benefit_direction),
         "environment": f"Python 3.11, NumPy {np.__version__}, SciPy 1.11.0",
         "gate_terminated": False,
+        "termination_gate": "none",
         "reml_convergence": {
             "converged": True,
             "iterations": 1,  # Grid search is deterministic
@@ -294,7 +301,8 @@ def run_reml_mc_analysis(evidence_rows: List[Dict[str, Any]],
             "P_value": round(P, 6),
             "phi_violation": False,  # Set by gates module
             "k_violation": False     # Set by gates module
-        }
+        },
+        "policy_fingerprint": fingerprint
     }
     
     return result

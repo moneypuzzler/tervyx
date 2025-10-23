@@ -1,3 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
-Yamatsu2016,2016,RCT,SMD,-0.4700,-0.8200,-0.1200,30,30,some concerns,10.1007/s10068-016-0076-9,food_sci_biotechnol
-Abdou2006,2006,RCT,SMD,-0.4000,-0.7600,-0.0400,30,30,some concerns,10.1002/biof.5520260305,biofactors

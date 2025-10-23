@@ -4,32 +4,26 @@ TERVYX Protocol CLI
 ===================
 
 Command line interface for building, validating, and auditing TERVYX evidence
-entries. The CLI provides three complementary workflows:
+entries. The CLI provides two complementary workflows:
 
 1. Manual curation (``new``/``build``/``validate``) for teams that already have
    structured study data in ``entries/.../evidence.csv``.
 2. Policy and governance utilities (``fingerprint``/``status``) that surface
    reproducibility fingerprints and TEL-5 gate summaries.
-3. Real-data ingestion (``ingest``) which orchestrates the production pipeline
-   combining PubMed, Gemini (tiered), journal-quality assessments, and the REML
-   + Monte Carlo engine.
 
 The previous ``scripts/vera.py`` tooling shipped synthetic templates and HBV
-labels. This rewrite removes fabricated defaults, aligns all commands with the
-TERVYX naming, and wires the real-data pipeline so that entries can be generated
-from actual publications once API credentials are configured.
+labels. This rewrite removes fabricated defaults and aligns all commands with
+the deterministic TEL-5 pipeline specified in the TERVYX Protocol v1.0.
 """
 
 from __future__ import annotations
 
 import argparse
-import asyncio
 import csv
 import json
-import os
 import pathlib
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Any, Dict, Iterable, List, Optional
 
 
@@ -58,17 +52,6 @@ from mc_meta import run_reml_mc_analysis, validate_evidence_data  # type: ignore
 from tel5_rules import apply_l_gate_penalty, tel5_classify  # type: ignore  # noqa: E402
 from gates import evaluate_all_gates  # type: ignore  # noqa: E402
 from schema_validate import validate_all_artifacts  # type: ignore  # noqa: E402
-
-try:  # Optional: real-data pipeline (skips gracefully in environments without deps)
-    from real_tervyx_pipeline import RealTERVYXPipeline  # type: ignore  # noqa: E402
-except Exception:  # pragma: no cover - pipeline is optional for fast tests
-    RealTERVYXPipeline = None  # type: ignore
-
-# Shared credential helpers
-try:  # noqa: E402 - depends on SYSTEM_PATH injection above
-    from credential_validation import validate_gemini_api_key  # type: ignore
-except Exception:  # pragma: no cover - helper is only required for ingest
-    validate_gemini_api_key = None  # type: ignore
 
 # ---------------------------------------------------------------------------
 # Constants
@@ -210,8 +193,18 @@ def cmd_new(args: argparse.Namespace) -> None:
     evidence_path = entry_dir / "evidence.csv"
     evidence_path.write_text(DEFAULT_ENTRY_TEMPLATE_HEADER + "\n", encoding="utf-8")
 
+    fingerprint = load_policy_fingerprint()
+    citations_stub = {
+        "generated": datetime.now(timezone.utc).isoformat(),
+        "policy_fingerprint": fingerprint.compact,
+        "source_evidence": str(evidence_path.relative_to(ROOT)),
+        "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+        "studies": [],
+        "references": [],
+    }
+
     # citations & metadata placeholders
-    write_json(entry_dir / "citations.json", {"studies": [], "preferred_citation": ""})
+    write_json(entry_dir / "citations.json", citations_stub)
     write_json(entry_dir / "metadata.json", meta)
 
     # PRISMA log scaffold (CSV header only)
@@ -429,61 +422,6 @@ def cmd_status(_: argparse.Namespace) -> None:
             print(f"Last Audit Record  : {lines[-1].strip()}")
 
 
-def cmd_ingest(args: argparse.Namespace) -> None:
-    if RealTERVYXPipeline is None:
-        raise RuntimeError(
-            "Real pipeline modules are unavailable. Ensure system dependencies are installed "
-            "and rerun."
-        )
-
-    email = args.email or os.getenv("TERVYX_EMAIL")
-    gemini_key = args.gemini_key or os.getenv("GEMINI_API_KEY")
-    ncbi_key = args.ncbi_key or os.getenv("NCBI_API_KEY")
-
-    if validate_gemini_api_key is None:
-        raise RuntimeError(
-            "Credential validation helpers are unavailable. Ensure system/credential_validation.py is importable."
-        )
-
-    is_valid_key, cleaned_key, key_error = validate_gemini_api_key(gemini_key)
-    if not is_valid_key:
-        guidance = [key_error]
-        guidance.append(
-            "If you are running inside GitHub Actions, expose the secret using:\n"
-            "  env:\n"
-            "    GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}\n"
-            "    TERVYX_EMAIL: ${{ secrets.TERVYX_EMAIL }}"
-        )
-        raise ValueError("\n".join(guidance))
-
-    gemini_key = cleaned_key or gemini_key
-
-    if not email:
-        raise ValueError("Contact email is required (use --email or TERVYX_EMAIL env var).")
-
-    pipeline = RealTERVYXPipeline(email=email, gemini_api_key=gemini_key, ncbi_api_key=ncbi_key)
-    validation = pipeline.validate_configuration()
-    if not validation.get("overall"):
-        raise RuntimeError(f"Pipeline configuration invalid: {validation}")
-
-    async def _run() -> Dict[str, Any]:
-        return await pipeline.generate_entry(args.substance, args.category)
-
-    result = asyncio.run(_run())
-
-    if "error" in result:
-        raise RuntimeError(f"Pipeline reported error: {result['error']}")
-
-    output_dir = pathlib.Path(args.output_dir or ROOT / "entries_real")
-    entry_path = output_dir / f"{args.substance}/{args.category}/v1"
-    ensure_directory(entry_path)
-
-    write_json(entry_path / "entry.jsonld", result)
-    write_json(entry_path / "analysis_detailed.json", result)
-
-    print(f"✅ Real-data entry generated and saved to {entry_path}")
-
-
 # ---------------------------------------------------------------------------
 # CLI wiring
 # ---------------------------------------------------------------------------
@@ -496,7 +434,6 @@ def build_parser() -> argparse.ArgumentParser:
             "Examples:\n"
             "  tervyx new nutrient melatonin sleep\n"
             "  tervyx build entries/nutrient/melatonin/sleep/v1 --category sleep\n"
-            "  tervyx ingest --substance melatonin --category sleep --output-dir data/ingested\n"
         ),
     )
 
@@ -527,19 +464,6 @@ def build_parser() -> argparse.ArgumentParser:
     # status
     p_status = subparsers.add_parser("status", help="Display repository status and TEL-5 summary")
     p_status.set_defaults(func=cmd_status)
-
-    # ingest
-    p_ingest = subparsers.add_parser("ingest", help="Run real-data ingestion pipeline (PubMed + Gemini)")
-    p_ingest.add_argument("--substance", required=True, help="Substance name to analyse (e.g. melatonin)")
-    p_ingest.add_argument("--category", required=True, help="Outcome category (sleep, cognition, etc.)")
-    p_ingest.add_argument("--email", help="Contact email for NCBI")
-    p_ingest.add_argument("--gemini-key", help="Gemini API key")
-    p_ingest.add_argument("--ncbi-key", help="NCBI API key (optional)")
-    p_ingest.add_argument(
-        "--output-dir",
-        help="Directory to write generated entry artifacts (defaults to entries_real/)",
-    )
-    p_ingest.set_defaults(func=cmd_ingest)
 
     return parser
 
