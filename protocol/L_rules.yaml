@@ -1,0 +1,37 @@
+version: v1.0.0
+updated: 2025-10-19
+notes: |
+  Deterministic L-gate rule table capturing exaggeration language in English
+  and Korean. Patterns are applied case-insensitively with optional exception
+  contexts to avoid false positives.
+
+forbidden:
+  - id: cure
+    description: "Claims of permanent cures"
+    en: ["\\b(cure|completely\\s*cured|permanent\\s*cure)\\b"]
+    ko: ["완전(히)?\\s*(치료|완치)"]
+    exceptions: ["adjuvant to treatment", "helps with"]
+
+  - id: instant
+    description: "Instant or immediate effect claims"
+    en: ["\\b(instant(ly)?|immediate(ly)?)\\b"]
+    ko: ["즉시", "바로", "당장"]
+    exceptions: ["gradual", "over weeks"]
+
+  - id: panacea
+    description: "Works for everything / cure-all"
+    en: ["\\b(cure[-\\s]?all|panacea|works\\s*for\\s*everything)\\b"]
+    ko: ["모든\\s*질병", "만병통치", "만능"]
+    exceptions: []
+
+  - id: risk_free
+    description: "No side effects or risk-free language"
+    en: ["\\b(no\\s*side\\s*effects|risk[-\\s]?free)\\b"]
+    ko: ["부작용\\s*(전혀\\s*)?없(음|다)"]
+    exceptions: ["few side effects"]
+
+  - id: world_first
+    description: "World-first or breakthrough hype"
+    en: ["\\b(world[-\\s]?first|medical\\s*breakthrough)\\b"]
+    ko: ["세계\\s*최초", "의학계\\s*혁신"]
+    exceptions: []

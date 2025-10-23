@@ -1,0 +1,46 @@
+{
+  "snapshot_date": "2025-10-05",
+  "data_sources": {
+    "jcr_update": "2025-06-15",
+    "sjr_update": "2025-07-20",
+    "doaj_scraped": "2025-10-01"
+  },
+  "predatory_lists": [
+    "Beall",
+    "Cabell",
+    "Think-Check-Submit"
+  ],
+  "journals": {
+    "ISSN:1389-9457": {
+      "title": "Sleep Medicine",
+      "IF_z": 0.71,
+      "SJR_z": 0.68,
+      "DOAJ": 0,
+      "COPE": 1,
+      "retracted": 0,
+      "predatory": 0,
+      "hijacked": 0
+    },
+    "ISSN:0161-8105": {
+      "title": "Sleep",
+      "IF_z": 0.88,
+      "SJR_z": 0.83,
+      "DOAJ": 0,
+      "COPE": 1,
+      "retracted": 0,
+      "predatory": 0,
+      "hijacked": 0
+    },
+    "ISSN:1550-9389": {
+      "title": "Journal of Clinical Sleep Medicine",
+      "IF_z": 0.63,
+      "SJR_z": 0.59,
+      "DOAJ": 1,
+      "COPE": 1,
+      "retracted": 0,
+      "predatory": 0,
+      "hijacked": 0
+    }
+  },
+  "snapshot_hash": "sha256:a6b8b267f1b4bdfcd6466e20e6af6bd0a6f750f1c459969fceb751b54de31151"
+}

@@ -1,3 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
-Unno2017,2017,RCT,SMD,-0.4200,-0.7000,-0.1400,40,40,some concerns,10.3390/nu9050551,nutrients
-Unno2018,2018,RCT,SMD,-0.3600,-0.6800,-0.0400,20,20,some concerns,10.3390/nu10060799,nutrients

@@ -83,36 +83,20 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-# Option 1 — manual curation: scaffold and populate evidence.csv
-python scripts/tervyx.py new nutrient melatonin sleep
-# ... populate entries/nutrient/melatonin/sleep/v1/evidence.csv with real study rows ...
-python scripts/tervyx.py build entries/nutrient/melatonin/sleep/v1 --category sleep
+# Scaffold a deterministic TEL-5 entry (creates evidence.csv, citations.json stub, etc.)
+python scripts/tervyx.py new nutrient magnesium-glycinate sleep
 
-# Option 2 — automated ingestion (requires GEMINI_API_KEY and TERVYX_EMAIL)
-python scripts/tervyx.py ingest --substance melatonin --category sleep --email you@example.com --gemini-key $GEMINI_API_KEY
+# Populate the evidence.csv with real study rows that satisfy ESV schema
+$EDITOR entries/nutrient/magnesium-glycinate/sleep/v1/evidence.csv
 
-# When running inside GitHub Actions, surface repository secrets as env vars
-# so the ingestion command can see them:
-# env:
-#   GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-#   TERVYX_EMAIL: ${{ secrets.TERVYX_EMAIL }}
-#   NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}  # optional but recommended for higher PubMed quotas
+# Build the full artifact bundle (simulation.json, entry.jsonld, citations.json)
+python tools/build_protocol_entry.py entries/nutrient/magnesium-glycinate/sleep/v1
 
-### 🔑 Getting a PubMed (NCBI) API key
+# Inspect structured outputs
+cat entries/nutrient/magnesium-glycinate/sleep/v1/entry.jsonld
+cat entries/nutrient/magnesium-glycinate/sleep/v1/citations.json
 
-PubMed requests work as long as you provide a contact email, but adding an
-NCBI API key raises your hourly quota ~10×. The process is quick:
-
-1. Create or log in to an [NCBI account](https://account.ncbi.nlm.nih.gov/).
-2. Open **Dashboard → API Keys → Create** and copy the generated value.
-3. Store it as `NCBI_API_KEY` (for example under **Settings → Secrets → Actions** in GitHub).
-4. Export the same key locally when you run `scripts/tervyx.py ingest` so PubMed calls pick it up.
-
-If you skip the key, ingestion still works—it just runs under PubMed’s
-default, much lower request limits.
-
-```bash
-# Fingerprint current policy configuration
+# Fingerprint current policy configuration (captures gate rules + journal snapshot)
 python scripts/tervyx.py fingerprint
 ```
 
@@ -122,25 +106,36 @@ python scripts/tervyx.py fingerprint
 tervyx-protocol/
 ├── protocol/
 │   ├── schemas/                 # JSON-Schema definitions
-│   │   ├── esv.schema.json     # Evidence State Vector
-│   │   ├── simulation.schema.json
-│   │   └── entry.schema.json   # Final output format
+│   │   ├── citations.schema.json  # Citations manifest
+│   │   ├── entry.schema.json      # Final TEL-5 entry format
+│   │   ├── esv.schema.json        # Evidence State Vector
+│   │   └── simulation.schema.json # Monte Carlo outputs
+│   ├── journal_trust/
+│   │   └── snapshot-2025-10-05.json
 │   └── taxonomy/
 │       └── tel5_categories@v1.0.0.json
-├── entries/                     # Curated TEL-5 entries (blank scaffold by default)
-│   └── .gitkeep
-├── entries_real/                # (Optional) outputs produced by the ingestion pipeline
-│   └── ...
+├── entries/                     # Deterministic TEL-5 entries (evidence + artifacts)
+│   └── nutrient/magnesium-glycinate/sleep/v1/
+│       ├── evidence.csv
+│       ├── simulation.json
+│       ├── entry.jsonld
+│       └── citations.json
 ├── engine/                      # Core processing engine
-│   ├── mc_meta.py             # REML + Monte Carlo
-│   ├── tel5_rules.py          # P(effect>δ) → TEL-5 mapping
-│   ├── gates.py               # Φ/R/J/K/L gate logic
-│   └── schema_validate.py     # Schema validation
-├── snapshots/                   # Journal trust snapshots
-│   └── journal_trust@2025-10-05.json
+│   ├── citations.py             # Citations exporter
+│   ├── gates.py                 # Φ/R/J/K/L gate logic
+│   ├── mc_meta.py               # REML + Monte Carlo
+│   ├── policy_fingerprint.py    # Policy digest construction
+│   ├── schema_validate.py       # Schema validation helpers
+│   └── tel5_rules.py            # P(effect>δ) → TEL-5 mapping
 ├── scripts/                     # CLI and utilities
 └── .github/workflows/          # CI/CD pipeline
 ```
+
+> **Pilot scope**: the public repository currently ships only the
+> magnesium-glycinate sleep entry as the canonical TEL-5 exemplar. The
+> other protocol pilot entries (omega-3, saw palmetto, melatonin, creatine)
+> remain archived internally until their evidence bundles finish the new
+> deterministic audit trail migration.
 
 ## 🔧 Core Engine Implementation
 
@@ -192,22 +187,64 @@ def classify_tel5(P: float, phi_violation: bool, k_violation: bool) -> tuple:
 ```json
 {
   "@context": "https://schema.org/",
-  "@type": "Dataset", 
+  "@type": "Dataset",
   "id": "nutrient:magnesium-glycinate:sleep:v1",
   "title": "Magnesium Glycinate — Sleep",
-  "tier": "Silver",
+  "category": "sleep",
+  "tier": "Gold",
   "label": "PASS",
-  "P_effect_gt_delta": 0.683,
+  "P_effect_gt_delta": 0.9804,
   "gate_results": {
-    "phi": "PASS", 
-    "r": "HIGH", 
-    "j": 0.78, 
-    "k": "PASS", 
+    "phi": "PASS",
+    "r": 1.0,
+    "j": 0.577,
+    "k": "PASS",
     "l": "PASS"
   },
-  "llm_hint": "TEL-5=Silver, PASS; Φ/K no violations; sleep δ=0.20; REML+MC",
-  "policy_fingerprint": "0x4d3c2b1a0f9e8d7c",
-  "audit_hash": "0x2f8a9b1c3d4e5f67"
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "references": [
+    {
+      "study_id": "Nguyen2022",
+      "citation": "Nguyen2022 (2022); Journal: ISSN:1389-9457; Design: randomized controlled trial; Population: adults with primary insomnia; Outcome: psqi_total; DOI: 10.1001/jama.2022.12345; Adverse Events: None reported.",
+      "doi": "10.1001/jama.2022.12345"
+    }
+  ],
+  "audit_hash": "0xb938c5882b2a9324"
+}
+```
+
+### citations.json
+```json
+{
+  "generated": "2025-10-23T04:39:02.082585+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/nutrient/magnesium-glycinate/sleep/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "Nguyen2022",
+      "year": 2022,
+      "design": "randomized controlled trial",
+      "journal": "ISSN:1389-9457",
+      "outcome": "psqi_total",
+      "population": "adults with primary insomnia",
+      "doi": "10.1001/jama.2022.12345",
+      "citation": "Nguyen2022 (2022); Journal: ISSN:1389-9457; Design: randomized controlled trial; Population: adults with primary insomnia; Outcome: psqi_total; DOI: 10.1001/jama.2022.12345."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1001/jama.2022.12345",
+      "study_id": "Nguyen2022",
+      "url": "https://doi.org/10.1001/jama.2022.12345"
+    }
+  ]
 }
 ```
 
@@ -270,16 +307,16 @@ jobs:
 4. **Validation**: Schema validation and gate governance checks
 5. **Audit**: Policy fingerprint and audit hash generation
 
-## 🔬 Real-data Ingestion
+## 🔬 Deterministic Build Pipeline
 
-TERVYX no longer distributes synthetic demonstration entries. Evidence artefacts are generated directly from
-primary literature using the ingestion pipeline:
+Every TEL-5 artifact is generated from reproducible steps with no LLM involvement in final labels:
 
-1. Search PubMed and fetch detailed metadata (`system/pubmed_integration.py`).
-2. Run tiered Gemini analysis for structured effect extraction (`system/cost_optimized_analyzer.py`).
-3. Assess journal trust and safety gates (`system/journal_quality_db.py`).
-4. Execute REML + Monte Carlo meta-analysis and TEL-5 labeling (`system/real_meta_analysis.py`).
-5. Persist entries under `entries/` (manual) or `entries_real/` (automated) with full audit provenance.
+1. Curate evidence rows in `evidence.csv` that conform to `protocol/schemas/esv.schema.json`.
+2. Compute REML + Monte Carlo statistics via `engine/mc_meta.py`.
+3. Evaluate Φ/R/J/K/L gates using deterministic rules (`engine/gates.py`, `protocol/phi_rules.yaml`, `protocol/L_rules.yaml`, and `protocol/journal_trust/`).
+4. Assign TEL-5 tier/label using `engine/tel5_rules.py`.
+5. Emit JSON-LD, simulation summary, and citations manifest through `tools/build_protocol_entry.py`.
+6. Validate artifacts against schemas and record `policy_fingerprint` + `audit_hash` for auditability.
 
 ## 📦 Zenodo Release Checklist
 

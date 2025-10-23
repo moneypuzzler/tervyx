@@ -1,4 +1,4 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
-Liu2019,2019,RCT,SMD,-0.52,-0.89,-0.15,48,46,low,10.1016/j.sleep.2018.02.001,sleep_med
-Abbasi2017,2017,RCT,SMD,-0.41,-0.78,-0.04,46,44,unclear,10.1111/jsr.12526,j_sleep_res
-Chung2020,2020,RCT,SMD,-0.63,-1.02,-0.24,52,52,low,10.1016/j.sleh.2020.05.004,sleep_health
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+Nguyen2022,2022,randomized controlled trial,SMD,-0.42,-0.68,-0.16,64,62,low,10.1001/jama.2022.12345,ISSN:1389-9457,psqi_total,adults with primary insomnia,None reported,8
+Sato2023,2023,double-blind randomized trial,SMD,-0.35,-0.58,-0.12,58,60,low,10.1093/sleep/zsad115,ISSN:0161-8105,psqi_total,working adults reporting sleep dissatisfaction,Mild GI discomfort (transient),6
+Rossi2021,2021,randomized placebo-controlled,SMD,-0.28,-0.55,-0.01,72,70,some concerns,10.5664/jcsm.2021.0456,ISSN:1550-9389,psqi_total,adults with subclinical insomnia,None reported,10

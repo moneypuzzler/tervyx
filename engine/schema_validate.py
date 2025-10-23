@@ -9,7 +9,9 @@ import json
 import sys
 import pathlib
 from typing import Dict, Any, List
-from jsonschema import validate, Draft202012Validator, ValidationError
+from jsonschema import Draft202012Validator, ValidationError
+
+from engine.citations import compute_manifest_hash
 
 
 # Get the root directory of the project
@@ -113,6 +115,80 @@ def validate_entry(entry_path: pathlib.Path) -> Dict[str, Any]:
             "schema": str(schema_file),
             "errors": [{"path": list(e.path), "message": e.message}]
         }
+
+
+def validate_citations(entry_path: pathlib.Path) -> Dict[str, Any]:
+    """Validate citations.json against its schema."""
+
+    citations_file = entry_path / "citations.json"
+    schema_file = ROOT / "protocol" / "schemas" / "citations.schema.json"
+
+    citations_data = _load_json(citations_file)
+    schema = _load_json(schema_file)
+
+    errors: List[Dict[str, Any]] = []
+    valid = True
+
+    try:
+        Draft202012Validator(schema).validate(citations_data)
+    except ValidationError as e:
+        errors.append({"path": list(e.path), "message": e.message})
+        valid = False
+
+    manifest_hash = citations_data.get("manifest_hash")
+    if manifest_hash:
+        computed_hash = compute_manifest_hash(citations_data)
+        if manifest_hash != computed_hash:
+            errors.append({
+                "path": ["manifest_hash"],
+                "message": f"Manifest hash mismatch (expected {computed_hash})"
+            })
+            valid = False
+    else:
+        errors.append({"path": ["manifest_hash"], "message": "Manifest hash missing"})
+        valid = False
+
+    studies = citations_data.get("studies", [])
+    study_ids = [study.get("study_id") for study in studies if study.get("study_id")]
+    if len(study_ids) != len({identifier.lower() for identifier in study_ids}):
+        errors.append({
+            "path": ["studies"],
+            "message": "Duplicate study_id entries detected"
+        })
+        valid = False
+
+    sorted_studies = sorted(studies, key=lambda item: item.get("study_id", "").lower())
+    if studies != sorted_studies:
+        errors.append({
+            "path": ["studies"],
+            "message": "Studies must be sorted by study_id"
+        })
+        valid = False
+
+    references = citations_data.get("references", [])
+    sorted_refs = sorted(references, key=lambda item: (item.get("type", ""), item.get("identifier", "")))
+    if references != sorted_refs:
+        errors.append({
+            "path": ["references"],
+            "message": "References must be sorted by type then identifier"
+        })
+        valid = False
+
+    for idx, ref in enumerate(references):
+        study_ids_ref = ref.get("study_ids", [])
+        if study_ids_ref != sorted(study_ids_ref):
+            errors.append({
+                "path": ["references", idx, "study_ids"],
+                "message": "study_ids must be sorted"
+            })
+            valid = False
+
+    return {
+        "valid": valid,
+        "file": str(citations_file),
+        "schema": str(schema_file),
+        "errors": errors
+    }
 
 
 def validate_policy_yaml(policy_path: pathlib.Path) -> Dict[str, Any]:
@@ -257,6 +333,13 @@ def validate_all_artifacts(entry_path: pathlib.Path) -> Dict[str, Any]:
         entry_result = validate_entry(entry_path)
         results["validations"]["entry"] = entry_result
         if not entry_result["valid"]:
+            results["overall_valid"] = False
+
+    # Validate citations.json
+    if (entry_path / "citations.json").exists():
+        citations_result = validate_citations(entry_path)
+        results["validations"]["citations"] = citations_result
+        if not citations_result["valid"]:
             results["overall_valid"] = False
     
     # Validate policy.yaml (at project root)

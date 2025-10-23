@@ -200,6 +200,75 @@
       "type": "object",
       "description": "CSL-JSON citation data for reference managers"
     },
+    "references": {
+      "type": "array",
+      "description": "Per-study references embedded for downstream consumers",
+      "items": {
+        "type": "object",
+        "properties": {
+          "@id": {
+            "type": "string",
+            "pattern": "^(doi|pmid):.+$",
+            "description": "JSON-LD identifier for the cited work"
+          },
+          "@type": {
+            "type": "string",
+            "const": "ScholarlyArticle",
+            "description": "JSON-LD type for references"
+          },
+          "identifier": {
+            "type": "string",
+            "pattern": "^(doi|pmid):.+$",
+            "description": "Compact namespaced identifier"
+          },
+          "studyIds": {
+            "type": "array",
+            "items": {"type": "string"},
+            "minItems": 1,
+            "description": "List of study identifiers contributing to this reference"
+          },
+          "citation": {
+            "type": "string",
+            "description": "Deterministic formatted citation text"
+          },
+          "doi": {
+            "type": ["string", "null"],
+            "description": "Digital Object Identifier"
+          },
+          "pmid": {
+            "type": ["string", "null"],
+            "description": "PubMed identifier"
+          },
+          "sameAs": {
+            "type": ["string", "null"],
+            "format": "uri",
+            "description": "Resolvable link for the identifier"
+          },
+          "datePublished": {
+            "type": ["string", "null"],
+            "pattern": "^[0-9]{4}$",
+            "description": "Publication year, if available"
+          },
+          "isPartOf": {
+            "type": ["object", "null"],
+            "properties": {
+              "@type": {"type": "string"},
+              "name": {"type": "string"}
+            },
+            "required": ["name"],
+            "additionalProperties": true,
+            "description": "Container journal or proceedings"
+          }
+        },
+        "required": ["@id", "@type", "identifier", "studyIds", "citation"],
+        "additionalProperties": false
+      }
+    },
+    "citations_manifest_hash": {
+      "type": "string",
+      "pattern": "^sha256:[a-f0-9]{64}$",
+      "description": "Digest of the normalized citations manifest for auditability"
+    },
     "doi": {
       "type": "string",
       "pattern": "^10\\..+",
@@ -261,7 +330,8 @@
     "version",
     "audit_hash",
     "policy_fingerprint",
-    "tier_label_system"
+    "tier_label_system",
+    "citations_manifest_hash"
   ],
   "additionalProperties": false,
   "examples": [

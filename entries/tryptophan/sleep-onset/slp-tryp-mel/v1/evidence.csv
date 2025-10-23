@@ -1,3 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
-Hartmann1983,1983,RCT,SMD,-0.4800,-0.7800,-0.1800,20,20,some concerns,10.1007/BF01249322,j_neural_transm
-Demisch1987,1987,RCT,SMD,-0.4200,-0.6800,-0.1600,25,25,some concerns,10.1097/00004850-198704000-00005,int_clin_psychopharmacol
