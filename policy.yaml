@@ -103,6 +103,7 @@ gates:
     hard_cap: true  # Cannot be offset by J
     monotonic: true
     description: "Physiological impossibility / category misrouting → FAIL"
+    ruleset: "protocol/phi_rules.yaml"
     
   r:
     name: "R - Relevance Assessment"
@@ -115,7 +116,7 @@ gates:
     name: "J - Journal Trust Oracle"
     order: 3
     type: "probabilistic"
-    use_snapshot: "snapshots/journal_trust@2025-10-05.json"
+    use_snapshot: "protocol/journal_trust/snapshot-2025-10-05.json"
     threshold: 0.25
     blacklist_nulls: true   # retraction/predatory/hijacked → J-BLACK = 0
     weights:
@@ -142,24 +143,7 @@ gates:
     order: 5
     type: "rule-based"
     description: "cure/permanent/instant/miracle/risk-free triggers corrective down-shifts"
-    patterns:
-      english:
-        - "\\b(cure|completely\\s*cured|permanent\\s*cure)\\b"
-        - "\\b(instant(ly)?|immediate(ly)?)\\b"
-        - "\\b(cure[-\\s]?all|panacea|works\\s*for\\s*everything)\\b"
-        - "\\b(no\\s*side\\s*effects|risk[-\\s]?free)\\b"
-        - "\\b(world[-\\s]?first|medical\\s*breakthrough)\\b"
-      korean:
-        - "완전(히)?\\s*(치료|완치)"
-        - "즉시|바로|당장"
-        - "모든\\s*질병|만병통치|만능"
-        - "부작용\\s*(전혀\\s*)?없(음|다)"
-        - "세계\\s*최초|의학계\\s*혁신"
-      exceptions:
-        - "adjuvant\\s*to\\s*treatment"
-        - "helps\\s*with"
-        - "gradual"
-        - "over\\s*weeks"
+    ruleset: "protocol/L_rules.yaml"
 
 # REML + Monte Carlo configuration
 monte_carlo:

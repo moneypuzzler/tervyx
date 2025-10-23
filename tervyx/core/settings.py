@@ -37,7 +37,6 @@ class Settings:
 
     root: pathlib.Path = field(default_factory=_detect_project_root)
     engine_path: pathlib.Path = field(init=False)
-    system_path: pathlib.Path = field(init=False)
     entries_path: pathlib.Path = field(init=False)
     snapshots_path: pathlib.Path = field(init=False)
     policy_path: pathlib.Path = field(init=False)
@@ -45,7 +44,6 @@ class Settings:
 
     def __post_init__(self) -> None:  # pragma: no cover - trivial setters
         object.__setattr__(self, "engine_path", self.root / "engine")
-        object.__setattr__(self, "system_path", self.root / "system")
         object.__setattr__(self, "entries_path", self.root / "entries")
         object.__setattr__(self, "snapshots_path", self.root / "snapshots")
         object.__setattr__(self, "policy_path", self.root / "policy.yaml")
@@ -54,19 +52,13 @@ class Settings:
     def ensure_runtime_paths(self) -> None:
         """Inject core module locations into ``sys.path`` for scripts."""
 
-        ensure_paths_on_sys_path(
-            (
-                self.root,
-                self.engine_path,
-                self.system_path,
-            )
-        )
+        ensure_paths_on_sys_path((self.root, self.engine_path))
 
 
 def ensure_paths_on_sys_path(paths: Optional[Iterable[pathlib.Path]] = None) -> None:
     """Ensure the provided paths are present on ``sys.path``."""
 
-    to_register = paths if paths is not None else (settings.root, settings.engine_path, settings.system_path)
+    to_register = paths if paths is not None else (settings.root, settings.engine_path)
     for path in _iter_unique_paths(to_register):
         path_str = str(path)
         if path_str not in sys.path:

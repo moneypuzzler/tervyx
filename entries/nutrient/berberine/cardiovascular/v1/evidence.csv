@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
-Zhang2016,2016,RCT,MD,-6.4,-9.8,-3.0,90,88,unclear,10.3390/nu8050267,nutrients
-Wei2019,2019,RCT,MD,-7.1,-10.2,-4.0,82,80,low,10.3390/nu11020352,nutrients
-Li2021,2021,RCT,MD,-5.8,-8.6,-3.0,96,94,low,10.3390/nu13082845,nutrients

@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tervyx.org/schemas/citations/v1.0.0",
+  "title": "TERVYX Protocol Citations Schema",
+  "description": "Schema describing structured citation manifests for TERVYX entries",
+  "version": "1.0.0",
+  "type": "object",
+  "properties": {
+    "generated": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp when the citations manifest was produced"
+    },
+    "policy_fingerprint": {
+      "type": "string",
+      "pattern": "^0x[a-f0-9]{16}$",
+      "description": "Compact policy fingerprint to guarantee determinism"
+    },
+    "source_evidence": {
+      "type": "string",
+      "description": "Relative path to the evidence.csv file that produced these citations"
+    },
+    "preferred_citation": {
+      "type": "string",
+      "description": "Preferred protocol-level citation carried across artifacts"
+    },
+    "studies": {
+      "type": "array",
+      "description": "Per-study structured citations",
+      "items": {
+        "type": "object",
+        "properties": {
+          "study_id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Identifier for the study"
+          },
+          "year": {
+            "type": ["integer", "null"],
+            "minimum": 0,
+            "description": "Publication year"
+          },
+          "design": {
+            "type": ["string", "null"],
+            "description": "Study design descriptor"
+          },
+          "journal": {
+            "type": ["string", "null"],
+            "description": "Canonical journal identifier or title"
+          },
+          "outcome": {
+            "type": ["string", "null"],
+            "description": "Primary outcome represented in the evidence row"
+          },
+          "population": {
+            "type": ["string", "null"],
+            "description": "Study population description"
+          },
+          "adverse_events": {
+            "type": ["string", "null"],
+            "description": "Adverse event summary from the evidence row"
+          },
+          "doi": {
+            "type": ["string", "null"],
+            "description": "Digital Object Identifier in canonical form"
+          },
+          "pmid": {
+            "type": ["string", "null"],
+            "description": "PubMed identifier if available"
+          },
+          "url": {
+            "type": ["string", "null"],
+            "format": "uri",
+            "description": "Resolvable URL for the primary identifier"
+          },
+          "citation": {
+            "type": "string",
+            "description": "Deterministic formatted citation text"
+          }
+        },
+        "required": ["study_id", "citation"],
+        "additionalProperties": false
+      }
+    },
+    "references": {
+      "type": "array",
+      "description": "Compact reference list for DOI/PMID back-references",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["doi", "pmid"],
+            "description": "Identifier namespace"
+          },
+          "identifier": {
+            "type": "string",
+            "description": "Identifier value"
+          },
+          "study_id": {
+            "type": "string",
+            "description": "Study identifier associated with the reference"
+          },
+          "url": {
+            "type": ["string", "null"],
+            "format": "uri",
+            "description": "Optional resolvable URL"
+          }
+        },
+        "required": ["type", "identifier", "study_id"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "generated",
+    "policy_fingerprint",
+    "source_evidence",
+    "preferred_citation",
+    "studies"
+  ],
+  "additionalProperties": false
+}

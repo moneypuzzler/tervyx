@@ -9,6 +9,9 @@ from typing import Any, Dict, NamedTuple, Optional
 
 import yaml
 
+from engine.journal_trust import load_snapshot as engine_load_snapshot
+from engine.policy_fingerprint import compute_policy_fingerprint as engine_compute_policy_fingerprint
+
 from ..core import settings
 
 
@@ -51,49 +54,38 @@ def read_policy(path: Optional[pathlib.Path] = None) -> Dict[str, Any]:
 
 def load_journal_snapshot(relative_path: Optional[str]) -> Dict[str, Any]:
     if not relative_path:
-        return {}
+        return engine_load_snapshot()
 
     snapshot_path = (settings.root / relative_path).resolve()
     if not snapshot_path.exists():
         raise PolicyError(
             f"Journal snapshot referenced in policy not found: {snapshot_path}"
         )
-    snapshot_data = json.loads(snapshot_path.read_text(encoding="utf-8"))
-    if not isinstance(snapshot_data, dict):
-        raise PolicyError("Snapshot file must contain a JSON object")
-    return snapshot_data
+    return engine_load_snapshot(snapshot_path)
 
 
 def compute_policy_fingerprint(policy: Optional[Dict[str, Any]] = None) -> Fingerprint:
-    policy_data = policy or read_policy()
+    if policy is None:
+        fp = engine_compute_policy_fingerprint()
+        return Fingerprint(compact=fp.compact, full=fp.full)
 
-    gates_cfg = policy_data.get("gates", {})
-    j_cfg = gates_cfg.get("j", {})
-    snapshot_rel = j_cfg.get("use_snapshot")
-
-    snapshot_data = load_journal_snapshot(snapshot_rel)
-
-    minimal_policy = {
-        "version": policy_data.get("version"),
-        "protocol": policy_data.get("protocol"),
-        "tel5_tiers": policy_data.get("tel5_tiers"),
-        "categories": policy_data.get("categories"),
-        "gates": {
-            "sequence": gates_cfg.get("sequence"),
-            "phi": gates_cfg.get("phi"),
-            "r": {"threshold": gates_cfg.get("r", {}).get("threshold")},
-            "j": {
-                "threshold": j_cfg.get("threshold"),
-                "use_snapshot": snapshot_rel,
-                "weights": j_cfg.get("weights"),
-            },
-            "k": gates_cfg.get("k"),
-            "l": gates_cfg.get("l", {}).get("patterns"),
+    overrides = {
+        "policy_version": policy.get("version"),
+        "protocol": policy.get("protocol"),
+        "tier_system": policy.get("tier_system"),
+        "gate_sequence": policy.get("gates", {}).get("sequence"),
+        "delta_map": {
+            name: details.get("delta")
+            for name, details in (policy.get("categories") or {}).items()
         },
-        "monte_carlo": policy_data.get("monte_carlo"),
+        "monte_carlo": policy.get("monte_carlo"),
     }
 
-    policy_hash = sha256_digest(canonical_json(minimal_policy))
-    snapshot_hash = sha256_digest(canonical_json(snapshot_data.get("journals", {})))
-    combined = sha256_digest(f"{policy_hash}{snapshot_hash}".encode("utf-8"))
-    return Fingerprint(compact=compact_hex(combined), full=combined)
+    gates_cfg = policy.get("gates", {})
+    j_cfg = gates_cfg.get("j", {})
+    snapshot_rel = j_cfg.get("use_snapshot")
+    snapshot_data = load_journal_snapshot(snapshot_rel)
+    overrides["journal_trust_snapshot_hash"] = snapshot_data.get("snapshot_hash")
+
+    fp = engine_compute_policy_fingerprint(overrides=overrides)
+    return Fingerprint(compact=fp.compact, full=fp.full)

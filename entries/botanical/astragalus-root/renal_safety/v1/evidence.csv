@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
-Chen2015,2015,RCT,MD,4.2,1.5,6.9,62,60,unclear,10.1007/s12011-015-0279-8,biol_trace_elem_res
-Huang2018,2018,RCT,MD,5.1,2.2,8.0,70,68,low,10.1007/s12011-018-1502-8,biol_trace_elem_res
-Xu2020,2020,RCT,MD,3.8,1.0,6.6,76,74,low,10.1007/s12011-020-02275-3,biol_trace_elem_res

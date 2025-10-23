@@ -9,7 +9,7 @@ import json
 import sys
 import pathlib
 from typing import Dict, Any, List
-from jsonschema import validate, Draft202012Validator, ValidationError
+from jsonschema import Draft202012Validator, ValidationError
 
 
 # Get the root directory of the project
@@ -110,6 +110,32 @@ def validate_entry(entry_path: pathlib.Path) -> Dict[str, Any]:
         return {
             "valid": False,
             "file": str(entry_file),
+            "schema": str(schema_file),
+            "errors": [{"path": list(e.path), "message": e.message}]
+        }
+
+
+def validate_citations(entry_path: pathlib.Path) -> Dict[str, Any]:
+    """Validate citations.json against its schema."""
+
+    citations_file = entry_path / "citations.json"
+    schema_file = ROOT / "protocol" / "schemas" / "citations.schema.json"
+
+    citations_data = _load_json(citations_file)
+    schema = _load_json(schema_file)
+
+    try:
+        Draft202012Validator(schema).validate(citations_data)
+        return {
+            "valid": True,
+            "file": str(citations_file),
+            "schema": str(schema_file),
+            "errors": []
+        }
+    except ValidationError as e:
+        return {
+            "valid": False,
+            "file": str(citations_file),
             "schema": str(schema_file),
             "errors": [{"path": list(e.path), "message": e.message}]
         }
@@ -257,6 +283,13 @@ def validate_all_artifacts(entry_path: pathlib.Path) -> Dict[str, Any]:
         entry_result = validate_entry(entry_path)
         results["validations"]["entry"] = entry_result
         if not entry_result["valid"]:
+            results["overall_valid"] = False
+
+    # Validate citations.json
+    if (entry_path / "citations.json").exists():
+        citations_result = validate_citations(entry_path)
+        results["validations"]["citations"] = citations_result
+        if not citations_result["valid"]:
             results["overall_valid"] = False
     
     # Validate policy.yaml (at project root)

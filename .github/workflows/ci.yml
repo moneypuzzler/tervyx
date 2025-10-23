@@ -41,15 +41,16 @@ jobs:
       run: |
         pip install flake8
         # Stop the build if there are Python syntax errors or undefined names
-        flake8 engine scripts --count --select=E9,F63,F7,F82 --show-source --statistics
+        flake8 engine scripts tools --count --select=E9,F63,F7,F82 --show-source --statistics
         # Exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
-        flake8 engine scripts --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+        flake8 engine scripts tools --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
         
     - name: Validate policy and schemas
       run: |
         python -c "import yaml; yaml.safe_load(open('policy.yaml'))"
-        python -c "import json; json.load(open('snapshots/journal_trust@2025-10-05.json'))"
+        python -c "import json; json.load(open('protocol/journal_trust/snapshot-2025-10-05.json'))"
         python -c "import json; json.load(open('protocol/schemas/simulation.schema.json'))"
+        python -c "import json; json.load(open('protocol/schemas/citations.schema.json'))"
         python -c "import json; json.load(open('protocol/schemas/entry.schema.json'))"
         
     - name: Check policy fingerprint computation
@@ -63,15 +64,11 @@ jobs:
     - name: CLI smoke tests
       run: |
         python scripts/tervyx.py status
-        python -m compileall scripts system engine
-        
-    - name: Import real-data pipeline modules
+        python -m compileall scripts engine tools
+
+    - name: Build magnesium sleep entry
       run: |
-        python - <<'EOF'
-        from system.real_meta_analysis import RealMetaAnalyzer, generate_real_tervyx_entry
-        from system.real_tervyx_pipeline import RealTERVYXPipeline
-        print("✅ Pipeline modules imported")
-        EOF
+        python tools/build_protocol_entry.py entries/nutrient/magnesium-glycinate/sleep/v1
         
     - name: Check audit log
       run: |
