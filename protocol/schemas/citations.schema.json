@@ -24,6 +24,11 @@
       "type": "string",
       "description": "Preferred protocol-level citation carried across artifacts"
     },
+    "manifest_hash": {
+      "type": "string",
+      "pattern": "^sha256:[a-f0-9]{64}$",
+      "description": "Digest of the normalized citations manifest"
+    },
     "studies": {
       "type": "array",
       "description": "Per-study structured citations",
@@ -97,9 +102,15 @@
             "type": "string",
             "description": "Identifier value"
           },
-          "study_id": {
+          "primary_study_id": {
             "type": "string",
-            "description": "Study identifier associated with the reference"
+            "description": "Primary study identifier used for this reference"
+          },
+          "study_ids": {
+            "type": "array",
+            "items": {"type": "string"},
+            "minItems": 1,
+            "description": "All study identifiers contributing to this reference"
           },
           "url": {
             "type": ["string", "null"],
@@ -107,7 +118,7 @@
             "description": "Optional resolvable URL"
           }
         },
-        "required": ["type", "identifier", "study_id"],
+        "required": ["type", "identifier", "study_ids", "primary_study_id"],
         "additionalProperties": false
       }
     }
@@ -117,7 +128,8 @@
     "policy_fingerprint",
     "source_evidence",
     "preferred_citation",
-    "studies"
+    "studies",
+    "manifest_hash"
   ],
   "additionalProperties": false
 }

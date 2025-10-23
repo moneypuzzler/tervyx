@@ -176,6 +176,7 @@ def build_entry(entry_dir: pathlib.Path, claim_text: str) -> None:
             "issued": {"date-parts": [[2025]]}
         },
         "references": to_entry_references(citations_payload),
+        "citations_manifest_hash": citations_payload["manifest_hash"],
     }
 
     digest = hashlib.sha256(json.dumps({k: v for k, v in entry.items() if k != "audit_hash"}, sort_keys=True, separators=(",", ":")).encode("utf-8")).hexdigest()

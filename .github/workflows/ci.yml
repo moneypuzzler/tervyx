@@ -69,7 +69,11 @@ jobs:
     - name: Build magnesium sleep entry
       run: |
         python tools/build_protocol_entry.py entries/nutrient/magnesium-glycinate/sleep/v1
-        
+
+    - name: Verify citations manifest determinism
+      run: |
+        python tools/check_citations.py entries/nutrient/magnesium-glycinate/sleep/v1/citations.json
+
     - name: Check audit log
       run: |
         if [ -f "AUDIT_LOG.jsonl" ]; then
@@ -84,6 +88,10 @@ jobs:
     - name: Display system status
       run: |
         python scripts/tervyx.py status
+
+    - name: Run unit tests
+      run: |
+        python -m unittest discover -s tests -p 'test_*.py'
         
     - name: Upload artifacts
       uses: actions/upload-artifact@v4

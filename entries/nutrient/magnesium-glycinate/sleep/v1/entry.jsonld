@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0xbe3a798944b1c64b",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-23T04:39:02.082614+00:00",
+  "created": "2025-10-23T07:36:33.998710+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,23 +60,54 @@
   },
   "references": [
     {
-      "study_id": "Nguyen2022",
+      "@id": "doi:10.1001/jama.2022.12345",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1001/jama.2022.12345",
+      "studyIds": [
+        "Nguyen2022"
+      ],
       "citation": "Nguyen2022 (2022); Journal: ISSN:1389-9457; Design: randomized controlled trial; Population: adults with primary insomnia; Outcome: psqi_total; DOI: 10.1001/jama.2022.12345; Adverse Events: None reported.",
       "doi": "10.1001/jama.2022.12345",
-      "url": "https://doi.org/10.1001/jama.2022.12345"
+      "sameAs": "https://doi.org/10.1001/jama.2022.12345",
+      "datePublished": "2022",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "ISSN:1389-9457"
+      }
     },
     {
-      "study_id": "Sato2023",
+      "@id": "doi:10.1093/sleep/zsad115",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1093/sleep/zsad115",
+      "studyIds": [
+        "Sato2023"
+      ],
       "citation": "Sato2023 (2023); Journal: ISSN:0161-8105; Design: double-blind randomized trial; Population: working adults reporting sleep dissatisfaction; Outcome: psqi_total; DOI: 10.1093/sleep/zsad115; Adverse Events: Mild GI discomfort (transient).",
       "doi": "10.1093/sleep/zsad115",
-      "url": "https://doi.org/10.1093/sleep/zsad115"
+      "sameAs": "https://doi.org/10.1093/sleep/zsad115",
+      "datePublished": "2023",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "ISSN:0161-8105"
+      }
     },
     {
-      "study_id": "Rossi2021",
+      "@id": "doi:10.5664/jcsm.2021.0456",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.5664/jcsm.2021.0456",
+      "studyIds": [
+        "Rossi2021"
+      ],
       "citation": "Rossi2021 (2021); Journal: ISSN:1550-9389; Design: randomized placebo-controlled; Population: adults with subclinical insomnia; Outcome: psqi_total; DOI: 10.5664/jcsm.2021.0456; Adverse Events: None reported.",
       "doi": "10.5664/jcsm.2021.0456",
-      "url": "https://doi.org/10.5664/jcsm.2021.0456"
+      "sameAs": "https://doi.org/10.5664/jcsm.2021.0456",
+      "datePublished": "2021",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "ISSN:1550-9389"
+      }
     }
   ],
-  "audit_hash": "0xb938c5882b2a9324"
+  "citations_manifest_hash": "sha256:9fcc1eed567cea8d97c9ced6d20e5885679d42feb0fe1bdfb21dfae73a3daabc",
+  "audit_hash": "0x96082dd99b8fe828"
 }

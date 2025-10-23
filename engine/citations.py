@@ -2,9 +2,11 @@
 
 from __future__ import annotations
 
+import hashlib
+import json
 import re
 from datetime import datetime, timezone
-from typing import Any, Dict, Iterable, List, Optional
+from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple
 
 DOI_REGEX = re.compile(r"^10\.\S+$", re.IGNORECASE)
 
@@ -32,6 +34,12 @@ def _doi_url(doi: Optional[str]) -> Optional[str]:
     if not doi:
         return None
     return f"https://doi.org/{doi}"
+
+
+def _pmid_url(pmid: Optional[str]) -> Optional[str]:
+    if not pmid:
+        return None
+    return f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
 
 
 def _drop_none(data: Dict[str, Any]) -> Dict[str, Any]:
@@ -79,6 +87,61 @@ def _format_citation_text(study: Dict[str, Any]) -> str:
     return "; ".join(parts) + "."
 
 
+def _dedupe_references(refs: Dict[Tuple[str, str], Dict[str, Any]],
+                       ref_type: str,
+                       identifier: str,
+                       study_id: str,
+                       url: Optional[str]) -> None:
+    key = (ref_type, identifier)
+    if key not in refs:
+        refs[key] = {
+            "type": ref_type,
+            "identifier": identifier,
+            "study_ids": {study_id},
+        }
+        if url:
+            refs[key]["url"] = url
+        return
+
+    refs[key]["study_ids"].add(study_id)
+    if url and not refs[key].get("url"):
+        refs[key]["url"] = url
+
+
+def _sort_studies(studies: Dict[str, Dict[str, Any]]) -> List[Dict[str, Any]]:
+    return [studies[key] for key in sorted(studies.keys(), key=lambda value: value.lower())]
+
+
+def _sort_references(refs: Dict[Tuple[str, str], Dict[str, Any]]) -> List[Dict[str, Any]]:
+    sorted_refs: List[Dict[str, Any]] = []
+    for ref_type, identifier in sorted(refs.keys(), key=lambda item: (item[0], item[1])):
+        entry = refs[(ref_type, identifier)]
+        study_ids = sorted(entry.pop("study_ids"))
+        payload = {
+            "type": ref_type,
+            "identifier": identifier,
+            "study_ids": study_ids,
+            "primary_study_id": study_ids[0],
+        }
+        if "url" in entry:
+            payload["url"] = entry["url"]
+        sorted_refs.append(payload)
+    return sorted_refs
+
+
+def _canonical_bytes(data: Dict[str, Any]) -> bytes:
+    return json.dumps(data, sort_keys=True, separators=(",", ":"), ensure_ascii=False).encode("utf-8")
+
+
+def compute_manifest_hash(citations_payload: Dict[str, Any]) -> str:
+    """Compute the deterministic manifest hash for a citations payload."""
+
+    payload = dict(citations_payload)
+    payload.pop("manifest_hash", None)
+    digest = hashlib.sha256(_canonical_bytes(payload)).hexdigest()
+    return f"sha256:{digest}"
+
+
 def build_citations_payload(
     evidence_rows: Iterable[Dict[str, Any]],
     *,
@@ -88,8 +151,8 @@ def build_citations_payload(
 ) -> Dict[str, Any]:
     """Create a deterministic citation manifest for an entry."""
 
-    studies: List[Dict[str, Any]] = []
-    references: List[Dict[str, Any]] = []
+    studies: Dict[str, Dict[str, Any]] = {}
+    references: Dict[Tuple[str, str], Dict[str, Any]] = {}
 
     for row in evidence_rows:
         study_id = _normalize_string(row.get("study_id"))
@@ -120,56 +183,108 @@ def build_citations_payload(
             "adverse_events": adverse_events,
             "doi": doi,
             "pmid": pmid,
-            "url": _doi_url(doi),
+            "url": _doi_url(doi) or _pmid_url(pmid),
         }
         study_payload["citation"] = _format_citation_text(study_payload)
-        studies.append(_drop_none(study_payload))
+        normalized = _drop_none(study_payload)
+
+        existing = studies.get(study_id)
+        if existing and existing != normalized:
+            raise ValueError(f"Duplicate study_id '{study_id}' with conflicting citation metadata")
+        studies[study_id] = normalized
 
         if doi:
-            references.append(
-                {
-                    "type": "doi",
-                    "identifier": doi,
-                    "study_id": study_id,
-                    "url": _doi_url(doi),
-                }
-            )
+            _dedupe_references(references, "doi", doi, study_id, _doi_url(doi))
         if pmid:
-            references.append(
-                {
-                    "type": "pmid",
-                    "identifier": pmid,
-                    "study_id": study_id,
-                }
-            )
+            _dedupe_references(references, "pmid", pmid, study_id, _pmid_url(pmid))
 
     payload = {
         "generated": datetime.now(timezone.utc).isoformat(),
         "policy_fingerprint": policy_fingerprint,
         "source_evidence": evidence_path,
         "preferred_citation": preferred_citation,
-        "studies": studies,
-        "references": references,
+        "studies": _sort_studies(studies),
+        "references": _sort_references(references),
     }
 
+    payload["manifest_hash"] = compute_manifest_hash(payload)
     return payload
 
 
-def to_entry_references(citations_payload: Dict[str, Any]) -> List[Dict[str, Any]]:
-    """Reduce citations payload to references embedded in entry.jsonld."""
+def _reference_identifier(ref_type: str, identifier: str) -> str:
+    if ref_type == "doi":
+        return f"doi:{identifier}"
+    return f"pmid:{identifier}"
 
-    references: List[Dict[str, Any]] = []
-    for study in citations_payload.get("studies", []):
-        ref: Dict[str, Any] = {
-            "study_id": study["study_id"],
-            "citation": study["citation"],
+
+def _reference_same_as(ref_type: str, identifier: str) -> Optional[str]:
+    if ref_type == "doi":
+        return _doi_url(identifier)
+    if ref_type == "pmid":
+        return _pmid_url(identifier)
+    return None
+
+
+def _first_available_study(study_ids: Sequence[str], study_lookup: Dict[str, Dict[str, Any]]) -> Optional[Dict[str, Any]]:
+    for study_id in study_ids:
+        if study_id in study_lookup:
+            return study_lookup[study_id]
+    return None
+
+
+def to_entry_references(citations_payload: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """Reduce citations payload to JSON-LD references embedded in entry.jsonld."""
+
+    study_lookup = {study["study_id"]: study for study in citations_payload.get("studies", [])}
+    references_ld: List[Dict[str, Any]] = []
+
+    for reference in citations_payload.get("references", []):
+        ref_type = reference.get("type")
+        identifier = reference.get("identifier")
+        if not ref_type or not identifier:
+            continue
+
+        study_ids = reference.get("study_ids") or []
+        if not study_ids:
+            primary = reference.get("primary_study_id")
+            if primary:
+                study_ids = [primary]
+
+        study_ids = sorted(dict.fromkeys(study_ids))
+        study = _first_available_study(study_ids, study_lookup)
+
+        entry_ref: Dict[str, Any] = {
+            "@id": _reference_identifier(ref_type, identifier),
+            "@type": "ScholarlyArticle",
+            "identifier": _reference_identifier(ref_type, identifier),
+            "studyIds": study_ids,
         }
-        doi = study.get("doi")
-        url = study.get("url")
-        if doi:
-            ref["doi"] = doi
-        if url:
-            ref["url"] = url
-        references.append(ref)
-    return references
+
+        if study and "citation" in study:
+            entry_ref["citation"] = study["citation"]
+        else:
+            entry_ref["citation"] = ", ".join(study_ids)
+
+        if ref_type == "doi":
+            entry_ref["doi"] = identifier
+        elif ref_type == "pmid":
+            entry_ref["pmid"] = identifier
+
+        same_as = _reference_same_as(ref_type, identifier)
+        if same_as:
+            entry_ref["sameAs"] = same_as
+
+        if study:
+            if study.get("year") is not None:
+                entry_ref["datePublished"] = str(study["year"])
+            if study.get("journal"):
+                entry_ref["isPartOf"] = {
+                    "@type": "Periodical",
+                    "name": study["journal"],
+                }
+
+        references_ld.append(entry_ref)
+
+    references_ld.sort(key=lambda item: item["@id"])
+    return references_ld
 

@@ -131,6 +131,12 @@ tervyx-protocol/
 └── .github/workflows/          # CI/CD pipeline
 ```
 
+> **Pilot scope**: the public repository currently ships only the
+> magnesium-glycinate sleep entry as the canonical TEL-5 exemplar. The
+> other protocol pilot entries (omega-3, saw palmetto, melatonin, creatine)
+> remain archived internally until their evidence bundles finish the new
+> deterministic audit trail migration.
+
 ## 🔧 Core Engine Implementation
 
 ### REML Meta-Analysis
