@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+MH-RHOD-BURNOUT_01,2016,randomized controlled trial,SMD,-0.3359,-0.4666,-0.2053,56,58,mixed,10.1234/mh-rhod-burnout-01,mental_health_journal,burnout_recovery,Adults with burnout recovery concerns,Transient headache,8
+MH-RHOD-BURNOUT_02,2017,randomized controlled trial,SMD,-0.3916,-0.5210,-0.2622,60,61,low,10.1234/mh-rhod-burnout-02,mental_health_journal,burnout_recovery,Adults with burnout recovery concerns,None reported,9
+MH-RHOD-BURNOUT_03,2018,randomized controlled trial,SMD,-0.4036,-0.5550,-0.2522,64,64,some concerns,10.1234/mh-rhod-burnout-03,mental_health_journal,burnout_recovery,Adults with burnout recovery concerns,Mild GI discomfort,10

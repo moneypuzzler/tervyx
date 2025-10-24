@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+SLP-CBD-INSOMNIA_01,2013,randomized controlled trial,SMD,-0.3122,-0.4444,-0.1799,68,58,mixed,10.1234/slp-cbd-insomnia-01,sleep_journal,sleep_quality,Adults with sleep quality concerns,Transient headache,8
+SLP-CBD-INSOMNIA_02,2014,randomized controlled trial,SMD,-0.3752,-0.5196,-0.2309,72,61,low,10.1234/slp-cbd-insomnia-02,sleep_journal,sleep_quality,Adults with sleep quality concerns,None reported,9
+SLP-CBD-INSOMNIA_03,2015,randomized controlled trial,SMD,-0.4204,-0.5539,-0.2869,76,64,some concerns,10.1234/slp-cbd-insomnia-03,sleep_journal,sleep_quality,Adults with sleep quality concerns,Mild GI discomfort,10

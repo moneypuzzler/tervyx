@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:44.986450+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/psychological/gaba-mh-gaba-neuro/mental_health/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MH-GABA-NEURO_01",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "acute_stress",
+      "population": "Adults with acute stress concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/mh-gaba-neuro-01",
+      "url": "https://doi.org/10.1234/mh-gaba-neuro-01",
+      "citation": "MH-GABA-NEURO_01 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with acute stress concerns; Outcome: acute_stress; DOI: 10.1234/mh-gaba-neuro-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "MH-GABA-NEURO_02",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "acute_stress",
+      "population": "Adults with acute stress concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/mh-gaba-neuro-02",
+      "url": "https://doi.org/10.1234/mh-gaba-neuro-02",
+      "citation": "MH-GABA-NEURO_02 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with acute stress concerns; Outcome: acute_stress; DOI: 10.1234/mh-gaba-neuro-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "MH-GABA-NEURO_03",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "acute_stress",
+      "population": "Adults with acute stress concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/mh-gaba-neuro-03",
+      "url": "https://doi.org/10.1234/mh-gaba-neuro-03",
+      "citation": "MH-GABA-NEURO_03 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with acute stress concerns; Outcome: acute_stress; DOI: 10.1234/mh-gaba-neuro-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/mh-gaba-neuro-01",
+      "study_ids": [
+        "MH-GABA-NEURO_01"
+      ],
+      "primary_study_id": "MH-GABA-NEURO_01",
+      "url": "https://doi.org/10.1234/mh-gaba-neuro-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/mh-gaba-neuro-02",
+      "study_ids": [
+        "MH-GABA-NEURO_02"
+      ],
+      "primary_study_id": "MH-GABA-NEURO_02",
+      "url": "https://doi.org/10.1234/mh-gaba-neuro-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/mh-gaba-neuro-03",
+      "study_ids": [
+        "MH-GABA-NEURO_03"
+      ],
+      "primary_study_id": "MH-GABA-NEURO_03",
+      "url": "https://doi.org/10.1234/mh-gaba-neuro-03"
+    }
+  ],
+  "manifest_hash": "sha256:cb1e5d7103dbb790bd66635d495ddc401bd5f04a2377fa778e1b39886cc87bec"
+}

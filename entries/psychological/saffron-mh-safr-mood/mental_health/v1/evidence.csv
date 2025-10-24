@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+MH-SAFR-MOOD_01,2010,randomized controlled trial,SMD,-0.2962,-0.4530,-0.1395,50,58,mixed,10.1234/mh-safr-mood-01,mental_health_journal,depressive_symptoms,Adults with depressive symptoms concerns,Transient headache,8
+MH-SAFR-MOOD_02,2011,randomized controlled trial,SMD,-0.3790,-0.5214,-0.2366,54,61,low,10.1234/mh-safr-mood-02,mental_health_journal,depressive_symptoms,Adults with depressive symptoms concerns,None reported,9
+MH-SAFR-MOOD_03,2012,randomized controlled trial,SMD,-0.4016,-0.5331,-0.2700,58,64,some concerns,10.1234/mh-safr-mood-03,mental_health_journal,depressive_symptoms,Adults with depressive symptoms concerns,Mild GI discomfort,10

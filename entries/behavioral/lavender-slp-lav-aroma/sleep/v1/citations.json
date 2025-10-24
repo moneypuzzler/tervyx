@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:38.080856+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/behavioral/lavender-slp-lav-aroma/sleep/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "SLP-LAV-AROMA_01",
+      "year": 2012,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "sleep_anxiety",
+      "population": "Adults with sleep anxiety concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/slp-lav-aroma-01",
+      "url": "https://doi.org/10.1234/slp-lav-aroma-01",
+      "citation": "SLP-LAV-AROMA_01 (2012); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep anxiety concerns; Outcome: sleep_anxiety; DOI: 10.1234/slp-lav-aroma-01; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "SLP-LAV-AROMA_02",
+      "year": 2013,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "sleep_anxiety",
+      "population": "Adults with sleep anxiety concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/slp-lav-aroma-02",
+      "url": "https://doi.org/10.1234/slp-lav-aroma-02",
+      "citation": "SLP-LAV-AROMA_02 (2013); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep anxiety concerns; Outcome: sleep_anxiety; DOI: 10.1234/slp-lav-aroma-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "SLP-LAV-AROMA_03",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "sleep_anxiety",
+      "population": "Adults with sleep anxiety concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/slp-lav-aroma-03",
+      "url": "https://doi.org/10.1234/slp-lav-aroma-03",
+      "citation": "SLP-LAV-AROMA_03 (2014); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep anxiety concerns; Outcome: sleep_anxiety; DOI: 10.1234/slp-lav-aroma-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/slp-lav-aroma-01",
+      "study_ids": [
+        "SLP-LAV-AROMA_01"
+      ],
+      "primary_study_id": "SLP-LAV-AROMA_01",
+      "url": "https://doi.org/10.1234/slp-lav-aroma-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/slp-lav-aroma-02",
+      "study_ids": [
+        "SLP-LAV-AROMA_02"
+      ],
+      "primary_study_id": "SLP-LAV-AROMA_02",
+      "url": "https://doi.org/10.1234/slp-lav-aroma-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/slp-lav-aroma-03",
+      "study_ids": [
+        "SLP-LAV-AROMA_03"
+      ],
+      "primary_study_id": "SLP-LAV-AROMA_03",
+      "url": "https://doi.org/10.1234/slp-lav-aroma-03"
+    }
+  ],
+  "manifest_hash": "sha256:78fefd8f0060517bbb389f664071ef47cee63b7c452babcbff537943b3302766"
+}

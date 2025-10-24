@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+CARD-BEET-NIT_01,2010,randomized controlled trial,SMD,-0.3265,-0.4877,-0.1653,50,58,mixed,10.1234/card-beet-nit-01,cardiovascular_journal,endothelial_function,Adults with endothelial function concerns,Transient headache,11
+CARD-BEET-NIT_02,2011,randomized controlled trial,SMD,-0.3947,-0.5511,-0.2384,54,61,low,10.1234/card-beet-nit-02,cardiovascular_journal,endothelial_function,Adults with endothelial function concerns,None reported,6
+CARD-BEET-NIT_03,2012,randomized controlled trial,SMD,-0.4496,-0.5950,-0.3042,58,64,some concerns,10.1234/card-beet-nit-03,cardiovascular_journal,endothelial_function,Adults with endothelial function concerns,Mild GI discomfort,7

@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+CARD-HAW-HEART_01,2009,randomized controlled trial,SMD,-0.3311,-0.4710,-0.1913,74,53,some concerns,10.1234/card-haw-heart-01,cardiovascular_journal,heart_failure,Adults with heart failure concerns,Mild GI discomfort,10
+CARD-HAW-HEART_02,2010,randomized controlled trial,SMD,-0.3562,-0.5066,-0.2057,78,56,mixed,10.1234/card-haw-heart-02,cardiovascular_journal,heart_failure,Adults with heart failure concerns,Transient headache,11
+CARD-HAW-HEART_03,2011,randomized controlled trial,SMD,-0.3982,-0.5352,-0.2612,82,59,low,10.1234/card-haw-heart-03,cardiovascular_journal,heart_failure,Adults with heart failure concerns,None reported,6

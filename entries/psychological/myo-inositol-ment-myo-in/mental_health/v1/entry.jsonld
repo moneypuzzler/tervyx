@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "psychological:myo-inositol-ment-myo-in:mental_health:v1",
+  "title": "Myo Inositol Ment Myo In — Mental Health",
+  "category": "mental_health",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.9517,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.9,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 363,
+    "I2": 0.0,
+    "tau2": 0.00030249,
+    "mu_hat": 0.371215,
+    "mu_CI95": [
+      0.287244,
+      0.455185
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-23T09:24:42.332234+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/ment-myo-in-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/ment-myo-in-01",
+      "studyIds": [
+        "MENT-MYO-IN_01"
+      ],
+      "citation": "MENT-MYO-IN_01 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with panic disorder concerns; Outcome: panic_disorder; DOI: 10.1234/ment-myo-in-01; Adverse Events: Transient headache.",
+      "doi": "10.1234/ment-myo-in-01",
+      "sameAs": "https://doi.org/10.1234/ment-myo-in-01",
+      "datePublished": "2016",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/ment-myo-in-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/ment-myo-in-02",
+      "studyIds": [
+        "MENT-MYO-IN_02"
+      ],
+      "citation": "MENT-MYO-IN_02 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with panic disorder concerns; Outcome: panic_disorder; DOI: 10.1234/ment-myo-in-02; Adverse Events: None reported.",
+      "doi": "10.1234/ment-myo-in-02",
+      "sameAs": "https://doi.org/10.1234/ment-myo-in-02",
+      "datePublished": "2017",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/ment-myo-in-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/ment-myo-in-03",
+      "studyIds": [
+        "MENT-MYO-IN_03"
+      ],
+      "citation": "MENT-MYO-IN_03 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with panic disorder concerns; Outcome: panic_disorder; DOI: 10.1234/ment-myo-in-03; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/ment-myo-in-03",
+      "sameAs": "https://doi.org/10.1234/ment-myo-in-03",
+      "datePublished": "2018",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:72a82471a6aad646eae456454ae9ab66ae40d371e8c280befdc6fd7558f48766",
+  "audit_hash": "0x7ddf5aeb0cd24317"
+}

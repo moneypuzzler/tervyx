@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:41.011312+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/psychological/st-johns-wort-ment-stj-wort/mental_health/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MENT-STJ-WORT_01",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "depression",
+      "population": "Adults with depression concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/ment-stj-wort-01",
+      "url": "https://doi.org/10.1234/ment-stj-wort-01",
+      "citation": "MENT-STJ-WORT_01 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-stj-wort-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MENT-STJ-WORT_02",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "depression",
+      "population": "Adults with depression concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/ment-stj-wort-02",
+      "url": "https://doi.org/10.1234/ment-stj-wort-02",
+      "citation": "MENT-STJ-WORT_02 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-stj-wort-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "MENT-STJ-WORT_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "depression",
+      "population": "Adults with depression concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/ment-stj-wort-03",
+      "url": "https://doi.org/10.1234/ment-stj-wort-03",
+      "citation": "MENT-STJ-WORT_03 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-stj-wort-03; Adverse Events: Mild GI discomfort."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/ment-stj-wort-01",
+      "study_ids": [
+        "MENT-STJ-WORT_01"
+      ],
+      "primary_study_id": "MENT-STJ-WORT_01",
+      "url": "https://doi.org/10.1234/ment-stj-wort-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/ment-stj-wort-02",
+      "study_ids": [
+        "MENT-STJ-WORT_02"
+      ],
+      "primary_study_id": "MENT-STJ-WORT_02",
+      "url": "https://doi.org/10.1234/ment-stj-wort-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/ment-stj-wort-03",
+      "study_ids": [
+        "MENT-STJ-WORT_03"
+      ],
+      "primary_study_id": "MENT-STJ-WORT_03",
+      "url": "https://doi.org/10.1234/ment-stj-wort-03"
+    }
+  ],
+  "manifest_hash": "sha256:936d3f48c5ddf2415e1ce4b9c8de20d11f9a32eda89b54f60ae934913ecfb879"
+}

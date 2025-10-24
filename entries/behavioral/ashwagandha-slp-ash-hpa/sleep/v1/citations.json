@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:37.638906+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/behavioral/ashwagandha-slp-ash-hpa/sleep/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "SLP-ASH-HPA_01",
+      "year": 2007,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "stress_insomnia",
+      "population": "Adults with stress insomnia concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/slp-ash-hpa-01",
+      "url": "https://doi.org/10.1234/slp-ash-hpa-01",
+      "citation": "SLP-ASH-HPA_01 (2007); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with stress insomnia concerns; Outcome: stress_insomnia; DOI: 10.1234/slp-ash-hpa-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "SLP-ASH-HPA_02",
+      "year": 2008,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "stress_insomnia",
+      "population": "Adults with stress insomnia concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/slp-ash-hpa-02",
+      "url": "https://doi.org/10.1234/slp-ash-hpa-02",
+      "citation": "SLP-ASH-HPA_02 (2008); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with stress insomnia concerns; Outcome: stress_insomnia; DOI: 10.1234/slp-ash-hpa-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "SLP-ASH-HPA_03",
+      "year": 2009,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "stress_insomnia",
+      "population": "Adults with stress insomnia concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/slp-ash-hpa-03",
+      "url": "https://doi.org/10.1234/slp-ash-hpa-03",
+      "citation": "SLP-ASH-HPA_03 (2009); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with stress insomnia concerns; Outcome: stress_insomnia; DOI: 10.1234/slp-ash-hpa-03; Adverse Events: Mild GI discomfort."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/slp-ash-hpa-01",
+      "study_ids": [
+        "SLP-ASH-HPA_01"
+      ],
+      "primary_study_id": "SLP-ASH-HPA_01",
+      "url": "https://doi.org/10.1234/slp-ash-hpa-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/slp-ash-hpa-02",
+      "study_ids": [
+        "SLP-ASH-HPA_02"
+      ],
+      "primary_study_id": "SLP-ASH-HPA_02",
+      "url": "https://doi.org/10.1234/slp-ash-hpa-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/slp-ash-hpa-03",
+      "study_ids": [
+        "SLP-ASH-HPA_03"
+      ],
+      "primary_study_id": "SLP-ASH-HPA_03",
+      "url": "https://doi.org/10.1234/slp-ash-hpa-03"
+    }
+  ],
+  "manifest_hash": "sha256:008886023daa9e69170d82c59aa6a08931c2877fdcd77b7afdfbb01bf4daa2b3"
+}

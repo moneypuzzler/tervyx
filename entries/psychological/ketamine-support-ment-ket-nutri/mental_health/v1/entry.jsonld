@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "psychological:ketamine-support-ment-ket-nutri:mental_health:v1",
+  "title": "Ketamine Support Ment Ket Nutri — Mental Health",
+  "category": "mental_health",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.9218,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 1.0,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 399,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.361546,
+    "mu_CI95": [
+      0.275658,
+      0.447433
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-23T09:24:42.047711+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/ment-ket-nutri-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/ment-ket-nutri-01",
+      "studyIds": [
+        "MENT-KET-NUTRI_01"
+      ],
+      "citation": "MENT-KET-NUTRI_01 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with treatment resistant depression concerns; Outcome: treatment_resistant_depression; DOI: 10.1234/ment-ket-nutri-01; Adverse Events: Transient headache.",
+      "doi": "10.1234/ment-ket-nutri-01",
+      "sameAs": "https://doi.org/10.1234/ment-ket-nutri-01",
+      "datePublished": "2013",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/ment-ket-nutri-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/ment-ket-nutri-02",
+      "studyIds": [
+        "MENT-KET-NUTRI_02"
+      ],
+      "citation": "MENT-KET-NUTRI_02 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with treatment resistant depression concerns; Outcome: treatment_resistant_depression; DOI: 10.1234/ment-ket-nutri-02; Adverse Events: None reported.",
+      "doi": "10.1234/ment-ket-nutri-02",
+      "sameAs": "https://doi.org/10.1234/ment-ket-nutri-02",
+      "datePublished": "2014",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/ment-ket-nutri-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/ment-ket-nutri-03",
+      "studyIds": [
+        "MENT-KET-NUTRI_03"
+      ],
+      "citation": "MENT-KET-NUTRI_03 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with treatment resistant depression concerns; Outcome: treatment_resistant_depression; DOI: 10.1234/ment-ket-nutri-03; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/ment-ket-nutri-03",
+      "sameAs": "https://doi.org/10.1234/ment-ket-nutri-03",
+      "datePublished": "2015",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:b2a7c059b75f96301cd0489c115530f1b25f643e8d4cb03ff70110f09b2ecd85",
+  "audit_hash": "0x38fbc335dc445cc4"
+}

@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+COG-B12-COG_01,2008,randomized controlled trial,SMD,0.3306,0.1949,0.4662,68,48,low,10.1234/cog-b12-cog-01,cognition_journal,cognitive_decline,Adults with cognitive decline concerns,None reported,9
+COG-B12-COG_02,2009,randomized controlled trial,SMD,0.3381,0.1827,0.4936,72,51,some concerns,10.1234/cog-b12-cog-02,cognition_journal,cognitive_decline,Adults with cognitive decline concerns,Mild GI discomfort,10
+COG-B12-COG_03,2010,randomized controlled trial,SMD,0.4453,0.3010,0.5896,76,54,mixed,10.1234/cog-b12-cog-03,cognition_journal,cognitive_decline,Adults with cognitive decline concerns,Transient headache,11

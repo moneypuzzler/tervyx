@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:38.505117+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/behavioral/5htp-slp-fhtp-serotonin/sleep/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "SLP-FHTP-SEROTONIN_01",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "sleep_quality",
+      "population": "Adults with sleep quality concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/slp-fhtp-serotonin-01",
+      "url": "https://doi.org/10.1234/slp-fhtp-serotonin-01",
+      "citation": "SLP-FHTP-SEROTONIN_01 (2017); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-fhtp-serotonin-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "SLP-FHTP-SEROTONIN_02",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "sleep_quality",
+      "population": "Adults with sleep quality concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/slp-fhtp-serotonin-02",
+      "url": "https://doi.org/10.1234/slp-fhtp-serotonin-02",
+      "citation": "SLP-FHTP-SEROTONIN_02 (2018); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-fhtp-serotonin-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "SLP-FHTP-SEROTONIN_03",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "sleep_quality",
+      "population": "Adults with sleep quality concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/slp-fhtp-serotonin-03",
+      "url": "https://doi.org/10.1234/slp-fhtp-serotonin-03",
+      "citation": "SLP-FHTP-SEROTONIN_03 (2019); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-fhtp-serotonin-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/slp-fhtp-serotonin-01",
+      "study_ids": [
+        "SLP-FHTP-SEROTONIN_01"
+      ],
+      "primary_study_id": "SLP-FHTP-SEROTONIN_01",
+      "url": "https://doi.org/10.1234/slp-fhtp-serotonin-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/slp-fhtp-serotonin-02",
+      "study_ids": [
+        "SLP-FHTP-SEROTONIN_02"
+      ],
+      "primary_study_id": "SLP-FHTP-SEROTONIN_02",
+      "url": "https://doi.org/10.1234/slp-fhtp-serotonin-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/slp-fhtp-serotonin-03",
+      "study_ids": [
+        "SLP-FHTP-SEROTONIN_03"
+      ],
+      "primary_study_id": "SLP-FHTP-SEROTONIN_03",
+      "url": "https://doi.org/10.1234/slp-fhtp-serotonin-03"
+    }
+  ],
+  "manifest_hash": "sha256:066366368fefce32549bc9c8ac3b734372940b3fb3ada1f64255c5e769df8c04"
+}

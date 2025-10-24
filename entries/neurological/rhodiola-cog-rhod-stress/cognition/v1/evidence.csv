@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+COG-RHOD-STRESS_01,2014,randomized controlled trial,SMD,0.3203,0.1892,0.4514,74,48,low,10.1234/cog-rhod-stress-01,cognition_journal,stress_resilience,Adults with stress resilience concerns,None reported,6
+COG-RHOD-STRESS_02,2015,randomized controlled trial,SMD,0.3751,0.2188,0.5315,78,51,some concerns,10.1234/cog-rhod-stress-02,cognition_journal,stress_resilience,Adults with stress resilience concerns,Mild GI discomfort,7
+COG-RHOD-STRESS_03,2016,randomized controlled trial,SMD,0.3915,0.2437,0.5393,82,54,mixed,10.1234/cog-rhod-stress-03,cognition_journal,stress_resilience,Adults with stress resilience concerns,Transient headache,8

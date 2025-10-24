@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "behavioral:5htp-slp-fhtp-serotonin:sleep:v1",
+  "title": "5Htp Slp Fhtp Serotonin — Sleep",
+  "category": "sleep",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 1.0,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 1.0,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 351,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.369064,
+    "mu_CI95": [
+      0.281604,
+      0.456524
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-23T09:24:38.505245+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/slp-fhtp-serotonin-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/slp-fhtp-serotonin-01",
+      "studyIds": [
+        "SLP-FHTP-SEROTONIN_01"
+      ],
+      "citation": "SLP-FHTP-SEROTONIN_01 (2017); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-fhtp-serotonin-01; Adverse Events: None reported.",
+      "doi": "10.1234/slp-fhtp-serotonin-01",
+      "sameAs": "https://doi.org/10.1234/slp-fhtp-serotonin-01",
+      "datePublished": "2017",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/slp-fhtp-serotonin-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/slp-fhtp-serotonin-02",
+      "studyIds": [
+        "SLP-FHTP-SEROTONIN_02"
+      ],
+      "citation": "SLP-FHTP-SEROTONIN_02 (2018); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-fhtp-serotonin-02; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/slp-fhtp-serotonin-02",
+      "sameAs": "https://doi.org/10.1234/slp-fhtp-serotonin-02",
+      "datePublished": "2018",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/slp-fhtp-serotonin-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/slp-fhtp-serotonin-03",
+      "studyIds": [
+        "SLP-FHTP-SEROTONIN_03"
+      ],
+      "citation": "SLP-FHTP-SEROTONIN_03 (2019); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-fhtp-serotonin-03; Adverse Events: Transient headache.",
+      "doi": "10.1234/slp-fhtp-serotonin-03",
+      "sameAs": "https://doi.org/10.1234/slp-fhtp-serotonin-03",
+      "datePublished": "2019",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:066366368fefce32549bc9c8ac3b734372940b3fb3ada1f64255c5e769df8c04",
+  "audit_hash": "0x17c03431b2933cc7"
+}

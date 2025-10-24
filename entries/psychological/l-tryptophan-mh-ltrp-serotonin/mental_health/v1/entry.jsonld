@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "psychological:l-tryptophan-mh-ltrp-serotonin:mental_health:v1",
+  "title": "L Tryptophan Mh Ltrp Serotonin — Mental Health",
+  "category": "mental_health",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.9737,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.9,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 387,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.375307,
+    "mu_CI95": [
+      0.298795,
+      0.451819
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-23T09:24:44.712083+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/mh-ltrp-serotonin-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/mh-ltrp-serotonin-01",
+      "studyIds": [
+        "MH-LTRP-SEROTONIN_01"
+      ],
+      "citation": "MH-LTRP-SEROTONIN_01 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with serotonin modulation concerns; Outcome: serotonin_modulation; DOI: 10.1234/mh-ltrp-serotonin-01; Adverse Events: None reported.",
+      "doi": "10.1234/mh-ltrp-serotonin-01",
+      "sameAs": "https://doi.org/10.1234/mh-ltrp-serotonin-01",
+      "datePublished": "2014",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/mh-ltrp-serotonin-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/mh-ltrp-serotonin-02",
+      "studyIds": [
+        "MH-LTRP-SEROTONIN_02"
+      ],
+      "citation": "MH-LTRP-SEROTONIN_02 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with serotonin modulation concerns; Outcome: serotonin_modulation; DOI: 10.1234/mh-ltrp-serotonin-02; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/mh-ltrp-serotonin-02",
+      "sameAs": "https://doi.org/10.1234/mh-ltrp-serotonin-02",
+      "datePublished": "2015",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/mh-ltrp-serotonin-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/mh-ltrp-serotonin-03",
+      "studyIds": [
+        "MH-LTRP-SEROTONIN_03"
+      ],
+      "citation": "MH-LTRP-SEROTONIN_03 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with serotonin modulation concerns; Outcome: serotonin_modulation; DOI: 10.1234/mh-ltrp-serotonin-03; Adverse Events: Transient headache.",
+      "doi": "10.1234/mh-ltrp-serotonin-03",
+      "sameAs": "https://doi.org/10.1234/mh-ltrp-serotonin-03",
+      "datePublished": "2016",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:4a8b525746e54060a2d6ba0b4bac7936848be37674fc73eb9e2125182bd7bbe4",
+  "audit_hash": "0xa8c22f8c7b929174"
+}

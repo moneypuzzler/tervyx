@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:41.706552+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/psychological/gaba-ment-gaba-calm/mental_health/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MENT-GABA-CALM_01",
+      "year": 2009,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "anxiety",
+      "population": "Adults with anxiety concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/ment-gaba-calm-01",
+      "url": "https://doi.org/10.1234/ment-gaba-calm-01",
+      "citation": "MENT-GABA-CALM_01 (2009); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-gaba-calm-01; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "MENT-GABA-CALM_02",
+      "year": 2010,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "anxiety",
+      "population": "Adults with anxiety concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/ment-gaba-calm-02",
+      "url": "https://doi.org/10.1234/ment-gaba-calm-02",
+      "citation": "MENT-GABA-CALM_02 (2010); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-gaba-calm-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MENT-GABA-CALM_03",
+      "year": 2011,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "anxiety",
+      "population": "Adults with anxiety concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/ment-gaba-calm-03",
+      "url": "https://doi.org/10.1234/ment-gaba-calm-03",
+      "citation": "MENT-GABA-CALM_03 (2011); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-gaba-calm-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/ment-gaba-calm-01",
+      "study_ids": [
+        "MENT-GABA-CALM_01"
+      ],
+      "primary_study_id": "MENT-GABA-CALM_01",
+      "url": "https://doi.org/10.1234/ment-gaba-calm-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/ment-gaba-calm-02",
+      "study_ids": [
+        "MENT-GABA-CALM_02"
+      ],
+      "primary_study_id": "MENT-GABA-CALM_02",
+      "url": "https://doi.org/10.1234/ment-gaba-calm-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/ment-gaba-calm-03",
+      "study_ids": [
+        "MENT-GABA-CALM_03"
+      ],
+      "primary_study_id": "MENT-GABA-CALM_03",
+      "url": "https://doi.org/10.1234/ment-gaba-calm-03"
+    }
+  ],
+  "manifest_hash": "sha256:ff38a8264cb84e670f0b4475eb7779c47f9bacb047da9f489df847ab4dca9c71"
+}

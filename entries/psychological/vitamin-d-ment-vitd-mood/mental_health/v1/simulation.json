@@ -1,0 +1,41 @@
+{
+  "seed": 20251005,
+  "n_draws": 10000,
+  "tau2_method": "REML",
+  "delta": 0.3,
+  "P_effect_gt_delta": 0.9407,
+  "mu_hat": 0.370031,
+  "mu_CI95": [
+    0.281992,
+    0.458069
+  ],
+  "var_mu": 0.00201758,
+  "mu_se": 0.044918,
+  "I2": 3.8,
+  "tau2": 0.00076763,
+  "tau": 0.027706,
+  "Q": 2.08,
+  "prediction_interval_95": [
+    0.266591,
+    0.47347
+  ],
+  "n_studies": 3,
+  "total_n": 417,
+  "benefit_direction": -1,
+  "benefit_note": "Lower scores indicate improvement (e.g., PSQI decrease is beneficial)",
+  "environment": "Python 3.11, NumPy 2.3.4, SciPy 1.11.0",
+  "gate_terminated": false,
+  "termination_gate": "none",
+  "reml_convergence": {
+    "converged": true,
+    "iterations": 1,
+    "final_nll": -3.6442326804940333
+  },
+  "computation_time_ms": 24.3,
+  "tel5_input": {
+    "P_value": 0.9407,
+    "phi_violation": false,
+    "k_violation": false
+  },
+  "policy_fingerprint": "0xbe3a798944b1c64b"
+}

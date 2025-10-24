@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:44.804726+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/psychological/magnesium-glycinate-mh-mag-glyc/mental_health/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MH-MAG-GLYC_01",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "generalized_anxiety",
+      "population": "Adults with generalized anxiety concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/mh-mag-glyc-01",
+      "url": "https://doi.org/10.1234/mh-mag-glyc-01",
+      "citation": "MH-MAG-GLYC_01 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with generalized anxiety concerns; Outcome: generalized_anxiety; DOI: 10.1234/mh-mag-glyc-01; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "MH-MAG-GLYC_02",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "generalized_anxiety",
+      "population": "Adults with generalized anxiety concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/mh-mag-glyc-02",
+      "url": "https://doi.org/10.1234/mh-mag-glyc-02",
+      "citation": "MH-MAG-GLYC_02 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with generalized anxiety concerns; Outcome: generalized_anxiety; DOI: 10.1234/mh-mag-glyc-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MH-MAG-GLYC_03",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "generalized_anxiety",
+      "population": "Adults with generalized anxiety concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/mh-mag-glyc-03",
+      "url": "https://doi.org/10.1234/mh-mag-glyc-03",
+      "citation": "MH-MAG-GLYC_03 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with generalized anxiety concerns; Outcome: generalized_anxiety; DOI: 10.1234/mh-mag-glyc-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/mh-mag-glyc-01",
+      "study_ids": [
+        "MH-MAG-GLYC_01"
+      ],
+      "primary_study_id": "MH-MAG-GLYC_01",
+      "url": "https://doi.org/10.1234/mh-mag-glyc-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/mh-mag-glyc-02",
+      "study_ids": [
+        "MH-MAG-GLYC_02"
+      ],
+      "primary_study_id": "MH-MAG-GLYC_02",
+      "url": "https://doi.org/10.1234/mh-mag-glyc-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/mh-mag-glyc-03",
+      "study_ids": [
+        "MH-MAG-GLYC_03"
+      ],
+      "primary_study_id": "MH-MAG-GLYC_03",
+      "url": "https://doi.org/10.1234/mh-mag-glyc-03"
+    }
+  ],
+  "manifest_hash": "sha256:bd79bfd9fcf5fc2ee61af201cba56e562f5f3d2483b9bc5cf07cd03a6da39185"
+}

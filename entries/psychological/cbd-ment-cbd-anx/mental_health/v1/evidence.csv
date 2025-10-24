@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+MENT-CBD-ANX_01,2007,randomized controlled trial,SMD,-0.3323,-0.4803,-0.1843,62,58,mixed,10.1234/ment-cbd-anx-01,mental_health_journal,anxiety,Adults with anxiety concerns,Transient headache,11
+MENT-CBD-ANX_02,2008,randomized controlled trial,SMD,-0.3878,-0.5228,-0.2528,66,61,low,10.1234/ment-cbd-anx-02,mental_health_journal,anxiety,Adults with anxiety concerns,None reported,6
+MENT-CBD-ANX_03,2009,randomized controlled trial,SMD,-0.4171,-0.5692,-0.2650,70,64,some concerns,10.1234/ment-cbd-anx-03,mental_health_journal,anxiety,Adults with anxiety concerns,Mild GI discomfort,7

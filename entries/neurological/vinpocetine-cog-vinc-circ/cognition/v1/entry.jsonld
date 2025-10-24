@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "neurological:vinpocetine-cog-vinc-circ:cognition:v1",
+  "title": "Vinpocetine Cog Vinc Circ — Cognition",
+  "category": "cognition",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 1.0,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.9,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 399,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.352927,
+    "mu_CI95": [
+      0.26826,
+      0.437595
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-23T09:24:40.734537+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/cog-vinc-circ-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/cog-vinc-circ-01",
+      "studyIds": [
+        "COG-VINC-CIRC_01"
+      ],
+      "citation": "COG-VINC-CIRC_01 (2013); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cerebral blood flow concerns; Outcome: cerebral_blood_flow; DOI: 10.1234/cog-vinc-circ-01; Adverse Events: Transient headache.",
+      "doi": "10.1234/cog-vinc-circ-01",
+      "sameAs": "https://doi.org/10.1234/cog-vinc-circ-01",
+      "datePublished": "2013",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cognition_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/cog-vinc-circ-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/cog-vinc-circ-02",
+      "studyIds": [
+        "COG-VINC-CIRC_02"
+      ],
+      "citation": "COG-VINC-CIRC_02 (2014); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cerebral blood flow concerns; Outcome: cerebral_blood_flow; DOI: 10.1234/cog-vinc-circ-02; Adverse Events: None reported.",
+      "doi": "10.1234/cog-vinc-circ-02",
+      "sameAs": "https://doi.org/10.1234/cog-vinc-circ-02",
+      "datePublished": "2014",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cognition_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/cog-vinc-circ-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/cog-vinc-circ-03",
+      "studyIds": [
+        "COG-VINC-CIRC_03"
+      ],
+      "citation": "COG-VINC-CIRC_03 (2015); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cerebral blood flow concerns; Outcome: cerebral_blood_flow; DOI: 10.1234/cog-vinc-circ-03; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/cog-vinc-circ-03",
+      "sameAs": "https://doi.org/10.1234/cog-vinc-circ-03",
+      "datePublished": "2015",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cognition_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:e572aab56445e2607224b46d31e123917d6544b3e8db721cffd54045ee7a3144",
+  "audit_hash": "0x7f326232c9ad6d18"
+}

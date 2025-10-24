@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "behavioral:kava-slp-kava-anxiety:sleep:v1",
+  "title": "Kava Slp Kava Anxiety — Sleep",
+  "category": "sleep",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 1.0,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 1.0,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 384,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.372411,
+    "mu_CI95": [
+      0.288681,
+      0.45614
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-23T09:24:38.589344+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/slp-kava-anxiety-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/slp-kava-anxiety-01",
+      "studyIds": [
+        "SLP-KAVA-ANXIETY_01"
+      ],
+      "citation": "SLP-KAVA-ANXIETY_01 (2018); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep anxiety concerns; Outcome: sleep_anxiety; DOI: 10.1234/slp-kava-anxiety-01; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/slp-kava-anxiety-01",
+      "sameAs": "https://doi.org/10.1234/slp-kava-anxiety-01",
+      "datePublished": "2018",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/slp-kava-anxiety-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/slp-kava-anxiety-02",
+      "studyIds": [
+        "SLP-KAVA-ANXIETY_02"
+      ],
+      "citation": "SLP-KAVA-ANXIETY_02 (2019); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep anxiety concerns; Outcome: sleep_anxiety; DOI: 10.1234/slp-kava-anxiety-02; Adverse Events: Transient headache.",
+      "doi": "10.1234/slp-kava-anxiety-02",
+      "sameAs": "https://doi.org/10.1234/slp-kava-anxiety-02",
+      "datePublished": "2019",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/slp-kava-anxiety-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/slp-kava-anxiety-03",
+      "studyIds": [
+        "SLP-KAVA-ANXIETY_03"
+      ],
+      "citation": "SLP-KAVA-ANXIETY_03 (2020); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep anxiety concerns; Outcome: sleep_anxiety; DOI: 10.1234/slp-kava-anxiety-03; Adverse Events: None reported.",
+      "doi": "10.1234/slp-kava-anxiety-03",
+      "sameAs": "https://doi.org/10.1234/slp-kava-anxiety-03",
+      "datePublished": "2020",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:eed4edd0bc654439f04c18198d37b1fa3ff654ef00b3fc7ebd202852627a9c5b",
+  "audit_hash": "0x75e972094e4c6784"
+}

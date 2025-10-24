@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+SLP-FHTP-SEROTONIN_01,2017,randomized controlled trial,SMD,-0.3378,-0.4892,-0.1863,62,48,low,10.1234/slp-fhtp-serotonin-01,sleep_journal,sleep_quality,Adults with sleep quality concerns,None reported,6
+SLP-FHTP-SEROTONIN_02,2018,randomized controlled trial,SMD,-0.3301,-0.4883,-0.1718,66,51,some concerns,10.1234/slp-fhtp-serotonin-02,sleep_journal,sleep_quality,Adults with sleep quality concerns,Mild GI discomfort,7
+SLP-FHTP-SEROTONIN_03,2019,randomized controlled trial,SMD,-0.4309,-0.5765,-0.2854,70,54,mixed,10.1234/slp-fhtp-serotonin-03,sleep_journal,sleep_quality,Adults with sleep quality concerns,Transient headache,8

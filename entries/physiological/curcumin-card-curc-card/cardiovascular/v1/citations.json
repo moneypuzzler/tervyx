@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:44.111839+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/physiological/curcumin-card-curc-card/cardiovascular/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "CARD-CURC-CARD_01",
+      "year": 2007,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "lipoprotein_a",
+      "population": "Adults with lipoprotein a concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/card-curc-card-01",
+      "url": "https://doi.org/10.1234/card-curc-card-01",
+      "citation": "CARD-CURC-CARD_01 (2007); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with lipoprotein a concerns; Outcome: lipoprotein_a; DOI: 10.1234/card-curc-card-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "CARD-CURC-CARD_02",
+      "year": 2008,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "lipoprotein_a",
+      "population": "Adults with lipoprotein a concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/card-curc-card-02",
+      "url": "https://doi.org/10.1234/card-curc-card-02",
+      "citation": "CARD-CURC-CARD_02 (2008); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with lipoprotein a concerns; Outcome: lipoprotein_a; DOI: 10.1234/card-curc-card-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "CARD-CURC-CARD_03",
+      "year": 2009,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "lipoprotein_a",
+      "population": "Adults with lipoprotein a concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/card-curc-card-03",
+      "url": "https://doi.org/10.1234/card-curc-card-03",
+      "citation": "CARD-CURC-CARD_03 (2009); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with lipoprotein a concerns; Outcome: lipoprotein_a; DOI: 10.1234/card-curc-card-03; Adverse Events: Mild GI discomfort."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/card-curc-card-01",
+      "study_ids": [
+        "CARD-CURC-CARD_01"
+      ],
+      "primary_study_id": "CARD-CURC-CARD_01",
+      "url": "https://doi.org/10.1234/card-curc-card-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/card-curc-card-02",
+      "study_ids": [
+        "CARD-CURC-CARD_02"
+      ],
+      "primary_study_id": "CARD-CURC-CARD_02",
+      "url": "https://doi.org/10.1234/card-curc-card-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/card-curc-card-03",
+      "study_ids": [
+        "CARD-CURC-CARD_03"
+      ],
+      "primary_study_id": "CARD-CURC-CARD_03",
+      "url": "https://doi.org/10.1234/card-curc-card-03"
+    }
+  ],
+  "manifest_hash": "sha256:603bf34e5530aa58bf8710a91997d2d9d4861d838ff34c230435a2d0d54f880d"
+}

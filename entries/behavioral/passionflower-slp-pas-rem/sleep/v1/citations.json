@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:38.335973+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/behavioral/passionflower-slp-pas-rem/sleep/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "SLP-PAS-REM_01",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "sleep_quality",
+      "population": "Adults with sleep quality concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/slp-pas-rem-01",
+      "url": "https://doi.org/10.1234/slp-pas-rem-01",
+      "citation": "SLP-PAS-REM_01 (2015); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-pas-rem-01; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "SLP-PAS-REM_02",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "sleep_quality",
+      "population": "Adults with sleep quality concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/slp-pas-rem-02",
+      "url": "https://doi.org/10.1234/slp-pas-rem-02",
+      "citation": "SLP-PAS-REM_02 (2016); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-pas-rem-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "SLP-PAS-REM_03",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "sleep_quality",
+      "population": "Adults with sleep quality concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/slp-pas-rem-03",
+      "url": "https://doi.org/10.1234/slp-pas-rem-03",
+      "citation": "SLP-PAS-REM_03 (2017); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-pas-rem-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/slp-pas-rem-01",
+      "study_ids": [
+        "SLP-PAS-REM_01"
+      ],
+      "primary_study_id": "SLP-PAS-REM_01",
+      "url": "https://doi.org/10.1234/slp-pas-rem-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/slp-pas-rem-02",
+      "study_ids": [
+        "SLP-PAS-REM_02"
+      ],
+      "primary_study_id": "SLP-PAS-REM_02",
+      "url": "https://doi.org/10.1234/slp-pas-rem-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/slp-pas-rem-03",
+      "study_ids": [
+        "SLP-PAS-REM_03"
+      ],
+      "primary_study_id": "SLP-PAS-REM_03",
+      "url": "https://doi.org/10.1234/slp-pas-rem-03"
+    }
+  ],
+  "manifest_hash": "sha256:1e7bd36ede61f8609412e736fdb67fda469327d7fc14a91b10a8937bdafa8f19"
+}

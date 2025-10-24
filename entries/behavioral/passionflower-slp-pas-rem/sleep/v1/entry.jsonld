@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "behavioral:passionflower-slp-pas-rem:sleep:v1",
+  "title": "Passionflower Slp Pas Rem — Sleep",
+  "category": "sleep",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 1.0,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 1.0,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 330,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.372644,
+    "mu_CI95": [
+      0.287363,
+      0.457925
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-23T09:24:38.336095+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/slp-pas-rem-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/slp-pas-rem-01",
+      "studyIds": [
+        "SLP-PAS-REM_01"
+      ],
+      "citation": "SLP-PAS-REM_01 (2015); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-pas-rem-01; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/slp-pas-rem-01",
+      "sameAs": "https://doi.org/10.1234/slp-pas-rem-01",
+      "datePublished": "2015",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/slp-pas-rem-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/slp-pas-rem-02",
+      "studyIds": [
+        "SLP-PAS-REM_02"
+      ],
+      "citation": "SLP-PAS-REM_02 (2016); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-pas-rem-02; Adverse Events: Transient headache.",
+      "doi": "10.1234/slp-pas-rem-02",
+      "sameAs": "https://doi.org/10.1234/slp-pas-rem-02",
+      "datePublished": "2016",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/slp-pas-rem-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/slp-pas-rem-03",
+      "studyIds": [
+        "SLP-PAS-REM_03"
+      ],
+      "citation": "SLP-PAS-REM_03 (2017); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-pas-rem-03; Adverse Events: None reported.",
+      "doi": "10.1234/slp-pas-rem-03",
+      "sameAs": "https://doi.org/10.1234/slp-pas-rem-03",
+      "datePublished": "2017",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:1e7bd36ede61f8609412e736fdb67fda469327d7fc14a91b10a8937bdafa8f19",
+  "audit_hash": "0x51fd5713be0ec8d5"
+}

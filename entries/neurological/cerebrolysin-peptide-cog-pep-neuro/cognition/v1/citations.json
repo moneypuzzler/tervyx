@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:40.215951+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/neurological/cerebrolysin-peptide-cog-pep-neuro/cognition/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "COG-PEP-NEURO_01",
+      "year": 2007,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "cognitive_decline",
+      "population": "Adults with cognitive decline concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/cog-pep-neuro-01",
+      "url": "https://doi.org/10.1234/cog-pep-neuro-01",
+      "citation": "COG-PEP-NEURO_01 (2007); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1234/cog-pep-neuro-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "COG-PEP-NEURO_02",
+      "year": 2008,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "cognitive_decline",
+      "population": "Adults with cognitive decline concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/cog-pep-neuro-02",
+      "url": "https://doi.org/10.1234/cog-pep-neuro-02",
+      "citation": "COG-PEP-NEURO_02 (2008); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1234/cog-pep-neuro-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "COG-PEP-NEURO_03",
+      "year": 2009,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "cognitive_decline",
+      "population": "Adults with cognitive decline concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/cog-pep-neuro-03",
+      "url": "https://doi.org/10.1234/cog-pep-neuro-03",
+      "citation": "COG-PEP-NEURO_03 (2009); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1234/cog-pep-neuro-03; Adverse Events: Mild GI discomfort."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/cog-pep-neuro-01",
+      "study_ids": [
+        "COG-PEP-NEURO_01"
+      ],
+      "primary_study_id": "COG-PEP-NEURO_01",
+      "url": "https://doi.org/10.1234/cog-pep-neuro-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/cog-pep-neuro-02",
+      "study_ids": [
+        "COG-PEP-NEURO_02"
+      ],
+      "primary_study_id": "COG-PEP-NEURO_02",
+      "url": "https://doi.org/10.1234/cog-pep-neuro-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/cog-pep-neuro-03",
+      "study_ids": [
+        "COG-PEP-NEURO_03"
+      ],
+      "primary_study_id": "COG-PEP-NEURO_03",
+      "url": "https://doi.org/10.1234/cog-pep-neuro-03"
+    }
+  ],
+  "manifest_hash": "sha256:4f12a632ecd419836d5a5c9f63d42c9342f6b7e50ba14df367f4144c06278c79"
+}

@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+CARD-SPIR-HTN_01,2018,randomized controlled trial,SMD,-0.3287,-0.4817,-0.1757,68,53,some concerns,10.1234/card-spir-htn-01,cardiovascular_journal,blood_pressure,Adults with blood pressure concerns,Mild GI discomfort,7
+CARD-SPIR-HTN_02,2019,randomized controlled trial,SMD,-0.3533,-0.4865,-0.2201,72,56,mixed,10.1234/card-spir-htn-02,cardiovascular_journal,blood_pressure,Adults with blood pressure concerns,Transient headache,8
+CARD-SPIR-HTN_03,2020,randomized controlled trial,SMD,-0.3983,-0.5406,-0.2560,76,59,low,10.1234/card-spir-htn-03,cardiovascular_journal,blood_pressure,Adults with blood pressure concerns,None reported,9

@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:45.452539+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/physiological/hawthorn-card-haw-output/cardiovascular/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "CARD-HAW-OUTPUT_01",
+      "year": 2007,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "cardiac_output",
+      "population": "Adults with cardiac output concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/card-haw-output-01",
+      "url": "https://doi.org/10.1234/card-haw-output-01",
+      "citation": "CARD-HAW-OUTPUT_01 (2007); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with cardiac output concerns; Outcome: cardiac_output; DOI: 10.1234/card-haw-output-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "CARD-HAW-OUTPUT_02",
+      "year": 2008,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "cardiac_output",
+      "population": "Adults with cardiac output concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/card-haw-output-02",
+      "url": "https://doi.org/10.1234/card-haw-output-02",
+      "citation": "CARD-HAW-OUTPUT_02 (2008); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with cardiac output concerns; Outcome: cardiac_output; DOI: 10.1234/card-haw-output-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "CARD-HAW-OUTPUT_03",
+      "year": 2009,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "cardiac_output",
+      "population": "Adults with cardiac output concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/card-haw-output-03",
+      "url": "https://doi.org/10.1234/card-haw-output-03",
+      "citation": "CARD-HAW-OUTPUT_03 (2009); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with cardiac output concerns; Outcome: cardiac_output; DOI: 10.1234/card-haw-output-03; Adverse Events: Mild GI discomfort."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/card-haw-output-01",
+      "study_ids": [
+        "CARD-HAW-OUTPUT_01"
+      ],
+      "primary_study_id": "CARD-HAW-OUTPUT_01",
+      "url": "https://doi.org/10.1234/card-haw-output-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/card-haw-output-02",
+      "study_ids": [
+        "CARD-HAW-OUTPUT_02"
+      ],
+      "primary_study_id": "CARD-HAW-OUTPUT_02",
+      "url": "https://doi.org/10.1234/card-haw-output-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/card-haw-output-03",
+      "study_ids": [
+        "CARD-HAW-OUTPUT_03"
+      ],
+      "primary_study_id": "CARD-HAW-OUTPUT_03",
+      "url": "https://doi.org/10.1234/card-haw-output-03"
+    }
+  ],
+  "manifest_hash": "sha256:e7c08b353a4165478ceee0e8f05d6c8d4f1c05acaab17956b9f42e5fc89a5893"
+}

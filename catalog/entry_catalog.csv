@@ -4,7 +4,6 @@ SLP-MAG-CORE,sleep,magnesium,merge,glycinate baseline with sleep maintenance co-
 
 Versioned scaffold generated via scaling CLI",2025-10-19T06:32:39Z,,,
 SLP-MEL-ACUTE,sleep,melatonin,split,acute dosing vs sustained release decision gate,sleep_onset,high,P0,doi:10.7326/M20-0741,pending,,,Focus on short latency onset protocols; capture pediatric safety notes,2024-05-01T00:00:00Z,,,
-SLP-VAL-REST,sleep,valerian,merge,standardized valerenic acid extracts,sleep_latency,medium,P1,PMID: 31124745,pending,,,Compare extract ratios 0.8% vs 1.0% valerenic acid,2024-05-01T00:00:00Z,,,
 SLP-ASH-HPA,sleep,ashwagandha,merge,KSM-66 vs Sensoril adaptogen comparison,stress_insomnia,medium,P1,PMID: 31317699,pending,,,Capture cortisol reduction outcomes alongside sleep scores,2024-05-01T00:00:00Z,,,
 SLP-GLY-THERM,sleep,glycine,merge,3g evening dosing with cooling protocol,sleep_latency,medium,P1,PMID: 20110082,pending,,,Track core body temperature change and morning alertness,2024-05-01T00:00:00Z,,,
 SLP-THN-ALPHA,sleep,l_theanine,merge,evening alpha-wave modulation,sleep_quality,medium,P1,PMID: 32239622,pending,,,Segment adult anxiety cohorts vs healthy sleepers,2024-05-01T00:00:00Z,,,

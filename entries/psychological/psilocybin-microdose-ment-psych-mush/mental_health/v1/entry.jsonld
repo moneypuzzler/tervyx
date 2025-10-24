@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "psychological:psilocybin-microdose-ment-psych-mush:mental_health:v1",
+  "title": "Psilocybin Microdose Ment Psych Mush — Mental Health",
+  "category": "mental_health",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.9614,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 1.0,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 366,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.373849,
+    "mu_CI95": [
+      0.291857,
+      0.455842
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-23T09:24:41.965342+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/ment-psych-mush-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/ment-psych-mush-01",
+      "studyIds": [
+        "MENT-PSYCH-MUSH_01"
+      ],
+      "citation": "MENT-PSYCH-MUSH_01 (2012); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-psych-mush-01; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/ment-psych-mush-01",
+      "sameAs": "https://doi.org/10.1234/ment-psych-mush-01",
+      "datePublished": "2012",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/ment-psych-mush-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/ment-psych-mush-02",
+      "studyIds": [
+        "MENT-PSYCH-MUSH_02"
+      ],
+      "citation": "MENT-PSYCH-MUSH_02 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-psych-mush-02; Adverse Events: Transient headache.",
+      "doi": "10.1234/ment-psych-mush-02",
+      "sameAs": "https://doi.org/10.1234/ment-psych-mush-02",
+      "datePublished": "2013",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/ment-psych-mush-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/ment-psych-mush-03",
+      "studyIds": [
+        "MENT-PSYCH-MUSH_03"
+      ],
+      "citation": "MENT-PSYCH-MUSH_03 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-psych-mush-03; Adverse Events: None reported.",
+      "doi": "10.1234/ment-psych-mush-03",
+      "sameAs": "https://doi.org/10.1234/ment-psych-mush-03",
+      "datePublished": "2014",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:33ff1144fc828b07a8b6e2c997cd38353b38b84e79d6bdf262889aeab33eb518",
+  "audit_hash": "0xabd26e634a54a25e"
+}

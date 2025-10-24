@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "psychological:lavender-ment-lav-caps:mental_health:v1",
+  "title": "Lavender Ment Lav Caps — Mental Health",
+  "category": "mental_health",
+  "tier": "Silver",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.8778,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 1.0,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 348,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.345796,
+    "mu_CI95": [
+      0.268386,
+      0.423207
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-23T09:24:41.442003+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/ment-lav-caps-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/ment-lav-caps-01",
+      "studyIds": [
+        "MENT-LAV-CAPS_01"
+      ],
+      "citation": "MENT-LAV-CAPS_01 (2006); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-lav-caps-01; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/ment-lav-caps-01",
+      "sameAs": "https://doi.org/10.1234/ment-lav-caps-01",
+      "datePublished": "2006",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/ment-lav-caps-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/ment-lav-caps-02",
+      "studyIds": [
+        "MENT-LAV-CAPS_02"
+      ],
+      "citation": "MENT-LAV-CAPS_02 (2007); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-lav-caps-02; Adverse Events: Transient headache.",
+      "doi": "10.1234/ment-lav-caps-02",
+      "sameAs": "https://doi.org/10.1234/ment-lav-caps-02",
+      "datePublished": "2007",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/ment-lav-caps-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/ment-lav-caps-03",
+      "studyIds": [
+        "MENT-LAV-CAPS_03"
+      ],
+      "citation": "MENT-LAV-CAPS_03 (2008); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-lav-caps-03; Adverse Events: None reported.",
+      "doi": "10.1234/ment-lav-caps-03",
+      "sameAs": "https://doi.org/10.1234/ment-lav-caps-03",
+      "datePublished": "2008",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:ec33e5e724d7c9d4cde58fbfca92905eccbeb17e5c4ffed4bfe871dc50f30674",
+  "audit_hash": "0xe904927b007c15bf"
+}

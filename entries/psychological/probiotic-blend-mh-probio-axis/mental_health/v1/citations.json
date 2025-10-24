@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:44.544704+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/psychological/probiotic-blend-mh-probio-axis/mental_health/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MH-PROBIO-AXIS_01",
+      "year": 2012,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "gut_brain_axis",
+      "population": "Adults with gut brain axis concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/mh-probio-axis-01",
+      "url": "https://doi.org/10.1234/mh-probio-axis-01",
+      "citation": "MH-PROBIO-AXIS_01 (2012); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with gut brain axis concerns; Outcome: gut_brain_axis; DOI: 10.1234/mh-probio-axis-01; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "MH-PROBIO-AXIS_02",
+      "year": 2013,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "gut_brain_axis",
+      "population": "Adults with gut brain axis concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/mh-probio-axis-02",
+      "url": "https://doi.org/10.1234/mh-probio-axis-02",
+      "citation": "MH-PROBIO-AXIS_02 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with gut brain axis concerns; Outcome: gut_brain_axis; DOI: 10.1234/mh-probio-axis-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MH-PROBIO-AXIS_03",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "gut_brain_axis",
+      "population": "Adults with gut brain axis concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/mh-probio-axis-03",
+      "url": "https://doi.org/10.1234/mh-probio-axis-03",
+      "citation": "MH-PROBIO-AXIS_03 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with gut brain axis concerns; Outcome: gut_brain_axis; DOI: 10.1234/mh-probio-axis-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/mh-probio-axis-01",
+      "study_ids": [
+        "MH-PROBIO-AXIS_01"
+      ],
+      "primary_study_id": "MH-PROBIO-AXIS_01",
+      "url": "https://doi.org/10.1234/mh-probio-axis-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/mh-probio-axis-02",
+      "study_ids": [
+        "MH-PROBIO-AXIS_02"
+      ],
+      "primary_study_id": "MH-PROBIO-AXIS_02",
+      "url": "https://doi.org/10.1234/mh-probio-axis-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/mh-probio-axis-03",
+      "study_ids": [
+        "MH-PROBIO-AXIS_03"
+      ],
+      "primary_study_id": "MH-PROBIO-AXIS_03",
+      "url": "https://doi.org/10.1234/mh-probio-axis-03"
+    }
+  ],
+  "manifest_hash": "sha256:3d009ad4399631c337998e778d63ceef71b3a77356baed1b51b33c4fc45633a2"
+}

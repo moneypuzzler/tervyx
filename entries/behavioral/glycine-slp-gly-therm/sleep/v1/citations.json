@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:37.728494+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/behavioral/glycine-slp-gly-therm/sleep/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "SLP-GLY-THERM_01",
+      "year": 2008,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "sleep_latency",
+      "population": "Adults with sleep latency concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/slp-gly-therm-01",
+      "url": "https://doi.org/10.1234/slp-gly-therm-01",
+      "citation": "SLP-GLY-THERM_01 (2008); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1234/slp-gly-therm-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "SLP-GLY-THERM_02",
+      "year": 2009,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "sleep_latency",
+      "population": "Adults with sleep latency concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/slp-gly-therm-02",
+      "url": "https://doi.org/10.1234/slp-gly-therm-02",
+      "citation": "SLP-GLY-THERM_02 (2009); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1234/slp-gly-therm-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "SLP-GLY-THERM_03",
+      "year": 2010,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "sleep_latency",
+      "population": "Adults with sleep latency concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/slp-gly-therm-03",
+      "url": "https://doi.org/10.1234/slp-gly-therm-03",
+      "citation": "SLP-GLY-THERM_03 (2010); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1234/slp-gly-therm-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/slp-gly-therm-01",
+      "study_ids": [
+        "SLP-GLY-THERM_01"
+      ],
+      "primary_study_id": "SLP-GLY-THERM_01",
+      "url": "https://doi.org/10.1234/slp-gly-therm-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/slp-gly-therm-02",
+      "study_ids": [
+        "SLP-GLY-THERM_02"
+      ],
+      "primary_study_id": "SLP-GLY-THERM_02",
+      "url": "https://doi.org/10.1234/slp-gly-therm-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/slp-gly-therm-03",
+      "study_ids": [
+        "SLP-GLY-THERM_03"
+      ],
+      "primary_study_id": "SLP-GLY-THERM_03",
+      "url": "https://doi.org/10.1234/slp-gly-therm-03"
+    }
+  ],
+  "manifest_hash": "sha256:773061c0c7dffa9c01dc6be70d74989056527c4b1e5812147b3f427b3ca1db71"
+}

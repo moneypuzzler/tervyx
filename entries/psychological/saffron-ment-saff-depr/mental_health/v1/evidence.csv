@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+MENT-SAFF-DEPR_01,2017,randomized controlled trial,SMD,-0.2904,-0.4215,-0.1594,62,48,low,10.1234/ment-saff-depr-01,mental_health_journal,depression,Adults with depression concerns,None reported,6
+MENT-SAFF-DEPR_02,2018,randomized controlled trial,SMD,-0.3307,-0.4605,-0.2009,66,51,some concerns,10.1234/ment-saff-depr-02,mental_health_journal,depression,Adults with depression concerns,Mild GI discomfort,7
+MENT-SAFF-DEPR_03,2019,randomized controlled trial,SMD,-0.4125,-0.5604,-0.2646,70,54,mixed,10.1234/ment-saff-depr-03,mental_health_journal,depression,Adults with depression concerns,Transient headache,8

@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+SLP-LEM-TRANQ_01,2014,randomized controlled trial,SMD,-0.2971,-0.4551,-0.1392,74,48,low,10.1234/slp-lem-tranq-01,sleep_journal,sleep_quality,Adults with sleep quality concerns,None reported,9
+SLP-LEM-TRANQ_02,2015,randomized controlled trial,SMD,-0.3427,-0.4849,-0.2005,78,51,some concerns,10.1234/slp-lem-tranq-02,sleep_journal,sleep_quality,Adults with sleep quality concerns,Mild GI discomfort,10
+SLP-LEM-TRANQ_03,2016,randomized controlled trial,SMD,-0.4088,-0.5715,-0.2461,82,54,mixed,10.1234/slp-lem-tranq-03,sleep_journal,sleep_quality,Adults with sleep quality concerns,Transient headache,11

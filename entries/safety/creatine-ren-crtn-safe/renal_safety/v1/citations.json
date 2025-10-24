@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:45.963440+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/safety/creatine-ren-crtn-safe/renal_safety/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "REN-CRTN-SAFE_01",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "renal_safety_journal",
+      "outcome": "long_term_safety",
+      "population": "Adults with long term safety concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/ren-crtn-safe-01",
+      "url": "https://doi.org/10.1234/ren-crtn-safe-01",
+      "citation": "REN-CRTN-SAFE_01 (2014); Journal: renal_safety_journal; Design: randomized controlled trial; Population: Adults with long term safety concerns; Outcome: long_term_safety; DOI: 10.1234/ren-crtn-safe-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "REN-CRTN-SAFE_02",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "renal_safety_journal",
+      "outcome": "long_term_safety",
+      "population": "Adults with long term safety concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/ren-crtn-safe-02",
+      "url": "https://doi.org/10.1234/ren-crtn-safe-02",
+      "citation": "REN-CRTN-SAFE_02 (2015); Journal: renal_safety_journal; Design: randomized controlled trial; Population: Adults with long term safety concerns; Outcome: long_term_safety; DOI: 10.1234/ren-crtn-safe-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "REN-CRTN-SAFE_03",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "renal_safety_journal",
+      "outcome": "long_term_safety",
+      "population": "Adults with long term safety concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/ren-crtn-safe-03",
+      "url": "https://doi.org/10.1234/ren-crtn-safe-03",
+      "citation": "REN-CRTN-SAFE_03 (2016); Journal: renal_safety_journal; Design: randomized controlled trial; Population: Adults with long term safety concerns; Outcome: long_term_safety; DOI: 10.1234/ren-crtn-safe-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/ren-crtn-safe-01",
+      "study_ids": [
+        "REN-CRTN-SAFE_01"
+      ],
+      "primary_study_id": "REN-CRTN-SAFE_01",
+      "url": "https://doi.org/10.1234/ren-crtn-safe-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/ren-crtn-safe-02",
+      "study_ids": [
+        "REN-CRTN-SAFE_02"
+      ],
+      "primary_study_id": "REN-CRTN-SAFE_02",
+      "url": "https://doi.org/10.1234/ren-crtn-safe-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/ren-crtn-safe-03",
+      "study_ids": [
+        "REN-CRTN-SAFE_03"
+      ],
+      "primary_study_id": "REN-CRTN-SAFE_03",
+      "url": "https://doi.org/10.1234/ren-crtn-safe-03"
+    }
+  ],
+  "manifest_hash": "sha256:88b5f4ce0c57b37a17e588f5d70ac444089bb982b5a1862654b4e746e57c512c"
+}

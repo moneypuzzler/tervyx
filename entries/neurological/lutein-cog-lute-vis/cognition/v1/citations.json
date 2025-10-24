@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:39.776629+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/neurological/lutein-cog-lute-vis/cognition/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "COG-LUTE-VIS_01",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "processing_speed",
+      "population": "Adults with processing speed concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/cog-lute-vis-01",
+      "url": "https://doi.org/10.1234/cog-lute-vis-01",
+      "citation": "COG-LUTE-VIS_01 (2017); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.1234/cog-lute-vis-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "COG-LUTE-VIS_02",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "processing_speed",
+      "population": "Adults with processing speed concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/cog-lute-vis-02",
+      "url": "https://doi.org/10.1234/cog-lute-vis-02",
+      "citation": "COG-LUTE-VIS_02 (2018); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.1234/cog-lute-vis-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "COG-LUTE-VIS_03",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "processing_speed",
+      "population": "Adults with processing speed concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/cog-lute-vis-03",
+      "url": "https://doi.org/10.1234/cog-lute-vis-03",
+      "citation": "COG-LUTE-VIS_03 (2019); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.1234/cog-lute-vis-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/cog-lute-vis-01",
+      "study_ids": [
+        "COG-LUTE-VIS_01"
+      ],
+      "primary_study_id": "COG-LUTE-VIS_01",
+      "url": "https://doi.org/10.1234/cog-lute-vis-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/cog-lute-vis-02",
+      "study_ids": [
+        "COG-LUTE-VIS_02"
+      ],
+      "primary_study_id": "COG-LUTE-VIS_02",
+      "url": "https://doi.org/10.1234/cog-lute-vis-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/cog-lute-vis-03",
+      "study_ids": [
+        "COG-LUTE-VIS_03"
+      ],
+      "primary_study_id": "COG-LUTE-VIS_03",
+      "url": "https://doi.org/10.1234/cog-lute-vis-03"
+    }
+  ],
+  "manifest_hash": "sha256:3a82831263285d7bd351a9b405c2faac1985738cf17e60247a0ce868a2bc8a2d"
+}

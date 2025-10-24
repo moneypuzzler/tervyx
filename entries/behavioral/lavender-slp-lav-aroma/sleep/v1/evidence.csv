@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+SLP-LAV-AROMA_01,2012,randomized controlled trial,SMD,-0.3037,-0.4420,-0.1654,62,53,some concerns,10.1234/slp-lav-aroma-01,sleep_journal,sleep_anxiety,Adults with sleep anxiety concerns,Mild GI discomfort,7
+SLP-LAV-AROMA_02,2013,randomized controlled trial,SMD,-0.3671,-0.5100,-0.2243,66,56,mixed,10.1234/slp-lav-aroma-02,sleep_journal,sleep_anxiety,Adults with sleep anxiety concerns,Transient headache,8
+SLP-LAV-AROMA_03,2014,randomized controlled trial,SMD,-0.4129,-0.5385,-0.2872,70,59,low,10.1234/slp-lav-aroma-03,sleep_journal,sleep_anxiety,Adults with sleep anxiety concerns,None reported,9

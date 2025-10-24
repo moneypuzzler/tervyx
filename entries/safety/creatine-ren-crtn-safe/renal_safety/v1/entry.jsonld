@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "safety:creatine-ren-crtn-safe:renal_safety:v1",
+  "title": "Creatine Ren Crtn Safe — Renal Safety",
+  "category": "renal_safety",
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.0,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.9,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 387,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.355059,
+    "mu_CI95": [
+      0.278536,
+      0.431582
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-23T09:24:45.963566+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/ren-crtn-safe-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/ren-crtn-safe-01",
+      "studyIds": [
+        "REN-CRTN-SAFE_01"
+      ],
+      "citation": "REN-CRTN-SAFE_01 (2014); Journal: renal_safety_journal; Design: randomized controlled trial; Population: Adults with long term safety concerns; Outcome: long_term_safety; DOI: 10.1234/ren-crtn-safe-01; Adverse Events: None reported.",
+      "doi": "10.1234/ren-crtn-safe-01",
+      "sameAs": "https://doi.org/10.1234/ren-crtn-safe-01",
+      "datePublished": "2014",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "renal_safety_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/ren-crtn-safe-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/ren-crtn-safe-02",
+      "studyIds": [
+        "REN-CRTN-SAFE_02"
+      ],
+      "citation": "REN-CRTN-SAFE_02 (2015); Journal: renal_safety_journal; Design: randomized controlled trial; Population: Adults with long term safety concerns; Outcome: long_term_safety; DOI: 10.1234/ren-crtn-safe-02; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/ren-crtn-safe-02",
+      "sameAs": "https://doi.org/10.1234/ren-crtn-safe-02",
+      "datePublished": "2015",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "renal_safety_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/ren-crtn-safe-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/ren-crtn-safe-03",
+      "studyIds": [
+        "REN-CRTN-SAFE_03"
+      ],
+      "citation": "REN-CRTN-SAFE_03 (2016); Journal: renal_safety_journal; Design: randomized controlled trial; Population: Adults with long term safety concerns; Outcome: long_term_safety; DOI: 10.1234/ren-crtn-safe-03; Adverse Events: Transient headache.",
+      "doi": "10.1234/ren-crtn-safe-03",
+      "sameAs": "https://doi.org/10.1234/ren-crtn-safe-03",
+      "datePublished": "2016",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "renal_safety_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:88b5f4ce0c57b37a17e588f5d70ac444089bb982b5a1862654b4e746e57c512c",
+  "audit_hash": "0xe9b0e3bd29a491b3"
+}

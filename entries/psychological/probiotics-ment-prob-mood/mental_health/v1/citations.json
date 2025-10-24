@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:41.178086+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/psychological/probiotics-ment-prob-mood/mental_health/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MENT-PROB-MOOD_01",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "anxiety",
+      "population": "Adults with anxiety concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/ment-prob-mood-01",
+      "url": "https://doi.org/10.1234/ment-prob-mood-01",
+      "citation": "MENT-PROB-MOOD_01 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-prob-mood-01; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "MENT-PROB-MOOD_02",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "anxiety",
+      "population": "Adults with anxiety concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/ment-prob-mood-02",
+      "url": "https://doi.org/10.1234/ment-prob-mood-02",
+      "citation": "MENT-PROB-MOOD_02 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-prob-mood-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MENT-PROB-MOOD_03",
+      "year": 2020,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "anxiety",
+      "population": "Adults with anxiety concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/ment-prob-mood-03",
+      "url": "https://doi.org/10.1234/ment-prob-mood-03",
+      "citation": "MENT-PROB-MOOD_03 (2020); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-prob-mood-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/ment-prob-mood-01",
+      "study_ids": [
+        "MENT-PROB-MOOD_01"
+      ],
+      "primary_study_id": "MENT-PROB-MOOD_01",
+      "url": "https://doi.org/10.1234/ment-prob-mood-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/ment-prob-mood-02",
+      "study_ids": [
+        "MENT-PROB-MOOD_02"
+      ],
+      "primary_study_id": "MENT-PROB-MOOD_02",
+      "url": "https://doi.org/10.1234/ment-prob-mood-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/ment-prob-mood-03",
+      "study_ids": [
+        "MENT-PROB-MOOD_03"
+      ],
+      "primary_study_id": "MENT-PROB-MOOD_03",
+      "url": "https://doi.org/10.1234/ment-prob-mood-03"
+    }
+  ],
+  "manifest_hash": "sha256:4f9d5b00d7ea26e008a1e4b7f172637806a5cbd353c3a11d210d1c40522581ae"
+}

@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "psychological:ashwagandha-mh-ash-cort:mental_health:v1",
+  "title": "Ashwagandha Mh Ash Cort — Mental Health",
+  "category": "mental_health",
+  "tier": "Silver",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.8413,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.9,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 402,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.342492,
+    "mu_CI95": [
+      0.259254,
+      0.425729
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-23T09:24:44.285593+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/mh-ash-cort-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/mh-ash-cort-01",
+      "studyIds": [
+        "MH-ASH-CORT_01"
+      ],
+      "citation": "MH-ASH-CORT_01 (2009); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1234/mh-ash-cort-01; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/mh-ash-cort-01",
+      "sameAs": "https://doi.org/10.1234/mh-ash-cort-01",
+      "datePublished": "2009",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/mh-ash-cort-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/mh-ash-cort-02",
+      "studyIds": [
+        "MH-ASH-CORT_02"
+      ],
+      "citation": "MH-ASH-CORT_02 (2010); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1234/mh-ash-cort-02; Adverse Events: Transient headache.",
+      "doi": "10.1234/mh-ash-cort-02",
+      "sameAs": "https://doi.org/10.1234/mh-ash-cort-02",
+      "datePublished": "2010",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/mh-ash-cort-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/mh-ash-cort-03",
+      "studyIds": [
+        "MH-ASH-CORT_03"
+      ],
+      "citation": "MH-ASH-CORT_03 (2011); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1234/mh-ash-cort-03; Adverse Events: None reported.",
+      "doi": "10.1234/mh-ash-cort-03",
+      "sameAs": "https://doi.org/10.1234/mh-ash-cort-03",
+      "datePublished": "2011",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:9adec2667969eee112e1a1065bac501904b7da11d733a326afdf5e2b06d5ba0f",
+  "audit_hash": "0x6b391ccd371ca9de"
+}
