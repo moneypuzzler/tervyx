@@ -32,10 +32,13 @@
       "type": "string",
       "enum": [
         "sleep",
-        "cognition", 
+        "cognition",
         "mental_health",
         "renal_safety",
-        "cardiovascular"
+        "cardiovascular",
+        "metabolic",
+        "immune",
+        "immune_health"
       ],
       "description": "Evidence category from TEL-5 taxonomy"
     },

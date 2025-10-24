@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+MET-CINN-A1C_01,2012,randomized controlled trial,SMD,-0.273,-0.413,-0.133,65,63,some concerns,10.1234/cinnamon-met-cinn-a1c-01,metabolic_journal,hba1c_reduction,Adults with hba1c reduction concerns,Transient headache,11
+MET-CINN-A1C_02,2013,randomized controlled trial,SMD,-0.3502,-0.5362,-0.1642,80,66,mixed,10.1234/cinnamon-met-cinn-a1c-02,metabolic_journal,hba1c_reduction,Adults with hba1c reduction concerns,Mild GI discomfort,8
+MET-CINN-A1C_03,2014,randomized controlled trial,SMD,-0.3634,-0.5313,-0.1955,61,69,some concerns,10.1234/cinnamon-met-cinn-a1c-03,metabolic_journal,hba1c_reduction,Adults with hba1c reduction concerns,None reported,8

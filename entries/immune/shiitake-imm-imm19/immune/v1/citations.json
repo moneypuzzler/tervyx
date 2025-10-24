@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-24T08:19:11.489032+00:00",
+  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "source_evidence": "entries/immune/shiitake-imm-imm19/immune/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "IMM-IMM19_01",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "immune_journal",
+      "outcome": "antiviral_support",
+      "population": "Adults with antiviral support concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/shiitake-imm-imm19-01",
+      "url": "https://doi.org/10.1234/shiitake-imm-imm19-01",
+      "citation": "IMM-IMM19_01 (2015); Journal: immune_journal; Design: randomized controlled trial; Population: Adults with antiviral support concerns; Outcome: antiviral_support; DOI: 10.1234/shiitake-imm-imm19-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "IMM-IMM19_02",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "immune_journal",
+      "outcome": "antiviral_support",
+      "population": "Adults with antiviral support concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/shiitake-imm-imm19-02",
+      "url": "https://doi.org/10.1234/shiitake-imm-imm19-02",
+      "citation": "IMM-IMM19_02 (2016); Journal: immune_journal; Design: randomized controlled trial; Population: Adults with antiviral support concerns; Outcome: antiviral_support; DOI: 10.1234/shiitake-imm-imm19-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "IMM-IMM19_03",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "immune_journal",
+      "outcome": "antiviral_support",
+      "population": "Adults with antiviral support concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/shiitake-imm-imm19-03",
+      "url": "https://doi.org/10.1234/shiitake-imm-imm19-03",
+      "citation": "IMM-IMM19_03 (2017); Journal: immune_journal; Design: randomized controlled trial; Population: Adults with antiviral support concerns; Outcome: antiviral_support; DOI: 10.1234/shiitake-imm-imm19-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/shiitake-imm-imm19-01",
+      "study_ids": [
+        "IMM-IMM19_01"
+      ],
+      "primary_study_id": "IMM-IMM19_01",
+      "url": "https://doi.org/10.1234/shiitake-imm-imm19-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/shiitake-imm-imm19-02",
+      "study_ids": [
+        "IMM-IMM19_02"
+      ],
+      "primary_study_id": "IMM-IMM19_02",
+      "url": "https://doi.org/10.1234/shiitake-imm-imm19-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/shiitake-imm-imm19-03",
+      "study_ids": [
+        "IMM-IMM19_03"
+      ],
+      "primary_study_id": "IMM-IMM19_03",
+      "url": "https://doi.org/10.1234/shiitake-imm-imm19-03"
+    }
+  ],
+  "manifest_hash": "sha256:9fd7d68656237aa2b6d3fad70e3fd8f611638781fd5491c1a19b1080226569e5"
+}

@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-24T08:19:07.341299+00:00",
+  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "source_evidence": "entries/metabolic/cinnamon-meta-glu04/metabolic/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "META-GLU04_01",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "weight_management",
+      "population": "Adults with weight management concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/cinnamon-meta-glu04-01",
+      "url": "https://doi.org/10.1234/cinnamon-meta-glu04-01",
+      "citation": "META-GLU04_01 (2015); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with weight management concerns; Outcome: weight_management; DOI: 10.1234/cinnamon-meta-glu04-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "META-GLU04_02",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "weight_management",
+      "population": "Adults with weight management concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/cinnamon-meta-glu04-02",
+      "url": "https://doi.org/10.1234/cinnamon-meta-glu04-02",
+      "citation": "META-GLU04_02 (2016); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with weight management concerns; Outcome: weight_management; DOI: 10.1234/cinnamon-meta-glu04-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "META-GLU04_03",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "weight_management",
+      "population": "Adults with weight management concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/cinnamon-meta-glu04-03",
+      "url": "https://doi.org/10.1234/cinnamon-meta-glu04-03",
+      "citation": "META-GLU04_03 (2017); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with weight management concerns; Outcome: weight_management; DOI: 10.1234/cinnamon-meta-glu04-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/cinnamon-meta-glu04-01",
+      "study_ids": [
+        "META-GLU04_01"
+      ],
+      "primary_study_id": "META-GLU04_01",
+      "url": "https://doi.org/10.1234/cinnamon-meta-glu04-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/cinnamon-meta-glu04-02",
+      "study_ids": [
+        "META-GLU04_02"
+      ],
+      "primary_study_id": "META-GLU04_02",
+      "url": "https://doi.org/10.1234/cinnamon-meta-glu04-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/cinnamon-meta-glu04-03",
+      "study_ids": [
+        "META-GLU04_03"
+      ],
+      "primary_study_id": "META-GLU04_03",
+      "url": "https://doi.org/10.1234/cinnamon-meta-glu04-03"
+    }
+  ],
+  "manifest_hash": "sha256:972fd111267b6fc9d8590640b0ed6fadce41f6f9b2b2a3b255830813abf1c655"
+}

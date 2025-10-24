@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-24T08:19:08.431993+00:00",
+  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "source_evidence": "entries/metabolic/chlorella-meta-glu13/metabolic/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "META-GLU13_01",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "lipid_profile",
+      "population": "Adults with lipid profile concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/chlorella-meta-glu13-01",
+      "url": "https://doi.org/10.1234/chlorella-meta-glu13-01",
+      "citation": "META-GLU13_01 (2015); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with lipid profile concerns; Outcome: lipid_profile; DOI: 10.1234/chlorella-meta-glu13-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "META-GLU13_02",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "lipid_profile",
+      "population": "Adults with lipid profile concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/chlorella-meta-glu13-02",
+      "url": "https://doi.org/10.1234/chlorella-meta-glu13-02",
+      "citation": "META-GLU13_02 (2016); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with lipid profile concerns; Outcome: lipid_profile; DOI: 10.1234/chlorella-meta-glu13-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "META-GLU13_03",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "lipid_profile",
+      "population": "Adults with lipid profile concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/chlorella-meta-glu13-03",
+      "url": "https://doi.org/10.1234/chlorella-meta-glu13-03",
+      "citation": "META-GLU13_03 (2017); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with lipid profile concerns; Outcome: lipid_profile; DOI: 10.1234/chlorella-meta-glu13-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/chlorella-meta-glu13-01",
+      "study_ids": [
+        "META-GLU13_01"
+      ],
+      "primary_study_id": "META-GLU13_01",
+      "url": "https://doi.org/10.1234/chlorella-meta-glu13-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/chlorella-meta-glu13-02",
+      "study_ids": [
+        "META-GLU13_02"
+      ],
+      "primary_study_id": "META-GLU13_02",
+      "url": "https://doi.org/10.1234/chlorella-meta-glu13-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/chlorella-meta-glu13-03",
+      "study_ids": [
+        "META-GLU13_03"
+      ],
+      "primary_study_id": "META-GLU13_03",
+      "url": "https://doi.org/10.1234/chlorella-meta-glu13-03"
+    }
+  ],
+  "manifest_hash": "sha256:ba03a3d7ad813886c2cb11a32d5a4a3b41ab152d0a57db85387bfa7e29ea0a5d"
+}

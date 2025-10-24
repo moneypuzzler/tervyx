@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-24T08:19:08.798118+00:00",
+  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "source_evidence": "entries/metabolic/olive-leaf-meta-glu16/metabolic/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "META-GLU16_01",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "glucose_control",
+      "population": "Adults with glucose control concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/olive-leaf-meta-glu16-01",
+      "url": "https://doi.org/10.1234/olive-leaf-meta-glu16-01",
+      "citation": "META-GLU16_01 (2015); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with glucose control concerns; Outcome: glucose_control; DOI: 10.1234/olive-leaf-meta-glu16-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "META-GLU16_02",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "glucose_control",
+      "population": "Adults with glucose control concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/olive-leaf-meta-glu16-02",
+      "url": "https://doi.org/10.1234/olive-leaf-meta-glu16-02",
+      "citation": "META-GLU16_02 (2016); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with glucose control concerns; Outcome: glucose_control; DOI: 10.1234/olive-leaf-meta-glu16-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "META-GLU16_03",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "glucose_control",
+      "population": "Adults with glucose control concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/olive-leaf-meta-glu16-03",
+      "url": "https://doi.org/10.1234/olive-leaf-meta-glu16-03",
+      "citation": "META-GLU16_03 (2017); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with glucose control concerns; Outcome: glucose_control; DOI: 10.1234/olive-leaf-meta-glu16-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/olive-leaf-meta-glu16-01",
+      "study_ids": [
+        "META-GLU16_01"
+      ],
+      "primary_study_id": "META-GLU16_01",
+      "url": "https://doi.org/10.1234/olive-leaf-meta-glu16-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/olive-leaf-meta-glu16-02",
+      "study_ids": [
+        "META-GLU16_02"
+      ],
+      "primary_study_id": "META-GLU16_02",
+      "url": "https://doi.org/10.1234/olive-leaf-meta-glu16-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/olive-leaf-meta-glu16-03",
+      "study_ids": [
+        "META-GLU16_03"
+      ],
+      "primary_study_id": "META-GLU16_03",
+      "url": "https://doi.org/10.1234/olive-leaf-meta-glu16-03"
+    }
+  ],
+  "manifest_hash": "sha256:a85be4618b60ab05354b711140ca9fd54cdb4017e0f4d92f474b74be7e5ce38d"
+}

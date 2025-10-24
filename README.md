@@ -100,6 +100,31 @@ cat entries/nutrient/magnesium-glycinate/sleep/v1/citations.json
 python scripts/tervyx.py fingerprint
 ```
 
+## 🧮 Batch Entry Targeting Helper
+
+Large batch builds often start from a filtered slice of `catalog/entry_catalog.csv`.
+Instead of stringing together `awk`/`tail` invocations, use the curated helper below
+to emit a deterministic target list for Codex or other automation clients:
+
+```bash
+python tools/select_catalog_entries.py \
+  --category sleep \
+  --priorities high medium \
+  --count 100 \
+  --output /tmp/targets.csv
+```
+
+Key details:
+
+- `--category` performs a substring match (case-insensitive by default).
+- `--priorities` accepts one or more priority tiers; omit the flag to include all rows.
+- `--count` controls how many matches are emitted (use `0` to disable the cap).
+- `--include-header` preserves the CSV header when downstream tooling requires it.
+
+The script mirrors the pilot batch instructions shared with Codex, producing
+`/tmp/targets.csv` suitable for looping over `build_protocol_entry.py` executions
+or seeding additional deterministic workflows.
+
 ## 📁 Repository Structure
 
 ```

@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "immune:vitamin-c-imm-imm03:immune:v1",
+  "title": "Vitamin C Imm Imm03 — Immune",
+  "category": "immune",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.9999,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.9,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 404,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.345025,
+    "mu_CI95": [
+      0.258321,
+      0.431729
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-24T08:19:09.666508+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/vitamin-c-imm-imm03-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/vitamin-c-imm-imm03-01",
+      "studyIds": [
+        "IMM-IMM03_01"
+      ],
+      "citation": "IMM-IMM03_01 (2015); Journal: immune_journal; Design: randomized controlled trial; Population: Adults with antiviral support concerns; Outcome: antiviral_support; DOI: 10.1234/vitamin-c-imm-imm03-01; Adverse Events: None reported.",
+      "doi": "10.1234/vitamin-c-imm-imm03-01",
+      "sameAs": "https://doi.org/10.1234/vitamin-c-imm-imm03-01",
+      "datePublished": "2015",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "immune_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/vitamin-c-imm-imm03-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/vitamin-c-imm-imm03-02",
+      "studyIds": [
+        "IMM-IMM03_02"
+      ],
+      "citation": "IMM-IMM03_02 (2016); Journal: immune_journal; Design: randomized controlled trial; Population: Adults with antiviral support concerns; Outcome: antiviral_support; DOI: 10.1234/vitamin-c-imm-imm03-02; Adverse Events: None reported.",
+      "doi": "10.1234/vitamin-c-imm-imm03-02",
+      "sameAs": "https://doi.org/10.1234/vitamin-c-imm-imm03-02",
+      "datePublished": "2016",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "immune_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/vitamin-c-imm-imm03-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/vitamin-c-imm-imm03-03",
+      "studyIds": [
+        "IMM-IMM03_03"
+      ],
+      "citation": "IMM-IMM03_03 (2017); Journal: immune_journal; Design: randomized controlled trial; Population: Adults with antiviral support concerns; Outcome: antiviral_support; DOI: 10.1234/vitamin-c-imm-imm03-03; Adverse Events: None reported.",
+      "doi": "10.1234/vitamin-c-imm-imm03-03",
+      "sameAs": "https://doi.org/10.1234/vitamin-c-imm-imm03-03",
+      "datePublished": "2017",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "immune_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:9db4814f107dfcbdbf9b7e2a2c211576c2d3d415f4cadafe498bb4d60692270c",
+  "audit_hash": "0x09ad5095d5a4a8b7"
+}

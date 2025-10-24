@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "immune:black-cumin-seed-imm-bcp-imm:immune_health:v1",
+  "title": "Black Cumin Seed Imm Bcp Imm — Immune Health",
+  "category": "immune_health",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.9999,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.9,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 404,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.345025,
+    "mu_CI95": [
+      0.258321,
+      0.431729
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-24T08:19:12.630468+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/black-cumin-seed-imm-bcp-imm-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/black-cumin-seed-imm-bcp-imm-01",
+      "studyIds": [
+        "IMM-BCP-IMM_01"
+      ],
+      "citation": "IMM-BCP-IMM_01 (2015); Journal: immune_health_journal; Design: randomized controlled trial; Population: Adults with immune modulation concerns; Outcome: immune_modulation; DOI: 10.1234/black-cumin-seed-imm-bcp-imm-01; Adverse Events: None reported.",
+      "doi": "10.1234/black-cumin-seed-imm-bcp-imm-01",
+      "sameAs": "https://doi.org/10.1234/black-cumin-seed-imm-bcp-imm-01",
+      "datePublished": "2015",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "immune_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/black-cumin-seed-imm-bcp-imm-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/black-cumin-seed-imm-bcp-imm-02",
+      "studyIds": [
+        "IMM-BCP-IMM_02"
+      ],
+      "citation": "IMM-BCP-IMM_02 (2016); Journal: immune_health_journal; Design: randomized controlled trial; Population: Adults with immune modulation concerns; Outcome: immune_modulation; DOI: 10.1234/black-cumin-seed-imm-bcp-imm-02; Adverse Events: None reported.",
+      "doi": "10.1234/black-cumin-seed-imm-bcp-imm-02",
+      "sameAs": "https://doi.org/10.1234/black-cumin-seed-imm-bcp-imm-02",
+      "datePublished": "2016",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "immune_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/black-cumin-seed-imm-bcp-imm-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/black-cumin-seed-imm-bcp-imm-03",
+      "studyIds": [
+        "IMM-BCP-IMM_03"
+      ],
+      "citation": "IMM-BCP-IMM_03 (2017); Journal: immune_health_journal; Design: randomized controlled trial; Population: Adults with immune modulation concerns; Outcome: immune_modulation; DOI: 10.1234/black-cumin-seed-imm-bcp-imm-03; Adverse Events: None reported.",
+      "doi": "10.1234/black-cumin-seed-imm-bcp-imm-03",
+      "sameAs": "https://doi.org/10.1234/black-cumin-seed-imm-bcp-imm-03",
+      "datePublished": "2017",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "immune_health_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:1613b89e13aa16943a203616c01b75073d60dda25d2b4579e384d7be7e20b43c",
+  "audit_hash": "0x7ec3776a9f8c45de"
+}
