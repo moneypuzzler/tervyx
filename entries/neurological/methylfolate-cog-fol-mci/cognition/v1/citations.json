@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:40.389533+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/neurological/methylfolate-cog-fol-mci/cognition/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "COG-FOL-MCI_01",
+      "year": 2009,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "memory",
+      "population": "Adults with memory concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/cog-fol-mci-01",
+      "url": "https://doi.org/10.1234/cog-fol-mci-01",
+      "citation": "COG-FOL-MCI_01 (2009); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1234/cog-fol-mci-01; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "COG-FOL-MCI_02",
+      "year": 2010,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "memory",
+      "population": "Adults with memory concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/cog-fol-mci-02",
+      "url": "https://doi.org/10.1234/cog-fol-mci-02",
+      "citation": "COG-FOL-MCI_02 (2010); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1234/cog-fol-mci-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "COG-FOL-MCI_03",
+      "year": 2011,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "memory",
+      "population": "Adults with memory concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/cog-fol-mci-03",
+      "url": "https://doi.org/10.1234/cog-fol-mci-03",
+      "citation": "COG-FOL-MCI_03 (2011); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1234/cog-fol-mci-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/cog-fol-mci-01",
+      "study_ids": [
+        "COG-FOL-MCI_01"
+      ],
+      "primary_study_id": "COG-FOL-MCI_01",
+      "url": "https://doi.org/10.1234/cog-fol-mci-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/cog-fol-mci-02",
+      "study_ids": [
+        "COG-FOL-MCI_02"
+      ],
+      "primary_study_id": "COG-FOL-MCI_02",
+      "url": "https://doi.org/10.1234/cog-fol-mci-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/cog-fol-mci-03",
+      "study_ids": [
+        "COG-FOL-MCI_03"
+      ],
+      "primary_study_id": "COG-FOL-MCI_03",
+      "url": "https://doi.org/10.1234/cog-fol-mci-03"
+    }
+  ],
+  "manifest_hash": "sha256:da2fae9e97bbd0a1e94b6d1be87ee8092056ceaa21a23edf5e518b48c28d71cf"
+}

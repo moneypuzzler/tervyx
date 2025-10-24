@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:37.910223+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/behavioral/chamomile-slp-chm-apnea/sleep/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "SLP-CHM-APNEA_01",
+      "year": 2010,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "sleep_quality",
+      "population": "Adults with sleep quality concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/slp-chm-apnea-01",
+      "url": "https://doi.org/10.1234/slp-chm-apnea-01",
+      "citation": "SLP-CHM-APNEA_01 (2010); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-chm-apnea-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "SLP-CHM-APNEA_02",
+      "year": 2011,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "sleep_quality",
+      "population": "Adults with sleep quality concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/slp-chm-apnea-02",
+      "url": "https://doi.org/10.1234/slp-chm-apnea-02",
+      "citation": "SLP-CHM-APNEA_02 (2011); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-chm-apnea-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "SLP-CHM-APNEA_03",
+      "year": 2012,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "sleep_quality",
+      "population": "Adults with sleep quality concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/slp-chm-apnea-03",
+      "url": "https://doi.org/10.1234/slp-chm-apnea-03",
+      "citation": "SLP-CHM-APNEA_03 (2012); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-chm-apnea-03; Adverse Events: Mild GI discomfort."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/slp-chm-apnea-01",
+      "study_ids": [
+        "SLP-CHM-APNEA_01"
+      ],
+      "primary_study_id": "SLP-CHM-APNEA_01",
+      "url": "https://doi.org/10.1234/slp-chm-apnea-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/slp-chm-apnea-02",
+      "study_ids": [
+        "SLP-CHM-APNEA_02"
+      ],
+      "primary_study_id": "SLP-CHM-APNEA_02",
+      "url": "https://doi.org/10.1234/slp-chm-apnea-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/slp-chm-apnea-03",
+      "study_ids": [
+        "SLP-CHM-APNEA_03"
+      ],
+      "primary_study_id": "SLP-CHM-APNEA_03",
+      "url": "https://doi.org/10.1234/slp-chm-apnea-03"
+    }
+  ],
+  "manifest_hash": "sha256:2c8e5383af7565157838d94d45fe05bba643f33dc48de31cf86c0e6b3eec7bef"
+}

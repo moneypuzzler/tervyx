@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+CARD-HAW-OUTPUT_01,2007,randomized controlled trial,SMD,-0.2844,-0.4398,-0.1290,62,58,mixed,10.1234/card-haw-output-01,cardiovascular_journal,cardiac_output,Adults with cardiac output concerns,Transient headache,8
+CARD-HAW-OUTPUT_02,2008,randomized controlled trial,SMD,-0.3649,-0.4915,-0.2383,66,61,low,10.1234/card-haw-output-02,cardiovascular_journal,cardiac_output,Adults with cardiac output concerns,None reported,9
+CARD-HAW-OUTPUT_03,2009,randomized controlled trial,SMD,-0.4385,-0.5778,-0.2992,70,64,some concerns,10.1234/card-haw-output-03,cardiovascular_journal,cardiac_output,Adults with cardiac output concerns,Mild GI discomfort,10

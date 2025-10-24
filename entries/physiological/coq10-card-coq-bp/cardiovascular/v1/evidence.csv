@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+CARD-COQ-BP_01,2019,randomized controlled trial,SMD,-0.3208,-0.4746,-0.1670,74,58,mixed,10.1234/card-coq-bp-01,cardiovascular_journal,blood_pressure,Adults with blood pressure concerns,Transient headache,11
+CARD-COQ-BP_02,2020,randomized controlled trial,SMD,-0.3919,-0.5428,-0.2409,78,61,low,10.1234/card-coq-bp-02,cardiovascular_journal,blood_pressure,Adults with blood pressure concerns,None reported,6
+CARD-COQ-BP_03,2021,randomized controlled trial,SMD,-0.3933,-0.5314,-0.2552,82,64,some concerns,10.1234/card-coq-bp-03,cardiovascular_journal,blood_pressure,Adults with blood pressure concerns,Mild GI discomfort,7

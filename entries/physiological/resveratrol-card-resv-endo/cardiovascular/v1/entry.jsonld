@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "physiological:resveratrol-card-resv-endo:cardiovascular:v1",
+  "title": "Resveratrol Card Resv Endo — Cardiovascular",
+  "category": "cardiovascular",
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.0,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.9,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 366,
+    "I2": 27.2,
+    "tau2": 0.00179018,
+    "mu_hat": 0.359771,
+    "mu_CI95": [
+      0.267478,
+      0.452064
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-23T09:24:45.874633+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/card-resv-endo-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/card-resv-endo-01",
+      "studyIds": [
+        "CARD-RESV-ENDO_01"
+      ],
+      "citation": "CARD-RESV-ENDO_01 (2012); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with endothelial health concerns; Outcome: endothelial_health; DOI: 10.1234/card-resv-endo-01; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/card-resv-endo-01",
+      "sameAs": "https://doi.org/10.1234/card-resv-endo-01",
+      "datePublished": "2012",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cardiovascular_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/card-resv-endo-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/card-resv-endo-02",
+      "studyIds": [
+        "CARD-RESV-ENDO_02"
+      ],
+      "citation": "CARD-RESV-ENDO_02 (2013); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with endothelial health concerns; Outcome: endothelial_health; DOI: 10.1234/card-resv-endo-02; Adverse Events: Transient headache.",
+      "doi": "10.1234/card-resv-endo-02",
+      "sameAs": "https://doi.org/10.1234/card-resv-endo-02",
+      "datePublished": "2013",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cardiovascular_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/card-resv-endo-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/card-resv-endo-03",
+      "studyIds": [
+        "CARD-RESV-ENDO_03"
+      ],
+      "citation": "CARD-RESV-ENDO_03 (2014); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with endothelial health concerns; Outcome: endothelial_health; DOI: 10.1234/card-resv-endo-03; Adverse Events: None reported.",
+      "doi": "10.1234/card-resv-endo-03",
+      "sameAs": "https://doi.org/10.1234/card-resv-endo-03",
+      "datePublished": "2014",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cardiovascular_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:c494cabab92a635e51a3c7f457545b75d783ba8edd7e24ccad89c4ee4e071a19",
+  "audit_hash": "0x957e2114cf644b5c"
+}

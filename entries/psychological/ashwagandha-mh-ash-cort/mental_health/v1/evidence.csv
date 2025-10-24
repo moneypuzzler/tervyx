@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+MH-ASH-CORT_01,2009,randomized controlled trial,SMD,-0.2851,-0.4288,-0.1415,74,53,some concerns,10.1234/mh-ash-cort-01,mental_health_journal,stress_resilience,Adults with stress resilience concerns,Mild GI discomfort,7
+MH-ASH-CORT_02,2010,randomized controlled trial,SMD,-0.3650,-0.4962,-0.2338,78,56,mixed,10.1234/mh-ash-cort-02,mental_health_journal,stress_resilience,Adults with stress resilience concerns,Transient headache,8
+MH-ASH-CORT_03,2011,randomized controlled trial,SMD,-0.3815,-0.5442,-0.2188,82,59,low,10.1234/mh-ash-cort-03,mental_health_journal,stress_resilience,Adults with stress resilience concerns,None reported,9

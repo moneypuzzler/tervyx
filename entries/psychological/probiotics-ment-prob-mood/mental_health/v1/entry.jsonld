@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "psychological:probiotics-ment-prob-mood:mental_health:v1",
+  "title": "Probiotics Ment Prob Mood — Mental Health",
+  "category": "mental_health",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.9569,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 1.0,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 384,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.36905,
+    "mu_CI95": [
+      0.289563,
+      0.448537
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-23T09:24:41.178212+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/ment-prob-mood-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/ment-prob-mood-01",
+      "studyIds": [
+        "MENT-PROB-MOOD_01"
+      ],
+      "citation": "MENT-PROB-MOOD_01 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-prob-mood-01; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/ment-prob-mood-01",
+      "sameAs": "https://doi.org/10.1234/ment-prob-mood-01",
+      "datePublished": "2018",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/ment-prob-mood-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/ment-prob-mood-02",
+      "studyIds": [
+        "MENT-PROB-MOOD_02"
+      ],
+      "citation": "MENT-PROB-MOOD_02 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-prob-mood-02; Adverse Events: Transient headache.",
+      "doi": "10.1234/ment-prob-mood-02",
+      "sameAs": "https://doi.org/10.1234/ment-prob-mood-02",
+      "datePublished": "2019",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/ment-prob-mood-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/ment-prob-mood-03",
+      "studyIds": [
+        "MENT-PROB-MOOD_03"
+      ],
+      "citation": "MENT-PROB-MOOD_03 (2020); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-prob-mood-03; Adverse Events: None reported.",
+      "doi": "10.1234/ment-prob-mood-03",
+      "sameAs": "https://doi.org/10.1234/ment-prob-mood-03",
+      "datePublished": "2020",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:4f9d5b00d7ea26e008a1e4b7f172637806a5cbd353c3a11d210d1c40522581ae",
+  "audit_hash": "0x3c9240a0beb5a002"
+}

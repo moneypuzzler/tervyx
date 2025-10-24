@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "behavioral:chamomile-slp-chm-apnea:sleep:v1",
+  "title": "Chamomile Slp Chm Apnea — Sleep",
+  "category": "sleep",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.9999,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 1.0,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 345,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.342335,
+    "mu_CI95": [
+      0.260403,
+      0.424267
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-23T09:24:37.910362+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/slp-chm-apnea-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/slp-chm-apnea-01",
+      "studyIds": [
+        "SLP-CHM-APNEA_01"
+      ],
+      "citation": "SLP-CHM-APNEA_01 (2010); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-chm-apnea-01; Adverse Events: Transient headache.",
+      "doi": "10.1234/slp-chm-apnea-01",
+      "sameAs": "https://doi.org/10.1234/slp-chm-apnea-01",
+      "datePublished": "2010",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/slp-chm-apnea-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/slp-chm-apnea-02",
+      "studyIds": [
+        "SLP-CHM-APNEA_02"
+      ],
+      "citation": "SLP-CHM-APNEA_02 (2011); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-chm-apnea-02; Adverse Events: None reported.",
+      "doi": "10.1234/slp-chm-apnea-02",
+      "sameAs": "https://doi.org/10.1234/slp-chm-apnea-02",
+      "datePublished": "2011",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/slp-chm-apnea-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/slp-chm-apnea-03",
+      "studyIds": [
+        "SLP-CHM-APNEA_03"
+      ],
+      "citation": "SLP-CHM-APNEA_03 (2012); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-chm-apnea-03; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/slp-chm-apnea-03",
+      "sameAs": "https://doi.org/10.1234/slp-chm-apnea-03",
+      "datePublished": "2012",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:2c8e5383af7565157838d94d45fe05bba643f33dc48de31cf86c0e6b3eec7bef",
+  "audit_hash": "0x2eb442a99902dbbe"
+}

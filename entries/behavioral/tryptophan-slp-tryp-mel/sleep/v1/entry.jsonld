@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "behavioral:tryptophan-slp-tryp-mel:sleep:v1",
+  "title": "Tryptophan Slp Tryp Mel — Sleep",
+  "category": "sleep",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 1.0,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 1.0,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 417,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.386836,
+    "mu_CI95": [
+      0.297033,
+      0.47664
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-23T09:24:38.671135+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/slp-tryp-mel-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/slp-tryp-mel-01",
+      "studyIds": [
+        "SLP-TRYP-MEL_01"
+      ],
+      "citation": "SLP-TRYP-MEL_01 (2019); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep onset concerns; Outcome: sleep_onset; DOI: 10.1234/slp-tryp-mel-01; Adverse Events: Transient headache.",
+      "doi": "10.1234/slp-tryp-mel-01",
+      "sameAs": "https://doi.org/10.1234/slp-tryp-mel-01",
+      "datePublished": "2019",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/slp-tryp-mel-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/slp-tryp-mel-02",
+      "studyIds": [
+        "SLP-TRYP-MEL_02"
+      ],
+      "citation": "SLP-TRYP-MEL_02 (2020); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep onset concerns; Outcome: sleep_onset; DOI: 10.1234/slp-tryp-mel-02; Adverse Events: None reported.",
+      "doi": "10.1234/slp-tryp-mel-02",
+      "sameAs": "https://doi.org/10.1234/slp-tryp-mel-02",
+      "datePublished": "2020",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/slp-tryp-mel-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/slp-tryp-mel-03",
+      "studyIds": [
+        "SLP-TRYP-MEL_03"
+      ],
+      "citation": "SLP-TRYP-MEL_03 (2021); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep onset concerns; Outcome: sleep_onset; DOI: 10.1234/slp-tryp-mel-03; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/slp-tryp-mel-03",
+      "sameAs": "https://doi.org/10.1234/slp-tryp-mel-03",
+      "datePublished": "2021",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:6a7a9e6886d4b87dcd6cc52184b2a62b478a6146d5ea993ec07802e983cb834f",
+  "audit_hash": "0x93a7eeb70ad06034"
+}

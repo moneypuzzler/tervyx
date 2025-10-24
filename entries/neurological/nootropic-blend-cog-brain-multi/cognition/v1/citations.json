@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:40.126739+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/neurological/nootropic-blend-cog-brain-multi/cognition/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "COG-BRAIN-MULTI_01",
+      "year": 2006,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "attention",
+      "population": "Adults with attention concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/cog-brain-multi-01",
+      "url": "https://doi.org/10.1234/cog-brain-multi-01",
+      "citation": "COG-BRAIN-MULTI_01 (2006); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1234/cog-brain-multi-01; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "COG-BRAIN-MULTI_02",
+      "year": 2007,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "attention",
+      "population": "Adults with attention concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/cog-brain-multi-02",
+      "url": "https://doi.org/10.1234/cog-brain-multi-02",
+      "citation": "COG-BRAIN-MULTI_02 (2007); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1234/cog-brain-multi-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "COG-BRAIN-MULTI_03",
+      "year": 2008,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "attention",
+      "population": "Adults with attention concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/cog-brain-multi-03",
+      "url": "https://doi.org/10.1234/cog-brain-multi-03",
+      "citation": "COG-BRAIN-MULTI_03 (2008); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1234/cog-brain-multi-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/cog-brain-multi-01",
+      "study_ids": [
+        "COG-BRAIN-MULTI_01"
+      ],
+      "primary_study_id": "COG-BRAIN-MULTI_01",
+      "url": "https://doi.org/10.1234/cog-brain-multi-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/cog-brain-multi-02",
+      "study_ids": [
+        "COG-BRAIN-MULTI_02"
+      ],
+      "primary_study_id": "COG-BRAIN-MULTI_02",
+      "url": "https://doi.org/10.1234/cog-brain-multi-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/cog-brain-multi-03",
+      "study_ids": [
+        "COG-BRAIN-MULTI_03"
+      ],
+      "primary_study_id": "COG-BRAIN-MULTI_03",
+      "url": "https://doi.org/10.1234/cog-brain-multi-03"
+    }
+  ],
+  "manifest_hash": "sha256:d100b03dc825df90878aff49d51de19b7b39587cd6823de58350ae786c40891c"
+}

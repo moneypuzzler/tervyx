@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "neurological:alpha-gpc-cog-alpgpc-focus:cognition:v1",
+  "title": "Alpha Gpc Cog Alpgpc Focus — Cognition",
+  "category": "cognition",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 1.0,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 1.0,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 399,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.39705,
+    "mu_CI95": [
+      0.308508,
+      0.485593
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-23T09:24:39.445110+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/cog-alpgpc-focus-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/cog-alpgpc-focus-01",
+      "studyIds": [
+        "COG-ALPGPC-FOCUS_01"
+      ],
+      "citation": "COG-ALPGPC-FOCUS_01 (2013); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1234/cog-alpgpc-focus-01; Adverse Events: Transient headache.",
+      "doi": "10.1234/cog-alpgpc-focus-01",
+      "sameAs": "https://doi.org/10.1234/cog-alpgpc-focus-01",
+      "datePublished": "2013",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cognition_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/cog-alpgpc-focus-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/cog-alpgpc-focus-02",
+      "studyIds": [
+        "COG-ALPGPC-FOCUS_02"
+      ],
+      "citation": "COG-ALPGPC-FOCUS_02 (2014); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1234/cog-alpgpc-focus-02; Adverse Events: None reported.",
+      "doi": "10.1234/cog-alpgpc-focus-02",
+      "sameAs": "https://doi.org/10.1234/cog-alpgpc-focus-02",
+      "datePublished": "2014",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cognition_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/cog-alpgpc-focus-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/cog-alpgpc-focus-03",
+      "studyIds": [
+        "COG-ALPGPC-FOCUS_03"
+      ],
+      "citation": "COG-ALPGPC-FOCUS_03 (2015); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1234/cog-alpgpc-focus-03; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/cog-alpgpc-focus-03",
+      "sameAs": "https://doi.org/10.1234/cog-alpgpc-focus-03",
+      "datePublished": "2015",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cognition_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:66ee0d537846325f3ba9e80d2df5eaf352727463acfa086c19213a305a975325",
+  "audit_hash": "0x4b8a263870ceea16"
+}

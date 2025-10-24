@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+SLP-GABA-ORAL_01,2016,randomized controlled trial,SMD,-0.3041,-0.4315,-0.1766,56,58,mixed,10.1234/slp-gaba-oral-01,sleep_journal,sleep_latency,Adults with sleep latency concerns,Transient headache,11
+SLP-GABA-ORAL_02,2017,randomized controlled trial,SMD,-0.3956,-0.5293,-0.2618,60,61,low,10.1234/slp-gaba-oral-02,sleep_journal,sleep_latency,Adults with sleep latency concerns,None reported,6
+SLP-GABA-ORAL_03,2018,randomized controlled trial,SMD,-0.4275,-0.5606,-0.2944,64,64,some concerns,10.1234/slp-gaba-oral-03,sleep_journal,sleep_latency,Adults with sleep latency concerns,Mild GI discomfort,7

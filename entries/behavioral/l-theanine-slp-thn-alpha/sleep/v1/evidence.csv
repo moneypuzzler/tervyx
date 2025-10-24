@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+SLP-THN-ALPHA_01,2009,randomized controlled trial,SMD,-0.3194,-0.4750,-0.1638,74,53,some concerns,10.1234/slp-thn-alpha-01,sleep_journal,sleep_quality,Adults with sleep quality concerns,Mild GI discomfort,10
+SLP-THN-ALPHA_02,2010,randomized controlled trial,SMD,-0.3462,-0.5049,-0.1874,78,56,mixed,10.1234/slp-thn-alpha-02,sleep_journal,sleep_quality,Adults with sleep quality concerns,Transient headache,11
+SLP-THN-ALPHA_03,2011,randomized controlled trial,SMD,-0.4008,-0.5464,-0.2552,82,59,low,10.1234/slp-thn-alpha-03,sleep_journal,sleep_quality,Adults with sleep quality concerns,None reported,6

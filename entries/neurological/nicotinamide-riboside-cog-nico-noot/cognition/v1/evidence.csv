@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+COG-NICO-NOOT_01,2010,randomized controlled trial,SMD,0.3446,0.2123,0.4768,50,58,mixed,10.1234/cog-nico-noot-01,cognition_journal,mitochondrial_support,Adults with mitochondrial support concerns,Transient headache,11
+COG-NICO-NOOT_02,2011,randomized controlled trial,SMD,0.3355,0.1708,0.5002,54,61,low,10.1234/cog-nico-noot-02,cognition_journal,mitochondrial_support,Adults with mitochondrial support concerns,None reported,6
+COG-NICO-NOOT_03,2012,randomized controlled trial,SMD,0.4140,0.2654,0.5626,58,64,some concerns,10.1234/cog-nico-noot-03,cognition_journal,mitochondrial_support,Adults with mitochondrial support concerns,Mild GI discomfort,7

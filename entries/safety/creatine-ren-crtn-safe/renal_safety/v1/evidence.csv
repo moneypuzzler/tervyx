@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+REN-CRTN-SAFE_01,2014,randomized controlled trial,SMD,0.3286,0.1970,0.4601,74,48,low,10.1234/ren-crtn-safe-01,renal_safety_journal,long_term_safety,Adults with long term safety concerns,None reported,9
+REN-CRTN-SAFE_02,2015,randomized controlled trial,SMD,0.3401,0.2077,0.4726,78,51,some concerns,10.1234/ren-crtn-safe-02,renal_safety_journal,long_term_safety,Adults with long term safety concerns,Mild GI discomfort,10
+REN-CRTN-SAFE_03,2016,randomized controlled trial,SMD,0.3976,0.2640,0.5313,82,54,mixed,10.1234/ren-crtn-safe-03,renal_safety_journal,long_term_safety,Adults with long term safety concerns,Transient headache,11

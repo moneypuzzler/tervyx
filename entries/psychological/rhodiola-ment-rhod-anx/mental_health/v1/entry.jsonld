@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "psychological:rhodiola-ment-rhod-anx:mental_health:v1",
+  "title": "Rhodiola Ment Rhod Anx — Mental Health",
+  "category": "mental_health",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.9132,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.9,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 333,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.358291,
+    "mu_CI95": [
+      0.27318,
+      0.443402
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-23T09:24:41.880555+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/ment-rhod-anx-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/ment-rhod-anx-01",
+      "studyIds": [
+        "MENT-RHOD-ANX_01"
+      ],
+      "citation": "MENT-RHOD-ANX_01 (2011); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress concerns; Outcome: stress; DOI: 10.1234/ment-rhod-anx-01; Adverse Events: None reported.",
+      "doi": "10.1234/ment-rhod-anx-01",
+      "sameAs": "https://doi.org/10.1234/ment-rhod-anx-01",
+      "datePublished": "2011",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/ment-rhod-anx-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/ment-rhod-anx-02",
+      "studyIds": [
+        "MENT-RHOD-ANX_02"
+      ],
+      "citation": "MENT-RHOD-ANX_02 (2012); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress concerns; Outcome: stress; DOI: 10.1234/ment-rhod-anx-02; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/ment-rhod-anx-02",
+      "sameAs": "https://doi.org/10.1234/ment-rhod-anx-02",
+      "datePublished": "2012",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/ment-rhod-anx-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/ment-rhod-anx-03",
+      "studyIds": [
+        "MENT-RHOD-ANX_03"
+      ],
+      "citation": "MENT-RHOD-ANX_03 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress concerns; Outcome: stress; DOI: 10.1234/ment-rhod-anx-03; Adverse Events: Transient headache.",
+      "doi": "10.1234/ment-rhod-anx-03",
+      "sameAs": "https://doi.org/10.1234/ment-rhod-anx-03",
+      "datePublished": "2013",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:3bf9fd8ed4729dbcd7714ddad200c6aef1de7dca96854923f5830392b40e6ea3",
+  "audit_hash": "0x16b2e92a5ebb87cb"
+}

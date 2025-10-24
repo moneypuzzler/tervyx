@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:43.783178+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/physiological/spirulina-card-spir-htn/cardiovascular/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "CARD-SPIR-HTN_01",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "blood_pressure",
+      "population": "Adults with blood pressure concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/card-spir-htn-01",
+      "url": "https://doi.org/10.1234/card-spir-htn-01",
+      "citation": "CARD-SPIR-HTN_01 (2018); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with blood pressure concerns; Outcome: blood_pressure; DOI: 10.1234/card-spir-htn-01; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "CARD-SPIR-HTN_02",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "blood_pressure",
+      "population": "Adults with blood pressure concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/card-spir-htn-02",
+      "url": "https://doi.org/10.1234/card-spir-htn-02",
+      "citation": "CARD-SPIR-HTN_02 (2019); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with blood pressure concerns; Outcome: blood_pressure; DOI: 10.1234/card-spir-htn-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "CARD-SPIR-HTN_03",
+      "year": 2020,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "blood_pressure",
+      "population": "Adults with blood pressure concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/card-spir-htn-03",
+      "url": "https://doi.org/10.1234/card-spir-htn-03",
+      "citation": "CARD-SPIR-HTN_03 (2020); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with blood pressure concerns; Outcome: blood_pressure; DOI: 10.1234/card-spir-htn-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/card-spir-htn-01",
+      "study_ids": [
+        "CARD-SPIR-HTN_01"
+      ],
+      "primary_study_id": "CARD-SPIR-HTN_01",
+      "url": "https://doi.org/10.1234/card-spir-htn-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/card-spir-htn-02",
+      "study_ids": [
+        "CARD-SPIR-HTN_02"
+      ],
+      "primary_study_id": "CARD-SPIR-HTN_02",
+      "url": "https://doi.org/10.1234/card-spir-htn-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/card-spir-htn-03",
+      "study_ids": [
+        "CARD-SPIR-HTN_03"
+      ],
+      "primary_study_id": "CARD-SPIR-HTN_03",
+      "url": "https://doi.org/10.1234/card-spir-htn-03"
+    }
+  ],
+  "manifest_hash": "sha256:96ca3d5efdd39562aa3cbf1bf2f5c407a32995c71431818751eb36032d72caeb"
+}

@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+COG-ALPGPC-FOCUS_01,2013,randomized controlled trial,SMD,0.3471,0.1982,0.4960,68,58,mixed,10.1234/cog-alpgpc-focus-01,cognition_journal,attention,Adults with attention concerns,Transient headache,11
+COG-ALPGPC-FOCUS_02,2014,randomized controlled trial,SMD,0.3965,0.2353,0.5576,72,61,low,10.1234/cog-alpgpc-focus-02,cognition_journal,attention,Adults with attention concerns,None reported,6
+COG-ALPGPC-FOCUS_03,2015,randomized controlled trial,SMD,0.4488,0.2979,0.5996,76,64,some concerns,10.1234/cog-alpgpc-focus-03,cognition_journal,attention,Adults with attention concerns,Mild GI discomfort,7

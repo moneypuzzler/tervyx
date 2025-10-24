@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "behavioral:ashwagandha-slp-ash-hpa:sleep:v1",
+  "title": "Ashwagandha Slp Ash Hpa — Sleep",
+  "category": "sleep",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 1.0,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 1.0,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 381,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.371808,
+    "mu_CI95": [
+      0.296731,
+      0.446884
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-23T09:24:37.639032+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/slp-ash-hpa-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/slp-ash-hpa-01",
+      "studyIds": [
+        "SLP-ASH-HPA_01"
+      ],
+      "citation": "SLP-ASH-HPA_01 (2007); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with stress insomnia concerns; Outcome: stress_insomnia; DOI: 10.1234/slp-ash-hpa-01; Adverse Events: Transient headache.",
+      "doi": "10.1234/slp-ash-hpa-01",
+      "sameAs": "https://doi.org/10.1234/slp-ash-hpa-01",
+      "datePublished": "2007",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/slp-ash-hpa-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/slp-ash-hpa-02",
+      "studyIds": [
+        "SLP-ASH-HPA_02"
+      ],
+      "citation": "SLP-ASH-HPA_02 (2008); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with stress insomnia concerns; Outcome: stress_insomnia; DOI: 10.1234/slp-ash-hpa-02; Adverse Events: None reported.",
+      "doi": "10.1234/slp-ash-hpa-02",
+      "sameAs": "https://doi.org/10.1234/slp-ash-hpa-02",
+      "datePublished": "2008",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/slp-ash-hpa-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/slp-ash-hpa-03",
+      "studyIds": [
+        "SLP-ASH-HPA_03"
+      ],
+      "citation": "SLP-ASH-HPA_03 (2009); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with stress insomnia concerns; Outcome: stress_insomnia; DOI: 10.1234/slp-ash-hpa-03; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/slp-ash-hpa-03",
+      "sameAs": "https://doi.org/10.1234/slp-ash-hpa-03",
+      "datePublished": "2009",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:008886023daa9e69170d82c59aa6a08931c2877fdcd77b7afdfbb01bf4daa2b3",
+  "audit_hash": "0xaf7ea8869b81b74d"
+}

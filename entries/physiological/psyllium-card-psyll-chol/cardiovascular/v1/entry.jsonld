@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "physiological:psyllium-card-psyll-chol:cardiovascular:v1",
+  "title": "Psyllium Card Psyll Chol — Cardiovascular",
+  "category": "cardiovascular",
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.0,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 1.0,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 399,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.37116,
+    "mu_CI95": [
+      0.287254,
+      0.455066
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-23T09:24:43.357983+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/card-psyll-chol-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/card-psyll-chol-01",
+      "studyIds": [
+        "CARD-PSYLL-CHOL_01"
+      ],
+      "citation": "CARD-PSYLL-CHOL_01 (2013); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with cholesterol concerns; Outcome: cholesterol; DOI: 10.1234/card-psyll-chol-01; Adverse Events: Transient headache.",
+      "doi": "10.1234/card-psyll-chol-01",
+      "sameAs": "https://doi.org/10.1234/card-psyll-chol-01",
+      "datePublished": "2013",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cardiovascular_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/card-psyll-chol-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/card-psyll-chol-02",
+      "studyIds": [
+        "CARD-PSYLL-CHOL_02"
+      ],
+      "citation": "CARD-PSYLL-CHOL_02 (2014); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with cholesterol concerns; Outcome: cholesterol; DOI: 10.1234/card-psyll-chol-02; Adverse Events: None reported.",
+      "doi": "10.1234/card-psyll-chol-02",
+      "sameAs": "https://doi.org/10.1234/card-psyll-chol-02",
+      "datePublished": "2014",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cardiovascular_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/card-psyll-chol-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/card-psyll-chol-03",
+      "studyIds": [
+        "CARD-PSYLL-CHOL_03"
+      ],
+      "citation": "CARD-PSYLL-CHOL_03 (2015); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with cholesterol concerns; Outcome: cholesterol; DOI: 10.1234/card-psyll-chol-03; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/card-psyll-chol-03",
+      "sameAs": "https://doi.org/10.1234/card-psyll-chol-03",
+      "datePublished": "2015",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cardiovascular_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:c7877e343a37055629b5e49f32879e73f53fa8941e244a1363a75b3ef3ed8454",
+  "audit_hash": "0xf7f72ccd6f594b10"
+}

@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:39.947472+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/neurological/curcumin-cog-curc-neuro/cognition/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "COG-CURC-NEURO_01",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "memory",
+      "population": "Adults with memory concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/cog-curc-neuro-01",
+      "url": "https://doi.org/10.1234/cog-curc-neuro-01",
+      "citation": "COG-CURC-NEURO_01 (2019); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1234/cog-curc-neuro-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "COG-CURC-NEURO_02",
+      "year": 2020,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "memory",
+      "population": "Adults with memory concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/cog-curc-neuro-02",
+      "url": "https://doi.org/10.1234/cog-curc-neuro-02",
+      "citation": "COG-CURC-NEURO_02 (2020); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1234/cog-curc-neuro-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "COG-CURC-NEURO_03",
+      "year": 2021,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "memory",
+      "population": "Adults with memory concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/cog-curc-neuro-03",
+      "url": "https://doi.org/10.1234/cog-curc-neuro-03",
+      "citation": "COG-CURC-NEURO_03 (2021); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1234/cog-curc-neuro-03; Adverse Events: Mild GI discomfort."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/cog-curc-neuro-01",
+      "study_ids": [
+        "COG-CURC-NEURO_01"
+      ],
+      "primary_study_id": "COG-CURC-NEURO_01",
+      "url": "https://doi.org/10.1234/cog-curc-neuro-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/cog-curc-neuro-02",
+      "study_ids": [
+        "COG-CURC-NEURO_02"
+      ],
+      "primary_study_id": "COG-CURC-NEURO_02",
+      "url": "https://doi.org/10.1234/cog-curc-neuro-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/cog-curc-neuro-03",
+      "study_ids": [
+        "COG-CURC-NEURO_03"
+      ],
+      "primary_study_id": "COG-CURC-NEURO_03",
+      "url": "https://doi.org/10.1234/cog-curc-neuro-03"
+    }
+  ],
+  "manifest_hash": "sha256:8c31e608cd5d37db5edbf1511cc6264e6674532d6af10458aaf61458bfe54931"
+}

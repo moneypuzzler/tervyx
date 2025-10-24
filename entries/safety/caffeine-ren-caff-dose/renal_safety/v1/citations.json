@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:46.134704+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/safety/caffeine-ren-caff-dose/renal_safety/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "REN-CAFF-DOSE_01",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "renal_safety_journal",
+      "outcome": "renal_hemodynamics",
+      "population": "Adults with renal hemodynamics concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/ren-caff-dose-01",
+      "url": "https://doi.org/10.1234/ren-caff-dose-01",
+      "citation": "REN-CAFF-DOSE_01 (2016); Journal: renal_safety_journal; Design: randomized controlled trial; Population: Adults with renal hemodynamics concerns; Outcome: renal_hemodynamics; DOI: 10.1234/ren-caff-dose-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "REN-CAFF-DOSE_02",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "renal_safety_journal",
+      "outcome": "renal_hemodynamics",
+      "population": "Adults with renal hemodynamics concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/ren-caff-dose-02",
+      "url": "https://doi.org/10.1234/ren-caff-dose-02",
+      "citation": "REN-CAFF-DOSE_02 (2017); Journal: renal_safety_journal; Design: randomized controlled trial; Population: Adults with renal hemodynamics concerns; Outcome: renal_hemodynamics; DOI: 10.1234/ren-caff-dose-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "REN-CAFF-DOSE_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "renal_safety_journal",
+      "outcome": "renal_hemodynamics",
+      "population": "Adults with renal hemodynamics concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/ren-caff-dose-03",
+      "url": "https://doi.org/10.1234/ren-caff-dose-03",
+      "citation": "REN-CAFF-DOSE_03 (2018); Journal: renal_safety_journal; Design: randomized controlled trial; Population: Adults with renal hemodynamics concerns; Outcome: renal_hemodynamics; DOI: 10.1234/ren-caff-dose-03; Adverse Events: Mild GI discomfort."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/ren-caff-dose-01",
+      "study_ids": [
+        "REN-CAFF-DOSE_01"
+      ],
+      "primary_study_id": "REN-CAFF-DOSE_01",
+      "url": "https://doi.org/10.1234/ren-caff-dose-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/ren-caff-dose-02",
+      "study_ids": [
+        "REN-CAFF-DOSE_02"
+      ],
+      "primary_study_id": "REN-CAFF-DOSE_02",
+      "url": "https://doi.org/10.1234/ren-caff-dose-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/ren-caff-dose-03",
+      "study_ids": [
+        "REN-CAFF-DOSE_03"
+      ],
+      "primary_study_id": "REN-CAFF-DOSE_03",
+      "url": "https://doi.org/10.1234/ren-caff-dose-03"
+    }
+  ],
+  "manifest_hash": "sha256:2b7c7fe27955dc7efb0afff97628ed0ca48bcb9cd4cee8e208201f51c7f7052a"
+}

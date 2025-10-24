@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "psychological:adaptogen-blend-ment-adapto-mix:mental_health:v1",
+  "title": "Adaptogen Blend Ment Adapto Mix — Mental Health",
+  "category": "mental_health",
+  "tier": "Silver",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.8979,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.9,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 384,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.355261,
+    "mu_CI95": [
+      0.26963,
+      0.440891
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-23T09:24:42.501503+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/ment-adapto-mix-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/ment-adapto-mix-01",
+      "studyIds": [
+        "MENT-ADAPTO-MIX_01"
+      ],
+      "citation": "MENT-ADAPTO-MIX_01 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress concerns; Outcome: stress; DOI: 10.1234/ment-adapto-mix-01; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/ment-adapto-mix-01",
+      "sameAs": "https://doi.org/10.1234/ment-adapto-mix-01",
+      "datePublished": "2018",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/ment-adapto-mix-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/ment-adapto-mix-02",
+      "studyIds": [
+        "MENT-ADAPTO-MIX_02"
+      ],
+      "citation": "MENT-ADAPTO-MIX_02 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress concerns; Outcome: stress; DOI: 10.1234/ment-adapto-mix-02; Adverse Events: Transient headache.",
+      "doi": "10.1234/ment-adapto-mix-02",
+      "sameAs": "https://doi.org/10.1234/ment-adapto-mix-02",
+      "datePublished": "2019",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/ment-adapto-mix-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/ment-adapto-mix-03",
+      "studyIds": [
+        "MENT-ADAPTO-MIX_03"
+      ],
+      "citation": "MENT-ADAPTO-MIX_03 (2020); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress concerns; Outcome: stress; DOI: 10.1234/ment-adapto-mix-03; Adverse Events: None reported.",
+      "doi": "10.1234/ment-adapto-mix-03",
+      "sameAs": "https://doi.org/10.1234/ment-adapto-mix-03",
+      "datePublished": "2020",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:7d87094117e8c5b1aec5f5d9be6a74944c9f8ea7671d82a5ea3575bc44e79da4",
+  "audit_hash": "0xa62a95a092bab549"
+}

@@ -512,35 +512,6 @@
     ],
     "quality_note": "Single crossover trial with week-long sleep diaries"
   },
-  "valerian/sleep-latency/slp-val-rest": {
-    "category": "sleep",
-    "delta": 0.2,
-    "benefit_direction": -1,
-    "studies": [
-      {
-        "study_id": "Bent2006",
-        "year": 2006,
-        "design": "Meta-analysis",
-        "effect_point": -0.21,
-        "ci_low": -0.39,
-        "ci_high": -0.03,
-        "n_treat": 574,
-        "n_ctrl": 558,
-        "risk_of_bias": "mixed",
-        "doi": "10.1016/j.amjmed.2006.02.026",
-        "journal_id": "am_j_med"
-      }
-    ],
-    "n_studies_override": 16,
-    "total_n_override": 1132,
-    "citations": [
-      {
-        "study_id": "Bent2006",
-        "citation": "Bent, S. et al. (2006). Valerian for sleep: A systematic review and meta-analysis. American Journal of Medicine, 119(12), 1005-1012. https://doi.org/10.1016/j.amjmed.2006.02.026"
-      }
-    ],
-    "quality_note": "16 randomized trials of standardized Valeriana officinalis extracts"
-  },
   "tryptophan/sleep-onset/slp-tryp-mel": {
     "category": "sleep",
     "delta": 0.2,

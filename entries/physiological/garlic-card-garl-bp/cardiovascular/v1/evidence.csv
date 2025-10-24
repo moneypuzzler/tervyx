@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+CARD-GARL-BP_01,2006,randomized controlled trial,SMD,-0.3203,-0.4633,-0.1773,56,53,some concerns,10.1234/card-garl-bp-01,cardiovascular_journal,hypertension,Adults with hypertension concerns,Mild GI discomfort,7
+CARD-GARL-BP_02,2007,randomized controlled trial,SMD,-0.3662,-0.5212,-0.2112,60,56,mixed,10.1234/card-garl-bp-02,cardiovascular_journal,hypertension,Adults with hypertension concerns,Transient headache,8
+CARD-GARL-BP_03,2008,randomized controlled trial,SMD,-0.4052,-0.5602,-0.2502,64,59,low,10.1234/card-garl-bp-03,cardiovascular_journal,hypertension,Adults with hypertension concerns,None reported,9

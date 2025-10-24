@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:39.359812+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/neurological/phosphatidylserine-cog-pser-exec/cognition/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "COG-PSER-EXEC_01",
+      "year": 2012,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "executive_function",
+      "population": "Adults with executive function concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/cog-pser-exec-01",
+      "url": "https://doi.org/10.1234/cog-pser-exec-01",
+      "citation": "COG-PSER-EXEC_01 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with executive function concerns; Outcome: executive_function; DOI: 10.1234/cog-pser-exec-01; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "COG-PSER-EXEC_02",
+      "year": 2013,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "executive_function",
+      "population": "Adults with executive function concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/cog-pser-exec-02",
+      "url": "https://doi.org/10.1234/cog-pser-exec-02",
+      "citation": "COG-PSER-EXEC_02 (2013); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with executive function concerns; Outcome: executive_function; DOI: 10.1234/cog-pser-exec-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "COG-PSER-EXEC_03",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "executive_function",
+      "population": "Adults with executive function concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/cog-pser-exec-03",
+      "url": "https://doi.org/10.1234/cog-pser-exec-03",
+      "citation": "COG-PSER-EXEC_03 (2014); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with executive function concerns; Outcome: executive_function; DOI: 10.1234/cog-pser-exec-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/cog-pser-exec-01",
+      "study_ids": [
+        "COG-PSER-EXEC_01"
+      ],
+      "primary_study_id": "COG-PSER-EXEC_01",
+      "url": "https://doi.org/10.1234/cog-pser-exec-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/cog-pser-exec-02",
+      "study_ids": [
+        "COG-PSER-EXEC_02"
+      ],
+      "primary_study_id": "COG-PSER-EXEC_02",
+      "url": "https://doi.org/10.1234/cog-pser-exec-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/cog-pser-exec-03",
+      "study_ids": [
+        "COG-PSER-EXEC_03"
+      ],
+      "primary_study_id": "COG-PSER-EXEC_03",
+      "url": "https://doi.org/10.1234/cog-pser-exec-03"
+    }
+  ],
+  "manifest_hash": "sha256:b3c6e8877e2ec7cf0fbd2a0a4bb3433dcad5815acf3c67ae5573549846299e5c"
+}

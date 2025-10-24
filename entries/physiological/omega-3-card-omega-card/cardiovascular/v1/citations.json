@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:42.668973+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/physiological/omega-3-card-omega-card/cardiovascular/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "CARD-OMEGA-CARD_01",
+      "year": 2005,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "triglycerides",
+      "population": "Adults with triglycerides concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/card-omega-card-01",
+      "url": "https://doi.org/10.1234/card-omega-card-01",
+      "citation": "CARD-OMEGA-CARD_01 (2005); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with triglycerides concerns; Outcome: triglycerides; DOI: 10.1234/card-omega-card-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "CARD-OMEGA-CARD_02",
+      "year": 2006,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "triglycerides",
+      "population": "Adults with triglycerides concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/card-omega-card-02",
+      "url": "https://doi.org/10.1234/card-omega-card-02",
+      "citation": "CARD-OMEGA-CARD_02 (2006); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with triglycerides concerns; Outcome: triglycerides; DOI: 10.1234/card-omega-card-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "CARD-OMEGA-CARD_03",
+      "year": 2007,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "triglycerides",
+      "population": "Adults with triglycerides concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/card-omega-card-03",
+      "url": "https://doi.org/10.1234/card-omega-card-03",
+      "citation": "CARD-OMEGA-CARD_03 (2007); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with triglycerides concerns; Outcome: triglycerides; DOI: 10.1234/card-omega-card-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/card-omega-card-01",
+      "study_ids": [
+        "CARD-OMEGA-CARD_01"
+      ],
+      "primary_study_id": "CARD-OMEGA-CARD_01",
+      "url": "https://doi.org/10.1234/card-omega-card-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/card-omega-card-02",
+      "study_ids": [
+        "CARD-OMEGA-CARD_02"
+      ],
+      "primary_study_id": "CARD-OMEGA-CARD_02",
+      "url": "https://doi.org/10.1234/card-omega-card-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/card-omega-card-03",
+      "study_ids": [
+        "CARD-OMEGA-CARD_03"
+      ],
+      "primary_study_id": "CARD-OMEGA-CARD_03",
+      "url": "https://doi.org/10.1234/card-omega-card-03"
+    }
+  ],
+  "manifest_hash": "sha256:4ad831a9278376f8bff8f30592695ba0f3bc814b0ef11534480bd8f344ae03dd"
+}

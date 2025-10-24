@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:43.947457+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/physiological/niacin-card-nia-vaso/cardiovascular/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "CARD-NIA-VASO_01",
+      "year": 2005,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "hdl_cholesterol",
+      "population": "Adults with hdl cholesterol concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/card-nia-vaso-01",
+      "url": "https://doi.org/10.1234/card-nia-vaso-01",
+      "citation": "CARD-NIA-VASO_01 (2005); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with hdl cholesterol concerns; Outcome: hdl_cholesterol; DOI: 10.1234/card-nia-vaso-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "CARD-NIA-VASO_02",
+      "year": 2006,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "hdl_cholesterol",
+      "population": "Adults with hdl cholesterol concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/card-nia-vaso-02",
+      "url": "https://doi.org/10.1234/card-nia-vaso-02",
+      "citation": "CARD-NIA-VASO_02 (2006); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with hdl cholesterol concerns; Outcome: hdl_cholesterol; DOI: 10.1234/card-nia-vaso-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "CARD-NIA-VASO_03",
+      "year": 2007,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "hdl_cholesterol",
+      "population": "Adults with hdl cholesterol concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/card-nia-vaso-03",
+      "url": "https://doi.org/10.1234/card-nia-vaso-03",
+      "citation": "CARD-NIA-VASO_03 (2007); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with hdl cholesterol concerns; Outcome: hdl_cholesterol; DOI: 10.1234/card-nia-vaso-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/card-nia-vaso-01",
+      "study_ids": [
+        "CARD-NIA-VASO_01"
+      ],
+      "primary_study_id": "CARD-NIA-VASO_01",
+      "url": "https://doi.org/10.1234/card-nia-vaso-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/card-nia-vaso-02",
+      "study_ids": [
+        "CARD-NIA-VASO_02"
+      ],
+      "primary_study_id": "CARD-NIA-VASO_02",
+      "url": "https://doi.org/10.1234/card-nia-vaso-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/card-nia-vaso-03",
+      "study_ids": [
+        "CARD-NIA-VASO_03"
+      ],
+      "primary_study_id": "CARD-NIA-VASO_03",
+      "url": "https://doi.org/10.1234/card-nia-vaso-03"
+    }
+  ],
+  "manifest_hash": "sha256:5d3cd0ae572a8fb3ecfbdc936619c9d3906ab727fae8ff258b4dd7866482d584"
+}

@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "behavioral:matcha-slp-thea-matcha:sleep:v1",
+  "title": "Matcha Slp Thea Matcha — Sleep",
+  "category": "sleep",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 1.0,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 1.0,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 348,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.363201,
+    "mu_CI95": [
+      0.281736,
+      0.444665
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-23T09:24:38.847575+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/slp-thea-matcha-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/slp-thea-matcha-01",
+      "studyIds": [
+        "SLP-THEA-MATCHA_01"
+      ],
+      "citation": "SLP-THEA-MATCHA_01 (2006); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-thea-matcha-01; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/slp-thea-matcha-01",
+      "sameAs": "https://doi.org/10.1234/slp-thea-matcha-01",
+      "datePublished": "2006",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/slp-thea-matcha-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/slp-thea-matcha-02",
+      "studyIds": [
+        "SLP-THEA-MATCHA_02"
+      ],
+      "citation": "SLP-THEA-MATCHA_02 (2007); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-thea-matcha-02; Adverse Events: Transient headache.",
+      "doi": "10.1234/slp-thea-matcha-02",
+      "sameAs": "https://doi.org/10.1234/slp-thea-matcha-02",
+      "datePublished": "2007",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/slp-thea-matcha-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/slp-thea-matcha-03",
+      "studyIds": [
+        "SLP-THEA-MATCHA_03"
+      ],
+      "citation": "SLP-THEA-MATCHA_03 (2008); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-thea-matcha-03; Adverse Events: None reported.",
+      "doi": "10.1234/slp-thea-matcha-03",
+      "sameAs": "https://doi.org/10.1234/slp-thea-matcha-03",
+      "datePublished": "2008",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:82f4b502a069747b31e9e2ec5b56381f23a9340d354fd88042a6c1d22fe482c6",
+  "audit_hash": "0x65174197e7d9b506"
+}

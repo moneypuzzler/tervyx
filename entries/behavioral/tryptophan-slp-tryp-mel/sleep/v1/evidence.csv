@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+SLP-TRYP-MEL_01,2019,randomized controlled trial,SMD,-0.3237,-0.4822,-0.1653,74,58,mixed,10.1234/slp-tryp-mel-01,sleep_journal,sleep_onset,Adults with sleep onset concerns,Transient headache,8
+SLP-TRYP-MEL_02,2020,randomized controlled trial,SMD,-0.3960,-0.5518,-0.2403,78,61,low,10.1234/slp-tryp-mel-02,sleep_journal,sleep_onset,Adults with sleep onset concerns,None reported,9
+SLP-TRYP-MEL_03,2021,randomized controlled trial,SMD,-0.4366,-0.5892,-0.2840,82,64,some concerns,10.1234/slp-tryp-mel-03,sleep_journal,sleep_onset,Adults with sleep onset concerns,Mild GI discomfort,10

@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+CARD-POME-GTP_01,2016,randomized controlled trial,SMD,-0.3017,-0.4316,-0.1718,56,58,mixed,10.1234/card-pome-gtp-01,cardiovascular_journal,blood_pressure,Adults with blood pressure concerns,Transient headache,11
+CARD-POME-GTP_02,2017,randomized controlled trial,SMD,-0.3758,-0.5116,-0.2400,60,61,low,10.1234/card-pome-gtp-02,cardiovascular_journal,blood_pressure,Adults with blood pressure concerns,None reported,6
+CARD-POME-GTP_03,2018,randomized controlled trial,SMD,-0.3814,-0.5258,-0.2371,64,64,some concerns,10.1234/card-pome-gtp-03,cardiovascular_journal,blood_pressure,Adults with blood pressure concerns,Mild GI discomfort,7

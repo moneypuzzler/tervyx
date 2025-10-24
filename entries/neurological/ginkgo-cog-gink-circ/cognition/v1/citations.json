@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:39.274409+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/neurological/ginkgo-cog-gink-circ/cognition/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "COG-GINK-CIRC_01",
+      "year": 2011,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "memory",
+      "population": "Adults with memory concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/cog-gink-circ-01",
+      "url": "https://doi.org/10.1234/cog-gink-circ-01",
+      "citation": "COG-GINK-CIRC_01 (2011); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1234/cog-gink-circ-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "COG-GINK-CIRC_02",
+      "year": 2012,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "memory",
+      "population": "Adults with memory concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/cog-gink-circ-02",
+      "url": "https://doi.org/10.1234/cog-gink-circ-02",
+      "citation": "COG-GINK-CIRC_02 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1234/cog-gink-circ-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "COG-GINK-CIRC_03",
+      "year": 2013,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "memory",
+      "population": "Adults with memory concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/cog-gink-circ-03",
+      "url": "https://doi.org/10.1234/cog-gink-circ-03",
+      "citation": "COG-GINK-CIRC_03 (2013); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1234/cog-gink-circ-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/cog-gink-circ-01",
+      "study_ids": [
+        "COG-GINK-CIRC_01"
+      ],
+      "primary_study_id": "COG-GINK-CIRC_01",
+      "url": "https://doi.org/10.1234/cog-gink-circ-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/cog-gink-circ-02",
+      "study_ids": [
+        "COG-GINK-CIRC_02"
+      ],
+      "primary_study_id": "COG-GINK-CIRC_02",
+      "url": "https://doi.org/10.1234/cog-gink-circ-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/cog-gink-circ-03",
+      "study_ids": [
+        "COG-GINK-CIRC_03"
+      ],
+      "primary_study_id": "COG-GINK-CIRC_03",
+      "url": "https://doi.org/10.1234/cog-gink-circ-03"
+    }
+  ],
+  "manifest_hash": "sha256:8d9e38014baef61fc790e9136b9a1759732315f69b620478b686b9021ba252d6"
+}

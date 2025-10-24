@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+MENT-KET-NUTRI_01,2013,randomized controlled trial,SMD,-0.3359,-0.4907,-0.1810,68,58,mixed,10.1234/ment-ket-nutri-01,mental_health_journal,treatment_resistant_depression,Adults with treatment resistant depression concerns,Transient headache,11
+MENT-KET-NUTRI_02,2014,randomized controlled trial,SMD,-0.3463,-0.4922,-0.2003,72,61,low,10.1234/ment-ket-nutri-02,mental_health_journal,treatment_resistant_depression,Adults with treatment resistant depression concerns,None reported,6
+MENT-KET-NUTRI_03,2015,randomized controlled trial,SMD,-0.3996,-0.5456,-0.2536,76,64,some concerns,10.1234/ment-ket-nutri-03,mental_health_journal,treatment_resistant_depression,Adults with treatment resistant depression concerns,Mild GI discomfort,7

@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:45.085264+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/psychological/neuropeptide-spray-mh-pep-neuro/mental_health/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MH-PEP-NEURO_01",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "attachment_security",
+      "population": "Adults with attachment security concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/mh-pep-neuro-01",
+      "url": "https://doi.org/10.1234/mh-pep-neuro-01",
+      "citation": "MH-PEP-NEURO_01 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with attachment security concerns; Outcome: attachment_security; DOI: 10.1234/mh-pep-neuro-01; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "MH-PEP-NEURO_02",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "attachment_security",
+      "population": "Adults with attachment security concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/mh-pep-neuro-02",
+      "url": "https://doi.org/10.1234/mh-pep-neuro-02",
+      "citation": "MH-PEP-NEURO_02 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with attachment security concerns; Outcome: attachment_security; DOI: 10.1234/mh-pep-neuro-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MH-PEP-NEURO_03",
+      "year": 2020,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "attachment_security",
+      "population": "Adults with attachment security concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/mh-pep-neuro-03",
+      "url": "https://doi.org/10.1234/mh-pep-neuro-03",
+      "citation": "MH-PEP-NEURO_03 (2020); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with attachment security concerns; Outcome: attachment_security; DOI: 10.1234/mh-pep-neuro-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/mh-pep-neuro-01",
+      "study_ids": [
+        "MH-PEP-NEURO_01"
+      ],
+      "primary_study_id": "MH-PEP-NEURO_01",
+      "url": "https://doi.org/10.1234/mh-pep-neuro-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/mh-pep-neuro-02",
+      "study_ids": [
+        "MH-PEP-NEURO_02"
+      ],
+      "primary_study_id": "MH-PEP-NEURO_02",
+      "url": "https://doi.org/10.1234/mh-pep-neuro-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/mh-pep-neuro-03",
+      "study_ids": [
+        "MH-PEP-NEURO_03"
+      ],
+      "primary_study_id": "MH-PEP-NEURO_03",
+      "url": "https://doi.org/10.1234/mh-pep-neuro-03"
+    }
+  ],
+  "manifest_hash": "sha256:cd66111096e2cfc9df0b5370d6d5defe45de06f11133679d713e98aaa5842bce"
+}

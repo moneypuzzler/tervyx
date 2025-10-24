@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "behavioral:melatonin-slp-mel-acute:sleep:v1",
+  "title": "Melatonin Slp Mel Acute — Sleep",
+  "category": "sleep",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 1.0,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 1.0,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 348,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.363204,
+    "mu_CI95": [
+      0.282242,
+      0.444166
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-23T09:24:37.551034+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/slp-mel-acute-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/slp-mel-acute-01",
+      "studyIds": [
+        "SLP-MEL-ACUTE_01"
+      ],
+      "citation": "SLP-MEL-ACUTE_01 (2006); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep onset concerns; Outcome: sleep_onset; DOI: 10.1234/slp-mel-acute-01; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/slp-mel-acute-01",
+      "sameAs": "https://doi.org/10.1234/slp-mel-acute-01",
+      "datePublished": "2006",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/slp-mel-acute-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/slp-mel-acute-02",
+      "studyIds": [
+        "SLP-MEL-ACUTE_02"
+      ],
+      "citation": "SLP-MEL-ACUTE_02 (2007); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep onset concerns; Outcome: sleep_onset; DOI: 10.1234/slp-mel-acute-02; Adverse Events: Transient headache.",
+      "doi": "10.1234/slp-mel-acute-02",
+      "sameAs": "https://doi.org/10.1234/slp-mel-acute-02",
+      "datePublished": "2007",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/slp-mel-acute-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/slp-mel-acute-03",
+      "studyIds": [
+        "SLP-MEL-ACUTE_03"
+      ],
+      "citation": "SLP-MEL-ACUTE_03 (2008); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep onset concerns; Outcome: sleep_onset; DOI: 10.1234/slp-mel-acute-03; Adverse Events: None reported.",
+      "doi": "10.1234/slp-mel-acute-03",
+      "sameAs": "https://doi.org/10.1234/slp-mel-acute-03",
+      "datePublished": "2008",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:1d6512d9528b7e23fae1f3a4a9025ccad177f4e4dd86765d85797746084ae6a9",
+  "audit_hash": "0xb487b86b070a2d6f"
+}

@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:41.095810+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/psychological/saffron-ment-saff-depr/mental_health/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MENT-SAFF-DEPR_01",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "depression",
+      "population": "Adults with depression concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/ment-saff-depr-01",
+      "url": "https://doi.org/10.1234/ment-saff-depr-01",
+      "citation": "MENT-SAFF-DEPR_01 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-saff-depr-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "MENT-SAFF-DEPR_02",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "depression",
+      "population": "Adults with depression concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/ment-saff-depr-02",
+      "url": "https://doi.org/10.1234/ment-saff-depr-02",
+      "citation": "MENT-SAFF-DEPR_02 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-saff-depr-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "MENT-SAFF-DEPR_03",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "depression",
+      "population": "Adults with depression concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/ment-saff-depr-03",
+      "url": "https://doi.org/10.1234/ment-saff-depr-03",
+      "citation": "MENT-SAFF-DEPR_03 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-saff-depr-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/ment-saff-depr-01",
+      "study_ids": [
+        "MENT-SAFF-DEPR_01"
+      ],
+      "primary_study_id": "MENT-SAFF-DEPR_01",
+      "url": "https://doi.org/10.1234/ment-saff-depr-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/ment-saff-depr-02",
+      "study_ids": [
+        "MENT-SAFF-DEPR_02"
+      ],
+      "primary_study_id": "MENT-SAFF-DEPR_02",
+      "url": "https://doi.org/10.1234/ment-saff-depr-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/ment-saff-depr-03",
+      "study_ids": [
+        "MENT-SAFF-DEPR_03"
+      ],
+      "primary_study_id": "MENT-SAFF-DEPR_03",
+      "url": "https://doi.org/10.1234/ment-saff-depr-03"
+    }
+  ],
+  "manifest_hash": "sha256:cf68dfca8fb18963da276b7d791e37583ddd256c2228c64e72e3d41afad54256"
+}

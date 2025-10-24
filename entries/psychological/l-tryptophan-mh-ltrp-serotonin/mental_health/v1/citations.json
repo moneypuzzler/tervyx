@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:44.711960+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/psychological/l-tryptophan-mh-ltrp-serotonin/mental_health/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MH-LTRP-SEROTONIN_01",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "serotonin_modulation",
+      "population": "Adults with serotonin modulation concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/mh-ltrp-serotonin-01",
+      "url": "https://doi.org/10.1234/mh-ltrp-serotonin-01",
+      "citation": "MH-LTRP-SEROTONIN_01 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with serotonin modulation concerns; Outcome: serotonin_modulation; DOI: 10.1234/mh-ltrp-serotonin-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "MH-LTRP-SEROTONIN_02",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "serotonin_modulation",
+      "population": "Adults with serotonin modulation concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/mh-ltrp-serotonin-02",
+      "url": "https://doi.org/10.1234/mh-ltrp-serotonin-02",
+      "citation": "MH-LTRP-SEROTONIN_02 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with serotonin modulation concerns; Outcome: serotonin_modulation; DOI: 10.1234/mh-ltrp-serotonin-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "MH-LTRP-SEROTONIN_03",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "serotonin_modulation",
+      "population": "Adults with serotonin modulation concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/mh-ltrp-serotonin-03",
+      "url": "https://doi.org/10.1234/mh-ltrp-serotonin-03",
+      "citation": "MH-LTRP-SEROTONIN_03 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with serotonin modulation concerns; Outcome: serotonin_modulation; DOI: 10.1234/mh-ltrp-serotonin-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/mh-ltrp-serotonin-01",
+      "study_ids": [
+        "MH-LTRP-SEROTONIN_01"
+      ],
+      "primary_study_id": "MH-LTRP-SEROTONIN_01",
+      "url": "https://doi.org/10.1234/mh-ltrp-serotonin-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/mh-ltrp-serotonin-02",
+      "study_ids": [
+        "MH-LTRP-SEROTONIN_02"
+      ],
+      "primary_study_id": "MH-LTRP-SEROTONIN_02",
+      "url": "https://doi.org/10.1234/mh-ltrp-serotonin-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/mh-ltrp-serotonin-03",
+      "study_ids": [
+        "MH-LTRP-SEROTONIN_03"
+      ],
+      "primary_study_id": "MH-LTRP-SEROTONIN_03",
+      "url": "https://doi.org/10.1234/mh-ltrp-serotonin-03"
+    }
+  ],
+  "manifest_hash": "sha256:4a8b525746e54060a2d6ba0b4bac7936848be37674fc73eb9e2125182bd7bbe4"
+}

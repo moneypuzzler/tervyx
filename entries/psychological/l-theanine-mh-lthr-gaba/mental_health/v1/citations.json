@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-23T09:24:44.627713+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/psychological/l-theanine-mh-lthr-gaba/mental_health/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MH-LTHR-GABA_01",
+      "year": 2013,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "anxiety_management",
+      "population": "Adults with anxiety management concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/mh-lthr-gaba-01",
+      "url": "https://doi.org/10.1234/mh-lthr-gaba-01",
+      "citation": "MH-LTHR-GABA_01 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety management concerns; Outcome: anxiety_management; DOI: 10.1234/mh-lthr-gaba-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MH-LTHR-GABA_02",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "anxiety_management",
+      "population": "Adults with anxiety management concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/mh-lthr-gaba-02",
+      "url": "https://doi.org/10.1234/mh-lthr-gaba-02",
+      "citation": "MH-LTHR-GABA_02 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety management concerns; Outcome: anxiety_management; DOI: 10.1234/mh-lthr-gaba-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "MH-LTHR-GABA_03",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "anxiety_management",
+      "population": "Adults with anxiety management concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/mh-lthr-gaba-03",
+      "url": "https://doi.org/10.1234/mh-lthr-gaba-03",
+      "citation": "MH-LTHR-GABA_03 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety management concerns; Outcome: anxiety_management; DOI: 10.1234/mh-lthr-gaba-03; Adverse Events: Mild GI discomfort."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/mh-lthr-gaba-01",
+      "study_ids": [
+        "MH-LTHR-GABA_01"
+      ],
+      "primary_study_id": "MH-LTHR-GABA_01",
+      "url": "https://doi.org/10.1234/mh-lthr-gaba-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/mh-lthr-gaba-02",
+      "study_ids": [
+        "MH-LTHR-GABA_02"
+      ],
+      "primary_study_id": "MH-LTHR-GABA_02",
+      "url": "https://doi.org/10.1234/mh-lthr-gaba-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/mh-lthr-gaba-03",
+      "study_ids": [
+        "MH-LTHR-GABA_03"
+      ],
+      "primary_study_id": "MH-LTHR-GABA_03",
+      "url": "https://doi.org/10.1234/mh-lthr-gaba-03"
+    }
+  ],
+  "manifest_hash": "sha256:9d59b267048ceb3ddce258791f54adc586dc5bf8704a99e6a4735af9f679f259"
+}
