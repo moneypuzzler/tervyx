@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-24T08:19:10.539998+00:00",
+  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "source_evidence": "entries/immune/andrographis-imm-imm10/immune/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "IMM-IMM10_01",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "immune_journal",
+      "outcome": "immune_modulation",
+      "population": "Adults with immune modulation concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/andrographis-imm-imm10-01",
+      "url": "https://doi.org/10.1234/andrographis-imm-imm10-01",
+      "citation": "IMM-IMM10_01 (2015); Journal: immune_journal; Design: randomized controlled trial; Population: Adults with immune modulation concerns; Outcome: immune_modulation; DOI: 10.1234/andrographis-imm-imm10-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "IMM-IMM10_02",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "immune_journal",
+      "outcome": "immune_modulation",
+      "population": "Adults with immune modulation concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/andrographis-imm-imm10-02",
+      "url": "https://doi.org/10.1234/andrographis-imm-imm10-02",
+      "citation": "IMM-IMM10_02 (2016); Journal: immune_journal; Design: randomized controlled trial; Population: Adults with immune modulation concerns; Outcome: immune_modulation; DOI: 10.1234/andrographis-imm-imm10-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "IMM-IMM10_03",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "immune_journal",
+      "outcome": "immune_modulation",
+      "population": "Adults with immune modulation concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/andrographis-imm-imm10-03",
+      "url": "https://doi.org/10.1234/andrographis-imm-imm10-03",
+      "citation": "IMM-IMM10_03 (2017); Journal: immune_journal; Design: randomized controlled trial; Population: Adults with immune modulation concerns; Outcome: immune_modulation; DOI: 10.1234/andrographis-imm-imm10-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/andrographis-imm-imm10-01",
+      "study_ids": [
+        "IMM-IMM10_01"
+      ],
+      "primary_study_id": "IMM-IMM10_01",
+      "url": "https://doi.org/10.1234/andrographis-imm-imm10-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/andrographis-imm-imm10-02",
+      "study_ids": [
+        "IMM-IMM10_02"
+      ],
+      "primary_study_id": "IMM-IMM10_02",
+      "url": "https://doi.org/10.1234/andrographis-imm-imm10-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/andrographis-imm-imm10-03",
+      "study_ids": [
+        "IMM-IMM10_03"
+      ],
+      "primary_study_id": "IMM-IMM10_03",
+      "url": "https://doi.org/10.1234/andrographis-imm-imm10-03"
+    }
+  ],
+  "manifest_hash": "sha256:fda7ea5cfe2895f83634569b43e36197daf5786a7760b31df7b42139372cbd63"
+}

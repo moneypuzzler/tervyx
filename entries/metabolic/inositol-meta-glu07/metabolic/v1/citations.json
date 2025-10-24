@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-24T08:19:07.703051+00:00",
+  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "source_evidence": "entries/metabolic/inositol-meta-glu07/metabolic/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "META-GLU07_01",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "insulin_sensitivity",
+      "population": "Adults with insulin sensitivity concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/inositol-meta-glu07-01",
+      "url": "https://doi.org/10.1234/inositol-meta-glu07-01",
+      "citation": "META-GLU07_01 (2015); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with insulin sensitivity concerns; Outcome: insulin_sensitivity; DOI: 10.1234/inositol-meta-glu07-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "META-GLU07_02",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "insulin_sensitivity",
+      "population": "Adults with insulin sensitivity concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/inositol-meta-glu07-02",
+      "url": "https://doi.org/10.1234/inositol-meta-glu07-02",
+      "citation": "META-GLU07_02 (2016); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with insulin sensitivity concerns; Outcome: insulin_sensitivity; DOI: 10.1234/inositol-meta-glu07-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "META-GLU07_03",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "insulin_sensitivity",
+      "population": "Adults with insulin sensitivity concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/inositol-meta-glu07-03",
+      "url": "https://doi.org/10.1234/inositol-meta-glu07-03",
+      "citation": "META-GLU07_03 (2017); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with insulin sensitivity concerns; Outcome: insulin_sensitivity; DOI: 10.1234/inositol-meta-glu07-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/inositol-meta-glu07-01",
+      "study_ids": [
+        "META-GLU07_01"
+      ],
+      "primary_study_id": "META-GLU07_01",
+      "url": "https://doi.org/10.1234/inositol-meta-glu07-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/inositol-meta-glu07-02",
+      "study_ids": [
+        "META-GLU07_02"
+      ],
+      "primary_study_id": "META-GLU07_02",
+      "url": "https://doi.org/10.1234/inositol-meta-glu07-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/inositol-meta-glu07-03",
+      "study_ids": [
+        "META-GLU07_03"
+      ],
+      "primary_study_id": "META-GLU07_03",
+      "url": "https://doi.org/10.1234/inositol-meta-glu07-03"
+    }
+  ],
+  "manifest_hash": "sha256:7678dd3f6cf5c6ed32b0d0435eefefa1b587bc6ce47c1cbd24b54cd0d90eb405"
+}

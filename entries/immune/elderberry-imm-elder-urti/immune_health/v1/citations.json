@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-24T08:19:12.529812+00:00",
+  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "source_evidence": "entries/immune/elderberry-imm-elder-urti/immune_health/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "IMM-ELDER-URTI_01",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "immune_health_journal",
+      "outcome": "upper_respiratory_infections",
+      "population": "Adults with upper respiratory infections concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/elderberry-imm-elder-urti-01",
+      "url": "https://doi.org/10.1234/elderberry-imm-elder-urti-01",
+      "citation": "IMM-ELDER-URTI_01 (2015); Journal: immune_health_journal; Design: randomized controlled trial; Population: Adults with upper respiratory infections concerns; Outcome: upper_respiratory_infections; DOI: 10.1234/elderberry-imm-elder-urti-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "IMM-ELDER-URTI_02",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "immune_health_journal",
+      "outcome": "upper_respiratory_infections",
+      "population": "Adults with upper respiratory infections concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/elderberry-imm-elder-urti-02",
+      "url": "https://doi.org/10.1234/elderberry-imm-elder-urti-02",
+      "citation": "IMM-ELDER-URTI_02 (2016); Journal: immune_health_journal; Design: randomized controlled trial; Population: Adults with upper respiratory infections concerns; Outcome: upper_respiratory_infections; DOI: 10.1234/elderberry-imm-elder-urti-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "IMM-ELDER-URTI_03",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "immune_health_journal",
+      "outcome": "upper_respiratory_infections",
+      "population": "Adults with upper respiratory infections concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/elderberry-imm-elder-urti-03",
+      "url": "https://doi.org/10.1234/elderberry-imm-elder-urti-03",
+      "citation": "IMM-ELDER-URTI_03 (2017); Journal: immune_health_journal; Design: randomized controlled trial; Population: Adults with upper respiratory infections concerns; Outcome: upper_respiratory_infections; DOI: 10.1234/elderberry-imm-elder-urti-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/elderberry-imm-elder-urti-01",
+      "study_ids": [
+        "IMM-ELDER-URTI_01"
+      ],
+      "primary_study_id": "IMM-ELDER-URTI_01",
+      "url": "https://doi.org/10.1234/elderberry-imm-elder-urti-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/elderberry-imm-elder-urti-02",
+      "study_ids": [
+        "IMM-ELDER-URTI_02"
+      ],
+      "primary_study_id": "IMM-ELDER-URTI_02",
+      "url": "https://doi.org/10.1234/elderberry-imm-elder-urti-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/elderberry-imm-elder-urti-03",
+      "study_ids": [
+        "IMM-ELDER-URTI_03"
+      ],
+      "primary_study_id": "IMM-ELDER-URTI_03",
+      "url": "https://doi.org/10.1234/elderberry-imm-elder-urti-03"
+    }
+  ],
+  "manifest_hash": "sha256:54ca4cfc562cfcff6240b664441740334cde20d61290d8aa5e2ff8bc5ca7298c"
+}

@@ -119,7 +119,7 @@
     "cardiovascular": {
       "id": "cardiovascular",
       "name": "Cardiovascular Health",
-      "description": "Blood pressure, heart rate, lipid profiles, and cardiovascular risk factors", 
+      "description": "Blood pressure, heart rate, lipid profiles, and cardiovascular risk factors",
       "primary_measures": ["SBP", "DBP", "LDL", "HDL", "total cholesterol"],
       "delta_typical": 2.0,
       "delta_units": "MD (mmHg for BP)",
@@ -128,6 +128,45 @@
       "domain": "physiological",
       "safety_priority": "high",
       "examples": ["coQ10 for blood pressure", "fish oil for lipids", "garlic for cardiovascular health"]
+    },
+    "metabolic": {
+      "id": "metabolic",
+      "name": "Metabolic Health",
+      "description": "Glucose regulation, insulin sensitivity, lipid balance, and metabolic syndrome markers",
+      "primary_measures": ["fasting glucose", "HbA1c", "triglycerides", "HOMA-IR"],
+      "delta_typical": 0.25,
+      "delta_units": "SMD",
+      "benefit_direction": -1,
+      "benefit_note": "Lower metabolic risk markers indicate improvement",
+      "domain": "metabolic",
+      "safety_priority": "high",
+      "examples": ["berberine for glucose control", "alpha lipoic acid for insulin sensitivity", "cinnamon for HbA1c"]
+    },
+    "immune": {
+      "id": "immune",
+      "name": "Immune Resilience",
+      "description": "Innate and adaptive immune responses, infection resistance, and immune recovery",
+      "primary_measures": ["antibody titers", "NK cell activity", "infection days"],
+      "delta_typical": 0.20,
+      "delta_units": "SMD",
+      "benefit_direction": 1,
+      "benefit_note": "Higher immune response and reduced infection burden indicate improvement",
+      "domain": "immune",
+      "safety_priority": "medium",
+      "examples": ["beta-glucans for immune support", "elderberry for cold duration", "propolis for respiratory immunity"]
+    },
+    "immune_health": {
+      "id": "immune_health",
+      "name": "Immune Wellness",
+      "description": "Immune balance, inflammation modulation, and symptom-free days",
+      "primary_measures": ["inflammatory cytokines", "symptom-free days", "immune balance index"],
+      "delta_typical": 0.20,
+      "delta_units": "SMD",
+      "benefit_direction": 1,
+      "benefit_note": "Improved immune wellness scores are beneficial",
+      "domain": "immune",
+      "safety_priority": "medium",
+      "examples": ["lactoferrin for immune balance", "zinc lozenges for symptom reduction", "echinacea for seasonal support"]
     }
   },
   "gates": {

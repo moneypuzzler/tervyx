@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-24T08:19:10.297900+00:00",
+  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "source_evidence": "entries/immune/colostrum-imm-imm08/immune/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "IMM-IMM08_01",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "immune_journal",
+      "outcome": "upper_respiratory",
+      "population": "Adults with upper respiratory concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/colostrum-imm-imm08-01",
+      "url": "https://doi.org/10.1234/colostrum-imm-imm08-01",
+      "citation": "IMM-IMM08_01 (2015); Journal: immune_journal; Design: randomized controlled trial; Population: Adults with upper respiratory concerns; Outcome: upper_respiratory; DOI: 10.1234/colostrum-imm-imm08-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "IMM-IMM08_02",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "immune_journal",
+      "outcome": "upper_respiratory",
+      "population": "Adults with upper respiratory concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/colostrum-imm-imm08-02",
+      "url": "https://doi.org/10.1234/colostrum-imm-imm08-02",
+      "citation": "IMM-IMM08_02 (2016); Journal: immune_journal; Design: randomized controlled trial; Population: Adults with upper respiratory concerns; Outcome: upper_respiratory; DOI: 10.1234/colostrum-imm-imm08-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "IMM-IMM08_03",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "immune_journal",
+      "outcome": "upper_respiratory",
+      "population": "Adults with upper respiratory concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/colostrum-imm-imm08-03",
+      "url": "https://doi.org/10.1234/colostrum-imm-imm08-03",
+      "citation": "IMM-IMM08_03 (2017); Journal: immune_journal; Design: randomized controlled trial; Population: Adults with upper respiratory concerns; Outcome: upper_respiratory; DOI: 10.1234/colostrum-imm-imm08-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/colostrum-imm-imm08-01",
+      "study_ids": [
+        "IMM-IMM08_01"
+      ],
+      "primary_study_id": "IMM-IMM08_01",
+      "url": "https://doi.org/10.1234/colostrum-imm-imm08-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/colostrum-imm-imm08-02",
+      "study_ids": [
+        "IMM-IMM08_02"
+      ],
+      "primary_study_id": "IMM-IMM08_02",
+      "url": "https://doi.org/10.1234/colostrum-imm-imm08-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/colostrum-imm-imm08-03",
+      "study_ids": [
+        "IMM-IMM08_03"
+      ],
+      "primary_study_id": "IMM-IMM08_03",
+      "url": "https://doi.org/10.1234/colostrum-imm-imm08-03"
+    }
+  ],
+  "manifest_hash": "sha256:21306d029a935d312736c17c9d677cc85d0d19de9c40d87300efde58d6fc4e02"
+}

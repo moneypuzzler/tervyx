@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+MET-CHROM-INS_01,2012,randomized controlled trial,SMD,-0.273,-0.413,-0.133,65,63,some concerns,10.1234/chromium-picolinate-met-chrom-ins-01,metabolic_journal,insulin_sensitivity,Adults with insulin sensitivity concerns,Transient headache,11
+MET-CHROM-INS_02,2013,randomized controlled trial,SMD,-0.3502,-0.5362,-0.1642,80,66,mixed,10.1234/chromium-picolinate-met-chrom-ins-02,metabolic_journal,insulin_sensitivity,Adults with insulin sensitivity concerns,Mild GI discomfort,8
+MET-CHROM-INS_03,2014,randomized controlled trial,SMD,-0.3634,-0.5313,-0.1955,61,69,some concerns,10.1234/chromium-picolinate-met-chrom-ins-03,metabolic_journal,insulin_sensitivity,Adults with insulin sensitivity concerns,None reported,8

@@ -45,6 +45,21 @@ categories:
       - pattern: "magnesium"
         reason: "Magnesium supplementation is contraindicated for renal recovery claims"
 
+  metabolic:
+    allowed_effects: ["SMD", "MD"]
+    physiological_caps: []
+    forbidden_substances: []
+
+  immune:
+    allowed_effects: ["SMD", "MD"]
+    physiological_caps: []
+    forbidden_substances: []
+
+  immune_health:
+    allowed_effects: ["SMD", "MD"]
+    physiological_caps: []
+    forbidden_substances: []
+
 misrouting:
   - substance_pattern: "magnesium"
     blocked_categories: ["renal_safety"]

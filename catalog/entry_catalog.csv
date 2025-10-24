@@ -1,5 +1,4 @@
 entry_id,category,substance,formulation_policy,formulation_detail,primary_indication,priority,evidence_tier,source_hint,status,assignee,final_tier,notes,last_updated,algo_version_pinned,data_freeze_policy,deprecation_policy
-
 SLP-MAG-CORE,sleep,magnesium,merge,glycinate baseline with sleep maintenance co-factors,sleep_quality,high,P0,PMID: 37611507,in_progress,auto,,"Anchor magnesium glycinate stack for adult insomnia cohorts
 
 Versioned scaffold generated via scaling CLI",2025-10-19T06:32:39Z,,,
@@ -72,7 +71,7 @@ CARD-POLY-RES,cardiovascular,polyphenol_blend,merge,grape seed + resveratrol,blo
 CARD-LYCOP-CARD,cardiovascular,lycopene,merge,tomato extract capsules,arterial_stiffness,low,P1,PMID: 24032464,pending,,,Capture carotid-femoral PWV,2024-05-01T00:00:00Z,,,
 CARD-PSYLL-CHOL,cardiovascular,psyllium,merge,soluble fiber cardiovascular,cholesterol,medium,P1,PMID: 25225344,pending,,,Track LDL reduction magnitude,2024-05-01T00:00:00Z,,,
 CARD-CARN-PUMP,cardiovascular,l_carnitine,merge,heart failure support,exercise_capacity,medium,P1,PMID: 21954889,pending,,,Include VO2 peak data,2024-05-01T00:00:00Z,,,
-CARD-TAUR-BP,cardiovascular,taurine,merge,blood pressure modulation,blood_pressure,medium,P1,PMID: 25628508,pending,,,Highlight sympathetic tone markers,2024-05-01T00:00:00Z,,,
+CARD-TAUR-BP,cardiovascular,taurine,merge,1500mg dosing with potassium cofactor,blood_pressure_control,medium,P1,PMID: 34550123,pending,,,Measure nocturnal dipping status and arrhythmia surveillance,2025-02-16T00:00:00Z,,,
 CARD-POME-GTP,cardiovascular,pomegranate,merge,polyphenol-rich juice,blood_pressure,low,P1,PMID: 18224338,pending,,,Differentiate whole fruit vs extract,2024-05-01T00:00:00Z,,,
 CARD-FISH-PEP,cardiovascular,fish_peptides,merge,ACE-inhibitory peptides,blood_pressure,low,P1,PMID: 32075994,pending,,,Capture renin-angiotensin biomarkers,2024-05-01T00:00:00Z,,,
 CARD-SPIR-HTN,cardiovascular,spirulina,merge,phycocyanin fractions,blood_pressure,low,P1,PMID: 24640700,pending,,,Include endothelial markers,2024-05-01T00:00:00Z,,,
@@ -81,26 +80,46 @@ CARD-NIA-VASO,cardiovascular,niacin,split,extended vs immediate release,hdl_chol
 CARD-DARK-CHOC,cardiovascular,dark_chocolate,merge,70% cocoa polyphenols,blood_pressure,low,P1,PMID: 27586169,pending,,,Track dose vs sugar load,2024-05-01T00:00:00Z,,,
 CARD-CURC-CARD,cardiovascular,curcumin,split,nanoparticle vs standard,lipoprotein_a,medium,P1,PMID: 31588864,pending,,,Highlight inflammatory markers,2024-05-01T00:00:00Z,,,
 CARD-ASTA-CARD,cardiovascular,astaxanthin,merge,cardiometabolic support,oxidative_stress,low,P1,PMID: 29053537,pending,,,Include LDL oxidation endpoints,2024-05-01T00:00:00Z,,,
-META-GLU01,metabolic,berberine,merge,standardized protocol 1,glucose_control,high,P0,PMID: 371001,pending,,,Document metabolic outcomes for berberine protocol 1,2024-05-01T00:00:00Z,,,
-META-GLU02,metabolic,alpha_lipoic_acid,merge,standardized protocol 2,insulin_sensitivity,medium,P1,PMID: 371002,pending,,,Document metabolic outcomes for alpha_lipoic_acid protocol 2,2024-05-01T00:00:00Z,,,
-META-GLU03,metabolic,chromium,split,standardized protocol 3,lipid_profile,medium,P1,PMID: 371003,pending,,,Document metabolic outcomes for chromium protocol 3,2024-05-01T00:00:00Z,,,
-META-GLU04,metabolic,cinnamon,merge,standardized protocol 4,weight_management,low,P2,PMID: 371004,pending,,,Document metabolic outcomes for cinnamon protocol 4,2024-05-01T00:00:00Z,,,
-META-GLU05,metabolic,gymnema,merge,standardized protocol 5,glucose_control,high,P0,PMID: 371005,pending,,,Document metabolic outcomes for gymnema protocol 5,2024-05-01T00:00:00Z,,,
-META-GLU06,metabolic,bitter_melon,split,standardized protocol 6,glucose_control,medium,P1,PMID: 371006,pending,,,Document metabolic outcomes for bitter_melon protocol 6,2024-05-01T00:00:00Z,,,
-META-GLU07,metabolic,inositol,merge,standardized protocol 7,insulin_sensitivity,medium,P1,PMID: 371007,pending,,,Document metabolic outcomes for inositol protocol 7,2024-05-01T00:00:00Z,,,
-META-GLU08,metabolic,magnesium,merge,standardized protocol 8,lipid_profile,low,P2,PMID: 371008,pending,,,Document metabolic outcomes for magnesium protocol 8,2024-05-01T00:00:00Z,,,
-META-GLU09,metabolic,vanadyl_sulfate,split,standardized protocol 9,weight_management,high,P0,PMID: 371009,pending,,,Document metabolic outcomes for vanadyl_sulfate protocol 9,2024-05-01T00:00:00Z,,,
-META-GLU10,metabolic,apple_cider_vinegar,merge,standardized protocol 10,glucose_control,medium,P1,PMID: 371010,pending,,,Document metabolic outcomes for apple_cider_vinegar protocol 10,2024-05-01T00:00:00Z,,,
-META-GLU11,metabolic,fenugreek,merge,standardized protocol 11,glucose_control,medium,P1,PMID: 371011,pending,,,Document metabolic outcomes for fenugreek protocol 11,2024-05-01T00:00:00Z,,,
-META-GLU12,metabolic,spirulina,split,standardized protocol 12,insulin_sensitivity,low,P2,PMID: 371012,pending,,,Document metabolic outcomes for spirulina protocol 12,2024-05-01T00:00:00Z,,,
-META-GLU13,metabolic,chlorella,merge,standardized protocol 13,lipid_profile,high,P0,PMID: 371013,pending,,,Document metabolic outcomes for chlorella protocol 13,2024-05-01T00:00:00Z,,,
-META-GLU14,metabolic,milk_thistle,merge,standardized protocol 14,weight_management,medium,P1,PMID: 371014,pending,,,Document metabolic outcomes for milk_thistle protocol 14,2024-05-01T00:00:00Z,,,
-META-GLU15,metabolic,artichoke_extract,split,standardized protocol 15,glucose_control,medium,P1,PMID: 371015,pending,,,Document metabolic outcomes for artichoke_extract protocol 15,2024-05-01T00:00:00Z,,,
-META-GLU16,metabolic,olive_leaf,merge,standardized protocol 16,glucose_control,low,P2,PMID: 371016,pending,,,Document metabolic outcomes for olive_leaf protocol 16,2024-05-01T00:00:00Z,,,
-META-GLU17,metabolic,resveratrol,merge,standardized protocol 17,insulin_sensitivity,high,P0,PMID: 371017,pending,,,Document metabolic outcomes for resveratrol protocol 17,2024-05-01T00:00:00Z,,,
-META-GLU18,metabolic,pterostilbene,split,standardized protocol 18,lipid_profile,medium,P1,PMID: 371018,pending,,,Document metabolic outcomes for pterostilbene protocol 18,2024-05-01T00:00:00Z,,,
-META-GLU19,metabolic,omega_3,merge,standardized protocol 19,weight_management,medium,P1,PMID: 371019,pending,,,Document metabolic outcomes for omega_3 protocol 19,2024-05-01T00:00:00Z,,,
-META-GLU20,metabolic,curcumin,merge,standardized protocol 20,glucose_control,low,P2,PMID: 371020,pending,,,Document metabolic outcomes for curcumin protocol 20,2024-05-01T00:00:00Z,,,
+META-GLU01,metabolic,berberine,merge,standardized protocol 1,glucose_control,high,P0,PMID: 371001,completed,automation,Silver,"Document metabolic outcomes for berberine protocol 1
+Batch generated on 2025-10-24T08:19:07.017645+00:00",2025-10-24T08:19:07.017693,,,
+META-GLU02,metabolic,alpha_lipoic_acid,merge,standardized protocol 2,insulin_sensitivity,medium,P1,PMID: 371002,completed,automation,Silver,"Document metabolic outcomes for alpha_lipoic_acid protocol 2
+Batch generated on 2025-10-24T08:19:07.137967+00:00",2025-10-24T08:19:07.138030,,,
+META-GLU03,metabolic,chromium,split,standardized protocol 3,lipid_profile,medium,P1,PMID: 371003,completed,automation,Silver,"Document metabolic outcomes for chromium protocol 3
+Batch generated on 2025-10-24T08:19:07.254430+00:00",2025-10-24T08:19:07.254513,,,
+META-GLU04,metabolic,cinnamon,merge,standardized protocol 4,weight_management,low,P2,PMID: 371004,completed,automation,Silver,"Document metabolic outcomes for cinnamon protocol 4
+Batch generated on 2025-10-24T08:19:07.372052+00:00",2025-10-24T08:19:07.372097,,,
+META-GLU05,metabolic,gymnema,merge,standardized protocol 5,glucose_control,high,P0,PMID: 371005,completed,automation,Silver,"Document metabolic outcomes for gymnema protocol 5
+Batch generated on 2025-10-24T08:19:07.491248+00:00",2025-10-24T08:19:07.491284,,,
+META-GLU06,metabolic,bitter_melon,split,standardized protocol 6,glucose_control,medium,P1,PMID: 371006,completed,automation,Silver,"Document metabolic outcomes for bitter_melon protocol 6
+Batch generated on 2025-10-24T08:19:07.611183+00:00",2025-10-24T08:19:07.611225,,,
+META-GLU07,metabolic,inositol,merge,standardized protocol 7,insulin_sensitivity,medium,P1,PMID: 371007,completed,automation,Silver,"Document metabolic outcomes for inositol protocol 7
+Batch generated on 2025-10-24T08:19:07.730724+00:00",2025-10-24T08:19:07.730775,,,
+META-GLU08,metabolic,magnesium,merge,standardized protocol 8,lipid_profile,low,P2,PMID: 371008,completed,automation,Silver,"Document metabolic outcomes for magnesium protocol 8
+Batch generated on 2025-10-24T08:19:07.836354+00:00",2025-10-24T08:19:07.836390,,,
+META-GLU09,metabolic,vanadyl_sulfate,split,standardized protocol 9,weight_management,high,P0,PMID: 371009,completed,automation,Silver,"Document metabolic outcomes for vanadyl_sulfate protocol 9
+Batch generated on 2025-10-24T08:19:07.941002+00:00",2025-10-24T08:19:07.941039,,,
+META-GLU10,metabolic,apple_cider_vinegar,merge,standardized protocol 10,glucose_control,medium,P1,PMID: 371010,completed,automation,Silver,"Document metabolic outcomes for apple_cider_vinegar protocol 10
+Batch generated on 2025-10-24T08:19:08.104098+00:00",2025-10-24T08:19:08.104133,,,
+META-GLU11,metabolic,fenugreek,merge,standardized protocol 11,glucose_control,medium,P1,PMID: 371011,completed,automation,Silver,"Document metabolic outcomes for fenugreek protocol 11
+Batch generated on 2025-10-24T08:19:08.222080+00:00",2025-10-24T08:19:08.222114,,,
+META-GLU12,metabolic,spirulina,split,standardized protocol 12,insulin_sensitivity,low,P2,PMID: 371012,completed,automation,Silver,"Document metabolic outcomes for spirulina protocol 12
+Batch generated on 2025-10-24T08:19:08.346004+00:00",2025-10-24T08:19:08.346041,,,
+META-GLU13,metabolic,chlorella,merge,standardized protocol 13,lipid_profile,high,P0,PMID: 371013,completed,automation,Silver,"Document metabolic outcomes for chlorella protocol 13
+Batch generated on 2025-10-24T08:19:08.464097+00:00",2025-10-24T08:19:08.464133,,,
+META-GLU14,metabolic,milk_thistle,merge,standardized protocol 14,weight_management,medium,P1,PMID: 371014,completed,automation,Silver,"Document metabolic outcomes for milk_thistle protocol 14
+Batch generated on 2025-10-24T08:19:08.580622+00:00",2025-10-24T08:19:08.580657,,,
+META-GLU15,metabolic,artichoke_extract,split,standardized protocol 15,glucose_control,medium,P1,PMID: 371015,completed,automation,Silver,"Document metabolic outcomes for artichoke_extract protocol 15
+Batch generated on 2025-10-24T08:19:08.708022+00:00",2025-10-24T08:19:08.708079,,,
+META-GLU16,metabolic,olive_leaf,merge,standardized protocol 16,glucose_control,low,P2,PMID: 371016,completed,automation,Silver,"Document metabolic outcomes for olive_leaf protocol 16
+Batch generated on 2025-10-24T08:19:08.828987+00:00",2025-10-24T08:19:08.829045,,,
+META-GLU17,metabolic,resveratrol,merge,standardized protocol 17,insulin_sensitivity,high,P0,PMID: 371017,completed,automation,Silver,"Document metabolic outcomes for resveratrol protocol 17
+Batch generated on 2025-10-24T08:19:08.946939+00:00",2025-10-24T08:19:08.947010,,,
+META-GLU18,metabolic,pterostilbene,split,standardized protocol 18,lipid_profile,medium,P1,PMID: 371018,completed,automation,Silver,"Document metabolic outcomes for pterostilbene protocol 18
+Batch generated on 2025-10-24T08:19:09.090540+00:00",2025-10-24T08:19:09.090592,,,
+META-GLU19,metabolic,omega_3,merge,standardized protocol 19,weight_management,medium,P1,PMID: 371019,completed,automation,Silver,"Document metabolic outcomes for omega_3 protocol 19
+Batch generated on 2025-10-24T08:19:09.214679+00:00",2025-10-24T08:19:09.214717,,,
+META-GLU20,metabolic,curcumin,merge,standardized protocol 20,glucose_control,low,P2,PMID: 371020,completed,automation,Silver,"Document metabolic outcomes for curcumin protocol 20
+Batch generated on 2025-10-24T08:19:09.337914+00:00",2025-10-24T08:19:09.337950,,,
 INFL-INF01,inflammation,curcumin,merge,standardized protocol 1,joint_pain,high,P0,PMID: 451001,pending,,,Track inflammatory biomarkers for curcumin entry 1,2024-05-01T00:00:00Z,,,
 INFL-INF02,inflammation,boswellia,merge,standardized protocol 2,systemic_inflammation,medium,P1,PMID: 451002,pending,,,Track inflammatory biomarkers for boswellia entry 2,2024-05-01T00:00:00Z,,,
 INFL-INF03,inflammation,omega_3,split,standardized protocol 3,recovery,medium,P1,PMID: 451003,pending,,,Track inflammatory biomarkers for omega_3 entry 3,2024-05-01T00:00:00Z,,,
@@ -161,26 +180,46 @@ MUSC-MSK17,musculoskeletal,whey_protein,merge,standardized protocol 17,joint_hea
 MUSC-MSK18,musculoskeletal,casein,split,standardized protocol 18,bone_density,medium,P1,PMID: 631018,pending,,,Capture musculoskeletal endpoints for casein program 18,2024-05-01T00:00:00Z,,,
 MUSC-MSK19,musculoskeletal,pea_protein,merge,standardized protocol 19,muscle_recovery,medium,P1,PMID: 631019,pending,,,Capture musculoskeletal endpoints for pea_protein program 19,2024-05-01T00:00:00Z,,,
 MUSC-MSK20,musculoskeletal,collagen_peptides,merge,standardized protocol 20,strength,low,P2,PMID: 631020,pending,,,Capture musculoskeletal endpoints for collagen_peptides program 20,2024-05-01T00:00:00Z,,,
-IMM-IMM01,immune,echinacea,merge,standardized protocol 1,upper_respiratory,high,P0,PMID: 711001,pending,,,Document immune outcomes for echinacea cohort 1,2024-05-01T00:00:00Z,,,
-IMM-IMM02,immune,elderberry,merge,standardized protocol 2,immune_modulation,medium,P1,PMID: 711002,pending,,,Document immune outcomes for elderberry cohort 2,2024-05-01T00:00:00Z,,,
-IMM-IMM03,immune,vitamin_c,split,standardized protocol 3,antiviral_support,medium,P1,PMID: 711003,pending,,,Document immune outcomes for vitamin_c cohort 3,2024-05-01T00:00:00Z,,,
-IMM-IMM04,immune,vitamin_d,merge,standardized protocol 4,upper_respiratory,low,P2,PMID: 711004,pending,,,Document immune outcomes for vitamin_d cohort 4,2024-05-01T00:00:00Z,,,
-IMM-IMM05,immune,zinc,merge,standardized protocol 5,upper_respiratory,high,P0,PMID: 711005,pending,,,Document immune outcomes for zinc cohort 5,2024-05-01T00:00:00Z,,,
-IMM-IMM06,immune,selenium,split,standardized protocol 6,immune_modulation,medium,P1,PMID: 711006,pending,,,Document immune outcomes for selenium cohort 6,2024-05-01T00:00:00Z,,,
-IMM-IMM07,immune,beta_glucans,merge,standardized protocol 7,antiviral_support,medium,P1,PMID: 711007,pending,,,Document immune outcomes for beta_glucans cohort 7,2024-05-01T00:00:00Z,,,
-IMM-IMM08,immune,colostrum,merge,standardized protocol 8,upper_respiratory,low,P2,PMID: 711008,pending,,,Document immune outcomes for colostrum cohort 8,2024-05-01T00:00:00Z,,,
-IMM-IMM09,immune,propolis,split,standardized protocol 9,upper_respiratory,high,P0,PMID: 711009,pending,,,Document immune outcomes for propolis cohort 9,2024-05-01T00:00:00Z,,,
-IMM-IMM10,immune,andrographis,merge,standardized protocol 10,immune_modulation,medium,P1,PMID: 711010,pending,,,Document immune outcomes for andrographis cohort 10,2024-05-01T00:00:00Z,,,
-IMM-IMM11,immune,quercetin,merge,standardized protocol 11,antiviral_support,medium,P1,PMID: 711011,pending,,,Document immune outcomes for quercetin cohort 11,2024-05-01T00:00:00Z,,,
-IMM-IMM12,immune,n_acetyl_cysteine,split,standardized protocol 12,upper_respiratory,low,P2,PMID: 711012,pending,,,Document immune outcomes for n_acetyl_cysteine cohort 12,2024-05-01T00:00:00Z,,,
-IMM-IMM13,immune,glutathione,merge,standardized protocol 13,upper_respiratory,high,P0,PMID: 711013,pending,,,Document immune outcomes for glutathione cohort 13,2024-05-01T00:00:00Z,,,
-IMM-IMM14,immune,spirulina,merge,standardized protocol 14,immune_modulation,medium,P1,PMID: 711014,pending,,,Document immune outcomes for spirulina cohort 14,2024-05-01T00:00:00Z,,,
-IMM-IMM15,immune,chlorella,split,standardized protocol 15,antiviral_support,medium,P1,PMID: 711015,pending,,,Document immune outcomes for chlorella cohort 15,2024-05-01T00:00:00Z,,,
-IMM-IMM16,immune,cordyceps,merge,standardized protocol 16,upper_respiratory,low,P2,PMID: 711016,pending,,,Document immune outcomes for cordyceps cohort 16,2024-05-01T00:00:00Z,,,
-IMM-IMM17,immune,reishi,merge,standardized protocol 17,upper_respiratory,high,P0,PMID: 711017,pending,,,Document immune outcomes for reishi cohort 17,2024-05-01T00:00:00Z,,,
-IMM-IMM18,immune,maitake,split,standardized protocol 18,immune_modulation,medium,P1,PMID: 711018,pending,,,Document immune outcomes for maitake cohort 18,2024-05-01T00:00:00Z,,,
-IMM-IMM19,immune,shiitake,merge,standardized protocol 19,antiviral_support,medium,P1,PMID: 711019,pending,,,Document immune outcomes for shiitake cohort 19,2024-05-01T00:00:00Z,,,
-IMM-IMM20,immune,turkey_tail,merge,standardized protocol 20,upper_respiratory,low,P2,PMID: 711020,pending,,,Document immune outcomes for turkey_tail cohort 20,2024-05-01T00:00:00Z,,,
+IMM-IMM01,immune,echinacea,merge,standardized protocol 1,upper_respiratory,high,P0,PMID: 711001,completed,automation,Gold,"Document immune outcomes for echinacea cohort 1
+Batch generated on 2025-10-24T08:19:09.459179+00:00",2025-10-24T08:19:09.459226,,,
+IMM-IMM02,immune,elderberry,merge,standardized protocol 2,immune_modulation,medium,P1,PMID: 711002,completed,automation,Gold,"Document immune outcomes for elderberry cohort 2
+Batch generated on 2025-10-24T08:19:09.578910+00:00",2025-10-24T08:19:09.578980,,,
+IMM-IMM03,immune,vitamin_c,split,standardized protocol 3,antiviral_support,medium,P1,PMID: 711003,completed,automation,Gold,"Document immune outcomes for vitamin_c cohort 3
+Batch generated on 2025-10-24T08:19:09.701680+00:00",2025-10-24T08:19:09.701728,,,
+IMM-IMM04,immune,vitamin_d,merge,standardized protocol 4,upper_respiratory,low,P2,PMID: 711004,completed,automation,Gold,"Document immune outcomes for vitamin_d cohort 4
+Batch generated on 2025-10-24T08:19:09.825189+00:00",2025-10-24T08:19:09.825243,,,
+IMM-IMM05,immune,zinc,merge,standardized protocol 5,upper_respiratory,high,P0,PMID: 711005,completed,automation,Gold,"Document immune outcomes for zinc cohort 5
+Batch generated on 2025-10-24T08:19:09.944692+00:00",2025-10-24T08:19:09.944813,,,
+IMM-IMM06,immune,selenium,split,standardized protocol 6,immune_modulation,medium,P1,PMID: 711006,completed,automation,Gold,"Document immune outcomes for selenium cohort 6
+Batch generated on 2025-10-24T08:19:10.089251+00:00",2025-10-24T08:19:10.089286,,,
+IMM-IMM07,immune,beta_glucans,merge,standardized protocol 7,antiviral_support,medium,P1,PMID: 711007,completed,automation,Gold,"Document immune outcomes for beta_glucans cohort 7
+Batch generated on 2025-10-24T08:19:10.199553+00:00",2025-10-24T08:19:10.199601,,,
+IMM-IMM08,immune,colostrum,merge,standardized protocol 8,upper_respiratory,low,P2,PMID: 711008,completed,automation,Gold,"Document immune outcomes for colostrum cohort 8
+Batch generated on 2025-10-24T08:19:10.334370+00:00",2025-10-24T08:19:10.334450,,,
+IMM-IMM09,immune,propolis,split,standardized protocol 9,upper_respiratory,high,P0,PMID: 711009,completed,automation,Gold,"Document immune outcomes for propolis cohort 9
+Batch generated on 2025-10-24T08:19:10.450040+00:00",2025-10-24T08:19:10.450075,,,
+IMM-IMM10,immune,andrographis,merge,standardized protocol 10,immune_modulation,medium,P1,PMID: 711010,completed,automation,Gold,"Document immune outcomes for andrographis cohort 10
+Batch generated on 2025-10-24T08:19:10.570917+00:00",2025-10-24T08:19:10.570963,,,
+IMM-IMM11,immune,quercetin,merge,standardized protocol 11,antiviral_support,medium,P1,PMID: 711011,completed,automation,Gold,"Document immune outcomes for quercetin cohort 11
+Batch generated on 2025-10-24T08:19:10.689532+00:00",2025-10-24T08:19:10.689603,,,
+IMM-IMM12,immune,n_acetyl_cysteine,split,standardized protocol 12,upper_respiratory,low,P2,PMID: 711012,completed,automation,Gold,"Document immune outcomes for n_acetyl_cysteine cohort 12
+Batch generated on 2025-10-24T08:19:10.809247+00:00",2025-10-24T08:19:10.809295,,,
+IMM-IMM13,immune,glutathione,merge,standardized protocol 13,upper_respiratory,high,P0,PMID: 711013,completed,automation,Gold,"Document immune outcomes for glutathione cohort 13
+Batch generated on 2025-10-24T08:19:10.917171+00:00",2025-10-24T08:19:10.917235,,,
+IMM-IMM14,immune,spirulina,merge,standardized protocol 14,immune_modulation,medium,P1,PMID: 711014,completed,automation,Gold,"Document immune outcomes for spirulina cohort 14
+Batch generated on 2025-10-24T08:19:11.013980+00:00",2025-10-24T08:19:11.014041,,,
+IMM-IMM15,immune,chlorella,split,standardized protocol 15,antiviral_support,medium,P1,PMID: 711015,completed,automation,Gold,"Document immune outcomes for chlorella cohort 15
+Batch generated on 2025-10-24T08:19:11.117077+00:00",2025-10-24T08:19:11.117139,,,
+IMM-IMM16,immune,cordyceps,merge,standardized protocol 16,upper_respiratory,low,P2,PMID: 711016,completed,automation,Gold,"Document immune outcomes for cordyceps cohort 16
+Batch generated on 2025-10-24T08:19:11.220624+00:00",2025-10-24T08:19:11.220658,,,
+IMM-IMM17,immune,reishi,merge,standardized protocol 17,upper_respiratory,high,P0,PMID: 711017,completed,automation,Gold,"Document immune outcomes for reishi cohort 17
+Batch generated on 2025-10-24T08:19:11.318442+00:00",2025-10-24T08:19:11.318490,,,
+IMM-IMM18,immune,maitake,split,standardized protocol 18,immune_modulation,medium,P1,PMID: 711018,completed,automation,Gold,"Document immune outcomes for maitake cohort 18
+Batch generated on 2025-10-24T08:19:11.417523+00:00",2025-10-24T08:19:11.417565,,,
+IMM-IMM19,immune,shiitake,merge,standardized protocol 19,antiviral_support,medium,P1,PMID: 711019,completed,automation,Gold,"Document immune outcomes for shiitake cohort 19
+Batch generated on 2025-10-24T08:19:11.515321+00:00",2025-10-24T08:19:11.515356,,,
+IMM-IMM20,immune,turkey_tail,merge,standardized protocol 20,upper_respiratory,low,P2,PMID: 711020,completed,automation,Gold,"Document immune outcomes for turkey_tail cohort 20
+Batch generated on 2025-10-24T08:19:11.621318+00:00",2025-10-24T08:19:11.621353,,,
 ENDO-END01,endocrine,inositol,merge,standardized protocol 1,pcos_support,high,P0,PMID: 821001,pending,,,Capture endocrine metrics for inositol case 1,2024-05-01T00:00:00Z,,,
 ENDO-END02,endocrine,berberine,merge,standardized protocol 2,thyroid_support,medium,P1,PMID: 821002,pending,,,Capture endocrine metrics for berberine case 2,2024-05-01T00:00:00Z,,,
 ENDO-END03,endocrine,ashwagandha,split,standardized protocol 3,testosterone_balance,medium,P1,PMID: 821003,pending,,,Capture endocrine metrics for ashwagandha case 3,2024-05-01T00:00:00Z,,,
@@ -221,20 +260,30 @@ CARD-NATT-FIB,cardiovascular,nattokinase,merge,dose escalation for fibrinogen cl
 CARD-TURM-CIRC,cardiovascular,turmeric_blend,merge,curcumin piperine synergy,arterial_stiffness,low,P2,PMID: 33389177,pending,,,Clarify compliance for twice daily formulations,2025-02-16T00:00:00Z,,,
 CARD-RESV-ENDO,cardiovascular,resveratrol,split,trans-resveratrol vs polydatin,endothelial_health,medium,P1,PMID: 34741784,pending,,,Tie microvascular imaging to metabolic markers,2025-02-16T00:00:00Z,,,
 CARD-TAUR-BP,cardiovascular,taurine,merge,1500mg dosing with potassium cofactor,blood_pressure_control,medium,P1,PMID: 34550123,pending,,,Measure nocturnal dipping status and arrhythmia surveillance,2025-02-16T00:00:00Z,,,
-MET-GLUC-BER,metabolic,berberine,merge,sustained release matrix,glucose_management,high,P0,PMID: 35541321,pending,,,Compare with metformin standard of care arms,2025-02-17T00:00:00Z,,,
-MET-CINN-A1C,metabolic,cinnamon,merge,water soluble extract titration,hba1c_reduction,medium,P1,PMID: 35013202,pending,,,Track dosing adherence via sachet count,2025-02-17T00:00:00Z,,,
-MET-ALA-MITO,metabolic,alpha_lipoic_acid,merge,racemic vs r isomer protocols,mitochondrial_support,medium,P1,PMID: 36166248,pending,,,Capture neuropathy symptom relief concurrently,2025-02-17T00:00:00Z,,,
-MET-OMEGA-PREDIAB,metabolic,omega_3,split,epa ethyl ester vs triglyceride form,prediabetes,medium,P1,PMID: 35755209,pending,,,Integrate insulin clamp substudy data,2025-02-17T00:00:00Z,,,
-MET-INOS-OVUL,metabolic,myo_inositol,split,myo plus d chiro ratio comparison,ovulatory_dysfunction,medium,P1,PMID: 34098124,pending,,,Monitor ovarian reserve and metabolic syndrome markers,2025-02-17T00:00:00Z,,,
-MET-CHROM-INS,metabolic,chromium_picolinate,merge,200mcg vs 600mcg titration,insulin_sensitivity,low,P2,PMID: 33892115,pending,,,Include dietary chromium baseline assessments,2025-02-17T00:00:00Z,,,
-MET-GLP-FIBER,metabolic,prebiotic_fiber,merge,partially hydrolyzed guar vs inulin,glp1_modulation,medium,P1,PMID: 36256014,pending,,,Tie gut hormone sampling to satiety metrics,2025-02-17T00:00:00Z,,,
-MET-CURC-METAB,metabolic,curcumin,split,theracurmin vs phytosome blend,metabolic_syndrome,medium,P1,PMID: 33162769,pending,,,Capture waist circumference and inflammatory cytokines,2025-02-17T00:00:00Z,,,
-IMM-ELDER-URTI,immune_health,elderberry,merge,anthocyanin standardized syrup,upper_respiratory_infections,medium,P1,PMID: 32087100,pending,,,Document viral load and symptom duration metrics,2025-02-18T00:00:00Z,,,
-IMM-BCP-IMM,immune_health,black_cumin_seed,merge,thymoquinone rich oil,immune_modulation,medium,P1,PMID: 35295041,pending,,,Align cytokine profiling with clinical outcomes,2025-02-18T00:00:00Z,,,
-IMM-BETA-GLUC,immune_health,beta_glucan,merge,yeast derived vs mushroom derived,immune_readiness,medium,P1,PMID: 32589619,pending,,,Include innate immunity assays and vaccine response data,2025-02-18T00:00:00Z,,,
-IMM-QUERC-ALLERGY,immune_health,quercetin,merge,liposomal vs standard tablets,allergic_rhinitis,medium,P1,PMID: 33959277,pending,,,Record symptom diaries with pollen count overlays,2025-02-18T00:00:00Z,,,
-IMM-LACT-ECZ,immune_health,lactobacillus_rhamnosus,split,prenatal vs postnatal supplementation,atopic_dermatitis,medium,P1,PMID: 33792759,pending,,,Segment familial allergy history cohorts,2025-02-18T00:00:00Z,,,
-IMM-VITD-IMMUNE,immune_health,vitamin_d,merge,bolus vs daily maintenance dosing,immune_resilience,high,P0,PMID: 36192144,pending,,,Integrate respiratory infection severity scores,2025-02-18T00:00:00Z,,,
+MET-GLUC-BER,metabolic,berberine,merge,sustained release matrix,glucose_management,high,P0,PMID: 35541321,completed,automation,Gold,"Compare with metformin standard of care arms
+Batch generated on 2025-10-24T08:19:11.719269+00:00",2025-10-24T08:19:11.719335,,,
+MET-CINN-A1C,metabolic,cinnamon,merge,water soluble extract titration,hba1c_reduction,medium,P1,PMID: 35013202,completed,automation,Gold,"Track dosing adherence via sachet count
+Batch generated on 2025-10-24T08:19:11.822136+00:00",2025-10-24T08:19:11.822203,,,
+MET-ALA-MITO,metabolic,alpha_lipoic_acid,merge,racemic vs r isomer protocols,mitochondrial_support,medium,P1,PMID: 36166248,completed,automation,Gold,"Capture neuropathy symptom relief concurrently
+Batch generated on 2025-10-24T08:19:11.955923+00:00",2025-10-24T08:19:11.955957,,,
+MET-OMEGA-PREDIAB,metabolic,omega_3,split,epa ethyl ester vs triglyceride form,prediabetes,medium,P1,PMID: 35755209,completed,automation,Gold,"Integrate insulin clamp substudy data
+Batch generated on 2025-10-24T08:19:12.058569+00:00",2025-10-24T08:19:12.058632,,,
+MET-INOS-OVUL,metabolic,myo_inositol,split,myo plus d chiro ratio comparison,ovulatory_dysfunction,medium,P1,PMID: 34098124,completed,automation,Gold,"Monitor ovarian reserve and metabolic syndrome markers
+Batch generated on 2025-10-24T08:19:12.158049+00:00",2025-10-24T08:19:12.158085,,,
+MET-CHROM-INS,metabolic,chromium_picolinate,merge,200mcg vs 600mcg titration,insulin_sensitivity,low,P2,PMID: 33892115,completed,automation,Gold,"Include dietary chromium baseline assessments
+Batch generated on 2025-10-24T08:19:12.255863+00:00",2025-10-24T08:19:12.255912,,,
+MET-GLP-FIBER,metabolic,prebiotic_fiber,merge,partially hydrolyzed guar vs inulin,glp1_modulation,medium,P1,PMID: 36256014,completed,automation,Gold,"Tie gut hormone sampling to satiety metrics
+Batch generated on 2025-10-24T08:19:12.355168+00:00",2025-10-24T08:19:12.355215,,,
+MET-CURC-METAB,metabolic,curcumin,split,theracurmin vs phytosome blend,metabolic_syndrome,medium,P1,PMID: 33162769,completed,automation,Gold,"Capture waist circumference and inflammatory cytokines
+Batch generated on 2025-10-24T08:19:12.456080+00:00",2025-10-24T08:19:12.456141,,,
+IMM-ELDER-URTI,immune_health,elderberry,merge,anthocyanin standardized syrup,upper_respiratory_infections,medium,P1,PMID: 32087100,completed,automation,Gold,"Document viral load and symptom duration metrics
+Batch generated on 2025-10-24T08:19:12.561455+00:00",2025-10-24T08:19:12.561490,,,
+IMM-BCP-IMM,immune_health,black_cumin_seed,merge,thymoquinone rich oil,immune_modulation,medium,P1,PMID: 35295041,completed,automation,Gold,"Align cytokine profiling with clinical outcomes
+Batch generated on 2025-10-24T08:19:12.658006+00:00",2025-10-24T08:19:12.658087,,,
+IMM-BETA-GLUC,immune_health,beta_glucan,merge,yeast derived vs mushroom derived,immune_readiness,medium,P1,PMID: 32589619,pending,,,Include innate immunity assays and vaccine response data,2025-02-18T00:00:00Z,,
+IMM-QUERC-ALLERGY,immune_health,quercetin,merge,liposomal vs standard tablets,allergic_rhinitis,medium,P1,PMID: 33959277,pending,,,Record symptom diaries with pollen count overlays,2025-02-18T00:00:00Z,,
+IMM-LACT-ECZ,immune_health,lactobacillus_rhamnosus,split,prenatal vs postnatal supplementation,atopic_dermatitis,medium,P1,PMID: 33792759,pending,,,Segment familial allergy history cohorts,2025-02-18T00:00:00Z,,
+IMM-VITD-IMMUNE,immune_health,vitamin_d,merge,bolus vs daily maintenance dosing,immune_resilience,high,P0,PMID: 36192144,pending,,,Integrate respiratory infection severity scores,2025-02-18T00:00:00Z,,
 GUT-PROBIO-SCFAs,gut_health,probiotic_blend,merge,multi strain scfa production optimization,short_chain_fatty_acids,medium,P1,PMID: 35824610,pending,,,Pair metabolomics with symptom relief indices,2025-02-19T00:00:00Z,,,
 GUT-PREBIO-BLOAT,gut_health,prebiotic_fiber,split,phgg vs partially hydrolyzed guar gum,bloating_relief,medium,P1,PMID: 33759192,pending,,,Track fermentation tolerance windows,2025-02-19T00:00:00Z,,,
 GUT-BCO-IBS,gut_health,butyrate_complex,merge,tributyrin capsule vs sodium butyrate,ibs_management,medium,P1,PMID: 36577645,pending,,,Integrate stool inflammatory markers and qoli,2025-02-19T00:00:00Z,,,

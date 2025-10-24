@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "metabolic:prebiotic-fiber-met-glp-fiber:metabolic:v1",
+  "title": "Prebiotic Fiber Met Glp Fiber — Metabolic",
+  "category": "metabolic",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.932,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.9,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 404,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.320126,
+    "mu_CI95": [
+      0.227036,
+      0.413215
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-24T08:19:12.328127+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/prebiotic-fiber-met-glp-fiber-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/prebiotic-fiber-met-glp-fiber-01",
+      "studyIds": [
+        "MET-GLP-FIBER_01"
+      ],
+      "citation": "MET-GLP-FIBER_01 (2012); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with glp1 modulation concerns; Outcome: glp1_modulation; DOI: 10.1234/prebiotic-fiber-met-glp-fiber-01; Adverse Events: Transient headache.",
+      "doi": "10.1234/prebiotic-fiber-met-glp-fiber-01",
+      "sameAs": "https://doi.org/10.1234/prebiotic-fiber-met-glp-fiber-01",
+      "datePublished": "2012",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "metabolic_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/prebiotic-fiber-met-glp-fiber-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/prebiotic-fiber-met-glp-fiber-02",
+      "studyIds": [
+        "MET-GLP-FIBER_02"
+      ],
+      "citation": "MET-GLP-FIBER_02 (2013); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with glp1 modulation concerns; Outcome: glp1_modulation; DOI: 10.1234/prebiotic-fiber-met-glp-fiber-02; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/prebiotic-fiber-met-glp-fiber-02",
+      "sameAs": "https://doi.org/10.1234/prebiotic-fiber-met-glp-fiber-02",
+      "datePublished": "2013",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "metabolic_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/prebiotic-fiber-met-glp-fiber-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/prebiotic-fiber-met-glp-fiber-03",
+      "studyIds": [
+        "MET-GLP-FIBER_03"
+      ],
+      "citation": "MET-GLP-FIBER_03 (2014); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with glp1 modulation concerns; Outcome: glp1_modulation; DOI: 10.1234/prebiotic-fiber-met-glp-fiber-03; Adverse Events: None reported.",
+      "doi": "10.1234/prebiotic-fiber-met-glp-fiber-03",
+      "sameAs": "https://doi.org/10.1234/prebiotic-fiber-met-glp-fiber-03",
+      "datePublished": "2014",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "metabolic_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:5b00267a0df876078581c6d484fe688ef04d5737609da18206f0b8583376c659",
+  "audit_hash": "0x9f2e3775d982874a"
+}

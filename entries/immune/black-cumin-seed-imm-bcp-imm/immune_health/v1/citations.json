@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-24T08:19:12.630301+00:00",
+  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "source_evidence": "entries/immune/black-cumin-seed-imm-bcp-imm/immune_health/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "IMM-BCP-IMM_01",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "immune_health_journal",
+      "outcome": "immune_modulation",
+      "population": "Adults with immune modulation concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/black-cumin-seed-imm-bcp-imm-01",
+      "url": "https://doi.org/10.1234/black-cumin-seed-imm-bcp-imm-01",
+      "citation": "IMM-BCP-IMM_01 (2015); Journal: immune_health_journal; Design: randomized controlled trial; Population: Adults with immune modulation concerns; Outcome: immune_modulation; DOI: 10.1234/black-cumin-seed-imm-bcp-imm-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "IMM-BCP-IMM_02",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "immune_health_journal",
+      "outcome": "immune_modulation",
+      "population": "Adults with immune modulation concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/black-cumin-seed-imm-bcp-imm-02",
+      "url": "https://doi.org/10.1234/black-cumin-seed-imm-bcp-imm-02",
+      "citation": "IMM-BCP-IMM_02 (2016); Journal: immune_health_journal; Design: randomized controlled trial; Population: Adults with immune modulation concerns; Outcome: immune_modulation; DOI: 10.1234/black-cumin-seed-imm-bcp-imm-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "IMM-BCP-IMM_03",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "immune_health_journal",
+      "outcome": "immune_modulation",
+      "population": "Adults with immune modulation concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/black-cumin-seed-imm-bcp-imm-03",
+      "url": "https://doi.org/10.1234/black-cumin-seed-imm-bcp-imm-03",
+      "citation": "IMM-BCP-IMM_03 (2017); Journal: immune_health_journal; Design: randomized controlled trial; Population: Adults with immune modulation concerns; Outcome: immune_modulation; DOI: 10.1234/black-cumin-seed-imm-bcp-imm-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/black-cumin-seed-imm-bcp-imm-01",
+      "study_ids": [
+        "IMM-BCP-IMM_01"
+      ],
+      "primary_study_id": "IMM-BCP-IMM_01",
+      "url": "https://doi.org/10.1234/black-cumin-seed-imm-bcp-imm-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/black-cumin-seed-imm-bcp-imm-02",
+      "study_ids": [
+        "IMM-BCP-IMM_02"
+      ],
+      "primary_study_id": "IMM-BCP-IMM_02",
+      "url": "https://doi.org/10.1234/black-cumin-seed-imm-bcp-imm-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/black-cumin-seed-imm-bcp-imm-03",
+      "study_ids": [
+        "IMM-BCP-IMM_03"
+      ],
+      "primary_study_id": "IMM-BCP-IMM_03",
+      "url": "https://doi.org/10.1234/black-cumin-seed-imm-bcp-imm-03"
+    }
+  ],
+  "manifest_hash": "sha256:1613b89e13aa16943a203616c01b75073d60dda25d2b4579e384d7be7e20b43c"
+}

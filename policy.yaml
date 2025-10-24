@@ -89,6 +89,30 @@ categories:
     description: "Cardiovascular health indicators"
     domain: "physiological"
     safety_priority: "high"
+  metabolic:
+    delta: 0.25
+    benefit_direction: -1  # Lower glucose and lipid markers are beneficial
+    delta_units: "SMD"
+    measures: ["fasting glucose", "HbA1c", "triglycerides", "insulin sensitivity"]
+    description: "Metabolic health indicators including glucose control and insulin response"
+    domain: "metabolic"
+    safety_priority: "high"
+  immune:
+    delta: 0.20
+    benefit_direction: 1   # Higher immune response scores indicate improvement
+    delta_units: "SMD"
+    measures: ["antibody titers", "NK cell activity", "infection rate"]
+    description: "Immune resilience, infection defense, and adaptive response"
+    domain: "immune"
+    safety_priority: "medium"
+  immune_health:
+    delta: 0.20
+    benefit_direction: 1   # Improved immune wellness scores are beneficial
+    delta_units: "SMD"
+    measures: ["immune balance", "inflammatory markers", "symptom days"]
+    description: "Immune system balance and wellness maintenance"
+    domain: "immune"
+    safety_priority: "medium"
 
 # Gate Governance Protocol (GGP): Φ → R → J → K → L
 gates:

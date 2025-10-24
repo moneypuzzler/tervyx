@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-24T08:19:12.229419+00:00",
+  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "source_evidence": "entries/metabolic/chromium-picolinate-met-chrom-ins/metabolic/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MET-CHROM-INS_01",
+      "year": 2012,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "insulin_sensitivity",
+      "population": "Adults with insulin sensitivity concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/chromium-picolinate-met-chrom-ins-01",
+      "url": "https://doi.org/10.1234/chromium-picolinate-met-chrom-ins-01",
+      "citation": "MET-CHROM-INS_01 (2012); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with insulin sensitivity concerns; Outcome: insulin_sensitivity; DOI: 10.1234/chromium-picolinate-met-chrom-ins-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MET-CHROM-INS_02",
+      "year": 2013,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "insulin_sensitivity",
+      "population": "Adults with insulin sensitivity concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/chromium-picolinate-met-chrom-ins-02",
+      "url": "https://doi.org/10.1234/chromium-picolinate-met-chrom-ins-02",
+      "citation": "MET-CHROM-INS_02 (2013); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with insulin sensitivity concerns; Outcome: insulin_sensitivity; DOI: 10.1234/chromium-picolinate-met-chrom-ins-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "MET-CHROM-INS_03",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "insulin_sensitivity",
+      "population": "Adults with insulin sensitivity concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/chromium-picolinate-met-chrom-ins-03",
+      "url": "https://doi.org/10.1234/chromium-picolinate-met-chrom-ins-03",
+      "citation": "MET-CHROM-INS_03 (2014); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with insulin sensitivity concerns; Outcome: insulin_sensitivity; DOI: 10.1234/chromium-picolinate-met-chrom-ins-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/chromium-picolinate-met-chrom-ins-01",
+      "study_ids": [
+        "MET-CHROM-INS_01"
+      ],
+      "primary_study_id": "MET-CHROM-INS_01",
+      "url": "https://doi.org/10.1234/chromium-picolinate-met-chrom-ins-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/chromium-picolinate-met-chrom-ins-02",
+      "study_ids": [
+        "MET-CHROM-INS_02"
+      ],
+      "primary_study_id": "MET-CHROM-INS_02",
+      "url": "https://doi.org/10.1234/chromium-picolinate-met-chrom-ins-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/chromium-picolinate-met-chrom-ins-03",
+      "study_ids": [
+        "MET-CHROM-INS_03"
+      ],
+      "primary_study_id": "MET-CHROM-INS_03",
+      "url": "https://doi.org/10.1234/chromium-picolinate-met-chrom-ins-03"
+    }
+  ],
+  "manifest_hash": "sha256:fb59eeccf9ef8fbf7a7c48c3650c5caad33ede95b7d86695ad401aad3c18944e"
+}

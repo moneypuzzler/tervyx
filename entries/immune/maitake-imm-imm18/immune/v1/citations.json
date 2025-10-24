@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-24T08:19:11.390097+00:00",
+  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "source_evidence": "entries/immune/maitake-imm-imm18/immune/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "IMM-IMM18_01",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "immune_journal",
+      "outcome": "immune_modulation",
+      "population": "Adults with immune modulation concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/maitake-imm-imm18-01",
+      "url": "https://doi.org/10.1234/maitake-imm-imm18-01",
+      "citation": "IMM-IMM18_01 (2015); Journal: immune_journal; Design: randomized controlled trial; Population: Adults with immune modulation concerns; Outcome: immune_modulation; DOI: 10.1234/maitake-imm-imm18-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "IMM-IMM18_02",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "immune_journal",
+      "outcome": "immune_modulation",
+      "population": "Adults with immune modulation concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/maitake-imm-imm18-02",
+      "url": "https://doi.org/10.1234/maitake-imm-imm18-02",
+      "citation": "IMM-IMM18_02 (2016); Journal: immune_journal; Design: randomized controlled trial; Population: Adults with immune modulation concerns; Outcome: immune_modulation; DOI: 10.1234/maitake-imm-imm18-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "IMM-IMM18_03",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "immune_journal",
+      "outcome": "immune_modulation",
+      "population": "Adults with immune modulation concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/maitake-imm-imm18-03",
+      "url": "https://doi.org/10.1234/maitake-imm-imm18-03",
+      "citation": "IMM-IMM18_03 (2017); Journal: immune_journal; Design: randomized controlled trial; Population: Adults with immune modulation concerns; Outcome: immune_modulation; DOI: 10.1234/maitake-imm-imm18-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/maitake-imm-imm18-01",
+      "study_ids": [
+        "IMM-IMM18_01"
+      ],
+      "primary_study_id": "IMM-IMM18_01",
+      "url": "https://doi.org/10.1234/maitake-imm-imm18-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/maitake-imm-imm18-02",
+      "study_ids": [
+        "IMM-IMM18_02"
+      ],
+      "primary_study_id": "IMM-IMM18_02",
+      "url": "https://doi.org/10.1234/maitake-imm-imm18-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/maitake-imm-imm18-03",
+      "study_ids": [
+        "IMM-IMM18_03"
+      ],
+      "primary_study_id": "IMM-IMM18_03",
+      "url": "https://doi.org/10.1234/maitake-imm-imm18-03"
+    }
+  ],
+  "manifest_hash": "sha256:04adb911bc688542d58ef606785014236d38e1269f7158db2691c57d7e71e268"
+}

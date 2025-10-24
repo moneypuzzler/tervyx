@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+IMM-IMM02_01,2015,randomized controlled trial,SMD,0.3933,0.2176,0.569,69,74,mixed,10.1234/elderberry-imm-imm02-01,immune_journal,immune_modulation,Adults with immune modulation concerns,None reported,9
+IMM-IMM02_02,2016,randomized controlled trial,SMD,0.2597,0.0947,0.4247,64,58,mixed,10.1234/elderberry-imm-imm02-02,immune_journal,immune_modulation,Adults with immune modulation concerns,None reported,12
+IMM-IMM02_03,2017,randomized controlled trial,SMD,0.3696,0.2445,0.4947,80,59,low,10.1234/elderberry-imm-imm02-03,immune_journal,immune_modulation,Adults with immune modulation concerns,None reported,10

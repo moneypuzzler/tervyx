@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "metabolic:fenugreek-meta-glu11:metabolic:v1",
+  "title": "Fenugreek Meta Glu11 — Metabolic",
+  "category": "metabolic",
+  "tier": "Silver",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.8423,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.9,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 400,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.295251,
+    "mu_CI95": [
+      0.207055,
+      0.383448
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-24T08:19:08.193122+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/fenugreek-meta-glu11-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/fenugreek-meta-glu11-01",
+      "studyIds": [
+        "META-GLU11_01"
+      ],
+      "citation": "META-GLU11_01 (2015); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with glucose control concerns; Outcome: glucose_control; DOI: 10.1234/fenugreek-meta-glu11-01; Adverse Events: Transient headache.",
+      "doi": "10.1234/fenugreek-meta-glu11-01",
+      "sameAs": "https://doi.org/10.1234/fenugreek-meta-glu11-01",
+      "datePublished": "2015",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "metabolic_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/fenugreek-meta-glu11-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/fenugreek-meta-glu11-02",
+      "studyIds": [
+        "META-GLU11_02"
+      ],
+      "citation": "META-GLU11_02 (2016); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with glucose control concerns; Outcome: glucose_control; DOI: 10.1234/fenugreek-meta-glu11-02; Adverse Events: None reported.",
+      "doi": "10.1234/fenugreek-meta-glu11-02",
+      "sameAs": "https://doi.org/10.1234/fenugreek-meta-glu11-02",
+      "datePublished": "2016",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "metabolic_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/fenugreek-meta-glu11-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/fenugreek-meta-glu11-03",
+      "studyIds": [
+        "META-GLU11_03"
+      ],
+      "citation": "META-GLU11_03 (2017); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with glucose control concerns; Outcome: glucose_control; DOI: 10.1234/fenugreek-meta-glu11-03; Adverse Events: Transient headache.",
+      "doi": "10.1234/fenugreek-meta-glu11-03",
+      "sameAs": "https://doi.org/10.1234/fenugreek-meta-glu11-03",
+      "datePublished": "2017",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "metabolic_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:a7447baddcf0ef58b5596f04f6d73079da0fec13e7c8cf0a00d2aca6d225ea02",
+  "audit_hash": "0x58080ded300dffd9"
+}
