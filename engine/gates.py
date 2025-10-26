@@ -192,14 +192,21 @@ def check_r_gate(evidence_rows: List[Dict[str, Any]],
     if not evidence_rows:
         return "LOW", 0.0, "No evidence provided"
     
-    relevance_scores = []
+    total_weight = 0
+    weighted_sum = 0
     
     for study in evidence_rows:
-        study_relevance = _compute_study_relevance(study, category)
-        relevance_scores.append(study_relevance)
+        relevance = _compute_study_relevance(study, category)
+        weight = study.get("n_treat", 0) + study.get("n_ctrl", 0)
+
+        weighted_sum += relevance * weight
+        total_weight += weight
     
     # Overall relevance is weighted average (could use median for robustness)
-    overall_relevance = sum(relevance_scores) / len(relevance_scores)
+    if total_weight == 0:
+        overall_relevance = 0.0
+    else:
+        overall_relevance = weighted_sum / total_weight
     
     # Map to qualitative categories
     if overall_relevance >= 0.8:
