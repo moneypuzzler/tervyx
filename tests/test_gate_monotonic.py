@@ -93,5 +93,39 @@ class GateMonotonicityTests(unittest.TestCase):
         self.assertEqual(gates["j"]["score_masked"], 0.0)
 
 
+    def test_r_gate_uses_weighted_average(self):
+        evidence = [
+            {
+                "study_id": "HighRelevanceSmallN",
+                "design": "cohort",
+                "outcome": "psqi",
+                "population": "general",
+                "n_treat": 10,
+                "n_ctrl": 10,
+                "journal_id": "ISSN:1389-9457",
+            },
+            {
+                "study_id": "LowRelevanceLargeN",
+                "design": "case series",
+                "outcome": "blood pressure",
+                "population": "general",
+                "n_treat": 100,
+                "n_ctrl": 100,
+                "journal_id": "ISSN:1389-9457",
+            },
+        ]
+
+        gates = evaluate_gate_governance_protocol(
+            evidence,
+            category="sleep",
+            journal_snapshot=self.snapshot,
+            policy=self.policy,
+        )
+
+        # Expected weighted average: ((0.9 * 20) + (0.3 * 200)) / (20 + 200) = 0.3545
+        expected_score = 0.3545
+        self.assertAlmostEqual(gates["r"]["score"], expected_score, places=4)
+
+
 if __name__ == "__main__":
     unittest.main()
