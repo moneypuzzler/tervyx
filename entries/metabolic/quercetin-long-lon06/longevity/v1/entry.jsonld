@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "metabolic:quercetin-long-lon06:longevity:v1",
+  "title": "Quercetin — Longevity",
+  "category": "longevity",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.94387,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.906,
+    "j": 0.656,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 482,
+    "I2": 0.0,
+    "tau2": 0.0003656,
+    "mu_hat": 0.2858,
+    "mu_CI95": [
+      0.1182,
+      0.4534
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-27T01:51:32.561351+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/long-lon06-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/long-lon06-01",
+      "studyIds": [
+        "LONG-LON06-01"
+      ],
+      "citation": "LONG-LON06-01 (2020); Journal: longevity-journal-01; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/long-lon06-01; Adverse Events: Transient headache.",
+      "doi": "10.1234/long-lon06-01",
+      "sameAs": "https://doi.org/10.1234/long-lon06-01",
+      "datePublished": "2020",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "longevity-journal-01"
+      }
+    },
+    {
+      "@id": "doi:10.1234/long-lon06-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/long-lon06-02",
+      "studyIds": [
+        "LONG-LON06-02"
+      ],
+      "citation": "LONG-LON06-02 (2011); Journal: longevity-journal-02; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/long-lon06-02; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/long-lon06-02",
+      "sameAs": "https://doi.org/10.1234/long-lon06-02",
+      "datePublished": "2011",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "longevity-journal-02"
+      }
+    },
+    {
+      "@id": "doi:10.1234/long-lon06-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/long-lon06-03",
+      "studyIds": [
+        "LONG-LON06-03"
+      ],
+      "citation": "LONG-LON06-03 (2016); Journal: longevity-journal-03; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/long-lon06-03; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/long-lon06-03",
+      "sameAs": "https://doi.org/10.1234/long-lon06-03",
+      "datePublished": "2016",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "longevity-journal-03"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:c4c6f510fd15d9be48ae3587bfc8e9be9b1d6b845b4bb608dac105119aed4fed",
+  "audit_hash": "0xc6311f94065f6dce"
+}

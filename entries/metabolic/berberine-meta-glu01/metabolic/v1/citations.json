@@ -1,6 +1,6 @@
 {
   "generated": "2025-10-24T08:19:06.979710+00:00",
-  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
   "source_evidence": "entries/metabolic/berberine-meta-glu01/metabolic/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/berberine-meta-glu01-03"
     }
   ],
-  "manifest_hash": "sha256:8303e21e9ada4c12aca0aeda096221a192027b06df6491b89422dfd2e7bb135a"
+  "manifest_hash": "sha256:634a2985f6c9dfdde24a39b6f987f54d821c53d799e4977d9f272da9b0befcb3"
 }

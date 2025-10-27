@@ -1,6 +1,6 @@
 {
   "generated": "2025-10-24T08:19:07.577205+00:00",
-  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
   "source_evidence": "entries/metabolic/bitter-melon-meta-glu06/metabolic/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/bitter-melon-meta-glu06-03"
     }
   ],
-  "manifest_hash": "sha256:542d5260c28ea925ff489888dcb54852d534cf757cccafb0672bb42d824719b1"
+  "manifest_hash": "sha256:cd03161a1d4c42f45c7cce87c3791554da938775896db6567eb9233d9f2b8e2a"
 }

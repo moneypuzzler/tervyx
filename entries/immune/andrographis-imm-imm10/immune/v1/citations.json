@@ -1,6 +1,6 @@
 {
   "generated": "2025-10-24T08:19:10.539998+00:00",
-  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
   "source_evidence": "entries/immune/andrographis-imm-imm10/immune/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/andrographis-imm-imm10-03"
     }
   ],
-  "manifest_hash": "sha256:fda7ea5cfe2895f83634569b43e36197daf5786a7760b31df7b42139372cbd63"
+  "manifest_hash": "sha256:1b7d513bbdb104b1c3f67e8f4cae03073eac23371dbe46c75eeea37a6e7b7125"
 }

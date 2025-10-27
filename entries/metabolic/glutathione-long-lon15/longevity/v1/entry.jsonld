@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "metabolic:glutathione-long-lon15:longevity:v1",
+  "title": "Glutathione — Longevity",
+  "category": "longevity",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.996621,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.889,
+    "j": 0.539,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 492,
+    "I2": 0.0,
+    "tau2": 0.00030747,
+    "mu_hat": 0.3624,
+    "mu_CI95": [
+      0.2087,
+      0.5161
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-27T01:51:32.571536+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/long-lon15-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/long-lon15-01",
+      "studyIds": [
+        "LONG-LON15-01"
+      ],
+      "citation": "LONG-LON15-01 (2023); Journal: longevity-journal-01; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/long-lon15-01; Adverse Events: None reported.",
+      "doi": "10.1234/long-lon15-01",
+      "sameAs": "https://doi.org/10.1234/long-lon15-01",
+      "datePublished": "2023",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "longevity-journal-01"
+      }
+    },
+    {
+      "@id": "doi:10.1234/long-lon15-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/long-lon15-02",
+      "studyIds": [
+        "LONG-LON15-02"
+      ],
+      "citation": "LONG-LON15-02 (2014); Journal: longevity-journal-02; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/long-lon15-02; Adverse Events: Transient headache.",
+      "doi": "10.1234/long-lon15-02",
+      "sameAs": "https://doi.org/10.1234/long-lon15-02",
+      "datePublished": "2014",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "longevity-journal-02"
+      }
+    },
+    {
+      "@id": "doi:10.1234/long-lon15-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/long-lon15-03",
+      "studyIds": [
+        "LONG-LON15-03"
+      ],
+      "citation": "LONG-LON15-03 (2019); Journal: longevity-journal-03; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/long-lon15-03; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/long-lon15-03",
+      "sameAs": "https://doi.org/10.1234/long-lon15-03",
+      "datePublished": "2019",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "longevity-journal-03"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:39d2bb177f4733ac389395df470efdca64bafffb7d4a2576af3fdbd5b8566b0c",
+  "audit_hash": "0xd226593c2c762daa"
+}

@@ -1,6 +1,6 @@
 {
   "generated": "2025-10-24T08:19:09.179051+00:00",
-  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
   "source_evidence": "entries/metabolic/omega-3-meta-glu19/metabolic/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/omega-3-meta-glu19-03"
     }
   ],
-  "manifest_hash": "sha256:a0bf81d0150f717b2d0abd2549655950843d65d9ad6f721fba4ddcf2cf5b5b74"
+  "manifest_hash": "sha256:10b7bdc7187478591226d5788522dbacf211f7290df2a6845e6bb14f2b88bf85"
 }

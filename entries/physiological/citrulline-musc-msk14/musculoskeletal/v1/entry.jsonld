@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "physiological:citrulline-musc-msk14:musculoskeletal:v1",
+  "title": "Citrulline — Musculoskeletal",
+  "category": "musculoskeletal",
+  "tier": "Bronze",
+  "label": "AMBER",
+  "P_effect_gt_delta": 0.514235,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.791,
+    "j": 0.641,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 499,
+    "I2": 0.0,
+    "tau2": 0.00030774,
+    "mu_hat": 0.2228,
+    "mu_CI95": [
+      0.069033,
+      0.376567
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-27T01:51:32.591585+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/musc-msk14-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/musc-msk14-01",
+      "studyIds": [
+        "MUSC-MSK14-01"
+      ],
+      "citation": "MUSC-MSK14-01 (2011); Journal: musculoskeletal-journal-01; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/musc-msk14-01; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/musc-msk14-01",
+      "sameAs": "https://doi.org/10.1234/musc-msk14-01",
+      "datePublished": "2011",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "musculoskeletal-journal-01"
+      }
+    },
+    {
+      "@id": "doi:10.1234/musc-msk14-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/musc-msk14-02",
+      "studyIds": [
+        "MUSC-MSK14-02"
+      ],
+      "citation": "MUSC-MSK14-02 (2016); Journal: musculoskeletal-journal-02; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/musc-msk14-02; Adverse Events: None reported.",
+      "doi": "10.1234/musc-msk14-02",
+      "sameAs": "https://doi.org/10.1234/musc-msk14-02",
+      "datePublished": "2016",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "musculoskeletal-journal-02"
+      }
+    },
+    {
+      "@id": "doi:10.1234/musc-msk14-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/musc-msk14-03",
+      "studyIds": [
+        "MUSC-MSK14-03"
+      ],
+      "citation": "MUSC-MSK14-03 (2021); Journal: musculoskeletal-journal-03; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/musc-msk14-03; Adverse Events: Transient headache.",
+      "doi": "10.1234/musc-msk14-03",
+      "sameAs": "https://doi.org/10.1234/musc-msk14-03",
+      "datePublished": "2021",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "musculoskeletal-journal-03"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:8c8b811e87bf8194ccb8c3ae24e7c23a6b8ae7169d1f2161af2c8277595177ac",
+  "audit_hash": "0xc94cea5c76865204"
+}

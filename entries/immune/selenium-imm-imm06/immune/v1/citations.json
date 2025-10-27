@@ -1,6 +1,6 @@
 {
   "generated": "2025-10-24T08:19:10.055819+00:00",
-  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
   "source_evidence": "entries/immune/selenium-imm-imm06/immune/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/selenium-imm-imm06-03"
     }
   ],
-  "manifest_hash": "sha256:ac6e0bbe05d40a307215b5c6e7d00cb84af6f1d1da2392a53e028d856ce8a514"
+  "manifest_hash": "sha256:6383c52ae0ee144a136c32385d313430796ed89bf8b4425bd0411e3e61476808"
 }

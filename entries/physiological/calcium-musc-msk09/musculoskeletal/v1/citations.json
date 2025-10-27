@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-27T01:51:32.585956+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/physiological/calcium-musc-msk09/musculoskeletal/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MUSC-MSK09-01",
+      "year": 2023,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal-journal-01",
+      "outcome": "joint_health",
+      "population": "Adults with joint health concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/musc-msk09-01",
+      "url": "https://doi.org/10.1234/musc-msk09-01",
+      "citation": "MUSC-MSK09-01 (2023); Journal: musculoskeletal-journal-01; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/musc-msk09-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "MUSC-MSK09-02",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal-journal-02",
+      "outcome": "joint_health",
+      "population": "Adults with joint health concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/musc-msk09-02",
+      "url": "https://doi.org/10.1234/musc-msk09-02",
+      "citation": "MUSC-MSK09-02 (2014); Journal: musculoskeletal-journal-02; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/musc-msk09-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MUSC-MSK09-03",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal-journal-03",
+      "outcome": "joint_health",
+      "population": "Adults with joint health concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/musc-msk09-03",
+      "url": "https://doi.org/10.1234/musc-msk09-03",
+      "citation": "MUSC-MSK09-03 (2019); Journal: musculoskeletal-journal-03; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/musc-msk09-03; Adverse Events: Mild GI discomfort."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/musc-msk09-01",
+      "study_ids": [
+        "MUSC-MSK09-01"
+      ],
+      "primary_study_id": "MUSC-MSK09-01",
+      "url": "https://doi.org/10.1234/musc-msk09-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/musc-msk09-02",
+      "study_ids": [
+        "MUSC-MSK09-02"
+      ],
+      "primary_study_id": "MUSC-MSK09-02",
+      "url": "https://doi.org/10.1234/musc-msk09-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/musc-msk09-03",
+      "study_ids": [
+        "MUSC-MSK09-03"
+      ],
+      "primary_study_id": "MUSC-MSK09-03",
+      "url": "https://doi.org/10.1234/musc-msk09-03"
+    }
+  ],
+  "manifest_hash": "sha256:a0c5dbe71682c48fa82c1ce927a9cf080866ed337cf08f49a3e67324f507be6b"
+}

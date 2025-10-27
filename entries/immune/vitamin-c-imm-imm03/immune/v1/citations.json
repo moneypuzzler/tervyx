@@ -1,6 +1,6 @@
 {
   "generated": "2025-10-24T08:19:09.666325+00:00",
-  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
   "source_evidence": "entries/immune/vitamin-c-imm-imm03/immune/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/vitamin-c-imm-imm03-03"
     }
   ],
-  "manifest_hash": "sha256:9db4814f107dfcbdbf9b7e2a2c211576c2d3d415f4cadafe498bb4d60692270c"
+  "manifest_hash": "sha256:b615d6bc51f7924f65686f9d93adae776f886e7e47d9b1108644f5621f0b2d2f"
 }

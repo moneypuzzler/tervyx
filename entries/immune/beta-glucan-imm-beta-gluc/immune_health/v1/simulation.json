@@ -1,0 +1,41 @@
+{
+  "seed": 3516002085,
+  "n_draws": 10000,
+  "tau2_method": "deterministic-stub",
+  "delta": 0.2,
+  "P_effect_gt_delta": 0.726771,
+  "mu_hat": 0.2508,
+  "mu_CI95": [
+    0.0857,
+    0.4159
+  ],
+  "var_mu": 0.00236516,
+  "mu_se": 0.084235,
+  "I2": 0.0,
+  "tau2": 0.00035477,
+  "tau": 0.018835,
+  "Q": 0.0,
+  "prediction_interval_95": [
+    0.081623,
+    0.419977
+  ],
+  "n_studies": 3,
+  "total_n": 525,
+  "benefit_direction": 1,
+  "benefit_note": "Higher scores indicate improvement",
+  "environment": "Python 3.11, NumPy compat",
+  "gate_terminated": false,
+  "termination_gate": "none",
+  "reml_convergence": {
+    "converged": true,
+    "iterations": 1,
+    "final_nll": 0.0
+  },
+  "computation_time_ms": 1.0,
+  "tel5_input": {
+    "P_value": 0.726771,
+    "phi_violation": false,
+    "k_violation": false
+  },
+  "policy_fingerprint": "0xbe3a798944b1c64b"
+}

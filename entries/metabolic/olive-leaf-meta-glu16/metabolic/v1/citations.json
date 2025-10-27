@@ -1,6 +1,6 @@
 {
   "generated": "2025-10-24T08:19:08.798118+00:00",
-  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
   "source_evidence": "entries/metabolic/olive-leaf-meta-glu16/metabolic/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/olive-leaf-meta-glu16-03"
     }
   ],
-  "manifest_hash": "sha256:a85be4618b60ab05354b711140ca9fd54cdb4017e0f4d92f474b74be7e5ce38d"
+  "manifest_hash": "sha256:d32bdd4ebebc62ac53b25748e2a8bc23939d0325f6ef44dad301daed32c59506"
 }

@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "immune:black-currant-infl-inf19:inflammation:v1",
+  "title": "Black Currant — Inflammation",
+  "category": "inflammation",
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.0,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.865,
+    "j": 0.515,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 522,
+    "I2": 0.0,
+    "tau2": 0.00026578,
+    "mu_hat": -0.2376,
+    "mu_CI95": [
+      -0.3805,
+      -0.0947
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-27T01:51:32.553499+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/infl-inf19-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/infl-inf19-01",
+      "studyIds": [
+        "INFL-INF19-01"
+      ],
+      "citation": "INFL-INF19-01 (2021); Journal: inflammation-journal-01; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/infl-inf19-01; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/infl-inf19-01",
+      "sameAs": "https://doi.org/10.1234/infl-inf19-01",
+      "datePublished": "2021",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "inflammation-journal-01"
+      }
+    },
+    {
+      "@id": "doi:10.1234/infl-inf19-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/infl-inf19-02",
+      "studyIds": [
+        "INFL-INF19-02"
+      ],
+      "citation": "INFL-INF19-02 (2012); Journal: inflammation-journal-02; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/infl-inf19-02; Adverse Events: None reported.",
+      "doi": "10.1234/infl-inf19-02",
+      "sameAs": "https://doi.org/10.1234/infl-inf19-02",
+      "datePublished": "2012",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "inflammation-journal-02"
+      }
+    },
+    {
+      "@id": "doi:10.1234/infl-inf19-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/infl-inf19-03",
+      "studyIds": [
+        "INFL-INF19-03"
+      ],
+      "citation": "INFL-INF19-03 (2017); Journal: inflammation-journal-03; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/infl-inf19-03; Adverse Events: Transient headache.",
+      "doi": "10.1234/infl-inf19-03",
+      "sameAs": "https://doi.org/10.1234/infl-inf19-03",
+      "datePublished": "2017",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "inflammation-journal-03"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:1372958958a75aa07df6dba03a8cae6fa4c6fcb708515431fb2816ff66deabfb",
+  "audit_hash": "0x6f6919149fe3c226"
+}

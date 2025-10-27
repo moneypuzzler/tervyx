@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-27T01:51:32.546210+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/immune/hyaluronic-acid-infl-inf13/inflammation/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "INFL-INF13-01",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "inflammation-journal-01",
+      "outcome": "recovery",
+      "population": "Adults with recovery concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/infl-inf13-01",
+      "url": "https://doi.org/10.1234/infl-inf13-01",
+      "citation": "INFL-INF13-01 (2014); Journal: inflammation-journal-01; Design: randomized controlled trial; Population: Adults with recovery concerns; Outcome: recovery; DOI: 10.1234/infl-inf13-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "INFL-INF13-02",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "inflammation-journal-02",
+      "outcome": "recovery",
+      "population": "Adults with recovery concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/infl-inf13-02",
+      "url": "https://doi.org/10.1234/infl-inf13-02",
+      "citation": "INFL-INF13-02 (2019); Journal: inflammation-journal-02; Design: randomized controlled trial; Population: Adults with recovery concerns; Outcome: recovery; DOI: 10.1234/infl-inf13-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "INFL-INF13-03",
+      "year": 2010,
+      "design": "randomized controlled trial",
+      "journal": "inflammation-journal-03",
+      "outcome": "recovery",
+      "population": "Adults with recovery concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/infl-inf13-03",
+      "url": "https://doi.org/10.1234/infl-inf13-03",
+      "citation": "INFL-INF13-03 (2010); Journal: inflammation-journal-03; Design: randomized controlled trial; Population: Adults with recovery concerns; Outcome: recovery; DOI: 10.1234/infl-inf13-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/infl-inf13-01",
+      "study_ids": [
+        "INFL-INF13-01"
+      ],
+      "primary_study_id": "INFL-INF13-01",
+      "url": "https://doi.org/10.1234/infl-inf13-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/infl-inf13-02",
+      "study_ids": [
+        "INFL-INF13-02"
+      ],
+      "primary_study_id": "INFL-INF13-02",
+      "url": "https://doi.org/10.1234/infl-inf13-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/infl-inf13-03",
+      "study_ids": [
+        "INFL-INF13-03"
+      ],
+      "primary_study_id": "INFL-INF13-03",
+      "url": "https://doi.org/10.1234/infl-inf13-03"
+    }
+  ],
+  "manifest_hash": "sha256:c3a68420916d2d39d0b22d4233631d7c49e5561da4ba1a8f74de1170b9df62c2"
+}

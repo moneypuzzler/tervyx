@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "metabolic:alpha-ketoglutarate-long-lon13:longevity:v1",
+  "title": "Alpha Ketoglutarate — Longevity",
+  "category": "longevity",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.976124,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.887,
+    "j": 0.737,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 520,
+    "I2": 0.0,
+    "tau2": 0.00037747,
+    "mu_hat": 0.322,
+    "mu_CI95": [
+      0.1517,
+      0.4923
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-27T01:51:32.568653+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/long-lon13-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/long-lon13-01",
+      "studyIds": [
+        "LONG-LON13-01"
+      ],
+      "citation": "LONG-LON13-01 (2017); Journal: longevity-journal-01; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/long-lon13-01; Adverse Events: None reported.",
+      "doi": "10.1234/long-lon13-01",
+      "sameAs": "https://doi.org/10.1234/long-lon13-01",
+      "datePublished": "2017",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "longevity-journal-01"
+      }
+    },
+    {
+      "@id": "doi:10.1234/long-lon13-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/long-lon13-02",
+      "studyIds": [
+        "LONG-LON13-02"
+      ],
+      "citation": "LONG-LON13-02 (2022); Journal: longevity-journal-02; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/long-lon13-02; Adverse Events: Transient headache.",
+      "doi": "10.1234/long-lon13-02",
+      "sameAs": "https://doi.org/10.1234/long-lon13-02",
+      "datePublished": "2022",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "longevity-journal-02"
+      }
+    },
+    {
+      "@id": "doi:10.1234/long-lon13-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/long-lon13-03",
+      "studyIds": [
+        "LONG-LON13-03"
+      ],
+      "citation": "LONG-LON13-03 (2013); Journal: longevity-journal-03; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/long-lon13-03; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/long-lon13-03",
+      "sameAs": "https://doi.org/10.1234/long-lon13-03",
+      "datePublished": "2013",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "longevity-journal-03"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:1e09df981d52a038dbd089f4fbd14d9399990214de78e4a2541c4a99a61eb6ff",
+  "audit_hash": "0x0f5e1c4c2b8a8321"
+}

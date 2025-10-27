@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-27T01:51:32.536749+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/immune/quercetin-infl-inf05/inflammation/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "INFL-INF05-01",
+      "year": 2012,
+      "design": "randomized controlled trial",
+      "journal": "inflammation-journal-01",
+      "outcome": "skin_inflammation",
+      "population": "Adults with skin inflammation concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/infl-inf05-01",
+      "url": "https://doi.org/10.1234/infl-inf05-01",
+      "citation": "INFL-INF05-01 (2012); Journal: inflammation-journal-01; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/infl-inf05-01; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "INFL-INF05-02",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "inflammation-journal-02",
+      "outcome": "skin_inflammation",
+      "population": "Adults with skin inflammation concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/infl-inf05-02",
+      "url": "https://doi.org/10.1234/infl-inf05-02",
+      "citation": "INFL-INF05-02 (2017); Journal: inflammation-journal-02; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/infl-inf05-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "INFL-INF05-03",
+      "year": 2022,
+      "design": "randomized controlled trial",
+      "journal": "inflammation-journal-03",
+      "outcome": "skin_inflammation",
+      "population": "Adults with skin inflammation concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/infl-inf05-03",
+      "url": "https://doi.org/10.1234/infl-inf05-03",
+      "citation": "INFL-INF05-03 (2022); Journal: inflammation-journal-03; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/infl-inf05-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/infl-inf05-01",
+      "study_ids": [
+        "INFL-INF05-01"
+      ],
+      "primary_study_id": "INFL-INF05-01",
+      "url": "https://doi.org/10.1234/infl-inf05-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/infl-inf05-02",
+      "study_ids": [
+        "INFL-INF05-02"
+      ],
+      "primary_study_id": "INFL-INF05-02",
+      "url": "https://doi.org/10.1234/infl-inf05-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/infl-inf05-03",
+      "study_ids": [
+        "INFL-INF05-03"
+      ],
+      "primary_study_id": "INFL-INF05-03",
+      "url": "https://doi.org/10.1234/infl-inf05-03"
+    }
+  ],
+  "manifest_hash": "sha256:72374f0055ab0d9a7f6471caa518b87fa0593721b5fa351434a4883591557753"
+}

@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-27T01:51:32.556491+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/metabolic/nicotinamide-mononucleotide-long-lon02/longevity/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "LONG-LON02-01",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "longevity-journal-01",
+      "outcome": "mitochondrial_function",
+      "population": "Adults with mitochondrial function concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/long-lon02-01",
+      "url": "https://doi.org/10.1234/long-lon02-01",
+      "citation": "LONG-LON02-01 (2014); Journal: longevity-journal-01; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/long-lon02-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "LONG-LON02-02",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "longevity-journal-02",
+      "outcome": "mitochondrial_function",
+      "population": "Adults with mitochondrial function concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/long-lon02-02",
+      "url": "https://doi.org/10.1234/long-lon02-02",
+      "citation": "LONG-LON02-02 (2019); Journal: longevity-journal-02; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/long-lon02-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "LONG-LON02-03",
+      "year": 2010,
+      "design": "randomized controlled trial",
+      "journal": "longevity-journal-03",
+      "outcome": "mitochondrial_function",
+      "population": "Adults with mitochondrial function concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/long-lon02-03",
+      "url": "https://doi.org/10.1234/long-lon02-03",
+      "citation": "LONG-LON02-03 (2010); Journal: longevity-journal-03; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/long-lon02-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/long-lon02-01",
+      "study_ids": [
+        "LONG-LON02-01"
+      ],
+      "primary_study_id": "LONG-LON02-01",
+      "url": "https://doi.org/10.1234/long-lon02-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/long-lon02-02",
+      "study_ids": [
+        "LONG-LON02-02"
+      ],
+      "primary_study_id": "LONG-LON02-02",
+      "url": "https://doi.org/10.1234/long-lon02-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/long-lon02-03",
+      "study_ids": [
+        "LONG-LON02-03"
+      ],
+      "primary_study_id": "LONG-LON02-03",
+      "url": "https://doi.org/10.1234/long-lon02-03"
+    }
+  ],
+  "manifest_hash": "sha256:e1f98d9a2849bf001d7ddbc456e662344f1538fb1c6dc9280f222d08b99287c1"
+}

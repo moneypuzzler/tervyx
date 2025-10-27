@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+INFL-INF17-01,2021,randomized controlled trial,SMD,-0.2506,-0.3723,-0.1289,93,75,some concerns,10.1234/infl-inf17-01,inflammation-journal-01,systemic_inflammation,Adults with systemic inflammation concerns,Mild GI discomfort,12
+INFL-INF17-02,2012,randomized controlled trial,SMD,-0.2452,-0.4194,-0.071,76,90,mixed,10.1234/infl-inf17-02,inflammation-journal-02,systemic_inflammation,Adults with systemic inflammation concerns,None reported,11
+INFL-INF17-03,2017,randomized controlled trial,SMD,-0.2398,-0.3964,-0.0832,89,75,low,10.1234/infl-inf17-03,inflammation-journal-03,systemic_inflammation,Adults with systemic inflammation concerns,Transient headache,9

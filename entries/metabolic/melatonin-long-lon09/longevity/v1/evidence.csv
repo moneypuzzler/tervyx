@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+LONG-LON09-01,2022,randomized controlled trial,SMD,0.3376,0.2014,0.4738,78,77,low,10.1234/long-lon09-01,longevity-journal-01,cellular_ageing,Adults with cellular ageing concerns,Transient headache,8
+LONG-LON09-02,2013,randomized controlled trial,SMD,0.3322,0.1435,0.5209,91,92,low,10.1234/long-lon09-02,longevity-journal-02,cellular_ageing,Adults with cellular ageing concerns,Transient headache,13
+LONG-LON09-03,2018,randomized controlled trial,SMD,0.3268,0.1557,0.4979,74,77,some concerns,10.1234/long-lon09-03,longevity-journal-03,cellular_ageing,Adults with cellular ageing concerns,Mild GI discomfort,11

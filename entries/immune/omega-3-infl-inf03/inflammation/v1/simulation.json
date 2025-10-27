@@ -1,0 +1,41 @@
+{
+  "seed": 2714308239,
+  "n_draws": 10000,
+  "tau2_method": "deterministic-stub",
+  "delta": 0.18,
+  "P_effect_gt_delta": 4e-06,
+  "mu_hat": -0.1904,
+  "mu_CI95": [
+    -0.3521,
+    -0.0287
+  ],
+  "var_mu": 0.00226875,
+  "mu_se": 0.0825,
+  "I2": 0.0,
+  "tau2": 0.00034031,
+  "tau": 0.018448,
+  "Q": 0.0,
+  "prediction_interval_95": [
+    -0.356093,
+    -0.024707
+  ],
+  "n_studies": 3,
+  "total_n": 505,
+  "benefit_direction": -1,
+  "benefit_note": "Lower scores indicate improvement (e.g., PSQI decrease is beneficial)",
+  "environment": "Python 3.11, NumPy compat",
+  "gate_terminated": false,
+  "termination_gate": "none",
+  "reml_convergence": {
+    "converged": true,
+    "iterations": 1,
+    "final_nll": 0.0
+  },
+  "computation_time_ms": 1.0,
+  "tel5_input": {
+    "P_value": 4e-06,
+    "phi_violation": false,
+    "k_violation": false
+  },
+  "policy_fingerprint": "0xbe3a798944b1c64b"
+}

@@ -1,6 +1,6 @@
 {
   "generated": "2025-10-24T08:19:07.341299+00:00",
-  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
   "source_evidence": "entries/metabolic/cinnamon-meta-glu04/metabolic/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/cinnamon-meta-glu04-03"
     }
   ],
-  "manifest_hash": "sha256:972fd111267b6fc9d8590640b0ed6fadce41f6f9b2b2a3b255830813abf1c655"
+  "manifest_hash": "sha256:6c7386ead30b8501ff427d2702f3779cfc01f2356facabb20075f1e1b341f62e"
 }

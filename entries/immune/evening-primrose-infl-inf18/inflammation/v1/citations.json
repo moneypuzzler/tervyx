@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-27T01:51:32.551816+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/immune/evening-primrose-infl-inf18/inflammation/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "INFL-INF18-01",
+      "year": 2010,
+      "design": "randomized controlled trial",
+      "journal": "inflammation-journal-01",
+      "outcome": "recovery",
+      "population": "Adults with recovery concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/infl-inf18-01",
+      "url": "https://doi.org/10.1234/infl-inf18-01",
+      "citation": "INFL-INF18-01 (2010); Journal: inflammation-journal-01; Design: randomized controlled trial; Population: Adults with recovery concerns; Outcome: recovery; DOI: 10.1234/infl-inf18-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "INFL-INF18-02",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "inflammation-journal-02",
+      "outcome": "recovery",
+      "population": "Adults with recovery concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/infl-inf18-02",
+      "url": "https://doi.org/10.1234/infl-inf18-02",
+      "citation": "INFL-INF18-02 (2015); Journal: inflammation-journal-02; Design: randomized controlled trial; Population: Adults with recovery concerns; Outcome: recovery; DOI: 10.1234/infl-inf18-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "INFL-INF18-03",
+      "year": 2020,
+      "design": "randomized controlled trial",
+      "journal": "inflammation-journal-03",
+      "outcome": "recovery",
+      "population": "Adults with recovery concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/infl-inf18-03",
+      "url": "https://doi.org/10.1234/infl-inf18-03",
+      "citation": "INFL-INF18-03 (2020); Journal: inflammation-journal-03; Design: randomized controlled trial; Population: Adults with recovery concerns; Outcome: recovery; DOI: 10.1234/infl-inf18-03; Adverse Events: Mild GI discomfort."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/infl-inf18-01",
+      "study_ids": [
+        "INFL-INF18-01"
+      ],
+      "primary_study_id": "INFL-INF18-01",
+      "url": "https://doi.org/10.1234/infl-inf18-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/infl-inf18-02",
+      "study_ids": [
+        "INFL-INF18-02"
+      ],
+      "primary_study_id": "INFL-INF18-02",
+      "url": "https://doi.org/10.1234/infl-inf18-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/infl-inf18-03",
+      "study_ids": [
+        "INFL-INF18-03"
+      ],
+      "primary_study_id": "INFL-INF18-03",
+      "url": "https://doi.org/10.1234/infl-inf18-03"
+    }
+  ],
+  "manifest_hash": "sha256:c447b6955ef05b96d4e0a704c2d80f30a992625df88625576e881c2921822965"
+}

@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-27T01:51:32.533474+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/immune/boswellia-infl-inf02/inflammation/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "INFL-INF02-01",
+      "year": 2020,
+      "design": "randomized controlled trial",
+      "journal": "inflammation-journal-01",
+      "outcome": "systemic_inflammation",
+      "population": "Adults with systemic inflammation concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/infl-inf02-01",
+      "url": "https://doi.org/10.1234/infl-inf02-01",
+      "citation": "INFL-INF02-01 (2020); Journal: inflammation-journal-01; Design: randomized controlled trial; Population: Adults with systemic inflammation concerns; Outcome: systemic_inflammation; DOI: 10.1234/infl-inf02-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "INFL-INF02-02",
+      "year": 2011,
+      "design": "randomized controlled trial",
+      "journal": "inflammation-journal-02",
+      "outcome": "systemic_inflammation",
+      "population": "Adults with systemic inflammation concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/infl-inf02-02",
+      "url": "https://doi.org/10.1234/infl-inf02-02",
+      "citation": "INFL-INF02-02 (2011); Journal: inflammation-journal-02; Design: randomized controlled trial; Population: Adults with systemic inflammation concerns; Outcome: systemic_inflammation; DOI: 10.1234/infl-inf02-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "INFL-INF02-03",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "inflammation-journal-03",
+      "outcome": "systemic_inflammation",
+      "population": "Adults with systemic inflammation concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/infl-inf02-03",
+      "url": "https://doi.org/10.1234/infl-inf02-03",
+      "citation": "INFL-INF02-03 (2016); Journal: inflammation-journal-03; Design: randomized controlled trial; Population: Adults with systemic inflammation concerns; Outcome: systemic_inflammation; DOI: 10.1234/infl-inf02-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/infl-inf02-01",
+      "study_ids": [
+        "INFL-INF02-01"
+      ],
+      "primary_study_id": "INFL-INF02-01",
+      "url": "https://doi.org/10.1234/infl-inf02-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/infl-inf02-02",
+      "study_ids": [
+        "INFL-INF02-02"
+      ],
+      "primary_study_id": "INFL-INF02-02",
+      "url": "https://doi.org/10.1234/infl-inf02-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/infl-inf02-03",
+      "study_ids": [
+        "INFL-INF02-03"
+      ],
+      "primary_study_id": "INFL-INF02-03",
+      "url": "https://doi.org/10.1234/infl-inf02-03"
+    }
+  ],
+  "manifest_hash": "sha256:4cf3474325de677b23e754b4a02949e61744d7aac9234ea01234cc4ae3935496"
+}

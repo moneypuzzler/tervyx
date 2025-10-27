@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+INFL-INF19-01,2021,randomized controlled trial,SMD,-0.243,-0.4035,-0.0825,85,91,some concerns,10.1234/infl-inf19-01,inflammation-journal-01,joint_pain,Adults with joint pain concerns,Mild GI discomfort,12
+INFL-INF19-02,2012,randomized controlled trial,SMD,-0.2376,-0.3805,-0.0947,98,76,mixed,10.1234/infl-inf19-02,inflammation-journal-02,joint_pain,Adults with joint pain concerns,None reported,10
+INFL-INF19-03,2017,randomized controlled trial,SMD,-0.2322,-0.3575,-0.1069,81,91,low,10.1234/infl-inf19-03,inflammation-journal-03,joint_pain,Adults with joint pain concerns,Transient headache,9

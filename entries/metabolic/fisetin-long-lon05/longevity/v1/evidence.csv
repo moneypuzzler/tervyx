@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+LONG-LON05-01,2010,randomized controlled trial,SMD,0.332,0.1467,0.5173,80,78,mixed,10.1234/long-lon05-01,longevity-journal-01,cellular_ageing,Adults with cellular ageing concerns,Mild GI discomfort,13
+LONG-LON05-02,2015,randomized controlled trial,SMD,0.3266,0.1589,0.4943,93,92,mixed,10.1234/long-lon05-02,longevity-journal-02,cellular_ageing,Adults with cellular ageing concerns,None reported,12
+LONG-LON05-03,2020,randomized controlled trial,SMD,0.3212,0.171,0.4714,76,77,low,10.1234/long-lon05-03,longevity-journal-03,cellular_ageing,Adults with cellular ageing concerns,Transient headache,11

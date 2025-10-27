@@ -1,6 +1,6 @@
 {
   "generated": "2025-10-24T08:19:08.673315+00:00",
-  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
   "source_evidence": "entries/metabolic/artichoke-extract-meta-glu15/metabolic/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/artichoke-extract-meta-glu15-03"
     }
   ],
-  "manifest_hash": "sha256:79fb0799b98ad82dd4a5a290373f74314ff6426731a19e9519e3c1bb2cff5aee"
+  "manifest_hash": "sha256:1761d901aae6aa72beb46011792c37ed90a6e9557512dbc80de1821e19d4529e"
 }

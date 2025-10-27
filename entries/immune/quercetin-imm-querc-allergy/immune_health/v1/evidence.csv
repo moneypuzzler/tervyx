@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+IMM-QUERC-ALLERGY-01,2013,randomized controlled trial,SMD,0.2126,0.0505,0.3747,73,68,mixed,10.1234/imm-querc-allergy-01,immune_health-journal-01,allergic_rhinitis,Adults with allergic rhinitis concerns,None reported,10
+IMM-QUERC-ALLERGY-02,2018,randomized controlled trial,SMD,0.2072,0.0627,0.3517,86,83,low,10.1234/imm-querc-allergy-02,immune_health-journal-02,allergic_rhinitis,Adults with allergic rhinitis concerns,Transient headache,8
+IMM-QUERC-ALLERGY-03,2023,randomized controlled trial,SMD,0.2018,0.0749,0.3287,99,97,low,10.1234/imm-querc-allergy-03,immune_health-journal-03,allergic_rhinitis,Adults with allergic rhinitis concerns,Transient headache,13
