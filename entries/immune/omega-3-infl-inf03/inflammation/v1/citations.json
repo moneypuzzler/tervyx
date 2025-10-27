@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-27T01:51:32.535300+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/immune/omega-3-infl-inf03/inflammation/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "INFL-INF03-01",
+      "year": 2011,
+      "design": "randomized controlled trial",
+      "journal": "inflammation-journal-01",
+      "outcome": "recovery",
+      "population": "Adults with recovery concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/infl-inf03-01",
+      "url": "https://doi.org/10.1234/infl-inf03-01",
+      "citation": "INFL-INF03-01 (2011); Journal: inflammation-journal-01; Design: randomized controlled trial; Population: Adults with recovery concerns; Outcome: recovery; DOI: 10.1234/infl-inf03-01; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "INFL-INF03-02",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "inflammation-journal-02",
+      "outcome": "recovery",
+      "population": "Adults with recovery concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/infl-inf03-02",
+      "url": "https://doi.org/10.1234/infl-inf03-02",
+      "citation": "INFL-INF03-02 (2016); Journal: inflammation-journal-02; Design: randomized controlled trial; Population: Adults with recovery concerns; Outcome: recovery; DOI: 10.1234/infl-inf03-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "INFL-INF03-03",
+      "year": 2021,
+      "design": "randomized controlled trial",
+      "journal": "inflammation-journal-03",
+      "outcome": "recovery",
+      "population": "Adults with recovery concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/infl-inf03-03",
+      "url": "https://doi.org/10.1234/infl-inf03-03",
+      "citation": "INFL-INF03-03 (2021); Journal: inflammation-journal-03; Design: randomized controlled trial; Population: Adults with recovery concerns; Outcome: recovery; DOI: 10.1234/infl-inf03-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/infl-inf03-01",
+      "study_ids": [
+        "INFL-INF03-01"
+      ],
+      "primary_study_id": "INFL-INF03-01",
+      "url": "https://doi.org/10.1234/infl-inf03-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/infl-inf03-02",
+      "study_ids": [
+        "INFL-INF03-02"
+      ],
+      "primary_study_id": "INFL-INF03-02",
+      "url": "https://doi.org/10.1234/infl-inf03-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/infl-inf03-03",
+      "study_ids": [
+        "INFL-INF03-03"
+      ],
+      "primary_study_id": "INFL-INF03-03",
+      "url": "https://doi.org/10.1234/infl-inf03-03"
+    }
+  ],
+  "manifest_hash": "sha256:35071525871db83c40832901d35c8d3983ceecf6d1fb1f41b24ef97c560b3a70"
+}

@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+LONG-LON02-01,2014,randomized controlled trial,SMD,0.1916,0.0664,0.3168,78,90,mixed,10.1234/long-lon02-01,longevity-journal-01,mitochondrial_function,Adults with mitochondrial function concerns,Transient headache,13
+LONG-LON02-02,2019,randomized controlled trial,SMD,0.1862,0.0085,0.3639,91,75,low,10.1234/long-lon02-02,longevity-journal-02,mitochondrial_function,Adults with mitochondrial function concerns,Mild GI discomfort,12
+LONG-LON02-03,2010,randomized controlled trial,SMD,0.1808,0.0207,0.3409,74,90,low,10.1234/long-lon02-03,longevity-journal-03,mitochondrial_function,Adults with mitochondrial function concerns,None reported,10

@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-27T01:51:32.543004+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/immune/pycnogenol-infl-inf10/inflammation/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "INFL-INF10-01",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "inflammation-journal-01",
+      "outcome": "skin_inflammation",
+      "population": "Adults with skin inflammation concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/infl-inf10-01",
+      "url": "https://doi.org/10.1234/infl-inf10-01",
+      "citation": "INFL-INF10-01 (2014); Journal: inflammation-journal-01; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/infl-inf10-01; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "INFL-INF10-02",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "inflammation-journal-02",
+      "outcome": "skin_inflammation",
+      "population": "Adults with skin inflammation concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/infl-inf10-02",
+      "url": "https://doi.org/10.1234/infl-inf10-02",
+      "citation": "INFL-INF10-02 (2019); Journal: inflammation-journal-02; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/infl-inf10-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "INFL-INF10-03",
+      "year": 2010,
+      "design": "randomized controlled trial",
+      "journal": "inflammation-journal-03",
+      "outcome": "skin_inflammation",
+      "population": "Adults with skin inflammation concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/infl-inf10-03",
+      "url": "https://doi.org/10.1234/infl-inf10-03",
+      "citation": "INFL-INF10-03 (2010); Journal: inflammation-journal-03; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/infl-inf10-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/infl-inf10-01",
+      "study_ids": [
+        "INFL-INF10-01"
+      ],
+      "primary_study_id": "INFL-INF10-01",
+      "url": "https://doi.org/10.1234/infl-inf10-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/infl-inf10-02",
+      "study_ids": [
+        "INFL-INF10-02"
+      ],
+      "primary_study_id": "INFL-INF10-02",
+      "url": "https://doi.org/10.1234/infl-inf10-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/infl-inf10-03",
+      "study_ids": [
+        "INFL-INF10-03"
+      ],
+      "primary_study_id": "INFL-INF10-03",
+      "url": "https://doi.org/10.1234/infl-inf10-03"
+    }
+  ],
+  "manifest_hash": "sha256:11400b9063322603d965567fd69f98b2e4c64db96858d0e6d93de9b839743891"
+}

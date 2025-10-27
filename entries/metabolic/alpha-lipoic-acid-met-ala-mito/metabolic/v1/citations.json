@@ -1,6 +1,6 @@
 {
   "generated": "2025-10-24T08:19:11.925660+00:00",
-  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
   "source_evidence": "entries/metabolic/alpha-lipoic-acid-met-ala-mito/metabolic/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/alpha-lipoic-acid-met-ala-mito-03"
     }
   ],
-  "manifest_hash": "sha256:5d4e976f2f0557564bac9b1a7cb4890c5cdd783a31106d108a3c85295d4d4b75"
+  "manifest_hash": "sha256:791b6cca80de3cfc653f2a0fc608ce92d7cf257c37bc84993881345014a0be9b"
 }

@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+MUSC-MSK18-01,2011,randomized controlled trial,SMD,0.297,0.1509,0.4431,75,90,some concerns,10.1234/musc-msk18-01,musculoskeletal-journal-01,bone_density,Adults with bone density concerns,None reported,11
+MUSC-MSK18-02,2016,randomized controlled trial,SMD,0.2916,0.163,0.4202,88,74,some concerns,10.1234/musc-msk18-02,musculoskeletal-journal-02,bone_density,Adults with bone density concerns,Transient headache,10
+MUSC-MSK18-03,2021,randomized controlled trial,SMD,0.2862,0.1052,0.4672,71,89,mixed,10.1234/musc-msk18-03,musculoskeletal-journal-03,bone_density,Adults with bone density concerns,Mild GI discomfort,9

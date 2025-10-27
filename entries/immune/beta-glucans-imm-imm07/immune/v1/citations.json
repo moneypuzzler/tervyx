@@ -1,6 +1,6 @@
 {
   "generated": "2025-10-24T08:19:10.170722+00:00",
-  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
   "source_evidence": "entries/immune/beta-glucans-imm-imm07/immune/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/beta-glucans-imm-imm07-03"
     }
   ],
-  "manifest_hash": "sha256:21366acb007adaef2b1113868b3818b930a7bacb236737d9a6e35376059400e6"
+  "manifest_hash": "sha256:594973147fe6bf969fec7e545ccac01787d9226aca58ac926f2f2ea4373f6190"
 }

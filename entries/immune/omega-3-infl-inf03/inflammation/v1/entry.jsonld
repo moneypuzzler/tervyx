@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "immune:omega-3-infl-inf03:inflammation:v1",
+  "title": "Omega 3 — Inflammation",
+  "category": "inflammation",
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 4e-06,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.829,
+    "j": 0.579,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 505,
+    "I2": 0.0,
+    "tau2": 0.00034031,
+    "mu_hat": -0.1904,
+    "mu_CI95": [
+      -0.3521,
+      -0.0287
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-27T01:51:32.535525+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/infl-inf03-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/infl-inf03-01",
+      "studyIds": [
+        "INFL-INF03-01"
+      ],
+      "citation": "INFL-INF03-01 (2011); Journal: inflammation-journal-01; Design: randomized controlled trial; Population: Adults with recovery concerns; Outcome: recovery; DOI: 10.1234/infl-inf03-01; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/infl-inf03-01",
+      "sameAs": "https://doi.org/10.1234/infl-inf03-01",
+      "datePublished": "2011",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "inflammation-journal-01"
+      }
+    },
+    {
+      "@id": "doi:10.1234/infl-inf03-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/infl-inf03-02",
+      "studyIds": [
+        "INFL-INF03-02"
+      ],
+      "citation": "INFL-INF03-02 (2016); Journal: inflammation-journal-02; Design: randomized controlled trial; Population: Adults with recovery concerns; Outcome: recovery; DOI: 10.1234/infl-inf03-02; Adverse Events: None reported.",
+      "doi": "10.1234/infl-inf03-02",
+      "sameAs": "https://doi.org/10.1234/infl-inf03-02",
+      "datePublished": "2016",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "inflammation-journal-02"
+      }
+    },
+    {
+      "@id": "doi:10.1234/infl-inf03-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/infl-inf03-03",
+      "studyIds": [
+        "INFL-INF03-03"
+      ],
+      "citation": "INFL-INF03-03 (2021); Journal: inflammation-journal-03; Design: randomized controlled trial; Population: Adults with recovery concerns; Outcome: recovery; DOI: 10.1234/infl-inf03-03; Adverse Events: Transient headache.",
+      "doi": "10.1234/infl-inf03-03",
+      "sameAs": "https://doi.org/10.1234/infl-inf03-03",
+      "datePublished": "2021",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "inflammation-journal-03"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:35071525871db83c40832901d35c8d3983ceecf6d1fb1f41b24ef97c560b3a70",
+  "audit_hash": "0xf4267569bfadac4f"
+}

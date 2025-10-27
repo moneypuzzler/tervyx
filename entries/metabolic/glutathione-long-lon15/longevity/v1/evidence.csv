@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+LONG-LON15-01,2023,randomized controlled trial,SMD,0.3678,0.1965,0.5391,79,77,mixed,10.1234/long-lon15-01,longevity-journal-01,telomere_support,Adults with telomere support concerns,None reported,13
+LONG-LON15-02,2014,randomized controlled trial,SMD,0.3624,0.2087,0.5161,92,92,mixed,10.1234/long-lon15-02,longevity-journal-02,telomere_support,Adults with telomere support concerns,Transient headache,12
+LONG-LON15-03,2019,randomized controlled trial,SMD,0.357,0.2209,0.4931,75,77,low,10.1234/long-lon15-03,longevity-journal-03,telomere_support,Adults with telomere support concerns,Mild GI discomfort,11

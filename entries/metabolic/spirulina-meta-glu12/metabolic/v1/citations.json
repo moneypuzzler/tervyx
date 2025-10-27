@@ -1,6 +1,6 @@
 {
   "generated": "2025-10-24T08:19:08.310358+00:00",
-  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
   "source_evidence": "entries/metabolic/spirulina-meta-glu12/metabolic/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/spirulina-meta-glu12-03"
     }
   ],
-  "manifest_hash": "sha256:598b9af753d61de6e07fd42f8db383e79aadd0feb92ad25c6441733832455c50"
+  "manifest_hash": "sha256:f1f5cec3b6caa5a7d5bf9202ec8126af80a2c7073731e2cdb727f87f5b3502d3"
 }

@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+LONG-LON19-01,2022,randomized controlled trial,SMD,0.2104,0.0387,0.3821,92,79,mixed,10.1234/long-lon19-01,longevity-journal-01,telomere_support,Adults with telomere support concerns,Mild GI discomfort,13
+LONG-LON19-02,2013,randomized controlled trial,SMD,0.205,0.0509,0.3591,75,94,mixed,10.1234/long-lon19-02,longevity-journal-02,telomere_support,Adults with telomere support concerns,Mild GI discomfort,11
+LONG-LON19-03,2018,randomized controlled trial,SMD,0.1996,0.063,0.3362,88,79,low,10.1234/long-lon19-03,longevity-journal-03,telomere_support,Adults with telomere support concerns,None reported,10

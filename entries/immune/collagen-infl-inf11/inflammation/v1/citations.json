@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-27T01:51:32.544592+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/immune/collagen-infl-inf11/inflammation/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "INFL-INF11-01",
+      "year": 2021,
+      "design": "randomized controlled trial",
+      "journal": "inflammation-journal-01",
+      "outcome": "joint_pain",
+      "population": "Adults with joint pain concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/infl-inf11-01",
+      "url": "https://doi.org/10.1234/infl-inf11-01",
+      "citation": "INFL-INF11-01 (2021); Journal: inflammation-journal-01; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/infl-inf11-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "INFL-INF11-02",
+      "year": 2012,
+      "design": "randomized controlled trial",
+      "journal": "inflammation-journal-02",
+      "outcome": "joint_pain",
+      "population": "Adults with joint pain concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/infl-inf11-02",
+      "url": "https://doi.org/10.1234/infl-inf11-02",
+      "citation": "INFL-INF11-02 (2012); Journal: inflammation-journal-02; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/infl-inf11-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "INFL-INF11-03",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "inflammation-journal-03",
+      "outcome": "joint_pain",
+      "population": "Adults with joint pain concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/infl-inf11-03",
+      "url": "https://doi.org/10.1234/infl-inf11-03",
+      "citation": "INFL-INF11-03 (2017); Journal: inflammation-journal-03; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/infl-inf11-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/infl-inf11-01",
+      "study_ids": [
+        "INFL-INF11-01"
+      ],
+      "primary_study_id": "INFL-INF11-01",
+      "url": "https://doi.org/10.1234/infl-inf11-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/infl-inf11-02",
+      "study_ids": [
+        "INFL-INF11-02"
+      ],
+      "primary_study_id": "INFL-INF11-02",
+      "url": "https://doi.org/10.1234/infl-inf11-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/infl-inf11-03",
+      "study_ids": [
+        "INFL-INF11-03"
+      ],
+      "primary_study_id": "INFL-INF11-03",
+      "url": "https://doi.org/10.1234/infl-inf11-03"
+    }
+  ],
+  "manifest_hash": "sha256:440909742ad992c9cd0346dc7797e362254bd94ce177822eb3e2377568189ebf"
+}

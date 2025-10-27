@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+MUSC-MSK03-01,2021,randomized controlled trial,SMD,0.189,0.0075,0.3705,85,91,low,10.1234/musc-msk03-01,musculoskeletal-journal-01,muscle_recovery,Adults with muscle recovery concerns,Mild GI discomfort,10
+MUSC-MSK03-02,2012,randomized controlled trial,SMD,0.1836,0.0197,0.3475,98,76,some concerns,10.1234/musc-msk03-02,musculoskeletal-journal-02,muscle_recovery,Adults with muscle recovery concerns,Mild GI discomfort,9
+MUSC-MSK03-03,2017,randomized controlled trial,SMD,0.3782,0.2319,0.5245,81,91,some concerns,10.1234/musc-msk03-03,musculoskeletal-journal-03,muscle_recovery,Adults with muscle recovery concerns,None reported,13

@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+MUSC-MSK13-01,2015,randomized controlled trial,SMD,0.3414,0.1779,0.5049,87,74,some concerns,10.1234/musc-msk13-01,musculoskeletal-journal-01,joint_health,Adults with joint health concerns,Transient headache,10
+MUSC-MSK13-02,2020,randomized controlled trial,SMD,0.336,0.19,0.482,70,89,mixed,10.1234/musc-msk13-02,musculoskeletal-journal-02,joint_health,Adults with joint health concerns,Transient headache,8
+MUSC-MSK13-03,2011,randomized controlled trial,SMD,0.3306,0.2022,0.459,83,74,mixed,10.1234/musc-msk13-03,musculoskeletal-journal-03,joint_health,Adults with joint health concerns,Mild GI discomfort,13

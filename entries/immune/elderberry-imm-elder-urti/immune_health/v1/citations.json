@@ -1,6 +1,6 @@
 {
   "generated": "2025-10-24T08:19:12.529812+00:00",
-  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
   "source_evidence": "entries/immune/elderberry-imm-elder-urti/immune_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/elderberry-imm-elder-urti-03"
     }
   ],
-  "manifest_hash": "sha256:54ca4cfc562cfcff6240b664441740334cde20d61290d8aa5e2ff8bc5ca7298c"
+  "manifest_hash": "sha256:0730d6536a76e1ddc9d543ae69a5f8969e9117c8115c28e56217eb1f517c63e5"
 }

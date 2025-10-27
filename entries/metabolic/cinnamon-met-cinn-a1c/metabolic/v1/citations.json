@@ -1,6 +1,6 @@
 {
   "generated": "2025-10-24T08:19:11.795150+00:00",
-  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
   "source_evidence": "entries/metabolic/cinnamon-met-cinn-a1c/metabolic/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/cinnamon-met-cinn-a1c-03"
     }
   ],
-  "manifest_hash": "sha256:7ee29c212e4a1cc1ab9b89869b0fa50316631aff45ff74158af94eab0911f469"
+  "manifest_hash": "sha256:323a6f9de69287118c8d5b21161964ee8898489646e980001c4f50d9707244db"
 }

@@ -1,6 +1,6 @@
 {
   "generated": "2025-10-24T08:19:08.915372+00:00",
-  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
   "source_evidence": "entries/metabolic/resveratrol-meta-glu17/metabolic/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/resveratrol-meta-glu17-03"
     }
   ],
-  "manifest_hash": "sha256:0ffa59486d55855a55e0874aa912f0f872105893f2fde0d49fbb4b0c12aa8ad5"
+  "manifest_hash": "sha256:4d2a0c888eef49e222b727c8052cbf022ed273b7f76ef7cae507a4dfce8a3188"
 }

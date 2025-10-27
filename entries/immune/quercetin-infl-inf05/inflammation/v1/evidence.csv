@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+INFL-INF05-01,2012,randomized controlled trial,SMD,-0.3548,-0.4972,-0.2124,84,74,mixed,10.1234/infl-inf05-01,inflammation-journal-01,skin_inflammation,Adults with skin inflammation concerns,Mild GI discomfort,8
+INFL-INF05-02,2017,randomized controlled trial,SMD,-0.3494,-0.4743,-0.2245,97,89,low,10.1234/infl-inf05-02,inflammation-journal-02,skin_inflammation,Adults with skin inflammation concerns,None reported,13
+INFL-INF05-03,2022,randomized controlled trial,SMD,-0.344,-0.5213,-0.1667,80,73,low,10.1234/infl-inf05-03,inflammation-journal-03,skin_inflammation,Adults with skin inflammation concerns,Transient headache,11

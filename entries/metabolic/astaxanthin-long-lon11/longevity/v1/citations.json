@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-27T01:51:32.567046+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/metabolic/astaxanthin-long-lon11/longevity/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "LONG-LON11-01",
+      "year": 2011,
+      "design": "randomized controlled trial",
+      "journal": "longevity-journal-01",
+      "outcome": "telomere_support",
+      "population": "Adults with telomere support concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/long-lon11-01",
+      "url": "https://doi.org/10.1234/long-lon11-01",
+      "citation": "LONG-LON11-01 (2011); Journal: longevity-journal-01; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/long-lon11-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-LON11-02",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "longevity-journal-02",
+      "outcome": "telomere_support",
+      "population": "Adults with telomere support concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/long-lon11-02",
+      "url": "https://doi.org/10.1234/long-lon11-02",
+      "citation": "LONG-LON11-02 (2016); Journal: longevity-journal-02; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/long-lon11-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "LONG-LON11-03",
+      "year": 2021,
+      "design": "randomized controlled trial",
+      "journal": "longevity-journal-03",
+      "outcome": "telomere_support",
+      "population": "Adults with telomere support concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/long-lon11-03",
+      "url": "https://doi.org/10.1234/long-lon11-03",
+      "citation": "LONG-LON11-03 (2021); Journal: longevity-journal-03; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/long-lon11-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/long-lon11-01",
+      "study_ids": [
+        "LONG-LON11-01"
+      ],
+      "primary_study_id": "LONG-LON11-01",
+      "url": "https://doi.org/10.1234/long-lon11-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/long-lon11-02",
+      "study_ids": [
+        "LONG-LON11-02"
+      ],
+      "primary_study_id": "LONG-LON11-02",
+      "url": "https://doi.org/10.1234/long-lon11-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/long-lon11-03",
+      "study_ids": [
+        "LONG-LON11-03"
+      ],
+      "primary_study_id": "LONG-LON11-03",
+      "url": "https://doi.org/10.1234/long-lon11-03"
+    }
+  ],
+  "manifest_hash": "sha256:33e0b693147356bf47532fc1a42cc411b195610ec55861237b8a0956408e29ab"
+}

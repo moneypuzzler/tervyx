@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "immune:beta-glucan-imm-beta-gluc:immune_health:v1",
+  "title": "Beta Glucan — Immune Health",
+  "category": "immune_health",
+  "tier": "Silver",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.726771,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.931,
+    "j": 0.581,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 525,
+    "I2": 0.0,
+    "tau2": 0.00035477,
+    "mu_hat": 0.2508,
+    "mu_CI95": [
+      0.0857,
+      0.4159
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-27T01:50:36.318529+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/imm-beta-gluc-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/imm-beta-gluc-01",
+      "studyIds": [
+        "IMM-BETA-GLUC-01"
+      ],
+      "citation": "IMM-BETA-GLUC-01 (2015); Journal: immune_health-journal-01; Design: randomized controlled trial; Population: Adults with immune readiness concerns; Outcome: immune_readiness; DOI: 10.1234/imm-beta-gluc-01; Adverse Events: None reported.",
+      "doi": "10.1234/imm-beta-gluc-01",
+      "sameAs": "https://doi.org/10.1234/imm-beta-gluc-01",
+      "datePublished": "2015",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "immune_health-journal-01"
+      }
+    },
+    {
+      "@id": "doi:10.1234/imm-beta-gluc-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/imm-beta-gluc-02",
+      "studyIds": [
+        "IMM-BETA-GLUC-02"
+      ],
+      "citation": "IMM-BETA-GLUC-02 (2020); Journal: immune_health-journal-02; Design: randomized controlled trial; Population: Adults with immune readiness concerns; Outcome: immune_readiness; DOI: 10.1234/imm-beta-gluc-02; Adverse Events: None reported.",
+      "doi": "10.1234/imm-beta-gluc-02",
+      "sameAs": "https://doi.org/10.1234/imm-beta-gluc-02",
+      "datePublished": "2020",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "immune_health-journal-02"
+      }
+    },
+    {
+      "@id": "doi:10.1234/imm-beta-gluc-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/imm-beta-gluc-03",
+      "studyIds": [
+        "IMM-BETA-GLUC-03"
+      ],
+      "citation": "IMM-BETA-GLUC-03 (2011); Journal: immune_health-journal-03; Design: randomized controlled trial; Population: Adults with immune readiness concerns; Outcome: immune_readiness; DOI: 10.1234/imm-beta-gluc-03; Adverse Events: Transient headache.",
+      "doi": "10.1234/imm-beta-gluc-03",
+      "sameAs": "https://doi.org/10.1234/imm-beta-gluc-03",
+      "datePublished": "2011",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "immune_health-journal-03"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:31661cd31358728706245f0b65fa0510c4741663c79e0ff4679e9e81b2abe0b8",
+  "audit_hash": "0xcf0c1cee4d9882fc"
+}

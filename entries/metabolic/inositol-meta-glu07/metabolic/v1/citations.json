@@ -1,6 +1,6 @@
 {
   "generated": "2025-10-24T08:19:07.703051+00:00",
-  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
   "source_evidence": "entries/metabolic/inositol-meta-glu07/metabolic/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/inositol-meta-glu07-03"
     }
   ],
-  "manifest_hash": "sha256:7678dd3f6cf5c6ed32b0d0435eefefa1b587bc6ce47c1cbd24b54cd0d90eb405"
+  "manifest_hash": "sha256:4ffb750bc5cf40b3a11299fd7d9bb250d80d77fc7ad589096324747db72cac7a"
 }

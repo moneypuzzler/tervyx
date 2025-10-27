@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+MUSC-MSK07-01,2022,randomized controlled trial,SMD,0.2548,0.119,0.3906,94,75,low,10.1234/musc-msk07-01,musculoskeletal-journal-01,muscle_recovery,Adults with muscle recovery concerns,Transient headache,11
+MUSC-MSK07-02,2013,randomized controlled trial,SMD,0.2494,0.0612,0.4376,77,90,some concerns,10.1234/musc-msk07-02,musculoskeletal-journal-02,muscle_recovery,Adults with muscle recovery concerns,Mild GI discomfort,10
+MUSC-MSK07-03,2018,randomized controlled trial,SMD,0.244,0.0734,0.4146,90,75,some concerns,10.1234/musc-msk07-03,musculoskeletal-journal-03,muscle_recovery,Adults with muscle recovery concerns,None reported,8

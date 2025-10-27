@@ -1,6 +1,6 @@
 {
   "generated": "2025-10-24T08:19:08.431993+00:00",
-  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
   "source_evidence": "entries/metabolic/chlorella-meta-glu13/metabolic/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/chlorella-meta-glu13-03"
     }
   ],
-  "manifest_hash": "sha256:ba03a3d7ad813886c2cb11a32d5a4a3b41ab152d0a57db85387bfa7e29ea0a5d"
+  "manifest_hash": "sha256:e0fddc73eb1cdd972f2023023facaf6469804f7ab2c59d2116e145d0768da013"
 }

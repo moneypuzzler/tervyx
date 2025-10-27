@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "metabolic:nicotinamide-riboside-long-lon01:longevity:v1",
+  "title": "Nicotinamide Riboside — Longevity",
+  "category": "longevity",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.903717,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.944,
+    "j": 0.594,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 471,
+    "I2": 0.0,
+    "tau2": 0.00031485,
+    "mu_hat": 0.2534,
+    "mu_CI95": [
+      0.097867,
+      0.408933
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-27T01:51:32.555223+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/long-lon01-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/long-lon01-01",
+      "studyIds": [
+        "LONG-LON01-01"
+      ],
+      "citation": "LONG-LON01-01 (2022); Journal: longevity-journal-01; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/long-lon01-01; Adverse Events: None reported.",
+      "doi": "10.1234/long-lon01-01",
+      "sameAs": "https://doi.org/10.1234/long-lon01-01",
+      "datePublished": "2022",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "longevity-journal-01"
+      }
+    },
+    {
+      "@id": "doi:10.1234/long-lon01-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/long-lon01-02",
+      "studyIds": [
+        "LONG-LON01-02"
+      ],
+      "citation": "LONG-LON01-02 (2013); Journal: longevity-journal-02; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/long-lon01-02; Adverse Events: Transient headache.",
+      "doi": "10.1234/long-lon01-02",
+      "sameAs": "https://doi.org/10.1234/long-lon01-02",
+      "datePublished": "2013",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "longevity-journal-02"
+      }
+    },
+    {
+      "@id": "doi:10.1234/long-lon01-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/long-lon01-03",
+      "studyIds": [
+        "LONG-LON01-03"
+      ],
+      "citation": "LONG-LON01-03 (2018); Journal: longevity-journal-03; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/long-lon01-03; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/long-lon01-03",
+      "sameAs": "https://doi.org/10.1234/long-lon01-03",
+      "datePublished": "2018",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "longevity-journal-03"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:59e7a44b74e2f6ec39289f6de6d7131264208129d1731b6c26ddef22316bdbe7",
+  "audit_hash": "0x1dd6a4985a7ed953"
+}

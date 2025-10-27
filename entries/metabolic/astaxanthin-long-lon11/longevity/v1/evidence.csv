@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+LONG-LON11-01,2011,randomized controlled trial,SMD,0.3582,0.1985,0.5179,91,88,some concerns,10.1234/long-lon11-01,longevity-journal-01,telomere_support,Adults with telomere support concerns,None reported,8
+LONG-LON11-02,2016,randomized controlled trial,SMD,0.3528,0.2107,0.4949,74,72,mixed,10.1234/long-lon11-02,longevity-journal-02,telomere_support,Adults with telomere support concerns,Transient headache,12
+LONG-LON11-03,2021,randomized controlled trial,SMD,0.3474,0.2229,0.4719,87,87,mixed,10.1234/long-lon11-03,longevity-journal-03,telomere_support,Adults with telomere support concerns,Transient headache,11

@@ -1,6 +1,6 @@
 {
   "generated": "2025-10-24T08:19:11.289730+00:00",
-  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
   "source_evidence": "entries/immune/reishi-imm-imm17/immune/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/reishi-imm-imm17-03"
     }
   ],
-  "manifest_hash": "sha256:763ce6d4cf83f6fc17426fcb662a9cb6674a03e9d725983db229fd9a9452de00"
+  "manifest_hash": "sha256:24fe7bd4ca6f1e7e5619de4445425935fb46e4b27b44fdbc6a8c8e2ef6a791b9"
 }

@@ -1,0 +1,74 @@
+{
+  "generated": "2025-10-27T01:51:32.593765+00:00",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "source_evidence": "entries/physiological/beetroot-musc-msk15/musculoskeletal/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MUSC-MSK15-01",
+      "year": 2013,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal-journal-01",
+      "outcome": "muscle_recovery",
+      "population": "Adults with muscle recovery concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/musc-msk15-01",
+      "url": "https://doi.org/10.1234/musc-msk15-01",
+      "citation": "MUSC-MSK15-01 (2013); Journal: musculoskeletal-journal-01; Design: randomized controlled trial; Population: Adults with muscle recovery concerns; Outcome: muscle_recovery; DOI: 10.1234/musc-msk15-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MUSC-MSK15-02",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal-journal-02",
+      "outcome": "muscle_recovery",
+      "population": "Adults with muscle recovery concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/musc-msk15-02",
+      "url": "https://doi.org/10.1234/musc-msk15-02",
+      "citation": "MUSC-MSK15-02 (2018); Journal: musculoskeletal-journal-02; Design: randomized controlled trial; Population: Adults with muscle recovery concerns; Outcome: muscle_recovery; DOI: 10.1234/musc-msk15-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MUSC-MSK15-03",
+      "year": 2023,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal-journal-03",
+      "outcome": "muscle_recovery",
+      "population": "Adults with muscle recovery concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/musc-msk15-03",
+      "url": "https://doi.org/10.1234/musc-msk15-03",
+      "citation": "MUSC-MSK15-03 (2023); Journal: musculoskeletal-journal-03; Design: randomized controlled trial; Population: Adults with muscle recovery concerns; Outcome: muscle_recovery; DOI: 10.1234/musc-msk15-03; Adverse Events: Mild GI discomfort."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/musc-msk15-01",
+      "study_ids": [
+        "MUSC-MSK15-01"
+      ],
+      "primary_study_id": "MUSC-MSK15-01",
+      "url": "https://doi.org/10.1234/musc-msk15-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/musc-msk15-02",
+      "study_ids": [
+        "MUSC-MSK15-02"
+      ],
+      "primary_study_id": "MUSC-MSK15-02",
+      "url": "https://doi.org/10.1234/musc-msk15-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/musc-msk15-03",
+      "study_ids": [
+        "MUSC-MSK15-03"
+      ],
+      "primary_study_id": "MUSC-MSK15-03",
+      "url": "https://doi.org/10.1234/musc-msk15-03"
+    }
+  ],
+  "manifest_hash": "sha256:51f00d0e2af0f7a652d565566a6e2ed47b5e994d871adc68e0709889277986f7"
+}

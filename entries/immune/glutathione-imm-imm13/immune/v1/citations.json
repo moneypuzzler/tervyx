@@ -1,6 +1,6 @@
 {
   "generated": "2025-10-24T08:19:10.891488+00:00",
-  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
   "source_evidence": "entries/immune/glutathione-imm-imm13/immune/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/glutathione-imm-imm13-03"
     }
   ],
-  "manifest_hash": "sha256:e16ea2e250c97b794dbfcb6b7964b358ac5d4c99c09207a39cfe7c69af8cf41f"
+  "manifest_hash": "sha256:adceca41c0e31ebdb03e7ab3c616fd0ee01840ef7e6ec2dd29d8cda9f0596ac2"
 }

@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "immune:green-tea-infl-inf07:inflammation:v1",
+  "title": "Green Tea — Inflammation",
+  "category": "inflammation",
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.0,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.932,
+    "j": 0.782,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 524,
+    "I2": 0.0,
+    "tau2": 0.00038415,
+    "mu_hat": -0.291,
+    "mu_CI95": [
+      -0.4628,
+      -0.1192
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "tier_label_system": "TEL-5",
+  "created": "2025-10-27T01:51:32.540002+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/infl-inf07-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/infl-inf07-01",
+      "studyIds": [
+        "INFL-INF07-01"
+      ],
+      "citation": "INFL-INF07-01 (2020); Journal: inflammation-journal-01; Design: randomized controlled trial; Population: Adults with systemic inflammation concerns; Outcome: systemic_inflammation; DOI: 10.1234/infl-inf07-01; Adverse Events: None reported.",
+      "doi": "10.1234/infl-inf07-01",
+      "sameAs": "https://doi.org/10.1234/infl-inf07-01",
+      "datePublished": "2020",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "inflammation-journal-01"
+      }
+    },
+    {
+      "@id": "doi:10.1234/infl-inf07-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/infl-inf07-02",
+      "studyIds": [
+        "INFL-INF07-02"
+      ],
+      "citation": "INFL-INF07-02 (2011); Journal: inflammation-journal-02; Design: randomized controlled trial; Population: Adults with systemic inflammation concerns; Outcome: systemic_inflammation; DOI: 10.1234/infl-inf07-02; Adverse Events: None reported.",
+      "doi": "10.1234/infl-inf07-02",
+      "sameAs": "https://doi.org/10.1234/infl-inf07-02",
+      "datePublished": "2011",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "inflammation-journal-02"
+      }
+    },
+    {
+      "@id": "doi:10.1234/infl-inf07-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/infl-inf07-03",
+      "studyIds": [
+        "INFL-INF07-03"
+      ],
+      "citation": "INFL-INF07-03 (2016); Journal: inflammation-journal-03; Design: randomized controlled trial; Population: Adults with systemic inflammation concerns; Outcome: systemic_inflammation; DOI: 10.1234/infl-inf07-03; Adverse Events: Transient headache.",
+      "doi": "10.1234/infl-inf07-03",
+      "sameAs": "https://doi.org/10.1234/infl-inf07-03",
+      "datePublished": "2016",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "inflammation-journal-03"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:94015f8cc0ac32ab7b20384acb490dbcb8623a34ecd8d6a5042d0a386f4dce59",
+  "audit_hash": "0x62661e5c5312a59d"
+}

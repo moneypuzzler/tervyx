@@ -36,7 +36,7 @@
     "journal_trust": "2025-10-05"
   },
   "version": "v1",
-  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
   "tier_label_system": "TEL-5",
   "created": "2025-10-24T08:19:09.056896+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:cc283514c7f6ae907142a8d6023ad939ce28c98567514266e9b8801484bda432",
-  "audit_hash": "0xea4a13c63d0898e1"
+  "citations_manifest_hash": "sha256:b036ad7aaeaf2d245634806fb3bf2df8957fd8a9adc220ef4dcf439cee46900e",
+  "audit_hash": "0xdcafc17286f9d7c1"
 }

@@ -1,6 +1,6 @@
 {
   "generated": "2025-10-24T08:19:12.031597+00:00",
-  "policy_fingerprint": "0x9c4caca78ebe0554",
+  "policy_fingerprint": "0xbe3a798944b1c64b",
   "source_evidence": "entries/metabolic/omega-3-met-omega-prediab/metabolic/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/omega-3-met-omega-prediab-03"
     }
   ],
-  "manifest_hash": "sha256:5d7d2427b2130ed210d5b62530e0692c183791b03ab0e46ef6038ecf433ea4dd"
+  "manifest_hash": "sha256:c7effd82988bce3414fb1cdccfbef349adc40dd242dcddf182f08c8cefca0492"
 }

@@ -1,7 +1,8 @@
 entry_id,category,substance,formulation_policy,formulation_detail,primary_indication,priority,evidence_tier,source_hint,status,assignee,final_tier,notes,last_updated,algo_version_pinned,data_freeze_policy,deprecation_policy
-SLP-MAG-CORE,sleep,magnesium,merge,glycinate baseline with sleep maintenance co-factors,sleep_quality,high,P0,PMID: 37611507,in_progress,auto,,"Anchor magnesium glycinate stack for adult insomnia cohorts
+SLP-MAG-CORE,sleep,magnesium,merge,glycinate baseline with sleep maintenance co-factors,sleep_quality,high,P0,PMID: 37611507,completed,automation,Black,"Anchor magnesium glycinate stack for adult insomnia cohorts
 
-Versioned scaffold generated via scaling CLI",2025-10-19T06:32:39Z,,,
+Versioned scaffold generated via scaling CLI
+Stub entry generated on 2025-10-27T01:50:36.313514+00:00",2025-10-27T01:50:36.313524+00:00,,,
 SLP-MEL-ACUTE,sleep,melatonin,split,acute dosing vs sustained release decision gate,sleep_onset,high,P0,doi:10.7326/M20-0741,pending,,,Focus on short latency onset protocols; capture pediatric safety notes,2024-05-01T00:00:00Z,,,
 SLP-ASH-HPA,sleep,ashwagandha,merge,KSM-66 vs Sensoril adaptogen comparison,stress_insomnia,medium,P1,PMID: 31317699,pending,,,Capture cortisol reduction outcomes alongside sleep scores,2024-05-01T00:00:00Z,,,
 SLP-GLY-THERM,sleep,glycine,merge,3g evening dosing with cooling protocol,sleep_latency,medium,P1,PMID: 20110082,pending,,,Track core body temperature change and morning alertness,2024-05-01T00:00:00Z,,,
@@ -120,64 +121,108 @@ META-GLU19,metabolic,omega_3,merge,standardized protocol 19,weight_management,me
 Batch generated on 2025-10-24T08:19:09.214679+00:00",2025-10-24T08:19:09.214717,,,
 META-GLU20,metabolic,curcumin,merge,standardized protocol 20,glucose_control,low,P2,PMID: 371020,completed,automation,Silver,"Document metabolic outcomes for curcumin protocol 20
 Batch generated on 2025-10-24T08:19:09.337914+00:00",2025-10-24T08:19:09.337950,,,
-INFL-INF01,inflammation,curcumin,merge,standardized protocol 1,joint_pain,high,P0,PMID: 451001,pending,,,Track inflammatory biomarkers for curcumin entry 1,2024-05-01T00:00:00Z,,,
-INFL-INF02,inflammation,boswellia,merge,standardized protocol 2,systemic_inflammation,medium,P1,PMID: 451002,pending,,,Track inflammatory biomarkers for boswellia entry 2,2024-05-01T00:00:00Z,,,
-INFL-INF03,inflammation,omega_3,split,standardized protocol 3,recovery,medium,P1,PMID: 451003,pending,,,Track inflammatory biomarkers for omega_3 entry 3,2024-05-01T00:00:00Z,,,
+INFL-INF01,inflammation,curcumin,merge,standardized protocol 1,joint_pain,high,P0,PMID: 451001,completed,automation,Black,"Track inflammatory biomarkers for curcumin entry 1
+Stub entry generated on 2025-10-27T01:51:32.532836+00:00",2025-10-27T01:51:32.532846+00:00,,,
+INFL-INF02,inflammation,boswellia,merge,standardized protocol 2,systemic_inflammation,medium,P1,PMID: 451002,completed,automation,Black,"Track inflammatory biomarkers for boswellia entry 2
+Stub entry generated on 2025-10-27T01:51:32.534569+00:00",2025-10-27T01:51:32.534578+00:00,,,
+INFL-INF03,inflammation,omega_3,split,standardized protocol 3,recovery,medium,P1,PMID: 451003,completed,automation,Black,"Track inflammatory biomarkers for omega_3 entry 3
+Stub entry generated on 2025-10-27T01:51:32.536126+00:00",2025-10-27T01:51:32.536132+00:00,,,
 INFL-INF04,inflammation,ginger,merge,standardized protocol 4,joint_pain,low,P2,PMID: 451004,pending,,,Track inflammatory biomarkers for ginger entry 4,2024-05-01T00:00:00Z,,,
-INFL-INF05,inflammation,quercetin,merge,standardized protocol 5,skin_inflammation,high,P0,PMID: 451005,pending,,,Track inflammatory biomarkers for quercetin entry 5,2024-05-01T00:00:00Z,,,
-INFL-INF06,inflammation,bromelain,split,standardized protocol 6,joint_pain,medium,P1,PMID: 451006,pending,,,Track inflammatory biomarkers for bromelain entry 6,2024-05-01T00:00:00Z,,,
-INFL-INF07,inflammation,green_tea,merge,standardized protocol 7,systemic_inflammation,medium,P1,PMID: 451007,pending,,,Track inflammatory biomarkers for green_tea entry 7,2024-05-01T00:00:00Z,,,
+INFL-INF05,inflammation,quercetin,merge,standardized protocol 5,skin_inflammation,high,P0,PMID: 451005,completed,automation,Black,"Track inflammatory biomarkers for quercetin entry 5
+Stub entry generated on 2025-10-27T01:51:32.537745+00:00",2025-10-27T01:51:32.537754+00:00,,,
+INFL-INF06,inflammation,bromelain,split,standardized protocol 6,joint_pain,medium,P1,PMID: 451006,completed,automation,Black,"Track inflammatory biomarkers for bromelain entry 6
+Stub entry generated on 2025-10-27T01:51:32.539218+00:00",2025-10-27T01:51:32.539226+00:00,,,
+INFL-INF07,inflammation,green_tea,merge,standardized protocol 7,systemic_inflammation,medium,P1,PMID: 451007,completed,automation,Black,"Track inflammatory biomarkers for green_tea entry 7
+Stub entry generated on 2025-10-27T01:51:32.540789+00:00",2025-10-27T01:51:32.540797+00:00,,,
 INFL-INF08,inflammation,resveratrol,merge,standardized protocol 8,recovery,low,P2,PMID: 451008,pending,,,Track inflammatory biomarkers for resveratrol entry 8,2024-05-01T00:00:00Z,,,
-INFL-INF09,inflammation,astaxanthin,split,standardized protocol 9,joint_pain,high,P0,PMID: 451009,pending,,,Track inflammatory biomarkers for astaxanthin entry 9,2024-05-01T00:00:00Z,,,
-INFL-INF10,inflammation,pycnogenol,merge,standardized protocol 10,skin_inflammation,medium,P1,PMID: 451010,pending,,,Track inflammatory biomarkers for pycnogenol entry 10,2024-05-01T00:00:00Z,,,
-INFL-INF11,inflammation,collagen,merge,standardized protocol 11,joint_pain,medium,P1,PMID: 451011,pending,,,Track inflammatory biomarkers for collagen entry 11,2024-05-01T00:00:00Z,,,
+INFL-INF09,inflammation,astaxanthin,split,standardized protocol 9,joint_pain,high,P0,PMID: 451009,completed,automation,Black,"Track inflammatory biomarkers for astaxanthin entry 9
+Stub entry generated on 2025-10-27T01:51:32.542453+00:00",2025-10-27T01:51:32.542461+00:00,,,
+INFL-INF10,inflammation,pycnogenol,merge,standardized protocol 10,skin_inflammation,medium,P1,PMID: 451010,completed,automation,Black,"Track inflammatory biomarkers for pycnogenol entry 10
+Stub entry generated on 2025-10-27T01:51:32.544005+00:00",2025-10-27T01:51:32.544014+00:00,,,
+INFL-INF11,inflammation,collagen,merge,standardized protocol 11,joint_pain,medium,P1,PMID: 451011,completed,automation,Black,"Track inflammatory biomarkers for collagen entry 11
+Stub entry generated on 2025-10-27T01:51:32.545517+00:00",2025-10-27T01:51:32.545526+00:00,,,
 INFL-INF12,inflammation,msm,split,standardized protocol 12,systemic_inflammation,low,P2,PMID: 451012,pending,,,Track inflammatory biomarkers for msm entry 12,2024-05-01T00:00:00Z,,,
-INFL-INF13,inflammation,hyaluronic_acid,merge,standardized protocol 13,recovery,high,P0,PMID: 451013,pending,,,Track inflammatory biomarkers for hyaluronic_acid entry 13,2024-05-01T00:00:00Z,,,
-INFL-INF14,inflammation,sulforaphane,merge,standardized protocol 14,joint_pain,medium,P1,PMID: 451014,pending,,,Track inflammatory biomarkers for sulforaphane entry 14,2024-05-01T00:00:00Z,,,
-INFL-INF15,inflammation,vitamin_c,split,standardized protocol 15,skin_inflammation,medium,P1,PMID: 451015,pending,,,Track inflammatory biomarkers for vitamin_c entry 15,2024-05-01T00:00:00Z,,,
+INFL-INF13,inflammation,hyaluronic_acid,merge,standardized protocol 13,recovery,high,P0,PMID: 451013,completed,automation,Black,"Track inflammatory biomarkers for hyaluronic_acid entry 13
+Stub entry generated on 2025-10-27T01:51:32.547002+00:00",2025-10-27T01:51:32.547009+00:00,,,
+INFL-INF14,inflammation,sulforaphane,merge,standardized protocol 14,joint_pain,medium,P1,PMID: 451014,completed,automation,Black,"Track inflammatory biomarkers for sulforaphane entry 14
+Stub entry generated on 2025-10-27T01:51:32.548496+00:00",2025-10-27T01:51:32.548505+00:00,,,
+INFL-INF15,inflammation,vitamin_c,split,standardized protocol 15,skin_inflammation,medium,P1,PMID: 451015,completed,automation,Black,"Track inflammatory biomarkers for vitamin_c entry 15
+Stub entry generated on 2025-10-27T01:51:32.549981+00:00",2025-10-27T01:51:32.549989+00:00,,,
 INFL-INF16,inflammation,vitamin_e,merge,standardized protocol 16,joint_pain,low,P2,PMID: 451016,pending,,,Track inflammatory biomarkers for vitamin_e entry 16,2024-05-01T00:00:00Z,,,
-INFL-INF17,inflammation,turmeric_oil,merge,standardized protocol 17,systemic_inflammation,high,P0,PMID: 451017,pending,,,Track inflammatory biomarkers for turmeric_oil entry 17,2024-05-01T00:00:00Z,,,
-INFL-INF18,inflammation,evening_primrose,split,standardized protocol 18,recovery,medium,P1,PMID: 451018,pending,,,Track inflammatory biomarkers for evening_primrose entry 18,2024-05-01T00:00:00Z,,,
-INFL-INF19,inflammation,black_currant,merge,standardized protocol 19,joint_pain,medium,P1,PMID: 451019,pending,,,Track inflammatory biomarkers for black_currant entry 19,2024-05-01T00:00:00Z,,,
+INFL-INF17,inflammation,turmeric_oil,merge,standardized protocol 17,systemic_inflammation,high,P0,PMID: 451017,completed,automation,Black,"Track inflammatory biomarkers for turmeric_oil entry 17
+Stub entry generated on 2025-10-27T01:51:32.551320+00:00",2025-10-27T01:51:32.551327+00:00,,,
+INFL-INF18,inflammation,evening_primrose,split,standardized protocol 18,recovery,medium,P1,PMID: 451018,completed,automation,Black,"Track inflammatory biomarkers for evening_primrose entry 18
+Stub entry generated on 2025-10-27T01:51:32.552758+00:00",2025-10-27T01:51:32.552767+00:00,,,
+INFL-INF19,inflammation,black_currant,merge,standardized protocol 19,joint_pain,medium,P1,PMID: 451019,completed,automation,Black,"Track inflammatory biomarkers for black_currant entry 19
+Stub entry generated on 2025-10-27T01:51:32.554389+00:00",2025-10-27T01:51:32.554399+00:00,,,
 INFL-INF20,inflammation,arnica,merge,standardized protocol 20,skin_inflammation,low,P2,PMID: 451020,pending,,,Track inflammatory biomarkers for arnica entry 20,2024-05-01T00:00:00Z,,,
-LONG-LON01,longevity,nicotinamide_riboside,merge,standardized protocol 1,cellular_ageing,high,P0,PMID: 521001,pending,,,Summarize longevity markers for nicotinamide_riboside study 1,2024-05-01T00:00:00Z,,,
-LONG-LON02,longevity,nicotinamide_mononucleotide,merge,standardized protocol 2,mitochondrial_function,medium,P1,PMID: 521002,pending,,,Summarize longevity markers for nicotinamide_mononucleotide study 2,2024-05-01T00:00:00Z,,,
-LONG-LON03,longevity,resveratrol,split,standardized protocol 3,telomere_support,medium,P1,PMID: 521003,pending,,,Summarize longevity markers for resveratrol study 3,2024-05-01T00:00:00Z,,,
+LONG-LON01,longevity,nicotinamide_riboside,merge,standardized protocol 1,cellular_ageing,high,P0,PMID: 521001,completed,automation,Gold,"Summarize longevity markers for nicotinamide_riboside study 1
+Stub entry generated on 2025-10-27T01:51:32.555903+00:00",2025-10-27T01:51:32.555911+00:00,,,
+LONG-LON02,longevity,nicotinamide_mononucleotide,merge,standardized protocol 2,mitochondrial_function,medium,P1,PMID: 521002,completed,automation,Silver,"Summarize longevity markers for nicotinamide_mononucleotide study 2
+Stub entry generated on 2025-10-27T01:51:32.557674+00:00",2025-10-27T01:51:32.557684+00:00,,,
+LONG-LON03,longevity,resveratrol,split,standardized protocol 3,telomere_support,medium,P1,PMID: 521003,completed,automation,Gold,"Summarize longevity markers for resveratrol study 3
+Stub entry generated on 2025-10-27T01:51:32.559122+00:00",2025-10-27T01:51:32.559130+00:00,,,
 LONG-LON04,longevity,pterostilbene,merge,standardized protocol 4,cellular_ageing,low,P2,PMID: 521004,pending,,,Summarize longevity markers for pterostilbene study 4,2024-05-01T00:00:00Z,,,
-LONG-LON05,longevity,fisetin,merge,standardized protocol 5,cellular_ageing,high,P0,PMID: 521005,pending,,,Summarize longevity markers for fisetin study 5,2024-05-01T00:00:00Z,,,
-LONG-LON06,longevity,quercetin,split,standardized protocol 6,mitochondrial_function,medium,P1,PMID: 521006,pending,,,Summarize longevity markers for quercetin study 6,2024-05-01T00:00:00Z,,,
-LONG-LON07,longevity,spermidine,merge,standardized protocol 7,telomere_support,medium,P1,PMID: 521007,pending,,,Summarize longevity markers for spermidine study 7,2024-05-01T00:00:00Z,,,
+LONG-LON05,longevity,fisetin,merge,standardized protocol 5,cellular_ageing,high,P0,PMID: 521005,completed,automation,Gold,"Summarize longevity markers for fisetin study 5
+Stub entry generated on 2025-10-27T01:51:32.560586+00:00",2025-10-27T01:51:32.560596+00:00,,,
+LONG-LON06,longevity,quercetin,split,standardized protocol 6,mitochondrial_function,medium,P1,PMID: 521006,completed,automation,Gold,"Summarize longevity markers for quercetin study 6
+Stub entry generated on 2025-10-27T01:51:32.562091+00:00",2025-10-27T01:51:32.562100+00:00,,,
+LONG-LON07,longevity,spermidine,merge,standardized protocol 7,telomere_support,medium,P1,PMID: 521007,completed,automation,Gold,"Summarize longevity markers for spermidine study 7
+Stub entry generated on 2025-10-27T01:51:32.563564+00:00",2025-10-27T01:51:32.563574+00:00,,,
 LONG-LON08,longevity,taurine,merge,standardized protocol 8,cellular_ageing,low,P2,PMID: 521008,pending,,,Summarize longevity markers for taurine study 8,2024-05-01T00:00:00Z,,,
-LONG-LON09,longevity,melatonin,split,standardized protocol 9,cellular_ageing,high,P0,PMID: 521009,pending,,,Summarize longevity markers for melatonin study 9,2024-05-01T00:00:00Z,,,
-LONG-LON10,longevity,coq10,merge,standardized protocol 10,mitochondrial_function,medium,P1,PMID: 521010,pending,,,Summarize longevity markers for coq10 study 10,2024-05-01T00:00:00Z,,,
-LONG-LON11,longevity,astaxanthin,merge,standardized protocol 11,telomere_support,medium,P1,PMID: 521011,pending,,,Summarize longevity markers for astaxanthin study 11,2024-05-01T00:00:00Z,,,
+LONG-LON09,longevity,melatonin,split,standardized protocol 9,cellular_ageing,high,P0,PMID: 521009,completed,automation,Gold,"Summarize longevity markers for melatonin study 9
+Stub entry generated on 2025-10-27T01:51:32.564983+00:00",2025-10-27T01:51:32.564990+00:00,,,
+LONG-LON10,longevity,coq10,merge,standardized protocol 10,mitochondrial_function,medium,P1,PMID: 521010,completed,automation,Silver,"Summarize longevity markers for coq10 study 10
+Stub entry generated on 2025-10-27T01:51:32.566390+00:00",2025-10-27T01:51:32.566398+00:00,,,
+LONG-LON11,longevity,astaxanthin,merge,standardized protocol 11,telomere_support,medium,P1,PMID: 521011,completed,automation,Gold,"Summarize longevity markers for astaxanthin study 11
+Stub entry generated on 2025-10-27T01:51:32.567891+00:00",2025-10-27T01:51:32.567899+00:00,,,
 LONG-LON12,longevity,urolithin_a,split,standardized protocol 12,cellular_ageing,low,P2,PMID: 521012,pending,,,Summarize longevity markers for urolithin_a study 12,2024-05-01T00:00:00Z,,,
-LONG-LON13,longevity,alpha_ketoglutarate,merge,standardized protocol 13,cellular_ageing,high,P0,PMID: 521013,pending,,,Summarize longevity markers for alpha_ketoglutarate study 13,2024-05-01T00:00:00Z,,,
-LONG-LON14,longevity,collagen,merge,standardized protocol 14,mitochondrial_function,medium,P1,PMID: 521014,pending,,,Summarize longevity markers for collagen study 14,2024-05-01T00:00:00Z,,,
-LONG-LON15,longevity,glutathione,split,standardized protocol 15,telomere_support,medium,P1,PMID: 521015,pending,,,Summarize longevity markers for glutathione study 15,2024-05-01T00:00:00Z,,,
+LONG-LON13,longevity,alpha_ketoglutarate,merge,standardized protocol 13,cellular_ageing,high,P0,PMID: 521013,completed,automation,Gold,"Summarize longevity markers for alpha_ketoglutarate study 13
+Stub entry generated on 2025-10-27T01:51:32.569400+00:00",2025-10-27T01:51:32.569408+00:00,,,
+LONG-LON14,longevity,collagen,merge,standardized protocol 14,mitochondrial_function,medium,P1,PMID: 521014,completed,automation,Gold,"Summarize longevity markers for collagen study 14
+Stub entry generated on 2025-10-27T01:51:32.570773+00:00",2025-10-27T01:51:32.570782+00:00,,,
+LONG-LON15,longevity,glutathione,split,standardized protocol 15,telomere_support,medium,P1,PMID: 521015,completed,automation,Gold,"Summarize longevity markers for glutathione study 15
+Stub entry generated on 2025-10-27T01:51:32.572113+00:00",2025-10-27T01:51:32.572120+00:00,,,
 LONG-LON16,longevity,curcumin,merge,standardized protocol 16,cellular_ageing,low,P2,PMID: 521016,pending,,,Summarize longevity markers for curcumin study 16,2024-05-01T00:00:00Z,,,
-LONG-LON17,longevity,berberine,merge,standardized protocol 17,cellular_ageing,high,P0,PMID: 521017,pending,,,Summarize longevity markers for berberine study 17,2024-05-01T00:00:00Z,,,
-LONG-LON18,longevity,metformin_analog,split,standardized protocol 18,mitochondrial_function,medium,P1,PMID: 521018,pending,,,Summarize longevity markers for metformin_analog study 18,2024-05-01T00:00:00Z,,,
-LONG-LON19,longevity,rapamycin_microdose,merge,standardized protocol 19,telomere_support,medium,P1,PMID: 521019,pending,,,Summarize longevity markers for rapamycin_microdose study 19,2024-05-01T00:00:00Z,,,
+LONG-LON17,longevity,berberine,merge,standardized protocol 17,cellular_ageing,high,P0,PMID: 521017,completed,automation,Silver,"Summarize longevity markers for berberine study 17
+Stub entry generated on 2025-10-27T01:51:32.573627+00:00",2025-10-27T01:51:32.573634+00:00,,,
+LONG-LON18,longevity,metformin_analog,split,standardized protocol 18,mitochondrial_function,medium,P1,PMID: 521018,completed,automation,Gold,"Summarize longevity markers for metformin_analog study 18
+Stub entry generated on 2025-10-27T01:51:32.574949+00:00",2025-10-27T01:51:32.574955+00:00,,,
+LONG-LON19,longevity,rapamycin_microdose,merge,standardized protocol 19,telomere_support,medium,P1,PMID: 521019,completed,automation,Silver,"Summarize longevity markers for rapamycin_microdose study 19
+Stub entry generated on 2025-10-27T01:51:32.576566+00:00",2025-10-27T01:51:32.576574+00:00,,,
 LONG-LON20,longevity,omega_3,merge,standardized protocol 20,cellular_ageing,low,P2,PMID: 521020,pending,,,Summarize longevity markers for omega_3 study 20,2024-05-01T00:00:00Z,,,
-MUSC-MSK01,musculoskeletal,collagen,merge,standardized protocol 1,joint_health,high,P0,PMID: 631001,pending,,,Capture musculoskeletal endpoints for collagen program 1,2024-05-01T00:00:00Z,,,
-MUSC-MSK02,musculoskeletal,glucosamine,merge,standardized protocol 2,bone_density,medium,P1,PMID: 631002,pending,,,Capture musculoskeletal endpoints for glucosamine program 2,2024-05-01T00:00:00Z,,,
-MUSC-MSK03,musculoskeletal,chondroitin,split,standardized protocol 3,muscle_recovery,medium,P1,PMID: 631003,pending,,,Capture musculoskeletal endpoints for chondroitin program 3,2024-05-01T00:00:00Z,,,
+MUSC-MSK01,musculoskeletal,collagen,merge,standardized protocol 1,joint_health,high,P0,PMID: 631001,completed,automation,Silver,"Capture musculoskeletal endpoints for collagen program 1
+Stub entry generated on 2025-10-27T01:51:32.578106+00:00",2025-10-27T01:51:32.578116+00:00,,,
+MUSC-MSK02,musculoskeletal,glucosamine,merge,standardized protocol 2,bone_density,medium,P1,PMID: 631002,completed,automation,Silver,"Capture musculoskeletal endpoints for glucosamine program 2
+Stub entry generated on 2025-10-27T01:51:32.579637+00:00",2025-10-27T01:51:32.579644+00:00,,,
+MUSC-MSK03,musculoskeletal,chondroitin,split,standardized protocol 3,muscle_recovery,medium,P1,PMID: 631003,completed,automation,Silver,"Capture musculoskeletal endpoints for chondroitin program 3
+Stub entry generated on 2025-10-27T01:51:32.581267+00:00",2025-10-27T01:51:32.581275+00:00,,,
 MUSC-MSK04,musculoskeletal,msm,merge,standardized protocol 4,strength,low,P2,PMID: 631004,pending,,,Capture musculoskeletal endpoints for msm program 4,2024-05-01T00:00:00Z,,,
-MUSC-MSK05,musculoskeletal,turmeric,merge,standardized protocol 5,joint_health,high,P0,PMID: 631005,pending,,,Capture musculoskeletal endpoints for turmeric program 5,2024-05-01T00:00:00Z,,,
-MUSC-MSK06,musculoskeletal,boswellia,split,standardized protocol 6,bone_density,medium,P1,PMID: 631006,pending,,,Capture musculoskeletal endpoints for boswellia program 6,2024-05-01T00:00:00Z,,,
-MUSC-MSK07,musculoskeletal,hyaluronic_acid,merge,standardized protocol 7,muscle_recovery,medium,P1,PMID: 631007,pending,,,Capture musculoskeletal endpoints for hyaluronic_acid program 7,2024-05-01T00:00:00Z,,,
+MUSC-MSK05,musculoskeletal,turmeric,merge,standardized protocol 5,joint_health,high,P0,PMID: 631005,completed,automation,Red,"Capture musculoskeletal endpoints for turmeric program 5
+Stub entry generated on 2025-10-27T01:51:32.582632+00:00",2025-10-27T01:51:32.582640+00:00,,,
+MUSC-MSK06,musculoskeletal,boswellia,split,standardized protocol 6,bone_density,medium,P1,PMID: 631006,completed,automation,Gold,"Capture musculoskeletal endpoints for boswellia program 6
+Stub entry generated on 2025-10-27T01:51:32.583910+00:00",2025-10-27T01:51:32.583916+00:00,,,
+MUSC-MSK07,musculoskeletal,hyaluronic_acid,merge,standardized protocol 7,muscle_recovery,medium,P1,PMID: 631007,completed,automation,Silver,"Capture musculoskeletal endpoints for hyaluronic_acid program 7
+Stub entry generated on 2025-10-27T01:51:32.585415+00:00",2025-10-27T01:51:32.585423+00:00,,,
 MUSC-MSK08,musculoskeletal,vitamin_d,merge,standardized protocol 8,strength,low,P2,PMID: 631008,pending,,,Capture musculoskeletal endpoints for vitamin_d program 8,2024-05-01T00:00:00Z,,,
-MUSC-MSK09,musculoskeletal,calcium,split,standardized protocol 9,joint_health,high,P0,PMID: 631009,pending,,,Capture musculoskeletal endpoints for calcium program 9,2024-05-01T00:00:00Z,,,
-MUSC-MSK10,musculoskeletal,magnesium,merge,standardized protocol 10,bone_density,medium,P1,PMID: 631010,pending,,,Capture musculoskeletal endpoints for magnesium program 10,2024-05-01T00:00:00Z,,,
-MUSC-MSK11,musculoskeletal,creatine,merge,standardized protocol 11,muscle_recovery,medium,P1,PMID: 631011,pending,,,Capture musculoskeletal endpoints for creatine program 11,2024-05-01T00:00:00Z,,,
+MUSC-MSK09,musculoskeletal,calcium,split,standardized protocol 9,joint_health,high,P0,PMID: 631009,completed,automation,Bronze,"Capture musculoskeletal endpoints for calcium program 9
+Stub entry generated on 2025-10-27T01:51:32.586810+00:00",2025-10-27T01:51:32.586817+00:00,,,
+MUSC-MSK10,musculoskeletal,magnesium,merge,standardized protocol 10,bone_density,medium,P1,PMID: 631010,completed,automation,Gold,"Capture musculoskeletal endpoints for magnesium program 10
+Stub entry generated on 2025-10-27T01:51:32.588094+00:00",2025-10-27T01:51:32.588100+00:00,,,
+MUSC-MSK11,musculoskeletal,creatine,merge,standardized protocol 11,muscle_recovery,medium,P1,PMID: 631011,completed,automation,Gold,"Capture musculoskeletal endpoints for creatine program 11
+Stub entry generated on 2025-10-27T01:51:32.589500+00:00",2025-10-27T01:51:32.589508+00:00,,,
 MUSC-MSK12,musculoskeletal,beta_alanine,split,standardized protocol 12,strength,low,P2,PMID: 631012,pending,,,Capture musculoskeletal endpoints for beta_alanine program 12,2024-05-01T00:00:00Z,,,
-MUSC-MSK13,musculoskeletal,l_carnitine,merge,standardized protocol 13,joint_health,high,P0,PMID: 631013,pending,,,Capture musculoskeletal endpoints for l_carnitine program 13,2024-05-01T00:00:00Z,,,
-MUSC-MSK14,musculoskeletal,citrulline,merge,standardized protocol 14,bone_density,medium,P1,PMID: 631014,pending,,,Capture musculoskeletal endpoints for citrulline program 14,2024-05-01T00:00:00Z,,,
-MUSC-MSK15,musculoskeletal,beetroot,split,standardized protocol 15,muscle_recovery,medium,P1,PMID: 631015,pending,,,Capture musculoskeletal endpoints for beetroot program 15,2024-05-01T00:00:00Z,,,
+MUSC-MSK13,musculoskeletal,l_carnitine,merge,standardized protocol 13,joint_health,high,P0,PMID: 631013,completed,automation,Gold,"Capture musculoskeletal endpoints for l_carnitine program 13
+Stub entry generated on 2025-10-27T01:51:32.590907+00:00",2025-10-27T01:51:32.590915+00:00,,,
+MUSC-MSK14,musculoskeletal,citrulline,merge,standardized protocol 14,bone_density,medium,P1,PMID: 631014,completed,automation,Bronze,"Capture musculoskeletal endpoints for citrulline program 14
+Stub entry generated on 2025-10-27T01:51:32.593093+00:00",2025-10-27T01:51:32.593103+00:00,,,
+MUSC-MSK15,musculoskeletal,beetroot,split,standardized protocol 15,muscle_recovery,medium,P1,PMID: 631015,completed,automation,Silver,"Capture musculoskeletal endpoints for beetroot program 15
+Stub entry generated on 2025-10-27T01:51:32.594684+00:00",2025-10-27T01:51:32.594693+00:00,,,
 MUSC-MSK16,musculoskeletal,omega_3,merge,standardized protocol 16,strength,low,P2,PMID: 631016,pending,,,Capture musculoskeletal endpoints for omega_3 program 16,2024-05-01T00:00:00Z,,,
-MUSC-MSK17,musculoskeletal,whey_protein,merge,standardized protocol 17,joint_health,high,P0,PMID: 631017,pending,,,Capture musculoskeletal endpoints for whey_protein program 17,2024-05-01T00:00:00Z,,,
-MUSC-MSK18,musculoskeletal,casein,split,standardized protocol 18,bone_density,medium,P1,PMID: 631018,pending,,,Capture musculoskeletal endpoints for casein program 18,2024-05-01T00:00:00Z,,,
+MUSC-MSK17,musculoskeletal,whey_protein,merge,standardized protocol 17,joint_health,high,P0,PMID: 631017,completed,automation,Gold,"Capture musculoskeletal endpoints for whey_protein program 17
+Stub entry generated on 2025-10-27T01:51:32.596083+00:00",2025-10-27T01:51:32.596090+00:00,,,
+MUSC-MSK18,musculoskeletal,casein,split,standardized protocol 18,bone_density,medium,P1,PMID: 631018,completed,automation,Gold,"Capture musculoskeletal endpoints for casein program 18
+Stub entry generated on 2025-10-27T01:51:32.597649+00:00",2025-10-27T01:51:32.597658+00:00,,,
 MUSC-MSK19,musculoskeletal,pea_protein,merge,standardized protocol 19,muscle_recovery,medium,P1,PMID: 631019,pending,,,Capture musculoskeletal endpoints for pea_protein program 19,2024-05-01T00:00:00Z,,,
 MUSC-MSK20,musculoskeletal,collagen_peptides,merge,standardized protocol 20,strength,low,P2,PMID: 631020,pending,,,Capture musculoskeletal endpoints for collagen_peptides program 20,2024-05-01T00:00:00Z,,,
 IMM-IMM01,immune,echinacea,merge,standardized protocol 1,upper_respiratory,high,P0,PMID: 711001,completed,automation,Gold,"Document immune outcomes for echinacea cohort 1
@@ -280,10 +325,14 @@ IMM-ELDER-URTI,immune_health,elderberry,merge,anthocyanin standardized syrup,upp
 Batch generated on 2025-10-24T08:19:12.561455+00:00",2025-10-24T08:19:12.561490,,,
 IMM-BCP-IMM,immune_health,black_cumin_seed,merge,thymoquinone rich oil,immune_modulation,medium,P1,PMID: 35295041,completed,automation,Gold,"Align cytokine profiling with clinical outcomes
 Batch generated on 2025-10-24T08:19:12.658006+00:00",2025-10-24T08:19:12.658087,,,
-IMM-BETA-GLUC,immune_health,beta_glucan,merge,yeast derived vs mushroom derived,immune_readiness,medium,P1,PMID: 32589619,pending,,,Include innate immunity assays and vaccine response data,2025-02-18T00:00:00Z,,
-IMM-QUERC-ALLERGY,immune_health,quercetin,merge,liposomal vs standard tablets,allergic_rhinitis,medium,P1,PMID: 33959277,pending,,,Record symptom diaries with pollen count overlays,2025-02-18T00:00:00Z,,
-IMM-LACT-ECZ,immune_health,lactobacillus_rhamnosus,split,prenatal vs postnatal supplementation,atopic_dermatitis,medium,P1,PMID: 33792759,pending,,,Segment familial allergy history cohorts,2025-02-18T00:00:00Z,,
-IMM-VITD-IMMUNE,immune_health,vitamin_d,merge,bolus vs daily maintenance dosing,immune_resilience,high,P0,PMID: 36192144,pending,,,Integrate respiratory infection severity scores,2025-02-18T00:00:00Z,,
+IMM-BETA-GLUC,immune_health,beta_glucan,merge,yeast derived vs mushroom derived,immune_readiness,medium,P1,PMID: 32589619,completed,automation,Silver,"Include innate immunity assays and vaccine response data
+Stub entry generated on 2025-10-27T01:50:36.319480+00:00",2025-10-27T01:50:36.319490+00:00,,,
+IMM-QUERC-ALLERGY,immune_health,quercetin,merge,liposomal vs standard tablets,allergic_rhinitis,medium,P1,PMID: 33959277,completed,automation,Bronze,"Record symptom diaries with pollen count overlays
+Stub entry generated on 2025-10-27T01:50:36.321166+00:00",2025-10-27T01:50:36.321175+00:00,,,
+IMM-LACT-ECZ,immune_health,lactobacillus_rhamnosus,split,prenatal vs postnatal supplementation,atopic_dermatitis,medium,P1,PMID: 33792759,completed,automation,Silver,"Segment familial allergy history cohorts
+Stub entry generated on 2025-10-27T01:50:36.323031+00:00",2025-10-27T01:50:36.323043+00:00,,,
+IMM-VITD-IMMUNE,immune_health,vitamin_d,merge,bolus vs daily maintenance dosing,immune_resilience,high,P0,PMID: 36192144,completed,automation,Silver,"Integrate respiratory infection severity scores
+Stub entry generated on 2025-10-27T01:50:36.324896+00:00",2025-10-27T01:50:36.324909+00:00,,,
 GUT-PROBIO-SCFAs,gut_health,probiotic_blend,merge,multi strain scfa production optimization,short_chain_fatty_acids,medium,P1,PMID: 35824610,pending,,,Pair metabolomics with symptom relief indices,2025-02-19T00:00:00Z,,,
 GUT-PREBIO-BLOAT,gut_health,prebiotic_fiber,split,phgg vs partially hydrolyzed guar gum,bloating_relief,medium,P1,PMID: 33759192,pending,,,Track fermentation tolerance windows,2025-02-19T00:00:00Z,,,
 GUT-BCO-IBS,gut_health,butyrate_complex,merge,tributyrin capsule vs sodium butyrate,ibs_management,medium,P1,PMID: 36577645,pending,,,Integrate stool inflammatory markers and qoli,2025-02-19T00:00:00Z,,,
