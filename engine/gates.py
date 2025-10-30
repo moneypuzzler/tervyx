@@ -493,14 +493,25 @@ def evaluate_gate_governance_protocol(evidence_rows: List[Dict[str, Any]],
     
     # Apply monotonic masking to J* score
     j_score_masked = apply_monotonic_masking(j_score, phi_violation, k_violation)
-    
+
+    # Enforce J-gate threshold on masked score (safety-first)
+    j_enforce_threshold = gates_config.get("j", {}).get("enforce_threshold", True)
+    if j_enforce_threshold and j_score_masked < j_threshold:
+        # Override j_result to FAIL if masked score below threshold
+        j_result = "FAIL"
+        logger.warning(f"J-gate threshold enforcement: j_score_masked={j_score_masked:.3f} < threshold={j_threshold}")
+
     # Gate L: Exaggeration language
     l_result, l_violation, l_pattern = check_l_gate(claim_text)
-    
+
     # Determine overall gate sequence result
-    gate_sequence_pass = (phi_result == "PASS" and 
-                         k_result == "PASS" and 
-                         j_result == "PASS")
+    # Must pass all hard gates: Phi, K, and J (with threshold enforcement)
+    gate_sequence_pass = (
+        phi_result == "PASS" and
+        k_result == "PASS" and
+        j_result == "PASS" and
+        (not j_enforce_threshold or j_score_masked >= j_threshold)
+    )
     
     return {
         "phi": {
