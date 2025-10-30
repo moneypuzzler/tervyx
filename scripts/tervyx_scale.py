@@ -14,10 +14,10 @@ from pathlib import Path
 from datetime import datetime
 from typing import Dict, Iterable, List, Optional, Tuple
 
-
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
+# Bootstrap: Add project root to sys.path to enable tervyx imports
+_bootstrap_root = Path(__file__).resolve().parents[1]
+if str(_bootstrap_root) not in sys.path:
+    sys.path.insert(0, str(_bootstrap_root))
 
 from tervyx.core import ensure_paths_on_sys_path, settings
 from tervyx.policy import PolicyError, read_policy

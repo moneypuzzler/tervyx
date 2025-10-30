@@ -18,6 +18,13 @@ import re
 from urllib.parse import quote_plus, urlencode
 import hashlib
 
+# Module-level logging configuration
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
+
 @dataclass
 class StudyRecord:
     """Individual study record from collection pipeline"""
@@ -61,11 +68,8 @@ class CollectionPipeline:
         }
         
         self.last_request_time = {}
-        
-        # Initialize logging
-        logging.basicConfig(level=logging.INFO)
-        self.logger = logging.getLogger(__name__)
-        
+        self.logger = logger
+
         # Email for API requests (required by some APIs)
         self.email = "research@tervyx-protocol.org"
     
@@ -94,7 +98,7 @@ class CollectionPipeline:
                 all_studies.extend(studies)
                 self.logger.info(f"Collected {len(studies)} studies from {database}")
                 
-            except Exception as e:
+            except (requests.RequestException, ValueError, KeyError) as e:
                 self.logger.error(f"Error collecting from {database}: {e}")
                 continue
         
@@ -138,11 +142,11 @@ class CollectionPipeline:
                         if len(studies) >= max_results:
                             break
                             
-                except Exception as e:
+                except (KeyError, ValueError, TypeError) as e:
                     self.logger.warning(f"Error parsing OpenAlex work: {e}")
                     continue
-        
-        except Exception as e:
+
+        except (requests.RequestException, json.JSONDecodeError) as e:
             self.logger.error(f"OpenAlex API error: {e}")
         
         return studies
@@ -161,7 +165,7 @@ class CollectionPipeline:
             # Step 2: Fetch detailed records
             studies = self._fetch_pubmed_details(pmids)
             
-        except Exception as e:
+        except (requests.RequestException, ValueError, KeyError) as e:
             self.logger.error(f"PubMed collection error: {e}")
         
         return studies
@@ -229,11 +233,11 @@ class CollectionPipeline:
                         study = self._parse_pubmed_article(article)
                         if study:
                             studies.append(study)
-                    except Exception as e:
+                    except (KeyError, ValueError, AttributeError) as e:
                         self.logger.warning(f"Error parsing PubMed article: {e}")
                         continue
-            
-            except Exception as e:
+
+            except (requests.RequestException, ET.ParseError) as e:
                 self.logger.error(f"Error fetching PubMed batch: {e}")
                 continue
         
@@ -270,11 +274,11 @@ class CollectionPipeline:
                         if len(studies) >= max_results:
                             break
                             
-                except Exception as e:
+                except (KeyError, ValueError, TypeError, IndexError) as e:
                     self.logger.warning(f"Error parsing Crossref work: {e}")
                     continue
-        
-        except Exception as e:
+
+        except (requests.RequestException, json.JSONDecodeError) as e:
             self.logger.error(f"Crossref API error: {e}")
         
         return studies
@@ -345,7 +349,7 @@ class CollectionPipeline:
                 raw_metadata=work
             )
             
-        except Exception as e:
+        except (KeyError, ValueError, TypeError, AttributeError) as e:
             self.logger.warning(f"Error parsing OpenAlex work: {e}")
             return None
     
@@ -428,7 +432,7 @@ class CollectionPipeline:
                 raw_metadata={}  # Could store raw XML if needed
             )
             
-        except Exception as e:
+        except (KeyError, ValueError, AttributeError) as e:
             self.logger.warning(f"Error parsing PubMed article: {e}")
             return None
     
@@ -505,7 +509,7 @@ class CollectionPipeline:
                 raw_metadata=work
             )
             
-        except Exception as e:
+        except (KeyError, ValueError, TypeError, IndexError) as e:
             self.logger.warning(f"Error parsing Crossref work: {e}")
             return None
     

@@ -15,6 +15,13 @@ import pickle
 from dataclasses import dataclass
 import warnings
 
+# Module-level logging configuration
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
+
 # Try to import transformer libraries (with fallbacks)
 try:
     from sentence_transformers import SentenceTransformer
@@ -53,11 +60,8 @@ class RelevanceScorer:
         
         self.cache_embeddings = cache_embeddings
         self.embeddings_cache = {}
-        
-        # Initialize logging
-        logging.basicConfig(level=logging.INFO)
-        self.logger = logging.getLogger(__name__)
-        
+        self.logger = logger
+
         # Load or initialize models
         self._initialize_models()
         

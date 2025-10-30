@@ -12,6 +12,13 @@ import requests
 import json
 import logging
 
+# Module-level logging configuration
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
+
 class JournalRegistry:
     """Upper-layer journal registry with automated scorecard generation"""
     
@@ -23,10 +30,7 @@ class JournalRegistry:
         
         # Create registry directory if it doesn't exist
         self.registry_path.mkdir(exist_ok=True)
-        
-        # Initialize logging
-        logging.basicConfig(level=logging.INFO)
-        self.logger = logging.getLogger(__name__)
+        self.logger = logger
         
     def load_scorecards(self) -> pd.DataFrame:
         """Load journal scorecards from Parquet file"""
@@ -92,7 +96,7 @@ class JournalRegistry:
             predatory_flag = self._check_predatory_lists(issn, metrics.get('journal_name', ''))
             metrics['predatory_flag'] = predatory_flag
             
-        except Exception as e:
+        except (requests.RequestException, KeyError, ValueError) as e:
             self.logger.warning(f"Error fetching metrics for ISSN {issn}: {e}")
         
         return metrics
@@ -114,7 +118,7 @@ class JournalRegistry:
                     'sjr_score': self._extract_sjr_score(data),
                     'category': self._extract_primary_category(data)
                 }
-        except Exception as e:
+        except (requests.RequestException, json.JSONDecodeError, KeyError) as e:
             self.logger.warning(f"OpenAlex API error for {issn}: {e}")
         
         return None
@@ -161,7 +165,7 @@ class JournalRegistry:
             if response.status_code == 200:
                 data = response.json()
                 return data.get('total', 0) > 0
-        except Exception as e:
+        except (requests.RequestException, json.JSONDecodeError) as e:
             self.logger.warning(f"DOAJ API error for {issn}: {e}")
         
         return False
@@ -259,7 +263,7 @@ class JournalRegistry:
                     metrics = self.fetch_journal_metrics(issn)
                     metrics['last_updated'] = datetime.now().isoformat()
                     new_records.append(metrics)
-                except Exception as e:
+                except (requests.RequestException, KeyError, ValueError) as e:
                     self.logger.error(f"Error processing {issn}: {e}")
         
         if new_records:
@@ -340,7 +344,7 @@ class JournalRegistry:
                 with open(self.metadata_file, 'r') as f:
                     metadata = json.load(f)
                 return metadata.get('last_updated')
-            except Exception:
+            except (IOError, json.JSONDecodeError, KeyError):
                 pass
         return None
 

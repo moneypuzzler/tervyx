@@ -89,9 +89,29 @@ jobs:
       run: |
         python scripts/tervyx.py status
 
-    - name: Run unit tests
+    - name: Run unit tests with coverage
       run: |
-        python -m unittest discover -s tests -p 'test_*.py'
+        pip install pytest pytest-cov
+        pytest tests/ --cov=engine --cov=scripts --cov=tools --cov-report=term --cov-report=xml --cov-report=html -v
+
+    - name: Display coverage summary
+      if: always()
+      run: |
+        if [ -f "coverage.xml" ]; then
+          echo "Coverage report generated successfully"
+          # Display a summary
+          pip install coverage
+          coverage report --skip-empty
+        fi
+
+    - name: Upload coverage reports
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: coverage-report-python${{ matrix.python-version }}
+        path: |
+          coverage.xml
+          htmlcov/
         
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
