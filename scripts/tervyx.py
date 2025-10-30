@@ -26,10 +26,10 @@ import sys
 from datetime import datetime, timezone
 from typing import Any, Dict, Iterable, List, Optional
 
-
-PROJECT_ROOT = pathlib.Path(__file__).resolve().parents[1]
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
+# Bootstrap: Add project root to sys.path to enable tervyx imports
+_bootstrap_root = pathlib.Path(__file__).resolve().parents[1]
+if str(_bootstrap_root) not in sys.path:
+    sys.path.insert(0, str(_bootstrap_root))
 
 from tervyx.core import ensure_paths_on_sys_path, settings
 from tervyx.policy import (
@@ -138,12 +138,27 @@ def load_evidence_csv(path: pathlib.Path) -> List[Dict[str, Any]]:
 
 
 def parse_entry_path(path_str: str) -> pathlib.Path:
+    """Parse and validate entry path, preventing directory traversal attacks."""
     path = pathlib.Path(path_str)
     if not path.is_absolute():
         path = ROOT / path
-    if not path.exists():
-        raise FileNotFoundError(f"Entry directory not found: {path}")
-    return path
+
+    # Resolve to canonical path to eliminate .. and symlinks
+    try:
+        resolved = path.resolve(strict=True)
+    except (OSError, RuntimeError) as exc:
+        raise FileNotFoundError(f"Entry directory not found: {path}") from exc
+
+    # Ensure resolved path is within entries directory
+    entries_dir = ROOT / "entries"
+    try:
+        resolved.relative_to(entries_dir)
+    except ValueError as exc:
+        raise ValueError(
+            f"Entry path must be within entries directory: {resolved}"
+        ) from exc
+
+    return resolved
 
 
 def resolve_entry_metadata(entry_dir: pathlib.Path) -> Dict[str, str]:
@@ -406,7 +421,7 @@ def cmd_status(_: argparse.Namespace) -> None:
             entry = json.loads(path.read_text(encoding="utf-8"))
             tier = entry.get("tier", "Unknown")
             tier_counts[tier] = tier_counts.get(tier, 0) + 1
-        except Exception:
+        except (IOError, json.JSONDecodeError, KeyError):
             continue
 
     if tier_counts:
@@ -481,7 +496,7 @@ def main(argv: Optional[Iterable[str]] = None) -> None:
     except KeyboardInterrupt:  # pragma: no cover - CLI UX
         print("\nInterrupted by user", file=sys.stderr)
         sys.exit(1)
-    except Exception as exc:
+    except (ValueError, FileNotFoundError, PolicyError) as exc:
         print(f"❌ Error: {exc}", file=sys.stderr)
         sys.exit(1)
 

@@ -140,8 +140,9 @@ gates:
     name: "J - Journal Trust Oracle"
     order: 3
     type: "probabilistic"
-    use_snapshot: "protocol/journal_trust/snapshot-2025-10-05.json"
+    use_snapshot: "protocol/journal_trust/snapshot-2025-10-30.json"
     threshold: 0.25
+    enforce_threshold: true  # J < threshold forces Black/FAIL
     blacklist_nulls: true   # retraction/predatory/hijacked → J-BLACK = 0
     weights:
       if_z: 0.35      # JCR percentile
