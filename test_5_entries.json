@@ -1,0 +1,62 @@
+[
+  {
+    "entry_id": "SLP-THN-ALPHA",
+    "category": "sleep",
+    "substance": "l_theanine",
+    "formulation_policy": "merge",
+    "formulation_detail": "evening alpha-wave modulation",
+    "primary_indication": "sleep_quality",
+    "priority": "medium",
+    "evidence_tier": "P1",
+    "source_hint": "PMID: 32239622",
+    "status": "pending"
+  },
+  {
+    "entry_id": "MENT-OMEGA-MOOD",
+    "category": "mental_health",
+    "substance": "omega_3",
+    "formulation_policy": "merge",
+    "formulation_detail": "EPA dominant formulations for mood",
+    "primary_indication": "depression",
+    "priority": "high",
+    "evidence_tier": "P0",
+    "source_hint": "doi:10.1001/jama.2018.8047",
+    "status": "pending"
+  },
+  {
+    "entry_id": "COG-LION-NEURO",
+    "category": "cognition",
+    "substance": "lions_mane",
+    "formulation_policy": "merge",
+    "formulation_detail": "hericenone vs erinacine",
+    "primary_indication": "cognitive_decline",
+    "priority": "high",
+    "evidence_tier": "P0",
+    "source_hint": "PMID: 24266378",
+    "status": "pending"
+  },
+  {
+    "entry_id": "CARD-OMEGA-CARD",
+    "category": "cardiovascular",
+    "substance": "omega_3",
+    "formulation_policy": "split",
+    "formulation_detail": "EPA vs EPA+DHA cardiovascular",
+    "primary_indication": "triglycerides",
+    "priority": "high",
+    "evidence_tier": "P0",
+    "source_hint": "PMID: 31475798",
+    "status": "pending"
+  },
+  {
+    "entry_id": "IMM-IMM03",
+    "category": "immune",
+    "substance": "vitamin_c",
+    "formulation_policy": "split",
+    "formulation_detail": "standardized protocol 3",
+    "primary_indication": "antiviral_support",
+    "priority": "medium",
+    "evidence_tier": "P1",
+    "source_hint": "PMID: 711003",
+    "status": "pending"
+  }
+]
