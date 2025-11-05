@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-COG-BAC-MEM_01,2009,randomized controlled trial,SMD,0.3496,0.2137,0.4855,74,53,some concerns,10.1234/cog-bac-mem-01,cognition_journal,memory,Adults with memory concerns,Mild GI discomfort,7
-COG-BAC-MEM_02,2010,randomized controlled trial,SMD,0.3490,0.2067,0.4914,78,56,mixed,10.1234/cog-bac-mem-02,cognition_journal,memory,Adults with memory concerns,Transient headache,8
-COG-BAC-MEM_03,2011,randomized controlled trial,SMD,0.3976,0.2716,0.5236,82,59,low,10.1234/cog-bac-mem-03,cognition_journal,memory,Adults with memory concerns,None reported,9
+COG-BAC-MEM_01,2009,randomized controlled trial,SMD,0.3496,0.2137,0.4855,74,53,some concerns,10.1016/j.jep.2013.11.008,cognition_journal,memory,Adults with memory concerns,Mild GI discomfort,7
+COG-BAC-MEM_02,2010,randomized controlled trial,SMD,0.3490,0.2067,0.4914,78,56,mixed,10.2174/1874467210801030030,cognition_journal,memory,Adults with memory concerns,Transient headache,8
+COG-BAC-MEM_03,2011,randomized controlled trial,SMD,0.3976,0.2716,0.5236,82,59,low,10.1016/j.phymed.2015.12.002,cognition_journal,memory,Adults with memory concerns,None reported,9

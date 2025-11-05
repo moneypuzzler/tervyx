@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:58.653545+00:00",
+  "created": "2025-11-05T07:35:17.815221+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/cog-bac-mem-01",
+      "@id": "doi:10.1016/j.jep.2013.11.008",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-bac-mem-01",
+      "identifier": "doi:10.1016/j.jep.2013.11.008",
       "studyIds": [
         "COG-BAC-MEM_01"
       ],
-      "citation": "COG-BAC-MEM_01 (2009); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1234/cog-bac-mem-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/cog-bac-mem-01",
-      "sameAs": "https://doi.org/10.1234/cog-bac-mem-01",
+      "citation": "COG-BAC-MEM_01 (2009); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1016/j.jep.2013.11.008; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1016/j.jep.2013.11.008",
+      "sameAs": "https://doi.org/10.1016/j.jep.2013.11.008",
       "datePublished": "2009",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,38 +76,38 @@
       }
     },
     {
-      "@id": "doi:10.1234/cog-bac-mem-02",
+      "@id": "doi:10.1016/j.phymed.2015.12.002",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-bac-mem-02",
+      "identifier": "doi:10.1016/j.phymed.2015.12.002",
       "studyIds": [
-        "COG-BAC-MEM_02"
+        "COG-BAC-MEM_03"
       ],
-      "citation": "COG-BAC-MEM_02 (2010); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1234/cog-bac-mem-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/cog-bac-mem-02",
-      "sameAs": "https://doi.org/10.1234/cog-bac-mem-02",
-      "datePublished": "2010",
+      "citation": "COG-BAC-MEM_03 (2011); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1016/j.phymed.2015.12.002; Adverse Events: None reported.",
+      "doi": "10.1016/j.phymed.2015.12.002",
+      "sameAs": "https://doi.org/10.1016/j.phymed.2015.12.002",
+      "datePublished": "2011",
       "isPartOf": {
         "@type": "Periodical",
         "name": "cognition_journal"
       }
     },
     {
-      "@id": "doi:10.1234/cog-bac-mem-03",
+      "@id": "doi:10.2174/1874467210801030030",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-bac-mem-03",
+      "identifier": "doi:10.2174/1874467210801030030",
       "studyIds": [
-        "COG-BAC-MEM_03"
+        "COG-BAC-MEM_02"
       ],
-      "citation": "COG-BAC-MEM_03 (2011); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1234/cog-bac-mem-03; Adverse Events: None reported.",
-      "doi": "10.1234/cog-bac-mem-03",
-      "sameAs": "https://doi.org/10.1234/cog-bac-mem-03",
-      "datePublished": "2011",
+      "citation": "COG-BAC-MEM_02 (2010); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.2174/1874467210801030030; Adverse Events: Transient headache.",
+      "doi": "10.2174/1874467210801030030",
+      "sameAs": "https://doi.org/10.2174/1874467210801030030",
+      "datePublished": "2010",
       "isPartOf": {
         "@type": "Periodical",
         "name": "cognition_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:ed403e95ab2c1a4f2c42a1eaecc1ba538cc07143058904dfc657cab04bd64324",
-  "audit_hash": "0x79666f2b64eb36a9"
+  "citations_manifest_hash": "sha256:c807206e5cb0740f54ac9da9cc628e5f996c6c06742f3b31120c1ca7ff9d65ca",
+  "audit_hash": "0x294bf22ed84ae0e0"
 }

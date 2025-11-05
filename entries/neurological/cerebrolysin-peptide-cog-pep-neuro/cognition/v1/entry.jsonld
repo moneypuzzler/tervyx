@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:59.826674+00:00",
+  "created": "2025-11-05T07:35:27.878342+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,31 +60,31 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/cog-pep-neuro-01",
+      "@id": "doi:10.1159/000091790",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-pep-neuro-01",
+      "identifier": "doi:10.1159/000091790",
       "studyIds": [
-        "COG-PEP-NEURO_01"
+        "COG-PEP-NEURO_03"
       ],
-      "citation": "COG-PEP-NEURO_01 (2007); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1234/cog-pep-neuro-01; Adverse Events: Transient headache.",
-      "doi": "10.1234/cog-pep-neuro-01",
-      "sameAs": "https://doi.org/10.1234/cog-pep-neuro-01",
-      "datePublished": "2007",
+      "citation": "COG-PEP-NEURO_03 (2009); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1159/000091790; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1159/000091790",
+      "sameAs": "https://doi.org/10.1159/000091790",
+      "datePublished": "2009",
       "isPartOf": {
         "@type": "Periodical",
         "name": "cognition_journal"
       }
     },
     {
-      "@id": "doi:10.1234/cog-pep-neuro-02",
+      "@id": "doi:10.1159/000200588",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-pep-neuro-02",
+      "identifier": "doi:10.1159/000200588",
       "studyIds": [
         "COG-PEP-NEURO_02"
       ],
-      "citation": "COG-PEP-NEURO_02 (2008); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1234/cog-pep-neuro-02; Adverse Events: None reported.",
-      "doi": "10.1234/cog-pep-neuro-02",
-      "sameAs": "https://doi.org/10.1234/cog-pep-neuro-02",
+      "citation": "COG-PEP-NEURO_02 (2008); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1159/000200588; Adverse Events: None reported.",
+      "doi": "10.1159/000200588",
+      "sameAs": "https://doi.org/10.1159/000200588",
       "datePublished": "2008",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,22 +92,22 @@
       }
     },
     {
-      "@id": "doi:10.1234/cog-pep-neuro-03",
+      "@id": "doi:10.1159/000377672",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-pep-neuro-03",
+      "identifier": "doi:10.1159/000377672",
       "studyIds": [
-        "COG-PEP-NEURO_03"
+        "COG-PEP-NEURO_01"
       ],
-      "citation": "COG-PEP-NEURO_03 (2009); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1234/cog-pep-neuro-03; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/cog-pep-neuro-03",
-      "sameAs": "https://doi.org/10.1234/cog-pep-neuro-03",
-      "datePublished": "2009",
+      "citation": "COG-PEP-NEURO_01 (2007); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1159/000377672; Adverse Events: Transient headache.",
+      "doi": "10.1159/000377672",
+      "sameAs": "https://doi.org/10.1159/000377672",
+      "datePublished": "2007",
       "isPartOf": {
         "@type": "Periodical",
         "name": "cognition_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:b0cdea42fac582296f89c22955fb64c4989d16a3936f66dc5b99e935f5da9bb2",
-  "audit_hash": "0x1d8d358e700df22a"
+  "citations_manifest_hash": "sha256:8c552cbd0035f2d8e967b9632eff5dfdcd8295376b75f8ef87cd79fec89b64f7",
+  "audit_hash": "0xe958c2b44fb0d699"
 }

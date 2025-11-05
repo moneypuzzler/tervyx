@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:50:58.653421+00:00",
+  "generated": "2025-11-05T07:35:17.815102+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/bacopa-cog-bac-mem/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -12,9 +12,9 @@
       "outcome": "memory",
       "population": "Adults with memory concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/cog-bac-mem-01",
-      "url": "https://doi.org/10.1234/cog-bac-mem-01",
-      "citation": "COG-BAC-MEM_01 (2009); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1234/cog-bac-mem-01; Adverse Events: Mild GI discomfort."
+      "doi": "10.1016/j.jep.2013.11.008",
+      "url": "https://doi.org/10.1016/j.jep.2013.11.008",
+      "citation": "COG-BAC-MEM_01 (2009); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1016/j.jep.2013.11.008; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "COG-BAC-MEM_02",
@@ -24,9 +24,9 @@
       "outcome": "memory",
       "population": "Adults with memory concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/cog-bac-mem-02",
-      "url": "https://doi.org/10.1234/cog-bac-mem-02",
-      "citation": "COG-BAC-MEM_02 (2010); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1234/cog-bac-mem-02; Adverse Events: Transient headache."
+      "doi": "10.2174/1874467210801030030",
+      "url": "https://doi.org/10.2174/1874467210801030030",
+      "citation": "COG-BAC-MEM_02 (2010); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.2174/1874467210801030030; Adverse Events: Transient headache."
     },
     {
       "study_id": "COG-BAC-MEM_03",
@@ -36,39 +36,39 @@
       "outcome": "memory",
       "population": "Adults with memory concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/cog-bac-mem-03",
-      "url": "https://doi.org/10.1234/cog-bac-mem-03",
-      "citation": "COG-BAC-MEM_03 (2011); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1234/cog-bac-mem-03; Adverse Events: None reported."
+      "doi": "10.1016/j.phymed.2015.12.002",
+      "url": "https://doi.org/10.1016/j.phymed.2015.12.002",
+      "citation": "COG-BAC-MEM_03 (2011); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1016/j.phymed.2015.12.002; Adverse Events: None reported."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/cog-bac-mem-01",
+      "identifier": "10.1016/j.jep.2013.11.008",
       "study_ids": [
         "COG-BAC-MEM_01"
       ],
       "primary_study_id": "COG-BAC-MEM_01",
-      "url": "https://doi.org/10.1234/cog-bac-mem-01"
+      "url": "https://doi.org/10.1016/j.jep.2013.11.008"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/cog-bac-mem-02",
-      "study_ids": [
-        "COG-BAC-MEM_02"
-      ],
-      "primary_study_id": "COG-BAC-MEM_02",
-      "url": "https://doi.org/10.1234/cog-bac-mem-02"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/cog-bac-mem-03",
+      "identifier": "10.1016/j.phymed.2015.12.002",
       "study_ids": [
         "COG-BAC-MEM_03"
       ],
       "primary_study_id": "COG-BAC-MEM_03",
-      "url": "https://doi.org/10.1234/cog-bac-mem-03"
+      "url": "https://doi.org/10.1016/j.phymed.2015.12.002"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.2174/1874467210801030030",
+      "study_ids": [
+        "COG-BAC-MEM_02"
+      ],
+      "primary_study_id": "COG-BAC-MEM_02",
+      "url": "https://doi.org/10.2174/1874467210801030030"
     }
   ],
-  "manifest_hash": "sha256:ed403e95ab2c1a4f2c42a1eaecc1ba538cc07143058904dfc657cab04bd64324"
+  "manifest_hash": "sha256:c807206e5cb0740f54ac9da9cc628e5f996c6c06742f3b31120c1ca7ff9d65ca"
 }

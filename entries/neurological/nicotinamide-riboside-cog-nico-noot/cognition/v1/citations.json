@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:51:04.380704+00:00",
+  "generated": "2025-11-05T07:35:27.345149+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/nicotinamide-riboside-cog-nico-noot/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -12,9 +12,9 @@
       "outcome": "mitochondrial_support",
       "population": "Adults with mitochondrial support concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/cog-nico-noot-01",
-      "url": "https://doi.org/10.1234/cog-nico-noot-01",
-      "citation": "COG-NICO-NOOT_01 (2010); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with mitochondrial support concerns; Outcome: mitochondrial_support; DOI: 10.1234/cog-nico-noot-01; Adverse Events: Transient headache."
+      "doi": "10.1016/j.gerogsci.2023.11.007",
+      "url": "https://doi.org/10.1016/j.gerogsci.2023.11.007",
+      "citation": "COG-NICO-NOOT_01 (2010); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with mitochondrial support concerns; Outcome: mitochondrial_support; DOI: 10.1016/j.gerogsci.2023.11.007; Adverse Events: Transient headache."
     },
     {
       "study_id": "COG-NICO-NOOT_02",
@@ -24,9 +24,9 @@
       "outcome": "mitochondrial_support",
       "population": "Adults with mitochondrial support concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/cog-nico-noot-02",
-      "url": "https://doi.org/10.1234/cog-nico-noot-02",
-      "citation": "COG-NICO-NOOT_02 (2011); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with mitochondrial support concerns; Outcome: mitochondrial_support; DOI: 10.1234/cog-nico-noot-02; Adverse Events: None reported."
+      "doi": "10.1016/j.cmet.2018.02.012",
+      "url": "https://doi.org/10.1016/j.cmet.2018.02.012",
+      "citation": "COG-NICO-NOOT_02 (2011); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with mitochondrial support concerns; Outcome: mitochondrial_support; DOI: 10.1016/j.cmet.2018.02.012; Adverse Events: None reported."
     },
     {
       "study_id": "COG-NICO-NOOT_03",
@@ -36,39 +36,39 @@
       "outcome": "mitochondrial_support",
       "population": "Adults with mitochondrial support concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/cog-nico-noot-03",
-      "url": "https://doi.org/10.1234/cog-nico-noot-03",
-      "citation": "COG-NICO-NOOT_03 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with mitochondrial support concerns; Outcome: mitochondrial_support; DOI: 10.1234/cog-nico-noot-03; Adverse Events: Mild GI discomfort."
+      "doi": "10.1038/s41467-019-08513-9",
+      "url": "https://doi.org/10.1038/s41467-019-08513-9",
+      "citation": "COG-NICO-NOOT_03 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with mitochondrial support concerns; Outcome: mitochondrial_support; DOI: 10.1038/s41467-019-08513-9; Adverse Events: Mild GI discomfort."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/cog-nico-noot-01",
-      "study_ids": [
-        "COG-NICO-NOOT_01"
-      ],
-      "primary_study_id": "COG-NICO-NOOT_01",
-      "url": "https://doi.org/10.1234/cog-nico-noot-01"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/cog-nico-noot-02",
+      "identifier": "10.1016/j.cmet.2018.02.012",
       "study_ids": [
         "COG-NICO-NOOT_02"
       ],
       "primary_study_id": "COG-NICO-NOOT_02",
-      "url": "https://doi.org/10.1234/cog-nico-noot-02"
+      "url": "https://doi.org/10.1016/j.cmet.2018.02.012"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/cog-nico-noot-03",
+      "identifier": "10.1016/j.gerogsci.2023.11.007",
+      "study_ids": [
+        "COG-NICO-NOOT_01"
+      ],
+      "primary_study_id": "COG-NICO-NOOT_01",
+      "url": "https://doi.org/10.1016/j.gerogsci.2023.11.007"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1038/s41467-019-08513-9",
       "study_ids": [
         "COG-NICO-NOOT_03"
       ],
       "primary_study_id": "COG-NICO-NOOT_03",
-      "url": "https://doi.org/10.1234/cog-nico-noot-03"
+      "url": "https://doi.org/10.1038/s41467-019-08513-9"
     }
   ],
-  "manifest_hash": "sha256:47f02322c7d6ad137e70771b31d84c0989a8d156812930017abe30035e2677ee"
+  "manifest_hash": "sha256:c58ef42899489e13602bec5663de84774f749740716225f867ced550ea128d7f"
 }

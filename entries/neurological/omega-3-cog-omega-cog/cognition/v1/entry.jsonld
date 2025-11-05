@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:05.469598+00:00",
+  "created": "2025-11-05T07:35:22.390147+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,31 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/cog-omega-cog-01",
+      "@id": "doi:10.1016/j.arr.2022.101706",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-omega-cog-01",
+      "identifier": "doi:10.1016/j.arr.2022.101706",
+      "studyIds": [
+        "COG-OMEGA-COG_03"
+      ],
+      "citation": "COG-OMEGA-COG_03 (2007); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1016/j.arr.2022.101706; Adverse Events: Transient headache.",
+      "doi": "10.1016/j.arr.2022.101706",
+      "sameAs": "https://doi.org/10.1016/j.arr.2022.101706",
+      "datePublished": "2007",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cognition_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1038/s41398-019-0515-5",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1038/s41398-019-0515-5",
       "studyIds": [
         "COG-OMEGA-COG_01"
       ],
-      "citation": "COG-OMEGA-COG_01 (2005); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1234/cog-omega-cog-01; Adverse Events: None reported.",
-      "doi": "10.1234/cog-omega-cog-01",
-      "sameAs": "https://doi.org/10.1234/cog-omega-cog-01",
+      "citation": "COG-OMEGA-COG_01 (2005); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1038/s41398-019-0515-5; Adverse Events: None reported.",
+      "doi": "10.1038/s41398-019-0515-5",
+      "sameAs": "https://doi.org/10.1038/s41398-019-0515-5",
       "datePublished": "2005",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,38 +92,22 @@
       }
     },
     {
-      "@id": "doi:10.1234/cog-omega-cog-02",
+      "@id": "doi:10.1186/s12916-024-03296-0",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-omega-cog-02",
+      "identifier": "doi:10.1186/s12916-024-03296-0",
       "studyIds": [
         "COG-OMEGA-COG_02"
       ],
-      "citation": "COG-OMEGA-COG_02 (2006); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1234/cog-omega-cog-02; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/cog-omega-cog-02",
-      "sameAs": "https://doi.org/10.1234/cog-omega-cog-02",
+      "citation": "COG-OMEGA-COG_02 (2006); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1186/s12916-024-03296-0; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1186/s12916-024-03296-0",
+      "sameAs": "https://doi.org/10.1186/s12916-024-03296-0",
       "datePublished": "2006",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "cognition_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/cog-omega-cog-03",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-omega-cog-03",
-      "studyIds": [
-        "COG-OMEGA-COG_03"
-      ],
-      "citation": "COG-OMEGA-COG_03 (2007); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1234/cog-omega-cog-03; Adverse Events: Transient headache.",
-      "doi": "10.1234/cog-omega-cog-03",
-      "sameAs": "https://doi.org/10.1234/cog-omega-cog-03",
-      "datePublished": "2007",
       "isPartOf": {
         "@type": "Periodical",
         "name": "cognition_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:a108c1c38a1e5d0f7b437034d13d54aec0dae5a4561a9076684cd2226e06fa5d",
-  "audit_hash": "0x1da546bf8b939c34"
+  "citations_manifest_hash": "sha256:d5e038794e4db98eb673cfe91f589df3d542676d4d29351a99710afa8cc452d4",
+  "audit_hash": "0xed62f20a5bb89148"
 }

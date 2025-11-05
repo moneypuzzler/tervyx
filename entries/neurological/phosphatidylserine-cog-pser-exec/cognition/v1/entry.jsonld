@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:06.572843+00:00",
+  "created": "2025-11-05T07:35:20.118883+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/cog-pser-exec-01",
+      "@id": "doi:10.1007/s40120-023-00454-z",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-pser-exec-01",
+      "identifier": "doi:10.1007/s40120-023-00454-z",
       "studyIds": [
         "COG-PSER-EXEC_01"
       ],
-      "citation": "COG-PSER-EXEC_01 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with executive function concerns; Outcome: executive_function; DOI: 10.1234/cog-pser-exec-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/cog-pser-exec-01",
-      "sameAs": "https://doi.org/10.1234/cog-pser-exec-01",
+      "citation": "COG-PSER-EXEC_01 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with executive function concerns; Outcome: executive_function; DOI: 10.1007/s40120-023-00454-z; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1007/s40120-023-00454-z",
+      "sameAs": "https://doi.org/10.1007/s40120-023-00454-z",
       "datePublished": "2012",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,15 +76,15 @@
       }
     },
     {
-      "@id": "doi:10.1234/cog-pser-exec-02",
+      "@id": "doi:10.2147/cia.s40348",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-pser-exec-02",
+      "identifier": "doi:10.2147/cia.s40348",
       "studyIds": [
         "COG-PSER-EXEC_02"
       ],
-      "citation": "COG-PSER-EXEC_02 (2013); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with executive function concerns; Outcome: executive_function; DOI: 10.1234/cog-pser-exec-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/cog-pser-exec-02",
-      "sameAs": "https://doi.org/10.1234/cog-pser-exec-02",
+      "citation": "COG-PSER-EXEC_02 (2013); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with executive function concerns; Outcome: executive_function; DOI: 10.2147/cia.s40348; Adverse Events: Transient headache.",
+      "doi": "10.2147/cia.s40348",
+      "sameAs": "https://doi.org/10.2147/cia.s40348",
       "datePublished": "2013",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,15 +92,15 @@
       }
     },
     {
-      "@id": "doi:10.1234/cog-pser-exec-03",
+      "@id": "doi:10.3892/etm.2024.12744",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-pser-exec-03",
+      "identifier": "doi:10.3892/etm.2024.12744",
       "studyIds": [
         "COG-PSER-EXEC_03"
       ],
-      "citation": "COG-PSER-EXEC_03 (2014); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with executive function concerns; Outcome: executive_function; DOI: 10.1234/cog-pser-exec-03; Adverse Events: None reported.",
-      "doi": "10.1234/cog-pser-exec-03",
-      "sameAs": "https://doi.org/10.1234/cog-pser-exec-03",
+      "citation": "COG-PSER-EXEC_03 (2014); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with executive function concerns; Outcome: executive_function; DOI: 10.3892/etm.2024.12744; Adverse Events: None reported.",
+      "doi": "10.3892/etm.2024.12744",
+      "sameAs": "https://doi.org/10.3892/etm.2024.12744",
       "datePublished": "2014",
       "isPartOf": {
         "@type": "Periodical",
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:a657683a09553b75044b2e6001216467950fe4132c2b591f8ebdd4aff601c175",
-  "audit_hash": "0x69d7c7ed73caac23"
+  "citations_manifest_hash": "sha256:797ca23104d78c053e20691ee790faa5c3a885e6867755480dfd9da3cd7a2e7e",
+  "audit_hash": "0xa5c54edcac746f9d"
 }

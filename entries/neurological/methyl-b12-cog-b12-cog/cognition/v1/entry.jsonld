@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:03.263317+00:00",
+  "created": "2025-11-05T07:35:26.305883+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/cog-b12-cog-01",
+      "@id": "doi:10.1016/j.clnu.2019.06.011",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-b12-cog-01",
+      "identifier": "doi:10.1016/j.clnu.2019.06.011",
       "studyIds": [
         "COG-B12-COG_01"
       ],
-      "citation": "COG-B12-COG_01 (2008); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1234/cog-b12-cog-01; Adverse Events: None reported.",
-      "doi": "10.1234/cog-b12-cog-01",
-      "sameAs": "https://doi.org/10.1234/cog-b12-cog-01",
+      "citation": "COG-B12-COG_01 (2008); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1016/j.clnu.2019.06.011; Adverse Events: None reported.",
+      "doi": "10.1016/j.clnu.2019.06.011",
+      "sameAs": "https://doi.org/10.1016/j.clnu.2019.06.011",
       "datePublished": "2008",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,15 +76,15 @@
       }
     },
     {
-      "@id": "doi:10.1234/cog-b12-cog-02",
+      "@id": "doi:10.1017/s0007114512001328",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-b12-cog-02",
+      "identifier": "doi:10.1017/s0007114512001328",
       "studyIds": [
         "COG-B12-COG_02"
       ],
-      "citation": "COG-B12-COG_02 (2009); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1234/cog-b12-cog-02; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/cog-b12-cog-02",
-      "sameAs": "https://doi.org/10.1234/cog-b12-cog-02",
+      "citation": "COG-B12-COG_02 (2009); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1017/s0007114512001328; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1017/s0007114512001328",
+      "sameAs": "https://doi.org/10.1017/s0007114512001328",
       "datePublished": "2009",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,15 +92,15 @@
       }
     },
     {
-      "@id": "doi:10.1234/cog-b12-cog-03",
+      "@id": "doi:10.3945/ajcn.116.141374",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-b12-cog-03",
+      "identifier": "doi:10.3945/ajcn.116.141374",
       "studyIds": [
         "COG-B12-COG_03"
       ],
-      "citation": "COG-B12-COG_03 (2010); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1234/cog-b12-cog-03; Adverse Events: Transient headache.",
-      "doi": "10.1234/cog-b12-cog-03",
-      "sameAs": "https://doi.org/10.1234/cog-b12-cog-03",
+      "citation": "COG-B12-COG_03 (2010); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.3945/ajcn.116.141374; Adverse Events: Transient headache.",
+      "doi": "10.3945/ajcn.116.141374",
+      "sameAs": "https://doi.org/10.3945/ajcn.116.141374",
       "datePublished": "2010",
       "isPartOf": {
         "@type": "Periodical",
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:c597cadf55b734e792ddb1453e6e5656739e4137f62a7426983dbd1635b69f59",
-  "audit_hash": "0x42c7b4c246187526"
+  "citations_manifest_hash": "sha256:c9e1fa6be15cd039af7194508a34f97bb05fe2be4fc31c1a991fad86868fccdf",
+  "audit_hash": "0x7fed01b6214d6076"
 }

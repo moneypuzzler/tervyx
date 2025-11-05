@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-COG-GINS-ADAPT_01,2012,randomized controlled trial,SMD,0.2899,0.1440,0.4358,62,53,some concerns,10.1234/cog-gins-adapt-01,cognition_journal,processing_speed,Adults with processing speed concerns,Mild GI discomfort,7
-COG-GINS-ADAPT_02,2013,randomized controlled trial,SMD,0.3506,0.2090,0.4922,66,56,mixed,10.1234/cog-gins-adapt-02,cognition_journal,processing_speed,Adults with processing speed concerns,Transient headache,8
-COG-GINS-ADAPT_03,2014,randomized controlled trial,SMD,0.3982,0.2708,0.5257,70,59,low,10.1234/cog-gins-adapt-03,cognition_journal,processing_speed,Adults with processing speed concerns,None reported,9
+COG-GINS-ADAPT_01,2012,randomized controlled trial,SMD,0.2899,0.1440,0.4358,62,53,some concerns,10.1080/1028415X.2019.1641873,cognition_journal,processing_speed,Adults with processing speed concerns,Mild GI discomfort,7
+COG-GINS-ADAPT_02,2013,randomized controlled trial,SMD,0.3506,0.2090,0.4922,66,56,mixed,10.3390/ph13040057,cognition_journal,processing_speed,Adults with processing speed concerns,Transient headache,8
+COG-GINS-ADAPT_03,2014,randomized controlled trial,SMD,0.3982,0.2708,0.5257,70,59,low,10.1007/s00394-021-02654-5,cognition_journal,processing_speed,Adults with processing speed concerns,None reported,9

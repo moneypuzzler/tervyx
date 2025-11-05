@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:51:02.126868+00:00",
+  "generated": "2025-11-05T07:35:18.384459+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/lions-mane-cog-lion-neuro/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -12,9 +12,9 @@
       "outcome": "cognitive_decline",
       "population": "Adults with cognitive decline concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/cog-lion-neuro-01",
-      "url": "https://doi.org/10.1234/cog-lion-neuro-01",
-      "citation": "COG-LION-NEURO_01 (2010); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1234/cog-lion-neuro-01; Adverse Events: Transient headache."
+      "doi": "10.2220/biomedres.40.125",
+      "url": "https://doi.org/10.2220/biomedres.40.125",
+      "citation": "COG-LION-NEURO_01 (2010); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.2220/biomedres.40.125; Adverse Events: Transient headache."
     },
     {
       "study_id": "COG-LION-NEURO_02",
@@ -24,9 +24,9 @@
       "outcome": "cognitive_decline",
       "population": "Adults with cognitive decline concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/cog-lion-neuro-02",
-      "url": "https://doi.org/10.1234/cog-lion-neuro-02",
-      "citation": "COG-LION-NEURO_02 (2011); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1234/cog-lion-neuro-02; Adverse Events: None reported."
+      "doi": "10.1093/ecam/nem046",
+      "url": "https://doi.org/10.1093/ecam/nem046",
+      "citation": "COG-LION-NEURO_02 (2011); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1093/ecam/nem046; Adverse Events: None reported."
     },
     {
       "study_id": "COG-LION-NEURO_03",
@@ -36,39 +36,39 @@
       "outcome": "cognitive_decline",
       "population": "Adults with cognitive decline concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/cog-lion-neuro-03",
-      "url": "https://doi.org/10.1234/cog-lion-neuro-03",
-      "citation": "COG-LION-NEURO_03 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1234/cog-lion-neuro-03; Adverse Events: Mild GI discomfort."
+      "doi": "10.3389/fnut.2023.1405796",
+      "url": "https://doi.org/10.3389/fnut.2023.1405796",
+      "citation": "COG-LION-NEURO_03 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.3389/fnut.2023.1405796; Adverse Events: Mild GI discomfort."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/cog-lion-neuro-01",
-      "study_ids": [
-        "COG-LION-NEURO_01"
-      ],
-      "primary_study_id": "COG-LION-NEURO_01",
-      "url": "https://doi.org/10.1234/cog-lion-neuro-01"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/cog-lion-neuro-02",
+      "identifier": "10.1093/ecam/nem046",
       "study_ids": [
         "COG-LION-NEURO_02"
       ],
       "primary_study_id": "COG-LION-NEURO_02",
-      "url": "https://doi.org/10.1234/cog-lion-neuro-02"
+      "url": "https://doi.org/10.1093/ecam/nem046"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/cog-lion-neuro-03",
+      "identifier": "10.2220/biomedres.40.125",
+      "study_ids": [
+        "COG-LION-NEURO_01"
+      ],
+      "primary_study_id": "COG-LION-NEURO_01",
+      "url": "https://doi.org/10.2220/biomedres.40.125"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.3389/fnut.2023.1405796",
       "study_ids": [
         "COG-LION-NEURO_03"
       ],
       "primary_study_id": "COG-LION-NEURO_03",
-      "url": "https://doi.org/10.1234/cog-lion-neuro-03"
+      "url": "https://doi.org/10.3389/fnut.2023.1405796"
     }
   ],
-  "manifest_hash": "sha256:9675c27eed69aa28013adbb839137fb4398048488cf7302a2429c9545197e7e4"
+  "manifest_hash": "sha256:b102cc4176e65e04d57d4622f765295951c25da76a1d8e31092297c8b5ac3490"
 }

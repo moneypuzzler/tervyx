@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:01.560545+00:00",
+  "created": "2025-11-05T07:35:18.958666+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,31 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/cog-gink-circ-01",
+      "@id": "doi:10.1016/s1474-4422(12)70206-5",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-gink-circ-01",
-      "studyIds": [
-        "COG-GINK-CIRC_01"
-      ],
-      "citation": "COG-GINK-CIRC_01 (2011); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1234/cog-gink-circ-01; Adverse Events: None reported.",
-      "doi": "10.1234/cog-gink-circ-01",
-      "sameAs": "https://doi.org/10.1234/cog-gink-circ-01",
-      "datePublished": "2011",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "cognition_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/cog-gink-circ-02",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-gink-circ-02",
+      "identifier": "doi:10.1016/s1474-4422(12)70206-5",
       "studyIds": [
         "COG-GINK-CIRC_02"
       ],
-      "citation": "COG-GINK-CIRC_02 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1234/cog-gink-circ-02; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/cog-gink-circ-02",
-      "sameAs": "https://doi.org/10.1234/cog-gink-circ-02",
+      "citation": "COG-GINK-CIRC_02 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1016/s1474-4422(12)70206-5; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1016/s1474-4422(12)70206-5",
+      "sameAs": "https://doi.org/10.1016/s1474-4422(12)70206-5",
       "datePublished": "2012",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,15 +76,31 @@
       }
     },
     {
-      "@id": "doi:10.1234/cog-gink-circ-03",
+      "@id": "doi:10.1212/01.wnl.0000303814.13509.db",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-gink-circ-03",
+      "identifier": "doi:10.1212/01.wnl.0000303814.13509.db",
+      "studyIds": [
+        "COG-GINK-CIRC_01"
+      ],
+      "citation": "COG-GINK-CIRC_01 (2011); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1212/01.wnl.0000303814.13509.db; Adverse Events: None reported.",
+      "doi": "10.1212/01.wnl.0000303814.13509.db",
+      "sameAs": "https://doi.org/10.1212/01.wnl.0000303814.13509.db",
+      "datePublished": "2011",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cognition_journal"
+      }
+    },
+    {
+      "@id": "doi:10.3389/fphar.2019.01688",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.3389/fphar.2019.01688",
       "studyIds": [
         "COG-GINK-CIRC_03"
       ],
-      "citation": "COG-GINK-CIRC_03 (2013); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1234/cog-gink-circ-03; Adverse Events: Transient headache.",
-      "doi": "10.1234/cog-gink-circ-03",
-      "sameAs": "https://doi.org/10.1234/cog-gink-circ-03",
+      "citation": "COG-GINK-CIRC_03 (2013); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.3389/fphar.2019.01688; Adverse Events: Transient headache.",
+      "doi": "10.3389/fphar.2019.01688",
+      "sameAs": "https://doi.org/10.3389/fphar.2019.01688",
       "datePublished": "2013",
       "isPartOf": {
         "@type": "Periodical",
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:49c702e4d68722181597db8d1df8f5973cefbeee928ec624126ff7117594505f",
-  "audit_hash": "0x1d2f698c256a88b1"
+  "citations_manifest_hash": "sha256:0e35bda057706db4f8306b16b3793b4e5c9ffdfad434f24416b4d129a3318983",
+  "audit_hash": "0xd9db2dc865358ee3"
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:51:06.572734+00:00",
+  "generated": "2025-11-05T07:35:20.118761+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/phosphatidylserine-cog-pser-exec/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -12,9 +12,9 @@
       "outcome": "executive_function",
       "population": "Adults with executive function concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/cog-pser-exec-01",
-      "url": "https://doi.org/10.1234/cog-pser-exec-01",
-      "citation": "COG-PSER-EXEC_01 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with executive function concerns; Outcome: executive_function; DOI: 10.1234/cog-pser-exec-01; Adverse Events: Mild GI discomfort."
+      "doi": "10.1007/s40120-023-00454-z",
+      "url": "https://doi.org/10.1007/s40120-023-00454-z",
+      "citation": "COG-PSER-EXEC_01 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with executive function concerns; Outcome: executive_function; DOI: 10.1007/s40120-023-00454-z; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "COG-PSER-EXEC_02",
@@ -24,9 +24,9 @@
       "outcome": "executive_function",
       "population": "Adults with executive function concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/cog-pser-exec-02",
-      "url": "https://doi.org/10.1234/cog-pser-exec-02",
-      "citation": "COG-PSER-EXEC_02 (2013); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with executive function concerns; Outcome: executive_function; DOI: 10.1234/cog-pser-exec-02; Adverse Events: Transient headache."
+      "doi": "10.2147/cia.s40348",
+      "url": "https://doi.org/10.2147/cia.s40348",
+      "citation": "COG-PSER-EXEC_02 (2013); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with executive function concerns; Outcome: executive_function; DOI: 10.2147/cia.s40348; Adverse Events: Transient headache."
     },
     {
       "study_id": "COG-PSER-EXEC_03",
@@ -36,39 +36,39 @@
       "outcome": "executive_function",
       "population": "Adults with executive function concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/cog-pser-exec-03",
-      "url": "https://doi.org/10.1234/cog-pser-exec-03",
-      "citation": "COG-PSER-EXEC_03 (2014); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with executive function concerns; Outcome: executive_function; DOI: 10.1234/cog-pser-exec-03; Adverse Events: None reported."
+      "doi": "10.3892/etm.2024.12744",
+      "url": "https://doi.org/10.3892/etm.2024.12744",
+      "citation": "COG-PSER-EXEC_03 (2014); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with executive function concerns; Outcome: executive_function; DOI: 10.3892/etm.2024.12744; Adverse Events: None reported."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/cog-pser-exec-01",
+      "identifier": "10.1007/s40120-023-00454-z",
       "study_ids": [
         "COG-PSER-EXEC_01"
       ],
       "primary_study_id": "COG-PSER-EXEC_01",
-      "url": "https://doi.org/10.1234/cog-pser-exec-01"
+      "url": "https://doi.org/10.1007/s40120-023-00454-z"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/cog-pser-exec-02",
+      "identifier": "10.2147/cia.s40348",
       "study_ids": [
         "COG-PSER-EXEC_02"
       ],
       "primary_study_id": "COG-PSER-EXEC_02",
-      "url": "https://doi.org/10.1234/cog-pser-exec-02"
+      "url": "https://doi.org/10.2147/cia.s40348"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/cog-pser-exec-03",
+      "identifier": "10.3892/etm.2024.12744",
       "study_ids": [
         "COG-PSER-EXEC_03"
       ],
       "primary_study_id": "COG-PSER-EXEC_03",
-      "url": "https://doi.org/10.1234/cog-pser-exec-03"
+      "url": "https://doi.org/10.3892/etm.2024.12744"
     }
   ],
-  "manifest_hash": "sha256:a657683a09553b75044b2e6001216467950fe4132c2b591f8ebdd4aff601c175"
+  "manifest_hash": "sha256:797ca23104d78c053e20691ee790faa5c3a885e6867755480dfd9da3cd7a2e7e"
 }

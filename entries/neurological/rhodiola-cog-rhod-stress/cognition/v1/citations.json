@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:51:07.686159+00:00",
+  "generated": "2025-11-05T07:35:21.290911+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/rhodiola-cog-rhod-stress/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -12,9 +12,9 @@
       "outcome": "stress_resilience",
       "population": "Adults with stress resilience concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/cog-rhod-stress-01",
-      "url": "https://doi.org/10.1234/cog-rhod-stress-01",
-      "citation": "COG-RHOD-STRESS_01 (2014); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1234/cog-rhod-stress-01; Adverse Events: None reported."
+      "doi": "10.1002/ptr.6778",
+      "url": "https://doi.org/10.1002/ptr.6778",
+      "citation": "COG-RHOD-STRESS_01 (2014); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1002/ptr.6778; Adverse Events: None reported."
     },
     {
       "study_id": "COG-RHOD-STRESS_02",
@@ -24,9 +24,9 @@
       "outcome": "stress_resilience",
       "population": "Adults with stress resilience concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/cog-rhod-stress-02",
-      "url": "https://doi.org/10.1234/cog-rhod-stress-02",
-      "citation": "COG-RHOD-STRESS_02 (2015); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1234/cog-rhod-stress-02; Adverse Events: Mild GI discomfort."
+      "doi": "10.1016/s0944-7113(00)80055-0",
+      "url": "https://doi.org/10.1016/s0944-7113(00)80055-0",
+      "citation": "COG-RHOD-STRESS_02 (2015); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1016/s0944-7113(00)80055-0; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "COG-RHOD-STRESS_03",
@@ -36,39 +36,39 @@
       "outcome": "stress_resilience",
       "population": "Adults with stress resilience concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/cog-rhod-stress-03",
-      "url": "https://doi.org/10.1234/cog-rhod-stress-03",
-      "citation": "COG-RHOD-STRESS_03 (2016); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1234/cog-rhod-stress-03; Adverse Events: Transient headache."
+      "doi": "10.1016/s0944-7113(00)80078-1",
+      "url": "https://doi.org/10.1016/s0944-7113(00)80078-1",
+      "citation": "COG-RHOD-STRESS_03 (2016); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1016/s0944-7113(00)80078-1; Adverse Events: Transient headache."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/cog-rhod-stress-01",
+      "identifier": "10.1002/ptr.6778",
       "study_ids": [
         "COG-RHOD-STRESS_01"
       ],
       "primary_study_id": "COG-RHOD-STRESS_01",
-      "url": "https://doi.org/10.1234/cog-rhod-stress-01"
+      "url": "https://doi.org/10.1002/ptr.6778"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/cog-rhod-stress-02",
+      "identifier": "10.1016/s0944-7113(00)80055-0",
       "study_ids": [
         "COG-RHOD-STRESS_02"
       ],
       "primary_study_id": "COG-RHOD-STRESS_02",
-      "url": "https://doi.org/10.1234/cog-rhod-stress-02"
+      "url": "https://doi.org/10.1016/s0944-7113(00)80055-0"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/cog-rhod-stress-03",
+      "identifier": "10.1016/s0944-7113(00)80078-1",
       "study_ids": [
         "COG-RHOD-STRESS_03"
       ],
       "primary_study_id": "COG-RHOD-STRESS_03",
-      "url": "https://doi.org/10.1234/cog-rhod-stress-03"
+      "url": "https://doi.org/10.1016/s0944-7113(00)80078-1"
     }
   ],
-  "manifest_hash": "sha256:200b9aa046cd9225d8c039b3463cc0b54d239f86fe40d0b76875e6ca16b40bfd"
+  "manifest_hash": "sha256:5f3a07e830f43c186c7ffacaf659e44cd1633eafe75fa3ccf6f197766a1ff715"
 }

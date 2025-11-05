@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:51:08.222770+00:00",
+  "generated": "2025-11-05T07:35:25.238310+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/vinpocetine-cog-vinc-circ/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -12,9 +12,9 @@
       "outcome": "cerebral_blood_flow",
       "population": "Adults with cerebral blood flow concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/cog-vinc-circ-01",
-      "url": "https://doi.org/10.1234/cog-vinc-circ-01",
-      "citation": "COG-VINC-CIRC_01 (2013); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cerebral blood flow concerns; Outcome: cerebral_blood_flow; DOI: 10.1234/cog-vinc-circ-01; Adverse Events: Transient headache."
+      "doi": "10.1159/000445116",
+      "url": "https://doi.org/10.1159/000445116",
+      "citation": "COG-VINC-CIRC_01 (2013); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cerebral blood flow concerns; Outcome: cerebral_blood_flow; DOI: 10.1159/000445116; Adverse Events: Transient headache."
     },
     {
       "study_id": "COG-VINC-CIRC_02",
@@ -24,9 +24,9 @@
       "outcome": "cerebral_blood_flow",
       "population": "Adults with cerebral blood flow concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/cog-vinc-circ-02",
-      "url": "https://doi.org/10.1234/cog-vinc-circ-02",
-      "citation": "COG-VINC-CIRC_02 (2014); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cerebral blood flow concerns; Outcome: cerebral_blood_flow; DOI: 10.1234/cog-vinc-circ-02; Adverse Events: None reported."
+      "doi": "10.1007/bf00999507",
+      "url": "https://doi.org/10.1007/bf00999507",
+      "citation": "COG-VINC-CIRC_02 (2014); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cerebral blood flow concerns; Outcome: cerebral_blood_flow; DOI: 10.1007/bf00999507; Adverse Events: None reported."
     },
     {
       "study_id": "COG-VINC-CIRC_03",
@@ -36,39 +36,39 @@
       "outcome": "cerebral_blood_flow",
       "population": "Adults with cerebral blood flow concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/cog-vinc-circ-03",
-      "url": "https://doi.org/10.1234/cog-vinc-circ-03",
-      "citation": "COG-VINC-CIRC_03 (2015); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cerebral blood flow concerns; Outcome: cerebral_blood_flow; DOI: 10.1234/cog-vinc-circ-03; Adverse Events: Mild GI discomfort."
+      "doi": "10.1007/bf00788518",
+      "url": "https://doi.org/10.1007/bf00788518",
+      "citation": "COG-VINC-CIRC_03 (2015); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cerebral blood flow concerns; Outcome: cerebral_blood_flow; DOI: 10.1007/bf00788518; Adverse Events: Mild GI discomfort."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/cog-vinc-circ-01",
-      "study_ids": [
-        "COG-VINC-CIRC_01"
-      ],
-      "primary_study_id": "COG-VINC-CIRC_01",
-      "url": "https://doi.org/10.1234/cog-vinc-circ-01"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/cog-vinc-circ-02",
-      "study_ids": [
-        "COG-VINC-CIRC_02"
-      ],
-      "primary_study_id": "COG-VINC-CIRC_02",
-      "url": "https://doi.org/10.1234/cog-vinc-circ-02"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/cog-vinc-circ-03",
+      "identifier": "10.1007/bf00788518",
       "study_ids": [
         "COG-VINC-CIRC_03"
       ],
       "primary_study_id": "COG-VINC-CIRC_03",
-      "url": "https://doi.org/10.1234/cog-vinc-circ-03"
+      "url": "https://doi.org/10.1007/bf00788518"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1007/bf00999507",
+      "study_ids": [
+        "COG-VINC-CIRC_02"
+      ],
+      "primary_study_id": "COG-VINC-CIRC_02",
+      "url": "https://doi.org/10.1007/bf00999507"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1159/000445116",
+      "study_ids": [
+        "COG-VINC-CIRC_01"
+      ],
+      "primary_study_id": "COG-VINC-CIRC_01",
+      "url": "https://doi.org/10.1159/000445116"
     }
   ],
-  "manifest_hash": "sha256:a72af220b60d3542ab2d77568e2c282c6a8a10e6cb0d3945eb8c01b212f06615"
+  "manifest_hash": "sha256:c1f7772a7abe00b66d90a0bb3dd975405dc90d25e2b85f2180a2040bfbc9d5ef"
 }

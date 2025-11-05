@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:51:03.832062+00:00",
+  "generated": "2025-11-05T07:35:26.836363+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/methylfolate-cog-fol-mci/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -12,9 +12,9 @@
       "outcome": "memory",
       "population": "Adults with memory concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/cog-fol-mci-01",
-      "url": "https://doi.org/10.1234/cog-fol-mci-01",
-      "citation": "COG-FOL-MCI_01 (2009); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1234/cog-fol-mci-01; Adverse Events: Mild GI discomfort."
+      "doi": "10.1038/srep37486",
+      "url": "https://doi.org/10.1038/srep37486",
+      "citation": "COG-FOL-MCI_01 (2009); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1038/srep37486; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "COG-FOL-MCI_02",
@@ -24,9 +24,9 @@
       "outcome": "memory",
       "population": "Adults with memory concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/cog-fol-mci-02",
-      "url": "https://doi.org/10.1234/cog-fol-mci-02",
-      "citation": "COG-FOL-MCI_02 (2010); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1234/cog-fol-mci-02; Adverse Events: Transient headache."
+      "doi": "10.1016/s0140-6736(07)60109-3",
+      "url": "https://doi.org/10.1016/s0140-6736(07)60109-3",
+      "citation": "COG-FOL-MCI_02 (2010); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1016/s0140-6736(07)60109-3; Adverse Events: Transient headache."
     },
     {
       "study_id": "COG-FOL-MCI_03",
@@ -36,39 +36,39 @@
       "outcome": "memory",
       "population": "Adults with memory concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/cog-fol-mci-03",
-      "url": "https://doi.org/10.1234/cog-fol-mci-03",
-      "citation": "COG-FOL-MCI_03 (2011); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1234/cog-fol-mci-03; Adverse Events: None reported."
+      "doi": "10.1371/journal.pone.0009917",
+      "url": "https://doi.org/10.1371/journal.pone.0009917",
+      "citation": "COG-FOL-MCI_03 (2011); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1371/journal.pone.0009917; Adverse Events: None reported."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/cog-fol-mci-01",
-      "study_ids": [
-        "COG-FOL-MCI_01"
-      ],
-      "primary_study_id": "COG-FOL-MCI_01",
-      "url": "https://doi.org/10.1234/cog-fol-mci-01"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/cog-fol-mci-02",
+      "identifier": "10.1016/s0140-6736(07)60109-3",
       "study_ids": [
         "COG-FOL-MCI_02"
       ],
       "primary_study_id": "COG-FOL-MCI_02",
-      "url": "https://doi.org/10.1234/cog-fol-mci-02"
+      "url": "https://doi.org/10.1016/s0140-6736(07)60109-3"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/cog-fol-mci-03",
+      "identifier": "10.1038/srep37486",
+      "study_ids": [
+        "COG-FOL-MCI_01"
+      ],
+      "primary_study_id": "COG-FOL-MCI_01",
+      "url": "https://doi.org/10.1038/srep37486"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1371/journal.pone.0009917",
       "study_ids": [
         "COG-FOL-MCI_03"
       ],
       "primary_study_id": "COG-FOL-MCI_03",
-      "url": "https://doi.org/10.1234/cog-fol-mci-03"
+      "url": "https://doi.org/10.1371/journal.pone.0009917"
     }
   ],
-  "manifest_hash": "sha256:6b60f1bd10b5bd936e3504f5e78167635312cd0addd193ace463f97739f442c5"
+  "manifest_hash": "sha256:f3df4efe002491966ba695af474ab3fa69ae55811ec8146982c57a6d3611efcd"
 }

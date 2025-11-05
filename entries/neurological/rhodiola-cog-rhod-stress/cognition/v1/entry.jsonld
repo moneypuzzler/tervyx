@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:07.686289+00:00",
+  "created": "2025-11-05T07:35:21.291023+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/cog-rhod-stress-01",
+      "@id": "doi:10.1002/ptr.6778",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-rhod-stress-01",
+      "identifier": "doi:10.1002/ptr.6778",
       "studyIds": [
         "COG-RHOD-STRESS_01"
       ],
-      "citation": "COG-RHOD-STRESS_01 (2014); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1234/cog-rhod-stress-01; Adverse Events: None reported.",
-      "doi": "10.1234/cog-rhod-stress-01",
-      "sameAs": "https://doi.org/10.1234/cog-rhod-stress-01",
+      "citation": "COG-RHOD-STRESS_01 (2014); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1002/ptr.6778; Adverse Events: None reported.",
+      "doi": "10.1002/ptr.6778",
+      "sameAs": "https://doi.org/10.1002/ptr.6778",
       "datePublished": "2014",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,15 +76,15 @@
       }
     },
     {
-      "@id": "doi:10.1234/cog-rhod-stress-02",
+      "@id": "doi:10.1016/s0944-7113(00)80055-0",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-rhod-stress-02",
+      "identifier": "doi:10.1016/s0944-7113(00)80055-0",
       "studyIds": [
         "COG-RHOD-STRESS_02"
       ],
-      "citation": "COG-RHOD-STRESS_02 (2015); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1234/cog-rhod-stress-02; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/cog-rhod-stress-02",
-      "sameAs": "https://doi.org/10.1234/cog-rhod-stress-02",
+      "citation": "COG-RHOD-STRESS_02 (2015); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1016/s0944-7113(00)80055-0; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1016/s0944-7113(00)80055-0",
+      "sameAs": "https://doi.org/10.1016/s0944-7113(00)80055-0",
       "datePublished": "2015",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,15 +92,15 @@
       }
     },
     {
-      "@id": "doi:10.1234/cog-rhod-stress-03",
+      "@id": "doi:10.1016/s0944-7113(00)80078-1",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-rhod-stress-03",
+      "identifier": "doi:10.1016/s0944-7113(00)80078-1",
       "studyIds": [
         "COG-RHOD-STRESS_03"
       ],
-      "citation": "COG-RHOD-STRESS_03 (2016); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1234/cog-rhod-stress-03; Adverse Events: Transient headache.",
-      "doi": "10.1234/cog-rhod-stress-03",
-      "sameAs": "https://doi.org/10.1234/cog-rhod-stress-03",
+      "citation": "COG-RHOD-STRESS_03 (2016); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1016/s0944-7113(00)80078-1; Adverse Events: Transient headache.",
+      "doi": "10.1016/s0944-7113(00)80078-1",
+      "sameAs": "https://doi.org/10.1016/s0944-7113(00)80078-1",
       "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:200b9aa046cd9225d8c039b3463cc0b54d239f86fe40d0b76875e6ca16b40bfd",
-  "audit_hash": "0x81d929b96222b098"
+  "citations_manifest_hash": "sha256:5f3a07e830f43c186c7ffacaf659e44cd1633eafe75fa3ccf6f197766a1ff715",
+  "audit_hash": "0x5f650361cfb1c2e8"
 }

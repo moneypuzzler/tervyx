@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:02.684398+00:00",
+  "created": "2025-11-05T07:35:25.751476+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,31 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/cog-lute-vis-01",
+      "@id": "doi:10.1007/s12325-024-02785-1",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-lute-vis-01",
+      "identifier": "doi:10.1007/s12325-024-02785-1",
+      "studyIds": [
+        "COG-LUTE-VIS_03"
+      ],
+      "citation": "COG-LUTE-VIS_03 (2019); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.1007/s12325-024-02785-1; Adverse Events: Transient headache.",
+      "doi": "10.1007/s12325-024-02785-1",
+      "sameAs": "https://doi.org/10.1007/s12325-024-02785-1",
+      "datePublished": "2019",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cognition_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1016/j.abb.2014.11.012",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1016/j.abb.2014.11.012",
       "studyIds": [
         "COG-LUTE-VIS_01"
       ],
-      "citation": "COG-LUTE-VIS_01 (2017); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.1234/cog-lute-vis-01; Adverse Events: None reported.",
-      "doi": "10.1234/cog-lute-vis-01",
-      "sameAs": "https://doi.org/10.1234/cog-lute-vis-01",
+      "citation": "COG-LUTE-VIS_01 (2017); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.1016/j.abb.2014.11.012; Adverse Events: None reported.",
+      "doi": "10.1016/j.abb.2014.11.012",
+      "sameAs": "https://doi.org/10.1016/j.abb.2014.11.012",
       "datePublished": "2017",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,38 +92,22 @@
       }
     },
     {
-      "@id": "doi:10.1234/cog-lute-vis-02",
+      "@id": "doi:10.3390/nu9111246",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-lute-vis-02",
+      "identifier": "doi:10.3390/nu9111246",
       "studyIds": [
         "COG-LUTE-VIS_02"
       ],
-      "citation": "COG-LUTE-VIS_02 (2018); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.1234/cog-lute-vis-02; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/cog-lute-vis-02",
-      "sameAs": "https://doi.org/10.1234/cog-lute-vis-02",
+      "citation": "COG-LUTE-VIS_02 (2018); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.3390/nu9111246; Adverse Events: Mild GI discomfort.",
+      "doi": "10.3390/nu9111246",
+      "sameAs": "https://doi.org/10.3390/nu9111246",
       "datePublished": "2018",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "cognition_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/cog-lute-vis-03",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-lute-vis-03",
-      "studyIds": [
-        "COG-LUTE-VIS_03"
-      ],
-      "citation": "COG-LUTE-VIS_03 (2019); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.1234/cog-lute-vis-03; Adverse Events: Transient headache.",
-      "doi": "10.1234/cog-lute-vis-03",
-      "sameAs": "https://doi.org/10.1234/cog-lute-vis-03",
-      "datePublished": "2019",
       "isPartOf": {
         "@type": "Periodical",
         "name": "cognition_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:6340f8e66eae55eb265e08615d36a2818af9475e287048fdf4dcbc2548ae29be",
-  "audit_hash": "0x8d680a439ef3fa9a"
+  "citations_manifest_hash": "sha256:d2860c3983e6cefc5d5b1198409b592c45f3e0dcd519c0d026a060b6fec7070c",
+  "audit_hash": "0x9cd2ece54b803b8f"
 }
