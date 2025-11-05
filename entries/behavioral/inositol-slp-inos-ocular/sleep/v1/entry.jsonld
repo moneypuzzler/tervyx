@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T07:16:53.768703+00:00",
+  "created": "2025-11-05T08:06:40.841037+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -64,8 +64,7 @@
       "@type": "ScholarlyArticle",
       "identifier": "doi:10.1080/14767058.2020.1818225",
       "studyIds": [
-        "SLP-INOS-OCULAR_01",
-        "SLP-INOS-OCULAR_03"
+        "SLP-INOS-OCULAR_01"
       ],
       "citation": "SLP-INOS-OCULAR_01 (2005); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1080/14767058.2020.1818225; Adverse Events: None reported.",
       "doi": "10.1080/14767058.2020.1818225",
@@ -91,8 +90,24 @@
         "@type": "Periodical",
         "name": "sleep_journal"
       }
+    },
+    {
+      "@id": "doi:10.3389/fnins.2017.00336",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.3389/fnins.2017.00336",
+      "studyIds": [
+        "SLP-INOS-OCULAR_03"
+      ],
+      "citation": "SLP-INOS-OCULAR_03 (2007); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.3389/fnins.2017.00336; Adverse Events: Transient headache.",
+      "doi": "10.3389/fnins.2017.00336",
+      "sameAs": "https://doi.org/10.3389/fnins.2017.00336",
+      "datePublished": "2007",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
     }
   ],
-  "citations_manifest_hash": "sha256:0ec0003ff2b2a0f5760176a23d47dbe8e82d3dfbf86f32626a18aaff85657200",
-  "audit_hash": "0x8980e7fb541e21c9"
+  "citations_manifest_hash": "sha256:329327b3271f6b478ea264c1c9712a169dfbee7c26f2580be7ce8177813a09d6",
+  "audit_hash": "0x677999134a1fbd23"
 }

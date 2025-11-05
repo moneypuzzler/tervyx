@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
 SLP-GLY-THERM_01,2008,randomized controlled trial,SMD,-0.3475,-0.4838,-0.2112,68,48,low,10.1111/j.1479-8425.2007.00262.x,sleep_journal,sleep_latency,Adults with sleep latency concerns,None reported,9
 SLP-GLY-THERM_02,2009,randomized controlled trial,SMD,-0.3591,-0.5208,-0.1974,72,51,some concerns,10.3389/fneur.2012.00061,sleep_journal,sleep_latency,Adults with sleep latency concerns,Mild GI discomfort,10
-SLP-GLY-THERM_03,2010,randomized controlled trial,SMD,-0.3813,-0.5174,-0.2452,76,54,mixed,10.1111/j.1479-8425.2007.00262.x,sleep_journal,sleep_latency,Adults with sleep latency concerns,Transient headache,11
+SLP-GLY-THERM_03,2010,randomized controlled trial,SMD,-0.3813,-0.5174,-0.2452,76,54,mixed,10.1111/j.1479-8425.2006.00193.x,sleep_journal,sleep_latency,Adults with sleep latency concerns,Transient headache,11
