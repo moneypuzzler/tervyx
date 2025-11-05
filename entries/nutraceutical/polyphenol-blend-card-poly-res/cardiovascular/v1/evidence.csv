@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+CARD-POLY-RES_01,2015,randomized controlled trial,SMD,0.2793,0.1606,0.398,60,86,mixed,10.1371/journal.pone.0137665,cardiovascular_journal,blood_pressure,Adults with pre-hypertension,Transient headache,12
+CARD-POLY-RES_02,2016,randomized controlled trial,SMD,0.3643,0.2154,0.5132,65,101,mixed,10.1097/MD.0000000000004247,cardiovascular_journal,blood_pressure,Adults with pre-hypertension,Transient headache,10
+CARD-POLY-RES_03,2009,randomized controlled trial,SMD,0.3019,0.1441,0.4597,101,62,mixed,10.1016/j.metabol.2009.05.030,cardiovascular_journal,blood_pressure,Adults with pre-hypertension,Transient headache,13

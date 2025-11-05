@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "nutraceutical:beta-glucans-imm-imm07:immune:v1",
+  "title": "Beta Glucans Imm Imm07 — Immune",
+  "category": "immune",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 1.0,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.9,
+    "j": 0.701,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 511,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.389046,
+    "mu_CI95": [
+      0.303006,
+      0.475086
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-30"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "tier_label_system": "TEL-5",
+  "created": "2025-11-05T08:53:30.819463+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1007/s00394-021-02566-4",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1007/s00394-021-02566-4",
+      "studyIds": [
+        "IMM-IMM07_03"
+      ],
+      "citation": "IMM-IMM07_03 (2021); Journal: immune_journal; Design: randomized controlled trial; Population: Healthy adults with URTI risk; Outcome: antiviral_support; DOI: 10.1007/s00394-021-02566-4; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1007/s00394-021-02566-4",
+      "sameAs": "https://doi.org/10.1007/s00394-021-02566-4",
+      "datePublished": "2021",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "immune_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1080/07315724.2018.1478339",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1080/07315724.2018.1478339",
+      "studyIds": [
+        "IMM-IMM07_02"
+      ],
+      "citation": "IMM-IMM07_02 (2019); Journal: immune_journal; Design: randomized controlled trial; Population: Healthy adults with URTI risk; Outcome: antiviral_support; DOI: 10.1080/07315724.2018.1478339; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1080/07315724.2018.1478339",
+      "sameAs": "https://doi.org/10.1080/07315724.2018.1478339",
+      "datePublished": "2019",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "immune_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1089/jmf.2019.0076",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1089/jmf.2019.0076",
+      "studyIds": [
+        "IMM-IMM07_01"
+      ],
+      "citation": "IMM-IMM07_01 (2020); Journal: immune_journal; Design: randomized controlled trial; Population: Healthy adults with URTI risk; Outcome: antiviral_support; DOI: 10.1089/jmf.2019.0076; Adverse Events: Transient headache.",
+      "doi": "10.1089/jmf.2019.0076",
+      "sameAs": "https://doi.org/10.1089/jmf.2019.0076",
+      "datePublished": "2020",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "immune_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:41744aa264f3c182e720d5bed3d9ecb552dbc9e97422bad522bd658a5165e822",
+  "audit_hash": "0x0e08af57daf2de4c"
+}

@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "nutraceutical:vitamin-c-imm-imm03:immune:v1",
+  "title": "Vitamin C Imm Imm03 — Immune",
+  "category": "immune",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.9739,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.9,
+    "j": 0.701,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 533,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.272533,
+    "mu_CI95": [
+      0.198939,
+      0.346126
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-30"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "tier_label_system": "TEL-5",
+  "created": "2025-11-05T08:53:29.656448+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1002/14651858.cd000980.pub4",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1002/14651858.cd000980.pub4",
+      "studyIds": [
+        "IMM-IMM03_03"
+      ],
+      "citation": "IMM-IMM03_03 (2013); Journal: immune_journal; Design: randomized controlled trial; Population: Adults with common cold; Outcome: antiviral_support; DOI: 10.1002/14651858.cd000980.pub4; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1002/14651858.cd000980.pub4",
+      "sameAs": "https://doi.org/10.1002/14651858.cd000980.pub4",
+      "datePublished": "2013",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "immune_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1155/2020/8573742",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1155/2020/8573742",
+      "studyIds": [
+        "IMM-IMM03_02"
+      ],
+      "citation": "IMM-IMM03_02 (2020); Journal: immune_journal; Design: randomized controlled trial; Population: Adults with common cold; Outcome: antiviral_support; DOI: 10.1155/2020/8573742; Adverse Events: Transient headache.",
+      "doi": "10.1155/2020/8573742",
+      "sameAs": "https://doi.org/10.1155/2020/8573742",
+      "datePublished": "2020",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "immune_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1186/s12889-023-17229-8",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1186/s12889-023-17229-8",
+      "studyIds": [
+        "IMM-IMM03_01"
+      ],
+      "citation": "IMM-IMM03_01 (2023); Journal: immune_journal; Design: randomized controlled trial; Population: Adults with common cold; Outcome: antiviral_support; DOI: 10.1186/s12889-023-17229-8; Adverse Events: Transient headache.",
+      "doi": "10.1186/s12889-023-17229-8",
+      "sameAs": "https://doi.org/10.1186/s12889-023-17229-8",
+      "datePublished": "2023",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "immune_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:0d52d5ed246efabd280d6b7823e286cda7e375d96c8d07e070381057d4ef8ab0",
+  "audit_hash": "0x3c28b6e311ab335e"
+}

@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-05T08:53:29.656341+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/nutraceutical/vitamin-c-imm-imm03/immune/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "IMM-IMM03_01",
+      "year": 2023,
+      "design": "randomized controlled trial",
+      "journal": "immune_journal",
+      "outcome": "antiviral_support",
+      "population": "Adults with common cold",
+      "adverse_events": "Transient headache",
+      "doi": "10.1186/s12889-023-17229-8",
+      "url": "https://doi.org/10.1186/s12889-023-17229-8",
+      "citation": "IMM-IMM03_01 (2023); Journal: immune_journal; Design: randomized controlled trial; Population: Adults with common cold; Outcome: antiviral_support; DOI: 10.1186/s12889-023-17229-8; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "IMM-IMM03_02",
+      "year": 2020,
+      "design": "randomized controlled trial",
+      "journal": "immune_journal",
+      "outcome": "antiviral_support",
+      "population": "Adults with common cold",
+      "adverse_events": "Transient headache",
+      "doi": "10.1155/2020/8573742",
+      "url": "https://doi.org/10.1155/2020/8573742",
+      "citation": "IMM-IMM03_02 (2020); Journal: immune_journal; Design: randomized controlled trial; Population: Adults with common cold; Outcome: antiviral_support; DOI: 10.1155/2020/8573742; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "IMM-IMM03_03",
+      "year": 2013,
+      "design": "randomized controlled trial",
+      "journal": "immune_journal",
+      "outcome": "antiviral_support",
+      "population": "Adults with common cold",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1002/14651858.cd000980.pub4",
+      "url": "https://doi.org/10.1002/14651858.cd000980.pub4",
+      "citation": "IMM-IMM03_03 (2013); Journal: immune_journal; Design: randomized controlled trial; Population: Adults with common cold; Outcome: antiviral_support; DOI: 10.1002/14651858.cd000980.pub4; Adverse Events: Mild GI discomfort."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1002/14651858.cd000980.pub4",
+      "study_ids": [
+        "IMM-IMM03_03"
+      ],
+      "primary_study_id": "IMM-IMM03_03",
+      "url": "https://doi.org/10.1002/14651858.cd000980.pub4"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1155/2020/8573742",
+      "study_ids": [
+        "IMM-IMM03_02"
+      ],
+      "primary_study_id": "IMM-IMM03_02",
+      "url": "https://doi.org/10.1155/2020/8573742"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1186/s12889-023-17229-8",
+      "study_ids": [
+        "IMM-IMM03_01"
+      ],
+      "primary_study_id": "IMM-IMM03_01",
+      "url": "https://doi.org/10.1186/s12889-023-17229-8"
+    }
+  ],
+  "manifest_hash": "sha256:0d52d5ed246efabd280d6b7823e286cda7e375d96c8d07e070381057d4ef8ab0"
+}

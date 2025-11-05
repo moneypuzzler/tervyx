@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "nutraceutical:polyphenol-blend-card-poly-res:cardiovascular:v1",
+  "title": "Polyphenol Blend Card Poly Res — Cardiovascular",
+  "category": "cardiovascular",
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.0,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.9,
+    "j": 0.701,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 475,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": -0.309648,
+    "mu_CI95": [
+      -0.389651,
+      -0.229644
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-30"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "tier_label_system": "TEL-5",
+  "created": "2025-11-05T08:53:29.109132+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1016/j.metabol.2009.05.030",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1016/j.metabol.2009.05.030",
+      "studyIds": [
+        "CARD-POLY-RES_03"
+      ],
+      "citation": "CARD-POLY-RES_03 (2009); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with pre-hypertension; Outcome: blood_pressure; DOI: 10.1016/j.metabol.2009.05.030; Adverse Events: Transient headache.",
+      "doi": "10.1016/j.metabol.2009.05.030",
+      "sameAs": "https://doi.org/10.1016/j.metabol.2009.05.030",
+      "datePublished": "2009",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cardiovascular_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1097/md.0000000000004247",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1097/md.0000000000004247",
+      "studyIds": [
+        "CARD-POLY-RES_02"
+      ],
+      "citation": "CARD-POLY-RES_02 (2016); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with pre-hypertension; Outcome: blood_pressure; DOI: 10.1097/md.0000000000004247; Adverse Events: Transient headache.",
+      "doi": "10.1097/md.0000000000004247",
+      "sameAs": "https://doi.org/10.1097/md.0000000000004247",
+      "datePublished": "2016",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cardiovascular_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1371/journal.pone.0137665",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1371/journal.pone.0137665",
+      "studyIds": [
+        "CARD-POLY-RES_01"
+      ],
+      "citation": "CARD-POLY-RES_01 (2015); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with pre-hypertension; Outcome: blood_pressure; DOI: 10.1371/journal.pone.0137665; Adverse Events: Transient headache.",
+      "doi": "10.1371/journal.pone.0137665",
+      "sameAs": "https://doi.org/10.1371/journal.pone.0137665",
+      "datePublished": "2015",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cardiovascular_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:dd75399ba8cc8ef5e7161191a2b4eaa0e9dd21c1f49ac23e3853008273ca46a0",
+  "audit_hash": "0xe4986d0dc1c3d2d4"
+}

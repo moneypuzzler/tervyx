@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+IMM-IMM04_01,2017,randomized controlled trial,SMD,0.3179,0.1903,0.4455,82,88,mixed,10.1136/bmj.i6583,immune_journal,upper_respiratory,Adults with vitamin D deficiency,None reported,13
+IMM-IMM04_02,2020,randomized controlled trial,SMD,0.2021,0.0577,0.3465,99,67,low,10.1093/cid/ciz801,immune_journal,upper_respiratory,Adults with vitamin D deficiency,None reported,14
+IMM-IMM04_03,2024,randomized controlled trial,SMD,0.367,0.2483,0.4857,106,59,some concerns,10.1007/s00394-025-03674-1,immune_journal,upper_respiratory,Adults with vitamin D deficiency,Mild GI discomfort,16

@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+IMM-IMM03_01,2023,randomized controlled trial,SMD,0.2969,0.1772,0.4166,120,102,mixed,10.1186/s12889-023-17229-8,immune_journal,antiviral_support,Adults with common cold,Transient headache,16
+IMM-IMM03_02,2020,randomized controlled trial,SMD,0.2278,0.0814,0.3742,61,76,low,10.1155/2020/8573742,immune_journal,antiviral_support,Adults with common cold,Transient headache,14
+IMM-IMM03_03,2013,randomized controlled trial,SMD,0.2782,0.1571,0.3993,118,56,low,10.1002/14651858.CD000980.pub4,immune_journal,antiviral_support,Adults with common cold,Mild GI discomfort,11

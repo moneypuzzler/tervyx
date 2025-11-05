@@ -1,0 +1,16 @@
+entry_id,study_id,substance,category,indication,doi,pmid,year,notes
+CARD-REDY-STATIN,CARD-REDY-STATIN_01,red_yeast_rice,cardiovascular,cholesterol,10.3389/fphar.2022.744928,35264949,2022,Meta-analysis: RYR reduces mortality and cardiovascular events
+CARD-REDY-STATIN,CARD-REDY-STATIN_02,red_yeast_rice,cardiovascular,cholesterol,10.3389/fphar.2022.917521,,2022,Meta-analysis: RYR for hyperlipidemia
+CARD-REDY-STATIN,CARD-REDY-STATIN_03,red_yeast_rice,cardiovascular,cholesterol,10.1038/s41598-020-59796-5,,2020,Meta-analysis: RYR in myocardial infarction patients
+CARD-POLY-RES,CARD-POLY-RES_01,polyphenol_blend,cardiovascular,blood_pressure,10.1371/journal.pone.0137665,26375022,2015,Meta-analysis: Grape polyphenols reduce systolic BP
+CARD-POLY-RES,CARD-POLY-RES_02,polyphenol_blend,cardiovascular,blood_pressure,10.1097/MD.0000000000004247,,2016,Meta-analysis: Grape seed extract reduces BP (16 RCTs)
+CARD-POLY-RES,CARD-POLY-RES_03,polyphenol_blend,cardiovascular,blood_pressure,10.1016/j.metabol.2009.05.030,19608210,2009,RCT: Grape seed extract in metabolic syndrome
+IMM-IMM03,IMM-IMM03_01,vitamin_c,immune,antiviral_support,10.1186/s12889-023-17229-8,38082300,2023,Meta-analysis: Vitamin C reduces cold severity by 15%
+IMM-IMM03,IMM-IMM03_02,vitamin_c,immune,antiviral_support,10.1155/2020/8573742,33102597,2020,Meta-analysis: Vitamin C + antiviral therapy (10 RCTs)
+IMM-IMM03,IMM-IMM03_03,vitamin_c,immune,antiviral_support,10.1002/14651858.CD000980.pub4,23440782,2013,Cochrane review: Vitamin C for common cold
+IMM-IMM04,IMM-IMM04_01,vitamin_d,immune,upper_respiratory,10.1136/bmj.i6583,28202713,2017,IPD meta-analysis: Vitamin D prevents ARI (11321 participants)
+IMM-IMM04,IMM-IMM04_02,vitamin_d,immune,upper_respiratory,10.1093/cid/ciz801,31420647,2020,RCT: Monthly high-dose vitamin D in older adults
+IMM-IMM04,IMM-IMM04_03,vitamin_d,immune,upper_respiratory,10.1007/s00394-025-03674-1,40310565,2024,RCT: Daily vitamin D in children aged 6-8
+IMM-IMM07,IMM-IMM07_01,beta_glucans,immune,antiviral_support,10.1089/jmf.2019.0076,31573387,2020,RCT: Yeast beta-glucan in marathon runners
+IMM-IMM07,IMM-IMM07_02,beta_glucans,immune,antiviral_support,10.1080/07315724.2018.1478339,,2019,RCT: Yeast beta-glucan reduces URTI severity
+IMM-IMM07,IMM-IMM07_03,beta_glucans,immune,antiviral_support,10.1007/s00394-021-02566-4,33900466,2021,Meta-analysis: Yeast beta-glucans for URTI prevention

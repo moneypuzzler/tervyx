@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-05T08:53:30.819338+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/nutraceutical/beta-glucans-imm-imm07/immune/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "IMM-IMM07_01",
+      "year": 2020,
+      "design": "randomized controlled trial",
+      "journal": "immune_journal",
+      "outcome": "antiviral_support",
+      "population": "Healthy adults with URTI risk",
+      "adverse_events": "Transient headache",
+      "doi": "10.1089/jmf.2019.0076",
+      "url": "https://doi.org/10.1089/jmf.2019.0076",
+      "citation": "IMM-IMM07_01 (2020); Journal: immune_journal; Design: randomized controlled trial; Population: Healthy adults with URTI risk; Outcome: antiviral_support; DOI: 10.1089/jmf.2019.0076; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "IMM-IMM07_02",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "immune_journal",
+      "outcome": "antiviral_support",
+      "population": "Healthy adults with URTI risk",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1080/07315724.2018.1478339",
+      "url": "https://doi.org/10.1080/07315724.2018.1478339",
+      "citation": "IMM-IMM07_02 (2019); Journal: immune_journal; Design: randomized controlled trial; Population: Healthy adults with URTI risk; Outcome: antiviral_support; DOI: 10.1080/07315724.2018.1478339; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "IMM-IMM07_03",
+      "year": 2021,
+      "design": "randomized controlled trial",
+      "journal": "immune_journal",
+      "outcome": "antiviral_support",
+      "population": "Healthy adults with URTI risk",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1007/s00394-021-02566-4",
+      "url": "https://doi.org/10.1007/s00394-021-02566-4",
+      "citation": "IMM-IMM07_03 (2021); Journal: immune_journal; Design: randomized controlled trial; Population: Healthy adults with URTI risk; Outcome: antiviral_support; DOI: 10.1007/s00394-021-02566-4; Adverse Events: Mild GI discomfort."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1007/s00394-021-02566-4",
+      "study_ids": [
+        "IMM-IMM07_03"
+      ],
+      "primary_study_id": "IMM-IMM07_03",
+      "url": "https://doi.org/10.1007/s00394-021-02566-4"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1080/07315724.2018.1478339",
+      "study_ids": [
+        "IMM-IMM07_02"
+      ],
+      "primary_study_id": "IMM-IMM07_02",
+      "url": "https://doi.org/10.1080/07315724.2018.1478339"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1089/jmf.2019.0076",
+      "study_ids": [
+        "IMM-IMM07_01"
+      ],
+      "primary_study_id": "IMM-IMM07_01",
+      "url": "https://doi.org/10.1089/jmf.2019.0076"
+    }
+  ],
+  "manifest_hash": "sha256:41744aa264f3c182e720d5bed3d9ecb552dbc9e97422bad522bd658a5165e822"
+}

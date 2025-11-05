@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-05T08:53:29.109008+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/nutraceutical/polyphenol-blend-card-poly-res/cardiovascular/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "CARD-POLY-RES_01",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "blood_pressure",
+      "population": "Adults with pre-hypertension",
+      "adverse_events": "Transient headache",
+      "doi": "10.1371/journal.pone.0137665",
+      "url": "https://doi.org/10.1371/journal.pone.0137665",
+      "citation": "CARD-POLY-RES_01 (2015); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with pre-hypertension; Outcome: blood_pressure; DOI: 10.1371/journal.pone.0137665; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "CARD-POLY-RES_02",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "blood_pressure",
+      "population": "Adults with pre-hypertension",
+      "adverse_events": "Transient headache",
+      "doi": "10.1097/md.0000000000004247",
+      "url": "https://doi.org/10.1097/md.0000000000004247",
+      "citation": "CARD-POLY-RES_02 (2016); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with pre-hypertension; Outcome: blood_pressure; DOI: 10.1097/md.0000000000004247; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "CARD-POLY-RES_03",
+      "year": 2009,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "blood_pressure",
+      "population": "Adults with pre-hypertension",
+      "adverse_events": "Transient headache",
+      "doi": "10.1016/j.metabol.2009.05.030",
+      "url": "https://doi.org/10.1016/j.metabol.2009.05.030",
+      "citation": "CARD-POLY-RES_03 (2009); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with pre-hypertension; Outcome: blood_pressure; DOI: 10.1016/j.metabol.2009.05.030; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1016/j.metabol.2009.05.030",
+      "study_ids": [
+        "CARD-POLY-RES_03"
+      ],
+      "primary_study_id": "CARD-POLY-RES_03",
+      "url": "https://doi.org/10.1016/j.metabol.2009.05.030"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1097/md.0000000000004247",
+      "study_ids": [
+        "CARD-POLY-RES_02"
+      ],
+      "primary_study_id": "CARD-POLY-RES_02",
+      "url": "https://doi.org/10.1097/md.0000000000004247"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1371/journal.pone.0137665",
+      "study_ids": [
+        "CARD-POLY-RES_01"
+      ],
+      "primary_study_id": "CARD-POLY-RES_01",
+      "url": "https://doi.org/10.1371/journal.pone.0137665"
+    }
+  ],
+  "manifest_hash": "sha256:dd75399ba8cc8ef5e7161191a2b4eaa0e9dd21c1f49ac23e3853008273ca46a0"
+}

@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+IMM-IMM07_01,2020,randomized controlled trial,SMD,0.4098,0.2637,0.5559,93,88,low,10.1089/jmf.2019.0076,immune_journal,antiviral_support,Healthy adults with URTI risk,Transient headache,13
+IMM-IMM07_02,2019,randomized controlled trial,SMD,0.4208,0.2723,0.5693,60,106,mixed,10.1080/07315724.2018.1478339,immune_journal,antiviral_support,Healthy adults with URTI risk,Mild GI discomfort,11
+IMM-IMM07_03,2021,randomized controlled trial,SMD,0.3328,0.1801,0.4855,81,83,low,10.1007/s00394-021-02566-4,immune_journal,antiviral_support,Healthy adults with URTI risk,Mild GI discomfort,11

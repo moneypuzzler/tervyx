@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-05T08:53:30.238702+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/nutraceutical/vitamin-d-imm-imm04/immune/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "IMM-IMM04_01",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "immune_journal",
+      "outcome": "upper_respiratory",
+      "population": "Adults with vitamin D deficiency",
+      "adverse_events": "None reported",
+      "doi": "10.1136/bmj.i6583",
+      "url": "https://doi.org/10.1136/bmj.i6583",
+      "citation": "IMM-IMM04_01 (2017); Journal: immune_journal; Design: randomized controlled trial; Population: Adults with vitamin D deficiency; Outcome: upper_respiratory; DOI: 10.1136/bmj.i6583; Adverse Events: None reported."
+    },
+    {
+      "study_id": "IMM-IMM04_02",
+      "year": 2020,
+      "design": "randomized controlled trial",
+      "journal": "immune_journal",
+      "outcome": "upper_respiratory",
+      "population": "Adults with vitamin D deficiency",
+      "adverse_events": "None reported",
+      "doi": "10.1093/cid/ciz801",
+      "url": "https://doi.org/10.1093/cid/ciz801",
+      "citation": "IMM-IMM04_02 (2020); Journal: immune_journal; Design: randomized controlled trial; Population: Adults with vitamin D deficiency; Outcome: upper_respiratory; DOI: 10.1093/cid/ciz801; Adverse Events: None reported."
+    },
+    {
+      "study_id": "IMM-IMM04_03",
+      "year": 2024,
+      "design": "randomized controlled trial",
+      "journal": "immune_journal",
+      "outcome": "upper_respiratory",
+      "population": "Adults with vitamin D deficiency",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1007/s00394-025-03674-1",
+      "url": "https://doi.org/10.1007/s00394-025-03674-1",
+      "citation": "IMM-IMM04_03 (2024); Journal: immune_journal; Design: randomized controlled trial; Population: Adults with vitamin D deficiency; Outcome: upper_respiratory; DOI: 10.1007/s00394-025-03674-1; Adverse Events: Mild GI discomfort."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1007/s00394-025-03674-1",
+      "study_ids": [
+        "IMM-IMM04_03"
+      ],
+      "primary_study_id": "IMM-IMM04_03",
+      "url": "https://doi.org/10.1007/s00394-025-03674-1"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1093/cid/ciz801",
+      "study_ids": [
+        "IMM-IMM04_02"
+      ],
+      "primary_study_id": "IMM-IMM04_02",
+      "url": "https://doi.org/10.1093/cid/ciz801"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1136/bmj.i6583",
+      "study_ids": [
+        "IMM-IMM04_01"
+      ],
+      "primary_study_id": "IMM-IMM04_01",
+      "url": "https://doi.org/10.1136/bmj.i6583"
+    }
+  ],
+  "manifest_hash": "sha256:42b343cb5c01251c4e6923881a6b9b323cb4dfdaf6c8e420fc0b9847a88f7b74"
+}

@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "nutraceutical:red-yeast-rice-card-redy-statin:cardiovascular:v1",
+  "title": "Red Yeast Rice Card Redy Statin — Cardiovascular",
+  "category": "cardiovascular",
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.0,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 1.0,
+    "j": 0.701,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 535,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": -0.657292,
+    "mu_CI95": [
+      -0.729341,
+      -0.585243
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-30"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "tier_label_system": "TEL-5",
+  "created": "2025-11-05T08:53:28.548089+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1038/s41598-020-59796-5",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1038/s41598-020-59796-5",
+      "studyIds": [
+        "CARD-REDY-STATIN_03"
+      ],
+      "citation": "CARD-REDY-STATIN_03 (2020); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with hyperlipidemia; Outcome: cholesterol; DOI: 10.1038/s41598-020-59796-5; Adverse Events: Transient headache.",
+      "doi": "10.1038/s41598-020-59796-5",
+      "sameAs": "https://doi.org/10.1038/s41598-020-59796-5",
+      "datePublished": "2020",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cardiovascular_journal"
+      }
+    },
+    {
+      "@id": "doi:10.3389/fphar.2022.744928",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.3389/fphar.2022.744928",
+      "studyIds": [
+        "CARD-REDY-STATIN_01"
+      ],
+      "citation": "CARD-REDY-STATIN_01 (2022); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with hyperlipidemia; Outcome: cholesterol; DOI: 10.3389/fphar.2022.744928; Adverse Events: Transient headache.",
+      "doi": "10.3389/fphar.2022.744928",
+      "sameAs": "https://doi.org/10.3389/fphar.2022.744928",
+      "datePublished": "2022",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cardiovascular_journal"
+      }
+    },
+    {
+      "@id": "doi:10.3389/fphar.2022.917521",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.3389/fphar.2022.917521",
+      "studyIds": [
+        "CARD-REDY-STATIN_02"
+      ],
+      "citation": "CARD-REDY-STATIN_02 (2022); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with hyperlipidemia; Outcome: cholesterol; DOI: 10.3389/fphar.2022.917521; Adverse Events: Transient headache.",
+      "doi": "10.3389/fphar.2022.917521",
+      "sameAs": "https://doi.org/10.3389/fphar.2022.917521",
+      "datePublished": "2022",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cardiovascular_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:7840d38464fe4e280b26c0b12072c4c78754bbea467601cb7e863d458010ff76",
+  "audit_hash": "0x9a6809d87c180d84"
+}
