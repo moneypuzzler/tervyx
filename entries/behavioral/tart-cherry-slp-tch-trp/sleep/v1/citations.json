@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:02:26.576343+00:00",
+  "generated": "2025-11-05T09:32:12.402531+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/tart-cherry-slp-tch-trp/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/slp-tch-trp-03"
     }
   ],
-  "manifest_hash": "sha256:e4675ff7397303b1d843f23af91be727e3bbc3f1022911ef1b8c9585be79d2e0"
+  "manifest_hash": "sha256:d940acf79a1ff282166abcf8fff226c42f07379aaf964e59546617081add70ed"
 }

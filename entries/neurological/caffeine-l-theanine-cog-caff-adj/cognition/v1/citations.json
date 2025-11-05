@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:35:24.077912+00:00",
+  "generated": "2025-11-05T09:32:46.101194+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/caffeine-l-theanine-cog-caff-adj/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1179/147683008x301513"
     }
   ],
-  "manifest_hash": "sha256:14e525cf5d9088935c1f3ed7e09f5439ad8bf5a1bd67192b4df53c6973bb94f9"
+  "manifest_hash": "sha256:ec33a6f971549ca53d74c0ff8fc96eb8bbcf56894337653ed33636f9f735381c"
 }

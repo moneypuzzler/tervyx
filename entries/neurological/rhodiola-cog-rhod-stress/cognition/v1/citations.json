@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:35:21.290911+00:00",
+  "generated": "2025-11-05T09:32:43.884394+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/rhodiola-cog-rhod-stress/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1016/s0944-7113(00)80078-1"
     }
   ],
-  "manifest_hash": "sha256:5f3a07e830f43c186c7ffacaf659e44cd1633eafe75fa3ccf6f197766a1ff715"
+  "manifest_hash": "sha256:7460e128e4ddcda17c688e7a99603aeff9ba595c8f326800ab0364658901a6f6"
 }

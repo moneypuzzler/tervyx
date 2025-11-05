@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:16:50.878740+00:00",
+  "generated": "2025-11-05T09:32:16.874279+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/gaba-slp-gaba-oral/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.3988/jcn.2018.14.3.291"
     }
   ],
-  "manifest_hash": "sha256:c491968d009be85e1b17e8d939150bce0feb1e359461cd59a87664ddcf7f10d8"
+  "manifest_hash": "sha256:0d4efd99857f54fca23bb0b9c847a3e0e07ccc61cbfa8dfc8bd69ab106da0e1a"
 }

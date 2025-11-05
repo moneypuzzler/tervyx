@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:35:22.390016+00:00",
+  "generated": "2025-11-05T09:32:44.769117+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/omega-3-cog-omega-cog/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1186/s12916-024-03296-0"
     }
   ],
-  "manifest_hash": "sha256:d5e038794e4db98eb673cfe91f589df3d542676d4d29351a99710afa8cc452d4"
+  "manifest_hash": "sha256:abc7c4bb9505965df10b608e53f28f42c5491e72fdbeb1c0c21869e3ccd7596d"
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:22:11.436332+00:00",
+  "generated": "2025-11-05T09:32:31.008896+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/cbd-ment-cbd-anx/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.5664/jcsm.10998"
     }
   ],
-  "manifest_hash": "sha256:a91118cbd2f14acfb526ac445a87f94f601a8fb921f992691db1ef57cdb0f6d9"
+  "manifest_hash": "sha256:f14d2b97b39d36cdc469fbc2f681caac067f65cdc9883ddd389e5ef4d92a2bbe"
 }

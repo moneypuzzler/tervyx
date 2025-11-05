@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:35:17.815102+00:00",
+  "generated": "2025-11-05T09:32:41.273895+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/bacopa-cog-bac-mem/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.2174/1874467210801030030"
     }
   ],
-  "manifest_hash": "sha256:c807206e5cb0740f54ac9da9cc628e5f996c6c06742f3b31120c1ca7ff9d65ca"
+  "manifest_hash": "sha256:935afb4f90e87376ee01d438ad14d5886d1c14af5d194070b8d27ccf6b1f4f49"
 }

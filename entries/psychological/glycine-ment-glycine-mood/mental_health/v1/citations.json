@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:22:13.087068+00:00",
+  "generated": "2025-11-05T09:32:32.350035+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/glycine-ment-glycine-mood/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1111/j.1479-8425.2007.00262.x"
     }
   ],
-  "manifest_hash": "sha256:6731293f9b87da8fbe66cb0baf210f11e8f5b9ea76fec850e233e3387ba4fa10"
+  "manifest_hash": "sha256:e93062770ccc60ced0b9eff4037f8044d738ae55a32d9850b6ee027cfb1151d7"
 }

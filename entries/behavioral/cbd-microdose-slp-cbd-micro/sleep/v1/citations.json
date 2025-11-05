@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:16:55.468320+00:00",
+  "generated": "2025-11-05T09:32:20.522173+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/cbd-microdose-slp-cbd-micro/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.5664/jcsm.10998"
     }
   ],
-  "manifest_hash": "sha256:d9806191ede68961d425f3a633908ab47f3de631ddd074df8436379073a372a4"
+  "manifest_hash": "sha256:401cb63ff910a4b137f049047d267071c0389d5de79a3f06c6ae5dc38c16e14a"
 }

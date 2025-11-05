@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:35:23.517990+00:00",
+  "generated": "2025-11-05T09:32:45.610288+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/curcumin-cog-curc-neuro/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.3389/frdem.2023.1222708"
     }
   ],
-  "manifest_hash": "sha256:2c807f96b16e21f35d1ab98e5645c4b52efdf063b4480246b14854e44623eef8"
+  "manifest_hash": "sha256:096ebd0d08d9d11b1fa2ecc85bf91614e1448ed802ce2fa8a732ea62e675b0ff"
 }

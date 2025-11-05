@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:35:21.829779+00:00",
+  "generated": "2025-11-05T09:32:44.329164+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/panax-ginseng-cog-gins-adapt/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.3390/ph13040057"
     }
   ],
-  "manifest_hash": "sha256:26b0ab7094e13f1a63f0d6f9d232968a58a3eeb87a3e253e9ef2ddf4da5e8e1f"
+  "manifest_hash": "sha256:e39a39eb345643ad7035d88488f04da1bf58795b165e78abf5f21d09e3c4ea4a"
 }

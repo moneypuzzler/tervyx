@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:16:50.324551+00:00",
+  "generated": "2025-11-05T09:32:16.441226+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/5htp-slp-fhtp-serotonin/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1093/nutrit/nuab027"
     }
   ],
-  "manifest_hash": "sha256:b0ae6956f4d401144ad4ab9fee7f43aecf384db624f0321b1dfa7fed57a2a8fe"
+  "manifest_hash": "sha256:7ed8ee1dff9c1a32f6206bfe114978aa079730addc134573fdca39e511c875d2"
 }

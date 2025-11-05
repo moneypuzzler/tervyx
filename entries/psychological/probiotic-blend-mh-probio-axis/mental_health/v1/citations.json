@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:22:09.726336+00:00",
+  "generated": "2025-11-05T09:32:29.724749+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/probiotic-blend-mh-probio-axis/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.3920/bm2020.0063"
     }
   ],
-  "manifest_hash": "sha256:c22457fdbebd48fa3c20cc1086acb6a3b16fd448ac7c6fb74ae9debe738ac994"
+  "manifest_hash": "sha256:174772f6c5c02be7d9eda677e75ea8eb2fe50775621dcd31337b49ae50fff5f1"
 }

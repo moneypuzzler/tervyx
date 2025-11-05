@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:22:10.314520+00:00",
+  "generated": "2025-11-05T09:32:30.169154+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/prebiotic-fiber-ment-gut-axis/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.3390/nu14091918"
     }
   ],
-  "manifest_hash": "sha256:e325f7faf3cb7ac7e1f561307eb8310cc9844d86f8e5ed40bd2b57ebd3a4baa5"
+  "manifest_hash": "sha256:64e96ae98c32d6a4843ea75b6d207d02a59a45988b2ec7291b5d749b5fb3f7cc"
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:35:22.950574+00:00",
+  "generated": "2025-11-05T09:32:45.195616+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/acetyl-l-carnitine-cog-acet-learn/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.3390/nu12061710"
     }
   ],
-  "manifest_hash": "sha256:8bbac7e30461101f17b4120393ac74b9a516352a0bb48a1c5eefe6888764f489"
+  "manifest_hash": "sha256:07a75f7203622f38ffe4b111b1460a4159fef934563180e1b463b7452ec374d0"
 }

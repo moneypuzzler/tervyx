@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:35:18.958537+00:00",
+  "generated": "2025-11-05T09:32:42.114518+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/ginkgo-cog-gink-circ/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.3389/fphar.2019.01688"
     }
   ],
-  "manifest_hash": "sha256:0e35bda057706db4f8306b16b3793b4e5c9ffdfad434f24416b4d129a3318983"
+  "manifest_hash": "sha256:75e7564c65f453becd36be1ce780b4fffd08633ea03a22aef45e5f42411589d6"
 }
