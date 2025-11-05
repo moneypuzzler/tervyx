@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:50:02.715931+00:00",
+  "generated": "2025-11-05T07:02:27.648999+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/cbd-slp-cbd-insomnia/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/slp-cbd-insomnia-03"
     }
   ],
-  "manifest_hash": "sha256:20a4b39cf2e750194729dd5d53933de5baeb1158ba569ab06823bd6a23baf833"
+  "manifest_hash": "sha256:c324c21796f3cefe2dc51cc413dc163164ecc42ff4450d416c2f34fde6873047"
 }

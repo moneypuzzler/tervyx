@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:50:06.158329+00:00",
+  "generated": "2025-11-05T07:02:25.500658+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/l-theanine-slp-thn-alpha/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/slp-thn-alpha-03"
     }
   ],
-  "manifest_hash": "sha256:8f60f18785391972974e070a658b3c6f9339a6d24551d672d349060c898a5f45"
+  "manifest_hash": "sha256:fd1a1c04b16c9a21998cb3ef860f4c4462d23922255b9679b51098a4d3269b1d"
 }

@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:07.879840+00:00",
+  "created": "2025-11-05T07:02:24.355100+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,31 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/slp-mag-core-01",
+      "@id": "doi:10.1016/j.sleep.2024.03.039",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-mag-core-01",
+      "identifier": "doi:10.1016/j.sleep.2024.03.039",
+      "studyIds": [
+        "SLP-MAG-CORE-03"
+      ],
+      "citation": "SLP-MAG-CORE-03 (2020); Journal: sleep-journal-03; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1016/j.sleep.2024.03.039; Adverse Events: None reported.",
+      "doi": "10.1016/j.sleep.2024.03.039",
+      "sameAs": "https://doi.org/10.1016/j.sleep.2024.03.039",
+      "datePublished": "2020",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep-journal-03"
+      }
+    },
+    {
+      "@id": "doi:10.1684/mrh.2010.0220",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1684/mrh.2010.0220",
       "studyIds": [
         "SLP-MAG-CORE-01"
       ],
-      "citation": "SLP-MAG-CORE-01 (2010); Journal: sleep-journal-01; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-mag-core-01; Adverse Events: Transient headache.",
-      "doi": "10.1234/slp-mag-core-01",
-      "sameAs": "https://doi.org/10.1234/slp-mag-core-01",
+      "citation": "SLP-MAG-CORE-01 (2010); Journal: sleep-journal-01; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1684/mrh.2010.0220; Adverse Events: Transient headache.",
+      "doi": "10.1684/mrh.2010.0220",
+      "sameAs": "https://doi.org/10.1684/mrh.2010.0220",
       "datePublished": "2010",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,38 +92,22 @@
       }
     },
     {
-      "@id": "doi:10.1234/slp-mag-core-02",
+      "@id": "doi:10.3390/nu12051375",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-mag-core-02",
+      "identifier": "doi:10.3390/nu12051375",
       "studyIds": [
         "SLP-MAG-CORE-02"
       ],
-      "citation": "SLP-MAG-CORE-02 (2015); Journal: sleep-journal-02; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-mag-core-02; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/slp-mag-core-02",
-      "sameAs": "https://doi.org/10.1234/slp-mag-core-02",
+      "citation": "SLP-MAG-CORE-02 (2015); Journal: sleep-journal-02; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.3390/nu12051375; Adverse Events: Mild GI discomfort.",
+      "doi": "10.3390/nu12051375",
+      "sameAs": "https://doi.org/10.3390/nu12051375",
       "datePublished": "2015",
       "isPartOf": {
         "@type": "Periodical",
         "name": "sleep-journal-02"
       }
-    },
-    {
-      "@id": "doi:10.1234/slp-mag-core-03",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-mag-core-03",
-      "studyIds": [
-        "SLP-MAG-CORE-03"
-      ],
-      "citation": "SLP-MAG-CORE-03 (2020); Journal: sleep-journal-03; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-mag-core-03; Adverse Events: None reported.",
-      "doi": "10.1234/slp-mag-core-03",
-      "sameAs": "https://doi.org/10.1234/slp-mag-core-03",
-      "datePublished": "2020",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "sleep-journal-03"
-      }
     }
   ],
-  "citations_manifest_hash": "sha256:53e502ee51865e42189dcfcf779dd29fa5d5cad17d56d8dbf23824cf490690a1",
-  "audit_hash": "0x4bc67b0da8b450fc"
+  "citations_manifest_hash": "sha256:167c2196dc89668bd54c2365578cd93e5f55e334b229b310006c38b40b844e75",
+  "audit_hash": "0x41a583656da12483"
 }

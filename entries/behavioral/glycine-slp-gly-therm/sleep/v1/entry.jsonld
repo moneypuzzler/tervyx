@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:04.441590+00:00",
+  "created": "2025-11-05T07:04:17.267217+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,16 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/slp-gly-therm-01",
+      "@id": "doi:10.1111/j.1479-8425.2007.00262.x",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-gly-therm-01",
+      "identifier": "doi:10.1111/j.1479-8425.2007.00262.x",
       "studyIds": [
-        "SLP-GLY-THERM_01"
+        "SLP-GLY-THERM_01",
+        "SLP-GLY-THERM_03"
       ],
-      "citation": "SLP-GLY-THERM_01 (2008); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1234/slp-gly-therm-01; Adverse Events: None reported.",
-      "doi": "10.1234/slp-gly-therm-01",
-      "sameAs": "https://doi.org/10.1234/slp-gly-therm-01",
+      "citation": "SLP-GLY-THERM_01 (2008); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1111/j.1479-8425.2007.00262.x; Adverse Events: None reported.",
+      "doi": "10.1111/j.1479-8425.2007.00262.x",
+      "sameAs": "https://doi.org/10.1111/j.1479-8425.2007.00262.x",
       "datePublished": "2008",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,38 +77,22 @@
       }
     },
     {
-      "@id": "doi:10.1234/slp-gly-therm-02",
+      "@id": "doi:10.3389/fneur.2012.00061",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-gly-therm-02",
+      "identifier": "doi:10.3389/fneur.2012.00061",
       "studyIds": [
         "SLP-GLY-THERM_02"
       ],
-      "citation": "SLP-GLY-THERM_02 (2009); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1234/slp-gly-therm-02; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/slp-gly-therm-02",
-      "sameAs": "https://doi.org/10.1234/slp-gly-therm-02",
+      "citation": "SLP-GLY-THERM_02 (2009); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.3389/fneur.2012.00061; Adverse Events: Mild GI discomfort.",
+      "doi": "10.3389/fneur.2012.00061",
+      "sameAs": "https://doi.org/10.3389/fneur.2012.00061",
       "datePublished": "2009",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "sleep_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/slp-gly-therm-03",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-gly-therm-03",
-      "studyIds": [
-        "SLP-GLY-THERM_03"
-      ],
-      "citation": "SLP-GLY-THERM_03 (2010); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1234/slp-gly-therm-03; Adverse Events: Transient headache.",
-      "doi": "10.1234/slp-gly-therm-03",
-      "sameAs": "https://doi.org/10.1234/slp-gly-therm-03",
-      "datePublished": "2010",
       "isPartOf": {
         "@type": "Periodical",
         "name": "sleep_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:ed4d5653bf620e1abd23a8147086b14b1526ba00661cc0c542ccb52936738328",
-  "audit_hash": "0xa1efd02fe5c0c169"
+  "citations_manifest_hash": "sha256:de395944917d655b86996a6c923edcf09e591ca40a557a274022c7205c630053",
+  "audit_hash": "0xb654989e93dce31e"
 }

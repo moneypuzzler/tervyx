@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:01.631837+00:00",
+  "created": "2025-11-05T07:04:12.469238+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,31 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/slp-ash-hpa-01",
+      "@id": "doi:10.1016/j.jep.2020.113276",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-ash-hpa-01",
-      "studyIds": [
-        "SLP-ASH-HPA_01"
-      ],
-      "citation": "SLP-ASH-HPA_01 (2007); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with stress insomnia concerns; Outcome: stress_insomnia; DOI: 10.1234/slp-ash-hpa-01; Adverse Events: Transient headache.",
-      "doi": "10.1234/slp-ash-hpa-01",
-      "sameAs": "https://doi.org/10.1234/slp-ash-hpa-01",
-      "datePublished": "2007",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "sleep_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/slp-ash-hpa-02",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-ash-hpa-02",
+      "identifier": "doi:10.1016/j.jep.2020.113276",
       "studyIds": [
         "SLP-ASH-HPA_02"
       ],
-      "citation": "SLP-ASH-HPA_02 (2008); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with stress insomnia concerns; Outcome: stress_insomnia; DOI: 10.1234/slp-ash-hpa-02; Adverse Events: None reported.",
-      "doi": "10.1234/slp-ash-hpa-02",
-      "sameAs": "https://doi.org/10.1234/slp-ash-hpa-02",
+      "citation": "SLP-ASH-HPA_02 (2008); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with stress insomnia concerns; Outcome: stress_insomnia; DOI: 10.1016/j.jep.2020.113276; Adverse Events: None reported.",
+      "doi": "10.1016/j.jep.2020.113276",
+      "sameAs": "https://doi.org/10.1016/j.jep.2020.113276",
       "datePublished": "2008",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,22 +76,38 @@
       }
     },
     {
-      "@id": "doi:10.1234/slp-ash-hpa-03",
+      "@id": "doi:10.1371/journal.pone.0257843",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-ash-hpa-03",
+      "identifier": "doi:10.1371/journal.pone.0257843",
       "studyIds": [
         "SLP-ASH-HPA_03"
       ],
-      "citation": "SLP-ASH-HPA_03 (2009); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with stress insomnia concerns; Outcome: stress_insomnia; DOI: 10.1234/slp-ash-hpa-03; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/slp-ash-hpa-03",
-      "sameAs": "https://doi.org/10.1234/slp-ash-hpa-03",
+      "citation": "SLP-ASH-HPA_03 (2009); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with stress insomnia concerns; Outcome: stress_insomnia; DOI: 10.1371/journal.pone.0257843; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1371/journal.pone.0257843",
+      "sameAs": "https://doi.org/10.1371/journal.pone.0257843",
       "datePublished": "2009",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    },
+    {
+      "@id": "doi:10.7759/cureus.5797",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.7759/cureus.5797",
+      "studyIds": [
+        "SLP-ASH-HPA_01"
+      ],
+      "citation": "SLP-ASH-HPA_01 (2007); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with stress insomnia concerns; Outcome: stress_insomnia; DOI: 10.7759/cureus.5797; Adverse Events: Transient headache.",
+      "doi": "10.7759/cureus.5797",
+      "sameAs": "https://doi.org/10.7759/cureus.5797",
+      "datePublished": "2007",
       "isPartOf": {
         "@type": "Periodical",
         "name": "sleep_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:797435c6f40ec2eb19972f93b3fe32709374471a59c8e5ed20e31dd348440c4a",
-  "audit_hash": "0xf7b7bddc5e5e89f5"
+  "citations_manifest_hash": "sha256:8dbd01b4f3697fa15bfcb6034554ad32e73b58fc445f59c8f92ccca11ec4f0ff",
+  "audit_hash": "0x3a96c83c7a763d6e"
 }
