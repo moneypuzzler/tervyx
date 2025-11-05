@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+COG-ALPGPC-FOCUS_01,2012,randomized controlled trial,SMD,-0.35,-0.5,-0.2,70,65,low,10.3390/nu16234240,cognition_journal,attention,Adults with attention concerns,None reported,9
+COG-ALPGPC-FOCUS_02,2014,randomized controlled trial,SMD,-0.4,-0.55,-0.25,80,75,some concerns,10.3233/JAD-221189,cognition_journal,attention,Adults with attention concerns,Mild GI discomfort,10
+COG-ALPGPC-FOCUS_03,2016,randomized controlled trial,SMD,-0.45,-0.6,-0.3,90,85,low,10.1186/s12970-017-0196-5,cognition_journal,attention,Adults with attention concerns,None reported,11

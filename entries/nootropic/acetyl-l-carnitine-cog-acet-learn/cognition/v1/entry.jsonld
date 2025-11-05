@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "nootropic:acetyl-l-carnitine-cog-acet-learn:cognition:v1",
+  "title": "Acetyl L Carnitine Cog Acet Learn — Cognition",
+  "category": "cognition",
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.0,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.9,
+    "j": 0.701,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 465,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": -0.4,
+    "mu_CI95": [
+      -0.486603,
+      -0.313397
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-30"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "tier_label_system": "TEL-5",
+  "created": "2025-11-05T08:36:46.825220+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1002/14651858.cd003158",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1002/14651858.cd003158",
+      "studyIds": [
+        "COG-ACET-LEARN_02"
+      ],
+      "citation": "COG-ACET-LEARN_02 (2014); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.1002/14651858.cd003158; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1002/14651858.cd003158",
+      "sameAs": "https://doi.org/10.1002/14651858.cd003158",
+      "datePublished": "2014",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cognition_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1111/j.1447-0594.2010.00595.x",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1111/j.1447-0594.2010.00595.x",
+      "studyIds": [
+        "COG-ACET-LEARN_03"
+      ],
+      "citation": "COG-ACET-LEARN_03 (2016); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.1111/j.1447-0594.2010.00595.x; Adverse Events: None reported.",
+      "doi": "10.1111/j.1447-0594.2010.00595.x",
+      "sameAs": "https://doi.org/10.1111/j.1447-0594.2010.00595.x",
+      "datePublished": "2016",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cognition_journal"
+      }
+    },
+    {
+      "@id": "doi:10.3390/nu12051389",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.3390/nu12051389",
+      "studyIds": [
+        "COG-ACET-LEARN_01"
+      ],
+      "citation": "COG-ACET-LEARN_01 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.3390/nu12051389; Adverse Events: None reported.",
+      "doi": "10.3390/nu12051389",
+      "sameAs": "https://doi.org/10.3390/nu12051389",
+      "datePublished": "2012",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cognition_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:f53017214a0896b28f34c2f6bb62e944c7e13f588ceda92d53ccdb00d9ffaeb0",
+  "audit_hash": "0x1b7f370d394717b1"
+}

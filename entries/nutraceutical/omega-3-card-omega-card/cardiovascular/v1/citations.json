@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-05T08:36:47.367111+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/nutraceutical/omega-3-card-omega-card/cardiovascular/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "CARD-OMEGA-CARD_01",
+      "year": 2012,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "triglycerides",
+      "population": "Adults with triglycerides concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1016/j.eclinm.2021.100997",
+      "url": "https://doi.org/10.1016/j.eclinm.2021.100997",
+      "citation": "CARD-OMEGA-CARD_01 (2012); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with triglycerides concerns; Outcome: triglycerides; DOI: 10.1016/j.eclinm.2021.100997; Adverse Events: None reported."
+    },
+    {
+      "study_id": "CARD-OMEGA-CARD_02",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "triglycerides",
+      "population": "Adults with triglycerides concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1016/j.mayocp.2020.08.034",
+      "url": "https://doi.org/10.1016/j.mayocp.2020.08.034",
+      "citation": "CARD-OMEGA-CARD_02 (2014); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with triglycerides concerns; Outcome: triglycerides; DOI: 10.1016/j.mayocp.2020.08.034; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "CARD-OMEGA-CARD_03",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "triglycerides",
+      "population": "Adults with triglycerides concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1161/jaha.119.013543",
+      "url": "https://doi.org/10.1161/jaha.119.013543",
+      "citation": "CARD-OMEGA-CARD_03 (2016); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with triglycerides concerns; Outcome: triglycerides; DOI: 10.1161/jaha.119.013543; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1016/j.eclinm.2021.100997",
+      "study_ids": [
+        "CARD-OMEGA-CARD_01"
+      ],
+      "primary_study_id": "CARD-OMEGA-CARD_01",
+      "url": "https://doi.org/10.1016/j.eclinm.2021.100997"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1016/j.mayocp.2020.08.034",
+      "study_ids": [
+        "CARD-OMEGA-CARD_02"
+      ],
+      "primary_study_id": "CARD-OMEGA-CARD_02",
+      "url": "https://doi.org/10.1016/j.mayocp.2020.08.034"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1161/jaha.119.013543",
+      "study_ids": [
+        "CARD-OMEGA-CARD_03"
+      ],
+      "primary_study_id": "CARD-OMEGA-CARD_03",
+      "url": "https://doi.org/10.1161/jaha.119.013543"
+    }
+  ],
+  "manifest_hash": "sha256:d9e9b70ee86d3719f51ed6b7299f33e70eac2ea9d0371b18b8a1607e95ad4433"
+}

@@ -2,8 +2,8 @@
   "seed": 20251005,
   "n_draws": 10000,
   "tau2_method": "REML",
-  "delta": 0.3,
-  "P_effect_gt_delta": 0.9887,
+  "delta": 2.0,
+  "P_effect_gt_delta": 0.0,
   "mu_hat": 0.4,
   "mu_CI95": [
     0.313397,
@@ -31,9 +31,9 @@
     "iterations": 1,
     "final_nll": -4.163978327478115
   },
-  "computation_time_ms": 19.9,
+  "computation_time_ms": 20.5,
   "tel5_input": {
-    "P_value": 0.9887,
+    "P_value": 0.0,
     "phi_violation": false,
     "k_violation": false
   },

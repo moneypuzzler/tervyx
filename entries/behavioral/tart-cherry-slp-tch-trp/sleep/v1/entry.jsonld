@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 333,
-    "I2": 4.4,
+    "total_n": 465,
+    "I2": 0.0,
     "tau2": 0.0,
-    "mu_hat": 0.375403,
+    "mu_hat": 0.4,
     "mu_CI95": [
-      0.296653,
-      0.454152
+      0.313397,
+      0.486603
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T07:02:26.576463+00:00",
+  "created": "2025-11-05T08:36:43.076055+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,31 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/slp-tch-trp-01",
+      "@id": "doi:10.1007/s00394-011-0263-7",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-tch-trp-01",
+      "identifier": "doi:10.1007/s00394-011-0263-7",
       "studyIds": [
         "SLP-TCH-TRP_01"
       ],
-      "citation": "SLP-TCH-TRP_01 (2011); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep duration concerns; Outcome: sleep_duration; DOI: 10.1234/slp-tch-trp-01; Adverse Events: None reported.",
-      "doi": "10.1234/slp-tch-trp-01",
-      "sameAs": "https://doi.org/10.1234/slp-tch-trp-01",
-      "datePublished": "2011",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "sleep_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/slp-tch-trp-02",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-tch-trp-02",
-      "studyIds": [
-        "SLP-TCH-TRP_02"
-      ],
-      "citation": "SLP-TCH-TRP_02 (2012); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep duration concerns; Outcome: sleep_duration; DOI: 10.1234/slp-tch-trp-02; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/slp-tch-trp-02",
-      "sameAs": "https://doi.org/10.1234/slp-tch-trp-02",
+      "citation": "SLP-TCH-TRP_01 (2012); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep duration concerns; Outcome: sleep_duration; DOI: 10.1007/s00394-011-0263-7; Adverse Events: None reported.",
+      "doi": "10.1007/s00394-011-0263-7",
+      "sameAs": "https://doi.org/10.1007/s00394-011-0263-7",
       "datePublished": "2012",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,22 +76,38 @@
       }
     },
     {
-      "@id": "doi:10.1234/slp-tch-trp-03",
+      "@id": "doi:10.1089/jmf.2009.0096",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-tch-trp-03",
+      "identifier": "doi:10.1089/jmf.2009.0096",
+      "studyIds": [
+        "SLP-TCH-TRP_02"
+      ],
+      "citation": "SLP-TCH-TRP_02 (2014); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep duration concerns; Outcome: sleep_duration; DOI: 10.1089/jmf.2009.0096; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1089/jmf.2009.0096",
+      "sameAs": "https://doi.org/10.1089/jmf.2009.0096",
+      "datePublished": "2014",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1097/mjt.0000000000000584",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1097/mjt.0000000000000584",
       "studyIds": [
         "SLP-TCH-TRP_03"
       ],
-      "citation": "SLP-TCH-TRP_03 (2013); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep duration concerns; Outcome: sleep_duration; DOI: 10.1234/slp-tch-trp-03; Adverse Events: Transient headache.",
-      "doi": "10.1234/slp-tch-trp-03",
-      "sameAs": "https://doi.org/10.1234/slp-tch-trp-03",
-      "datePublished": "2013",
+      "citation": "SLP-TCH-TRP_03 (2016); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep duration concerns; Outcome: sleep_duration; DOI: 10.1097/mjt.0000000000000584; Adverse Events: None reported.",
+      "doi": "10.1097/mjt.0000000000000584",
+      "sameAs": "https://doi.org/10.1097/mjt.0000000000000584",
+      "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
         "name": "sleep_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:e4675ff7397303b1d843f23af91be727e3bbc3f1022911ef1b8c9585be79d2e0",
-  "audit_hash": "0x285a9137d63d591f"
+  "citations_manifest_hash": "sha256:e673cc5cef9f98acde799e81f8dcf2bdcd96ee4f504a4ff75ae3b853a6345949",
+  "audit_hash": "0x9bae4f6e9bd3a512"
 }

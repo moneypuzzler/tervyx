@@ -1,0 +1,91 @@
+entry_id,study_id,substance,category,indication,doi,pmid,notes
+SLP-THN-ALPHA,SLP-THN-ALPHA_01,l_theanine,sleep,sleep_quality,10.1016/j.smrv.2025.102076,,Meta-analysis - L-theanine sleep quality improvement
+SLP-THN-ALPHA,SLP-THN-ALPHA_02,l_theanine,sleep,sleep_quality,10.3389/fnut.2024.1419978,31623400,Lactium + L-theanine sleep RCT
+SLP-THN-ALPHA,SLP-THN-ALPHA_03,l_theanine,sleep,sleep_quality,10.1038/s41598-024-58661-z,,Nutraceutical combination sleep quality RCT
+SLP-TCH-TRP,SLP-TCH-TRP_01,tart_cherry,sleep,sleep_duration,10.1007/s00394-011-0263-7,22038497,Howatson 2012 - Tart cherry melatonin sleep time
+SLP-TCH-TRP,SLP-TCH-TRP_02,tart_cherry,sleep,sleep_duration,10.1089/jmf.2009.0096,20438325,Pigeon 2010 - Tart cherry insomnia older adults
+SLP-TCH-TRP,SLP-TCH-TRP_03,tart_cherry,sleep,sleep_duration,10.1097/MJT.0000000000000584,28901958,Losso 2018 - Tart cherry pilot insomnia study
+SLP-LEM-TRANQ,SLP-LEM-TRANQ_01,lemon_balm,sleep,sleep_quality,10.3390/nu16234199,39683592,Melissa officinalis phytosome sleep quality RCT 2024
+SLP-LEM-TRANQ,SLP-LEM-TRANQ_02,lemon_balm,sleep,sleep_quality,10.1016/j.eujim.2019.01.010,,Melissa CABG surgery anxiety sleep RCT
+SLP-LEM-TRANQ,SLP-LEM-TRANQ_03,lemon_balm,sleep,sleep_quality,10.3389/fphar.2023.1250560,,Melissa emotional distress poor sleep RCT
+MENT-OMEGA-MOOD,MENT-OMEGA-MOOD_01,omega_3,mental_health,depression,10.1371/journal.pone.0096905,,Grosso 2014 - Omega-3 depression meta-analysis
+MENT-OMEGA-MOOD,MENT-OMEGA-MOOD_02,omega_3,mental_health,depression,10.1038/s41398-019-0515-5,,Liao 2019 - EPA omega-3 depression meta
+MENT-OMEGA-MOOD,MENT-OMEGA-MOOD_03,omega_3,mental_health,depression,10.1038/tp.2016.29,,Mocking 2016 - Omega-3 depression meta-regression
+MENT-SAM-E,MENT-SAM-E_01,sam_e,mental_health,depression,10.1016/j.euroneuro.2018.07.098,30115553,Sarris 2018 - Adjunctive SAMe depression RCT
+MENT-SAM-E,MENT-SAM-E_02,sam_e,mental_health,depression,10.4088/JCP.13m08591,24500245,Mischoulon 2014 - SAMe vs escitalopram RCT
+MENT-SAM-E,MENT-SAM-E_03,sam_e,mental_health,depression,10.1055/s-0035-1549928,,Sarris 2015 - SAMe gender effects analysis
+MENT-STJ-WORT,MENT-STJ-WORT_01,st_johns_wort,mental_health,depression,10.1001/jama.285.15.1978,11308434,Shelton 2001 - Hypericum major depression RCT
+MENT-STJ-WORT,MENT-STJ-WORT_02,st_johns_wort,mental_health,depression,10.1001/jama.287.14.1807,11939866,Hypericum 2002 - HDTSG depression RCT
+MENT-STJ-WORT,MENT-STJ-WORT_03,st_johns_wort,mental_health,depression,10.1186/1741-7015-4-14,,Kasper 2006 - St Johns wort WS 5570
+COG-LION-NEURO,COG-LION-NEURO_01,lions_mane,cognition,cognitive_decline,10.2220/biomedres.40.125,31413233,Saitsu 2019 - Hericium cognitive improvement RCT
+COG-LION-NEURO,COG-LION-NEURO_02,lions_mane,cognition,cognitive_decline,10.3390/ijms19020341,,Chiu 2018 - Erinacine A BDNF signaling
+COG-LION-NEURO,COG-LION-NEURO_03,lions_mane,cognition,cognitive_decline,10.3390/nu15224842,,Docherty 2023 - Lions mane acute chronic RCT
+COG-ALPGPC-FOCUS,COG-ALPGPC-FOCUS_01,alpha_gpc,cognition,attention,10.3390/nu16234240,39683633,Alpha-GPC cognitive performance healthy men 2024
+COG-ALPGPC-FOCUS,COG-ALPGPC-FOCUS_02,alpha_gpc,cognition,attention,10.3233/JAD-221189,36683513,Alpha-GPC systematic review meta-analysis 2023
+COG-ALPGPC-FOCUS,COG-ALPGPC-FOCUS_03,alpha_gpc,cognition,attention,10.1186/s12970-017-0196-5,,Alpha-GPC physical psychomotor performance RCT
+COG-ACET-LEARN,COG-ACET-LEARN_01,acetyl_l_carnitine,cognition,processing_speed,10.3390/nu12051389,32408706,ALCAR dementia cognitive disorders review 2020
+COG-ACET-LEARN,COG-ACET-LEARN_02,acetyl_l_carnitine,cognition,processing_speed,10.1002/14651858.CD003158,12804452,Cochrane ALCAR dementia review 2003
+COG-ACET-LEARN,COG-ACET-LEARN_03,acetyl_l_carnitine,cognition,processing_speed,10.1111/j.1447-0594.2010.00595.x,,Kobayashi 2010 - ALCAR aged brain function
+CARD-OMEGA-CARD,CARD-OMEGA-CARD_01,omega_3,cardiovascular,triglycerides,10.1016/j.eclinm.2021.100997,34505026,Omega-3 cardiovascular outcomes meta 38 RCTs
+CARD-OMEGA-CARD,CARD-OMEGA-CARD_02,omega_3,cardiovascular,triglycerides,10.1016/j.mayocp.2020.08.034,,Mayo - Omega-3 dosage cardiovascular effects
+CARD-OMEGA-CARD,CARD-OMEGA-CARD_03,omega_3,cardiovascular,triglycerides,10.1161/JAHA.119.013543,,JAHA - Marine omega-3 meta 13 RCTs
+CARD-REDY-STATIN,CARD-REDY-STATIN_01,red_yeast_rice,cardiovascular,cholesterol,,,
+CARD-REDY-STATIN,CARD-REDY-STATIN_02,red_yeast_rice,cardiovascular,cholesterol,,,
+CARD-REDY-STATIN,CARD-REDY-STATIN_03,red_yeast_rice,cardiovascular,cholesterol,,,
+CARD-POLY-RES,CARD-POLY-RES_01,polyphenol_blend,cardiovascular,blood_pressure,,,
+CARD-POLY-RES,CARD-POLY-RES_02,polyphenol_blend,cardiovascular,blood_pressure,,,
+CARD-POLY-RES,CARD-POLY-RES_03,polyphenol_blend,cardiovascular,blood_pressure,,,
+IMM-IMM03,IMM-IMM03_01,vitamin_c,immune,antiviral_support,,,
+IMM-IMM03,IMM-IMM03_02,vitamin_c,immune,antiviral_support,,,
+IMM-IMM03,IMM-IMM03_03,vitamin_c,immune,antiviral_support,,,
+IMM-IMM04,IMM-IMM04_01,vitamin_d,immune,upper_respiratory,,,
+IMM-IMM04,IMM-IMM04_02,vitamin_d,immune,upper_respiratory,,,
+IMM-IMM04,IMM-IMM04_03,vitamin_d,immune,upper_respiratory,,,
+IMM-IMM07,IMM-IMM07_01,beta_glucans,immune,antiviral_support,,,
+IMM-IMM07,IMM-IMM07_02,beta_glucans,immune,antiviral_support,,,
+IMM-IMM07,IMM-IMM07_03,beta_glucans,immune,antiviral_support,,,
+META-GLU02,META-GLU02_01,alpha_lipoic_acid,metabolic,insulin_sensitivity,,,
+META-GLU02,META-GLU02_02,alpha_lipoic_acid,metabolic,insulin_sensitivity,,,
+META-GLU02,META-GLU02_03,alpha_lipoic_acid,metabolic,insulin_sensitivity,,,
+META-GLU06,META-GLU06_01,bitter_melon,metabolic,glucose_control,,,
+META-GLU06,META-GLU06_02,bitter_melon,metabolic,glucose_control,,,
+META-GLU06,META-GLU06_03,bitter_melon,metabolic,glucose_control,,,
+META-GLU09,META-GLU09_01,vanadyl_sulfate,metabolic,weight_management,,,
+META-GLU09,META-GLU09_02,vanadyl_sulfate,metabolic,weight_management,,,
+META-GLU09,META-GLU09_03,vanadyl_sulfate,metabolic,weight_management,,,
+INFL-INF03,INFL-INF03_01,omega_3,inflammation,recovery,,,
+INFL-INF03,INFL-INF03_02,omega_3,inflammation,recovery,,,
+INFL-INF03,INFL-INF03_03,omega_3,inflammation,recovery,,,
+INFL-INF04,INFL-INF04_01,ginger,inflammation,joint_pain,,,
+INFL-INF04,INFL-INF04_02,ginger,inflammation,joint_pain,,,
+INFL-INF04,INFL-INF04_03,ginger,inflammation,joint_pain,,,
+INFL-INF07,INFL-INF07_01,green_tea,inflammation,systemic_inflammation,,,
+INFL-INF07,INFL-INF07_02,green_tea,inflammation,systemic_inflammation,,,
+INFL-INF07,INFL-INF07_03,green_tea,inflammation,systemic_inflammation,,,
+LONG-LON01,LONG-LON01_01,nicotinamide_riboside,longevity,cellular_ageing,,,
+LONG-LON01,LONG-LON01_02,nicotinamide_riboside,longevity,cellular_ageing,,,
+LONG-LON01,LONG-LON01_03,nicotinamide_riboside,longevity,cellular_ageing,,,
+LONG-LON02,LONG-LON02_01,nicotinamide_mononucleotide,longevity,mitochondrial_function,,,
+LONG-LON02,LONG-LON02_02,nicotinamide_mononucleotide,longevity,mitochondrial_function,,,
+LONG-LON02,LONG-LON02_03,nicotinamide_mononucleotide,longevity,mitochondrial_function,,,
+LONG-LON04,LONG-LON04_01,pterostilbene,longevity,cellular_ageing,,,
+LONG-LON04,LONG-LON04_02,pterostilbene,longevity,cellular_ageing,,,
+LONG-LON04,LONG-LON04_03,pterostilbene,longevity,cellular_ageing,,,
+ENDO-END01,ENDO-END01_01,inositol,endocrine,pcos_support,,,
+ENDO-END01,ENDO-END01_02,inositol,endocrine,pcos_support,,,
+ENDO-END01,ENDO-END01_03,inositol,endocrine,pcos_support,,,
+ENDO-END02,ENDO-END02_01,berberine,endocrine,thyroid_support,,,
+ENDO-END02,ENDO-END02_02,berberine,endocrine,thyroid_support,,,
+ENDO-END02,ENDO-END02_03,berberine,endocrine,thyroid_support,,,
+GUT-PROBIO-SCFAs,GUT-PROBIO-SCFAs_01,probiotic_blend,gut_health,short_chain_fatty_acids,,,
+GUT-PROBIO-SCFAs,GUT-PROBIO-SCFAs_02,probiotic_blend,gut_health,short_chain_fatty_acids,,,
+GUT-PROBIO-SCFAs,GUT-PROBIO-SCFAs_03,probiotic_blend,gut_health,short_chain_fatty_acids,,,
+GUT-PREBIO-BLOAT,GUT-PREBIO-BLOAT_01,prebiotic_fiber,gut_health,bloating_relief,,,
+GUT-PREBIO-BLOAT,GUT-PREBIO-BLOAT_02,prebiotic_fiber,gut_health,bloating_relief,,,
+GUT-PREBIO-BLOAT,GUT-PREBIO-BLOAT_03,prebiotic_fiber,gut_health,bloating_relief,,,
+IMM-BCP-IMM,IMM-BCP-IMM_01,black_cumin_seed,immune_health,immune_modulation,,,
+IMM-BCP-IMM,IMM-BCP-IMM_02,black_cumin_seed,immune_health,immune_modulation,,,
+IMM-BCP-IMM,IMM-BCP-IMM_03,black_cumin_seed,immune_health,immune_modulation,,,
+IMM-BETA-GLUC,IMM-BETA-GLUC_01,beta_glucan,immune_health,immune_readiness,,,
+IMM-BETA-GLUC,IMM-BETA-GLUC_02,beta_glucan,immune_health,immune_readiness,,,
+IMM-BETA-GLUC,IMM-BETA-GLUC_03,beta_glucan,immune_health,immune_readiness,,,

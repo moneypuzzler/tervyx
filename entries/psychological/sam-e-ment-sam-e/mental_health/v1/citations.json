@@ -1,36 +1,12 @@
 {
-  "generated": "2025-11-05T07:22:04.776785+00:00",
+  "generated": "2025-11-05T08:36:44.669706+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/sam-e-ment-sam-e/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
     {
       "study_id": "MENT-SAM-E_01",
-      "year": 2015,
-      "design": "randomized controlled trial",
-      "journal": "mental_health_journal",
-      "outcome": "depression",
-      "population": "Adults with depression concerns",
-      "adverse_events": "Mild GI discomfort",
-      "doi": "10.1007/s00213-019-05358-1",
-      "url": "https://doi.org/10.1007/s00213-019-05358-1",
-      "citation": "MENT-SAM-E_01 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1007/s00213-019-05358-1; Adverse Events: Mild GI discomfort."
-    },
-    {
-      "study_id": "MENT-SAM-E_02",
-      "year": 2016,
-      "design": "randomized controlled trial",
-      "journal": "mental_health_journal",
-      "outcome": "depression",
-      "population": "Adults with depression concerns",
-      "adverse_events": "Transient headache",
-      "doi": "10.1176/appi.ajp.2009.09081198",
-      "url": "https://doi.org/10.1176/appi.ajp.2009.09081198",
-      "citation": "MENT-SAM-E_02 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1176/appi.ajp.2009.09081198; Adverse Events: Transient headache."
-    },
-    {
-      "study_id": "MENT-SAM-E_03",
-      "year": 2017,
+      "year": 2012,
       "design": "randomized controlled trial",
       "journal": "mental_health_journal",
       "outcome": "depression",
@@ -38,37 +14,61 @@
       "adverse_events": "None reported",
       "doi": "10.1016/j.euroneuro.2018.07.098",
       "url": "https://doi.org/10.1016/j.euroneuro.2018.07.098",
-      "citation": "MENT-SAM-E_03 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1016/j.euroneuro.2018.07.098; Adverse Events: None reported."
+      "citation": "MENT-SAM-E_01 (2012); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1016/j.euroneuro.2018.07.098; Adverse Events: None reported."
+    },
+    {
+      "study_id": "MENT-SAM-E_02",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "depression",
+      "population": "Adults with depression concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.4088/jcp.13m08591",
+      "url": "https://doi.org/10.4088/jcp.13m08591",
+      "citation": "MENT-SAM-E_02 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.4088/jcp.13m08591; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "MENT-SAM-E_03",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "depression",
+      "population": "Adults with depression concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1055/s-0035-1549928",
+      "url": "https://doi.org/10.1055/s-0035-1549928",
+      "citation": "MENT-SAM-E_03 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1055/s-0035-1549928; Adverse Events: None reported."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1007/s00213-019-05358-1",
+      "identifier": "10.1016/j.euroneuro.2018.07.098",
       "study_ids": [
         "MENT-SAM-E_01"
       ],
       "primary_study_id": "MENT-SAM-E_01",
-      "url": "https://doi.org/10.1007/s00213-019-05358-1"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1016/j.euroneuro.2018.07.098",
-      "study_ids": [
-        "MENT-SAM-E_03"
-      ],
-      "primary_study_id": "MENT-SAM-E_03",
       "url": "https://doi.org/10.1016/j.euroneuro.2018.07.098"
     },
     {
       "type": "doi",
-      "identifier": "10.1176/appi.ajp.2009.09081198",
+      "identifier": "10.1055/s-0035-1549928",
+      "study_ids": [
+        "MENT-SAM-E_03"
+      ],
+      "primary_study_id": "MENT-SAM-E_03",
+      "url": "https://doi.org/10.1055/s-0035-1549928"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.4088/jcp.13m08591",
       "study_ids": [
         "MENT-SAM-E_02"
       ],
       "primary_study_id": "MENT-SAM-E_02",
-      "url": "https://doi.org/10.1176/appi.ajp.2009.09081198"
+      "url": "https://doi.org/10.4088/jcp.13m08591"
     }
   ],
-  "manifest_hash": "sha256:e38f3d7909a360549a0b9d4cec5d85387f7666c89f168c32483da6c41e3175cb"
+  "manifest_hash": "sha256:faa8ed8d569616429fbbd14d1e1ae21dbd7c1b956f5147afe6600561332ef32d"
 }

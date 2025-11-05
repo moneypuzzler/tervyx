@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-05T08:36:45.729836+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/nootropic/lions-mane-cog-lion-neuro/cognition/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "COG-LION-NEURO_01",
+      "year": 2012,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "cognitive_decline",
+      "population": "Adults with cognitive decline concerns",
+      "adverse_events": "None reported",
+      "doi": "10.2220/biomedres.40.125",
+      "url": "https://doi.org/10.2220/biomedres.40.125",
+      "citation": "COG-LION-NEURO_01 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.2220/biomedres.40.125; Adverse Events: None reported."
+    },
+    {
+      "study_id": "COG-LION-NEURO_02",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "cognitive_decline",
+      "population": "Adults with cognitive decline concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.3390/ijms19020341",
+      "url": "https://doi.org/10.3390/ijms19020341",
+      "citation": "COG-LION-NEURO_02 (2014); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.3390/ijms19020341; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "COG-LION-NEURO_03",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "cognitive_decline",
+      "population": "Adults with cognitive decline concerns",
+      "adverse_events": "None reported",
+      "doi": "10.3390/nu15224842",
+      "url": "https://doi.org/10.3390/nu15224842",
+      "citation": "COG-LION-NEURO_03 (2016); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.3390/nu15224842; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.2220/biomedres.40.125",
+      "study_ids": [
+        "COG-LION-NEURO_01"
+      ],
+      "primary_study_id": "COG-LION-NEURO_01",
+      "url": "https://doi.org/10.2220/biomedres.40.125"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.3390/ijms19020341",
+      "study_ids": [
+        "COG-LION-NEURO_02"
+      ],
+      "primary_study_id": "COG-LION-NEURO_02",
+      "url": "https://doi.org/10.3390/ijms19020341"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.3390/nu15224842",
+      "study_ids": [
+        "COG-LION-NEURO_03"
+      ],
+      "primary_study_id": "COG-LION-NEURO_03",
+      "url": "https://doi.org/10.3390/nu15224842"
+    }
+  ],
+  "manifest_hash": "sha256:68c167fb5f6a959da51d3193154e3ce3da14932b88752819d36011217fe9f55a"
+}

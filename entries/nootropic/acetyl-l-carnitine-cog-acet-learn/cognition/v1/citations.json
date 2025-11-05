@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-05T08:36:46.825101+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/nootropic/acetyl-l-carnitine-cog-acet-learn/cognition/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "COG-ACET-LEARN_01",
+      "year": 2012,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "processing_speed",
+      "population": "Adults with processing speed concerns",
+      "adverse_events": "None reported",
+      "doi": "10.3390/nu12051389",
+      "url": "https://doi.org/10.3390/nu12051389",
+      "citation": "COG-ACET-LEARN_01 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.3390/nu12051389; Adverse Events: None reported."
+    },
+    {
+      "study_id": "COG-ACET-LEARN_02",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "processing_speed",
+      "population": "Adults with processing speed concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1002/14651858.cd003158",
+      "url": "https://doi.org/10.1002/14651858.cd003158",
+      "citation": "COG-ACET-LEARN_02 (2014); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.1002/14651858.cd003158; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "COG-ACET-LEARN_03",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "processing_speed",
+      "population": "Adults with processing speed concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1111/j.1447-0594.2010.00595.x",
+      "url": "https://doi.org/10.1111/j.1447-0594.2010.00595.x",
+      "citation": "COG-ACET-LEARN_03 (2016); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.1111/j.1447-0594.2010.00595.x; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1002/14651858.cd003158",
+      "study_ids": [
+        "COG-ACET-LEARN_02"
+      ],
+      "primary_study_id": "COG-ACET-LEARN_02",
+      "url": "https://doi.org/10.1002/14651858.cd003158"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1111/j.1447-0594.2010.00595.x",
+      "study_ids": [
+        "COG-ACET-LEARN_03"
+      ],
+      "primary_study_id": "COG-ACET-LEARN_03",
+      "url": "https://doi.org/10.1111/j.1447-0594.2010.00595.x"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.3390/nu12051389",
+      "study_ids": [
+        "COG-ACET-LEARN_01"
+      ],
+      "primary_study_id": "COG-ACET-LEARN_01",
+      "url": "https://doi.org/10.3390/nu12051389"
+    }
+  ],
+  "manifest_hash": "sha256:f53017214a0896b28f34c2f6bb62e944c7e13f588ceda92d53ccdb00d9ffaeb0"
+}

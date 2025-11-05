@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+COG-LION-NEURO_01,2012,randomized controlled trial,SMD,-0.35,-0.5,-0.2,70,65,low,10.2220/biomedres.40.125,cognition_journal,cognitive_decline,Adults with cognitive decline concerns,None reported,9
+COG-LION-NEURO_02,2014,randomized controlled trial,SMD,-0.4,-0.55,-0.25,80,75,some concerns,10.3390/ijms19020341,cognition_journal,cognitive_decline,Adults with cognitive decline concerns,Mild GI discomfort,10
+COG-LION-NEURO_03,2016,randomized controlled trial,SMD,-0.45,-0.6,-0.3,90,85,low,10.3390/nu15224842,cognition_journal,cognitive_decline,Adults with cognitive decline concerns,None reported,11

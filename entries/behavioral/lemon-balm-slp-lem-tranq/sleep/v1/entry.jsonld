@@ -6,7 +6,7 @@
   "category": "sleep",
   "tier": "Gold",
   "label": "PASS",
-  "P_effect_gt_delta": 0.9999,
+  "P_effect_gt_delta": 1.0,
   "gate_results": {
     "phi": "PASS",
     "r": 1.0,
@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 387,
+    "total_n": 465,
     "I2": 0.0,
     "tau2": 0.0,
-    "mu_hat": 0.347957,
+    "mu_hat": 0.4,
     "mu_CI95": [
-      0.259331,
-      0.436583
+      0.313397,
+      0.486603
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T07:16:52.584637+00:00",
+  "created": "2025-11-05T08:36:43.605910+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -64,28 +64,12 @@
       "@type": "ScholarlyArticle",
       "identifier": "doi:10.1016/j.eujim.2019.01.010",
       "studyIds": [
-        "SLP-LEM-TRANQ_01"
+        "SLP-LEM-TRANQ_02"
       ],
-      "citation": "SLP-LEM-TRANQ_01 (2014); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1016/j.eujim.2019.01.010; Adverse Events: None reported.",
+      "citation": "SLP-LEM-TRANQ_02 (2014); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1016/j.eujim.2019.01.010; Adverse Events: Mild GI discomfort.",
       "doi": "10.1016/j.eujim.2019.01.010",
       "sameAs": "https://doi.org/10.1016/j.eujim.2019.01.010",
       "datePublished": "2014",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "sleep_journal"
-      }
-    },
-    {
-      "@id": "doi:10.3233/s12349-010-0045-4",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.3233/s12349-010-0045-4",
-      "studyIds": [
-        "SLP-LEM-TRANQ_03"
-      ],
-      "citation": "SLP-LEM-TRANQ_03 (2016); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.3233/s12349-010-0045-4; Adverse Events: Transient headache.",
-      "doi": "10.3233/s12349-010-0045-4",
-      "sameAs": "https://doi.org/10.3233/s12349-010-0045-4",
-      "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
         "name": "sleep_journal"
@@ -96,18 +80,34 @@
       "@type": "ScholarlyArticle",
       "identifier": "doi:10.3389/fphar.2023.1250560",
       "studyIds": [
-        "SLP-LEM-TRANQ_02"
+        "SLP-LEM-TRANQ_03"
       ],
-      "citation": "SLP-LEM-TRANQ_02 (2015); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.3389/fphar.2023.1250560; Adverse Events: Mild GI discomfort.",
+      "citation": "SLP-LEM-TRANQ_03 (2016); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.3389/fphar.2023.1250560; Adverse Events: None reported.",
       "doi": "10.3389/fphar.2023.1250560",
       "sameAs": "https://doi.org/10.3389/fphar.2023.1250560",
-      "datePublished": "2015",
+      "datePublished": "2016",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    },
+    {
+      "@id": "doi:10.3390/nu16234199",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.3390/nu16234199",
+      "studyIds": [
+        "SLP-LEM-TRANQ_01"
+      ],
+      "citation": "SLP-LEM-TRANQ_01 (2012); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.3390/nu16234199; Adverse Events: None reported.",
+      "doi": "10.3390/nu16234199",
+      "sameAs": "https://doi.org/10.3390/nu16234199",
+      "datePublished": "2012",
       "isPartOf": {
         "@type": "Periodical",
         "name": "sleep_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:17f05841e820c389a676dd92e85410f776857bc880e584e3488693cb6019bd32",
-  "audit_hash": "0x28740fe31cae3892"
+  "citations_manifest_hash": "sha256:5676645281b3030937aca73da04ea2c41c8a7938b42539dc86c681dc82f5030a",
+  "audit_hash": "0x57a0d94a965bf6c8"
 }

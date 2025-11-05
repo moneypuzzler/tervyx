@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "nootropic:lions-mane-cog-lion-neuro:cognition:v1",
+  "title": "Lions Mane Cog Lion Neuro — Cognition",
+  "category": "cognition",
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.0,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 1.0,
+    "j": 0.701,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 465,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": -0.4,
+    "mu_CI95": [
+      -0.486603,
+      -0.313397
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-30"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "tier_label_system": "TEL-5",
+  "created": "2025-11-05T08:36:45.729936+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.2220/biomedres.40.125",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.2220/biomedres.40.125",
+      "studyIds": [
+        "COG-LION-NEURO_01"
+      ],
+      "citation": "COG-LION-NEURO_01 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.2220/biomedres.40.125; Adverse Events: None reported.",
+      "doi": "10.2220/biomedres.40.125",
+      "sameAs": "https://doi.org/10.2220/biomedres.40.125",
+      "datePublished": "2012",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cognition_journal"
+      }
+    },
+    {
+      "@id": "doi:10.3390/ijms19020341",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.3390/ijms19020341",
+      "studyIds": [
+        "COG-LION-NEURO_02"
+      ],
+      "citation": "COG-LION-NEURO_02 (2014); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.3390/ijms19020341; Adverse Events: Mild GI discomfort.",
+      "doi": "10.3390/ijms19020341",
+      "sameAs": "https://doi.org/10.3390/ijms19020341",
+      "datePublished": "2014",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cognition_journal"
+      }
+    },
+    {
+      "@id": "doi:10.3390/nu15224842",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.3390/nu15224842",
+      "studyIds": [
+        "COG-LION-NEURO_03"
+      ],
+      "citation": "COG-LION-NEURO_03 (2016); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.3390/nu15224842; Adverse Events: None reported.",
+      "doi": "10.3390/nu15224842",
+      "sameAs": "https://doi.org/10.3390/nu15224842",
+      "datePublished": "2016",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cognition_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:68c167fb5f6a959da51d3193154e3ce3da14932b88752819d36011217fe9f55a",
+  "audit_hash": "0x4b451055c97c5e58"
+}

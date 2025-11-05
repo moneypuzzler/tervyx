@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+CARD-OMEGA-CARD_01,2012,randomized controlled trial,SMD,-0.35,-0.5,-0.2,70,65,low,10.1016/j.eclinm.2021.100997,cardiovascular_journal,triglycerides,Adults with triglycerides concerns,None reported,9
+CARD-OMEGA-CARD_02,2014,randomized controlled trial,SMD,-0.4,-0.55,-0.25,80,75,some concerns,10.1016/j.mayocp.2020.08.034,cardiovascular_journal,triglycerides,Adults with triglycerides concerns,Mild GI discomfort,10
+CARD-OMEGA-CARD_03,2016,randomized controlled trial,SMD,-0.45,-0.6,-0.3,90,85,low,10.1161/JAHA.119.013543,cardiovascular_journal,triglycerides,Adults with triglycerides concerns,None reported,11

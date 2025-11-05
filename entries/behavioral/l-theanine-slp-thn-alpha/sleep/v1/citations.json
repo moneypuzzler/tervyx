@@ -1,74 +1,74 @@
 {
-  "generated": "2025-11-05T07:02:25.500658+00:00",
+  "generated": "2025-11-05T08:36:42.556326+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/l-theanine-slp-thn-alpha/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
     {
       "study_id": "SLP-THN-ALPHA_01",
-      "year": 2009,
-      "design": "randomized controlled trial",
-      "journal": "sleep_journal",
-      "outcome": "sleep_quality",
-      "population": "Adults with sleep quality concerns",
-      "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/slp-thn-alpha-01",
-      "url": "https://doi.org/10.1234/slp-thn-alpha-01",
-      "citation": "SLP-THN-ALPHA_01 (2009); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-thn-alpha-01; Adverse Events: Mild GI discomfort."
-    },
-    {
-      "study_id": "SLP-THN-ALPHA_02",
-      "year": 2010,
-      "design": "randomized controlled trial",
-      "journal": "sleep_journal",
-      "outcome": "sleep_quality",
-      "population": "Adults with sleep quality concerns",
-      "adverse_events": "Transient headache",
-      "doi": "10.1234/slp-thn-alpha-02",
-      "url": "https://doi.org/10.1234/slp-thn-alpha-02",
-      "citation": "SLP-THN-ALPHA_02 (2010); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-thn-alpha-02; Adverse Events: Transient headache."
-    },
-    {
-      "study_id": "SLP-THN-ALPHA_03",
-      "year": 2011,
+      "year": 2012,
       "design": "randomized controlled trial",
       "journal": "sleep_journal",
       "outcome": "sleep_quality",
       "population": "Adults with sleep quality concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/slp-thn-alpha-03",
-      "url": "https://doi.org/10.1234/slp-thn-alpha-03",
-      "citation": "SLP-THN-ALPHA_03 (2011); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-thn-alpha-03; Adverse Events: None reported."
+      "doi": "10.1016/j.smrv.2025.102076",
+      "url": "https://doi.org/10.1016/j.smrv.2025.102076",
+      "citation": "SLP-THN-ALPHA_01 (2012); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1016/j.smrv.2025.102076; Adverse Events: None reported."
+    },
+    {
+      "study_id": "SLP-THN-ALPHA_02",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "sleep_quality",
+      "population": "Adults with sleep quality concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.3389/fnut.2024.1419978",
+      "url": "https://doi.org/10.3389/fnut.2024.1419978",
+      "citation": "SLP-THN-ALPHA_02 (2014); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.3389/fnut.2024.1419978; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "SLP-THN-ALPHA_03",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "sleep_quality",
+      "population": "Adults with sleep quality concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1038/s41598-024-58661-z",
+      "url": "https://doi.org/10.1038/s41598-024-58661-z",
+      "citation": "SLP-THN-ALPHA_03 (2016); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1038/s41598-024-58661-z; Adverse Events: None reported."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/slp-thn-alpha-01",
+      "identifier": "10.1016/j.smrv.2025.102076",
       "study_ids": [
         "SLP-THN-ALPHA_01"
       ],
       "primary_study_id": "SLP-THN-ALPHA_01",
-      "url": "https://doi.org/10.1234/slp-thn-alpha-01"
+      "url": "https://doi.org/10.1016/j.smrv.2025.102076"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/slp-thn-alpha-02",
-      "study_ids": [
-        "SLP-THN-ALPHA_02"
-      ],
-      "primary_study_id": "SLP-THN-ALPHA_02",
-      "url": "https://doi.org/10.1234/slp-thn-alpha-02"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/slp-thn-alpha-03",
+      "identifier": "10.1038/s41598-024-58661-z",
       "study_ids": [
         "SLP-THN-ALPHA_03"
       ],
       "primary_study_id": "SLP-THN-ALPHA_03",
-      "url": "https://doi.org/10.1234/slp-thn-alpha-03"
+      "url": "https://doi.org/10.1038/s41598-024-58661-z"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.3389/fnut.2024.1419978",
+      "study_ids": [
+        "SLP-THN-ALPHA_02"
+      ],
+      "primary_study_id": "SLP-THN-ALPHA_02",
+      "url": "https://doi.org/10.3389/fnut.2024.1419978"
     }
   ],
-  "manifest_hash": "sha256:fd1a1c04b16c9a21998cb3ef860f4c4462d23922255b9679b51098a4d3269b1d"
+  "manifest_hash": "sha256:1cd8d59f6d751d1c2fdcba7565c5b87b2238d044ef1c66783a037528fc6df033"
 }

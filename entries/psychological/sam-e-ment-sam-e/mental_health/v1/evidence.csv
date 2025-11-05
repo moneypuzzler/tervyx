@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-MENT-SAM-E_01,2015,randomized controlled trial,SMD,-0.3123,-0.4475,-0.1771,50,53,some concerns,10.1007/s00213-019-05358-1,mental_health_journal,depression,Adults with depression concerns,Mild GI discomfort,10
-MENT-SAM-E_02,2016,randomized controlled trial,SMD,-0.3377,-0.4925,-0.1828,54,56,mixed,10.1176/appi.ajp.2009.09081198,mental_health_journal,depression,Adults with depression concerns,Transient headache,11
-MENT-SAM-E_03,2017,randomized controlled trial,SMD,-0.4359,-0.5636,-0.3083,58,59,low,10.1016/j.euroneuro.2018.07.098,mental_health_journal,depression,Adults with depression concerns,None reported,6
+MENT-SAM-E_01,2012,randomized controlled trial,SMD,-0.35,-0.5,-0.2,70,65,low,10.1016/j.euroneuro.2018.07.098,mental_health_journal,depression,Adults with depression concerns,None reported,9
+MENT-SAM-E_02,2014,randomized controlled trial,SMD,-0.4,-0.55,-0.25,80,75,some concerns,10.4088/JCP.13m08591,mental_health_journal,depression,Adults with depression concerns,Mild GI discomfort,10
+MENT-SAM-E_03,2016,randomized controlled trial,SMD,-0.45,-0.6,-0.3,90,85,low,10.1055/s-0035-1549928,mental_health_journal,depression,Adults with depression concerns,None reported,11

@@ -1,0 +1,40 @@
+[
+  {
+    "entry_id": "INFL-INF04",
+    "category": "inflammation",
+    "substance": "ginger",
+    "formulation_policy": "merge",
+    "formulation_detail": "standardized protocol 4",
+    "primary_indication": "joint_pain",
+    "priority": "low",
+    "evidence_tier": "P2",
+    "source_hint": "PMID: 451004",
+    "status": "pending",
+    "assignee": "",
+    "final_tier": "",
+    "notes": "Track inflammatory biomarkers for ginger entry 4",
+    "last_updated": "2024-05-01T00:00:00Z",
+    "algo_version_pinned": "",
+    "data_freeze_policy": "",
+    "deprecation_policy": ""
+  },
+  {
+    "entry_id": "LONG-LON04",
+    "category": "longevity",
+    "substance": "pterostilbene",
+    "formulation_policy": "merge",
+    "formulation_detail": "standardized protocol 4",
+    "primary_indication": "cellular_ageing",
+    "priority": "low",
+    "evidence_tier": "P2",
+    "source_hint": "PMID: 521004",
+    "status": "pending",
+    "assignee": "",
+    "final_tier": "",
+    "notes": "Summarize longevity markers for pterostilbene study 4",
+    "last_updated": "2024-05-01T00:00:00Z",
+    "algo_version_pinned": "",
+    "data_freeze_policy": "",
+    "deprecation_policy": ""
+  }
+]

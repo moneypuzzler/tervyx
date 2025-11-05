@@ -6,7 +6,7 @@
   "category": "mental_health",
   "tier": "Gold",
   "label": "PASS",
-  "P_effect_gt_delta": 0.9326,
+  "P_effect_gt_delta": 0.9887,
   "gate_results": {
     "phi": "PASS",
     "r": 1.0,
@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 363,
+    "total_n": 465,
     "I2": 0.0,
     "tau2": 0.0,
-    "mu_hat": 0.362536,
+    "mu_hat": 0.4,
     "mu_CI95": [
-      0.279832,
-      0.44524
+      0.313397,
+      0.486603
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T07:22:05.329943+00:00",
+  "created": "2025-11-05T08:36:45.199562+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -66,10 +66,10 @@
       "studyIds": [
         "MENT-STJ-WORT_01"
       ],
-      "citation": "MENT-STJ-WORT_01 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1001/jama.285.15.1978; Adverse Events: Transient headache.",
+      "citation": "MENT-STJ-WORT_01 (2012); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1001/jama.285.15.1978; Adverse Events: None reported.",
       "doi": "10.1001/jama.285.15.1978",
       "sameAs": "https://doi.org/10.1001/jama.285.15.1978",
-      "datePublished": "2016",
+      "datePublished": "2012",
       "isPartOf": {
         "@type": "Periodical",
         "name": "mental_health_journal"
@@ -82,32 +82,32 @@
       "studyIds": [
         "MENT-STJ-WORT_02"
       ],
-      "citation": "MENT-STJ-WORT_02 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1001/jama.287.14.1807; Adverse Events: None reported.",
+      "citation": "MENT-STJ-WORT_02 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1001/jama.287.14.1807; Adverse Events: Mild GI discomfort.",
       "doi": "10.1001/jama.287.14.1807",
       "sameAs": "https://doi.org/10.1001/jama.287.14.1807",
-      "datePublished": "2017",
+      "datePublished": "2014",
       "isPartOf": {
         "@type": "Periodical",
         "name": "mental_health_journal"
       }
     },
     {
-      "@id": "doi:10.1192/bjp.186.2.99",
+      "@id": "doi:10.1186/1741-7015-4-14",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1192/bjp.186.2.99",
+      "identifier": "doi:10.1186/1741-7015-4-14",
       "studyIds": [
         "MENT-STJ-WORT_03"
       ],
-      "citation": "MENT-STJ-WORT_03 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1192/bjp.186.2.99; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1192/bjp.186.2.99",
-      "sameAs": "https://doi.org/10.1192/bjp.186.2.99",
-      "datePublished": "2018",
+      "citation": "MENT-STJ-WORT_03 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1186/1741-7015-4-14; Adverse Events: None reported.",
+      "doi": "10.1186/1741-7015-4-14",
+      "sameAs": "https://doi.org/10.1186/1741-7015-4-14",
+      "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
         "name": "mental_health_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:c09b3cc5adbe24cf9305dcff631d0fdf30ce6c2ae1fdbb3ced9e4df5d99b399a",
-  "audit_hash": "0x35a41f72fcf9f5d0"
+  "citations_manifest_hash": "sha256:1a2294029f6a555842b755796093b017c8c2397c60ef1ee6293fc4f5e5e5ad3b",
+  "audit_hash": "0xa22093a7cc88b4ae"
 }
