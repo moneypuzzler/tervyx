@@ -73,6 +73,22 @@ def validate_entry(entry_dir: Path) -> None:
         if not evidence_full.exists():
             raise AssertionError(f"Evidence CSV missing: {evidence_full}")
 
+    # Stub-Block Rules
+    tau2_method = sim_data.get("tau2_method", "")
+    if tau2_method != "REML":
+        raise AssertionError(f"[{entry_dir.name}] tau2_method must be 'REML', got {tau2_method!r}")
+
+    if sim_data.get("I2") == 0.0 and "stub" in tau2_method.lower():
+        raise AssertionError(
+            f"[{entry_dir.name}] Stub pattern detected (I2=0.0 and tau2_method contains 'stub')"
+        )
+
+    reml_convergence = sim_data.get("reml_convergence", {})
+    if reml_convergence.get("iterations") == 1 and sim_data.get("final_nll") == 0.0:
+        raise AssertionError(
+            f"[{entry_dir.name}] Unrealistic REML convergence (iterations=1, final_nll=0.0)"
+        )
+
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate entry artifacts for a shard")

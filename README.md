@@ -83,13 +83,14 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-# Scaffold a deterministic TEL-5 entry (creates evidence.csv, citations.json stub, etc.)
+# Scaffold a new entry (creates a directory with a placeholder evidence.csv)
 python scripts/tervyx.py new nutrient magnesium-glycinate sleep
 
-# Populate the evidence.csv with real study rows that satisfy ESV schema
+# Populate the evidence.csv with real study data
 $EDITOR entries/nutrient/magnesium-glycinate/sleep/v1/evidence.csv
 
-# Build the full artifact bundle (simulation.json, entry.jsonld, citations.json)
+# Build the official artifact bundle (simulation.json, entry.jsonld, citations.json)
+# This is the only supported method for generating compliant entries.
 python tools/build_protocol_entry.py entries/nutrient/magnesium-glycinate/sleep/v1
 
 # Inspect structured outputs
@@ -102,30 +103,14 @@ python scripts/tervyx.py fingerprint
 
 ## 🧮 Batch Entry Targeting Helper
 
-Large batch builds often start from a filtered slice of `catalog/entry_catalog.csv`.
-Instead of stringing together `awk`/`tail` invocations, use the curated helper below
-to emit a deterministic target list for Codex or other automation clients:
+The `select_catalog_entries.py` script helps filter the main catalog for batch processing. For example, to select 200 high-priority entries for a rebuild queue:
 
 ```bash
 python tools/select_catalog_entries.py \
-  --category "" \
-  --priorities high medium \
+  --priorities high \
   --count 200 \
-  --include-header \
-  --output reports/targets_200.csv
+  --output reports/rebuild_targets.csv
 ```
-
-Key details:
-
-- `--category` performs a substring match (case-insensitive by default).
-- `--priorities` accepts one or more priority tiers; omit the flag to include all rows.
-- `--count` controls how many matches are emitted (use `0` to disable the cap).
-- `--include-header` preserves the CSV header when downstream tooling requires it.
-
-The helper now feeds the 200-entry activation workflow. The generated
-`reports/targets_200.csv` pairs with `scripts/generate_stub_entries.py`
-to mint deterministic artifact bundles for any rows that remain in
-`pending` or `ready` states.
 
 ## 📁 Repository Structure
 
