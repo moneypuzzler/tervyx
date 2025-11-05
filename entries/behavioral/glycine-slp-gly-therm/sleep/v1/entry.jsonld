@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T07:04:17.267217+00:00",
+  "created": "2025-11-05T08:06:40.268737+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,12 +60,27 @@
   },
   "references": [
     {
+      "@id": "doi:10.1111/j.1479-8425.2006.00193.x",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1111/j.1479-8425.2006.00193.x",
+      "studyIds": [
+        "SLP-GLY-THERM_03"
+      ],
+      "citation": "SLP-GLY-THERM_03 (2010); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1111/j.1479-8425.2006.00193.x; Adverse Events: Transient headache.",
+      "doi": "10.1111/j.1479-8425.2006.00193.x",
+      "sameAs": "https://doi.org/10.1111/j.1479-8425.2006.00193.x",
+      "datePublished": "2010",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    },
+    {
       "@id": "doi:10.1111/j.1479-8425.2007.00262.x",
       "@type": "ScholarlyArticle",
       "identifier": "doi:10.1111/j.1479-8425.2007.00262.x",
       "studyIds": [
-        "SLP-GLY-THERM_01",
-        "SLP-GLY-THERM_03"
+        "SLP-GLY-THERM_01"
       ],
       "citation": "SLP-GLY-THERM_01 (2008); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1111/j.1479-8425.2007.00262.x; Adverse Events: None reported.",
       "doi": "10.1111/j.1479-8425.2007.00262.x",
@@ -93,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:de395944917d655b86996a6c923edcf09e591ca40a557a274022c7205c630053",
-  "audit_hash": "0xb654989e93dce31e"
+  "citations_manifest_hash": "sha256:c77c28aff1934e8eeff6ca377cfadc67eebbde9060f3def7561f3161da164fd8",
+  "audit_hash": "0x606e08216a529cf6"
 }

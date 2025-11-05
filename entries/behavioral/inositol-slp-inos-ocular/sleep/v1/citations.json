@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:16:53.768591+00:00",
+  "generated": "2025-11-05T08:06:40.840938+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/inositol-slp-inos-ocular/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -36,9 +36,9 @@
       "outcome": "sleep_latency",
       "population": "Adults with sleep latency concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1080/14767058.2020.1818225",
-      "url": "https://doi.org/10.1080/14767058.2020.1818225",
-      "citation": "SLP-INOS-OCULAR_03 (2007); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1080/14767058.2020.1818225; Adverse Events: Transient headache."
+      "doi": "10.3389/fnins.2017.00336",
+      "url": "https://doi.org/10.3389/fnins.2017.00336",
+      "citation": "SLP-INOS-OCULAR_03 (2007); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.3389/fnins.2017.00336; Adverse Events: Transient headache."
     }
   ],
   "references": [
@@ -46,8 +46,7 @@
       "type": "doi",
       "identifier": "10.1080/14767058.2020.1818225",
       "study_ids": [
-        "SLP-INOS-OCULAR_01",
-        "SLP-INOS-OCULAR_03"
+        "SLP-INOS-OCULAR_01"
       ],
       "primary_study_id": "SLP-INOS-OCULAR_01",
       "url": "https://doi.org/10.1080/14767058.2020.1818225"
@@ -60,7 +59,16 @@
       ],
       "primary_study_id": "SLP-INOS-OCULAR_02",
       "url": "https://doi.org/10.1159/000478861"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.3389/fnins.2017.00336",
+      "study_ids": [
+        "SLP-INOS-OCULAR_03"
+      ],
+      "primary_study_id": "SLP-INOS-OCULAR_03",
+      "url": "https://doi.org/10.3389/fnins.2017.00336"
     }
   ],
-  "manifest_hash": "sha256:0ec0003ff2b2a0f5760176a23d47dbe8e82d3dfbf86f32626a18aaff85657200"
+  "manifest_hash": "sha256:329327b3271f6b478ea264c1c9712a169dfbee7c26f2580be7ce8177813a09d6"
 }

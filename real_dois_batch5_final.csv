@@ -1,0 +1,4 @@
+entry_path,study_id,old_doi,new_doi,pmid,notes
+entries/behavioral/glycine-slp-gly-therm/sleep/v1,SLP-GLY-THERM_03,10.1111/j.1479-8425.2007.00262.x,10.1111/j.1479-8425.2006.00193.x,16816871,Inagawa 2006 - Subjective effects of glycine before bedtime
+entries/behavioral/inositol-slp-inos-ocular/sleep/v1,SLP-INOS-OCULAR_03,10.1080/14767058.2020.1818225,10.3389/fnins.2017.00336,28588447,Urrila 2017 - Myo-inositol melatonin rhythms depression
+entries/behavioral/magnesium-threonate-slp-mag-thr/sleep/v1,SLP-MAG-THR_02,10.1016/j.sleepx.2024.100121,10.1684/mrh.2010.0220,21199787,Nielsen 2010 - Magnesium inflammatory stress sleep quality
