@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.558276+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:54.702651+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/metabolic/resveratrol-long-lon03/longevity/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/long-lon03-03"
     }
   ],
-  "manifest_hash": "sha256:edf38e61258063c6a7987ede520eb9189486aa543d3f334adbb2afd2976c8f36"
+  "manifest_hash": "sha256:8dcca9cb28c0d173a86f1bcfe54a67cd16be4034e1f823cdd961890c58124f83"
 }

@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:40.126739+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:04.933376+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/nootropic-blend-cog-brain-multi/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/cog-brain-multi-03"
     }
   ],
-  "manifest_hash": "sha256:d100b03dc825df90878aff49d51de19b7b39587cd6823de58350ae786c40891c"
+  "manifest_hash": "sha256:d8bf3c575733cc16dcab8dde9684ec360f2bf494cee415262a000e52c73b9458"
 }

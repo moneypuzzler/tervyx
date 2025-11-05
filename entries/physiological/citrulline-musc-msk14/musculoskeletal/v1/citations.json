@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.591385+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:14.977675+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/citrulline-musc-msk14/musculoskeletal/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/musc-msk14-03"
     }
   ],
-  "manifest_hash": "sha256:8c8b811e87bf8194ccb8c3ae24e7c23a6b8ae7169d1f2161af2c8277595177ac"
+  "manifest_hash": "sha256:7b30fcde94c8f9b32c46b2c7bc64559e000193d88bb885613dd0b6f65d40051b"
 }

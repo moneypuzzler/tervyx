@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:43.183448+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:27.998636+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/polyphenol-blend-card-poly-res/cardiovascular/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/card-poly-res-03"
     }
   ],
-  "manifest_hash": "sha256:d5cbd06f550ce4100ef8307b9f77987ad04f999c17553a530319245e09d14154"
+  "manifest_hash": "sha256:ccc4431986509b391dc34ef0c27bc3192cd4f157d48416370aab22ed2b059a60"
 }

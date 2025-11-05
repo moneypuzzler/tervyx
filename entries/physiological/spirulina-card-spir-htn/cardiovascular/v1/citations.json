@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:43.783178+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:30.792882+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/spirulina-card-spir-htn/cardiovascular/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/card-spir-htn-03"
     }
   ],
-  "manifest_hash": "sha256:96ca3d5efdd39562aa3cbf1bf2f5c407a32995c71431818751eb36032d72caeb"
+  "manifest_hash": "sha256:b3c6b87cc6e740dba4d1da5956202882d82ba06366ac2ecca362ff48fe1ae4d3"
 }

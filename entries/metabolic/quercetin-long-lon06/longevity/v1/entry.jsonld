@@ -2,15 +2,15 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "metabolic:quercetin-long-lon06:longevity:v1",
-  "title": "Quercetin — Longevity",
+  "title": "Quercetin Long Lon06 — Longevity",
   "category": "longevity",
-  "tier": "Gold",
-  "label": "PASS",
-  "P_effect_gt_delta": 0.94387,
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.9983,
   "gate_results": {
-    "phi": "PASS",
-    "r": 0.906,
-    "j": 0.656,
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
     "k": "PASS",
     "l": "PASS"
   },
@@ -18,11 +18,11 @@
     "n_studies": 3,
     "total_n": 482,
     "I2": 0.0,
-    "tau2": 0.0003656,
-    "mu_hat": 0.2858,
+    "tau2": 0.0,
+    "mu_hat": 0.285044,
     "mu_CI95": [
-      0.1182,
-      0.4534
+      0.189349,
+      0.380739
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-27T01:51:32.561351+00:00",
+  "created": "2025-11-05T06:50:53.574434+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:c4c6f510fd15d9be48ae3587bfc8e9be9b1d6b845b4bb608dac105119aed4fed",
-  "audit_hash": "0xc6311f94065f6dce"
+  "citations_manifest_hash": "sha256:712d54ccff63d9bf3789e2e67361b149de922bd68624eef2c8ea409e4c3a90c3",
+  "audit_hash": "0xb192f263e87adbc6"
 }

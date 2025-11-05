@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:41.095810+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:47.468956+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/saffron-ment-saff-depr/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/ment-saff-depr-03"
     }
   ],
-  "manifest_hash": "sha256:cf68dfca8fb18963da276b7d791e37583ddd256c2228c64e72e3d41afad54256"
+  "manifest_hash": "sha256:737a983dc8d800d14aabf51f1841b583ca7ebe356ba283cf25e1401b6545a6ba"
 }

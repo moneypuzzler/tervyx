@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:42.501379+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:33.635124+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/adaptogen-blend-ment-adapto-mix/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/ment-adapto-mix-03"
     }
   ],
-  "manifest_hash": "sha256:7d87094117e8c5b1aec5f5d9be6a74944c9f8ea7671d82a5ea3575bc44e79da4"
+  "manifest_hash": "sha256:cd1681abdab7333c2d9542d0625e81db5d080f4b8064652071ded69a6be79e68"
 }

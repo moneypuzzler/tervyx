@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:50:36.312148+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:07.879725+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/magnesium-slp-mag-core/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/slp-mag-core-03"
     }
   ],
-  "manifest_hash": "sha256:e681f3869a5b4f232240467166d8f1871a8c827ae6e09301ee0ca60df84714b6"
+  "manifest_hash": "sha256:53e502ee51865e42189dcfcf779dd29fa5d5cad17d56d8dbf23824cf490690a1"
 }

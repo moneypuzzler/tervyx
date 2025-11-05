@@ -2,15 +2,15 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "physiological:beetroot-musc-msk15:musculoskeletal:v1",
-  "title": "Beetroot — Musculoskeletal",
+  "title": "Beetroot Musc Msk15 — Musculoskeletal",
   "category": "musculoskeletal",
-  "tier": "Silver",
-  "label": "PASS",
-  "P_effect_gt_delta": 0.637667,
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.7256,
   "gate_results": {
-    "phi": "PASS",
-    "r": 0.919,
-    "j": 0.669,
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
     "k": "PASS",
     "l": "PASS"
   },
@@ -18,11 +18,11 @@
     "n_studies": 3,
     "total_n": 518,
     "I2": 0.0,
-    "tau2": 0.00032505,
-    "mu_hat": 0.2484,
+    "tau2": 0.0,
+    "mu_hat": 0.247601,
     "mu_CI95": [
-      0.090367,
-      0.406433
+      0.157487,
+      0.337714
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-27T01:51:32.593988+00:00",
+  "created": "2025-11-05T06:51:11.055633+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:51f00d0e2af0f7a652d565566a6e2ed47b5e994d871adc68e0709889277986f7",
-  "audit_hash": "0x4a8e242a14e94c88"
+  "citations_manifest_hash": "sha256:d22cd3994134ed7fd81502160d4fc5632179f4d66b0fefc1154ccd67cf325cc4",
+  "audit_hash": "0xcf080f1c26680cfe"
 }

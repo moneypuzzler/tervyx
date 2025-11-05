@@ -2,15 +2,15 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "metabolic:rapamycin-microdose-long-lon19:longevity:v1",
-  "title": "Rapamycin Microdose — Longevity",
+  "title": "Rapamycin Microdose Long Lon19 — Longevity",
   "category": "longevity",
-  "tier": "Silver",
-  "label": "PASS",
-  "P_effect_gt_delta": 0.757847,
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.8872,
   "gate_results": {
-    "phi": "PASS",
-    "r": 0.902,
-    "j": 0.552,
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
     "k": "PASS",
     "l": "PASS"
   },
@@ -18,11 +18,11 @@
     "n_studies": 3,
     "total_n": 507,
     "I2": 0.0,
-    "tau2": 0.00030921,
-    "mu_hat": 0.205,
+    "tau2": 0.0,
+    "mu_hat": 0.20418,
     "mu_CI95": [
-      0.050867,
-      0.359133
+      0.116347,
+      0.292014
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-27T01:51:32.575805+00:00",
+  "created": "2025-11-05T06:50:54.129161+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:241c42679847b14fac29e65494e9cd2cd73cb67e022b7670e1e8d6c662ba8130",
-  "audit_hash": "0xd82f72e17af009db"
+  "citations_manifest_hash": "sha256:d2537f63cc9568a803c02e23fac4af1ac73f4a2175c98e4be72832b344322b25",
+  "audit_hash": "0x9e756cf8628a007f"
 }

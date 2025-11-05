@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.572776+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:37.097414+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/metabolic/berberine-long-lon17/longevity/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/long-lon17-03"
     }
   ],
-  "manifest_hash": "sha256:1c90101994d91863eee5b958e05fefe676dd42aaf587ebe8b90e3679fe7b91a8"
+  "manifest_hash": "sha256:b3f0a4165cdadc86479763dfcdc2bb2d2bec9aecd893e454bbb4d0e3253353de"
 }

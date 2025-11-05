@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:41.706552+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:35.846014+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/gaba-ment-gaba-calm/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/ment-gaba-calm-03"
     }
   ],
-  "manifest_hash": "sha256:ff38a8264cb84e670f0b4475eb7779c47f9bacb047da9f489df847ab4dca9c71"
+  "manifest_hash": "sha256:5841a6ac3b4a5f6090f1ab1c68af1644bb4f34cbbcd22c8183c2f3556ad5f488"
 }

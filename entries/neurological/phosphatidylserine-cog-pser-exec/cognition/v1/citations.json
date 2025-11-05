@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:39.359812+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:06.572734+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/phosphatidylserine-cog-pser-exec/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/cog-pser-exec-03"
     }
   ],
-  "manifest_hash": "sha256:b3c6e8877e2ec7cf0fbd2a0a4bb3433dcad5815acf3c67ae5573549846299e5c"
+  "manifest_hash": "sha256:a657683a09553b75044b2e6001216467950fe4132c2b591f8ebdd4aff601c175"
 }

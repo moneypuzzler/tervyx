@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:45.707109+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:25.734474+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/nattokinase-card-natt-fib/cardiovascular/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/card-natt-fib-03"
     }
   ],
-  "manifest_hash": "sha256:382187a439ef46264c0431f8584918751f698a2b8079d38a881f381f6e2ef530"
+  "manifest_hash": "sha256:a30fc4330f4c746d993691d410e62d9bb8bcba712a2255ebe0a0973f7b7db0e6"
 }

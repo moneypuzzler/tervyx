@@ -2,15 +2,15 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "physiological:whey-protein-musc-msk17:musculoskeletal:v1",
-  "title": "Whey Protein — Musculoskeletal",
+  "title": "Whey Protein Musc Msk17 — Musculoskeletal",
   "category": "musculoskeletal",
-  "tier": "Gold",
-  "label": "PASS",
-  "P_effect_gt_delta": 0.912006,
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.9936,
   "gate_results": {
-    "phi": "PASS",
-    "r": 0.91,
-    "j": 0.76,
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
     "k": "PASS",
     "l": "PASS"
   },
@@ -18,11 +18,11 @@
     "n_studies": 3,
     "total_n": 474,
     "I2": 0.0,
-    "tau2": 0.00031028,
-    "mu_hat": 0.3266,
+    "tau2": 0.0,
+    "mu_hat": 0.327232,
     "mu_CI95": [
-      0.1722,
-      0.481
+      0.240575,
+      0.413889
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-27T01:51:32.595508+00:00",
+  "created": "2025-11-05T06:51:33.098415+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:493298b32480f42690ffb1e8822be4ff5a8f4b64a36007668903108aa3c4fb5e",
-  "audit_hash": "0x45daf8c275a97d87"
+  "citations_manifest_hash": "sha256:30d70d60b8f213d0e5b82342a8d7f094cb82b75f943d8bb48f04312832f2025f",
+  "audit_hash": "0x8153747ba814bddb"
 }

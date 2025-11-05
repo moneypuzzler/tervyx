@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:37.728494+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:04.441368+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/glycine-slp-gly-therm/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/slp-gly-therm-03"
     }
   ],
-  "manifest_hash": "sha256:773061c0c7dffa9c01dc6be70d74989056527c4b1e5812147b3f427b3ca1db71"
+  "manifest_hash": "sha256:ed4d5653bf620e1abd23a8147086b14b1526ba00661cc0c542ccb52936738328"
 }

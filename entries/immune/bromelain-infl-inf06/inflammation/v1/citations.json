@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.538350+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:15.694730+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/immune/bromelain-infl-inf06/inflammation/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/infl-inf06-03"
     }
   ],
-  "manifest_hash": "sha256:45bea65746f89ecde9ad3496cd5ace929f956b2789c308c01173fa3892d1ce45"
+  "manifest_hash": "sha256:a834fb911119ee982903fc9208e9ed4ea16c76cfaf9910b5b4afbb23764af494"
 }

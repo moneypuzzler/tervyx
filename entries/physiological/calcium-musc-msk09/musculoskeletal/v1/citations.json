@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.585956+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:13.333259+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/calcium-musc-msk09/musculoskeletal/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/musc-msk09-03"
     }
   ],
-  "manifest_hash": "sha256:a0c5dbe71682c48fa82c1ce927a9cf080866ed337cf08f49a3e67324f507be6b"
+  "manifest_hash": "sha256:4162f0eb62a1b95bc679552baf889f510003d5957f901794f23b97a046f5acd6"
 }

@@ -2,15 +2,15 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "immune:hyaluronic-acid-infl-inf13:inflammation:v1",
-  "title": "Hyaluronic Acid — Inflammation",
+  "title": "Hyaluronic Acid Infl Inf13 — Inflammation",
   "category": "inflammation",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 0.0,
+  "P_effect_gt_delta": 0.9852,
   "gate_results": {
-    "phi": "PASS",
-    "r": 0.802,
-    "j": 0.552,
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
     "k": "PASS",
     "l": "PASS"
   },
@@ -18,11 +18,11 @@
     "n_studies": 3,
     "total_n": 516,
     "I2": 0.0,
-    "tau2": 0.00035063,
-    "mu_hat": -0.305,
+    "tau2": 0.0,
+    "mu_hat": 0.30423,
     "mu_CI95": [
-      -0.469133,
-      -0.140867
+      0.210553,
+      0.397908
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-27T01:51:32.546426+00:00",
+  "created": "2025-11-05T06:50:22.043000+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:c3a68420916d2d39d0b22d4233631d7c49e5561da4ba1a8f74de1170b9df62c2",
-  "audit_hash": "0xcd5c8ce62548330c"
+  "citations_manifest_hash": "sha256:da29297360f3a9356e32935d69bc6fec36b8809e3cc4712d8de53290b70ca0bf",
+  "audit_hash": "0xd82853d71d472b9a"
 }

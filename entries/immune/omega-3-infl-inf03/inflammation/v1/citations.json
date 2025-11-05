@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.535300+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:24.268356+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/immune/omega-3-infl-inf03/inflammation/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/infl-inf03-03"
     }
   ],
-  "manifest_hash": "sha256:35071525871db83c40832901d35c8d3983ceecf6d1fb1f41b24ef97c560b3a70"
+  "manifest_hash": "sha256:406e6dc63efb2b1171a0ef68784499a14836b7e273fb9c0101ef5bdfcf1b72f2"
 }

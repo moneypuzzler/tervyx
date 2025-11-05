@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:45.963440+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:50.925207+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/safety/creatine-ren-crtn-safe/renal_safety/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/ren-crtn-safe-03"
     }
   ],
-  "manifest_hash": "sha256:88b5f4ce0c57b37a17e588f5d70ac444089bb982b5a1862654b4e746e57c512c"
+  "manifest_hash": "sha256:0d6ef7b81b4f799f3913e127f391f40f275efb0a48d695f20d43426d5b0fceb5"
 }

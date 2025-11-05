@@ -2,15 +2,15 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "immune:vitamin-c-infl-inf15:inflammation:v1",
-  "title": "Vitamin C — Inflammation",
+  "title": "Vitamin C Infl Inf15 — Inflammation",
   "category": "inflammation",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 3e-06,
+  "P_effect_gt_delta": 0.4749,
   "gate_results": {
-    "phi": "PASS",
-    "r": 0.856,
-    "j": 0.606,
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
     "k": "PASS",
     "l": "PASS"
   },
@@ -18,11 +18,11 @@
     "n_studies": 3,
     "total_n": 538,
     "I2": 0.0,
-    "tau2": 0.00034411,
-    "mu_hat": -0.1958,
+    "tau2": 0.0,
+    "mu_hat": 0.196736,
     "mu_CI95": [
-      -0.3584,
-      -0.0332
+      0.105566,
+      0.287906
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-27T01:51:32.549334+00:00",
+  "created": "2025-11-05T06:50:31.650299+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:7fe4b591ec706132600b0d1f9676a1296805d7b63756ad6c0a92321e0e4cd9a7",
-  "audit_hash": "0x2b868d6f0586ffae"
+  "citations_manifest_hash": "sha256:1ab03f880b84178812089b4bb812e925fb0382dbc7b630fe4d3e2516b98fa474",
+  "audit_hash": "0x2e21483c9f1ff641"
 }

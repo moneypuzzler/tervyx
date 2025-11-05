@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:38.335973+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:10.197188+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/passionflower-slp-pas-rem/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/slp-pas-rem-03"
     }
   ],
-  "manifest_hash": "sha256:1e7bd36ede61f8609412e736fdb67fda469327d7fc14a91b10a8937bdafa8f19"
+  "manifest_hash": "sha256:143807cb592eb0d637189829450f2f4eecc255bd73c97fe9d027d5676ca00248"
 }

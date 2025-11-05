@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-24T08:19:09.425745+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:18.810747+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/immune/echinacea-imm-imm01/immune/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/echinacea-imm-imm01-03"
     }
   ],
-  "manifest_hash": "sha256:4426c78a0befcf594e7938717f6b10005e76b8963c78ccecc78c7dc987c73f34"
+  "manifest_hash": "sha256:128bb73eea3845df7b362c58f68a778606fee12d4b580ba3603361d97ba074be"
 }

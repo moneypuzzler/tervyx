@@ -1,41 +1,41 @@
 {
-  "seed": 4290359304,
+  "seed": 20251005,
   "n_draws": 10000,
-  "tau2_method": "deterministic-stub",
+  "tau2_method": "REML",
   "delta": 0.15,
-  "P_effect_gt_delta": 0.980473,
-  "mu_hat": 0.3266,
+  "P_effect_gt_delta": 0.9999,
+  "mu_hat": 0.325847,
   "mu_CI95": [
-    0.158867,
-    0.494333
+    0.230068,
+    0.421626
   ],
-  "var_mu": 0.00244121,
-  "mu_se": 0.085578,
+  "var_mu": 0.00238798,
+  "mu_se": 0.048867,
   "I2": 0.0,
-  "tau2": 0.00036618,
-  "tau": 0.019136,
-  "Q": 0.0,
+  "tau2": 0.0,
+  "tau": 0.0,
+  "Q": 0.01,
   "prediction_interval_95": [
-    0.154724,
-    0.498476
+    0.230068,
+    0.421626
   ],
   "n_studies": 3,
   "total_n": 496,
   "benefit_direction": 1,
   "benefit_note": "Higher scores indicate improvement",
-  "environment": "Python 3.11, NumPy compat",
+  "environment": "Python 3.11, NumPy 2.3.4",
   "gate_terminated": false,
   "termination_gate": "none",
   "reml_convergence": {
     "converged": true,
     "iterations": 1,
-    "final_nll": 0.0
+    "final_nll": -4.363329501444136
   },
-  "computation_time_ms": 1.0,
+  "computation_time_ms": 20.5,
   "tel5_input": {
-    "P_value": 0.980473,
-    "phi_violation": false,
+    "P_value": 0.9999,
+    "phi_violation": true,
     "k_violation": false
   },
-  "policy_fingerprint": "0xbe3a798944b1c64b"
+  "policy_fingerprint": "0x6036438e1b958d88"
 }

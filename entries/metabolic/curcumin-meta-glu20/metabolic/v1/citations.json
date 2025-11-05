@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-24T08:19:09.307265+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:43.617478+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/metabolic/curcumin-meta-glu20/metabolic/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/curcumin-meta-glu20-03"
     }
   ],
-  "manifest_hash": "sha256:468b4bdc40da70bbca2ffcb453983e187ca9edfd6b1d4ed920838bb87c788339"
+  "manifest_hash": "sha256:5db543fda71335a5537e910d4bd6af941aaeddaa559e154dac88d0cd656ba5ed"
 }

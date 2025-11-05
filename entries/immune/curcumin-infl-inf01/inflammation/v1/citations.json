@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.531446+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:18.267506+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/immune/curcumin-infl-inf01/inflammation/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/infl-inf01-03"
     }
   ],
-  "manifest_hash": "sha256:fdd64c2b471775235fb01e7ff24d9d259bd876ca3bf6b515d52d739b934cafb2"
+  "manifest_hash": "sha256:2998b6e7fabc1fb9b8b875846e52bcd65e5c669d5f2120362b6d972e5d1bd054"
 }

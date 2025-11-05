@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.546210+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:22.042896+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/immune/hyaluronic-acid-infl-inf13/inflammation/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/infl-inf13-03"
     }
   ],
-  "manifest_hash": "sha256:c3a68420916d2d39d0b22d4233631d7c49e5561da4ba1a8f74de1170b9df62c2"
+  "manifest_hash": "sha256:da29297360f3a9356e32935d69bc6fec36b8809e3cc4712d8de53290b70ca0bf"
 }

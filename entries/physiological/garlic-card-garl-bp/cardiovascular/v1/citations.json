@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:45.362606+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:20.587146+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/garlic-card-garl-bp/cardiovascular/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/card-garl-bp-03"
     }
   ],
-  "manifest_hash": "sha256:07dfecf5ee3793f4ea67bdb8d267a8e4e42bf84cc990804476ba6f30b00e2c6f"
+  "manifest_hash": "sha256:40a8403382c2908b037ac32cb16307383ac92826694ea0a714d067c97a858864"
 }

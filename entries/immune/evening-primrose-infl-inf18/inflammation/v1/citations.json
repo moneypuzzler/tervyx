@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.551816+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:20.441432+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/immune/evening-primrose-infl-inf18/inflammation/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/infl-inf18-03"
     }
   ],
-  "manifest_hash": "sha256:c447b6955ef05b96d4e0a704c2d80f30a992625df88625576e881c2921822965"
+  "manifest_hash": "sha256:a5221ce5eb49cf7dd216095ffad5d64aa082cecfc7583d3e8c97a621fb729c13"
 }

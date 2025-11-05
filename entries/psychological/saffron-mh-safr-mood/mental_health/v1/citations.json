@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:44.372073+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:48.049395+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/saffron-mh-safr-mood/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/mh-safr-mood-03"
     }
   ],
-  "manifest_hash": "sha256:0923fbc7511c16abff013c830b1a43cfcb6f615fefdc9af2cf73f41b472a0813"
+  "manifest_hash": "sha256:4ab82d7e253e3934a3e64bab7048cfd069ec8a504ce3eb498809915811ec982b"
 }

@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-24T08:19:12.430280+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:43.066565+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/metabolic/curcumin-met-curc-metab/metabolic/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/curcumin-met-curc-metab-03"
     }
   ],
-  "manifest_hash": "sha256:5adea61a7f99b3c0f12ffa2fea409d82694fafd5b3838c9c605948a897977751"
+  "manifest_hash": "sha256:4532a3d08e80b2b8f3ab564669cb99a581539e9110e077c6e7946e590761d559"
 }

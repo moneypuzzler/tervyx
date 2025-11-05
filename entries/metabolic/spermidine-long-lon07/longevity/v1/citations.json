@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.562603+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:55.785446+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/metabolic/spermidine-long-lon07/longevity/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/long-lon07-03"
     }
   ],
-  "manifest_hash": "sha256:a40ead19b9897189c611bcb7d50fae0c021c966c471e4dc3f6f89618c9201852"
+  "manifest_hash": "sha256:d10a97e81ed4e45414b863da54d5b9ac17776d0d0af0268b92e992fa3122cdd8"
 }

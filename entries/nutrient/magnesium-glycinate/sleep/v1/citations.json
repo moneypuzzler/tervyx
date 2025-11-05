@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T07:36:33.998549+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:08.760178+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/nutrient/magnesium-glycinate/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.5664/jcsm.2021.0456"
     }
   ],
-  "manifest_hash": "sha256:9fcc1eed567cea8d97c9ced6d20e5885679d42feb0fe1bdfb21dfae73a3daabc"
+  "manifest_hash": "sha256:c8ea25a830cdda72ef5926c9aed5948371cb162db208f18f6280859685cf8654"
 }

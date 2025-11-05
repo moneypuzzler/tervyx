@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:39.444932+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:58.061178+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/alpha-gpc-cog-alpgpc-focus/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/cog-alpgpc-focus-03"
     }
   ],
-  "manifest_hash": "sha256:66ee0d537846325f3ba9e80d2df5eaf352727463acfa086c19213a305a975325"
+  "manifest_hash": "sha256:39b91f953222ff3278fc7a69383430ab590f5b944301b4e2c70e7e57cd34dc9d"
 }

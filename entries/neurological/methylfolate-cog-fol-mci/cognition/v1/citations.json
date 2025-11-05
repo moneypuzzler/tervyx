@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:40.389533+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:03.832062+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/methylfolate-cog-fol-mci/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/cog-fol-mci-03"
     }
   ],
-  "manifest_hash": "sha256:da2fae9e97bbd0a1e94b6d1be87ee8092056ceaa21a23edf5e518b48c28d71cf"
+  "manifest_hash": "sha256:6b60f1bd10b5bd936e3504f5e78167635312cd0addd193ace463f97739f442c5"
 }

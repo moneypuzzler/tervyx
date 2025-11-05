@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:41.178086+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:45.282409+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/probiotics-ment-prob-mood/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/ment-prob-mood-03"
     }
   ],
-  "manifest_hash": "sha256:4f9d5b00d7ea26e008a1e4b7f172637806a5cbd353c3a11d210d1c40522581ae"
+  "manifest_hash": "sha256:34b905402ec04815a61bb725dda12fed5526c48ce710a0ba7e826cf669a729d2"
 }

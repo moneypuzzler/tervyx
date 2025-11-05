@@ -2,15 +2,15 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "physiological:turmeric-musc-msk05:musculoskeletal:v1",
-  "title": "Turmeric — Musculoskeletal",
+  "title": "Turmeric Musc Msk05 — Musculoskeletal",
   "category": "musculoskeletal",
-  "tier": "Red",
-  "label": "AMBER",
-  "P_effect_gt_delta": 0.330044,
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.2198,
   "gate_results": {
-    "phi": "PASS",
-    "r": 0.804,
-    "j": 0.554,
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
     "k": "PASS",
     "l": "PASS"
   },
@@ -18,11 +18,11 @@
     "n_studies": 3,
     "total_n": 514,
     "I2": 0.0,
-    "tau2": 0.00030948,
-    "mu_hat": 0.1854,
+    "tau2": 0.0,
+    "mu_hat": 0.184578,
     "mu_CI95": [
-      0.0312,
-      0.3396
+      0.096713,
+      0.272443
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-27T01:51:32.581995+00:00",
+  "created": "2025-11-05T06:51:32.521452+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:fc3dcda3be5e1e970dd603f0fe88819c1a25e5a25de2d96b078d8ccdaf160b42",
-  "audit_hash": "0xbc0fb15b33bea39a"
+  "citations_manifest_hash": "sha256:2c99c1e4ec87f59dd1b9c168b3463b54fe9d86a07c61ce0ab53270ee36e41b8d",
+  "audit_hash": "0x4745410211cdbefe"
 }

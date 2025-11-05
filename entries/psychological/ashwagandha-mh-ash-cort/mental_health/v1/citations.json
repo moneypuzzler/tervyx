@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:44.285468+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:34.197117+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/ashwagandha-mh-ash-cort/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/mh-ash-cort-03"
     }
   ],
-  "manifest_hash": "sha256:9adec2667969eee112e1a1065bac501904b7da11d733a326afdf5e2b06d5ba0f"
+  "manifest_hash": "sha256:90ff4255a7da890b3aa4d1b86734002231547d1a730eb2ae64b628429287c22d"
 }

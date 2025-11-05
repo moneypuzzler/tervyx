@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:41.793280+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:38.592044+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/l-theanine-ment-lthn-anx/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/ment-lthn-anx-03"
     }
   ],
-  "manifest_hash": "sha256:f1a4559162d700c1ec44660dfb089b73a424b7cfecd14e82f502df2eb05b790d"
+  "manifest_hash": "sha256:3686578905ea2f888753b350931f55bf8ec78d6598f111894fe1ffe27b614f00"
 }

@@ -2,15 +2,15 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "immune:pycnogenol-infl-inf10:inflammation:v1",
-  "title": "Pycnogenol — Inflammation",
+  "title": "Pycnogenol Infl Inf10 — Inflammation",
   "category": "inflammation",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 0.0,
+  "P_effect_gt_delta": 1.0,
   "gate_results": {
-    "phi": "PASS",
-    "r": 0.912,
-    "j": 0.662,
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
     "k": "PASS",
     "l": "PASS"
   },
@@ -18,11 +18,11 @@
     "n_studies": 3,
     "total_n": 516,
     "I2": 0.0,
-    "tau2": 0.00028432,
-    "mu_hat": -0.367,
+    "tau2": 0.0,
+    "mu_hat": 0.366143,
     "mu_CI95": [
-      -0.5148,
-      -0.2192
+      0.282023,
+      0.450262
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-27T01:51:32.543221+00:00",
+  "created": "2025-11-05T06:50:25.348983+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:11400b9063322603d965567fd69f98b2e4c64db96858d0e6d93de9b839743891",
-  "audit_hash": "0xe03309b010420a87"
+  "citations_manifest_hash": "sha256:72f3ed78cd3f2b43ec09d579939a44f7dba01ddb4b8979eba270848f9faed518",
+  "audit_hash": "0xfaf6429e6bdf30c9"
 }

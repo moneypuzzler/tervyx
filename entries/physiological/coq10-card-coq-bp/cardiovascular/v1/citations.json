@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:42.583255+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:16.646019+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/coq10-card-coq-bp/cardiovascular/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/card-coq-bp-03"
     }
   ],
-  "manifest_hash": "sha256:f60b1e875e6a7d948f47daf1e0c5684adf171a0d9793bae7b1c431e942ea8328"
+  "manifest_hash": "sha256:a1d4650c10e668a68d225b2c28ebae4df3ac072b7ccb258e6d566efb96e3bd66"
 }

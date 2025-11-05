@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:41.355160+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:34.743993+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/b-complex-ment-b-complex/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/ment-b-complex-03"
     }
   ],
-  "manifest_hash": "sha256:c1b63937b1330c7551b9cd15beeb463dd87e12878faddd78826f957dd48a9089"
+  "manifest_hash": "sha256:b6d080a1fca323d81baaf7cb7163fc8a0c8eb0c99f3053461c36796bb027a826"
 }

@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:37.638906+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:01.631724+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/ashwagandha-slp-ash-hpa/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/slp-ash-hpa-03"
     }
   ],
-  "manifest_hash": "sha256:008886023daa9e69170d82c59aa6a08931c2877fdcd77b7afdfbb01bf4daa2b3"
+  "manifest_hash": "sha256:797435c6f40ec2eb19972f93b3fe32709374471a59c8e5ed20e31dd348440c4a"
 }

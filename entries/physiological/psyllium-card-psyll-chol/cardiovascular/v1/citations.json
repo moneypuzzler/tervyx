@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:43.357827+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:29.101564+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/psyllium-card-psyll-chol/cardiovascular/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/card-psyll-chol-03"
     }
   ],
-  "manifest_hash": "sha256:c7877e343a37055629b5e49f32879e73f53fa8941e244a1363a75b3ef3ed8454"
+  "manifest_hash": "sha256:ac3ac7a714db1ecfbaf98430a3eb1d69d3c052c9b855cdd9b27aa6f90cc0a6d6"
 }

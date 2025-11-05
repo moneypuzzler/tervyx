@@ -2,15 +2,15 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "physiological:magnesium-musc-msk10:musculoskeletal:v1",
-  "title": "Magnesium — Musculoskeletal",
+  "title": "Magnesium Musc Msk10 — Musculoskeletal",
   "category": "musculoskeletal",
-  "tier": "Gold",
-  "label": "PASS",
-  "P_effect_gt_delta": 0.914982,
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.9929,
   "gate_results": {
-    "phi": "PASS",
-    "r": 0.892,
-    "j": 0.642,
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
     "k": "PASS",
     "l": "PASS"
   },
@@ -18,11 +18,11 @@
     "n_studies": 3,
     "total_n": 507,
     "I2": 0.0,
-    "tau2": 0.00028176,
-    "mu_hat": 0.323,
+    "tau2": 0.0,
+    "mu_hat": 0.322142,
     "mu_CI95": [
-      0.175867,
-      0.470133
+      0.238405,
+      0.405878
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-27T01:51:32.587510+00:00",
+  "created": "2025-11-05T06:51:25.176649+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:1b99fc24e063a83fc64e84486f8f4daa406bc19a9c6ab997459072742a110922",
-  "audit_hash": "0xe7b8e825a796565f"
+  "citations_manifest_hash": "sha256:3dff13ca56f7277f819c828eaf0175a879344525737c322ae63db113bf7eff40",
+  "audit_hash": "0x2f06423be4bb3d56"
 }

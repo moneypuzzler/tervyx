@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.565509+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:42.510948+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/metabolic/coq10-long-lon10/longevity/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/long-lon10-03"
     }
   ],
-  "manifest_hash": "sha256:a6b8f3a9d3b81b61b9306b5fc65c2da286e86d161437fc5e8638f728ef005059"
+  "manifest_hash": "sha256:4f988f0215e0248d77f642fbc6d7e9ee4d89ff5e666928b3796b8bc26ed5987d"
 }

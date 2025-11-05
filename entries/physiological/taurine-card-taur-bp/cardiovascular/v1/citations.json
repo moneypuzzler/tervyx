@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:43.536112+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:31.364041+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/taurine-card-taur-bp/cardiovascular/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/card-taur-bp-03"
     }
   ],
-  "manifest_hash": "sha256:0ba29733df818560bdb897ad1642e38c89193eef844a798b8063eb05640495fa"
+  "manifest_hash": "sha256:09772d168a11bd8d47739de6058ffad1ec570fb448b4a5db6e3d0a456aeb0af9"
 }

@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.556491+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:49.730597+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/metabolic/nicotinamide-mononucleotide-long-lon02/longevity/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/long-lon02-03"
     }
   ],
-  "manifest_hash": "sha256:e1f98d9a2849bf001d7ddbc456e662344f1538fb1c6dc9280f222d08b99287c1"
+  "manifest_hash": "sha256:06b19d85c6113c60ca1323deb2b54806334c748bd2a863a1e02b672f78c88692"
 }

@@ -2,15 +2,15 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "immune:quercetin-imm-querc-allergy:immune_health:v1",
-  "title": "Quercetin — Immune Health",
+  "title": "Quercetin Imm Querc Allergy — Immune Health",
   "category": "immune_health",
-  "tier": "Bronze",
+  "tier": "Red",
   "label": "AMBER",
-  "P_effect_gt_delta": 0.538899,
+  "P_effect_gt_delta": 0.5621,
   "gate_results": {
     "phi": "PASS",
-    "r": 0.913,
-    "j": 0.563,
+    "r": 0.9,
+    "j": 0.464,
     "k": "PASS",
     "l": "PASS"
   },
@@ -18,11 +18,11 @@
     "n_studies": 3,
     "total_n": 506,
     "I2": 0.0,
-    "tau2": 0.00027177,
-    "mu_hat": 0.2072,
+    "tau2": 0.0,
+    "mu_hat": 0.206323,
     "mu_CI95": [
-      0.0627,
-      0.3517
+      0.124137,
+      0.28851
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-27T01:50:36.320421+00:00",
+  "created": "2025-11-05T06:50:26.394370+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:f0bd24ab8e1266899c865db5fd58c7a4fac7a745d6c9659409142382b2c3b277",
-  "audit_hash": "0xfaad9a268ab24c9f"
+  "citations_manifest_hash": "sha256:34468e82b3820e2f7ef6cc580bb5bd5c08b2500f792d89ba80d4f5f902cce954",
+  "audit_hash": "0x3cd60886cbb791bb"
 }

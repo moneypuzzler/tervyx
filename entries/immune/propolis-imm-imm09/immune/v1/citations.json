@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-24T08:19:10.413656+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:24.832293+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/immune/propolis-imm-imm09/immune/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/propolis-imm-imm09-03"
     }
   ],
-  "manifest_hash": "sha256:3f0c74c8a82a5bddbc2be543d8ae8583166f8a86c647195f0bedc8dec96f1761"
+  "manifest_hash": "sha256:06ec02bb3f8bba1b06f9bbfb8203230a2f469ef9ec83f94e2826873e1e963538"
 }

@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-24T08:19:10.781990+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:23.704955+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/immune/n-acetyl-cysteine-imm-imm12/immune/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/n-acetyl-cysteine-imm-imm12-03"
     }
   ],
-  "manifest_hash": "sha256:00a5503b4ee86d2a660f39511055455538429d07cf06cf01370f54fd3aac69dd"
+  "manifest_hash": "sha256:68294a3e214c5fb38252ecdb06024cef680c4bfa700e83b67081feb383341662"
 }

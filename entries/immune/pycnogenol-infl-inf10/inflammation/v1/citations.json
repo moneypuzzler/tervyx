@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.543004+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:25.348889+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/immune/pycnogenol-infl-inf10/inflammation/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/infl-inf10-03"
     }
   ],
-  "manifest_hash": "sha256:11400b9063322603d965567fd69f98b2e4c64db96858d0e6d93de9b839743891"
+  "manifest_hash": "sha256:72f3ed78cd3f2b43ec09d579939a44f7dba01ddb4b8979eba270848f9faed518"
 }

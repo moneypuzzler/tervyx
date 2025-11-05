@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-24T08:19:09.056715+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:53.043300+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/metabolic/pterostilbene-meta-glu18/metabolic/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/pterostilbene-meta-glu18-03"
     }
   ],
-  "manifest_hash": "sha256:b036ad7aaeaf2d245634806fb3bf2df8957fd8a9adc220ef4dcf439cee46900e"
+  "manifest_hash": "sha256:50eed2491ba3f6c75b0a13266a91f2b7f205fa3c040572265ee16a46cc51a804"
 }

@@ -2,15 +2,15 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "metabolic:metformin-analog-long-lon18:longevity:v1",
-  "title": "Metformin Analog — Longevity",
+  "title": "Metformin Analog Long Lon18 — Longevity",
   "category": "longevity",
-  "tier": "Gold",
-  "label": "PASS",
-  "P_effect_gt_delta": 0.99812,
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 1.0,
   "gate_results": {
-    "phi": "PASS",
-    "r": 0.922,
-    "j": 0.672,
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
     "k": "PASS",
     "l": "PASS"
   },
@@ -18,11 +18,11 @@
     "n_studies": 3,
     "total_n": 490,
     "I2": 0.0,
-    "tau2": 0.0002856,
-    "mu_hat": 0.369,
+    "tau2": 0.0,
+    "mu_hat": 0.368147,
     "mu_CI95": [
-      0.220867,
-      0.517133
+      0.283825,
+      0.452469
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-27T01:51:32.574376+00:00",
+  "created": "2025-11-05T06:50:47.983221+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:f9557f75d9acd04648bdd9eb6d60b022c9863326e0a4c96a996ccb860f528987",
-  "audit_hash": "0x4be424c23cf6ada1"
+  "citations_manifest_hash": "sha256:4dcccf3210369e75872468467e5f86dc1a6cd79a2db5817d4c19d8182a4851c9",
+  "audit_hash": "0x909a5bf79c17268a"
 }

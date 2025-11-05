@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-24T08:19:07.913687+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:56.888590+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/metabolic/vanadyl-sulfate-meta-glu09/metabolic/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/vanadyl-sulfate-meta-glu09-03"
     }
   ],
-  "manifest_hash": "sha256:db6335830959f1ce05b1ee4447ef1381cbe5a02f3cbe23a46212d9b61c4ff5d5"
+  "manifest_hash": "sha256:2a0c4c2b3a51f5558540ee0d85669d5346d353e0085a07b96c632db4d731f690"
 }

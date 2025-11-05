@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:46.134704+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:50.380752+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/safety/caffeine-ren-caff-dose/renal_safety/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/ren-caff-dose-03"
     }
   ],
-  "manifest_hash": "sha256:2b7c7fe27955dc7efb0afff97628ed0ca48bcb9cd4cee8e208201f51c7f7052a"
+  "manifest_hash": "sha256:dfb172f71b9124a81fc139a528d6cb6d78707ddd0f08997138a1935bbf3324bd"
 }

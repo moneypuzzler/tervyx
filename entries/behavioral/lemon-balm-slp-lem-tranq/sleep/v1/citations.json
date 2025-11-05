@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:38.248965+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:07.300499+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/lemon-balm-slp-lem-tranq/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/slp-lem-tranq-03"
     }
   ],
-  "manifest_hash": "sha256:b2e58e6a8a9afff82d2ee261fdf4a33ff585dde9d71c639181212298b168d045"
+  "manifest_hash": "sha256:55e949eb6d09796ac4859c1674a8d168ca72531cf2364619a825755388170b2a"
 }

@@ -2,15 +2,15 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "metabolic:astaxanthin-long-lon11:longevity:v1",
-  "title": "Astaxanthin — Longevity",
+  "title": "Astaxanthin Long Lon11 — Longevity",
   "category": "longevity",
-  "tier": "Gold",
-  "label": "PASS",
-  "P_effect_gt_delta": 0.997423,
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 1.0,
   "gate_results": {
-    "phi": "PASS",
-    "r": 0.841,
-    "j": 0.791,
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
     "k": "PASS",
     "l": "PASS"
   },
@@ -18,11 +18,11 @@
     "n_studies": 3,
     "total_n": 499,
     "I2": 0.0,
-    "tau2": 0.00026281,
-    "mu_hat": 0.3528,
+    "tau2": 0.0,
+    "mu_hat": 0.351908,
     "mu_CI95": [
-      0.2107,
-      0.4949
+      0.271129,
+      0.432688
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-27T01:51:32.567256+00:00",
+  "created": "2025-11-05T06:50:36.554798+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:33e0b693147356bf47532fc1a42cc411b195610ec55861237b8a0956408e29ab",
-  "audit_hash": "0x70375c94803bf1a1"
+  "citations_manifest_hash": "sha256:3b7e47b30665475ec216a9db0791ab8de745d3814416144763710a6d33ae5da6",
+  "audit_hash": "0xfd6de2e3044fbabd"
 }

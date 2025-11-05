@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:41.266456+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:49.823576+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/vitamin-d-ment-vitd-mood/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/ment-vitd-mood-03"
     }
   ],
-  "manifest_hash": "sha256:3adaae5db62f5a59e87892106cfdd6d13bd500c5a840e9477e5f78407397332f"
+  "manifest_hash": "sha256:bf64eac2eaa0059d238d4a44eb0f845b5ab0c9a810e7271fec149b0feeea594d"
 }

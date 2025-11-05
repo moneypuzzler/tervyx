@@ -2,15 +2,15 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "metabolic:alpha-ketoglutarate-long-lon13:longevity:v1",
-  "title": "Alpha Ketoglutarate — Longevity",
+  "title": "Alpha Ketoglutarate Long Lon13 — Longevity",
   "category": "longevity",
-  "tier": "Gold",
-  "label": "PASS",
-  "P_effect_gt_delta": 0.976124,
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.9999,
   "gate_results": {
-    "phi": "PASS",
-    "r": 0.887,
-    "j": 0.737,
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
     "k": "PASS",
     "l": "PASS"
   },
@@ -18,11 +18,11 @@
     "n_studies": 3,
     "total_n": 520,
     "I2": 0.0,
-    "tau2": 0.00037747,
-    "mu_hat": 0.322,
+    "tau2": 0.0,
+    "mu_hat": 0.321256,
     "mu_CI95": [
-      0.1517,
-      0.4923
+      0.223985,
+      0.418527
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-27T01:51:32.568653+00:00",
+  "created": "2025-11-05T06:50:33.834305+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:1e09df981d52a038dbd089f4fbd14d9399990214de78e4a2541c4a99a61eb6ff",
-  "audit_hash": "0x0f5e1c4c2b8a8321"
+  "citations_manifest_hash": "sha256:e7c49b97a409d14b8b112a4b326940ae9bd867cf457956ea64f5974e7294d3b5",
+  "audit_hash": "0x70a02aa82277ab51"
 }

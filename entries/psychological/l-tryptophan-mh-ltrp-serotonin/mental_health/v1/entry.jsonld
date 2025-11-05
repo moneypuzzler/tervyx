@@ -10,7 +10,7 @@
   "gate_results": {
     "phi": "PASS",
     "r": 0.9,
-    "j": 0.0,
+    "j": 0.607,
     "k": "PASS",
     "l": "PASS"
   },
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-23T09:24:44.712083+00:00",
+  "created": "2025-11-05T06:51:39.726394+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:4a8b525746e54060a2d6ba0b4bac7936848be37674fc73eb9e2125182bd7bbe4",
-  "audit_hash": "0xa8c22f8c7b929174"
+  "citations_manifest_hash": "sha256:4a1fdca4c0b0b35fddee60f13d10707c6dab9b0758303b4271b15d73e9069c2f",
+  "audit_hash": "0x16fc3d80892d09f5"
 }

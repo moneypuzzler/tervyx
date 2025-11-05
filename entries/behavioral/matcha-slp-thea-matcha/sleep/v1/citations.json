@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:38.847449+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:09.029351+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/matcha-slp-thea-matcha/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/slp-thea-matcha-03"
     }
   ],
-  "manifest_hash": "sha256:82f4b502a069747b31e9e2ec5b56381f23a9340d354fd88042a6c1d22fe482c6"
+  "manifest_hash": "sha256:81ccafbe56770f372687e09e7f4e5bab2ec98caab8f2e4551e5d9f1ca60f0151"
 }

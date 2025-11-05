@@ -2,15 +2,15 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "immune:collagen-infl-inf11:inflammation:v1",
-  "title": "Collagen — Inflammation",
+  "title": "Collagen Infl Inf11 — Inflammation",
   "category": "inflammation",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 0.0,
+  "P_effect_gt_delta": 0.7183,
   "gate_results": {
-    "phi": "PASS",
-    "r": 0.805,
-    "j": 0.655,
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
     "k": "PASS",
     "l": "PASS"
   },
@@ -18,11 +18,11 @@
     "n_studies": 3,
     "total_n": 492,
     "I2": 0.0,
-    "tau2": 0.00028342,
-    "mu_hat": -0.2256,
+    "tau2": 0.0,
+    "mu_hat": 0.224743,
     "mu_CI95": [
-      -0.373167,
-      -0.078033
+      0.140754,
+      0.308733
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-27T01:51:32.544802+00:00",
+  "created": "2025-11-05T06:50:16.720860+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:440909742ad992c9cd0346dc7797e362254bd94ce177822eb3e2377568189ebf",
-  "audit_hash": "0xebf9d35a445ded93"
+  "citations_manifest_hash": "sha256:4ff9c02f7765cfb868cd5bcff5336b27365698e2df93cabf5f74ef5ef9589d61",
+  "audit_hash": "0x235629e3921d0689"
 }

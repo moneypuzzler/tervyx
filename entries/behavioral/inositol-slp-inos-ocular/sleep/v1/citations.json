@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:38.761797+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:05.027656+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/inositol-slp-inos-ocular/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/slp-inos-ocular-03"
     }
   ],
-  "manifest_hash": "sha256:4ed3559565e8edd89b8cbb52865d0be5149a62001f3426cab983aca00ab13bba"
+  "manifest_hash": "sha256:2e3a2f814e46d7382c931ab3779603687c3cda87ad94f396b6342f145ffb94aa"
 }

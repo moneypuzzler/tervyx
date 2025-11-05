@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:38.080856+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:06.740711+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/lavender-slp-lav-aroma/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/slp-lav-aroma-03"
     }
   ],
-  "manifest_hash": "sha256:78fefd8f0060517bbb389f664071ef47cee63b7c452babcbff537943b3302766"
+  "manifest_hash": "sha256:10ad696afefab5af1464bcae9ddd29a1f61f6fa6cc570ea563468572ae31ed0c"
 }

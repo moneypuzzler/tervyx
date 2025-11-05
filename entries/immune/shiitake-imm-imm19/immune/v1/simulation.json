@@ -23,7 +23,7 @@
   "total_n": 404,
   "benefit_direction": 1,
   "benefit_note": "Higher scores indicate improvement",
-  "environment": "Python 3.11, NumPy 2.3.4, SciPy 1.11.0",
+  "environment": "Python 3.11, NumPy 2.3.4",
   "gate_terminated": false,
   "termination_gate": "none",
   "reml_convergence": {
@@ -31,11 +31,11 @@
     "iterations": 1,
     "final_nll": -3.787282568990825
   },
-  "computation_time_ms": 22.3,
+  "computation_time_ms": 20.2,
   "tel5_input": {
     "P_value": 0.9999,
     "phi_violation": false,
     "k_violation": false
   },
-  "policy_fingerprint": "0xbe3a798944b1c64b"
+  "policy_fingerprint": "0x6036438e1b958d88"
 }

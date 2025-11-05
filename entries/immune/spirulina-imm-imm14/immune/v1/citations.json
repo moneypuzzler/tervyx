@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-24T08:19:10.988524+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:28.964108+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/immune/spirulina-imm-imm14/immune/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/spirulina-imm-imm14-03"
     }
   ],
-  "manifest_hash": "sha256:5bd75eb8fc70c78580677ddbb96db6122dd389a493b2202038c845c32d92119b"
+  "manifest_hash": "sha256:2540f69997f0ecd9c094edc5dc63a10d00b6f9e05ce0ed4861aed2608f7808ed"
 }

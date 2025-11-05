@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:45.183335+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:27.431586+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/omega-3-card-omega-trig/cardiovascular/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/card-omega-trig-03"
     }
   ],
-  "manifest_hash": "sha256:8ca01c2342521859bf4c837c5a59ca6b61c371ca5c37f2468d8d988effc76fcb"
+  "manifest_hash": "sha256:531baf2d144dd8074603943c642daad32e0adab519b89671b4f2c27b8cadabac"
 }

@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.583127+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:12.749458+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/boswellia-musc-msk06/musculoskeletal/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/musc-msk06-03"
     }
   ],
-  "manifest_hash": "sha256:02617cd8a6907b243cba6e7f7c31c2816e464b3218147b0c544dba942ca31dc3"
+  "manifest_hash": "sha256:398338b5794f9e7ede796bfeae687aaba9b38c0df98caeb65d06927853af7689"
 }

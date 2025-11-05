@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:41.965216+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:45.801093+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/psilocybin-microdose-ment-psych-mush/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/ment-psych-mush-03"
     }
   ],
-  "manifest_hash": "sha256:33ff1144fc828b07a8b6e2c997cd38353b38b84e79d6bdf262889aeab33eb518"
+  "manifest_hash": "sha256:8a8274a95cfdab0cfa08fb8d6016ec46e4eb58473c830460195ff3b13eaa2d25"
 }

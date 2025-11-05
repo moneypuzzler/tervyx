@@ -2,15 +2,15 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "immune:astaxanthin-infl-inf09:inflammation:v1",
-  "title": "Astaxanthin — Inflammation",
+  "title": "Astaxanthin Infl Inf09 — Inflammation",
   "category": "inflammation",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 0.0,
+  "P_effect_gt_delta": 0.9572,
   "gate_results": {
-    "phi": "PASS",
-    "r": 0.841,
-    "j": 0.591,
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
     "k": "PASS",
     "l": "PASS"
   },
@@ -18,11 +18,11 @@
     "n_studies": 3,
     "total_n": 508,
     "I2": 0.0,
-    "tau2": 0.0003011,
-    "mu_hat": -0.2728,
+    "tau2": 0.0,
+    "mu_hat": 0.273812,
     "mu_CI95": [
-      -0.4249,
-      -0.1207
+      0.188905,
+      0.358719
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-27T01:51:32.541690+00:00",
+  "created": "2025-11-05T06:50:12.455861+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:ca52d95c13bf37ed6b18589c077888c80ba05bc065fbe6c33995bc92569429ba",
-  "audit_hash": "0x79ac986cdffe6ec4"
+  "citations_manifest_hash": "sha256:fbcdc07c0e88cd22536d1fcb7bd2ffc2cd876176d729951a3d2c85532a5a41e0",
+  "audit_hash": "0x019ba28c367ea037"
 }
