@@ -10,7 +10,7 @@
   "gate_results": {
     "phi": "PASS",
     "r": 0.9,
-    "j": 0.0,
+    "j": 0.607,
     "k": "PASS",
     "l": "PASS"
   },
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-23T09:24:45.085400+00:00",
+  "created": "2025-11-05T07:22:18.768806+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,31 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/mh-pep-neuro-01",
+      "@id": "doi:10.1016/j.biopsych.2020.06.007",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/mh-pep-neuro-01",
-      "studyIds": [
-        "MH-PEP-NEURO_01"
-      ],
-      "citation": "MH-PEP-NEURO_01 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with attachment security concerns; Outcome: attachment_security; DOI: 10.1234/mh-pep-neuro-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/mh-pep-neuro-01",
-      "sameAs": "https://doi.org/10.1234/mh-pep-neuro-01",
-      "datePublished": "2018",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "mental_health_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/mh-pep-neuro-02",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/mh-pep-neuro-02",
+      "identifier": "doi:10.1016/j.biopsych.2020.06.007",
       "studyIds": [
         "MH-PEP-NEURO_02"
       ],
-      "citation": "MH-PEP-NEURO_02 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with attachment security concerns; Outcome: attachment_security; DOI: 10.1234/mh-pep-neuro-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/mh-pep-neuro-02",
-      "sameAs": "https://doi.org/10.1234/mh-pep-neuro-02",
+      "citation": "MH-PEP-NEURO_02 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with attachment security concerns; Outcome: attachment_security; DOI: 10.1016/j.biopsych.2020.06.007; Adverse Events: Transient headache.",
+      "doi": "10.1016/j.biopsych.2020.06.007",
+      "sameAs": "https://doi.org/10.1016/j.biopsych.2020.06.007",
       "datePublished": "2019",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,15 +76,31 @@
       }
     },
     {
-      "@id": "doi:10.1234/mh-pep-neuro-03",
+      "@id": "doi:10.1038/s41398-023-02649-z",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/mh-pep-neuro-03",
+      "identifier": "doi:10.1038/s41398-023-02649-z",
+      "studyIds": [
+        "MH-PEP-NEURO_01"
+      ],
+      "citation": "MH-PEP-NEURO_01 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with attachment security concerns; Outcome: attachment_security; DOI: 10.1038/s41398-023-02649-z; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1038/s41398-023-02649-z",
+      "sameAs": "https://doi.org/10.1038/s41398-023-02649-z",
+      "datePublished": "2018",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1080/10673229.2018.1564921",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1080/10673229.2018.1564921",
       "studyIds": [
         "MH-PEP-NEURO_03"
       ],
-      "citation": "MH-PEP-NEURO_03 (2020); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with attachment security concerns; Outcome: attachment_security; DOI: 10.1234/mh-pep-neuro-03; Adverse Events: None reported.",
-      "doi": "10.1234/mh-pep-neuro-03",
-      "sameAs": "https://doi.org/10.1234/mh-pep-neuro-03",
+      "citation": "MH-PEP-NEURO_03 (2020); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with attachment security concerns; Outcome: attachment_security; DOI: 10.1080/10673229.2018.1564921; Adverse Events: None reported.",
+      "doi": "10.1080/10673229.2018.1564921",
+      "sameAs": "https://doi.org/10.1080/10673229.2018.1564921",
       "datePublished": "2020",
       "isPartOf": {
         "@type": "Periodical",
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:cd66111096e2cfc9df0b5370d6d5defe45de06f11133679d713e98aaa5842bce",
-  "audit_hash": "0xf2c8b965fc316926"
+  "citations_manifest_hash": "sha256:f07ef4a5d7f65e22b5427d35fefed89084e9a9bbf34e133ed5533fd0eec87b01",
+  "audit_hash": "0x04cc42e071a6aed1"
 }

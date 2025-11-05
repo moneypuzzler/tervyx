@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:37.728494+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T07:04:17.267119+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/glycine-slp-gly-therm/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -12,9 +12,9 @@
       "outcome": "sleep_latency",
       "population": "Adults with sleep latency concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/slp-gly-therm-01",
-      "url": "https://doi.org/10.1234/slp-gly-therm-01",
-      "citation": "SLP-GLY-THERM_01 (2008); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1234/slp-gly-therm-01; Adverse Events: None reported."
+      "doi": "10.1111/j.1479-8425.2007.00262.x",
+      "url": "https://doi.org/10.1111/j.1479-8425.2007.00262.x",
+      "citation": "SLP-GLY-THERM_01 (2008); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1111/j.1479-8425.2007.00262.x; Adverse Events: None reported."
     },
     {
       "study_id": "SLP-GLY-THERM_02",
@@ -24,9 +24,9 @@
       "outcome": "sleep_latency",
       "population": "Adults with sleep latency concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/slp-gly-therm-02",
-      "url": "https://doi.org/10.1234/slp-gly-therm-02",
-      "citation": "SLP-GLY-THERM_02 (2009); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1234/slp-gly-therm-02; Adverse Events: Mild GI discomfort."
+      "doi": "10.3389/fneur.2012.00061",
+      "url": "https://doi.org/10.3389/fneur.2012.00061",
+      "citation": "SLP-GLY-THERM_02 (2009); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.3389/fneur.2012.00061; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "SLP-GLY-THERM_03",
@@ -36,39 +36,31 @@
       "outcome": "sleep_latency",
       "population": "Adults with sleep latency concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/slp-gly-therm-03",
-      "url": "https://doi.org/10.1234/slp-gly-therm-03",
-      "citation": "SLP-GLY-THERM_03 (2010); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1234/slp-gly-therm-03; Adverse Events: Transient headache."
+      "doi": "10.1111/j.1479-8425.2007.00262.x",
+      "url": "https://doi.org/10.1111/j.1479-8425.2007.00262.x",
+      "citation": "SLP-GLY-THERM_03 (2010); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1111/j.1479-8425.2007.00262.x; Adverse Events: Transient headache."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/slp-gly-therm-01",
+      "identifier": "10.1111/j.1479-8425.2007.00262.x",
       "study_ids": [
-        "SLP-GLY-THERM_01"
+        "SLP-GLY-THERM_01",
+        "SLP-GLY-THERM_03"
       ],
       "primary_study_id": "SLP-GLY-THERM_01",
-      "url": "https://doi.org/10.1234/slp-gly-therm-01"
+      "url": "https://doi.org/10.1111/j.1479-8425.2007.00262.x"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/slp-gly-therm-02",
+      "identifier": "10.3389/fneur.2012.00061",
       "study_ids": [
         "SLP-GLY-THERM_02"
       ],
       "primary_study_id": "SLP-GLY-THERM_02",
-      "url": "https://doi.org/10.1234/slp-gly-therm-02"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/slp-gly-therm-03",
-      "study_ids": [
-        "SLP-GLY-THERM_03"
-      ],
-      "primary_study_id": "SLP-GLY-THERM_03",
-      "url": "https://doi.org/10.1234/slp-gly-therm-03"
+      "url": "https://doi.org/10.3389/fneur.2012.00061"
     }
   ],
-  "manifest_hash": "sha256:773061c0c7dffa9c01dc6be70d74989056527c4b1e5812147b3f427b3ca1db71"
+  "manifest_hash": "sha256:de395944917d655b86996a6c923edcf09e591ca40a557a274022c7205c630053"
 }

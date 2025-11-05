@@ -1,0 +1,201 @@
+substance,substance_id,category,domain,outcome,population,n_studies,entry_path,needs_real_dois
+behavioral,behavioral,sleep,entries,sleep_quality,Adults with sleep quality concerns,3,entries/behavioral/5htp-slp-fhtp-serotonin/sleep/v1,yes
+behavioral,behavioral,sleep,entries,stress_insomnia,Adults with stress insomnia concerns,3,entries/behavioral/ashwagandha-slp-ash-hpa/sleep/v1,yes
+behavioral,behavioral,sleep,entries,sleep_maintenance,Adults with sleep maintenance concerns,3,entries/behavioral/cbd-microdose-slp-cbd-micro/sleep/v1,yes
+behavioral,behavioral,sleep,entries,sleep_quality,Adults with sleep quality concerns,3,entries/behavioral/cbd-slp-cbd-insomnia/sleep/v1,yes
+behavioral,behavioral,sleep,entries,sleep_quality,Adults with sleep quality concerns,3,entries/behavioral/chamomile-slp-chm-apnea/sleep/v1,yes
+behavioral,behavioral,sleep,entries,sleep_latency,Adults with sleep latency concerns,3,entries/behavioral/gaba-slp-gaba-oral/sleep/v1,yes
+behavioral,behavioral,sleep,entries,sleep_latency,Adults with sleep latency concerns,3,entries/behavioral/glycine-slp-gly-therm/sleep/v1,yes
+behavioral,behavioral,sleep,entries,sleep_latency,Adults with sleep latency concerns,3,entries/behavioral/inositol-slp-inos-ocular/sleep/v1,yes
+behavioral,behavioral,sleep,entries,sleep_anxiety,Adults with sleep anxiety concerns,3,entries/behavioral/kava-slp-kava-anxiety/sleep/v1,yes
+behavioral,behavioral,sleep,entries,sleep_quality,Adults with sleep quality concerns,3,entries/behavioral/l-theanine-slp-thn-alpha/sleep/v1,yes
+behavioral,behavioral,sleep,entries,sleep_anxiety,Adults with sleep anxiety concerns,3,entries/behavioral/lavender-slp-lav-aroma/sleep/v1,yes
+behavioral,behavioral,sleep,entries,sleep_quality,Adults with sleep quality concerns,3,entries/behavioral/lemon-balm-slp-lem-tranq/sleep/v1,yes
+behavioral,behavioral,sleep,entries,sleep_quality,Adults with sleep quality concerns,3,entries/behavioral/magnesium-slp-mag-core/sleep/v1,yes
+behavioral,behavioral,sleep,entries,sleep_quality,Adults with sleep quality concerns,3,entries/behavioral/magnesium-threonate-slp-mag-thr/sleep/v1,yes
+behavioral,behavioral,sleep,entries,sleep_quality,Adults with sleep quality concerns,3,entries/behavioral/matcha-slp-thea-matcha/sleep/v1,yes
+behavioral,behavioral,sleep,entries,sleep_onset,Adults with sleep onset concerns,3,entries/behavioral/melatonin-slp-mel-acute/sleep/v1,yes
+behavioral,behavioral,sleep,entries,sleep_quality,Adults with sleep quality concerns,3,entries/behavioral/passionflower-slp-pas-rem/sleep/v1,yes
+behavioral,behavioral,sleep,entries,sleep_duration,Adults with sleep duration concerns,3,entries/behavioral/tart-cherry-slp-tch-trp/sleep/v1,yes
+behavioral,behavioral,sleep,entries,sleep_onset,Adults with sleep onset concerns,3,entries/behavioral/tryptophan-slp-tryp-mel/sleep/v1,yes
+immune,immune,immune,entries,immune_modulation,Adults with immune modulation concerns,3,entries/immune/andrographis-imm-imm10/immune/v1,yes
+immune,immune,inflammation,entries,joint_pain,Adults with joint pain concerns,3,entries/immune/astaxanthin-infl-inf09/inflammation/v1,yes
+immune,immune,immune_health,entries,immune_readiness,Adults with immune readiness concerns,3,entries/immune/beta-glucan-imm-beta-gluc/immune_health/v1,yes
+immune,immune,immune,entries,antiviral_support,Adults with antiviral support concerns,3,entries/immune/beta-glucans-imm-imm07/immune/v1,yes
+immune,immune,immune_health,entries,immune_modulation,Adults with immune modulation concerns,3,entries/immune/black-cumin-seed-imm-bcp-imm/immune_health/v1,yes
+immune,immune,inflammation,entries,joint_pain,Adults with joint pain concerns,3,entries/immune/black-currant-infl-inf19/inflammation/v1,yes
+immune,immune,inflammation,entries,systemic_inflammation,Adults with systemic inflammation concerns,3,entries/immune/boswellia-infl-inf02/inflammation/v1,yes
+immune,immune,inflammation,entries,joint_pain,Adults with joint pain concerns,3,entries/immune/bromelain-infl-inf06/inflammation/v1,yes
+immune,immune,immune,entries,antiviral_support,Adults with antiviral support concerns,3,entries/immune/chlorella-imm-imm15/immune/v1,yes
+immune,immune,inflammation,entries,joint_pain,Adults with joint pain concerns,3,entries/immune/collagen-infl-inf11/inflammation/v1,yes
+immune,immune,immune,entries,upper_respiratory,Adults with upper respiratory concerns,3,entries/immune/colostrum-imm-imm08/immune/v1,yes
+immune,immune,immune,entries,upper_respiratory,Adults with upper respiratory concerns,3,entries/immune/cordyceps-imm-imm16/immune/v1,yes
+immune,immune,inflammation,entries,joint_pain,Adults with joint pain concerns,3,entries/immune/curcumin-infl-inf01/inflammation/v1,yes
+immune,immune,immune,entries,upper_respiratory,Adults with upper respiratory concerns,3,entries/immune/echinacea-imm-imm01/immune/v1,yes
+immune,immune,immune_health,entries,upper_respiratory_infections,Adults with upper respiratory infections concerns,3,entries/immune/elderberry-imm-elder-urti/immune_health/v1,yes
+immune,immune,immune,entries,immune_modulation,Adults with immune modulation concerns,3,entries/immune/elderberry-imm-imm02/immune/v1,yes
+immune,immune,inflammation,entries,recovery,Adults with recovery concerns,3,entries/immune/evening-primrose-infl-inf18/inflammation/v1,yes
+immune,immune,immune,entries,upper_respiratory,Adults with upper respiratory concerns,3,entries/immune/glutathione-imm-imm13/immune/v1,yes
+immune,immune,inflammation,entries,systemic_inflammation,Adults with systemic inflammation concerns,3,entries/immune/green-tea-infl-inf07/inflammation/v1,yes
+immune,immune,inflammation,entries,recovery,Adults with recovery concerns,3,entries/immune/hyaluronic-acid-infl-inf13/inflammation/v1,yes
+immune,immune,immune_health,entries,atopic_dermatitis,Adults with atopic dermatitis concerns,3,entries/immune/lactobacillus-rhamnosus-imm-lact-ecz/immune_health/v1,yes
+immune,immune,immune,entries,immune_modulation,Adults with immune modulation concerns,3,entries/immune/maitake-imm-imm18/immune/v1,yes
+immune,immune,immune,entries,upper_respiratory,Adults with upper respiratory concerns,3,entries/immune/n-acetyl-cysteine-imm-imm12/immune/v1,yes
+immune,immune,inflammation,entries,recovery,Adults with recovery concerns,3,entries/immune/omega-3-infl-inf03/inflammation/v1,yes
+immune,immune,immune,entries,upper_respiratory,Adults with upper respiratory concerns,3,entries/immune/propolis-imm-imm09/immune/v1,yes
+immune,immune,inflammation,entries,skin_inflammation,Adults with skin inflammation concerns,3,entries/immune/pycnogenol-infl-inf10/inflammation/v1,yes
+immune,immune,immune,entries,antiviral_support,Adults with antiviral support concerns,3,entries/immune/quercetin-imm-imm11/immune/v1,yes
+immune,immune,immune_health,entries,allergic_rhinitis,Adults with allergic rhinitis concerns,3,entries/immune/quercetin-imm-querc-allergy/immune_health/v1,yes
+immune,immune,inflammation,entries,skin_inflammation,Adults with skin inflammation concerns,3,entries/immune/quercetin-infl-inf05/inflammation/v1,yes
+immune,immune,immune,entries,upper_respiratory,Adults with upper respiratory concerns,3,entries/immune/reishi-imm-imm17/immune/v1,yes
+immune,immune,immune,entries,immune_modulation,Adults with immune modulation concerns,3,entries/immune/selenium-imm-imm06/immune/v1,yes
+immune,immune,immune,entries,antiviral_support,Adults with antiviral support concerns,3,entries/immune/shiitake-imm-imm19/immune/v1,yes
+immune,immune,immune,entries,immune_modulation,Adults with immune modulation concerns,3,entries/immune/spirulina-imm-imm14/immune/v1,yes
+immune,immune,inflammation,entries,joint_pain,Adults with joint pain concerns,3,entries/immune/sulforaphane-infl-inf14/inflammation/v1,yes
+immune,immune,immune,entries,upper_respiratory,Adults with upper respiratory concerns,3,entries/immune/turkey-tail-imm-imm20/immune/v1,yes
+immune,immune,inflammation,entries,systemic_inflammation,Adults with systemic inflammation concerns,3,entries/immune/turmeric-oil-infl-inf17/inflammation/v1,yes
+immune,immune,immune,entries,antiviral_support,Adults with antiviral support concerns,3,entries/immune/vitamin-c-imm-imm03/immune/v1,yes
+immune,immune,inflammation,entries,skin_inflammation,Adults with skin inflammation concerns,3,entries/immune/vitamin-c-infl-inf15/inflammation/v1,yes
+immune,immune,immune,entries,upper_respiratory,Adults with upper respiratory concerns,3,entries/immune/vitamin-d-imm-imm04/immune/v1,yes
+immune,immune,immune_health,entries,immune_resilience,Adults with immune resilience concerns,3,entries/immune/vitamin-d-imm-vitd-immune/immune_health/v1,yes
+immune,immune,immune,entries,upper_respiratory,Adults with upper respiratory concerns,3,entries/immune/zinc-imm-imm05/immune/v1,yes
+metabolic,metabolic,longevity,entries,cellular_ageing,Adults with cellular ageing concerns,3,entries/metabolic/alpha-ketoglutarate-long-lon13/longevity/v1,yes
+metabolic,metabolic,metabolic,entries,mitochondrial_support,Adults with mitochondrial support concerns,3,entries/metabolic/alpha-lipoic-acid-met-ala-mito/metabolic/v1,yes
+metabolic,metabolic,metabolic,entries,insulin_sensitivity,Adults with insulin sensitivity concerns,3,entries/metabolic/alpha-lipoic-acid-meta-glu02/metabolic/v1,yes
+metabolic,metabolic,metabolic,entries,glucose_control,Adults with glucose control concerns,3,entries/metabolic/apple-cider-vinegar-meta-glu10/metabolic/v1,yes
+metabolic,metabolic,metabolic,entries,glucose_control,Adults with glucose control concerns,3,entries/metabolic/artichoke-extract-meta-glu15/metabolic/v1,yes
+metabolic,metabolic,longevity,entries,telomere_support,Adults with telomere support concerns,3,entries/metabolic/astaxanthin-long-lon11/longevity/v1,yes
+metabolic,metabolic,longevity,entries,cellular_ageing,Adults with cellular ageing concerns,3,entries/metabolic/berberine-long-lon17/longevity/v1,yes
+metabolic,metabolic,metabolic,entries,glucose_management,Adults with glucose management concerns,3,entries/metabolic/berberine-met-gluc-ber/metabolic/v1,yes
+metabolic,metabolic,metabolic,entries,glucose_control,Adults with glucose control concerns,3,entries/metabolic/berberine-meta-glu01/metabolic/v1,yes
+metabolic,metabolic,metabolic,entries,glucose_control,Adults with glucose control concerns,3,entries/metabolic/bitter-melon-meta-glu06/metabolic/v1,yes
+metabolic,metabolic,metabolic,entries,lipid_profile,Adults with lipid profile concerns,3,entries/metabolic/chlorella-meta-glu13/metabolic/v1,yes
+metabolic,metabolic,metabolic,entries,lipid_profile,Adults with lipid profile concerns,3,entries/metabolic/chromium-meta-glu03/metabolic/v1,yes
+metabolic,metabolic,metabolic,entries,insulin_sensitivity,Adults with insulin sensitivity concerns,3,entries/metabolic/chromium-picolinate-met-chrom-ins/metabolic/v1,yes
+metabolic,metabolic,metabolic,entries,hba1c_reduction,Adults with hba1c reduction concerns,3,entries/metabolic/cinnamon-met-cinn-a1c/metabolic/v1,yes
+metabolic,metabolic,metabolic,entries,weight_management,Adults with weight management concerns,3,entries/metabolic/cinnamon-meta-glu04/metabolic/v1,yes
+metabolic,metabolic,longevity,entries,mitochondrial_function,Adults with mitochondrial function concerns,3,entries/metabolic/collagen-long-lon14/longevity/v1,yes
+metabolic,metabolic,longevity,entries,mitochondrial_function,Adults with mitochondrial function concerns,3,entries/metabolic/coq10-long-lon10/longevity/v1,yes
+metabolic,metabolic,metabolic,entries,metabolic_syndrome,Adults with metabolic syndrome concerns,3,entries/metabolic/curcumin-met-curc-metab/metabolic/v1,yes
+metabolic,metabolic,metabolic,entries,glucose_control,Adults with glucose control concerns,3,entries/metabolic/curcumin-meta-glu20/metabolic/v1,yes
+metabolic,metabolic,metabolic,entries,glucose_control,Adults with glucose control concerns,3,entries/metabolic/fenugreek-meta-glu11/metabolic/v1,yes
+metabolic,metabolic,longevity,entries,cellular_ageing,Adults with cellular ageing concerns,3,entries/metabolic/fisetin-long-lon05/longevity/v1,yes
+metabolic,metabolic,longevity,entries,telomere_support,Adults with telomere support concerns,3,entries/metabolic/glutathione-long-lon15/longevity/v1,yes
+metabolic,metabolic,metabolic,entries,glucose_control,Adults with glucose control concerns,3,entries/metabolic/gymnema-meta-glu05/metabolic/v1,yes
+metabolic,metabolic,metabolic,entries,insulin_sensitivity,Adults with insulin sensitivity concerns,3,entries/metabolic/inositol-meta-glu07/metabolic/v1,yes
+metabolic,metabolic,metabolic,entries,lipid_profile,Adults with lipid profile concerns,3,entries/metabolic/magnesium-meta-glu08/metabolic/v1,yes
+metabolic,metabolic,longevity,entries,cellular_ageing,Adults with cellular ageing concerns,3,entries/metabolic/melatonin-long-lon09/longevity/v1,yes
+metabolic,metabolic,longevity,entries,mitochondrial_function,Adults with mitochondrial function concerns,3,entries/metabolic/metformin-analog-long-lon18/longevity/v1,yes
+metabolic,metabolic,metabolic,entries,weight_management,Adults with weight management concerns,3,entries/metabolic/milk-thistle-meta-glu14/metabolic/v1,yes
+metabolic,metabolic,metabolic,entries,ovulatory_dysfunction,Adults with ovulatory dysfunction concerns,3,entries/metabolic/myo-inositol-met-inos-ovul/metabolic/v1,yes
+metabolic,metabolic,longevity,entries,mitochondrial_function,Adults with mitochondrial function concerns,3,entries/metabolic/nicotinamide-mononucleotide-long-lon02/longevity/v1,yes
+metabolic,metabolic,longevity,entries,cellular_ageing,Adults with cellular ageing concerns,3,entries/metabolic/nicotinamide-riboside-long-lon01/longevity/v1,yes
+metabolic,metabolic,metabolic,entries,glucose_control,Adults with glucose control concerns,3,entries/metabolic/olive-leaf-meta-glu16/metabolic/v1,yes
+metabolic,metabolic,metabolic,entries,prediabetes,Adults with prediabetes concerns,3,entries/metabolic/omega-3-met-omega-prediab/metabolic/v1,yes
+metabolic,metabolic,metabolic,entries,weight_management,Adults with weight management concerns,3,entries/metabolic/omega-3-meta-glu19/metabolic/v1,yes
+metabolic,metabolic,metabolic,entries,glp1_modulation,Adults with glp1 modulation concerns,3,entries/metabolic/prebiotic-fiber-met-glp-fiber/metabolic/v1,yes
+metabolic,metabolic,metabolic,entries,lipid_profile,Adults with lipid profile concerns,3,entries/metabolic/pterostilbene-meta-glu18/metabolic/v1,yes
+metabolic,metabolic,longevity,entries,mitochondrial_function,Adults with mitochondrial function concerns,3,entries/metabolic/quercetin-long-lon06/longevity/v1,yes
+metabolic,metabolic,longevity,entries,telomere_support,Adults with telomere support concerns,3,entries/metabolic/rapamycin-microdose-long-lon19/longevity/v1,yes
+metabolic,metabolic,longevity,entries,telomere_support,Adults with telomere support concerns,3,entries/metabolic/resveratrol-long-lon03/longevity/v1,yes
+metabolic,metabolic,metabolic,entries,insulin_sensitivity,Adults with insulin sensitivity concerns,3,entries/metabolic/resveratrol-meta-glu17/metabolic/v1,yes
+metabolic,metabolic,longevity,entries,telomere_support,Adults with telomere support concerns,3,entries/metabolic/spermidine-long-lon07/longevity/v1,yes
+metabolic,metabolic,metabolic,entries,insulin_sensitivity,Adults with insulin sensitivity concerns,3,entries/metabolic/spirulina-meta-glu12/metabolic/v1,yes
+metabolic,metabolic,metabolic,entries,weight_management,Adults with weight management concerns,3,entries/metabolic/vanadyl-sulfate-meta-glu09/metabolic/v1,yes
+neurological,neurological,cognition,entries,processing_speed,Adults with processing speed concerns,3,entries/neurological/acetyl-l-carnitine-cog-acet-learn/cognition/v1,yes
+neurological,neurological,cognition,entries,attention,Adults with attention concerns,3,entries/neurological/alpha-gpc-cog-alpgpc-focus/cognition/v1,yes
+neurological,neurological,cognition,entries,memory,Adults with memory concerns,3,entries/neurological/bacopa-cog-bac-mem/cognition/v1,yes
+neurological,neurological,cognition,entries,attention,Adults with attention concerns,3,entries/neurological/caffeine-l-theanine-cog-caff-adj/cognition/v1,yes
+neurological,neurological,cognition,entries,cognitive_decline,Adults with cognitive decline concerns,3,entries/neurological/cerebrolysin-peptide-cog-pep-neuro/cognition/v1,yes
+neurological,neurological,cognition,entries,attention,Adults with attention concerns,3,entries/neurological/citicoline-cog-cit-circ/cognition/v1,yes
+neurological,neurological,cognition,entries,memory,Adults with memory concerns,3,entries/neurological/curcumin-cog-curc-neuro/cognition/v1,yes
+neurological,neurological,cognition,entries,memory,Adults with memory concerns,3,entries/neurological/ginkgo-cog-gink-circ/cognition/v1,yes
+neurological,neurological,cognition,entries,cognitive_decline,Adults with cognitive decline concerns,3,entries/neurological/lions-mane-cog-lion-neuro/cognition/v1,yes
+neurological,neurological,cognition,entries,processing_speed,Adults with processing speed concerns,3,entries/neurological/lutein-cog-lute-vis/cognition/v1,yes
+neurological,neurological,cognition,entries,cognitive_decline,Adults with cognitive decline concerns,3,entries/neurological/methyl-b12-cog-b12-cog/cognition/v1,yes
+neurological,neurological,cognition,entries,memory,Adults with memory concerns,3,entries/neurological/methylfolate-cog-fol-mci/cognition/v1,yes
+neurological,neurological,cognition,entries,mitochondrial_support,Adults with mitochondrial support concerns,3,entries/neurological/nicotinamide-riboside-cog-nico-noot/cognition/v1,yes
+neurological,neurological,cognition,entries,attention,Adults with attention concerns,3,entries/neurological/nootropic-blend-cog-brain-multi/cognition/v1,yes
+neurological,neurological,cognition,entries,cognitive_decline,Adults with cognitive decline concerns,3,entries/neurological/omega-3-cog-omega-cog/cognition/v1,yes
+neurological,neurological,cognition,entries,processing_speed,Adults with processing speed concerns,3,entries/neurological/panax-ginseng-cog-gins-adapt/cognition/v1,yes
+neurological,neurological,cognition,entries,executive_function,Adults with executive function concerns,3,entries/neurological/phosphatidylserine-cog-pser-exec/cognition/v1,yes
+neurological,neurological,cognition,entries,cerebral_blood_flow,Adults with cerebral blood flow concerns,3,entries/neurological/resveratrol-cog-resv-neuro/cognition/v1,yes
+neurological,neurological,cognition,entries,stress_resilience,Adults with stress resilience concerns,3,entries/neurological/rhodiola-cog-rhod-stress/cognition/v1,yes
+neurological,neurological,cognition,entries,cerebral_blood_flow,Adults with cerebral blood flow concerns,3,entries/neurological/vinpocetine-cog-vinc-circ/cognition/v1,yes
+nutrient,nutrient,sleep,entries,psqi_total,adults with primary insomnia,3,entries/nutrient/magnesium-glycinate/sleep/v1,yes
+physiological,physiological,cardiovascular,entries,oxidative_stress,Adults with oxidative stress concerns,3,entries/physiological/astaxanthin-card-asta-card/cardiovascular/v1,yes
+physiological,physiological,cardiovascular,entries,endothelial_function,Adults with endothelial function concerns,3,entries/physiological/beetroot-card-beet-nit/cardiovascular/v1,yes
+physiological,physiological,cardiovascular,entries,endothelial_function,Adults with endothelial function concerns,3,entries/physiological/beetroot-card-beet-no/cardiovascular/v1,yes
+physiological,physiological,musculoskeletal,entries,muscle_recovery,Adults with muscle recovery concerns,3,entries/physiological/beetroot-musc-msk15/musculoskeletal/v1,yes
+physiological,physiological,cardiovascular,entries,cholesterol,Adults with cholesterol concerns,3,entries/physiological/bergamot-card-berg-lip/cardiovascular/v1,yes
+physiological,physiological,cardiovascular,entries,ldl_management,Adults with ldl management concerns,3,entries/physiological/bergamot-card-berg-lipid/cardiovascular/v1,yes
+physiological,physiological,musculoskeletal,entries,bone_density,Adults with bone density concerns,3,entries/physiological/boswellia-musc-msk06/musculoskeletal/v1,yes
+physiological,physiological,musculoskeletal,entries,joint_health,Adults with joint health concerns,3,entries/physiological/calcium-musc-msk09/musculoskeletal/v1,yes
+physiological,physiological,musculoskeletal,entries,bone_density,Adults with bone density concerns,3,entries/physiological/casein-musc-msk18/musculoskeletal/v1,yes
+physiological,physiological,musculoskeletal,entries,muscle_recovery,Adults with muscle recovery concerns,3,entries/physiological/chondroitin-musc-msk03/musculoskeletal/v1,yes
+physiological,physiological,musculoskeletal,entries,bone_density,Adults with bone density concerns,3,entries/physiological/citrulline-musc-msk14/musculoskeletal/v1,yes
+physiological,physiological,cardiovascular,entries,endothelial_function,Adults with endothelial function concerns,3,entries/physiological/cocoa-flavanols-card-cacao-endo/cardiovascular/v1,yes
+physiological,physiological,musculoskeletal,entries,joint_health,Adults with joint health concerns,3,entries/physiological/collagen-musc-msk01/musculoskeletal/v1,yes
+physiological,physiological,cardiovascular,entries,blood_pressure,Adults with blood pressure concerns,3,entries/physiological/coq10-card-coq-bp/cardiovascular/v1,yes
+physiological,physiological,cardiovascular,entries,heart_failure,Adults with heart failure concerns,3,entries/physiological/coq10-card-coq10-hf/cardiovascular/v1,yes
+physiological,physiological,musculoskeletal,entries,muscle_recovery,Adults with muscle recovery concerns,3,entries/physiological/creatine-musc-msk11/musculoskeletal/v1,yes
+physiological,physiological,cardiovascular,entries,lipoprotein_a,Adults with lipoprotein a concerns,3,entries/physiological/curcumin-card-curc-card/cardiovascular/v1,yes
+physiological,physiological,cardiovascular,entries,blood_pressure,Adults with blood pressure concerns,3,entries/physiological/dark-chocolate-card-dark-choc/cardiovascular/v1,yes
+physiological,physiological,cardiovascular,entries,blood_pressure,Adults with blood pressure concerns,3,entries/physiological/fish-peptides-card-fish-pep/cardiovascular/v1,yes
+physiological,physiological,cardiovascular,entries,cholesterol,Adults with cholesterol concerns,3,entries/physiological/garlic-card-gar-chole/cardiovascular/v1,yes
+physiological,physiological,cardiovascular,entries,hypertension,Adults with hypertension concerns,3,entries/physiological/garlic-card-garl-bp/cardiovascular/v1,yes
+physiological,physiological,musculoskeletal,entries,bone_density,Adults with bone density concerns,3,entries/physiological/glucosamine-musc-msk02/musculoskeletal/v1,yes
+physiological,physiological,cardiovascular,entries,heart_failure,Adults with heart failure concerns,3,entries/physiological/hawthorn-card-haw-heart/cardiovascular/v1,yes
+physiological,physiological,cardiovascular,entries,cardiac_output,Adults with cardiac output concerns,3,entries/physiological/hawthorn-card-haw-output/cardiovascular/v1,yes
+physiological,physiological,musculoskeletal,entries,muscle_recovery,Adults with muscle recovery concerns,3,entries/physiological/hyaluronic-acid-musc-msk07/musculoskeletal/v1,yes
+physiological,physiological,cardiovascular,entries,exercise_capacity,Adults with exercise capacity concerns,3,entries/physiological/l-carnitine-card-carn-pump/cardiovascular/v1,yes
+physiological,physiological,musculoskeletal,entries,joint_health,Adults with joint health concerns,3,entries/physiological/l-carnitine-musc-msk13/musculoskeletal/v1,yes
+physiological,physiological,cardiovascular,entries,arterial_stiffness,Adults with arterial stiffness concerns,3,entries/physiological/lycopene-card-lycop-card/cardiovascular/v1,yes
+physiological,physiological,musculoskeletal,entries,bone_density,Adults with bone density concerns,3,entries/physiological/magnesium-musc-msk10/musculoskeletal/v1,yes
+physiological,physiological,cardiovascular,entries,thrombotic_risk,Adults with thrombotic risk concerns,3,entries/physiological/nattokinase-card-natt-fib/cardiovascular/v1,yes
+physiological,physiological,cardiovascular,entries,hdl_cholesterol,Adults with hdl cholesterol concerns,3,entries/physiological/niacin-card-nia-vaso/cardiovascular/v1,yes
+physiological,physiological,cardiovascular,entries,triglycerides,Adults with triglycerides concerns,3,entries/physiological/omega-3-card-omega-card/cardiovascular/v1,yes
+physiological,physiological,cardiovascular,entries,hypertriglyceridemia,Adults with hypertriglyceridemia concerns,3,entries/physiological/omega-3-card-omega-trig/cardiovascular/v1,yes
+physiological,physiological,cardiovascular,entries,blood_pressure,Adults with blood pressure concerns,3,entries/physiological/polyphenol-blend-card-poly-res/cardiovascular/v1,yes
+physiological,physiological,cardiovascular,entries,blood_pressure,Adults with blood pressure concerns,3,entries/physiological/pomegranate-card-pome-gtp/cardiovascular/v1,yes
+physiological,physiological,cardiovascular,entries,cholesterol,Adults with cholesterol concerns,3,entries/physiological/psyllium-card-psyll-chol/cardiovascular/v1,yes
+physiological,physiological,cardiovascular,entries,cholesterol,Adults with cholesterol concerns,3,entries/physiological/red-yeast-rice-card-redy-statin/cardiovascular/v1,yes
+physiological,physiological,cardiovascular,entries,endothelial_health,Adults with endothelial health concerns,3,entries/physiological/resveratrol-card-resv-endo/cardiovascular/v1,yes
+physiological,physiological,cardiovascular,entries,blood_pressure,Adults with blood pressure concerns,3,entries/physiological/spirulina-card-spir-htn/cardiovascular/v1,yes
+physiological,physiological,cardiovascular,entries,blood_pressure,Adults with blood pressure concerns,3,entries/physiological/taurine-card-taur-bp/cardiovascular/v1,yes
+physiological,physiological,cardiovascular,entries,arterial_stiffness,Adults with arterial stiffness concerns,3,entries/physiological/turmeric-blend-card-turm-circ/cardiovascular/v1,yes
+physiological,physiological,musculoskeletal,entries,joint_health,Adults with joint health concerns,3,entries/physiological/turmeric-musc-msk05/musculoskeletal/v1,yes
+physiological,physiological,musculoskeletal,entries,joint_health,Adults with joint health concerns,3,entries/physiological/whey-protein-musc-msk17/musculoskeletal/v1,yes
+psychological,psychological,mental_health,entries,stress,Adults with stress concerns,3,entries/psychological/adaptogen-blend-ment-adapto-mix/mental_health/v1,yes
+psychological,psychological,mental_health,entries,stress_resilience,Adults with stress resilience concerns,3,entries/psychological/ashwagandha-mh-ash-cort/mental_health/v1,yes
+psychological,psychological,mental_health,entries,anxiety,Adults with anxiety concerns,3,entries/psychological/b-complex-ment-b-complex/mental_health/v1,yes
+psychological,psychological,mental_health,entries,anxiety,Adults with anxiety concerns,3,entries/psychological/cbd-ment-cbd-anx/mental_health/v1,yes
+psychological,psychological,mental_health,entries,anxiety,Adults with anxiety concerns,3,entries/psychological/gaba-ment-gaba-calm/mental_health/v1,yes
+psychological,psychological,mental_health,entries,acute_stress,Adults with acute stress concerns,3,entries/psychological/gaba-mh-gaba-neuro/mental_health/v1,yes
+psychological,psychological,mental_health,entries,negative_symptoms,Adults with negative symptoms concerns,3,entries/psychological/glycine-ment-glycine-mood/mental_health/v1,yes
+psychological,psychological,mental_health,entries,anxiety,Adults with anxiety concerns,3,entries/psychological/kava-ment-kava-mood/mental_health/v1,yes
+psychological,psychological,mental_health,entries,treatment_resistant_depression,Adults with treatment resistant depression concerns,3,entries/psychological/ketamine-support-ment-ket-nutri/mental_health/v1,yes
+psychological,psychological,mental_health,entries,anxiety,Adults with anxiety concerns,3,entries/psychological/l-theanine-ment-lthn-anx/mental_health/v1,yes
+psychological,psychological,mental_health,entries,anxiety_management,Adults with anxiety management concerns,3,entries/psychological/l-theanine-mh-lthr-gaba/mental_health/v1,yes
+psychological,psychological,mental_health,entries,serotonin_modulation,Adults with serotonin modulation concerns,3,entries/psychological/l-tryptophan-mh-ltrp-serotonin/mental_health/v1,yes
+psychological,psychological,mental_health,entries,anxiety,Adults with anxiety concerns,3,entries/psychological/lavender-ment-lav-caps/mental_health/v1,yes
+psychological,psychological,mental_health,entries,generalized_anxiety,Adults with generalized anxiety concerns,3,entries/psychological/magnesium-glycinate-mh-mag-glyc/mental_health/v1,yes
+psychological,psychological,mental_health,entries,panic_disorder,Adults with panic disorder concerns,3,entries/psychological/myo-inositol-ment-myo-in/mental_health/v1,yes
+psychological,psychological,mental_health,entries,ocd,Adults with ocd concerns,3,entries/psychological/nac-ment-nac-ocd/mental_health/v1,yes
+psychological,psychological,mental_health,entries,attachment_security,Adults with attachment security concerns,3,entries/psychological/neuropeptide-spray-mh-pep-neuro/mental_health/v1,yes
+psychological,psychological,mental_health,entries,depression,Adults with depression concerns,3,entries/psychological/omega-3-ment-omega-mood/mental_health/v1,yes
+psychological,psychological,mental_health,entries,major_depression,Adults with major depression concerns,3,entries/psychological/omega-3-mh-omega-dep/mental_health/v1,yes
+psychological,psychological,mental_health,entries,anxiety,Adults with anxiety concerns,3,entries/psychological/prebiotic-fiber-ment-gut-axis/mental_health/v1,yes
+psychological,psychological,mental_health,entries,gut_brain_axis,Adults with gut brain axis concerns,3,entries/psychological/probiotic-blend-mh-probio-axis/mental_health/v1,yes
+psychological,psychological,mental_health,entries,anxiety,Adults with anxiety concerns,3,entries/psychological/probiotics-ment-prob-mood/mental_health/v1,yes
+psychological,psychological,mental_health,entries,depression,Adults with depression concerns,3,entries/psychological/psilocybin-microdose-ment-psych-mush/mental_health/v1,yes
+psychological,psychological,mental_health,entries,stress,Adults with stress concerns,3,entries/psychological/rhodiola-ment-rhod-anx/mental_health/v1,yes
+psychological,psychological,mental_health,entries,burnout_recovery,Adults with burnout recovery concerns,3,entries/psychological/rhodiola-mh-rhod-burnout/mental_health/v1,yes
+psychological,psychological,mental_health,entries,depression,Adults with depression concerns,3,entries/psychological/saffron-ment-saff-depr/mental_health/v1,yes
+psychological,psychological,mental_health,entries,depressive_symptoms,Adults with depressive symptoms concerns,3,entries/psychological/saffron-mh-safr-mood/mental_health/v1,yes
+psychological,psychological,mental_health,entries,depression,Adults with depression concerns,3,entries/psychological/sam-e-ment-sam-e/mental_health/v1,yes
+psychological,psychological,mental_health,entries,depression,Adults with depression concerns,3,entries/psychological/st-johns-wort-ment-stj-wort/mental_health/v1,yes
+psychological,psychological,mental_health,entries,depression,Adults with depression concerns,3,entries/psychological/vitamin-d-ment-vitd-mood/mental_health/v1,yes
+safety,safety,renal_safety,entries,renal_hemodynamics,Adults with renal hemodynamics concerns,3,entries/safety/caffeine-ren-caff-dose/renal_safety/v1,yes
+safety,safety,renal_safety,entries,long_term_safety,Adults with long term safety concerns,3,entries/safety/creatine-ren-crtn-safe/renal_safety/v1,yes
+safety,safety,renal_safety,entries,renal_risk_mitigation,Adults with renal risk mitigation concerns,3,entries/safety/nsaid-protocol-ren-nsaid-mit/renal_safety/v1,yes

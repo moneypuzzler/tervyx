@@ -2,15 +2,15 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "metabolic:berberine-long-lon17:longevity:v1",
-  "title": "Berberine — Longevity",
+  "title": "Berberine Long Lon17 — Longevity",
   "category": "longevity",
-  "tier": "Silver",
-  "label": "PASS",
-  "P_effect_gt_delta": 0.77305,
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.9164,
   "gate_results": {
-    "phi": "PASS",
-    "r": 0.916,
-    "j": 0.566,
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
     "k": "PASS",
     "l": "PASS"
   },
@@ -18,11 +18,11 @@
     "n_studies": 3,
     "total_n": 482,
     "I2": 0.0,
-    "tau2": 0.00029781,
-    "mu_hat": 0.2078,
+    "tau2": 0.0,
+    "mu_hat": 0.208816,
     "mu_CI95": [
-      0.056533,
-      0.359067
+      0.124402,
+      0.293229
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-27T01:51:32.572988+00:00",
+  "created": "2025-11-05T06:50:37.097526+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:1c90101994d91863eee5b958e05fefe676dd42aaf587ebe8b90e3679fe7b91a8",
-  "audit_hash": "0x981a971f599db151"
+  "citations_manifest_hash": "sha256:b3f0a4165cdadc86479763dfcdc2bb2d2bec9aecd893e454bbb4d0e3253353de",
+  "audit_hash": "0x0b422b60b1523729"
 }

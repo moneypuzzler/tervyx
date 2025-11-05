@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:39.860848+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T07:35:24.673918+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/resveratrol-cog-resv-neuro/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -12,9 +12,9 @@
       "outcome": "cerebral_blood_flow",
       "population": "Adults with cerebral blood flow concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/cog-resv-neuro-01",
-      "url": "https://doi.org/10.1234/cog-resv-neuro-01",
-      "citation": "COG-RESV-NEURO_01 (2018); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cerebral blood flow concerns; Outcome: cerebral_blood_flow; DOI: 10.1234/cog-resv-neuro-01; Adverse Events: Mild GI discomfort."
+      "doi": "10.3390/antiox13020160",
+      "url": "https://doi.org/10.3390/antiox13020160",
+      "citation": "COG-RESV-NEURO_01 (2018); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cerebral blood flow concerns; Outcome: cerebral_blood_flow; DOI: 10.3390/antiox13020160; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "COG-RESV-NEURO_02",
@@ -24,9 +24,9 @@
       "outcome": "cerebral_blood_flow",
       "population": "Adults with cerebral blood flow concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/cog-resv-neuro-02",
-      "url": "https://doi.org/10.1234/cog-resv-neuro-02",
-      "citation": "COG-RESV-NEURO_02 (2019); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cerebral blood flow concerns; Outcome: cerebral_blood_flow; DOI: 10.1234/cog-resv-neuro-02; Adverse Events: Transient headache."
+      "doi": "10.3945/ajcn.112.055061",
+      "url": "https://doi.org/10.3945/ajcn.112.055061",
+      "citation": "COG-RESV-NEURO_02 (2019); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cerebral blood flow concerns; Outcome: cerebral_blood_flow; DOI: 10.3945/ajcn.112.055061; Adverse Events: Transient headache."
     },
     {
       "study_id": "COG-RESV-NEURO_03",
@@ -36,39 +36,39 @@
       "outcome": "cerebral_blood_flow",
       "population": "Adults with cerebral blood flow concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/cog-resv-neuro-03",
-      "url": "https://doi.org/10.1234/cog-resv-neuro-03",
-      "citation": "COG-RESV-NEURO_03 (2020); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cerebral blood flow concerns; Outcome: cerebral_blood_flow; DOI: 10.1234/cog-resv-neuro-03; Adverse Events: None reported."
+      "doi": "10.3389/fnut.2024.1359330",
+      "url": "https://doi.org/10.3389/fnut.2024.1359330",
+      "citation": "COG-RESV-NEURO_03 (2020); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cerebral blood flow concerns; Outcome: cerebral_blood_flow; DOI: 10.3389/fnut.2024.1359330; Adverse Events: None reported."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/cog-resv-neuro-01",
-      "study_ids": [
-        "COG-RESV-NEURO_01"
-      ],
-      "primary_study_id": "COG-RESV-NEURO_01",
-      "url": "https://doi.org/10.1234/cog-resv-neuro-01"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/cog-resv-neuro-02",
-      "study_ids": [
-        "COG-RESV-NEURO_02"
-      ],
-      "primary_study_id": "COG-RESV-NEURO_02",
-      "url": "https://doi.org/10.1234/cog-resv-neuro-02"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/cog-resv-neuro-03",
+      "identifier": "10.3389/fnut.2024.1359330",
       "study_ids": [
         "COG-RESV-NEURO_03"
       ],
       "primary_study_id": "COG-RESV-NEURO_03",
-      "url": "https://doi.org/10.1234/cog-resv-neuro-03"
+      "url": "https://doi.org/10.3389/fnut.2024.1359330"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.3390/antiox13020160",
+      "study_ids": [
+        "COG-RESV-NEURO_01"
+      ],
+      "primary_study_id": "COG-RESV-NEURO_01",
+      "url": "https://doi.org/10.3390/antiox13020160"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.3945/ajcn.112.055061",
+      "study_ids": [
+        "COG-RESV-NEURO_02"
+      ],
+      "primary_study_id": "COG-RESV-NEURO_02",
+      "url": "https://doi.org/10.3945/ajcn.112.055061"
     }
   ],
-  "manifest_hash": "sha256:12b0053abdf17835de68a84c0564827b8ac4114dd8efc17fd119a26048e3c405"
+  "manifest_hash": "sha256:db0af8b20e0c806bfcaade00d9de91a054b0f3503dac307c572ba22e65c4fae9"
 }

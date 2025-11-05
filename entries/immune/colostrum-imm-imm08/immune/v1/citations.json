@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-24T08:19:10.297900+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:17.220816+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/immune/colostrum-imm-imm08/immune/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/colostrum-imm-imm08-03"
     }
   ],
-  "manifest_hash": "sha256:7a453778e8c2f60db415765425158dd70fb0ed3dcbefa42dec18d32fa745b16d"
+  "manifest_hash": "sha256:1b5152a2f1a07b6d0ed839c90b4c7a2c1744c281ce32e6ef045d9542952ab8ba"
 }

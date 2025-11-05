@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.593765+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:11.055535+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/beetroot-musc-msk15/musculoskeletal/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/musc-msk15-03"
     }
   ],
-  "manifest_hash": "sha256:51f00d0e2af0f7a652d565566a6e2ed47b5e994d871adc68e0709889277986f7"
+  "manifest_hash": "sha256:d22cd3994134ed7fd81502160d4fc5632179f4d66b0fefc1154ccd67cf325cc4"
 }

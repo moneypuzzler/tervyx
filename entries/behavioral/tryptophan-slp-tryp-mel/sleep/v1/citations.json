@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:38.670999+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T07:16:52.029543+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/tryptophan-slp-tryp-mel/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -12,9 +12,9 @@
       "outcome": "sleep_onset",
       "population": "Adults with sleep onset concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/slp-tryp-mel-01",
-      "url": "https://doi.org/10.1234/slp-tryp-mel-01",
-      "citation": "SLP-TRYP-MEL_01 (2019); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep onset concerns; Outcome: sleep_onset; DOI: 10.1234/slp-tryp-mel-01; Adverse Events: Transient headache."
+      "doi": "10.1093/nutrit/nuab027",
+      "url": "https://doi.org/10.1093/nutrit/nuab027",
+      "citation": "SLP-TRYP-MEL_01 (2019); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep onset concerns; Outcome: sleep_onset; DOI: 10.1093/nutrit/nuab027; Adverse Events: Transient headache."
     },
     {
       "study_id": "SLP-TRYP-MEL_02",
@@ -24,9 +24,9 @@
       "outcome": "sleep_onset",
       "population": "Adults with sleep onset concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/slp-tryp-mel-02",
-      "url": "https://doi.org/10.1234/slp-tryp-mel-02",
-      "citation": "SLP-TRYP-MEL_02 (2020); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep onset concerns; Outcome: sleep_onset; DOI: 10.1234/slp-tryp-mel-02; Adverse Events: None reported."
+      "doi": "10.3389/fnut.2020.00099",
+      "url": "https://doi.org/10.3389/fnut.2020.00099",
+      "citation": "SLP-TRYP-MEL_02 (2020); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep onset concerns; Outcome: sleep_onset; DOI: 10.3389/fnut.2020.00099; Adverse Events: None reported."
     },
     {
       "study_id": "SLP-TRYP-MEL_03",
@@ -36,39 +36,39 @@
       "outcome": "sleep_onset",
       "population": "Adults with sleep onset concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/slp-tryp-mel-03",
-      "url": "https://doi.org/10.1234/slp-tryp-mel-03",
-      "citation": "SLP-TRYP-MEL_03 (2021); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep onset concerns; Outcome: sleep_onset; DOI: 10.1234/slp-tryp-mel-03; Adverse Events: Mild GI discomfort."
+      "doi": "10.4137/ijtr.s1129",
+      "url": "https://doi.org/10.4137/ijtr.s1129",
+      "citation": "SLP-TRYP-MEL_03 (2021); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep onset concerns; Outcome: sleep_onset; DOI: 10.4137/ijtr.s1129; Adverse Events: Mild GI discomfort."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/slp-tryp-mel-01",
+      "identifier": "10.1093/nutrit/nuab027",
       "study_ids": [
         "SLP-TRYP-MEL_01"
       ],
       "primary_study_id": "SLP-TRYP-MEL_01",
-      "url": "https://doi.org/10.1234/slp-tryp-mel-01"
+      "url": "https://doi.org/10.1093/nutrit/nuab027"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/slp-tryp-mel-02",
+      "identifier": "10.3389/fnut.2020.00099",
       "study_ids": [
         "SLP-TRYP-MEL_02"
       ],
       "primary_study_id": "SLP-TRYP-MEL_02",
-      "url": "https://doi.org/10.1234/slp-tryp-mel-02"
+      "url": "https://doi.org/10.3389/fnut.2020.00099"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/slp-tryp-mel-03",
+      "identifier": "10.4137/ijtr.s1129",
       "study_ids": [
         "SLP-TRYP-MEL_03"
       ],
       "primary_study_id": "SLP-TRYP-MEL_03",
-      "url": "https://doi.org/10.1234/slp-tryp-mel-03"
+      "url": "https://doi.org/10.4137/ijtr.s1129"
     }
   ],
-  "manifest_hash": "sha256:6a7a9e6886d4b87dcd6cc52184b2a62b478a6146d5ea993ec07802e983cb834f"
+  "manifest_hash": "sha256:8dfcedfaf6739ab8f0f4592a3a6b32f557aa5dc20739c58ce7757054d6eacdeb"
 }

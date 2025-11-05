@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:50:36.321901+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:22.585514+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/immune/lactobacillus-rhamnosus-imm-lact-ecz/immune_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/imm-lact-ecz-03"
     }
   ],
-  "manifest_hash": "sha256:c39a495e6246ffb1d18e92319eedc5b391a5319b683ac950297a29cb2847adf5"
+  "manifest_hash": "sha256:2e57b26612a4141b5dfca1609afa9d8d0239e916c9a1b7fab5e49378019e3641"
 }

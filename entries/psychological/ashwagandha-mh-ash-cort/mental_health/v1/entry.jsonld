@@ -10,7 +10,7 @@
   "gate_results": {
     "phi": "PASS",
     "r": 0.9,
-    "j": 0.0,
+    "j": 0.607,
     "k": "PASS",
     "l": "PASS"
   },
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-23T09:24:44.285593+00:00",
+  "created": "2025-11-05T07:22:17.663412+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/mh-ash-cort-01",
+      "@id": "doi:10.1016/j.jep.2020.113276",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/mh-ash-cort-01",
+      "identifier": "doi:10.1016/j.jep.2020.113276",
       "studyIds": [
         "MH-ASH-CORT_01"
       ],
-      "citation": "MH-ASH-CORT_01 (2009); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1234/mh-ash-cort-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/mh-ash-cort-01",
-      "sameAs": "https://doi.org/10.1234/mh-ash-cort-01",
+      "citation": "MH-ASH-CORT_01 (2009); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1016/j.jep.2020.113276; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1016/j.jep.2020.113276",
+      "sameAs": "https://doi.org/10.1016/j.jep.2020.113276",
       "datePublished": "2009",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,38 +76,38 @@
       }
     },
     {
-      "@id": "doi:10.1234/mh-ash-cort-02",
+      "@id": "doi:10.1371/journal.pone.0257843",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/mh-ash-cort-02",
+      "identifier": "doi:10.1371/journal.pone.0257843",
       "studyIds": [
-        "MH-ASH-CORT_02"
+        "MH-ASH-CORT_03"
       ],
-      "citation": "MH-ASH-CORT_02 (2010); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1234/mh-ash-cort-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/mh-ash-cort-02",
-      "sameAs": "https://doi.org/10.1234/mh-ash-cort-02",
-      "datePublished": "2010",
+      "citation": "MH-ASH-CORT_03 (2011); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1371/journal.pone.0257843; Adverse Events: None reported.",
+      "doi": "10.1371/journal.pone.0257843",
+      "sameAs": "https://doi.org/10.1371/journal.pone.0257843",
+      "datePublished": "2011",
       "isPartOf": {
         "@type": "Periodical",
         "name": "mental_health_journal"
       }
     },
     {
-      "@id": "doi:10.1234/mh-ash-cort-03",
+      "@id": "doi:10.7759/cureus.5797",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/mh-ash-cort-03",
+      "identifier": "doi:10.7759/cureus.5797",
       "studyIds": [
-        "MH-ASH-CORT_03"
+        "MH-ASH-CORT_02"
       ],
-      "citation": "MH-ASH-CORT_03 (2011); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1234/mh-ash-cort-03; Adverse Events: None reported.",
-      "doi": "10.1234/mh-ash-cort-03",
-      "sameAs": "https://doi.org/10.1234/mh-ash-cort-03",
-      "datePublished": "2011",
+      "citation": "MH-ASH-CORT_02 (2010); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.7759/cureus.5797; Adverse Events: Transient headache.",
+      "doi": "10.7759/cureus.5797",
+      "sameAs": "https://doi.org/10.7759/cureus.5797",
+      "datePublished": "2010",
       "isPartOf": {
         "@type": "Periodical",
         "name": "mental_health_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:9adec2667969eee112e1a1065bac501904b7da11d733a326afdf5e2b06d5ba0f",
-  "audit_hash": "0x6b391ccd371ca9de"
+  "citations_manifest_hash": "sha256:2e3df9fd7619cbc7def8f9737a0607b10d05a2e2fc8b48f3180414649fec1a2b",
+  "audit_hash": "0x184a201ecdaa05d9"
 }

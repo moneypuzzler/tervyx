@@ -10,7 +10,7 @@
   "gate_results": {
     "phi": "PASS",
     "r": 1.0,
-    "j": 0.0,
+    "j": 0.607,
     "k": "PASS",
     "l": "PASS"
   },
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-23T09:24:42.418578+00:00",
+  "created": "2025-11-05T07:22:10.314650+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/ment-gut-axis-01",
+      "@id": "doi:10.1016/j.neubiorev.2019.03.023",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-gut-axis-01",
+      "identifier": "doi:10.1016/j.neubiorev.2019.03.023",
       "studyIds": [
         "MENT-GUT-AXIS_01"
       ],
-      "citation": "MENT-GUT-AXIS_01 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-gut-axis-01; Adverse Events: None reported.",
-      "doi": "10.1234/ment-gut-axis-01",
-      "sameAs": "https://doi.org/10.1234/ment-gut-axis-01",
+      "citation": "MENT-GUT-AXIS_01 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1016/j.neubiorev.2019.03.023; Adverse Events: None reported.",
+      "doi": "10.1016/j.neubiorev.2019.03.023",
+      "sameAs": "https://doi.org/10.1016/j.neubiorev.2019.03.023",
       "datePublished": "2017",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,15 +76,15 @@
       }
     },
     {
-      "@id": "doi:10.1234/ment-gut-axis-02",
+      "@id": "doi:10.1186/s12888-023-04963-x",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-gut-axis-02",
+      "identifier": "doi:10.1186/s12888-023-04963-x",
       "studyIds": [
         "MENT-GUT-AXIS_02"
       ],
-      "citation": "MENT-GUT-AXIS_02 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-gut-axis-02; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/ment-gut-axis-02",
-      "sameAs": "https://doi.org/10.1234/ment-gut-axis-02",
+      "citation": "MENT-GUT-AXIS_02 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1186/s12888-023-04963-x; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1186/s12888-023-04963-x",
+      "sameAs": "https://doi.org/10.1186/s12888-023-04963-x",
       "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,15 +92,15 @@
       }
     },
     {
-      "@id": "doi:10.1234/ment-gut-axis-03",
+      "@id": "doi:10.3390/nu14091918",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-gut-axis-03",
+      "identifier": "doi:10.3390/nu14091918",
       "studyIds": [
         "MENT-GUT-AXIS_03"
       ],
-      "citation": "MENT-GUT-AXIS_03 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-gut-axis-03; Adverse Events: Transient headache.",
-      "doi": "10.1234/ment-gut-axis-03",
-      "sameAs": "https://doi.org/10.1234/ment-gut-axis-03",
+      "citation": "MENT-GUT-AXIS_03 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.3390/nu14091918; Adverse Events: Transient headache.",
+      "doi": "10.3390/nu14091918",
+      "sameAs": "https://doi.org/10.3390/nu14091918",
       "datePublished": "2019",
       "isPartOf": {
         "@type": "Periodical",
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:df59e212717b9b57de083c157662b29e63c83550f747995edd376be8912aa01f",
-  "audit_hash": "0x6b732f4367c6f301"
+  "citations_manifest_hash": "sha256:e325f7faf3cb7ac7e1f561307eb8310cc9844d86f8e5ed40bd2b57ebd3a4baa5",
+  "audit_hash": "0x6145923a6aeb32e9"
 }

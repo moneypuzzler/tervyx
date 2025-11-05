@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-SLP-MAG-CORE-01,2010,randomized controlled trial,SMD,-0.3468,-0.5046,-0.189,94,80,mixed,10.1234/slp-mag-core-01,sleep-journal-01,sleep_quality,Adults with sleep quality concerns,Transient headache,11
-SLP-MAG-CORE-02,2015,randomized controlled trial,SMD,-0.3414,-0.4816,-0.2012,77,94,low,10.1234/slp-mag-core-02,sleep-journal-02,sleep_quality,Adults with sleep quality concerns,Mild GI discomfort,10
-SLP-MAG-CORE-03,2020,randomized controlled trial,SMD,-0.336,-0.4586,-0.2134,90,79,some concerns,10.1234/slp-mag-core-03,sleep-journal-03,sleep_quality,Adults with sleep quality concerns,None reported,9
+SLP-MAG-CORE-01,2010,randomized controlled trial,SMD,-0.3468,-0.5046,-0.189,94,80,mixed,10.1684/mrh.2010.0220,sleep-journal-01,sleep_quality,Adults with sleep quality concerns,Transient headache,11
+SLP-MAG-CORE-02,2015,randomized controlled trial,SMD,-0.3414,-0.4816,-0.2012,77,94,low,10.3390/nu12051375,sleep-journal-02,sleep_quality,Adults with sleep quality concerns,Mild GI discomfort,10
+SLP-MAG-CORE-03,2020,randomized controlled trial,SMD,-0.336,-0.4586,-0.2134,90,79,some concerns,10.1016/j.sleep.2024.03.039,sleep-journal-03,sleep_quality,Adults with sleep quality concerns,None reported,9

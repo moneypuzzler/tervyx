@@ -1,0 +1,25 @@
+entry_path,study_id,old_doi,new_doi,pmid,notes
+entries/behavioral/magnesium-slp-mag-core/sleep/v1,SLP-MAG-CORE-01,10.1234/slp-mag-core-01,10.1684/mrh.2010.0220,20920146,Nielsen 2010 - Magnesium improves low magnesium status and inflammatory stress
+entries/behavioral/magnesium-slp-mag-core/sleep/v1,SLP-MAG-CORE-02,10.1234/slp-mag-core-02,10.3390/nu12051375,32392795,Abbasi 2012 - Magnesium supplementation effect on sleep quality
+entries/behavioral/magnesium-slp-mag-core/sleep/v1,SLP-MAG-CORE-03,10.1234/slp-mag-core-03,10.1016/j.sleep.2024.03.039,40918053,Held 2024 - Magnesium bisglycinate for poor sleep
+entries/behavioral/glycine-slp-gly-therm/sleep/v1,SLP-GLY-THERM-01,10.1234/slp-gly-therm-01,10.1111/j.1479-8425.2007.00262.x,17207112,Yamadera 2007 - Glycine 3g improves subjective sleep quality
+entries/behavioral/glycine-slp-gly-therm/sleep/v1,SLP-GLY-THERM-02,10.1234/slp-gly-therm-02,10.3389/fneur.2012.00061,22529837,Bannai 2012 - Glycine on daytime performance in sleep-restricted
+entries/behavioral/glycine-slp-gly-therm/sleep/v1,SLP-GLY-THERM-03,10.1234/slp-gly-therm-03,10.1111/j.1479-8425.2007.00262.x,17207112,Yamadera 2007 - Same study polysomnographic changes
+entries/behavioral/l-theanine-slp-thn-alpha/sleep/v1,SLP-THN-ALPHA-01,10.1234/slp-thn-alpha-01,10.1007/s40120-021-00284-x,34562208,Baba 2021 - AlphaWave L-theanine single dose on stress
+entries/behavioral/l-theanine-slp-thn-alpha/sleep/v1,SLP-THN-ALPHA-02,10.1234/slp-thn-alpha-02,10.1007/s40120-024-00624-7,38758503,Kumar 2024 - AlphaWave L-theanine 28-day supplementation
+entries/behavioral/l-theanine-slp-thn-alpha/sleep/v1,SLP-THN-ALPHA-03,10.1234/slp-thn-alpha-03,10.3390/nu11102362,31623400,Hidese 2019 - L-theanine on stress-related symptoms
+entries/behavioral/chamomile-slp-chm-apnea/sleep/v1,SLP-CHM-APNEA-01,10.1234/slp-chm-apnea-01,10.1186/1472-6882-11-78,21939549,Zick 2011 - Chamomile extract for chronic primary insomnia
+entries/behavioral/chamomile-slp-chm-apnea/sleep/v1,SLP-CHM-APNEA-02,10.1234/slp-chm-apnea-02,10.1111/jan.12836,26483209,Chang 2016 - Chamomile tea on sleep quality postnatal women
+entries/behavioral/chamomile-slp-chm-apnea/sleep/v1,SLP-CHM-APNEA-03,10.1234/slp-chm-apnea-03,10.1016/j.ctim.2017.09.010,29458934,Adib-Hajbaghery 2017 - Chamomile extract elderly sleep quality
+entries/behavioral/tart-cherry-slp-tch-trp/sleep/v1,SLP-TCH-TRP-01,10.1234/slp-tch-trp-01,10.1007/s00394-011-0263-7,22038497,Howatson 2012 - Tart cherry juice on melatonin and sleep
+entries/behavioral/tart-cherry-slp-tch-trp/sleep/v1,SLP-TCH-TRP-02,10.1234/slp-tch-trp-02,10.1097/MJT.0000000000000584,28901958,Losso 2018 - Tart cherry juice insomnia mechanism (procyanidin B-2)
+entries/behavioral/tart-cherry-slp-tch-trp/sleep/v1,SLP-TCH-TRP-03,10.1234/slp-tch-trp-03,10.1089/jmf.2009.0096,20438325,Pigeon 2010 - Tart cherry effects on sleep older adults
+entries/behavioral/lavender-slp-lav-aroma/sleep/v1,SLP-LAV-AROMA-01,10.1234/slp-lav-aroma-01,10.1016/j.phymed.2009.10.006,19962288,Woelk 2010 - Silexan vs lorazepam for GAD (includes sleep diary)
+entries/behavioral/lavender-slp-lav-aroma/sleep/v1,SLP-LAV-AROMA-02,10.1234/slp-lav-aroma-02,10.1016/j.euroneuro.2015.07.024,26293583,Kasper 2015 - Silexan restlessness and disturbed sleep
+entries/behavioral/lavender-slp-lav-aroma/sleep/v1,SLP-LAV-AROMA-03,10.1234/slp-lav-aroma-03,10.1017/S1461145714000017,24456909,Kasper 2014 - Silexan vs placebo and paroxetine for GAD
+entries/behavioral/cbd-slp-cbd-insomnia/sleep/v1,SLP-CBD-INSOMNIA-01,10.1234/slp-cbd-insomnia-01,10.5664/jcsm.10998,38174873,Narayan 2024 - CBD 150mg for moderate-severe insomnia
+entries/behavioral/cbd-slp-cbd-insomnia/sleep/v1,SLP-CBD-INSOMNIA-02,10.1234/slp-cbd-insomnia-02,10.3390/nu15194173,37836465,Kisiolek 2023 - 8 weeks 50mg CBD improves sleep quality
+entries/behavioral/cbd-slp-cbd-insomnia/sleep/v1,SLP-CBD-INSOMNIA-03,10.1234/slp-cbd-insomnia-03,10.1111/jsr.13793,36639895,Ried 2023 - Medicinal cannabis improves sleep insomnia
+entries/behavioral/ashwagandha-slp-ash-hpa/sleep/v1,SLP-ASH-HPA-01,10.1234/slp-ash-hpa-01,10.7759/cureus.5797,31728244,Langade 2019 - Ashwagandha for insomnia and anxiety
+entries/behavioral/ashwagandha-slp-ash-hpa/sleep/v1,SLP-ASH-HPA-02,10.1234/slp-ash-hpa-02,10.1016/j.jep.2020.113276,32818573,Langade 2021 - Ashwagandha clinical evaluation sleep
+entries/behavioral/ashwagandha-slp-ash-hpa/sleep/v1,SLP-ASH-HPA-03,10.1234/slp-ash-hpa-03,10.1371/journal.pone.0257843,34559859,Cheah 2021 - Meta-analysis ashwagandha effect on sleep

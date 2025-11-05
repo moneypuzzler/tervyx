@@ -10,7 +10,7 @@
   "gate_results": {
     "phi": "PASS",
     "r": 0.9,
-    "j": 0.0,
+    "j": 0.701,
     "k": "PASS",
     "l": "PASS"
   },
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-23T09:24:40.646312+00:00",
+  "created": "2025-11-05T07:35:21.829931+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,31 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/cog-gins-adapt-01",
+      "@id": "doi:10.1007/s00394-021-02654-5",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-gins-adapt-01",
+      "identifier": "doi:10.1007/s00394-021-02654-5",
+      "studyIds": [
+        "COG-GINS-ADAPT_03"
+      ],
+      "citation": "COG-GINS-ADAPT_03 (2014); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.1007/s00394-021-02654-5; Adverse Events: None reported.",
+      "doi": "10.1007/s00394-021-02654-5",
+      "sameAs": "https://doi.org/10.1007/s00394-021-02654-5",
+      "datePublished": "2014",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cognition_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1080/1028415x.2019.1641873",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1080/1028415x.2019.1641873",
       "studyIds": [
         "COG-GINS-ADAPT_01"
       ],
-      "citation": "COG-GINS-ADAPT_01 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.1234/cog-gins-adapt-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/cog-gins-adapt-01",
-      "sameAs": "https://doi.org/10.1234/cog-gins-adapt-01",
+      "citation": "COG-GINS-ADAPT_01 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.1080/1028415x.2019.1641873; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1080/1028415x.2019.1641873",
+      "sameAs": "https://doi.org/10.1080/1028415x.2019.1641873",
       "datePublished": "2012",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,38 +92,22 @@
       }
     },
     {
-      "@id": "doi:10.1234/cog-gins-adapt-02",
+      "@id": "doi:10.3390/ph13040057",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-gins-adapt-02",
+      "identifier": "doi:10.3390/ph13040057",
       "studyIds": [
         "COG-GINS-ADAPT_02"
       ],
-      "citation": "COG-GINS-ADAPT_02 (2013); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.1234/cog-gins-adapt-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/cog-gins-adapt-02",
-      "sameAs": "https://doi.org/10.1234/cog-gins-adapt-02",
+      "citation": "COG-GINS-ADAPT_02 (2013); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.3390/ph13040057; Adverse Events: Transient headache.",
+      "doi": "10.3390/ph13040057",
+      "sameAs": "https://doi.org/10.3390/ph13040057",
       "datePublished": "2013",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "cognition_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/cog-gins-adapt-03",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-gins-adapt-03",
-      "studyIds": [
-        "COG-GINS-ADAPT_03"
-      ],
-      "citation": "COG-GINS-ADAPT_03 (2014); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.1234/cog-gins-adapt-03; Adverse Events: None reported.",
-      "doi": "10.1234/cog-gins-adapt-03",
-      "sameAs": "https://doi.org/10.1234/cog-gins-adapt-03",
-      "datePublished": "2014",
       "isPartOf": {
         "@type": "Periodical",
         "name": "cognition_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:938030f3d0fe2726f3c6e11e2113bb7cf20700c79ec8bb7d10f66b1324e25bff",
-  "audit_hash": "0x46f602419dccd5ac"
+  "citations_manifest_hash": "sha256:26b0ab7094e13f1a63f0d6f9d232968a58a3eeb87a3e253e9ef2ddf4da5e8e1f",
+  "audit_hash": "0x1600d5539b24d3ef"
 }

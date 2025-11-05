@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-24T08:19:12.132561+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:49.153021+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/metabolic/myo-inositol-met-inos-ovul/metabolic/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/myo-inositol-met-inos-ovul-03"
     }
   ],
-  "manifest_hash": "sha256:2b0ddacea787046b0c2e95b0bdd46ba637f0c67d1b5b0aee41b3189a42f352f2"
+  "manifest_hash": "sha256:ab29c6c7ff93809c9b3c4a9a48b4648be67c735a9c7c492a7884e963df3b8c70"
 }

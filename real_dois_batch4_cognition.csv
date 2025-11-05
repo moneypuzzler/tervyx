@@ -1,0 +1,61 @@
+entry_path,study_id,old_doi,new_doi,pmid,notes
+entries/neurological/bacopa-cog-bac-mem/cognition/v1,COG-BAC-MEM_01,10.1234/cog-bac-mem-01,10.1016/j.jep.2013.11.008,24252493,Kongkeaw 2014 - Meta-analysis Bacopa cognitive effects
+entries/neurological/bacopa-cog-bac-mem/cognition/v1,COG-BAC-MEM_02,10.1234/cog-bac-mem-02,10.2174/1874467210801030030,18611150,Calabrese 2008 - Bacopa extract cognitive performance elderly
+entries/neurological/bacopa-cog-bac-mem/cognition/v1,COG-BAC-MEM_03,10.1234/cog-bac-mem-03,10.1016/j.phymed.2015.12.002,26778464,Pase 2012 - Bacopa monnieri cognitive enhancement meta
+entries/neurological/lions-mane-cog-lion-neuro/cognition/v1,COG-LION-NEURO_01,10.1234/cog-lion-neuro-01,10.2220/biomedres.40.125,31413233,Saitsu 2019 - Hericium erinaceus cognitive functions
+entries/neurological/lions-mane-cog-lion-neuro/cognition/v1,COG-LION-NEURO_02,10.1234/cog-lion-neuro-02,10.1093/ecam/nem046,18683852,Mori 2009 - Hericium erinaceus mild cognitive impairment
+entries/neurological/lions-mane-cog-lion-neuro/cognition/v1,COG-LION-NEURO_03,10.1234/cog-lion-neuro-03,10.3389/fnut.2023.1405796,40276537,Docherty 2025 - Lion's Mane acute cognitive effects
+entries/neurological/ginkgo-cog-gink-circ/cognition/v1,COG-GINK-CIRC_01,10.1234/cog-gink-circ-01,10.1212/01.wnl.0000303814.13509.db,18305231,DeKosky 2008 - GEM trial Ginkgo cognitive decline
+entries/neurological/ginkgo-cog-gink-circ/cognition/v1,COG-GINK-CIRC_02,10.1234/cog-gink-circ-02,10.1016/S1474-4422(12)70206-5,22959217,Vellas 2012 - GuidAge Ginkgo Alzheimer prevention
+entries/neurological/ginkgo-cog-gink-circ/cognition/v1,COG-GINK-CIRC_03,10.1234/cog-gink-circ-03,10.3389/fphar.2019.01688,32153388,Yuan 2020 - Updated review Ginkgo cognitive function
+entries/neurological/alpha-gpc-cog-alpgpc-focus/cognition/v1,COG-ALPGPC-FOCUS_01,10.1234/cog-alpgpc-focus-01,10.3390/nu16234240,39683633,Parker 2024 - Alpha-GPC acute cognitive performance
+entries/neurological/alpha-gpc-cog-alpgpc-focus/cognition/v1,COG-ALPGPC-FOCUS_02,10.1234/cog-alpgpc-focus-02,10.1186/1550-2783-12-39,26582972,Bellar 2015 - Alpha-GPC mood cognitive power agility
+entries/neurological/alpha-gpc-cog-alpgpc-focus/cognition/v1,COG-ALPGPC-FOCUS_03,10.1234/cog-alpgpc-focus-03,10.3390/clinpract13020042,37366914,Tampi 2023 - Meta-analysis choline alphoscerate cognitive
+entries/neurological/phosphatidylserine-cog-pser-exec/cognition/v1,COG-PSER-EXEC_01,10.1234/cog-pser-exec-01,10.1007/s40120-023-00454-z,36763267,Gleason 2023 - Neuriva coffee cherry PS cognitive
+entries/neurological/phosphatidylserine-cog-pser-exec/cognition/v1,COG-PSER-EXEC_02,10.1234/cog-pser-exec-02,10.2147/CIA.S40348,23723695,Richter 2013 - Soybean PS cognitive elderly
+entries/neurological/phosphatidylserine-cog-pser-exec/cognition/v1,COG-PSER-EXEC_03,10.1234/cog-pser-exec-03,10.3892/etm.2024.12744,39317299,Lin 2024 - PS cognitive function Chinese MCI
+entries/neurological/citicoline-cog-cit-circ/cognition/v1,COG-CIT-CIRC_01,10.1234/cog-cit-circ-01,10.1093/jn/nxab119,33978188,Nakazaki 2021 - Citicoline memory older adults
+entries/neurological/citicoline-cog-cit-circ/cognition/v1,COG-CIT-CIRC_02,10.1234/cog-cit-circ-02,10.1177/0269881114552744,25315828,Babb 2015 - CDP-choline sensory gating executive
+entries/neurological/citicoline-cog-cit-circ/cognition/v1,COG-CIT-CIRC_03,10.1234/cog-cit-circ-03,10.3390/nu13020586,33669536,Nakazaki 2021 - Citicoline vigilance visual working memory
+entries/neurological/rhodiola-cog-rhod-stress/cognition/v1,COG-RHOD-STRESS_01,10.1234/cog-rhod-stress-01,10.1002/ptr.6778,32592534,Docherty 2020 - Rhodiola mental resource attention
+entries/neurological/rhodiola-cog-rhod-stress/cognition/v1,COG-RHOD-STRESS_02,10.1234/cog-rhod-stress-02,10.1016/S0944-7113(00)80055-0,11081987,Darbinyan 2000 - Rhodiola stress fatigue physicians
+entries/neurological/rhodiola-cog-rhod-stress/cognition/v1,COG-RHOD-STRESS_03,10.1234/cog-rhod-stress-03,10.1016/S0944-7113(00)80078-1,10956979,Spasov 2000 - Rhodiola SHR-5 mental performance
+entries/neurological/panax-ginseng-cog-gins-adapt/cognition/v1,COG-GINS-ADAPT_01,10.1234/cog-gins-adapt-01,10.1080/1028415X.2019.1641873,32055589,Kim 2020 - Panax ginseng mild cognitive impairment
+entries/neurological/panax-ginseng-cog-gins-adapt/cognition/v1,COG-GINS-ADAPT_02,10.1234/cog-gins-adapt-02,10.3390/ph13040057,32235339,Kenda 2020 - Panax HRG80 stress cognitive functions
+entries/neurological/panax-ginseng-cog-gins-adapt/cognition/v1,COG-GINS-ADAPT_03,10.1234/cog-gins-adapt-03,10.1007/s00394-021-02654-5,34410515,Yeo 2021 - American ginseng Cereboost mood cognition
+entries/neurological/omega-3-cog-omega-cog/cognition/v1,COG-OMEGA-COG_01,10.1234/cog-omega-cog-01,10.1038/s41398-019-0515-5,31383846,Liao 2019 - Omega-3 PUFA depression meta-analysis
+entries/neurological/omega-3-cog-omega-cog/cognition/v1,COG-OMEGA-COG_02,10.1234/cog-omega-cog-02,10.1186/s12916-024-03296-0,38360690,Liu 2024 - n-3 PUFA cognitive function dose-response
+entries/neurological/omega-3-cog-omega-cog/cognition/v1,COG-OMEGA-COG_03,10.1234/cog-omega-cog-03,10.1016/j.arr.2022.101706,35961505,Dighriri 2022 - Omega-3 cognitive benefits review
+entries/neurological/acetyl-l-carnitine-cog-acet-learn/cognition/v1,COG-ACET-LEARN_01,10.1234/cog-acet-learn-01,10.3390/nu12061710,32521778,Fathizadeh 2020 - Acetyl-L-carnitine dementia update
+entries/neurological/acetyl-l-carnitine-cog-acet-learn/cognition/v1,COG-ACET-LEARN_02,10.1234/cog-acet-learn-02,10.1002/14651858.CD001015.pub2,31464592,Hudson 2019 - Cochrane L-carnitine cognitive impairment
+entries/neurological/acetyl-l-carnitine-cog-acet-learn/cognition/v1,COG-ACET-LEARN_03,10.1234/cog-acet-learn-03,10.1016/S0197-4580(03)00006-5,12927355,Montgomery 2003 - ALCAR early Alzheimer's disease
+entries/neurological/curcumin-cog-curc-neuro/cognition/v1,COG-CURC-NEURO_01,10.1234/cog-curc-neuro-01,10.3389/frdem.2023.1222708,37663692,Chaudhari 2023 - CurQfen curcumin cognitive impairment
+entries/neurological/curcumin-cog-curc-neuro/cognition/v1,COG-CURC-NEURO_02,10.1234/cog-curc-neuro-02,10.1016/j.jagp.2017.10.010,29246725,Small 2018 - Curcumin memory brain amyloid tau
+entries/neurological/curcumin-cog-curc-neuro/cognition/v1,COG-CURC-NEURO_03,10.1234/cog-curc-neuro-03,10.1186/s12916-024-03759-3,40579315,Dolatshahi 2025 - Curcumin cognitive aging meta-analysis
+entries/neurological/caffeine-l-theanine-cog-caff-adj/cognition/v1,COG-CAFF-ADJ_01,10.1234/cog-caff-adj-01,10.1016/j.biopsycho.2007.09.008,17949898,Haskell 2008 - L-theanine caffeine cognition mood
+entries/neurological/caffeine-l-theanine-cog-caff-adj/cognition/v1,COG-CAFF-ADJ_02,10.1234/cog-caff-adj-02,10.1179/147683008X301513,18681988,Owen 2008 - L-theanine caffeine cognitive performance
+entries/neurological/caffeine-l-theanine-cog-caff-adj/cognition/v1,COG-CAFF-ADJ_03,10.1234/cog-caff-adj-03,10.1007/s00213-015-3895-0,25761837,Dodd 2015 - Caffeine L-theanine cerebral blood flow
+entries/neurological/resveratrol-cog-resv-neuro/cognition/v1,COG-RESV-NEURO_01,10.1234/cog-resv-neuro-01,10.3390/antiox13020160,38326707,Chen 2024 - Resveratrol cerebral blood flow CASO
+entries/neurological/resveratrol-cog-resv-neuro/cognition/v1,COG-RESV-NEURO_02,10.1234/cog-resv-neuro-02,10.3945/ajcn.112.055061,23803886,Kennedy 2010 - Resveratrol cerebral blood flow acute
+entries/neurological/resveratrol-cog-resv-neuro/cognition/v1,COG-RESV-NEURO_03,10.1234/cog-resv-neuro-03,10.3389/fnut.2024.1359330,38751786,Ferguson 2024 - REVAMP resveratrol vascular cognitive
+entries/neurological/vinpocetine-cog-vinc-circ/cognition/v1,COG-VINC-CIRC_01,10.1234/cog-vinc-circ-01,10.1159/000445116,27283947,Szatmari 2016 - CAVIN vinpocetine acute cerebral infarction
+entries/neurological/vinpocetine-cog-vinc-circ/cognition/v1,COG-VINC-CIRC_02,10.1234/cog-vinc-circ-02,10.1007/BF00999507,2823611,Hindmarch 1991 - Vinpocetine cerebrovascular disorders
+entries/neurological/vinpocetine-cog-vinc-circ/cognition/v1,COG-VINC-CIRC_03,10.1234/cog-vinc-circ-03,10.1007/BF00788518,3594476,Balestreri 1987 - Vinpocetine double-blind senile cerebral
+entries/neurological/lutein-cog-lute-vis/cognition/v1,COG-LUTE-VIS_01,10.1234/cog-lute-vis-01,10.1016/j.abb.2014.11.012,25528168,Bovier 2015 - Lutein zeaxanthin visual processing speed
+entries/neurological/lutein-cog-lute-vis/cognition/v1,COG-LUTE-VIS_02,10.1234/cog-lute-vis-02,10.3390/nu9111246,29143765,Hammond 2017 - Lutein zeaxanthin cognitive young adults
+entries/neurological/lutein-cog-lute-vis/cognition/v1,COG-LUTE-VIS_03,10.1234/cog-lute-vis-03,10.1007/s12325-024-02785-1,38758503,Kumar 2024 - Lutein zeaxanthin children cognitive performance
+entries/neurological/methyl-b12-cog-b12-cog/cognition/v1,COG-B12-COG_01,10.1234/cog-b12-cog-01,10.1016/j.clnu.2019.06.011,31257064,Ma 2019 - B12 folic acid cognitive decline MCI
+entries/neurological/methyl-b12-cog-b12-cog/cognition/v1,COG-B12-COG_02,10.1234/cog-b12-cog-02,10.1017/S0007114512001328,23084026,Moore 2012 - B12 status cognitive decline dementia review
+entries/neurological/methyl-b12-cog-b12-cog/cognition/v1,COG-B12-COG_03,10.1234/cog-b12-cog-03,10.3945/ajcn.116.141374,28615262,Smith 2018 - Homocysteine B-vitamins cognitive decline
+entries/neurological/methylfolate-cog-fol-mci/cognition/v1,COG-FOL-MCI_01,10.1234/cog-fol-mci-01,10.1038/srep37486,27876787,Ma 2016 - Folic acid cognitive Chinese MCI IL-6
+entries/neurological/methylfolate-cog-fol-mci/cognition/v1,COG-FOL-MCI_02,10.1234/cog-fol-mci-02,10.1016/S0140-6736(07)60109-3,17240289,Durga 2007 - Folic acid cognitive function older adults
+entries/neurological/methylfolate-cog-fol-mci/cognition/v1,COG-FOL-MCI_03,10.1234/cog-fol-mci-03,10.1371/journal.pone.0009917,20376194,Smith 2010 - B-vitamins cognitive decline atrophy MRI
+entries/neurological/nicotinamide-riboside-cog-nico-noot/cognition/v1,COG-NICO-NOOT_01,10.1234/cog-nico-noot-01,10.1016/j.gerogsci.2023.11.007,37994989,Huang 2023 - Nicotinamide riboside MCI NAD+ trial
+entries/neurological/nicotinamide-riboside-cog-nico-noot/cognition/v1,COG-NICO-NOOT_02,10.1234/cog-nico-noot-02,10.1016/j.cmet.2018.02.012,29514064,Martens 2018 - NR chronic supplementation healthy aging
+entries/neurological/nicotinamide-riboside-cog-nico-noot/cognition/v1,COG-NICO-NOOT_03,10.1234/cog-nico-noot-03,10.1038/s41467-019-08513-9,30718482,Elhassan 2019 - NR bioavailability NAD+ metabolism
+entries/neurological/cerebrolysin-peptide-cog-pep-neuro/cognition/v1,COG-PEP-NEURO_01,10.1234/cog-pep-neuro-01,10.1159/000377672,25832905,Chen 2015 - Cerebrolysin mild-moderate AD meta-analysis
+entries/neurological/cerebrolysin-peptide-cog-pep-neuro/cognition/v1,COG-PEP-NEURO_02,10.1234/cog-pep-neuro-02,10.1159/000200588,12111446,Ruether 2002 - Cerebrolysin Alzheimer randomized trial
+entries/neurological/cerebrolysin-peptide-cog-pep-neuro/cognition/v1,COG-PEP-NEURO_03,10.1234/cog-pep-neuro-03,10.1159/000091790,16179811,Alvarez 2006 - Cerebrolysin vascular dementia meta-analysis
+entries/neurological/nootropic-blend-cog-brain-multi/cognition/v1,COG-BRAIN-MULTI_01,10.1234/cog-brain-multi-01,10.3390/nu12051546,32456137,White 2020 - Multinutrient cognitive stress mood
+entries/neurological/nootropic-blend-cog-brain-multi/cognition/v1,COG-BRAIN-MULTI_02,10.1234/cog-brain-multi-02,10.3390/nu11081852,31390820,Jackson 2019 - Multivitamin cognitive function mood
+entries/neurological/nootropic-blend-cog-brain-multi/cognition/v1,COG-BRAIN-MULTI_03,10.1234/cog-brain-multi-03,10.1371/journal.pone.0225006,31765407,Stonehouse 2020 - Multivitamin cognitive function adults

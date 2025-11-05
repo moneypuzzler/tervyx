@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.589986+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:24.042227+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/l-carnitine-musc-msk13/musculoskeletal/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/musc-msk13-03"
     }
   ],
-  "manifest_hash": "sha256:367c70f9fce7f9a20cdde93eb94c33bee6af8f368d68b8bdba9b6d8f2b41a837"
+  "manifest_hash": "sha256:d44003a90c8112cff347265faa88967c518f288807572daa4dfcb70c7fcc4a92"
 }

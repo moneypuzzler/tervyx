@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:38.420162+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T07:16:50.878740+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/gaba-slp-gaba-oral/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -12,9 +12,9 @@
       "outcome": "sleep_latency",
       "population": "Adults with sleep latency concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/slp-gaba-oral-01",
-      "url": "https://doi.org/10.1234/slp-gaba-oral-01",
-      "citation": "SLP-GABA-ORAL_01 (2016); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1234/slp-gaba-oral-01; Adverse Events: Transient headache."
+      "doi": "10.1007/s10068-016-0076-9",
+      "url": "https://doi.org/10.1007/s10068-016-0076-9",
+      "citation": "SLP-GABA-ORAL_01 (2016); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1007/s10068-016-0076-9; Adverse Events: Transient headache."
     },
     {
       "study_id": "SLP-GABA-ORAL_02",
@@ -24,9 +24,9 @@
       "outcome": "sleep_latency",
       "population": "Adults with sleep latency concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/slp-gaba-oral-02",
-      "url": "https://doi.org/10.1234/slp-gaba-oral-02",
-      "citation": "SLP-GABA-ORAL_02 (2017); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1234/slp-gaba-oral-02; Adverse Events: None reported."
+      "doi": "10.3988/jcn.2018.14.3.291",
+      "url": "https://doi.org/10.3988/jcn.2018.14.3.291",
+      "citation": "SLP-GABA-ORAL_02 (2017); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.3988/jcn.2018.14.3.291; Adverse Events: None reported."
     },
     {
       "study_id": "SLP-GABA-ORAL_03",
@@ -36,39 +36,39 @@
       "outcome": "sleep_latency",
       "population": "Adults with sleep latency concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/slp-gaba-oral-03",
-      "url": "https://doi.org/10.1234/slp-gaba-oral-03",
-      "citation": "SLP-GABA-ORAL_03 (2018); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1234/slp-gaba-oral-03; Adverse Events: Mild GI discomfort."
+      "doi": "10.3177/jnsv.61.182",
+      "url": "https://doi.org/10.3177/jnsv.61.182",
+      "citation": "SLP-GABA-ORAL_03 (2018); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.3177/jnsv.61.182; Adverse Events: Mild GI discomfort."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/slp-gaba-oral-01",
+      "identifier": "10.1007/s10068-016-0076-9",
       "study_ids": [
         "SLP-GABA-ORAL_01"
       ],
       "primary_study_id": "SLP-GABA-ORAL_01",
-      "url": "https://doi.org/10.1234/slp-gaba-oral-01"
+      "url": "https://doi.org/10.1007/s10068-016-0076-9"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/slp-gaba-oral-02",
-      "study_ids": [
-        "SLP-GABA-ORAL_02"
-      ],
-      "primary_study_id": "SLP-GABA-ORAL_02",
-      "url": "https://doi.org/10.1234/slp-gaba-oral-02"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/slp-gaba-oral-03",
+      "identifier": "10.3177/jnsv.61.182",
       "study_ids": [
         "SLP-GABA-ORAL_03"
       ],
       "primary_study_id": "SLP-GABA-ORAL_03",
-      "url": "https://doi.org/10.1234/slp-gaba-oral-03"
+      "url": "https://doi.org/10.3177/jnsv.61.182"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.3988/jcn.2018.14.3.291",
+      "study_ids": [
+        "SLP-GABA-ORAL_02"
+      ],
+      "primary_study_id": "SLP-GABA-ORAL_02",
+      "url": "https://doi.org/10.3988/jcn.2018.14.3.291"
     }
   ],
-  "manifest_hash": "sha256:074ea78b9d09519faa8240e5d52d82e492ec61901cdfaa965339876eb6ba8682"
+  "manifest_hash": "sha256:c491968d009be85e1b17e8d939150bce0feb1e359461cd59a87664ddcf7f10d8"
 }

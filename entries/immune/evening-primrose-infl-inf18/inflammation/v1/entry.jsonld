@@ -2,15 +2,15 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "immune:evening-primrose-infl-inf18:inflammation:v1",
-  "title": "Evening Primrose — Inflammation",
+  "title": "Evening Primrose Infl Inf18 — Inflammation",
   "category": "inflammation",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 0.0,
+  "P_effect_gt_delta": 0.7814,
   "gate_results": {
-    "phi": "PASS",
-    "r": 0.84,
-    "j": 0.79,
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
     "k": "PASS",
     "l": "PASS"
   },
@@ -18,11 +18,11 @@
     "n_studies": 3,
     "total_n": 496,
     "I2": 0.0,
-    "tau2": 0.00026269,
-    "mu_hat": -0.2326,
+    "tau2": 0.0,
+    "mu_hat": 0.23171,
     "mu_CI95": [
-      -0.374667,
-      -0.090533
+      0.150944,
+      0.312477
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-27T01:51:32.552021+00:00",
+  "created": "2025-11-05T06:50:20.441529+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:c447b6955ef05b96d4e0a704c2d80f30a992625df88625576e881c2921822965",
-  "audit_hash": "0xc2ab031392935433"
+  "citations_manifest_hash": "sha256:a5221ce5eb49cf7dd216095ffad5d64aa082cecfc7583d3e8c97a621fb729c13",
+  "audit_hash": "0xa77efbed805932d5"
 }

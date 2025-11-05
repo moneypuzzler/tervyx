@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:43.703239+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:19.444859+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/fish-peptides-card-fish-pep/cardiovascular/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/card-fish-pep-03"
     }
   ],
-  "manifest_hash": "sha256:a83029ecb47f8fa39545be430022f9cef1292fbbefc5f2dab3bec9aa677e6179"
+  "manifest_hash": "sha256:247f79ea1d18b7324fd86b4136077997287c1f2b2a4ab435f7ab1386a0c5e588"
 }

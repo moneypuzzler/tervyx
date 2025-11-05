@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:41.178086+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T07:22:09.160623+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/probiotics-ment-prob-mood/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -12,9 +12,9 @@
       "outcome": "anxiety",
       "population": "Adults with anxiety concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/ment-prob-mood-01",
-      "url": "https://doi.org/10.1234/ment-prob-mood-01",
-      "citation": "MENT-PROB-MOOD_01 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-prob-mood-01; Adverse Events: Mild GI discomfort."
+      "doi": "10.1038/s41398-022-01977-z",
+      "url": "https://doi.org/10.1038/s41398-022-01977-z",
+      "citation": "MENT-PROB-MOOD_01 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1038/s41398-022-01977-z; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "MENT-PROB-MOOD_02",
@@ -24,9 +24,9 @@
       "outcome": "anxiety",
       "population": "Adults with anxiety concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/ment-prob-mood-02",
-      "url": "https://doi.org/10.1234/ment-prob-mood-02",
-      "citation": "MENT-PROB-MOOD_02 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-prob-mood-02; Adverse Events: Transient headache."
+      "doi": "10.1016/j.neubiorev.2019.03.023",
+      "url": "https://doi.org/10.1016/j.neubiorev.2019.03.023",
+      "citation": "MENT-PROB-MOOD_02 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1016/j.neubiorev.2019.03.023; Adverse Events: Transient headache."
     },
     {
       "study_id": "MENT-PROB-MOOD_03",
@@ -36,39 +36,39 @@
       "outcome": "anxiety",
       "population": "Adults with anxiety concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/ment-prob-mood-03",
-      "url": "https://doi.org/10.1234/ment-prob-mood-03",
-      "citation": "MENT-PROB-MOOD_03 (2020); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-prob-mood-03; Adverse Events: None reported."
+      "doi": "10.1038/s44184-025-00123-z",
+      "url": "https://doi.org/10.1038/s44184-025-00123-z",
+      "citation": "MENT-PROB-MOOD_03 (2020); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1038/s44184-025-00123-z; Adverse Events: None reported."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/ment-prob-mood-01",
-      "study_ids": [
-        "MENT-PROB-MOOD_01"
-      ],
-      "primary_study_id": "MENT-PROB-MOOD_01",
-      "url": "https://doi.org/10.1234/ment-prob-mood-01"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/ment-prob-mood-02",
+      "identifier": "10.1016/j.neubiorev.2019.03.023",
       "study_ids": [
         "MENT-PROB-MOOD_02"
       ],
       "primary_study_id": "MENT-PROB-MOOD_02",
-      "url": "https://doi.org/10.1234/ment-prob-mood-02"
+      "url": "https://doi.org/10.1016/j.neubiorev.2019.03.023"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/ment-prob-mood-03",
+      "identifier": "10.1038/s41398-022-01977-z",
+      "study_ids": [
+        "MENT-PROB-MOOD_01"
+      ],
+      "primary_study_id": "MENT-PROB-MOOD_01",
+      "url": "https://doi.org/10.1038/s41398-022-01977-z"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1038/s44184-025-00123-z",
       "study_ids": [
         "MENT-PROB-MOOD_03"
       ],
       "primary_study_id": "MENT-PROB-MOOD_03",
-      "url": "https://doi.org/10.1234/ment-prob-mood-03"
+      "url": "https://doi.org/10.1038/s44184-025-00123-z"
     }
   ],
-  "manifest_hash": "sha256:4f9d5b00d7ea26e008a1e4b7f172637806a5cbd353c3a11d210d1c40522581ae"
+  "manifest_hash": "sha256:ae038e3b5398bd6c1dd9868caa80bce6bc10db66c4e667e85df608d7544aad57"
 }

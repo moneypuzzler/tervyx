@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-COG-LUTE-VIS_01,2017,randomized controlled trial,SMD,0.3000,0.1534,0.4467,62,48,low,10.1234/cog-lute-vis-01,cognition_journal,processing_speed,Adults with processing speed concerns,None reported,9
-COG-LUTE-VIS_02,2018,randomized controlled trial,SMD,0.3860,0.2227,0.5492,66,51,some concerns,10.1234/cog-lute-vis-02,cognition_journal,processing_speed,Adults with processing speed concerns,Mild GI discomfort,10
-COG-LUTE-VIS_03,2019,randomized controlled trial,SMD,0.4150,0.2829,0.5472,70,54,mixed,10.1234/cog-lute-vis-03,cognition_journal,processing_speed,Adults with processing speed concerns,Transient headache,11
+COG-LUTE-VIS_01,2017,randomized controlled trial,SMD,0.3000,0.1534,0.4467,62,48,low,10.1016/j.abb.2014.11.012,cognition_journal,processing_speed,Adults with processing speed concerns,None reported,9
+COG-LUTE-VIS_02,2018,randomized controlled trial,SMD,0.3860,0.2227,0.5492,66,51,some concerns,10.3390/nu9111246,cognition_journal,processing_speed,Adults with processing speed concerns,Mild GI discomfort,10
+COG-LUTE-VIS_03,2019,randomized controlled trial,SMD,0.4150,0.2829,0.5472,70,54,mixed,10.1007/s12325-024-02785-1,cognition_journal,processing_speed,Adults with processing speed concerns,Transient headache,11

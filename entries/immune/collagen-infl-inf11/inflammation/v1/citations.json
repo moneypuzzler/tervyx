@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.544592+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:16.720766+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/immune/collagen-infl-inf11/inflammation/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/infl-inf11-03"
     }
   ],
-  "manifest_hash": "sha256:440909742ad992c9cd0346dc7797e362254bd94ce177822eb3e2377568189ebf"
+  "manifest_hash": "sha256:4ff9c02f7765cfb868cd5bcff5336b27365698e2df93cabf5f74ef5ef9589d61"
 }

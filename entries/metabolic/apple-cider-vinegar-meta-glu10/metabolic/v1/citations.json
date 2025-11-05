@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-24T08:19:08.048933+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:35.466988+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/metabolic/apple-cider-vinegar-meta-glu10/metabolic/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/apple-cider-vinegar-meta-glu10-03"
     }
   ],
-  "manifest_hash": "sha256:3124f25ad72785bc8a0803d5bfdd6199e3248152ee05772ffed1e94d1cb39056"
+  "manifest_hash": "sha256:29e9918c9638732c42cd2cc93176a97ce347f3506775a6d9e01331e97b2dca67"
 }

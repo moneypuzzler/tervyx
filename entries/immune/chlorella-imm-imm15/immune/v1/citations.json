@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-24T08:19:11.084994+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:16.216820+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/immune/chlorella-imm-imm15/immune/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/chlorella-imm-imm15-03"
     }
   ],
-  "manifest_hash": "sha256:ae2a13162bc3cb7c3d943e0f786ada3ec5732778e71c7446f224ca43b7584480"
+  "manifest_hash": "sha256:4f010d54480ab2d8e36b5259f0dbb3056c7ed79175655bcbd4bb1411343ace01"
 }

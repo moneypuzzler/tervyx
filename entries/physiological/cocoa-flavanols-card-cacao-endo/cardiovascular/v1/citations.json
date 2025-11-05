@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:43.865932+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:15.549330+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/cocoa-flavanols-card-cacao-endo/cardiovascular/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/card-cacao-endo-03"
     }
   ],
-  "manifest_hash": "sha256:a015852f071f238a8647a93dc9210689c77fe533fc716e0916364eac1c6a78c5"
+  "manifest_hash": "sha256:8edebf351ddf6b88e1a7da39563c34d7dbfc3a17b44f9b2770f28dd16722bff6"
 }

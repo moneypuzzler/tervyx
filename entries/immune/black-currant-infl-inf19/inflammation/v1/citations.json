@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.553292+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:14.614585+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/immune/black-currant-infl-inf19/inflammation/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/infl-inf19-03"
     }
   ],
-  "manifest_hash": "sha256:1372958958a75aa07df6dba03a8cae6fa4c6fcb708515431fb2816ff66deabfb"
+  "manifest_hash": "sha256:b5c5e6ee798e96d3ffad35bdee1cf9001db52abf394c47635dbb68494f65fcc6"
 }

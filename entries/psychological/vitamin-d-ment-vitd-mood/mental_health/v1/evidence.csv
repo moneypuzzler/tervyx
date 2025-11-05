@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-MENT-VITD-MOOD_01,2019,randomized controlled trial,SMD,-0.3059,-0.4437,-0.1680,74,58,mixed,10.1234/ment-vitd-mood-01,mental_health_journal,depression,Adults with depression concerns,Transient headache,8
-MENT-VITD-MOOD_02,2020,randomized controlled trial,SMD,-0.3494,-0.5126,-0.1862,78,61,low,10.1234/ment-vitd-mood-02,mental_health_journal,depression,Adults with depression concerns,None reported,9
-MENT-VITD-MOOD_03,2021,randomized controlled trial,SMD,-0.4429,-0.5740,-0.3118,82,64,some concerns,10.1234/ment-vitd-mood-03,mental_health_journal,depression,Adults with depression concerns,Mild GI discomfort,10
+MENT-VITD-MOOD_01,2019,randomized controlled trial,SMD,-0.3059,-0.4437,-0.1680,74,58,mixed,10.1017/S0007114518001678,mental_health_journal,depression,Adults with depression concerns,Transient headache,8
+MENT-VITD-MOOD_02,2020,randomized controlled trial,SMD,-0.3494,-0.5126,-0.1862,78,61,low,10.1016/j.psychres.2013.10.031,mental_health_journal,depression,Adults with depression concerns,None reported,9
+MENT-VITD-MOOD_03,2021,randomized controlled trial,SMD,-0.4429,-0.5740,-0.3118,82,64,some concerns,10.1684/mrh.2010.0220,mental_health_journal,depression,Adults with depression concerns,Mild GI discomfort,10

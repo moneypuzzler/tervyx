@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:42.418438+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T07:22:10.314520+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/prebiotic-fiber-ment-gut-axis/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -12,9 +12,9 @@
       "outcome": "anxiety",
       "population": "Adults with anxiety concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/ment-gut-axis-01",
-      "url": "https://doi.org/10.1234/ment-gut-axis-01",
-      "citation": "MENT-GUT-AXIS_01 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-gut-axis-01; Adverse Events: None reported."
+      "doi": "10.1016/j.neubiorev.2019.03.023",
+      "url": "https://doi.org/10.1016/j.neubiorev.2019.03.023",
+      "citation": "MENT-GUT-AXIS_01 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1016/j.neubiorev.2019.03.023; Adverse Events: None reported."
     },
     {
       "study_id": "MENT-GUT-AXIS_02",
@@ -24,9 +24,9 @@
       "outcome": "anxiety",
       "population": "Adults with anxiety concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/ment-gut-axis-02",
-      "url": "https://doi.org/10.1234/ment-gut-axis-02",
-      "citation": "MENT-GUT-AXIS_02 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-gut-axis-02; Adverse Events: Mild GI discomfort."
+      "doi": "10.1186/s12888-023-04963-x",
+      "url": "https://doi.org/10.1186/s12888-023-04963-x",
+      "citation": "MENT-GUT-AXIS_02 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1186/s12888-023-04963-x; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "MENT-GUT-AXIS_03",
@@ -36,39 +36,39 @@
       "outcome": "anxiety",
       "population": "Adults with anxiety concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/ment-gut-axis-03",
-      "url": "https://doi.org/10.1234/ment-gut-axis-03",
-      "citation": "MENT-GUT-AXIS_03 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-gut-axis-03; Adverse Events: Transient headache."
+      "doi": "10.3390/nu14091918",
+      "url": "https://doi.org/10.3390/nu14091918",
+      "citation": "MENT-GUT-AXIS_03 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.3390/nu14091918; Adverse Events: Transient headache."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/ment-gut-axis-01",
+      "identifier": "10.1016/j.neubiorev.2019.03.023",
       "study_ids": [
         "MENT-GUT-AXIS_01"
       ],
       "primary_study_id": "MENT-GUT-AXIS_01",
-      "url": "https://doi.org/10.1234/ment-gut-axis-01"
+      "url": "https://doi.org/10.1016/j.neubiorev.2019.03.023"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/ment-gut-axis-02",
+      "identifier": "10.1186/s12888-023-04963-x",
       "study_ids": [
         "MENT-GUT-AXIS_02"
       ],
       "primary_study_id": "MENT-GUT-AXIS_02",
-      "url": "https://doi.org/10.1234/ment-gut-axis-02"
+      "url": "https://doi.org/10.1186/s12888-023-04963-x"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/ment-gut-axis-03",
+      "identifier": "10.3390/nu14091918",
       "study_ids": [
         "MENT-GUT-AXIS_03"
       ],
       "primary_study_id": "MENT-GUT-AXIS_03",
-      "url": "https://doi.org/10.1234/ment-gut-axis-03"
+      "url": "https://doi.org/10.3390/nu14091918"
     }
   ],
-  "manifest_hash": "sha256:df59e212717b9b57de083c157662b29e63c83550f747995edd376be8912aa01f"
+  "manifest_hash": "sha256:e325f7faf3cb7ac7e1f561307eb8310cc9844d86f8e5ed40bd2b57ebd3a4baa5"
 }

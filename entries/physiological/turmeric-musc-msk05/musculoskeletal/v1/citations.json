@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.581763+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:32.521334+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/turmeric-musc-msk05/musculoskeletal/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/musc-msk05-03"
     }
   ],
-  "manifest_hash": "sha256:fc3dcda3be5e1e970dd603f0fe88819c1a25e5a25de2d96b078d8ccdaf160b42"
+  "manifest_hash": "sha256:2c99c1e4ec87f59dd1b9c168b3463b54fe9d86a07c61ce0ab53270ee36e41b8d"
 }

@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.550516+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:30.566020+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/immune/turmeric-oil-infl-inf17/inflammation/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/infl-inf17-03"
     }
   ],
-  "manifest_hash": "sha256:1448e00f38d3d1f6fe27a6a96cd9dcd47bdc6c0f738e050458a3b1caf5ddb5e7"
+  "manifest_hash": "sha256:1aa52f0a391d06134bf468c71ff6fc45d4ff83ea2ee304566401ae8e2dd0c795"
 }

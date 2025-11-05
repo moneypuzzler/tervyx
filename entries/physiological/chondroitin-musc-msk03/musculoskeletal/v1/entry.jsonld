@@ -2,27 +2,27 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "physiological:chondroitin-musc-msk03:musculoskeletal:v1",
-  "title": "Chondroitin — Musculoskeletal",
+  "title": "Chondroitin Musc Msk03 — Musculoskeletal",
   "category": "musculoskeletal",
-  "tier": "Silver",
-  "label": "PASS",
-  "P_effect_gt_delta": 0.641303,
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.71,
   "gate_results": {
-    "phi": "PASS",
-    "r": 0.795,
-    "j": 0.545,
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
     "k": "PASS",
     "l": "PASS"
   },
   "evidence_summary": {
     "n_studies": 3,
     "total_n": 522,
-    "I2": 0.0,
-    "tau2": 0.00034964,
-    "mu_hat": 0.250267,
+    "I2": 49.0,
+    "tau2": 0.00669554,
+    "mu_hat": 0.257295,
     "mu_CI95": [
-      0.086367,
-      0.414167
+      0.125169,
+      0.38942
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-27T01:51:32.580456+00:00",
+  "created": "2025-11-05T06:51:14.419681+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:8d8b92784bab829861dbf39a96714424872727807a1159e51323cf50d906ffda",
-  "audit_hash": "0x5e9cdf39db8cde8b"
+  "citations_manifest_hash": "sha256:987553b6280ba48dc3afd13a453cce84c9f65519fc36d8c6771ca68cf7abc807",
+  "audit_hash": "0x8b48f5492886fd2b"
 }

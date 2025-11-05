@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-MENT-PROB-MOOD_01,2018,randomized controlled trial,SMD,-0.3127,-0.4522,-0.1732,68,53,some concerns,10.1234/ment-prob-mood-01,mental_health_journal,anxiety,Adults with anxiety concerns,Mild GI discomfort,7
-MENT-PROB-MOOD_02,2019,randomized controlled trial,SMD,-0.3828,-0.5099,-0.2557,72,56,mixed,10.1234/ment-prob-mood-02,mental_health_journal,anxiety,Adults with anxiety concerns,Transient headache,8
-MENT-PROB-MOOD_03,2020,randomized controlled trial,SMD,-0.4145,-0.5636,-0.2654,76,59,low,10.1234/ment-prob-mood-03,mental_health_journal,anxiety,Adults with anxiety concerns,None reported,9
+MENT-PROB-MOOD_01,2018,randomized controlled trial,SMD,-0.3127,-0.4522,-0.1732,68,53,some concerns,10.1038/s41398-022-01977-z,mental_health_journal,anxiety,Adults with anxiety concerns,Mild GI discomfort,7
+MENT-PROB-MOOD_02,2019,randomized controlled trial,SMD,-0.3828,-0.5099,-0.2557,72,56,mixed,10.1016/j.neubiorev.2019.03.023,mental_health_journal,anxiety,Adults with anxiety concerns,Transient headache,8
+MENT-PROB-MOOD_03,2020,randomized controlled trial,SMD,-0.4145,-0.5636,-0.2654,76,59,low,10.1038/s44184-025-00123-z,mental_health_journal,anxiety,Adults with anxiety concerns,None reported,9

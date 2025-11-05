@@ -10,7 +10,7 @@
   "gate_results": {
     "phi": "PASS",
     "r": 0.9,
-    "j": 0.0,
+    "j": 0.701,
     "k": "PASS",
     "l": "PASS"
   },
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-23T09:24:39.613006+00:00",
+  "created": "2025-11-05T07:35:22.950689+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,31 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/cog-acet-learn-01",
+      "@id": "doi:10.1002/14651858.cd001015.pub2",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-acet-learn-01",
-      "studyIds": [
-        "COG-ACET-LEARN_01"
-      ],
-      "citation": "COG-ACET-LEARN_01 (2015); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.1234/cog-acet-learn-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/cog-acet-learn-01",
-      "sameAs": "https://doi.org/10.1234/cog-acet-learn-01",
-      "datePublished": "2015",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "cognition_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/cog-acet-learn-02",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-acet-learn-02",
+      "identifier": "doi:10.1002/14651858.cd001015.pub2",
       "studyIds": [
         "COG-ACET-LEARN_02"
       ],
-      "citation": "COG-ACET-LEARN_02 (2016); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.1234/cog-acet-learn-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/cog-acet-learn-02",
-      "sameAs": "https://doi.org/10.1234/cog-acet-learn-02",
+      "citation": "COG-ACET-LEARN_02 (2016); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.1002/14651858.cd001015.pub2; Adverse Events: Transient headache.",
+      "doi": "10.1002/14651858.cd001015.pub2",
+      "sameAs": "https://doi.org/10.1002/14651858.cd001015.pub2",
       "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,22 +76,38 @@
       }
     },
     {
-      "@id": "doi:10.1234/cog-acet-learn-03",
+      "@id": "doi:10.1016/s0197-4580(03)00006-5",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-acet-learn-03",
+      "identifier": "doi:10.1016/s0197-4580(03)00006-5",
       "studyIds": [
         "COG-ACET-LEARN_03"
       ],
-      "citation": "COG-ACET-LEARN_03 (2017); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.1234/cog-acet-learn-03; Adverse Events: None reported.",
-      "doi": "10.1234/cog-acet-learn-03",
-      "sameAs": "https://doi.org/10.1234/cog-acet-learn-03",
+      "citation": "COG-ACET-LEARN_03 (2017); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.1016/s0197-4580(03)00006-5; Adverse Events: None reported.",
+      "doi": "10.1016/s0197-4580(03)00006-5",
+      "sameAs": "https://doi.org/10.1016/s0197-4580(03)00006-5",
       "datePublished": "2017",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cognition_journal"
+      }
+    },
+    {
+      "@id": "doi:10.3390/nu12061710",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.3390/nu12061710",
+      "studyIds": [
+        "COG-ACET-LEARN_01"
+      ],
+      "citation": "COG-ACET-LEARN_01 (2015); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.3390/nu12061710; Adverse Events: Mild GI discomfort.",
+      "doi": "10.3390/nu12061710",
+      "sameAs": "https://doi.org/10.3390/nu12061710",
+      "datePublished": "2015",
       "isPartOf": {
         "@type": "Periodical",
         "name": "cognition_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:712b0944bc02fd1efb6e4bb7ccb6f6a4f5df2a9fac798f6cc30e5151eb7187b3",
-  "audit_hash": "0x9e2ef6956b4b4e76"
+  "citations_manifest_hash": "sha256:8bbac7e30461101f17b4120393ac74b9a516352a0bb48a1c5eefe6888764f489",
+  "audit_hash": "0x0b739cd0e9e4f442"
 }

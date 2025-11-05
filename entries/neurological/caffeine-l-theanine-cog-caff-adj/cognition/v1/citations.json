@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:40.559176+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T07:35:24.077912+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/caffeine-l-theanine-cog-caff-adj/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -12,9 +12,9 @@
       "outcome": "attention",
       "population": "Adults with attention concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/cog-caff-adj-01",
-      "url": "https://doi.org/10.1234/cog-caff-adj-01",
-      "citation": "COG-CAFF-ADJ_01 (2011); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1234/cog-caff-adj-01; Adverse Events: None reported."
+      "doi": "10.1016/j.biopsycho.2007.09.008",
+      "url": "https://doi.org/10.1016/j.biopsycho.2007.09.008",
+      "citation": "COG-CAFF-ADJ_01 (2011); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1016/j.biopsycho.2007.09.008; Adverse Events: None reported."
     },
     {
       "study_id": "COG-CAFF-ADJ_02",
@@ -24,9 +24,9 @@
       "outcome": "attention",
       "population": "Adults with attention concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/cog-caff-adj-02",
-      "url": "https://doi.org/10.1234/cog-caff-adj-02",
-      "citation": "COG-CAFF-ADJ_02 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1234/cog-caff-adj-02; Adverse Events: Mild GI discomfort."
+      "doi": "10.1179/147683008x301513",
+      "url": "https://doi.org/10.1179/147683008x301513",
+      "citation": "COG-CAFF-ADJ_02 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1179/147683008x301513; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "COG-CAFF-ADJ_03",
@@ -36,39 +36,39 @@
       "outcome": "attention",
       "population": "Adults with attention concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/cog-caff-adj-03",
-      "url": "https://doi.org/10.1234/cog-caff-adj-03",
-      "citation": "COG-CAFF-ADJ_03 (2013); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1234/cog-caff-adj-03; Adverse Events: Transient headache."
+      "doi": "10.1007/s00213-015-3895-0",
+      "url": "https://doi.org/10.1007/s00213-015-3895-0",
+      "citation": "COG-CAFF-ADJ_03 (2013); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1007/s00213-015-3895-0; Adverse Events: Transient headache."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/cog-caff-adj-01",
-      "study_ids": [
-        "COG-CAFF-ADJ_01"
-      ],
-      "primary_study_id": "COG-CAFF-ADJ_01",
-      "url": "https://doi.org/10.1234/cog-caff-adj-01"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/cog-caff-adj-02",
-      "study_ids": [
-        "COG-CAFF-ADJ_02"
-      ],
-      "primary_study_id": "COG-CAFF-ADJ_02",
-      "url": "https://doi.org/10.1234/cog-caff-adj-02"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/cog-caff-adj-03",
+      "identifier": "10.1007/s00213-015-3895-0",
       "study_ids": [
         "COG-CAFF-ADJ_03"
       ],
       "primary_study_id": "COG-CAFF-ADJ_03",
-      "url": "https://doi.org/10.1234/cog-caff-adj-03"
+      "url": "https://doi.org/10.1007/s00213-015-3895-0"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1016/j.biopsycho.2007.09.008",
+      "study_ids": [
+        "COG-CAFF-ADJ_01"
+      ],
+      "primary_study_id": "COG-CAFF-ADJ_01",
+      "url": "https://doi.org/10.1016/j.biopsycho.2007.09.008"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1179/147683008x301513",
+      "study_ids": [
+        "COG-CAFF-ADJ_02"
+      ],
+      "primary_study_id": "COG-CAFF-ADJ_02",
+      "url": "https://doi.org/10.1179/147683008x301513"
     }
   ],
-  "manifest_hash": "sha256:e60b58e860c2888df433eefb6d88ce3bc064afce1ce192afb0360cef9a54b337"
+  "manifest_hash": "sha256:14e525cf5d9088935c1f3ed7e09f5439ad8bf5a1bd67192b4df53c6973bb94f9"
 }

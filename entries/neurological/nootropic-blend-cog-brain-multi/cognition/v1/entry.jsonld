@@ -10,7 +10,7 @@
   "gate_results": {
     "phi": "PASS",
     "r": 1.0,
-    "j": 0.0,
+    "j": 0.701,
     "k": "PASS",
     "l": "PASS"
   },
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-23T09:24:40.126881+00:00",
+  "created": "2025-11-05T07:35:28.437334+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,31 +60,31 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/cog-brain-multi-01",
+      "@id": "doi:10.1371/journal.pone.0225006",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-brain-multi-01",
+      "identifier": "doi:10.1371/journal.pone.0225006",
       "studyIds": [
-        "COG-BRAIN-MULTI_01"
+        "COG-BRAIN-MULTI_03"
       ],
-      "citation": "COG-BRAIN-MULTI_01 (2006); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1234/cog-brain-multi-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/cog-brain-multi-01",
-      "sameAs": "https://doi.org/10.1234/cog-brain-multi-01",
-      "datePublished": "2006",
+      "citation": "COG-BRAIN-MULTI_03 (2008); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1371/journal.pone.0225006; Adverse Events: None reported.",
+      "doi": "10.1371/journal.pone.0225006",
+      "sameAs": "https://doi.org/10.1371/journal.pone.0225006",
+      "datePublished": "2008",
       "isPartOf": {
         "@type": "Periodical",
         "name": "cognition_journal"
       }
     },
     {
-      "@id": "doi:10.1234/cog-brain-multi-02",
+      "@id": "doi:10.3390/nu11081852",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-brain-multi-02",
+      "identifier": "doi:10.3390/nu11081852",
       "studyIds": [
         "COG-BRAIN-MULTI_02"
       ],
-      "citation": "COG-BRAIN-MULTI_02 (2007); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1234/cog-brain-multi-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/cog-brain-multi-02",
-      "sameAs": "https://doi.org/10.1234/cog-brain-multi-02",
+      "citation": "COG-BRAIN-MULTI_02 (2007); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.3390/nu11081852; Adverse Events: Transient headache.",
+      "doi": "10.3390/nu11081852",
+      "sameAs": "https://doi.org/10.3390/nu11081852",
       "datePublished": "2007",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,22 +92,22 @@
       }
     },
     {
-      "@id": "doi:10.1234/cog-brain-multi-03",
+      "@id": "doi:10.3390/nu12051546",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-brain-multi-03",
+      "identifier": "doi:10.3390/nu12051546",
       "studyIds": [
-        "COG-BRAIN-MULTI_03"
+        "COG-BRAIN-MULTI_01"
       ],
-      "citation": "COG-BRAIN-MULTI_03 (2008); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1234/cog-brain-multi-03; Adverse Events: None reported.",
-      "doi": "10.1234/cog-brain-multi-03",
-      "sameAs": "https://doi.org/10.1234/cog-brain-multi-03",
-      "datePublished": "2008",
+      "citation": "COG-BRAIN-MULTI_01 (2006); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.3390/nu12051546; Adverse Events: Mild GI discomfort.",
+      "doi": "10.3390/nu12051546",
+      "sameAs": "https://doi.org/10.3390/nu12051546",
+      "datePublished": "2006",
       "isPartOf": {
         "@type": "Periodical",
         "name": "cognition_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:d100b03dc825df90878aff49d51de19b7b39587cd6823de58350ae786c40891c",
-  "audit_hash": "0xe926a2c5f316eb88"
+  "citations_manifest_hash": "sha256:9ccda3e19ba626b5ba8bfb8d954e68757917daa7538c82b6a1ed74b7f89cff93",
+  "audit_hash": "0xc2c2ad44d966221e"
 }

@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-MENT-KAVA-MOOD_01,2008,randomized controlled trial,SMD,-0.2819,-0.4143,-0.1496,68,48,low,10.1234/ment-kava-mood-01,mental_health_journal,anxiety,Adults with anxiety concerns,None reported,6
-MENT-KAVA-MOOD_02,2009,randomized controlled trial,SMD,-0.3903,-0.5407,-0.2400,72,51,some concerns,10.1234/ment-kava-mood-02,mental_health_journal,anxiety,Adults with anxiety concerns,Mild GI discomfort,7
-MENT-KAVA-MOOD_03,2010,randomized controlled trial,SMD,-0.3959,-0.5439,-0.2480,76,54,mixed,10.1234/ment-kava-mood-03,mental_health_journal,anxiety,Adults with anxiety concerns,Transient headache,8
+MENT-KAVA-MOOD_01,2008,randomized controlled trial,SMD,-0.2819,-0.4143,-0.1496,68,48,low,10.1007/s00213-009-1549-9,mental_health_journal,anxiety,Adults with anxiety concerns,None reported,6
+MENT-KAVA-MOOD_02,2009,randomized controlled trial,SMD,-0.3903,-0.5407,-0.2400,72,51,some concerns,10.3390/nu15214586,mental_health_journal,anxiety,Adults with anxiety concerns,Mild GI discomfort,7
+MENT-KAVA-MOOD_03,2010,randomized controlled trial,SMD,-0.3959,-0.5439,-0.2480,76,54,mixed,10.1097/00004850-200609000-00001,mental_health_journal,anxiety,Adults with anxiety concerns,Transient headache,8

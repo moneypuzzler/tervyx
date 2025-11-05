@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:40.822671+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T07:22:03.682411+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/omega-3-ment-omega-mood/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -12,9 +12,9 @@
       "outcome": "depression",
       "population": "Adults with depression concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/ment-omega-mood-01",
-      "url": "https://doi.org/10.1234/ment-omega-mood-01",
-      "citation": "MENT-OMEGA-MOOD_01 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-omega-mood-01; Adverse Events: None reported."
+      "doi": "10.1038/s41398-019-0515-5",
+      "url": "https://doi.org/10.1038/s41398-019-0515-5",
+      "citation": "MENT-OMEGA-MOOD_01 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1038/s41398-019-0515-5; Adverse Events: None reported."
     },
     {
       "study_id": "MENT-OMEGA-MOOD_02",
@@ -24,9 +24,9 @@
       "outcome": "depression",
       "population": "Adults with depression concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/ment-omega-mood-02",
-      "url": "https://doi.org/10.1234/ment-omega-mood-02",
-      "citation": "MENT-OMEGA-MOOD_02 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-omega-mood-02; Adverse Events: Mild GI discomfort."
+      "doi": "10.1016/j.psychres.2016.01.002",
+      "url": "https://doi.org/10.1016/j.psychres.2016.01.002",
+      "citation": "MENT-OMEGA-MOOD_02 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1016/j.psychres.2016.01.002; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "MENT-OMEGA-MOOD_03",
@@ -36,39 +36,39 @@
       "outcome": "depression",
       "population": "Adults with depression concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/ment-omega-mood-03",
-      "url": "https://doi.org/10.1234/ment-omega-mood-03",
-      "citation": "MENT-OMEGA-MOOD_03 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-omega-mood-03; Adverse Events: Transient headache."
+      "doi": "10.1371/journal.pone.0096905",
+      "url": "https://doi.org/10.1371/journal.pone.0096905",
+      "citation": "MENT-OMEGA-MOOD_03 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1371/journal.pone.0096905; Adverse Events: Transient headache."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/ment-omega-mood-01",
-      "study_ids": [
-        "MENT-OMEGA-MOOD_01"
-      ],
-      "primary_study_id": "MENT-OMEGA-MOOD_01",
-      "url": "https://doi.org/10.1234/ment-omega-mood-01"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/ment-omega-mood-02",
+      "identifier": "10.1016/j.psychres.2016.01.002",
       "study_ids": [
         "MENT-OMEGA-MOOD_02"
       ],
       "primary_study_id": "MENT-OMEGA-MOOD_02",
-      "url": "https://doi.org/10.1234/ment-omega-mood-02"
+      "url": "https://doi.org/10.1016/j.psychres.2016.01.002"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/ment-omega-mood-03",
+      "identifier": "10.1038/s41398-019-0515-5",
+      "study_ids": [
+        "MENT-OMEGA-MOOD_01"
+      ],
+      "primary_study_id": "MENT-OMEGA-MOOD_01",
+      "url": "https://doi.org/10.1038/s41398-019-0515-5"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1371/journal.pone.0096905",
       "study_ids": [
         "MENT-OMEGA-MOOD_03"
       ],
       "primary_study_id": "MENT-OMEGA-MOOD_03",
-      "url": "https://doi.org/10.1234/ment-omega-mood-03"
+      "url": "https://doi.org/10.1371/journal.pone.0096905"
     }
   ],
-  "manifest_hash": "sha256:4045e3bc85c09bc205c9dd9ebb8e3e310fce077db1c3359dc37ffac3ddc96831"
+  "manifest_hash": "sha256:1e3e16eb49b30f908cb536f4197443655e05445950c59186c1de485722799d8d"
 }

@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:39.694925+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T07:35:20.703864+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/citicoline-cog-cit-circ/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -12,9 +12,9 @@
       "outcome": "attention",
       "population": "Adults with attention concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/cog-cit-circ-01",
-      "url": "https://doi.org/10.1234/cog-cit-circ-01",
-      "citation": "COG-CIT-CIRC_01 (2016); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1234/cog-cit-circ-01; Adverse Events: Transient headache."
+      "doi": "10.1093/jn/nxab119",
+      "url": "https://doi.org/10.1093/jn/nxab119",
+      "citation": "COG-CIT-CIRC_01 (2016); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1093/jn/nxab119; Adverse Events: Transient headache."
     },
     {
       "study_id": "COG-CIT-CIRC_02",
@@ -24,9 +24,9 @@
       "outcome": "attention",
       "population": "Adults with attention concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/cog-cit-circ-02",
-      "url": "https://doi.org/10.1234/cog-cit-circ-02",
-      "citation": "COG-CIT-CIRC_02 (2017); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1234/cog-cit-circ-02; Adverse Events: None reported."
+      "doi": "10.1177/0269881114552744",
+      "url": "https://doi.org/10.1177/0269881114552744",
+      "citation": "COG-CIT-CIRC_02 (2017); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1177/0269881114552744; Adverse Events: None reported."
     },
     {
       "study_id": "COG-CIT-CIRC_03",
@@ -36,39 +36,39 @@
       "outcome": "attention",
       "population": "Adults with attention concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/cog-cit-circ-03",
-      "url": "https://doi.org/10.1234/cog-cit-circ-03",
-      "citation": "COG-CIT-CIRC_03 (2018); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1234/cog-cit-circ-03; Adverse Events: Mild GI discomfort."
+      "doi": "10.3390/nu13020586",
+      "url": "https://doi.org/10.3390/nu13020586",
+      "citation": "COG-CIT-CIRC_03 (2018); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.3390/nu13020586; Adverse Events: Mild GI discomfort."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/cog-cit-circ-01",
+      "identifier": "10.1093/jn/nxab119",
       "study_ids": [
         "COG-CIT-CIRC_01"
       ],
       "primary_study_id": "COG-CIT-CIRC_01",
-      "url": "https://doi.org/10.1234/cog-cit-circ-01"
+      "url": "https://doi.org/10.1093/jn/nxab119"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/cog-cit-circ-02",
+      "identifier": "10.1177/0269881114552744",
       "study_ids": [
         "COG-CIT-CIRC_02"
       ],
       "primary_study_id": "COG-CIT-CIRC_02",
-      "url": "https://doi.org/10.1234/cog-cit-circ-02"
+      "url": "https://doi.org/10.1177/0269881114552744"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/cog-cit-circ-03",
+      "identifier": "10.3390/nu13020586",
       "study_ids": [
         "COG-CIT-CIRC_03"
       ],
       "primary_study_id": "COG-CIT-CIRC_03",
-      "url": "https://doi.org/10.1234/cog-cit-circ-03"
+      "url": "https://doi.org/10.3390/nu13020586"
     }
   ],
-  "manifest_hash": "sha256:f0ada60de375cf1ff6accceed9e3dfda73d2a09ba1aa26048dd935a3d70ba13b"
+  "manifest_hash": "sha256:623eaf9c98ec9d83c200b1eb0f62bdf9e7ad8360a88421bd78c69394a0354b82"
 }

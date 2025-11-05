@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:41.266456+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T07:22:19.893322+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/vitamin-d-ment-vitd-mood/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -12,9 +12,9 @@
       "outcome": "depression",
       "population": "Adults with depression concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/ment-vitd-mood-01",
-      "url": "https://doi.org/10.1234/ment-vitd-mood-01",
-      "citation": "MENT-VITD-MOOD_01 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-vitd-mood-01; Adverse Events: Transient headache."
+      "doi": "10.1017/s0007114518001678",
+      "url": "https://doi.org/10.1017/s0007114518001678",
+      "citation": "MENT-VITD-MOOD_01 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1017/s0007114518001678; Adverse Events: Transient headache."
     },
     {
       "study_id": "MENT-VITD-MOOD_02",
@@ -24,9 +24,9 @@
       "outcome": "depression",
       "population": "Adults with depression concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/ment-vitd-mood-02",
-      "url": "https://doi.org/10.1234/ment-vitd-mood-02",
-      "citation": "MENT-VITD-MOOD_02 (2020); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-vitd-mood-02; Adverse Events: None reported."
+      "doi": "10.1016/j.psychres.2013.10.031",
+      "url": "https://doi.org/10.1016/j.psychres.2013.10.031",
+      "citation": "MENT-VITD-MOOD_02 (2020); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1016/j.psychres.2013.10.031; Adverse Events: None reported."
     },
     {
       "study_id": "MENT-VITD-MOOD_03",
@@ -36,39 +36,39 @@
       "outcome": "depression",
       "population": "Adults with depression concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/ment-vitd-mood-03",
-      "url": "https://doi.org/10.1234/ment-vitd-mood-03",
-      "citation": "MENT-VITD-MOOD_03 (2021); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-vitd-mood-03; Adverse Events: Mild GI discomfort."
+      "doi": "10.1684/mrh.2010.0220",
+      "url": "https://doi.org/10.1684/mrh.2010.0220",
+      "citation": "MENT-VITD-MOOD_03 (2021); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1684/mrh.2010.0220; Adverse Events: Mild GI discomfort."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/ment-vitd-mood-01",
-      "study_ids": [
-        "MENT-VITD-MOOD_01"
-      ],
-      "primary_study_id": "MENT-VITD-MOOD_01",
-      "url": "https://doi.org/10.1234/ment-vitd-mood-01"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/ment-vitd-mood-02",
+      "identifier": "10.1016/j.psychres.2013.10.031",
       "study_ids": [
         "MENT-VITD-MOOD_02"
       ],
       "primary_study_id": "MENT-VITD-MOOD_02",
-      "url": "https://doi.org/10.1234/ment-vitd-mood-02"
+      "url": "https://doi.org/10.1016/j.psychres.2013.10.031"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/ment-vitd-mood-03",
+      "identifier": "10.1017/s0007114518001678",
+      "study_ids": [
+        "MENT-VITD-MOOD_01"
+      ],
+      "primary_study_id": "MENT-VITD-MOOD_01",
+      "url": "https://doi.org/10.1017/s0007114518001678"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1684/mrh.2010.0220",
       "study_ids": [
         "MENT-VITD-MOOD_03"
       ],
       "primary_study_id": "MENT-VITD-MOOD_03",
-      "url": "https://doi.org/10.1234/ment-vitd-mood-03"
+      "url": "https://doi.org/10.1684/mrh.2010.0220"
     }
   ],
-  "manifest_hash": "sha256:3adaae5db62f5a59e87892106cfdd6d13bd500c5a840e9477e5f78407397332f"
+  "manifest_hash": "sha256:8b0ab14320d4a8c614fe0b2d83f6c60d938160d77390adb79d4a6dcc155c0c81"
 }

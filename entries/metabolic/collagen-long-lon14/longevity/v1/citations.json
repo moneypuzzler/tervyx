@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.569926+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:41.987076+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/metabolic/collagen-long-lon14/longevity/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/long-lon14-03"
     }
   ],
-  "manifest_hash": "sha256:6fa7507e0a09cc8be06d399f3b5ed7b416e2d00e267295bf5373fff50abd5a7d"
+  "manifest_hash": "sha256:d167603df1f62b5b6214d5fb11a39aff11a5006e19f355d810c8e79ff5732fe6"
 }

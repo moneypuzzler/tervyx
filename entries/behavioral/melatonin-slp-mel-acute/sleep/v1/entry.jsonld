@@ -10,7 +10,7 @@
   "gate_results": {
     "phi": "PASS",
     "r": 1.0,
-    "j": 0.0,
+    "j": 0.607,
     "k": "PASS",
     "l": "PASS"
   },
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-23T09:24:37.551034+00:00",
+  "created": "2025-11-05T07:16:49.708126+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,31 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/slp-mel-acute-01",
+      "@id": "doi:10.1016/j.sleep.2019.02.017",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-mel-acute-01",
+      "identifier": "doi:10.1016/j.sleep.2019.02.017",
+      "studyIds": [
+        "SLP-MEL-ACUTE_03"
+      ],
+      "citation": "SLP-MEL-ACUTE_03 (2008); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep onset concerns; Outcome: sleep_onset; DOI: 10.1016/j.sleep.2019.02.017; Adverse Events: None reported.",
+      "doi": "10.1016/j.sleep.2019.02.017",
+      "sameAs": "https://doi.org/10.1016/j.sleep.2019.02.017",
+      "datePublished": "2008",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1111/jpi.12985",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1111/jpi.12985",
       "studyIds": [
         "SLP-MEL-ACUTE_01"
       ],
-      "citation": "SLP-MEL-ACUTE_01 (2006); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep onset concerns; Outcome: sleep_onset; DOI: 10.1234/slp-mel-acute-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/slp-mel-acute-01",
-      "sameAs": "https://doi.org/10.1234/slp-mel-acute-01",
+      "citation": "SLP-MEL-ACUTE_01 (2006); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep onset concerns; Outcome: sleep_onset; DOI: 10.1111/jpi.12985; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1111/jpi.12985",
+      "sameAs": "https://doi.org/10.1111/jpi.12985",
       "datePublished": "2006",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,38 +92,22 @@
       }
     },
     {
-      "@id": "doi:10.1234/slp-mel-acute-02",
+      "@id": "doi:10.1371/journal.pone.0063773",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-mel-acute-02",
+      "identifier": "doi:10.1371/journal.pone.0063773",
       "studyIds": [
         "SLP-MEL-ACUTE_02"
       ],
-      "citation": "SLP-MEL-ACUTE_02 (2007); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep onset concerns; Outcome: sleep_onset; DOI: 10.1234/slp-mel-acute-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/slp-mel-acute-02",
-      "sameAs": "https://doi.org/10.1234/slp-mel-acute-02",
+      "citation": "SLP-MEL-ACUTE_02 (2007); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep onset concerns; Outcome: sleep_onset; DOI: 10.1371/journal.pone.0063773; Adverse Events: Transient headache.",
+      "doi": "10.1371/journal.pone.0063773",
+      "sameAs": "https://doi.org/10.1371/journal.pone.0063773",
       "datePublished": "2007",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "sleep_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/slp-mel-acute-03",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-mel-acute-03",
-      "studyIds": [
-        "SLP-MEL-ACUTE_03"
-      ],
-      "citation": "SLP-MEL-ACUTE_03 (2008); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep onset concerns; Outcome: sleep_onset; DOI: 10.1234/slp-mel-acute-03; Adverse Events: None reported.",
-      "doi": "10.1234/slp-mel-acute-03",
-      "sameAs": "https://doi.org/10.1234/slp-mel-acute-03",
-      "datePublished": "2008",
       "isPartOf": {
         "@type": "Periodical",
         "name": "sleep_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:1d6512d9528b7e23fae1f3a4a9025ccad177f4e4dd86765d85797746084ae6a9",
-  "audit_hash": "0xb487b86b070a2d6f"
+  "citations_manifest_hash": "sha256:edb4372b5485ebd952b13e579b7825a83e5609785048ce2be65e0d47f1c40742",
+  "audit_hash": "0x34d7abc3d63fb594"
 }

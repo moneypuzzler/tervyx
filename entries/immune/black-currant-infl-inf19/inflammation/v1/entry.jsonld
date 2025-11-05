@@ -2,15 +2,15 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "immune:black-currant-infl-inf19:inflammation:v1",
-  "title": "Black Currant — Inflammation",
+  "title": "Black Currant Infl Inf19 — Inflammation",
   "category": "inflammation",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 0.0,
+  "P_effect_gt_delta": 0.814,
   "gate_results": {
-    "phi": "PASS",
-    "r": 0.865,
-    "j": 0.515,
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
     "k": "PASS",
     "l": "PASS"
   },
@@ -18,11 +18,11 @@
     "n_studies": 3,
     "total_n": 522,
     "I2": 0.0,
-    "tau2": 0.00026578,
-    "mu_hat": -0.2376,
+    "tau2": 0.0,
+    "mu_hat": 0.236713,
     "mu_CI95": [
-      -0.3805,
-      -0.0947
+      0.155465,
+      0.317962
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-27T01:51:32.553499+00:00",
+  "created": "2025-11-05T06:50:14.614725+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:1372958958a75aa07df6dba03a8cae6fa4c6fcb708515431fb2816ff66deabfb",
-  "audit_hash": "0x6f6919149fe3c226"
+  "citations_manifest_hash": "sha256:b5c5e6ee798e96d3ffad35bdee1cf9001db52abf394c47635dbb68494f65fcc6",
+  "audit_hash": "0x92093467b8d63347"
 }

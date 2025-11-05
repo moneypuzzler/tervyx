@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:44.028481+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:18.871656+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/dark-chocolate-card-dark-choc/cardiovascular/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/card-dark-choc-03"
     }
   ],
-  "manifest_hash": "sha256:ab43479add5f893e236e063f8673aa6d8069f742968f3bfef7f4b12ee71dfb21"
+  "manifest_hash": "sha256:17458ce4e2956287b25a80b762f19ac278d89197a07ab679871054f145ac51eb"
 }

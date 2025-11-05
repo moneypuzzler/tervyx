@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-COG-VINC-CIRC_01,2013,randomized controlled trial,SMD,0.3199,0.1691,0.4708,68,58,mixed,10.1234/cog-vinc-circ-01,cognition_journal,cerebral_blood_flow,Adults with cerebral blood flow concerns,Transient headache,8
-COG-VINC-CIRC_02,2014,randomized controlled trial,SMD,0.3466,0.2045,0.4886,72,61,low,10.1234/cog-vinc-circ-02,cognition_journal,cerebral_blood_flow,Adults with cerebral blood flow concerns,None reported,9
-COG-VINC-CIRC_03,2015,randomized controlled trial,SMD,0.3913,0.2438,0.5387,76,64,some concerns,10.1234/cog-vinc-circ-03,cognition_journal,cerebral_blood_flow,Adults with cerebral blood flow concerns,Mild GI discomfort,10
+COG-VINC-CIRC_01,2013,randomized controlled trial,SMD,0.3199,0.1691,0.4708,68,58,mixed,10.1159/000445116,cognition_journal,cerebral_blood_flow,Adults with cerebral blood flow concerns,Transient headache,8
+COG-VINC-CIRC_02,2014,randomized controlled trial,SMD,0.3466,0.2045,0.4886,72,61,low,10.1007/BF00999507,cognition_journal,cerebral_blood_flow,Adults with cerebral blood flow concerns,None reported,9
+COG-VINC-CIRC_03,2015,randomized controlled trial,SMD,0.3913,0.2438,0.5387,76,64,some concerns,10.1007/BF00788518,cognition_journal,cerebral_blood_flow,Adults with cerebral blood flow concerns,Mild GI discomfort,10

@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:39.612886+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T07:35:22.950574+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/acetyl-l-carnitine-cog-acet-learn/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -12,9 +12,9 @@
       "outcome": "processing_speed",
       "population": "Adults with processing speed concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/cog-acet-learn-01",
-      "url": "https://doi.org/10.1234/cog-acet-learn-01",
-      "citation": "COG-ACET-LEARN_01 (2015); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.1234/cog-acet-learn-01; Adverse Events: Mild GI discomfort."
+      "doi": "10.3390/nu12061710",
+      "url": "https://doi.org/10.3390/nu12061710",
+      "citation": "COG-ACET-LEARN_01 (2015); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.3390/nu12061710; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "COG-ACET-LEARN_02",
@@ -24,9 +24,9 @@
       "outcome": "processing_speed",
       "population": "Adults with processing speed concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/cog-acet-learn-02",
-      "url": "https://doi.org/10.1234/cog-acet-learn-02",
-      "citation": "COG-ACET-LEARN_02 (2016); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.1234/cog-acet-learn-02; Adverse Events: Transient headache."
+      "doi": "10.1002/14651858.cd001015.pub2",
+      "url": "https://doi.org/10.1002/14651858.cd001015.pub2",
+      "citation": "COG-ACET-LEARN_02 (2016); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.1002/14651858.cd001015.pub2; Adverse Events: Transient headache."
     },
     {
       "study_id": "COG-ACET-LEARN_03",
@@ -36,39 +36,39 @@
       "outcome": "processing_speed",
       "population": "Adults with processing speed concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/cog-acet-learn-03",
-      "url": "https://doi.org/10.1234/cog-acet-learn-03",
-      "citation": "COG-ACET-LEARN_03 (2017); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.1234/cog-acet-learn-03; Adverse Events: None reported."
+      "doi": "10.1016/s0197-4580(03)00006-5",
+      "url": "https://doi.org/10.1016/s0197-4580(03)00006-5",
+      "citation": "COG-ACET-LEARN_03 (2017); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with processing speed concerns; Outcome: processing_speed; DOI: 10.1016/s0197-4580(03)00006-5; Adverse Events: None reported."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/cog-acet-learn-01",
-      "study_ids": [
-        "COG-ACET-LEARN_01"
-      ],
-      "primary_study_id": "COG-ACET-LEARN_01",
-      "url": "https://doi.org/10.1234/cog-acet-learn-01"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/cog-acet-learn-02",
+      "identifier": "10.1002/14651858.cd001015.pub2",
       "study_ids": [
         "COG-ACET-LEARN_02"
       ],
       "primary_study_id": "COG-ACET-LEARN_02",
-      "url": "https://doi.org/10.1234/cog-acet-learn-02"
+      "url": "https://doi.org/10.1002/14651858.cd001015.pub2"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/cog-acet-learn-03",
+      "identifier": "10.1016/s0197-4580(03)00006-5",
       "study_ids": [
         "COG-ACET-LEARN_03"
       ],
       "primary_study_id": "COG-ACET-LEARN_03",
-      "url": "https://doi.org/10.1234/cog-acet-learn-03"
+      "url": "https://doi.org/10.1016/s0197-4580(03)00006-5"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.3390/nu12061710",
+      "study_ids": [
+        "COG-ACET-LEARN_01"
+      ],
+      "primary_study_id": "COG-ACET-LEARN_01",
+      "url": "https://doi.org/10.3390/nu12061710"
     }
   ],
-  "manifest_hash": "sha256:712b0944bc02fd1efb6e4bb7ccb6f6a4f5df2a9fac798f6cc30e5151eb7187b3"
+  "manifest_hash": "sha256:8bbac7e30461101f17b4120393ac74b9a516352a0bb48a1c5eefe6888764f489"
 }

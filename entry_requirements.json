@@ -1,0 +1,3202 @@
+[
+  {
+    "substance": "behavioral",
+    "substance_id": "behavioral",
+    "category": "sleep",
+    "domain": "entries",
+    "outcome": "sleep_quality",
+    "population": "Adults with sleep quality concerns",
+    "n_studies": 3,
+    "entry_path": "entries/behavioral/5htp-slp-fhtp-serotonin/sleep/v1",
+    "years": [
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "behavioral",
+    "substance_id": "behavioral",
+    "category": "sleep",
+    "domain": "entries",
+    "outcome": "stress_insomnia",
+    "population": "Adults with stress insomnia concerns",
+    "n_studies": 3,
+    "entry_path": "entries/behavioral/ashwagandha-slp-ash-hpa/sleep/v1",
+    "years": [
+      "2007",
+      "2008",
+      "2009"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "behavioral",
+    "substance_id": "behavioral",
+    "category": "sleep",
+    "domain": "entries",
+    "outcome": "sleep_maintenance",
+    "population": "Adults with sleep maintenance concerns",
+    "n_studies": 3,
+    "entry_path": "entries/behavioral/cbd-microdose-slp-cbd-micro/sleep/v1",
+    "years": [
+      "2008",
+      "2009",
+      "2010"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "behavioral",
+    "substance_id": "behavioral",
+    "category": "sleep",
+    "domain": "entries",
+    "outcome": "sleep_quality",
+    "population": "Adults with sleep quality concerns",
+    "n_studies": 3,
+    "entry_path": "entries/behavioral/cbd-slp-cbd-insomnia/sleep/v1",
+    "years": [
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "behavioral",
+    "substance_id": "behavioral",
+    "category": "sleep",
+    "domain": "entries",
+    "outcome": "sleep_quality",
+    "population": "Adults with sleep quality concerns",
+    "n_studies": 3,
+    "entry_path": "entries/behavioral/chamomile-slp-chm-apnea/sleep/v1",
+    "years": [
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "behavioral",
+    "substance_id": "behavioral",
+    "category": "sleep",
+    "domain": "entries",
+    "outcome": "sleep_latency",
+    "population": "Adults with sleep latency concerns",
+    "n_studies": 3,
+    "entry_path": "entries/behavioral/gaba-slp-gaba-oral/sleep/v1",
+    "years": [
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "behavioral",
+    "substance_id": "behavioral",
+    "category": "sleep",
+    "domain": "entries",
+    "outcome": "sleep_latency",
+    "population": "Adults with sleep latency concerns",
+    "n_studies": 3,
+    "entry_path": "entries/behavioral/glycine-slp-gly-therm/sleep/v1",
+    "years": [
+      "2008",
+      "2009",
+      "2010"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "behavioral",
+    "substance_id": "behavioral",
+    "category": "sleep",
+    "domain": "entries",
+    "outcome": "sleep_latency",
+    "population": "Adults with sleep latency concerns",
+    "n_studies": 3,
+    "entry_path": "entries/behavioral/inositol-slp-inos-ocular/sleep/v1",
+    "years": [
+      "2005",
+      "2006",
+      "2007"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "behavioral",
+    "substance_id": "behavioral",
+    "category": "sleep",
+    "domain": "entries",
+    "outcome": "sleep_anxiety",
+    "population": "Adults with sleep anxiety concerns",
+    "n_studies": 3,
+    "entry_path": "entries/behavioral/kava-slp-kava-anxiety/sleep/v1",
+    "years": [
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "behavioral",
+    "substance_id": "behavioral",
+    "category": "sleep",
+    "domain": "entries",
+    "outcome": "sleep_quality",
+    "population": "Adults with sleep quality concerns",
+    "n_studies": 3,
+    "entry_path": "entries/behavioral/l-theanine-slp-thn-alpha/sleep/v1",
+    "years": [
+      "2009",
+      "2010",
+      "2011"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "behavioral",
+    "substance_id": "behavioral",
+    "category": "sleep",
+    "domain": "entries",
+    "outcome": "sleep_anxiety",
+    "population": "Adults with sleep anxiety concerns",
+    "n_studies": 3,
+    "entry_path": "entries/behavioral/lavender-slp-lav-aroma/sleep/v1",
+    "years": [
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "behavioral",
+    "substance_id": "behavioral",
+    "category": "sleep",
+    "domain": "entries",
+    "outcome": "sleep_quality",
+    "population": "Adults with sleep quality concerns",
+    "n_studies": 3,
+    "entry_path": "entries/behavioral/lemon-balm-slp-lem-tranq/sleep/v1",
+    "years": [
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "behavioral",
+    "substance_id": "behavioral",
+    "category": "sleep",
+    "domain": "entries",
+    "outcome": "sleep_quality",
+    "population": "Adults with sleep quality concerns",
+    "n_studies": 3,
+    "entry_path": "entries/behavioral/magnesium-slp-mag-core/sleep/v1",
+    "years": [
+      "2010",
+      "2015",
+      "2020"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "behavioral",
+    "substance_id": "behavioral",
+    "category": "sleep",
+    "domain": "entries",
+    "outcome": "sleep_quality",
+    "population": "Adults with sleep quality concerns",
+    "n_studies": 3,
+    "entry_path": "entries/behavioral/magnesium-threonate-slp-mag-thr/sleep/v1",
+    "years": [
+      "2007",
+      "2008",
+      "2009"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "behavioral",
+    "substance_id": "behavioral",
+    "category": "sleep",
+    "domain": "entries",
+    "outcome": "sleep_quality",
+    "population": "Adults with sleep quality concerns",
+    "n_studies": 3,
+    "entry_path": "entries/behavioral/matcha-slp-thea-matcha/sleep/v1",
+    "years": [
+      "2006",
+      "2007",
+      "2008"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "behavioral",
+    "substance_id": "behavioral",
+    "category": "sleep",
+    "domain": "entries",
+    "outcome": "sleep_onset",
+    "population": "Adults with sleep onset concerns",
+    "n_studies": 3,
+    "entry_path": "entries/behavioral/melatonin-slp-mel-acute/sleep/v1",
+    "years": [
+      "2006",
+      "2007",
+      "2008"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "behavioral",
+    "substance_id": "behavioral",
+    "category": "sleep",
+    "domain": "entries",
+    "outcome": "sleep_quality",
+    "population": "Adults with sleep quality concerns",
+    "n_studies": 3,
+    "entry_path": "entries/behavioral/passionflower-slp-pas-rem/sleep/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "behavioral",
+    "substance_id": "behavioral",
+    "category": "sleep",
+    "domain": "entries",
+    "outcome": "sleep_duration",
+    "population": "Adults with sleep duration concerns",
+    "n_studies": 3,
+    "entry_path": "entries/behavioral/tart-cherry-slp-tch-trp/sleep/v1",
+    "years": [
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "behavioral",
+    "substance_id": "behavioral",
+    "category": "sleep",
+    "domain": "entries",
+    "outcome": "sleep_onset",
+    "population": "Adults with sleep onset concerns",
+    "n_studies": 3,
+    "entry_path": "entries/behavioral/tryptophan-slp-tryp-mel/sleep/v1",
+    "years": [
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "immune",
+    "domain": "entries",
+    "outcome": "immune_modulation",
+    "population": "Adults with immune modulation concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/andrographis-imm-imm10/immune/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "inflammation",
+    "domain": "entries",
+    "outcome": "joint_pain",
+    "population": "Adults with joint pain concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/astaxanthin-infl-inf09/inflammation/v1",
+    "years": [
+      "2017",
+      "2022",
+      "2013"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "immune_health",
+    "domain": "entries",
+    "outcome": "immune_readiness",
+    "population": "Adults with immune readiness concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/beta-glucan-imm-beta-gluc/immune_health/v1",
+    "years": [
+      "2015",
+      "2020",
+      "2011"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "immune",
+    "domain": "entries",
+    "outcome": "antiviral_support",
+    "population": "Adults with antiviral support concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/beta-glucans-imm-imm07/immune/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "immune_health",
+    "domain": "entries",
+    "outcome": "immune_modulation",
+    "population": "Adults with immune modulation concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/black-cumin-seed-imm-bcp-imm/immune_health/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "inflammation",
+    "domain": "entries",
+    "outcome": "joint_pain",
+    "population": "Adults with joint pain concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/black-currant-infl-inf19/inflammation/v1",
+    "years": [
+      "2021",
+      "2012",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "inflammation",
+    "domain": "entries",
+    "outcome": "systemic_inflammation",
+    "population": "Adults with systemic inflammation concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/boswellia-infl-inf02/inflammation/v1",
+    "years": [
+      "2020",
+      "2011",
+      "2016"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "inflammation",
+    "domain": "entries",
+    "outcome": "joint_pain",
+    "population": "Adults with joint pain concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/bromelain-infl-inf06/inflammation/v1",
+    "years": [
+      "2013",
+      "2018",
+      "2023"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "immune",
+    "domain": "entries",
+    "outcome": "antiviral_support",
+    "population": "Adults with antiviral support concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/chlorella-imm-imm15/immune/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "inflammation",
+    "domain": "entries",
+    "outcome": "joint_pain",
+    "population": "Adults with joint pain concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/collagen-infl-inf11/inflammation/v1",
+    "years": [
+      "2021",
+      "2012",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "immune",
+    "domain": "entries",
+    "outcome": "upper_respiratory",
+    "population": "Adults with upper respiratory concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/colostrum-imm-imm08/immune/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "immune",
+    "domain": "entries",
+    "outcome": "upper_respiratory",
+    "population": "Adults with upper respiratory concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/cordyceps-imm-imm16/immune/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "inflammation",
+    "domain": "entries",
+    "outcome": "joint_pain",
+    "population": "Adults with joint pain concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/curcumin-infl-inf01/inflammation/v1",
+    "years": [
+      "2023",
+      "2014",
+      "2019"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "immune",
+    "domain": "entries",
+    "outcome": "upper_respiratory",
+    "population": "Adults with upper respiratory concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/echinacea-imm-imm01/immune/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "immune_health",
+    "domain": "entries",
+    "outcome": "upper_respiratory_infections",
+    "population": "Adults with upper respiratory infections concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/elderberry-imm-elder-urti/immune_health/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "immune",
+    "domain": "entries",
+    "outcome": "immune_modulation",
+    "population": "Adults with immune modulation concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/elderberry-imm-imm02/immune/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "inflammation",
+    "domain": "entries",
+    "outcome": "recovery",
+    "population": "Adults with recovery concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/evening-primrose-infl-inf18/inflammation/v1",
+    "years": [
+      "2010",
+      "2015",
+      "2020"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "immune",
+    "domain": "entries",
+    "outcome": "upper_respiratory",
+    "population": "Adults with upper respiratory concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/glutathione-imm-imm13/immune/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "inflammation",
+    "domain": "entries",
+    "outcome": "systemic_inflammation",
+    "population": "Adults with systemic inflammation concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/green-tea-infl-inf07/inflammation/v1",
+    "years": [
+      "2020",
+      "2011",
+      "2016"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "inflammation",
+    "domain": "entries",
+    "outcome": "recovery",
+    "population": "Adults with recovery concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/hyaluronic-acid-infl-inf13/inflammation/v1",
+    "years": [
+      "2014",
+      "2019",
+      "2010"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "immune_health",
+    "domain": "entries",
+    "outcome": "atopic_dermatitis",
+    "population": "Adults with atopic dermatitis concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/lactobacillus-rhamnosus-imm-lact-ecz/immune_health/v1",
+    "years": [
+      "2013",
+      "2018",
+      "2023"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "immune",
+    "domain": "entries",
+    "outcome": "immune_modulation",
+    "population": "Adults with immune modulation concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/maitake-imm-imm18/immune/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "immune",
+    "domain": "entries",
+    "outcome": "upper_respiratory",
+    "population": "Adults with upper respiratory concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/n-acetyl-cysteine-imm-imm12/immune/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "inflammation",
+    "domain": "entries",
+    "outcome": "recovery",
+    "population": "Adults with recovery concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/omega-3-infl-inf03/inflammation/v1",
+    "years": [
+      "2011",
+      "2016",
+      "2021"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "immune",
+    "domain": "entries",
+    "outcome": "upper_respiratory",
+    "population": "Adults with upper respiratory concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/propolis-imm-imm09/immune/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "inflammation",
+    "domain": "entries",
+    "outcome": "skin_inflammation",
+    "population": "Adults with skin inflammation concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/pycnogenol-infl-inf10/inflammation/v1",
+    "years": [
+      "2014",
+      "2019",
+      "2010"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "immune",
+    "domain": "entries",
+    "outcome": "antiviral_support",
+    "population": "Adults with antiviral support concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/quercetin-imm-imm11/immune/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "immune_health",
+    "domain": "entries",
+    "outcome": "allergic_rhinitis",
+    "population": "Adults with allergic rhinitis concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/quercetin-imm-querc-allergy/immune_health/v1",
+    "years": [
+      "2013",
+      "2018",
+      "2023"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "inflammation",
+    "domain": "entries",
+    "outcome": "skin_inflammation",
+    "population": "Adults with skin inflammation concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/quercetin-infl-inf05/inflammation/v1",
+    "years": [
+      "2012",
+      "2017",
+      "2022"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "immune",
+    "domain": "entries",
+    "outcome": "upper_respiratory",
+    "population": "Adults with upper respiratory concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/reishi-imm-imm17/immune/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "immune",
+    "domain": "entries",
+    "outcome": "immune_modulation",
+    "population": "Adults with immune modulation concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/selenium-imm-imm06/immune/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "immune",
+    "domain": "entries",
+    "outcome": "antiviral_support",
+    "population": "Adults with antiviral support concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/shiitake-imm-imm19/immune/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "immune",
+    "domain": "entries",
+    "outcome": "immune_modulation",
+    "population": "Adults with immune modulation concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/spirulina-imm-imm14/immune/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "inflammation",
+    "domain": "entries",
+    "outcome": "joint_pain",
+    "population": "Adults with joint pain concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/sulforaphane-infl-inf14/inflammation/v1",
+    "years": [
+      "2011",
+      "2016",
+      "2021"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "immune",
+    "domain": "entries",
+    "outcome": "upper_respiratory",
+    "population": "Adults with upper respiratory concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/turkey-tail-imm-imm20/immune/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "inflammation",
+    "domain": "entries",
+    "outcome": "systemic_inflammation",
+    "population": "Adults with systemic inflammation concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/turmeric-oil-infl-inf17/inflammation/v1",
+    "years": [
+      "2021",
+      "2012",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "immune",
+    "domain": "entries",
+    "outcome": "antiviral_support",
+    "population": "Adults with antiviral support concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/vitamin-c-imm-imm03/immune/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "inflammation",
+    "domain": "entries",
+    "outcome": "skin_inflammation",
+    "population": "Adults with skin inflammation concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/vitamin-c-infl-inf15/inflammation/v1",
+    "years": [
+      "2010",
+      "2015",
+      "2020"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "immune",
+    "domain": "entries",
+    "outcome": "upper_respiratory",
+    "population": "Adults with upper respiratory concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/vitamin-d-imm-imm04/immune/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "immune_health",
+    "domain": "entries",
+    "outcome": "immune_resilience",
+    "population": "Adults with immune resilience concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/vitamin-d-imm-vitd-immune/immune_health/v1",
+    "years": [
+      "2019",
+      "2010",
+      "2015"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "immune",
+    "substance_id": "immune",
+    "category": "immune",
+    "domain": "entries",
+    "outcome": "upper_respiratory",
+    "population": "Adults with upper respiratory concerns",
+    "n_studies": 3,
+    "entry_path": "entries/immune/zinc-imm-imm05/immune/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "longevity",
+    "domain": "entries",
+    "outcome": "cellular_ageing",
+    "population": "Adults with cellular ageing concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/alpha-ketoglutarate-long-lon13/longevity/v1",
+    "years": [
+      "2017",
+      "2022",
+      "2013"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "mitochondrial_support",
+    "population": "Adults with mitochondrial support concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/alpha-lipoic-acid-met-ala-mito/metabolic/v1",
+    "years": [
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "insulin_sensitivity",
+    "population": "Adults with insulin sensitivity concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/alpha-lipoic-acid-meta-glu02/metabolic/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "glucose_control",
+    "population": "Adults with glucose control concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/apple-cider-vinegar-meta-glu10/metabolic/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "glucose_control",
+    "population": "Adults with glucose control concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/artichoke-extract-meta-glu15/metabolic/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "longevity",
+    "domain": "entries",
+    "outcome": "telomere_support",
+    "population": "Adults with telomere support concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/astaxanthin-long-lon11/longevity/v1",
+    "years": [
+      "2011",
+      "2016",
+      "2021"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "longevity",
+    "domain": "entries",
+    "outcome": "cellular_ageing",
+    "population": "Adults with cellular ageing concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/berberine-long-lon17/longevity/v1",
+    "years": [
+      "2020",
+      "2011",
+      "2016"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "glucose_management",
+    "population": "Adults with glucose management concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/berberine-met-gluc-ber/metabolic/v1",
+    "years": [
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "glucose_control",
+    "population": "Adults with glucose control concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/berberine-meta-glu01/metabolic/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "glucose_control",
+    "population": "Adults with glucose control concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/bitter-melon-meta-glu06/metabolic/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "lipid_profile",
+    "population": "Adults with lipid profile concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/chlorella-meta-glu13/metabolic/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "lipid_profile",
+    "population": "Adults with lipid profile concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/chromium-meta-glu03/metabolic/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "insulin_sensitivity",
+    "population": "Adults with insulin sensitivity concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/chromium-picolinate-met-chrom-ins/metabolic/v1",
+    "years": [
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "hba1c_reduction",
+    "population": "Adults with hba1c reduction concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/cinnamon-met-cinn-a1c/metabolic/v1",
+    "years": [
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "weight_management",
+    "population": "Adults with weight management concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/cinnamon-meta-glu04/metabolic/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "longevity",
+    "domain": "entries",
+    "outcome": "mitochondrial_function",
+    "population": "Adults with mitochondrial function concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/collagen-long-lon14/longevity/v1",
+    "years": [
+      "2018",
+      "2023",
+      "2014"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "longevity",
+    "domain": "entries",
+    "outcome": "mitochondrial_function",
+    "population": "Adults with mitochondrial function concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/coq10-long-lon10/longevity/v1",
+    "years": [
+      "2016",
+      "2021",
+      "2012"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "metabolic_syndrome",
+    "population": "Adults with metabolic syndrome concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/curcumin-met-curc-metab/metabolic/v1",
+    "years": [
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "glucose_control",
+    "population": "Adults with glucose control concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/curcumin-meta-glu20/metabolic/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "glucose_control",
+    "population": "Adults with glucose control concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/fenugreek-meta-glu11/metabolic/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "longevity",
+    "domain": "entries",
+    "outcome": "cellular_ageing",
+    "population": "Adults with cellular ageing concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/fisetin-long-lon05/longevity/v1",
+    "years": [
+      "2010",
+      "2015",
+      "2020"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "longevity",
+    "domain": "entries",
+    "outcome": "telomere_support",
+    "population": "Adults with telomere support concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/glutathione-long-lon15/longevity/v1",
+    "years": [
+      "2023",
+      "2014",
+      "2019"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "glucose_control",
+    "population": "Adults with glucose control concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/gymnema-meta-glu05/metabolic/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "insulin_sensitivity",
+    "population": "Adults with insulin sensitivity concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/inositol-meta-glu07/metabolic/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "lipid_profile",
+    "population": "Adults with lipid profile concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/magnesium-meta-glu08/metabolic/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "longevity",
+    "domain": "entries",
+    "outcome": "cellular_ageing",
+    "population": "Adults with cellular ageing concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/melatonin-long-lon09/longevity/v1",
+    "years": [
+      "2022",
+      "2013",
+      "2018"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "longevity",
+    "domain": "entries",
+    "outcome": "mitochondrial_function",
+    "population": "Adults with mitochondrial function concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/metformin-analog-long-lon18/longevity/v1",
+    "years": [
+      "2010",
+      "2015",
+      "2020"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "weight_management",
+    "population": "Adults with weight management concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/milk-thistle-meta-glu14/metabolic/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "ovulatory_dysfunction",
+    "population": "Adults with ovulatory dysfunction concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/myo-inositol-met-inos-ovul/metabolic/v1",
+    "years": [
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "longevity",
+    "domain": "entries",
+    "outcome": "mitochondrial_function",
+    "population": "Adults with mitochondrial function concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/nicotinamide-mononucleotide-long-lon02/longevity/v1",
+    "years": [
+      "2014",
+      "2019",
+      "2010"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "longevity",
+    "domain": "entries",
+    "outcome": "cellular_ageing",
+    "population": "Adults with cellular ageing concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/nicotinamide-riboside-long-lon01/longevity/v1",
+    "years": [
+      "2022",
+      "2013",
+      "2018"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "glucose_control",
+    "population": "Adults with glucose control concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/olive-leaf-meta-glu16/metabolic/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "prediabetes",
+    "population": "Adults with prediabetes concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/omega-3-met-omega-prediab/metabolic/v1",
+    "years": [
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "weight_management",
+    "population": "Adults with weight management concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/omega-3-meta-glu19/metabolic/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "glp1_modulation",
+    "population": "Adults with glp1 modulation concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/prebiotic-fiber-met-glp-fiber/metabolic/v1",
+    "years": [
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "lipid_profile",
+    "population": "Adults with lipid profile concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/pterostilbene-meta-glu18/metabolic/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "longevity",
+    "domain": "entries",
+    "outcome": "mitochondrial_function",
+    "population": "Adults with mitochondrial function concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/quercetin-long-lon06/longevity/v1",
+    "years": [
+      "2020",
+      "2011",
+      "2016"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "longevity",
+    "domain": "entries",
+    "outcome": "telomere_support",
+    "population": "Adults with telomere support concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/rapamycin-microdose-long-lon19/longevity/v1",
+    "years": [
+      "2022",
+      "2013",
+      "2018"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "longevity",
+    "domain": "entries",
+    "outcome": "telomere_support",
+    "population": "Adults with telomere support concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/resveratrol-long-lon03/longevity/v1",
+    "years": [
+      "2019",
+      "2010",
+      "2015"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "insulin_sensitivity",
+    "population": "Adults with insulin sensitivity concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/resveratrol-meta-glu17/metabolic/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "longevity",
+    "domain": "entries",
+    "outcome": "telomere_support",
+    "population": "Adults with telomere support concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/spermidine-long-lon07/longevity/v1",
+    "years": [
+      "2011",
+      "2016",
+      "2021"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "insulin_sensitivity",
+    "population": "Adults with insulin sensitivity concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/spirulina-meta-glu12/metabolic/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "metabolic",
+    "substance_id": "metabolic",
+    "category": "metabolic",
+    "domain": "entries",
+    "outcome": "weight_management",
+    "population": "Adults with weight management concerns",
+    "n_studies": 3,
+    "entry_path": "entries/metabolic/vanadyl-sulfate-meta-glu09/metabolic/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "neurological",
+    "substance_id": "neurological",
+    "category": "cognition",
+    "domain": "entries",
+    "outcome": "processing_speed",
+    "population": "Adults with processing speed concerns",
+    "n_studies": 3,
+    "entry_path": "entries/neurological/acetyl-l-carnitine-cog-acet-learn/cognition/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "neurological",
+    "substance_id": "neurological",
+    "category": "cognition",
+    "domain": "entries",
+    "outcome": "attention",
+    "population": "Adults with attention concerns",
+    "n_studies": 3,
+    "entry_path": "entries/neurological/alpha-gpc-cog-alpgpc-focus/cognition/v1",
+    "years": [
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "neurological",
+    "substance_id": "neurological",
+    "category": "cognition",
+    "domain": "entries",
+    "outcome": "memory",
+    "population": "Adults with memory concerns",
+    "n_studies": 3,
+    "entry_path": "entries/neurological/bacopa-cog-bac-mem/cognition/v1",
+    "years": [
+      "2009",
+      "2010",
+      "2011"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "neurological",
+    "substance_id": "neurological",
+    "category": "cognition",
+    "domain": "entries",
+    "outcome": "attention",
+    "population": "Adults with attention concerns",
+    "n_studies": 3,
+    "entry_path": "entries/neurological/caffeine-l-theanine-cog-caff-adj/cognition/v1",
+    "years": [
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "neurological",
+    "substance_id": "neurological",
+    "category": "cognition",
+    "domain": "entries",
+    "outcome": "cognitive_decline",
+    "population": "Adults with cognitive decline concerns",
+    "n_studies": 3,
+    "entry_path": "entries/neurological/cerebrolysin-peptide-cog-pep-neuro/cognition/v1",
+    "years": [
+      "2007",
+      "2008",
+      "2009"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "neurological",
+    "substance_id": "neurological",
+    "category": "cognition",
+    "domain": "entries",
+    "outcome": "attention",
+    "population": "Adults with attention concerns",
+    "n_studies": 3,
+    "entry_path": "entries/neurological/citicoline-cog-cit-circ/cognition/v1",
+    "years": [
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "neurological",
+    "substance_id": "neurological",
+    "category": "cognition",
+    "domain": "entries",
+    "outcome": "memory",
+    "population": "Adults with memory concerns",
+    "n_studies": 3,
+    "entry_path": "entries/neurological/curcumin-cog-curc-neuro/cognition/v1",
+    "years": [
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "neurological",
+    "substance_id": "neurological",
+    "category": "cognition",
+    "domain": "entries",
+    "outcome": "memory",
+    "population": "Adults with memory concerns",
+    "n_studies": 3,
+    "entry_path": "entries/neurological/ginkgo-cog-gink-circ/cognition/v1",
+    "years": [
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "neurological",
+    "substance_id": "neurological",
+    "category": "cognition",
+    "domain": "entries",
+    "outcome": "cognitive_decline",
+    "population": "Adults with cognitive decline concerns",
+    "n_studies": 3,
+    "entry_path": "entries/neurological/lions-mane-cog-lion-neuro/cognition/v1",
+    "years": [
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "neurological",
+    "substance_id": "neurological",
+    "category": "cognition",
+    "domain": "entries",
+    "outcome": "processing_speed",
+    "population": "Adults with processing speed concerns",
+    "n_studies": 3,
+    "entry_path": "entries/neurological/lutein-cog-lute-vis/cognition/v1",
+    "years": [
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "neurological",
+    "substance_id": "neurological",
+    "category": "cognition",
+    "domain": "entries",
+    "outcome": "cognitive_decline",
+    "population": "Adults with cognitive decline concerns",
+    "n_studies": 3,
+    "entry_path": "entries/neurological/methyl-b12-cog-b12-cog/cognition/v1",
+    "years": [
+      "2008",
+      "2009",
+      "2010"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "neurological",
+    "substance_id": "neurological",
+    "category": "cognition",
+    "domain": "entries",
+    "outcome": "memory",
+    "population": "Adults with memory concerns",
+    "n_studies": 3,
+    "entry_path": "entries/neurological/methylfolate-cog-fol-mci/cognition/v1",
+    "years": [
+      "2009",
+      "2010",
+      "2011"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "neurological",
+    "substance_id": "neurological",
+    "category": "cognition",
+    "domain": "entries",
+    "outcome": "mitochondrial_support",
+    "population": "Adults with mitochondrial support concerns",
+    "n_studies": 3,
+    "entry_path": "entries/neurological/nicotinamide-riboside-cog-nico-noot/cognition/v1",
+    "years": [
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "neurological",
+    "substance_id": "neurological",
+    "category": "cognition",
+    "domain": "entries",
+    "outcome": "attention",
+    "population": "Adults with attention concerns",
+    "n_studies": 3,
+    "entry_path": "entries/neurological/nootropic-blend-cog-brain-multi/cognition/v1",
+    "years": [
+      "2006",
+      "2007",
+      "2008"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "neurological",
+    "substance_id": "neurological",
+    "category": "cognition",
+    "domain": "entries",
+    "outcome": "cognitive_decline",
+    "population": "Adults with cognitive decline concerns",
+    "n_studies": 3,
+    "entry_path": "entries/neurological/omega-3-cog-omega-cog/cognition/v1",
+    "years": [
+      "2005",
+      "2006",
+      "2007"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "neurological",
+    "substance_id": "neurological",
+    "category": "cognition",
+    "domain": "entries",
+    "outcome": "processing_speed",
+    "population": "Adults with processing speed concerns",
+    "n_studies": 3,
+    "entry_path": "entries/neurological/panax-ginseng-cog-gins-adapt/cognition/v1",
+    "years": [
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "neurological",
+    "substance_id": "neurological",
+    "category": "cognition",
+    "domain": "entries",
+    "outcome": "executive_function",
+    "population": "Adults with executive function concerns",
+    "n_studies": 3,
+    "entry_path": "entries/neurological/phosphatidylserine-cog-pser-exec/cognition/v1",
+    "years": [
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "neurological",
+    "substance_id": "neurological",
+    "category": "cognition",
+    "domain": "entries",
+    "outcome": "cerebral_blood_flow",
+    "population": "Adults with cerebral blood flow concerns",
+    "n_studies": 3,
+    "entry_path": "entries/neurological/resveratrol-cog-resv-neuro/cognition/v1",
+    "years": [
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "neurological",
+    "substance_id": "neurological",
+    "category": "cognition",
+    "domain": "entries",
+    "outcome": "stress_resilience",
+    "population": "Adults with stress resilience concerns",
+    "n_studies": 3,
+    "entry_path": "entries/neurological/rhodiola-cog-rhod-stress/cognition/v1",
+    "years": [
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "neurological",
+    "substance_id": "neurological",
+    "category": "cognition",
+    "domain": "entries",
+    "outcome": "cerebral_blood_flow",
+    "population": "Adults with cerebral blood flow concerns",
+    "n_studies": 3,
+    "entry_path": "entries/neurological/vinpocetine-cog-vinc-circ/cognition/v1",
+    "years": [
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "nutrient",
+    "substance_id": "nutrient",
+    "category": "sleep",
+    "domain": "entries",
+    "outcome": "psqi_total",
+    "population": "adults with primary insomnia",
+    "n_studies": 3,
+    "entry_path": "entries/nutrient/magnesium-glycinate/sleep/v1",
+    "years": [
+      "2022",
+      "2023",
+      "2021"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "oxidative_stress",
+    "population": "Adults with oxidative stress concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/astaxanthin-card-asta-card/cardiovascular/v1",
+    "years": [
+      "2008",
+      "2009",
+      "2010"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "endothelial_function",
+    "population": "Adults with endothelial function concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/beetroot-card-beet-nit/cardiovascular/v1",
+    "years": [
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "endothelial_function",
+    "population": "Adults with endothelial function concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/beetroot-card-beet-no/cardiovascular/v1",
+    "years": [
+      "2009",
+      "2010",
+      "2011"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "musculoskeletal",
+    "domain": "entries",
+    "outcome": "muscle_recovery",
+    "population": "Adults with muscle recovery concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/beetroot-musc-msk15/musculoskeletal/v1",
+    "years": [
+      "2013",
+      "2018",
+      "2023"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "cholesterol",
+    "population": "Adults with cholesterol concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/bergamot-card-berg-lip/cardiovascular/v1",
+    "years": [
+      "2007",
+      "2008",
+      "2009"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "ldl_management",
+    "population": "Adults with ldl management concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/bergamot-card-berg-lipid/cardiovascular/v1",
+    "years": [
+      "2008",
+      "2009",
+      "2010"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "musculoskeletal",
+    "domain": "entries",
+    "outcome": "bone_density",
+    "population": "Adults with bone density concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/boswellia-musc-msk06/musculoskeletal/v1",
+    "years": [
+      "2010",
+      "2015",
+      "2020"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "musculoskeletal",
+    "domain": "entries",
+    "outcome": "joint_health",
+    "population": "Adults with joint health concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/calcium-musc-msk09/musculoskeletal/v1",
+    "years": [
+      "2023",
+      "2014",
+      "2019"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "musculoskeletal",
+    "domain": "entries",
+    "outcome": "bone_density",
+    "population": "Adults with bone density concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/casein-musc-msk18/musculoskeletal/v1",
+    "years": [
+      "2011",
+      "2016",
+      "2021"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "musculoskeletal",
+    "domain": "entries",
+    "outcome": "muscle_recovery",
+    "population": "Adults with muscle recovery concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/chondroitin-musc-msk03/musculoskeletal/v1",
+    "years": [
+      "2021",
+      "2012",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "musculoskeletal",
+    "domain": "entries",
+    "outcome": "bone_density",
+    "population": "Adults with bone density concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/citrulline-musc-msk14/musculoskeletal/v1",
+    "years": [
+      "2011",
+      "2016",
+      "2021"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "endothelial_function",
+    "population": "Adults with endothelial function concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/cocoa-flavanols-card-cacao-endo/cardiovascular/v1",
+    "years": [
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "musculoskeletal",
+    "domain": "entries",
+    "outcome": "joint_health",
+    "population": "Adults with joint health concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/collagen-musc-msk01/musculoskeletal/v1",
+    "years": [
+      "2021",
+      "2012",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "blood_pressure",
+    "population": "Adults with blood pressure concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/coq10-card-coq-bp/cardiovascular/v1",
+    "years": [
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "heart_failure",
+    "population": "Adults with heart failure concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/coq10-card-coq10-hf/cardiovascular/v1",
+    "years": [
+      "2005",
+      "2006",
+      "2007"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "musculoskeletal",
+    "domain": "entries",
+    "outcome": "muscle_recovery",
+    "population": "Adults with muscle recovery concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/creatine-musc-msk11/musculoskeletal/v1",
+    "years": [
+      "2012",
+      "2017",
+      "2022"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "lipoprotein_a",
+    "population": "Adults with lipoprotein a concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/curcumin-card-curc-card/cardiovascular/v1",
+    "years": [
+      "2007",
+      "2008",
+      "2009"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "blood_pressure",
+    "population": "Adults with blood pressure concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/dark-chocolate-card-dark-choc/cardiovascular/v1",
+    "years": [
+      "2006",
+      "2007",
+      "2008"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "blood_pressure",
+    "population": "Adults with blood pressure concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/fish-peptides-card-fish-pep/cardiovascular/v1",
+    "years": [
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "cholesterol",
+    "population": "Adults with cholesterol concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/garlic-card-gar-chole/cardiovascular/v1",
+    "years": [
+      "2006",
+      "2007",
+      "2008"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "hypertension",
+    "population": "Adults with hypertension concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/garlic-card-garl-bp/cardiovascular/v1",
+    "years": [
+      "2006",
+      "2007",
+      "2008"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "musculoskeletal",
+    "domain": "entries",
+    "outcome": "bone_density",
+    "population": "Adults with bone density concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/glucosamine-musc-msk02/musculoskeletal/v1",
+    "years": [
+      "2018",
+      "2023",
+      "2014"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "heart_failure",
+    "population": "Adults with heart failure concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/hawthorn-card-haw-heart/cardiovascular/v1",
+    "years": [
+      "2009",
+      "2010",
+      "2011"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "cardiac_output",
+    "population": "Adults with cardiac output concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/hawthorn-card-haw-output/cardiovascular/v1",
+    "years": [
+      "2007",
+      "2008",
+      "2009"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "musculoskeletal",
+    "domain": "entries",
+    "outcome": "muscle_recovery",
+    "population": "Adults with muscle recovery concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/hyaluronic-acid-musc-msk07/musculoskeletal/v1",
+    "years": [
+      "2022",
+      "2013",
+      "2018"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "exercise_capacity",
+    "population": "Adults with exercise capacity concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/l-carnitine-card-carn-pump/cardiovascular/v1",
+    "years": [
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "musculoskeletal",
+    "domain": "entries",
+    "outcome": "joint_health",
+    "population": "Adults with joint health concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/l-carnitine-musc-msk13/musculoskeletal/v1",
+    "years": [
+      "2015",
+      "2020",
+      "2011"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "arterial_stiffness",
+    "population": "Adults with arterial stiffness concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/lycopene-card-lycop-card/cardiovascular/v1",
+    "years": [
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "musculoskeletal",
+    "domain": "entries",
+    "outcome": "bone_density",
+    "population": "Adults with bone density concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/magnesium-musc-msk10/musculoskeletal/v1",
+    "years": [
+      "2022",
+      "2013",
+      "2018"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "thrombotic_risk",
+    "population": "Adults with thrombotic risk concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/nattokinase-card-natt-fib/cardiovascular/v1",
+    "years": [
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "hdl_cholesterol",
+    "population": "Adults with hdl cholesterol concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/niacin-card-nia-vaso/cardiovascular/v1",
+    "years": [
+      "2005",
+      "2006",
+      "2007"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "triglycerides",
+    "population": "Adults with triglycerides concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/omega-3-card-omega-card/cardiovascular/v1",
+    "years": [
+      "2005",
+      "2006",
+      "2007"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "hypertriglyceridemia",
+    "population": "Adults with hypertriglyceridemia concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/omega-3-card-omega-trig/cardiovascular/v1",
+    "years": [
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "blood_pressure",
+    "population": "Adults with blood pressure concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/polyphenol-blend-card-poly-res/cardiovascular/v1",
+    "years": [
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "blood_pressure",
+    "population": "Adults with blood pressure concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/pomegranate-card-pome-gtp/cardiovascular/v1",
+    "years": [
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "cholesterol",
+    "population": "Adults with cholesterol concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/psyllium-card-psyll-chol/cardiovascular/v1",
+    "years": [
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "cholesterol",
+    "population": "Adults with cholesterol concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/red-yeast-rice-card-redy-statin/cardiovascular/v1",
+    "years": [
+      "2008",
+      "2009",
+      "2010"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "endothelial_health",
+    "population": "Adults with endothelial health concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/resveratrol-card-resv-endo/cardiovascular/v1",
+    "years": [
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "blood_pressure",
+    "population": "Adults with blood pressure concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/spirulina-card-spir-htn/cardiovascular/v1",
+    "years": [
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "blood_pressure",
+    "population": "Adults with blood pressure concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/taurine-card-taur-bp/cardiovascular/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "cardiovascular",
+    "domain": "entries",
+    "outcome": "arterial_stiffness",
+    "population": "Adults with arterial stiffness concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/turmeric-blend-card-turm-circ/cardiovascular/v1",
+    "years": [
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "musculoskeletal",
+    "domain": "entries",
+    "outcome": "joint_health",
+    "population": "Adults with joint health concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/turmeric-musc-msk05/musculoskeletal/v1",
+    "years": [
+      "2010",
+      "2015",
+      "2020"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "physiological",
+    "substance_id": "physiological",
+    "category": "musculoskeletal",
+    "domain": "entries",
+    "outcome": "joint_health",
+    "population": "Adults with joint health concerns",
+    "n_studies": 3,
+    "entry_path": "entries/physiological/whey-protein-musc-msk17/musculoskeletal/v1",
+    "years": [
+      "2016",
+      "2021",
+      "2012"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "stress",
+    "population": "Adults with stress concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/adaptogen-blend-ment-adapto-mix/mental_health/v1",
+    "years": [
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "stress_resilience",
+    "population": "Adults with stress resilience concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/ashwagandha-mh-ash-cort/mental_health/v1",
+    "years": [
+      "2009",
+      "2010",
+      "2011"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "anxiety",
+    "population": "Adults with anxiety concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/b-complex-ment-b-complex/mental_health/v1",
+    "years": [
+      "2005",
+      "2006",
+      "2007"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "anxiety",
+    "population": "Adults with anxiety concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/cbd-ment-cbd-anx/mental_health/v1",
+    "years": [
+      "2007",
+      "2008",
+      "2009"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "anxiety",
+    "population": "Adults with anxiety concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/gaba-ment-gaba-calm/mental_health/v1",
+    "years": [
+      "2009",
+      "2010",
+      "2011"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "acute_stress",
+    "population": "Adults with acute stress concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/gaba-mh-gaba-neuro/mental_health/v1",
+    "years": [
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "negative_symptoms",
+    "population": "Adults with negative symptoms concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/glycine-ment-glycine-mood/mental_health/v1",
+    "years": [
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "anxiety",
+    "population": "Adults with anxiety concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/kava-ment-kava-mood/mental_health/v1",
+    "years": [
+      "2008",
+      "2009",
+      "2010"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "treatment_resistant_depression",
+    "population": "Adults with treatment resistant depression concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/ketamine-support-ment-ket-nutri/mental_health/v1",
+    "years": [
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "anxiety",
+    "population": "Adults with anxiety concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/l-theanine-ment-lthn-anx/mental_health/v1",
+    "years": [
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "anxiety_management",
+    "population": "Adults with anxiety management concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/l-theanine-mh-lthr-gaba/mental_health/v1",
+    "years": [
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "serotonin_modulation",
+    "population": "Adults with serotonin modulation concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/l-tryptophan-mh-ltrp-serotonin/mental_health/v1",
+    "years": [
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "anxiety",
+    "population": "Adults with anxiety concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/lavender-ment-lav-caps/mental_health/v1",
+    "years": [
+      "2006",
+      "2007",
+      "2008"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "generalized_anxiety",
+    "population": "Adults with generalized anxiety concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/magnesium-glycinate-mh-mag-glyc/mental_health/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "panic_disorder",
+    "population": "Adults with panic disorder concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/myo-inositol-ment-myo-in/mental_health/v1",
+    "years": [
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "ocd",
+    "population": "Adults with ocd concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/nac-ment-nac-ocd/mental_health/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "attachment_security",
+    "population": "Adults with attachment security concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/neuropeptide-spray-mh-pep-neuro/mental_health/v1",
+    "years": [
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "depression",
+    "population": "Adults with depression concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/omega-3-ment-omega-mood/mental_health/v1",
+    "years": [
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "major_depression",
+    "population": "Adults with major depression concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/omega-3-mh-omega-dep/mental_health/v1",
+    "years": [
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "anxiety",
+    "population": "Adults with anxiety concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/prebiotic-fiber-ment-gut-axis/mental_health/v1",
+    "years": [
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "gut_brain_axis",
+    "population": "Adults with gut brain axis concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/probiotic-blend-mh-probio-axis/mental_health/v1",
+    "years": [
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "anxiety",
+    "population": "Adults with anxiety concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/probiotics-ment-prob-mood/mental_health/v1",
+    "years": [
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "depression",
+    "population": "Adults with depression concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/psilocybin-microdose-ment-psych-mush/mental_health/v1",
+    "years": [
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "stress",
+    "population": "Adults with stress concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/rhodiola-ment-rhod-anx/mental_health/v1",
+    "years": [
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "burnout_recovery",
+    "population": "Adults with burnout recovery concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/rhodiola-mh-rhod-burnout/mental_health/v1",
+    "years": [
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "depression",
+    "population": "Adults with depression concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/saffron-ment-saff-depr/mental_health/v1",
+    "years": [
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "depressive_symptoms",
+    "population": "Adults with depressive symptoms concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/saffron-mh-safr-mood/mental_health/v1",
+    "years": [
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "depression",
+    "population": "Adults with depression concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/sam-e-ment-sam-e/mental_health/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "depression",
+    "population": "Adults with depression concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/st-johns-wort-ment-stj-wort/mental_health/v1",
+    "years": [
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "psychological",
+    "substance_id": "psychological",
+    "category": "mental_health",
+    "domain": "entries",
+    "outcome": "depression",
+    "population": "Adults with depression concerns",
+    "n_studies": 3,
+    "entry_path": "entries/psychological/vitamin-d-ment-vitd-mood/mental_health/v1",
+    "years": [
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "safety",
+    "substance_id": "safety",
+    "category": "renal_safety",
+    "domain": "entries",
+    "outcome": "renal_hemodynamics",
+    "population": "Adults with renal hemodynamics concerns",
+    "n_studies": 3,
+    "entry_path": "entries/safety/caffeine-ren-caff-dose/renal_safety/v1",
+    "years": [
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "safety",
+    "substance_id": "safety",
+    "category": "renal_safety",
+    "domain": "entries",
+    "outcome": "long_term_safety",
+    "population": "Adults with long term safety concerns",
+    "n_studies": 3,
+    "entry_path": "entries/safety/creatine-ren-crtn-safe/renal_safety/v1",
+    "years": [
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "needs_real_dois": "yes"
+  },
+  {
+    "substance": "safety",
+    "substance_id": "safety",
+    "category": "renal_safety",
+    "domain": "entries",
+    "outcome": "renal_risk_mitigation",
+    "population": "Adults with renal risk mitigation concerns",
+    "n_studies": 3,
+    "entry_path": "entries/safety/nsaid-protocol-ren-nsaid-mit/renal_safety/v1",
+    "years": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "needs_real_dois": "yes"
+  }
+]

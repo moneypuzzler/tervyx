@@ -2,15 +2,15 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "metabolic:nicotinamide-riboside-long-lon01:longevity:v1",
-  "title": "Nicotinamide Riboside — Longevity",
+  "title": "Nicotinamide Riboside Long Lon01 — Longevity",
   "category": "longevity",
-  "tier": "Gold",
-  "label": "PASS",
-  "P_effect_gt_delta": 0.903717,
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.9888,
   "gate_results": {
-    "phi": "PASS",
-    "r": 0.944,
-    "j": 0.594,
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
     "k": "PASS",
     "l": "PASS"
   },
@@ -18,11 +18,11 @@
     "n_studies": 3,
     "total_n": 471,
     "I2": 0.0,
-    "tau2": 0.00031485,
-    "mu_hat": 0.2534,
+    "tau2": 0.0,
+    "mu_hat": 0.252588,
     "mu_CI95": [
-      0.097867,
-      0.408933
+      0.163936,
+      0.34124
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-27T01:51:32.555223+00:00",
+  "created": "2025-11-05T06:50:50.301852+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:59e7a44b74e2f6ec39289f6de6d7131264208129d1731b6c26ddef22316bdbe7",
-  "audit_hash": "0x1dd6a4985a7ed953"
+  "citations_manifest_hash": "sha256:4a37cf226042b838622a043a1f188614725bf3c43a0f022acb136a4ec41ee268",
+  "audit_hash": "0x9bde9aa0dfb7bc13"
 }

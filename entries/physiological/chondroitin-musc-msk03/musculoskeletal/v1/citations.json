@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.580167+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:14.419571+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/chondroitin-musc-msk03/musculoskeletal/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/musc-msk03-03"
     }
   ],
-  "manifest_hash": "sha256:8d8b92784bab829861dbf39a96714424872727807a1159e51323cf50d906ffda"
+  "manifest_hash": "sha256:987553b6280ba48dc3afd13a453cce84c9f65519fc36d8c6771ca68cf7abc807"
 }

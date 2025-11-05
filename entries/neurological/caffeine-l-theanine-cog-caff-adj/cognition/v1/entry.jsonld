@@ -10,7 +10,7 @@
   "gate_results": {
     "phi": "PASS",
     "r": 1.0,
-    "j": 0.0,
+    "j": 0.701,
     "k": "PASS",
     "l": "PASS"
   },
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-23T09:24:40.559332+00:00",
+  "created": "2025-11-05T07:35:24.078070+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,31 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/cog-caff-adj-01",
+      "@id": "doi:10.1007/s00213-015-3895-0",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-caff-adj-01",
+      "identifier": "doi:10.1007/s00213-015-3895-0",
+      "studyIds": [
+        "COG-CAFF-ADJ_03"
+      ],
+      "citation": "COG-CAFF-ADJ_03 (2013); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1007/s00213-015-3895-0; Adverse Events: Transient headache.",
+      "doi": "10.1007/s00213-015-3895-0",
+      "sameAs": "https://doi.org/10.1007/s00213-015-3895-0",
+      "datePublished": "2013",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cognition_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1016/j.biopsycho.2007.09.008",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1016/j.biopsycho.2007.09.008",
       "studyIds": [
         "COG-CAFF-ADJ_01"
       ],
-      "citation": "COG-CAFF-ADJ_01 (2011); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1234/cog-caff-adj-01; Adverse Events: None reported.",
-      "doi": "10.1234/cog-caff-adj-01",
-      "sameAs": "https://doi.org/10.1234/cog-caff-adj-01",
+      "citation": "COG-CAFF-ADJ_01 (2011); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1016/j.biopsycho.2007.09.008; Adverse Events: None reported.",
+      "doi": "10.1016/j.biopsycho.2007.09.008",
+      "sameAs": "https://doi.org/10.1016/j.biopsycho.2007.09.008",
       "datePublished": "2011",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,38 +92,22 @@
       }
     },
     {
-      "@id": "doi:10.1234/cog-caff-adj-02",
+      "@id": "doi:10.1179/147683008x301513",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-caff-adj-02",
+      "identifier": "doi:10.1179/147683008x301513",
       "studyIds": [
         "COG-CAFF-ADJ_02"
       ],
-      "citation": "COG-CAFF-ADJ_02 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1234/cog-caff-adj-02; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/cog-caff-adj-02",
-      "sameAs": "https://doi.org/10.1234/cog-caff-adj-02",
+      "citation": "COG-CAFF-ADJ_02 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1179/147683008x301513; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1179/147683008x301513",
+      "sameAs": "https://doi.org/10.1179/147683008x301513",
       "datePublished": "2012",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "cognition_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/cog-caff-adj-03",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-caff-adj-03",
-      "studyIds": [
-        "COG-CAFF-ADJ_03"
-      ],
-      "citation": "COG-CAFF-ADJ_03 (2013); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1234/cog-caff-adj-03; Adverse Events: Transient headache.",
-      "doi": "10.1234/cog-caff-adj-03",
-      "sameAs": "https://doi.org/10.1234/cog-caff-adj-03",
-      "datePublished": "2013",
       "isPartOf": {
         "@type": "Periodical",
         "name": "cognition_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:e60b58e860c2888df433eefb6d88ce3bc064afce1ce192afb0360cef9a54b337",
-  "audit_hash": "0x928dfcf74f0d4476"
+  "citations_manifest_hash": "sha256:14e525cf5d9088935c1f3ed7e09f5439ad8bf5a1bd67192b4df53c6973bb94f9",
+  "audit_hash": "0x95a83cd293678941"
 }

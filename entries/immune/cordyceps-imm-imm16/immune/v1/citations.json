@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-24T08:19:11.194846+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:17.739626+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/immune/cordyceps-imm-imm16/immune/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/cordyceps-imm-imm16-03"
     }
   ],
-  "manifest_hash": "sha256:3170bc2b26e2ac975af720d7068eaad51a7b00676abb18e4985c822fefa01f7c"
+  "manifest_hash": "sha256:9cc9bf55948452b523e6b2f8256bcd3b01c1e12f7c9479caaf1c13554e02170b"
 }

@@ -2,15 +2,15 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "metabolic:nicotinamide-mononucleotide-long-lon02:longevity:v1",
-  "title": "Nicotinamide Mononucleotide — Longevity",
+  "title": "Nicotinamide Mononucleotide Long Lon02 — Longevity",
   "category": "longevity",
-  "tier": "Silver",
-  "label": "PASS",
-  "P_effect_gt_delta": 0.677146,
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.8025,
   "gate_results": {
-    "phi": "PASS",
-    "r": 0.808,
-    "j": 0.658,
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
     "k": "PASS",
     "l": "PASS"
   },
@@ -18,11 +18,11 @@
     "n_studies": 3,
     "total_n": 498,
     "I2": 0.0,
-    "tau2": 0.00031001,
-    "mu_hat": 0.1862,
+    "tau2": 0.0,
+    "mu_hat": 0.187195,
     "mu_CI95": [
-      0.031867,
-      0.340533
+      0.100962,
+      0.273428
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-27T01:51:32.556712+00:00",
+  "created": "2025-11-05T06:50:49.730740+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:e1f98d9a2849bf001d7ddbc456e662344f1538fb1c6dc9280f222d08b99287c1",
-  "audit_hash": "0x975717e30be8e789"
+  "citations_manifest_hash": "sha256:06b19d85c6113c60ca1323deb2b54806334c748bd2a863a1e02b672f78c88692",
+  "audit_hash": "0x2ca711eace06ddd7"
 }

@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:44.285468+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T07:22:17.663300+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/ashwagandha-mh-ash-cort/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -12,9 +12,9 @@
       "outcome": "stress_resilience",
       "population": "Adults with stress resilience concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/mh-ash-cort-01",
-      "url": "https://doi.org/10.1234/mh-ash-cort-01",
-      "citation": "MH-ASH-CORT_01 (2009); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1234/mh-ash-cort-01; Adverse Events: Mild GI discomfort."
+      "doi": "10.1016/j.jep.2020.113276",
+      "url": "https://doi.org/10.1016/j.jep.2020.113276",
+      "citation": "MH-ASH-CORT_01 (2009); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1016/j.jep.2020.113276; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "MH-ASH-CORT_02",
@@ -24,9 +24,9 @@
       "outcome": "stress_resilience",
       "population": "Adults with stress resilience concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/mh-ash-cort-02",
-      "url": "https://doi.org/10.1234/mh-ash-cort-02",
-      "citation": "MH-ASH-CORT_02 (2010); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1234/mh-ash-cort-02; Adverse Events: Transient headache."
+      "doi": "10.7759/cureus.5797",
+      "url": "https://doi.org/10.7759/cureus.5797",
+      "citation": "MH-ASH-CORT_02 (2010); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.7759/cureus.5797; Adverse Events: Transient headache."
     },
     {
       "study_id": "MH-ASH-CORT_03",
@@ -36,39 +36,39 @@
       "outcome": "stress_resilience",
       "population": "Adults with stress resilience concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/mh-ash-cort-03",
-      "url": "https://doi.org/10.1234/mh-ash-cort-03",
-      "citation": "MH-ASH-CORT_03 (2011); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1234/mh-ash-cort-03; Adverse Events: None reported."
+      "doi": "10.1371/journal.pone.0257843",
+      "url": "https://doi.org/10.1371/journal.pone.0257843",
+      "citation": "MH-ASH-CORT_03 (2011); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1371/journal.pone.0257843; Adverse Events: None reported."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/mh-ash-cort-01",
+      "identifier": "10.1016/j.jep.2020.113276",
       "study_ids": [
         "MH-ASH-CORT_01"
       ],
       "primary_study_id": "MH-ASH-CORT_01",
-      "url": "https://doi.org/10.1234/mh-ash-cort-01"
+      "url": "https://doi.org/10.1016/j.jep.2020.113276"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/mh-ash-cort-02",
-      "study_ids": [
-        "MH-ASH-CORT_02"
-      ],
-      "primary_study_id": "MH-ASH-CORT_02",
-      "url": "https://doi.org/10.1234/mh-ash-cort-02"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/mh-ash-cort-03",
+      "identifier": "10.1371/journal.pone.0257843",
       "study_ids": [
         "MH-ASH-CORT_03"
       ],
       "primary_study_id": "MH-ASH-CORT_03",
-      "url": "https://doi.org/10.1234/mh-ash-cort-03"
+      "url": "https://doi.org/10.1371/journal.pone.0257843"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.7759/cureus.5797",
+      "study_ids": [
+        "MH-ASH-CORT_02"
+      ],
+      "primary_study_id": "MH-ASH-CORT_02",
+      "url": "https://doi.org/10.7759/cureus.5797"
     }
   ],
-  "manifest_hash": "sha256:9adec2667969eee112e1a1065bac501904b7da11d733a326afdf5e2b06d5ba0f"
+  "manifest_hash": "sha256:2e3df9fd7619cbc7def8f9737a0607b10d05a2e2fc8b48f3180414649fec1a2b"
 }

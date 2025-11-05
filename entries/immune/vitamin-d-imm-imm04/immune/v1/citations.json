@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-24T08:19:09.795432+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:32.210698+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/immune/vitamin-d-imm-imm04/immune/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/vitamin-d-imm-imm04-03"
     }
   ],
-  "manifest_hash": "sha256:b5f78d9afa7050dd5621e7a6014cde543a4c7d1ec10f32de035b7b7b9d5802e6"
+  "manifest_hash": "sha256:937e2a09022ba4cec63ba3edf885862a944e05c0a5c41b5de8486ae5c5f38316"
 }

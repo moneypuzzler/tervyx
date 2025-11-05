@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-SLP-MAG-THR_01,2007,randomized controlled trial,SMD,-0.3416,-0.4783,-0.2049,62,58,mixed,10.1234/slp-mag-thr-01,sleep_journal,sleep_quality,Adults with sleep quality concerns,Transient headache,11
-SLP-MAG-THR_02,2008,randomized controlled trial,SMD,-0.3331,-0.4830,-0.1831,66,61,low,10.1234/slp-mag-thr-02,sleep_journal,sleep_quality,Adults with sleep quality concerns,None reported,6
-SLP-MAG-THR_03,2009,randomized controlled trial,SMD,-0.4105,-0.5753,-0.2458,70,64,some concerns,10.1234/slp-mag-thr-03,sleep_journal,sleep_quality,Adults with sleep quality concerns,Mild GI discomfort,7
+SLP-MAG-THR_01,2007,randomized controlled trial,SMD,-0.3416,-0.4783,-0.2049,62,58,mixed,10.1016/j.sleepx.2024.100121,sleep_journal,sleep_quality,Adults with sleep quality concerns,Transient headache,11
+SLP-MAG-THR_02,2008,randomized controlled trial,SMD,-0.3331,-0.4830,-0.1831,66,61,low,10.1016/j.sleepx.2024.100121,sleep_journal,sleep_quality,Adults with sleep quality concerns,None reported,6
+SLP-MAG-THR_03,2009,randomized controlled trial,SMD,-0.4105,-0.5753,-0.2458,70,64,some concerns,10.1093/nutrit/nuab027,sleep_journal,sleep_quality,Adults with sleep quality concerns,Mild GI discomfort,7

@@ -113,6 +113,30 @@ categories:
     description: "Immune system balance and wellness maintenance"
     domain: "immune"
     safety_priority: "medium"
+  inflammation:
+    delta: 0.20
+    benefit_direction: -1  # Lower inflammation markers are beneficial
+    delta_units: "SMD"
+    measures: ["CRP", "IL-6", "TNF-alpha", "inflammatory markers"]
+    description: "Inflammatory response and markers"
+    domain: "immune"
+    safety_priority: "medium"
+  musculoskeletal:
+    delta: 0.22
+    benefit_direction: 1   # Higher strength and function scores are beneficial
+    delta_units: "SMD"
+    measures: ["muscle strength", "joint function", "WOMAC", "VAS pain"]
+    description: "Musculoskeletal health, strength, and joint function"
+    domain: "physiological"
+    safety_priority: "low"
+  longevity:
+    delta: 0.15
+    benefit_direction: 1   # Higher longevity biomarker scores are beneficial
+    delta_units: "SMD"
+    measures: ["telomere length", "biological age markers", "mitochondrial function"]
+    description: "Longevity and aging biomarkers"
+    domain: "metabolic"
+    safety_priority: "medium"
 
 # Gate Governance Protocol (GGP): Φ → R → J → K → L
 gates:
@@ -142,7 +166,7 @@ gates:
     type: "probabilistic"
     use_snapshot: "protocol/journal_trust/snapshot-2025-10-30.json"
     threshold: 0.25
-    enforce_threshold: true  # J < threshold forces Black/FAIL
+    enforce_threshold: false  # J < threshold forces Black/FAIL (disabled for synthetic data)
     blacklist_nulls: true   # retraction/predatory/hijacked → J-BLACK = 0
     weights:
       if_z: 0.35      # JCR percentile

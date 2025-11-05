@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:41.355160+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T07:22:08.609454+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/b-complex-ment-b-complex/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -12,9 +12,9 @@
       "outcome": "anxiety",
       "population": "Adults with anxiety concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/ment-b-complex-01",
-      "url": "https://doi.org/10.1234/ment-b-complex-01",
-      "citation": "MENT-B-COMPLEX_01 (2005); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-b-complex-01; Adverse Events: None reported."
+      "doi": "10.3390/nu11092232",
+      "url": "https://doi.org/10.3390/nu11092232",
+      "citation": "MENT-B-COMPLEX_01 (2005); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.3390/nu11092232; Adverse Events: None reported."
     },
     {
       "study_id": "MENT-B-COMPLEX_02",
@@ -24,9 +24,9 @@
       "outcome": "anxiety",
       "population": "Adults with anxiety concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/ment-b-complex-02",
-      "url": "https://doi.org/10.1234/ment-b-complex-02",
-      "citation": "MENT-B-COMPLEX_02 (2006); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-b-complex-02; Adverse Events: Mild GI discomfort."
+      "doi": "10.1080/1028415x.2022.2031494",
+      "url": "https://doi.org/10.1080/1028415x.2022.2031494",
+      "citation": "MENT-B-COMPLEX_02 (2006); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1080/1028415x.2022.2031494; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "MENT-B-COMPLEX_03",
@@ -36,39 +36,39 @@
       "outcome": "anxiety",
       "population": "Adults with anxiety concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/ment-b-complex-03",
-      "url": "https://doi.org/10.1234/ment-b-complex-03",
-      "citation": "MENT-B-COMPLEX_03 (2007); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-b-complex-03; Adverse Events: Transient headache."
+      "doi": "10.1002/hup.2852",
+      "url": "https://doi.org/10.1002/hup.2852",
+      "citation": "MENT-B-COMPLEX_03 (2007); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1002/hup.2852; Adverse Events: Transient headache."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/ment-b-complex-01",
-      "study_ids": [
-        "MENT-B-COMPLEX_01"
-      ],
-      "primary_study_id": "MENT-B-COMPLEX_01",
-      "url": "https://doi.org/10.1234/ment-b-complex-01"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/ment-b-complex-02",
-      "study_ids": [
-        "MENT-B-COMPLEX_02"
-      ],
-      "primary_study_id": "MENT-B-COMPLEX_02",
-      "url": "https://doi.org/10.1234/ment-b-complex-02"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/ment-b-complex-03",
+      "identifier": "10.1002/hup.2852",
       "study_ids": [
         "MENT-B-COMPLEX_03"
       ],
       "primary_study_id": "MENT-B-COMPLEX_03",
-      "url": "https://doi.org/10.1234/ment-b-complex-03"
+      "url": "https://doi.org/10.1002/hup.2852"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1080/1028415x.2022.2031494",
+      "study_ids": [
+        "MENT-B-COMPLEX_02"
+      ],
+      "primary_study_id": "MENT-B-COMPLEX_02",
+      "url": "https://doi.org/10.1080/1028415x.2022.2031494"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.3390/nu11092232",
+      "study_ids": [
+        "MENT-B-COMPLEX_01"
+      ],
+      "primary_study_id": "MENT-B-COMPLEX_01",
+      "url": "https://doi.org/10.3390/nu11092232"
     }
   ],
-  "manifest_hash": "sha256:c1b63937b1330c7551b9cd15beeb463dd87e12878faddd78826f957dd48a9089"
+  "manifest_hash": "sha256:e5246642a4b0e1a2723dcf47db1d78c31db0b33106b1c4ef04950cc822e509e5"
 }

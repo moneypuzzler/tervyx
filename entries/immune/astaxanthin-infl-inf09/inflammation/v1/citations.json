@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.541451+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:12.455770+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/immune/astaxanthin-infl-inf09/inflammation/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/infl-inf09-03"
     }
   ],
-  "manifest_hash": "sha256:ca52d95c13bf37ed6b18589c077888c80ba05bc065fbe6c33995bc92569429ba"
+  "manifest_hash": "sha256:fbcdc07c0e88cd22536d1fcb7bd2ffc2cd876176d729951a3d2c85532a5a41e0"
 }

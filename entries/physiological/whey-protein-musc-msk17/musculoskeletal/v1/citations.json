@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.595294+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:33.098307+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/whey-protein-musc-msk17/musculoskeletal/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/musc-msk17-03"
     }
   ],
-  "manifest_hash": "sha256:493298b32480f42690ffb1e8822be4ff5a8f4b64a36007668903108aa3c4fb5e"
+  "manifest_hash": "sha256:30d70d60b8f213d0e5b82342a8d7f094cb82b75f943d8bb48f04312832f2025f"
 }

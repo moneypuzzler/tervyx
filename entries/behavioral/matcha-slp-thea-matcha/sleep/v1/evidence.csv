@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-SLP-THEA-MATCHA_01,2006,randomized controlled trial,SMD,-0.2873,-0.4410,-0.1336,56,53,some concerns,10.1234/slp-thea-matcha-01,sleep_journal,sleep_quality,Adults with sleep quality concerns,Mild GI discomfort,10
-SLP-THEA-MATCHA_02,2007,randomized controlled trial,SMD,-0.3602,-0.4927,-0.2278,60,56,mixed,10.1234/slp-thea-matcha-02,sleep_journal,sleep_quality,Adults with sleep quality concerns,Transient headache,11
-SLP-THEA-MATCHA_03,2008,randomized controlled trial,SMD,-0.4291,-0.5686,-0.2895,64,59,low,10.1234/slp-thea-matcha-03,sleep_journal,sleep_quality,Adults with sleep quality concerns,None reported,6
+SLP-THEA-MATCHA_01,2006,randomized controlled trial,SMD,-0.2873,-0.4410,-0.1336,56,53,some concerns,10.3390/nu16172907,sleep_journal,sleep_quality,Adults with sleep quality concerns,Mild GI discomfort,10
+SLP-THEA-MATCHA_02,2007,randomized controlled trial,SMD,-0.3602,-0.4927,-0.2278,60,56,mixed,10.1371/journal.pone.0309287,sleep_journal,sleep_quality,Adults with sleep quality concerns,Transient headache,11
+SLP-THEA-MATCHA_03,2008,randomized controlled trial,SMD,-0.4291,-0.5686,-0.2895,64,59,low,10.3390/nu9070777,sleep_journal,sleep_quality,Adults with sleep quality concerns,None reported,6

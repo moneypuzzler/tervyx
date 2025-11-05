@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:40.046986+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T07:35:22.390016+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/omega-3-cog-omega-cog/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -12,9 +12,9 @@
       "outcome": "cognitive_decline",
       "population": "Adults with cognitive decline concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/cog-omega-cog-01",
-      "url": "https://doi.org/10.1234/cog-omega-cog-01",
-      "citation": "COG-OMEGA-COG_01 (2005); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1234/cog-omega-cog-01; Adverse Events: None reported."
+      "doi": "10.1038/s41398-019-0515-5",
+      "url": "https://doi.org/10.1038/s41398-019-0515-5",
+      "citation": "COG-OMEGA-COG_01 (2005); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1038/s41398-019-0515-5; Adverse Events: None reported."
     },
     {
       "study_id": "COG-OMEGA-COG_02",
@@ -24,9 +24,9 @@
       "outcome": "cognitive_decline",
       "population": "Adults with cognitive decline concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/cog-omega-cog-02",
-      "url": "https://doi.org/10.1234/cog-omega-cog-02",
-      "citation": "COG-OMEGA-COG_02 (2006); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1234/cog-omega-cog-02; Adverse Events: Mild GI discomfort."
+      "doi": "10.1186/s12916-024-03296-0",
+      "url": "https://doi.org/10.1186/s12916-024-03296-0",
+      "citation": "COG-OMEGA-COG_02 (2006); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1186/s12916-024-03296-0; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "COG-OMEGA-COG_03",
@@ -36,39 +36,39 @@
       "outcome": "cognitive_decline",
       "population": "Adults with cognitive decline concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/cog-omega-cog-03",
-      "url": "https://doi.org/10.1234/cog-omega-cog-03",
-      "citation": "COG-OMEGA-COG_03 (2007); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1234/cog-omega-cog-03; Adverse Events: Transient headache."
+      "doi": "10.1016/j.arr.2022.101706",
+      "url": "https://doi.org/10.1016/j.arr.2022.101706",
+      "citation": "COG-OMEGA-COG_03 (2007); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1016/j.arr.2022.101706; Adverse Events: Transient headache."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/cog-omega-cog-01",
-      "study_ids": [
-        "COG-OMEGA-COG_01"
-      ],
-      "primary_study_id": "COG-OMEGA-COG_01",
-      "url": "https://doi.org/10.1234/cog-omega-cog-01"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/cog-omega-cog-02",
-      "study_ids": [
-        "COG-OMEGA-COG_02"
-      ],
-      "primary_study_id": "COG-OMEGA-COG_02",
-      "url": "https://doi.org/10.1234/cog-omega-cog-02"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/cog-omega-cog-03",
+      "identifier": "10.1016/j.arr.2022.101706",
       "study_ids": [
         "COG-OMEGA-COG_03"
       ],
       "primary_study_id": "COG-OMEGA-COG_03",
-      "url": "https://doi.org/10.1234/cog-omega-cog-03"
+      "url": "https://doi.org/10.1016/j.arr.2022.101706"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1038/s41398-019-0515-5",
+      "study_ids": [
+        "COG-OMEGA-COG_01"
+      ],
+      "primary_study_id": "COG-OMEGA-COG_01",
+      "url": "https://doi.org/10.1038/s41398-019-0515-5"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1186/s12916-024-03296-0",
+      "study_ids": [
+        "COG-OMEGA-COG_02"
+      ],
+      "primary_study_id": "COG-OMEGA-COG_02",
+      "url": "https://doi.org/10.1186/s12916-024-03296-0"
     }
   ],
-  "manifest_hash": "sha256:14ececf604807e5887e9bbf1f34bc5c00faf3b43e2349e4788cfd35489560951"
+  "manifest_hash": "sha256:d5e038794e4db98eb673cfe91f589df3d542676d4d29351a99710afa8cc452d4"
 }

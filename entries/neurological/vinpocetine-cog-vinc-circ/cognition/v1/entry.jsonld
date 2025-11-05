@@ -10,7 +10,7 @@
   "gate_results": {
     "phi": "PASS",
     "r": 0.9,
-    "j": 0.0,
+    "j": 0.701,
     "k": "PASS",
     "l": "PASS"
   },
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-23T09:24:40.734537+00:00",
+  "created": "2025-11-05T07:35:25.238412+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,31 +60,31 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/cog-vinc-circ-01",
+      "@id": "doi:10.1007/bf00788518",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-vinc-circ-01",
+      "identifier": "doi:10.1007/bf00788518",
       "studyIds": [
-        "COG-VINC-CIRC_01"
+        "COG-VINC-CIRC_03"
       ],
-      "citation": "COG-VINC-CIRC_01 (2013); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cerebral blood flow concerns; Outcome: cerebral_blood_flow; DOI: 10.1234/cog-vinc-circ-01; Adverse Events: Transient headache.",
-      "doi": "10.1234/cog-vinc-circ-01",
-      "sameAs": "https://doi.org/10.1234/cog-vinc-circ-01",
-      "datePublished": "2013",
+      "citation": "COG-VINC-CIRC_03 (2015); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cerebral blood flow concerns; Outcome: cerebral_blood_flow; DOI: 10.1007/bf00788518; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1007/bf00788518",
+      "sameAs": "https://doi.org/10.1007/bf00788518",
+      "datePublished": "2015",
       "isPartOf": {
         "@type": "Periodical",
         "name": "cognition_journal"
       }
     },
     {
-      "@id": "doi:10.1234/cog-vinc-circ-02",
+      "@id": "doi:10.1007/bf00999507",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-vinc-circ-02",
+      "identifier": "doi:10.1007/bf00999507",
       "studyIds": [
         "COG-VINC-CIRC_02"
       ],
-      "citation": "COG-VINC-CIRC_02 (2014); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cerebral blood flow concerns; Outcome: cerebral_blood_flow; DOI: 10.1234/cog-vinc-circ-02; Adverse Events: None reported.",
-      "doi": "10.1234/cog-vinc-circ-02",
-      "sameAs": "https://doi.org/10.1234/cog-vinc-circ-02",
+      "citation": "COG-VINC-CIRC_02 (2014); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cerebral blood flow concerns; Outcome: cerebral_blood_flow; DOI: 10.1007/bf00999507; Adverse Events: None reported.",
+      "doi": "10.1007/bf00999507",
+      "sameAs": "https://doi.org/10.1007/bf00999507",
       "datePublished": "2014",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,22 +92,22 @@
       }
     },
     {
-      "@id": "doi:10.1234/cog-vinc-circ-03",
+      "@id": "doi:10.1159/000445116",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-vinc-circ-03",
+      "identifier": "doi:10.1159/000445116",
       "studyIds": [
-        "COG-VINC-CIRC_03"
+        "COG-VINC-CIRC_01"
       ],
-      "citation": "COG-VINC-CIRC_03 (2015); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cerebral blood flow concerns; Outcome: cerebral_blood_flow; DOI: 10.1234/cog-vinc-circ-03; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/cog-vinc-circ-03",
-      "sameAs": "https://doi.org/10.1234/cog-vinc-circ-03",
-      "datePublished": "2015",
+      "citation": "COG-VINC-CIRC_01 (2013); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cerebral blood flow concerns; Outcome: cerebral_blood_flow; DOI: 10.1159/000445116; Adverse Events: Transient headache.",
+      "doi": "10.1159/000445116",
+      "sameAs": "https://doi.org/10.1159/000445116",
+      "datePublished": "2013",
       "isPartOf": {
         "@type": "Periodical",
         "name": "cognition_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:e572aab56445e2607224b46d31e123917d6544b3e8db721cffd54045ee7a3144",
-  "audit_hash": "0x7f326232c9ad6d18"
+  "citations_manifest_hash": "sha256:c1f7772a7abe00b66d90a0bb3dd975405dc90d25e2b85f2180a2040bfbc9d5ef",
+  "audit_hash": "0xb45440890472c44d"
 }

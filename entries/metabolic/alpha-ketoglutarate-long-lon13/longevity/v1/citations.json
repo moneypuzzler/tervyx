@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.568442+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:33.834172+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/metabolic/alpha-ketoglutarate-long-lon13/longevity/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/long-lon13-03"
     }
   ],
-  "manifest_hash": "sha256:1e09df981d52a038dbd089f4fbd14d9399990214de78e4a2541c4a99a61eb6ff"
+  "manifest_hash": "sha256:e7c49b97a409d14b8b112a4b326940ae9bd867cf457956ea64f5974e7294d3b5"
 }

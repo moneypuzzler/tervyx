@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:45.452539+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:22.317099+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/hawthorn-card-haw-output/cardiovascular/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/card-haw-output-03"
     }
   ],
-  "manifest_hash": "sha256:e7c08b353a4165478ceee0e8f05d6c8d4f1c05acaab17956b9f42e5fc89a5893"
+  "manifest_hash": "sha256:dec8f7f2a46a8bbfca0871157cee88ce1eddb23fd547aade300b45337b7010d9"
 }

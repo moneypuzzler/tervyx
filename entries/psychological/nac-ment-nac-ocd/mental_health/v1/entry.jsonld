@@ -10,7 +10,7 @@
   "gate_results": {
     "phi": "PASS",
     "r": 0.9,
-    "j": 0.0,
+    "j": 0.607,
     "k": "PASS",
     "l": "PASS"
   },
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-23T09:24:42.246111+00:00",
+  "created": "2025-11-05T07:22:08.072077+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,31 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/ment-nac-ocd-01",
+      "@id": "doi:10.1016/j.jpsychires.2022.02.038",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-nac-ocd-01",
-      "studyIds": [
-        "MENT-NAC-OCD_01"
-      ],
-      "citation": "MENT-NAC-OCD_01 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with ocd concerns; Outcome: ocd; DOI: 10.1234/ment-nac-ocd-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/ment-nac-ocd-01",
-      "sameAs": "https://doi.org/10.1234/ment-nac-ocd-01",
-      "datePublished": "2015",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "mental_health_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/ment-nac-ocd-02",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-nac-ocd-02",
+      "identifier": "doi:10.1016/j.jpsychires.2022.02.038",
       "studyIds": [
         "MENT-NAC-OCD_02"
       ],
-      "citation": "MENT-NAC-OCD_02 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with ocd concerns; Outcome: ocd; DOI: 10.1234/ment-nac-ocd-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/ment-nac-ocd-02",
-      "sameAs": "https://doi.org/10.1234/ment-nac-ocd-02",
+      "citation": "MENT-NAC-OCD_02 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with ocd concerns; Outcome: ocd; DOI: 10.1016/j.jpsychires.2022.02.038; Adverse Events: Transient headache.",
+      "doi": "10.1016/j.jpsychires.2022.02.038",
+      "sameAs": "https://doi.org/10.1016/j.jpsychires.2022.02.038",
       "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,22 +76,38 @@
       }
     },
     {
-      "@id": "doi:10.1234/ment-nac-ocd-03",
+      "@id": "doi:10.3389/fpsyt.2024.1421150",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-nac-ocd-03",
+      "identifier": "doi:10.3389/fpsyt.2024.1421150",
       "studyIds": [
         "MENT-NAC-OCD_03"
       ],
-      "citation": "MENT-NAC-OCD_03 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with ocd concerns; Outcome: ocd; DOI: 10.1234/ment-nac-ocd-03; Adverse Events: None reported.",
-      "doi": "10.1234/ment-nac-ocd-03",
-      "sameAs": "https://doi.org/10.1234/ment-nac-ocd-03",
+      "citation": "MENT-NAC-OCD_03 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with ocd concerns; Outcome: ocd; DOI: 10.3389/fpsyt.2024.1421150; Adverse Events: None reported.",
+      "doi": "10.3389/fpsyt.2024.1421150",
+      "sameAs": "https://doi.org/10.3389/fpsyt.2024.1421150",
       "datePublished": "2017",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.4088/jcp.16m11101",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.4088/jcp.16m11101",
+      "studyIds": [
+        "MENT-NAC-OCD_01"
+      ],
+      "citation": "MENT-NAC-OCD_01 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with ocd concerns; Outcome: ocd; DOI: 10.4088/jcp.16m11101; Adverse Events: Mild GI discomfort.",
+      "doi": "10.4088/jcp.16m11101",
+      "sameAs": "https://doi.org/10.4088/jcp.16m11101",
+      "datePublished": "2015",
       "isPartOf": {
         "@type": "Periodical",
         "name": "mental_health_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:6d58b8dcab38aa2520f3807b6763d0b90bbf4f0e80a06a130868206c4a36542e",
-  "audit_hash": "0xbf918d25066b3a60"
+  "citations_manifest_hash": "sha256:dde75209f8717ab8605f8dc7f1e8a17edacca9257115ff1c22f9f1b4747a0db7",
+  "audit_hash": "0x8494fb8804409317"
 }

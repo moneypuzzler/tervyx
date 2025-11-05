@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:43.621516+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:28.553665+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/pomegranate-card-pome-gtp/cardiovascular/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/card-pome-gtp-03"
     }
   ],
-  "manifest_hash": "sha256:63b7d3d336a87653d7510bd3f3a820cad2e6f61d13f9ba742fed44aed16a23e4"
+  "manifest_hash": "sha256:ecffa6031c43fdb4f92f8403f93a6c5db0f4f648e7f78c770ea0d58477af6c41"
 }

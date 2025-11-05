@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-24T08:19:07.109899+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:34.920952+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/metabolic/alpha-lipoic-acid-meta-glu02/metabolic/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/alpha-lipoic-acid-meta-glu02-03"
     }
   ],
-  "manifest_hash": "sha256:9abc1e5db9f49adb6e1e0fd717664c95e9b6409b07809316f24ba2413a4d6d7e"
+  "manifest_hash": "sha256:92f68cfc2a3c12b31c1091fe6f267ec107d307edc2a10481a950c3549989681b"
 }

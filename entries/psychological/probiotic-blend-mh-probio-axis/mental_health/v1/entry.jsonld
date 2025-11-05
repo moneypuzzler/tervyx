@@ -10,7 +10,7 @@
   "gate_results": {
     "phi": "PASS",
     "r": 0.9,
-    "j": 0.0,
+    "j": 0.607,
     "k": "PASS",
     "l": "PASS"
   },
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-23T09:24:44.544847+00:00",
+  "created": "2025-11-05T07:22:09.726445+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,31 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/mh-probio-axis-01",
+      "@id": "doi:10.1007/s13668-020-00313-5",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/mh-probio-axis-01",
-      "studyIds": [
-        "MH-PROBIO-AXIS_01"
-      ],
-      "citation": "MH-PROBIO-AXIS_01 (2012); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with gut brain axis concerns; Outcome: gut_brain_axis; DOI: 10.1234/mh-probio-axis-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/mh-probio-axis-01",
-      "sameAs": "https://doi.org/10.1234/mh-probio-axis-01",
-      "datePublished": "2012",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "mental_health_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/mh-probio-axis-02",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/mh-probio-axis-02",
+      "identifier": "doi:10.1007/s13668-020-00313-5",
       "studyIds": [
         "MH-PROBIO-AXIS_02"
       ],
-      "citation": "MH-PROBIO-AXIS_02 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with gut brain axis concerns; Outcome: gut_brain_axis; DOI: 10.1234/mh-probio-axis-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/mh-probio-axis-02",
-      "sameAs": "https://doi.org/10.1234/mh-probio-axis-02",
+      "citation": "MH-PROBIO-AXIS_02 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with gut brain axis concerns; Outcome: gut_brain_axis; DOI: 10.1007/s13668-020-00313-5; Adverse Events: Transient headache.",
+      "doi": "10.1007/s13668-020-00313-5",
+      "sameAs": "https://doi.org/10.1007/s13668-020-00313-5",
       "datePublished": "2013",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,15 +76,31 @@
       }
     },
     {
-      "@id": "doi:10.1234/mh-probio-axis-03",
+      "@id": "doi:10.1038/s41398-022-01977-z",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/mh-probio-axis-03",
+      "identifier": "doi:10.1038/s41398-022-01977-z",
+      "studyIds": [
+        "MH-PROBIO-AXIS_01"
+      ],
+      "citation": "MH-PROBIO-AXIS_01 (2012); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with gut brain axis concerns; Outcome: gut_brain_axis; DOI: 10.1038/s41398-022-01977-z; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1038/s41398-022-01977-z",
+      "sameAs": "https://doi.org/10.1038/s41398-022-01977-z",
+      "datePublished": "2012",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.3920/bm2020.0063",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.3920/bm2020.0063",
       "studyIds": [
         "MH-PROBIO-AXIS_03"
       ],
-      "citation": "MH-PROBIO-AXIS_03 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with gut brain axis concerns; Outcome: gut_brain_axis; DOI: 10.1234/mh-probio-axis-03; Adverse Events: None reported.",
-      "doi": "10.1234/mh-probio-axis-03",
-      "sameAs": "https://doi.org/10.1234/mh-probio-axis-03",
+      "citation": "MH-PROBIO-AXIS_03 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with gut brain axis concerns; Outcome: gut_brain_axis; DOI: 10.3920/bm2020.0063; Adverse Events: None reported.",
+      "doi": "10.3920/bm2020.0063",
+      "sameAs": "https://doi.org/10.3920/bm2020.0063",
       "datePublished": "2014",
       "isPartOf": {
         "@type": "Periodical",
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:3d009ad4399631c337998e778d63ceef71b3a77356baed1b51b33c4fc45633a2",
-  "audit_hash": "0xe9fc00e53a61e7bb"
+  "citations_manifest_hash": "sha256:c22457fdbebd48fa3c20cc1086acb6a3b16fd448ac7c6fb74ae9debe738ac994",
+  "audit_hash": "0xd19a3c97318a94a9"
 }

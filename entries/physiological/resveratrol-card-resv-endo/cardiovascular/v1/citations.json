@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:45.874504+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:30.228740+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/resveratrol-card-resv-endo/cardiovascular/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/card-resv-endo-03"
     }
   ],
-  "manifest_hash": "sha256:c494cabab92a635e51a3c7f457545b75d783ba8edd7e24ccad89c4ee4e071a19"
+  "manifest_hash": "sha256:24f96c528cf5e486516b939856b050cae897579a96ef610420b2e8002dd15816"
 }

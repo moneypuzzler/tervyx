@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.564088+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:47.393585+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/metabolic/melatonin-long-lon09/longevity/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/long-lon09-03"
     }
   ],
-  "manifest_hash": "sha256:0fe7a244813f3a7138ae701b25cea1652b6c4e1ca7af107a3b0c3607c30767da"
+  "manifest_hash": "sha256:c4341d353a2d470d60159fc057bc4daa21a6e57d46a1d56302fc8c8b32239fae"
 }

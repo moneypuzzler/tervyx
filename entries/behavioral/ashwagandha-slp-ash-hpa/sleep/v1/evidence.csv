@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-SLP-ASH-HPA_01,2007,randomized controlled trial,SMD,-0.3330,-0.4588,-0.2073,62,58,mixed,10.1234/slp-ash-hpa-01,sleep_journal,stress_insomnia,Adults with stress insomnia concerns,Transient headache,8
-SLP-ASH-HPA_02,2008,randomized controlled trial,SMD,-0.3938,-0.5260,-0.2617,66,61,low,10.1234/slp-ash-hpa-02,sleep_journal,stress_insomnia,Adults with stress insomnia concerns,None reported,9
-SLP-ASH-HPA_03,2009,randomized controlled trial,SMD,-0.3928,-0.5253,-0.2602,70,64,some concerns,10.1234/slp-ash-hpa-03,sleep_journal,stress_insomnia,Adults with stress insomnia concerns,Mild GI discomfort,10
+SLP-ASH-HPA_01,2007,randomized controlled trial,SMD,-0.3330,-0.4588,-0.2073,62,58,mixed,10.7759/cureus.5797,sleep_journal,stress_insomnia,Adults with stress insomnia concerns,Transient headache,8
+SLP-ASH-HPA_02,2008,randomized controlled trial,SMD,-0.3938,-0.5260,-0.2617,66,61,low,10.1016/j.jep.2020.113276,sleep_journal,stress_insomnia,Adults with stress insomnia concerns,None reported,9
+SLP-ASH-HPA_03,2009,randomized controlled trial,SMD,-0.3928,-0.5253,-0.2602,70,64,some concerns,10.1371/journal.pone.0257843,sleep_journal,stress_insomnia,Adults with stress insomnia concerns,Mild GI discomfort,10

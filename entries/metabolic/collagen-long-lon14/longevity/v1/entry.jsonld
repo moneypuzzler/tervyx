@@ -2,15 +2,15 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "metabolic:collagen-long-lon14:longevity:v1",
-  "title": "Collagen — Longevity",
+  "title": "Collagen Long Lon14 — Longevity",
   "category": "longevity",
-  "tier": "Gold",
-  "label": "PASS",
-  "P_effect_gt_delta": 0.985422,
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 1.0,
   "gate_results": {
-    "phi": "PASS",
-    "r": 0.858,
-    "j": 0.508,
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
     "k": "PASS",
     "l": "PASS"
   },
@@ -18,11 +18,11 @@
     "n_studies": 3,
     "total_n": 463,
     "I2": 0.0,
-    "tau2": 0.00029025,
-    "mu_hat": 0.3162,
+    "tau2": 0.0,
+    "mu_hat": 0.317234,
     "mu_CI95": [
-      0.166867,
-      0.465533
+      0.233991,
+      0.400478
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-27T01:51:32.570133+00:00",
+  "created": "2025-11-05T06:50:41.987191+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:6fa7507e0a09cc8be06d399f3b5ed7b416e2d00e267295bf5373fff50abd5a7d",
-  "audit_hash": "0xa3b19a8356aa9fa3"
+  "citations_manifest_hash": "sha256:d167603df1f62b5b6214d5fb11a39aff11a5006e19f355d810c8e79ff5732fe6",
+  "audit_hash": "0xbf7115e9a944d0a4"
 }

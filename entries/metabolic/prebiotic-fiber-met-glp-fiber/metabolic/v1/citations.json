@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-24T08:19:12.327957+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:52.472565+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/metabolic/prebiotic-fiber-met-glp-fiber/metabolic/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/prebiotic-fiber-met-glp-fiber-03"
     }
   ],
-  "manifest_hash": "sha256:44a6988c500dcb16b4815fee2acd044b08104a7170851715f43c980379f10609"
+  "manifest_hash": "sha256:691f10c6d4145f10bbd8e4ea5b192f3fa25593d319c573f39897417fa4cf1fbd"
 }

@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:41.531423+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T07:22:11.436332+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/cbd-ment-cbd-anx/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -12,9 +12,9 @@
       "outcome": "anxiety",
       "population": "Adults with anxiety concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/ment-cbd-anx-01",
-      "url": "https://doi.org/10.1234/ment-cbd-anx-01",
-      "citation": "MENT-CBD-ANX_01 (2007); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-cbd-anx-01; Adverse Events: Transient headache."
+      "doi": "10.5664/jcsm.10998",
+      "url": "https://doi.org/10.5664/jcsm.10998",
+      "citation": "MENT-CBD-ANX_01 (2007); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.5664/jcsm.10998; Adverse Events: Transient headache."
     },
     {
       "study_id": "MENT-CBD-ANX_02",
@@ -24,9 +24,9 @@
       "outcome": "anxiety",
       "population": "Adults with anxiety concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/ment-cbd-anx-02",
-      "url": "https://doi.org/10.1234/ment-cbd-anx-02",
-      "citation": "MENT-CBD-ANX_02 (2008); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-cbd-anx-02; Adverse Events: None reported."
+      "doi": "10.1007/s00213-018-5113-6",
+      "url": "https://doi.org/10.1007/s00213-018-5113-6",
+      "citation": "MENT-CBD-ANX_02 (2008); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1007/s00213-018-5113-6; Adverse Events: None reported."
     },
     {
       "study_id": "MENT-CBD-ANX_03",
@@ -36,39 +36,39 @@
       "outcome": "anxiety",
       "population": "Adults with anxiety concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/ment-cbd-anx-03",
-      "url": "https://doi.org/10.1234/ment-cbd-anx-03",
-      "citation": "MENT-CBD-ANX_03 (2009); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-cbd-anx-03; Adverse Events: Mild GI discomfort."
+      "doi": "10.1016/j.psychres.2020.113378",
+      "url": "https://doi.org/10.1016/j.psychres.2020.113378",
+      "citation": "MENT-CBD-ANX_03 (2009); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1016/j.psychres.2020.113378; Adverse Events: Mild GI discomfort."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/ment-cbd-anx-01",
-      "study_ids": [
-        "MENT-CBD-ANX_01"
-      ],
-      "primary_study_id": "MENT-CBD-ANX_01",
-      "url": "https://doi.org/10.1234/ment-cbd-anx-01"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/ment-cbd-anx-02",
+      "identifier": "10.1007/s00213-018-5113-6",
       "study_ids": [
         "MENT-CBD-ANX_02"
       ],
       "primary_study_id": "MENT-CBD-ANX_02",
-      "url": "https://doi.org/10.1234/ment-cbd-anx-02"
+      "url": "https://doi.org/10.1007/s00213-018-5113-6"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/ment-cbd-anx-03",
+      "identifier": "10.1016/j.psychres.2020.113378",
       "study_ids": [
         "MENT-CBD-ANX_03"
       ],
       "primary_study_id": "MENT-CBD-ANX_03",
-      "url": "https://doi.org/10.1234/ment-cbd-anx-03"
+      "url": "https://doi.org/10.1016/j.psychres.2020.113378"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.5664/jcsm.10998",
+      "study_ids": [
+        "MENT-CBD-ANX_01"
+      ],
+      "primary_study_id": "MENT-CBD-ANX_01",
+      "url": "https://doi.org/10.5664/jcsm.10998"
     }
   ],
-  "manifest_hash": "sha256:cb3454bdbeb24affa88cfd842d9885fd7919b794e8f13679c42f0676d3ca8eac"
+  "manifest_hash": "sha256:a91118cbd2f14acfb526ac445a87f94f601a8fb921f992691db1ef57cdb0f6d9"
 }

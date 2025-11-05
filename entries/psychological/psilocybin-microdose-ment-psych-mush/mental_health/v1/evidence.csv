@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-MENT-PSYCH-MUSH_01,2012,randomized controlled trial,SMD,-0.3467,-0.5062,-0.1871,62,53,some concerns,10.1234/ment-psych-mush-01,mental_health_journal,depression,Adults with depression concerns,Mild GI discomfort,10
-MENT-PSYCH-MUSH_02,2013,randomized controlled trial,SMD,-0.3784,-0.5053,-0.2515,66,56,mixed,10.1234/ment-psych-mush-02,mental_health_journal,depression,Adults with depression concerns,Transient headache,11
-MENT-PSYCH-MUSH_03,2014,randomized controlled trial,SMD,-0.3904,-0.5357,-0.2451,70,59,low,10.1234/ment-psych-mush-03,mental_health_journal,depression,Adults with depression concerns,None reported,6
+MENT-PSYCH-MUSH_01,2012,randomized controlled trial,SMD,-0.3467,-0.5062,-0.1871,62,53,some concerns,10.1001/jamapsychiatry.2020.3285,mental_health_journal,depression,Adults with depression concerns,Mild GI discomfort,10
+MENT-PSYCH-MUSH_02,2013,randomized controlled trial,SMD,-0.3784,-0.5053,-0.2515,66,56,mixed,10.1056/NEJMoa2032994,mental_health_journal,depression,Adults with depression concerns,Transient headache,11
+MENT-PSYCH-MUSH_03,2014,randomized controlled trial,SMD,-0.3904,-0.5357,-0.2451,70,59,low,10.1371/journal.pone.0282446,mental_health_journal,depression,Adults with depression concerns,None reported,6

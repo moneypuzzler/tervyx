@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:40.215951+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T07:35:27.878223+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/cerebrolysin-peptide-cog-pep-neuro/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -12,9 +12,9 @@
       "outcome": "cognitive_decline",
       "population": "Adults with cognitive decline concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/cog-pep-neuro-01",
-      "url": "https://doi.org/10.1234/cog-pep-neuro-01",
-      "citation": "COG-PEP-NEURO_01 (2007); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1234/cog-pep-neuro-01; Adverse Events: Transient headache."
+      "doi": "10.1159/000377672",
+      "url": "https://doi.org/10.1159/000377672",
+      "citation": "COG-PEP-NEURO_01 (2007); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1159/000377672; Adverse Events: Transient headache."
     },
     {
       "study_id": "COG-PEP-NEURO_02",
@@ -24,9 +24,9 @@
       "outcome": "cognitive_decline",
       "population": "Adults with cognitive decline concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/cog-pep-neuro-02",
-      "url": "https://doi.org/10.1234/cog-pep-neuro-02",
-      "citation": "COG-PEP-NEURO_02 (2008); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1234/cog-pep-neuro-02; Adverse Events: None reported."
+      "doi": "10.1159/000200588",
+      "url": "https://doi.org/10.1159/000200588",
+      "citation": "COG-PEP-NEURO_02 (2008); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1159/000200588; Adverse Events: None reported."
     },
     {
       "study_id": "COG-PEP-NEURO_03",
@@ -36,39 +36,39 @@
       "outcome": "cognitive_decline",
       "population": "Adults with cognitive decline concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/cog-pep-neuro-03",
-      "url": "https://doi.org/10.1234/cog-pep-neuro-03",
-      "citation": "COG-PEP-NEURO_03 (2009); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1234/cog-pep-neuro-03; Adverse Events: Mild GI discomfort."
+      "doi": "10.1159/000091790",
+      "url": "https://doi.org/10.1159/000091790",
+      "citation": "COG-PEP-NEURO_03 (2009); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1159/000091790; Adverse Events: Mild GI discomfort."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/cog-pep-neuro-01",
-      "study_ids": [
-        "COG-PEP-NEURO_01"
-      ],
-      "primary_study_id": "COG-PEP-NEURO_01",
-      "url": "https://doi.org/10.1234/cog-pep-neuro-01"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/cog-pep-neuro-02",
-      "study_ids": [
-        "COG-PEP-NEURO_02"
-      ],
-      "primary_study_id": "COG-PEP-NEURO_02",
-      "url": "https://doi.org/10.1234/cog-pep-neuro-02"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/cog-pep-neuro-03",
+      "identifier": "10.1159/000091790",
       "study_ids": [
         "COG-PEP-NEURO_03"
       ],
       "primary_study_id": "COG-PEP-NEURO_03",
-      "url": "https://doi.org/10.1234/cog-pep-neuro-03"
+      "url": "https://doi.org/10.1159/000091790"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1159/000200588",
+      "study_ids": [
+        "COG-PEP-NEURO_02"
+      ],
+      "primary_study_id": "COG-PEP-NEURO_02",
+      "url": "https://doi.org/10.1159/000200588"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1159/000377672",
+      "study_ids": [
+        "COG-PEP-NEURO_01"
+      ],
+      "primary_study_id": "COG-PEP-NEURO_01",
+      "url": "https://doi.org/10.1159/000377672"
     }
   ],
-  "manifest_hash": "sha256:4f12a632ecd419836d5a5c9f63d42c9342f6b7e50ba14df367f4144c06278c79"
+  "manifest_hash": "sha256:8c552cbd0035f2d8e967b9632eff5dfdcd8295376b75f8ef87cd79fec89b64f7"
 }

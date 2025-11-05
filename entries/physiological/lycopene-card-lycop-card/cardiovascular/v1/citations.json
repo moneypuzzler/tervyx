@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:43.268135+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:24.612766+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/lycopene-card-lycop-card/cardiovascular/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/card-lycop-card-03"
     }
   ],
-  "manifest_hash": "sha256:8b9b7c0cb6e6ba99a120f52efb0fc7da4484234ec79dbe562bbb3ac4b843199c"
+  "manifest_hash": "sha256:0e27c89628fea472af848f3db59f80dd44de2a3f8f560f8cfad36c4f19d51c85"
 }

@@ -10,7 +10,7 @@
   "gate_results": {
     "phi": "PASS",
     "r": 0.9,
-    "j": 0.0,
+    "j": 0.607,
     "k": "PASS",
     "l": "PASS"
   },
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-23T09:24:42.332234+00:00",
+  "created": "2025-11-05T07:22:10.890804+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/ment-myo-in-01",
+      "@id": "doi:10.1016/j.jpsychires.2011.05.005",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-myo-in-01",
+      "identifier": "doi:10.1016/j.jpsychires.2011.05.005",
       "studyIds": [
         "MENT-MYO-IN_01"
       ],
-      "citation": "MENT-MYO-IN_01 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with panic disorder concerns; Outcome: panic_disorder; DOI: 10.1234/ment-myo-in-01; Adverse Events: Transient headache.",
-      "doi": "10.1234/ment-myo-in-01",
-      "sameAs": "https://doi.org/10.1234/ment-myo-in-01",
+      "citation": "MENT-MYO-IN_01 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with panic disorder concerns; Outcome: panic_disorder; DOI: 10.1016/j.jpsychires.2011.05.005; Adverse Events: Transient headache.",
+      "doi": "10.1016/j.jpsychires.2011.05.005",
+      "sameAs": "https://doi.org/10.1016/j.jpsychires.2011.05.005",
       "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,38 +76,38 @@
       }
     },
     {
-      "@id": "doi:10.1234/ment-myo-in-02",
+      "@id": "doi:10.1080/14767058.2020.1818225",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-myo-in-02",
+      "identifier": "doi:10.1080/14767058.2020.1818225",
       "studyIds": [
-        "MENT-MYO-IN_02"
+        "MENT-MYO-IN_03"
       ],
-      "citation": "MENT-MYO-IN_02 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with panic disorder concerns; Outcome: panic_disorder; DOI: 10.1234/ment-myo-in-02; Adverse Events: None reported.",
-      "doi": "10.1234/ment-myo-in-02",
-      "sameAs": "https://doi.org/10.1234/ment-myo-in-02",
-      "datePublished": "2017",
+      "citation": "MENT-MYO-IN_03 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with panic disorder concerns; Outcome: panic_disorder; DOI: 10.1080/14767058.2020.1818225; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1080/14767058.2020.1818225",
+      "sameAs": "https://doi.org/10.1080/14767058.2020.1818225",
+      "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
         "name": "mental_health_journal"
       }
     },
     {
-      "@id": "doi:10.1234/ment-myo-in-03",
+      "@id": "doi:10.1176/ajp.152.5.792",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-myo-in-03",
+      "identifier": "doi:10.1176/ajp.152.5.792",
       "studyIds": [
-        "MENT-MYO-IN_03"
+        "MENT-MYO-IN_02"
       ],
-      "citation": "MENT-MYO-IN_03 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with panic disorder concerns; Outcome: panic_disorder; DOI: 10.1234/ment-myo-in-03; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/ment-myo-in-03",
-      "sameAs": "https://doi.org/10.1234/ment-myo-in-03",
-      "datePublished": "2018",
+      "citation": "MENT-MYO-IN_02 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with panic disorder concerns; Outcome: panic_disorder; DOI: 10.1176/ajp.152.5.792; Adverse Events: None reported.",
+      "doi": "10.1176/ajp.152.5.792",
+      "sameAs": "https://doi.org/10.1176/ajp.152.5.792",
+      "datePublished": "2017",
       "isPartOf": {
         "@type": "Periodical",
         "name": "mental_health_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:72a82471a6aad646eae456454ae9ab66ae40d371e8c280befdc6fd7558f48766",
-  "audit_hash": "0x7ddf5aeb0cd24317"
+  "citations_manifest_hash": "sha256:c16d67bd199dbe579a60016b4195f71e9ca2b58465d94c16832d14075b032567",
+  "audit_hash": "0xb68c7809d7d828a2"
 }

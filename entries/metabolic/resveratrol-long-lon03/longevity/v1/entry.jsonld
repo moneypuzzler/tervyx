@@ -2,15 +2,15 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "metabolic:resveratrol-long-lon03:longevity:v1",
-  "title": "Resveratrol — Longevity",
+  "title": "Resveratrol Long Lon03 — Longevity",
   "category": "longevity",
-  "tier": "Gold",
-  "label": "PASS",
-  "P_effect_gt_delta": 0.941148,
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.9987,
   "gate_results": {
-    "phi": "PASS",
-    "r": 0.879,
-    "j": 0.629,
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
     "k": "PASS",
     "l": "PASS"
   },
@@ -18,11 +18,11 @@
     "n_studies": 3,
     "total_n": 467,
     "I2": 0.0,
-    "tau2": 0.00034736,
-    "mu_hat": 0.2804,
+    "tau2": 0.0,
+    "mu_hat": 0.281328,
     "mu_CI95": [
-      0.117033,
-      0.443767
+      0.189698,
+      0.372958
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-27T01:51:32.558486+00:00",
+  "created": "2025-11-05T06:50:54.702758+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:edf38e61258063c6a7987ede520eb9189486aa543d3f334adbb2afd2976c8f36",
-  "audit_hash": "0xba70ada1fdb4c2f1"
+  "citations_manifest_hash": "sha256:8dcca9cb28c0d173a86f1bcfe54a67cd16be4034e1f823cdd961890c58124f83",
+  "audit_hash": "0xea8f2de1c90de28e"
 }

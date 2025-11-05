@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:38.589192+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T07:16:53.154370+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/kava-slp-kava-anxiety/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -12,9 +12,9 @@
       "outcome": "sleep_anxiety",
       "population": "Adults with sleep anxiety concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/slp-kava-anxiety-01",
-      "url": "https://doi.org/10.1234/slp-kava-anxiety-01",
-      "citation": "SLP-KAVA-ANXIETY_01 (2018); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep anxiety concerns; Outcome: sleep_anxiety; DOI: 10.1234/slp-kava-anxiety-01; Adverse Events: Mild GI discomfort."
+      "doi": "10.1007/s00213-009-1549-9",
+      "url": "https://doi.org/10.1007/s00213-009-1549-9",
+      "citation": "SLP-KAVA-ANXIETY_01 (2018); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep anxiety concerns; Outcome: sleep_anxiety; DOI: 10.1007/s00213-009-1549-9; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "SLP-KAVA-ANXIETY_02",
@@ -24,9 +24,9 @@
       "outcome": "sleep_anxiety",
       "population": "Adults with sleep anxiety concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/slp-kava-anxiety-02",
-      "url": "https://doi.org/10.1234/slp-kava-anxiety-02",
-      "citation": "SLP-KAVA-ANXIETY_02 (2019); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep anxiety concerns; Outcome: sleep_anxiety; DOI: 10.1234/slp-kava-anxiety-02; Adverse Events: Transient headache."
+      "doi": "10.1016/s0165-0327(02)00238-0",
+      "url": "https://doi.org/10.1016/s0165-0327(02)00238-0",
+      "citation": "SLP-KAVA-ANXIETY_02 (2019); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep anxiety concerns; Outcome: sleep_anxiety; DOI: 10.1016/s0165-0327(02)00238-0; Adverse Events: Transient headache."
     },
     {
       "study_id": "SLP-KAVA-ANXIETY_03",
@@ -36,39 +36,39 @@
       "outcome": "sleep_anxiety",
       "population": "Adults with sleep anxiety concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/slp-kava-anxiety-03",
-      "url": "https://doi.org/10.1234/slp-kava-anxiety-03",
-      "citation": "SLP-KAVA-ANXIETY_03 (2020); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep anxiety concerns; Outcome: sleep_anxiety; DOI: 10.1234/slp-kava-anxiety-03; Adverse Events: None reported."
+      "doi": "10.3390/nu15214586",
+      "url": "https://doi.org/10.3390/nu15214586",
+      "citation": "SLP-KAVA-ANXIETY_03 (2020); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep anxiety concerns; Outcome: sleep_anxiety; DOI: 10.3390/nu15214586; Adverse Events: None reported."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/slp-kava-anxiety-01",
+      "identifier": "10.1007/s00213-009-1549-9",
       "study_ids": [
         "SLP-KAVA-ANXIETY_01"
       ],
       "primary_study_id": "SLP-KAVA-ANXIETY_01",
-      "url": "https://doi.org/10.1234/slp-kava-anxiety-01"
+      "url": "https://doi.org/10.1007/s00213-009-1549-9"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/slp-kava-anxiety-02",
+      "identifier": "10.1016/s0165-0327(02)00238-0",
       "study_ids": [
         "SLP-KAVA-ANXIETY_02"
       ],
       "primary_study_id": "SLP-KAVA-ANXIETY_02",
-      "url": "https://doi.org/10.1234/slp-kava-anxiety-02"
+      "url": "https://doi.org/10.1016/s0165-0327(02)00238-0"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/slp-kava-anxiety-03",
+      "identifier": "10.3390/nu15214586",
       "study_ids": [
         "SLP-KAVA-ANXIETY_03"
       ],
       "primary_study_id": "SLP-KAVA-ANXIETY_03",
-      "url": "https://doi.org/10.1234/slp-kava-anxiety-03"
+      "url": "https://doi.org/10.3390/nu15214586"
     }
   ],
-  "manifest_hash": "sha256:eed4edd0bc654439f04c18198d37b1fa3ff654ef00b3fc7ebd202852627a9c5b"
+  "manifest_hash": "sha256:35322faaace53b5d18dfb61247771523673e70994cf429cd98bb043387316e2a"
 }

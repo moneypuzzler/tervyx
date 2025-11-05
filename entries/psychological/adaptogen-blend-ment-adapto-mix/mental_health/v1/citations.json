@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:42.501379+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T07:22:18.214436+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/adaptogen-blend-ment-adapto-mix/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -12,9 +12,9 @@
       "outcome": "stress",
       "population": "Adults with stress concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/ment-adapto-mix-01",
-      "url": "https://doi.org/10.1234/ment-adapto-mix-01",
-      "citation": "MENT-ADAPTO-MIX_01 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress concerns; Outcome: stress; DOI: 10.1234/ment-adapto-mix-01; Adverse Events: Mild GI discomfort."
+      "doi": "10.1186/s12906-018-2246-x",
+      "url": "https://doi.org/10.1186/s12906-018-2246-x",
+      "citation": "MENT-ADAPTO-MIX_01 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress concerns; Outcome: stress; DOI: 10.1186/s12906-018-2246-x; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "MENT-ADAPTO-MIX_02",
@@ -24,9 +24,9 @@
       "outcome": "stress",
       "population": "Adults with stress concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/ment-adapto-mix-02",
-      "url": "https://doi.org/10.1234/ment-adapto-mix-02",
-      "citation": "MENT-ADAPTO-MIX_02 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress concerns; Outcome: stress; DOI: 10.1234/ment-adapto-mix-02; Adverse Events: Transient headache."
+      "doi": "10.1016/j.phymed.2022.154598",
+      "url": "https://doi.org/10.1016/j.phymed.2022.154598",
+      "citation": "MENT-ADAPTO-MIX_02 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress concerns; Outcome: stress; DOI: 10.1016/j.phymed.2022.154598; Adverse Events: Transient headache."
     },
     {
       "study_id": "MENT-ADAPTO-MIX_03",
@@ -36,39 +36,39 @@
       "outcome": "stress",
       "population": "Adults with stress concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/ment-adapto-mix-03",
-      "url": "https://doi.org/10.1234/ment-adapto-mix-03",
-      "citation": "MENT-ADAPTO-MIX_03 (2020); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress concerns; Outcome: stress; DOI: 10.1234/ment-adapto-mix-03; Adverse Events: None reported."
+      "doi": "10.3390/molecules27123823",
+      "url": "https://doi.org/10.3390/molecules27123823",
+      "citation": "MENT-ADAPTO-MIX_03 (2020); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress concerns; Outcome: stress; DOI: 10.3390/molecules27123823; Adverse Events: None reported."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/ment-adapto-mix-01",
-      "study_ids": [
-        "MENT-ADAPTO-MIX_01"
-      ],
-      "primary_study_id": "MENT-ADAPTO-MIX_01",
-      "url": "https://doi.org/10.1234/ment-adapto-mix-01"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/ment-adapto-mix-02",
+      "identifier": "10.1016/j.phymed.2022.154598",
       "study_ids": [
         "MENT-ADAPTO-MIX_02"
       ],
       "primary_study_id": "MENT-ADAPTO-MIX_02",
-      "url": "https://doi.org/10.1234/ment-adapto-mix-02"
+      "url": "https://doi.org/10.1016/j.phymed.2022.154598"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/ment-adapto-mix-03",
+      "identifier": "10.1186/s12906-018-2246-x",
+      "study_ids": [
+        "MENT-ADAPTO-MIX_01"
+      ],
+      "primary_study_id": "MENT-ADAPTO-MIX_01",
+      "url": "https://doi.org/10.1186/s12906-018-2246-x"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.3390/molecules27123823",
       "study_ids": [
         "MENT-ADAPTO-MIX_03"
       ],
       "primary_study_id": "MENT-ADAPTO-MIX_03",
-      "url": "https://doi.org/10.1234/ment-adapto-mix-03"
+      "url": "https://doi.org/10.3390/molecules27123823"
     }
   ],
-  "manifest_hash": "sha256:7d87094117e8c5b1aec5f5d9be6a74944c9f8ea7671d82a5ea3575bc44e79da4"
+  "manifest_hash": "sha256:d9efd965f72d002c49594780708d5569e7e08283b48e96e65c284c1c1f4dbc6f"
 }

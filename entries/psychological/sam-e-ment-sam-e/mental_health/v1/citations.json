@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:40.926607+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T07:22:04.776785+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/sam-e-ment-sam-e/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -12,9 +12,9 @@
       "outcome": "depression",
       "population": "Adults with depression concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/ment-sam-e-01",
-      "url": "https://doi.org/10.1234/ment-sam-e-01",
-      "citation": "MENT-SAM-E_01 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-sam-e-01; Adverse Events: Mild GI discomfort."
+      "doi": "10.1007/s00213-019-05358-1",
+      "url": "https://doi.org/10.1007/s00213-019-05358-1",
+      "citation": "MENT-SAM-E_01 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1007/s00213-019-05358-1; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "MENT-SAM-E_02",
@@ -24,9 +24,9 @@
       "outcome": "depression",
       "population": "Adults with depression concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/ment-sam-e-02",
-      "url": "https://doi.org/10.1234/ment-sam-e-02",
-      "citation": "MENT-SAM-E_02 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-sam-e-02; Adverse Events: Transient headache."
+      "doi": "10.1176/appi.ajp.2009.09081198",
+      "url": "https://doi.org/10.1176/appi.ajp.2009.09081198",
+      "citation": "MENT-SAM-E_02 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1176/appi.ajp.2009.09081198; Adverse Events: Transient headache."
     },
     {
       "study_id": "MENT-SAM-E_03",
@@ -36,39 +36,39 @@
       "outcome": "depression",
       "population": "Adults with depression concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/ment-sam-e-03",
-      "url": "https://doi.org/10.1234/ment-sam-e-03",
-      "citation": "MENT-SAM-E_03 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-sam-e-03; Adverse Events: None reported."
+      "doi": "10.1016/j.euroneuro.2018.07.098",
+      "url": "https://doi.org/10.1016/j.euroneuro.2018.07.098",
+      "citation": "MENT-SAM-E_03 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1016/j.euroneuro.2018.07.098; Adverse Events: None reported."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/ment-sam-e-01",
+      "identifier": "10.1007/s00213-019-05358-1",
       "study_ids": [
         "MENT-SAM-E_01"
       ],
       "primary_study_id": "MENT-SAM-E_01",
-      "url": "https://doi.org/10.1234/ment-sam-e-01"
+      "url": "https://doi.org/10.1007/s00213-019-05358-1"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/ment-sam-e-02",
-      "study_ids": [
-        "MENT-SAM-E_02"
-      ],
-      "primary_study_id": "MENT-SAM-E_02",
-      "url": "https://doi.org/10.1234/ment-sam-e-02"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/ment-sam-e-03",
+      "identifier": "10.1016/j.euroneuro.2018.07.098",
       "study_ids": [
         "MENT-SAM-E_03"
       ],
       "primary_study_id": "MENT-SAM-E_03",
-      "url": "https://doi.org/10.1234/ment-sam-e-03"
+      "url": "https://doi.org/10.1016/j.euroneuro.2018.07.098"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1176/appi.ajp.2009.09081198",
+      "study_ids": [
+        "MENT-SAM-E_02"
+      ],
+      "primary_study_id": "MENT-SAM-E_02",
+      "url": "https://doi.org/10.1176/appi.ajp.2009.09081198"
     }
   ],
-  "manifest_hash": "sha256:479d2267cb1e39e3318e01923d91591343faeb944233c6a3a66f71ebd4face05"
+  "manifest_hash": "sha256:e38f3d7909a360549a0b9d4cec5d85387f7666c89f168c32483da6c41e3175cb"
 }

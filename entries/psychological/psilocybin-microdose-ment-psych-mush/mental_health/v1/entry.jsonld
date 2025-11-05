@@ -10,7 +10,7 @@
   "gate_results": {
     "phi": "PASS",
     "r": 1.0,
-    "j": 0.0,
+    "j": 0.607,
     "k": "PASS",
     "l": "PASS"
   },
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-23T09:24:41.965342+00:00",
+  "created": "2025-11-05T07:22:19.323279+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/ment-psych-mush-01",
+      "@id": "doi:10.1001/jamapsychiatry.2020.3285",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-psych-mush-01",
+      "identifier": "doi:10.1001/jamapsychiatry.2020.3285",
       "studyIds": [
         "MENT-PSYCH-MUSH_01"
       ],
-      "citation": "MENT-PSYCH-MUSH_01 (2012); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-psych-mush-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/ment-psych-mush-01",
-      "sameAs": "https://doi.org/10.1234/ment-psych-mush-01",
+      "citation": "MENT-PSYCH-MUSH_01 (2012); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1001/jamapsychiatry.2020.3285; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1001/jamapsychiatry.2020.3285",
+      "sameAs": "https://doi.org/10.1001/jamapsychiatry.2020.3285",
       "datePublished": "2012",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,15 +76,15 @@
       }
     },
     {
-      "@id": "doi:10.1234/ment-psych-mush-02",
+      "@id": "doi:10.1056/nejmoa2032994",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-psych-mush-02",
+      "identifier": "doi:10.1056/nejmoa2032994",
       "studyIds": [
         "MENT-PSYCH-MUSH_02"
       ],
-      "citation": "MENT-PSYCH-MUSH_02 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-psych-mush-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/ment-psych-mush-02",
-      "sameAs": "https://doi.org/10.1234/ment-psych-mush-02",
+      "citation": "MENT-PSYCH-MUSH_02 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1056/nejmoa2032994; Adverse Events: Transient headache.",
+      "doi": "10.1056/nejmoa2032994",
+      "sameAs": "https://doi.org/10.1056/nejmoa2032994",
       "datePublished": "2013",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,15 +92,15 @@
       }
     },
     {
-      "@id": "doi:10.1234/ment-psych-mush-03",
+      "@id": "doi:10.1371/journal.pone.0282446",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-psych-mush-03",
+      "identifier": "doi:10.1371/journal.pone.0282446",
       "studyIds": [
         "MENT-PSYCH-MUSH_03"
       ],
-      "citation": "MENT-PSYCH-MUSH_03 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-psych-mush-03; Adverse Events: None reported.",
-      "doi": "10.1234/ment-psych-mush-03",
-      "sameAs": "https://doi.org/10.1234/ment-psych-mush-03",
+      "citation": "MENT-PSYCH-MUSH_03 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1371/journal.pone.0282446; Adverse Events: None reported.",
+      "doi": "10.1371/journal.pone.0282446",
+      "sameAs": "https://doi.org/10.1371/journal.pone.0282446",
       "datePublished": "2014",
       "isPartOf": {
         "@type": "Periodical",
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:33ff1144fc828b07a8b6e2c997cd38353b38b84e79d6bdf262889aeab33eb518",
-  "audit_hash": "0xabd26e634a54a25e"
+  "citations_manifest_hash": "sha256:0b0ae553f44c271533435aedc6511c0137e75bb491ac32c42db8ea0a232a937a",
+  "audit_hash": "0xbf858e79214ccc26"
 }

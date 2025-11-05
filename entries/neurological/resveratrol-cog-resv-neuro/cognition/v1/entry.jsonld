@@ -10,7 +10,7 @@
   "gate_results": {
     "phi": "PASS",
     "r": 0.9,
-    "j": 0.0,
+    "j": 0.701,
     "k": "PASS",
     "l": "PASS"
   },
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-23T09:24:39.860992+00:00",
+  "created": "2025-11-05T07:35:24.674041+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,31 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/cog-resv-neuro-01",
+      "@id": "doi:10.3389/fnut.2024.1359330",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-resv-neuro-01",
+      "identifier": "doi:10.3389/fnut.2024.1359330",
+      "studyIds": [
+        "COG-RESV-NEURO_03"
+      ],
+      "citation": "COG-RESV-NEURO_03 (2020); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cerebral blood flow concerns; Outcome: cerebral_blood_flow; DOI: 10.3389/fnut.2024.1359330; Adverse Events: None reported.",
+      "doi": "10.3389/fnut.2024.1359330",
+      "sameAs": "https://doi.org/10.3389/fnut.2024.1359330",
+      "datePublished": "2020",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cognition_journal"
+      }
+    },
+    {
+      "@id": "doi:10.3390/antiox13020160",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.3390/antiox13020160",
       "studyIds": [
         "COG-RESV-NEURO_01"
       ],
-      "citation": "COG-RESV-NEURO_01 (2018); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cerebral blood flow concerns; Outcome: cerebral_blood_flow; DOI: 10.1234/cog-resv-neuro-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/cog-resv-neuro-01",
-      "sameAs": "https://doi.org/10.1234/cog-resv-neuro-01",
+      "citation": "COG-RESV-NEURO_01 (2018); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cerebral blood flow concerns; Outcome: cerebral_blood_flow; DOI: 10.3390/antiox13020160; Adverse Events: Mild GI discomfort.",
+      "doi": "10.3390/antiox13020160",
+      "sameAs": "https://doi.org/10.3390/antiox13020160",
       "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,38 +92,22 @@
       }
     },
     {
-      "@id": "doi:10.1234/cog-resv-neuro-02",
+      "@id": "doi:10.3945/ajcn.112.055061",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-resv-neuro-02",
+      "identifier": "doi:10.3945/ajcn.112.055061",
       "studyIds": [
         "COG-RESV-NEURO_02"
       ],
-      "citation": "COG-RESV-NEURO_02 (2019); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cerebral blood flow concerns; Outcome: cerebral_blood_flow; DOI: 10.1234/cog-resv-neuro-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/cog-resv-neuro-02",
-      "sameAs": "https://doi.org/10.1234/cog-resv-neuro-02",
+      "citation": "COG-RESV-NEURO_02 (2019); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cerebral blood flow concerns; Outcome: cerebral_blood_flow; DOI: 10.3945/ajcn.112.055061; Adverse Events: Transient headache.",
+      "doi": "10.3945/ajcn.112.055061",
+      "sameAs": "https://doi.org/10.3945/ajcn.112.055061",
       "datePublished": "2019",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "cognition_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/cog-resv-neuro-03",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-resv-neuro-03",
-      "studyIds": [
-        "COG-RESV-NEURO_03"
-      ],
-      "citation": "COG-RESV-NEURO_03 (2020); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cerebral blood flow concerns; Outcome: cerebral_blood_flow; DOI: 10.1234/cog-resv-neuro-03; Adverse Events: None reported.",
-      "doi": "10.1234/cog-resv-neuro-03",
-      "sameAs": "https://doi.org/10.1234/cog-resv-neuro-03",
-      "datePublished": "2020",
       "isPartOf": {
         "@type": "Periodical",
         "name": "cognition_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:12b0053abdf17835de68a84c0564827b8ac4114dd8efc17fd119a26048e3c405",
-  "audit_hash": "0xaa694b9878a79771"
+  "citations_manifest_hash": "sha256:db0af8b20e0c806bfcaade00d9de91a054b0f3503dac307c572ba22e65c4fae9",
+  "audit_hash": "0x51aa1021b8a2b706"
 }

@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.567046+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:36.554697+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/metabolic/astaxanthin-long-lon11/longevity/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/long-lon11-03"
     }
   ],
-  "manifest_hash": "sha256:33e0b693147356bf47532fc1a42cc411b195610ec55861237b8a0956408e29ab"
+  "manifest_hash": "sha256:3b7e47b30665475ec216a9db0791ab8de745d3814416144763710a6d33ae5da6"
 }

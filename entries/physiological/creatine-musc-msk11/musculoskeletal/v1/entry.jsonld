@@ -2,15 +2,15 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "physiological:creatine-musc-msk11:musculoskeletal:v1",
-  "title": "Creatine — Musculoskeletal",
+  "title": "Creatine Musc Msk11 — Musculoskeletal",
   "category": "musculoskeletal",
-  "tier": "Gold",
-  "label": "PASS",
-  "P_effect_gt_delta": 0.975161,
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.9999,
   "gate_results": {
-    "phi": "PASS",
-    "r": 0.898,
-    "j": 0.548,
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
     "k": "PASS",
     "l": "PASS"
   },
@@ -18,11 +18,11 @@
     "n_studies": 3,
     "total_n": 515,
     "I2": 0.0,
-    "tau2": 0.00026989,
-    "mu_hat": 0.3642,
+    "tau2": 0.0,
+    "mu_hat": 0.36332,
     "mu_CI95": [
-      0.2202,
-      0.5082
+      0.281427,
+      0.445214
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-27T01:51:32.588867+00:00",
+  "created": "2025-11-05T06:51:17.734081+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:139feb65bf6e9b40e5983104e037e9e1dfa2a1701c13fe052c2256572a2589e2",
-  "audit_hash": "0xe00b8ee805e1b55c"
+  "citations_manifest_hash": "sha256:4bc2414eab610ed52708e4eb194122cabb15bbca1a1e37483d2dbd708638b815",
+  "audit_hash": "0x5edd13b4b6c1bae6"
 }

@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-24T08:19:11.489032+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:28.453235+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/immune/shiitake-imm-imm19/immune/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/shiitake-imm-imm19-03"
     }
   ],
-  "manifest_hash": "sha256:469c11b186234cf87ffdd246d0783847449e05e6a1be968f51a7c81cba9bf1cf"
+  "manifest_hash": "sha256:5729b747d3a6c83ede5486d5888732a38e56ae3c919bef34471109c1e35a598b"
 }

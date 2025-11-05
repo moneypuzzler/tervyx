@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:41.706552+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T07:22:11.976683+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/gaba-ment-gaba-calm/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -12,9 +12,9 @@
       "outcome": "anxiety",
       "population": "Adults with anxiety concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/ment-gaba-calm-01",
-      "url": "https://doi.org/10.1234/ment-gaba-calm-01",
-      "citation": "MENT-GABA-CALM_01 (2009); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-gaba-calm-01; Adverse Events: Mild GI discomfort."
+      "doi": "10.3389/fnins.2020.00923",
+      "url": "https://doi.org/10.3389/fnins.2020.00923",
+      "citation": "MENT-GABA-CALM_01 (2009); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.3389/fnins.2020.00923; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "MENT-GABA-CALM_02",
@@ -24,9 +24,9 @@
       "outcome": "anxiety",
       "population": "Adults with anxiety concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/ment-gaba-calm-02",
-      "url": "https://doi.org/10.1234/ment-gaba-calm-02",
-      "citation": "MENT-GABA-CALM_02 (2010); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-gaba-calm-02; Adverse Events: Transient headache."
+      "doi": "10.1007/s10068-016-0076-9",
+      "url": "https://doi.org/10.1007/s10068-016-0076-9",
+      "citation": "MENT-GABA-CALM_02 (2010); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1007/s10068-016-0076-9; Adverse Events: Transient headache."
     },
     {
       "study_id": "MENT-GABA-CALM_03",
@@ -36,39 +36,39 @@
       "outcome": "anxiety",
       "population": "Adults with anxiety concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/ment-gaba-calm-03",
-      "url": "https://doi.org/10.1234/ment-gaba-calm-03",
-      "citation": "MENT-GABA-CALM_03 (2011); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-gaba-calm-03; Adverse Events: None reported."
+      "doi": "10.3390/nu16050608",
+      "url": "https://doi.org/10.3390/nu16050608",
+      "citation": "MENT-GABA-CALM_03 (2011); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.3390/nu16050608; Adverse Events: None reported."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/ment-gaba-calm-01",
-      "study_ids": [
-        "MENT-GABA-CALM_01"
-      ],
-      "primary_study_id": "MENT-GABA-CALM_01",
-      "url": "https://doi.org/10.1234/ment-gaba-calm-01"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/ment-gaba-calm-02",
+      "identifier": "10.1007/s10068-016-0076-9",
       "study_ids": [
         "MENT-GABA-CALM_02"
       ],
       "primary_study_id": "MENT-GABA-CALM_02",
-      "url": "https://doi.org/10.1234/ment-gaba-calm-02"
+      "url": "https://doi.org/10.1007/s10068-016-0076-9"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/ment-gaba-calm-03",
+      "identifier": "10.3389/fnins.2020.00923",
+      "study_ids": [
+        "MENT-GABA-CALM_01"
+      ],
+      "primary_study_id": "MENT-GABA-CALM_01",
+      "url": "https://doi.org/10.3389/fnins.2020.00923"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.3390/nu16050608",
       "study_ids": [
         "MENT-GABA-CALM_03"
       ],
       "primary_study_id": "MENT-GABA-CALM_03",
-      "url": "https://doi.org/10.1234/ment-gaba-calm-03"
+      "url": "https://doi.org/10.3390/nu16050608"
     }
   ],
-  "manifest_hash": "sha256:ff38a8264cb84e670f0b4475eb7779c47f9bacb047da9f489df847ab4dca9c71"
+  "manifest_hash": "sha256:e1098113e4159fcfc7a11492ae223d3b9bdfc74453a2b9635531147dec6930af"
 }

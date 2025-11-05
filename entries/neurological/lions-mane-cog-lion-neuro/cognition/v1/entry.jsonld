@@ -10,7 +10,7 @@
   "gate_results": {
     "phi": "PASS",
     "r": 1.0,
-    "j": 0.0,
+    "j": 0.701,
     "k": "PASS",
     "l": "PASS"
   },
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-23T09:24:39.191547+00:00",
+  "created": "2025-11-05T07:35:18.384567+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,31 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/cog-lion-neuro-01",
+      "@id": "doi:10.1093/ecam/nem046",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-lion-neuro-01",
-      "studyIds": [
-        "COG-LION-NEURO_01"
-      ],
-      "citation": "COG-LION-NEURO_01 (2010); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1234/cog-lion-neuro-01; Adverse Events: Transient headache.",
-      "doi": "10.1234/cog-lion-neuro-01",
-      "sameAs": "https://doi.org/10.1234/cog-lion-neuro-01",
-      "datePublished": "2010",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "cognition_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/cog-lion-neuro-02",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-lion-neuro-02",
+      "identifier": "doi:10.1093/ecam/nem046",
       "studyIds": [
         "COG-LION-NEURO_02"
       ],
-      "citation": "COG-LION-NEURO_02 (2011); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1234/cog-lion-neuro-02; Adverse Events: None reported.",
-      "doi": "10.1234/cog-lion-neuro-02",
-      "sameAs": "https://doi.org/10.1234/cog-lion-neuro-02",
+      "citation": "COG-LION-NEURO_02 (2011); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1093/ecam/nem046; Adverse Events: None reported.",
+      "doi": "10.1093/ecam/nem046",
+      "sameAs": "https://doi.org/10.1093/ecam/nem046",
       "datePublished": "2011",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,15 +76,31 @@
       }
     },
     {
-      "@id": "doi:10.1234/cog-lion-neuro-03",
+      "@id": "doi:10.2220/biomedres.40.125",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-lion-neuro-03",
+      "identifier": "doi:10.2220/biomedres.40.125",
+      "studyIds": [
+        "COG-LION-NEURO_01"
+      ],
+      "citation": "COG-LION-NEURO_01 (2010); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.2220/biomedres.40.125; Adverse Events: Transient headache.",
+      "doi": "10.2220/biomedres.40.125",
+      "sameAs": "https://doi.org/10.2220/biomedres.40.125",
+      "datePublished": "2010",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cognition_journal"
+      }
+    },
+    {
+      "@id": "doi:10.3389/fnut.2023.1405796",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.3389/fnut.2023.1405796",
       "studyIds": [
         "COG-LION-NEURO_03"
       ],
-      "citation": "COG-LION-NEURO_03 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.1234/cog-lion-neuro-03; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/cog-lion-neuro-03",
-      "sameAs": "https://doi.org/10.1234/cog-lion-neuro-03",
+      "citation": "COG-LION-NEURO_03 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with cognitive decline concerns; Outcome: cognitive_decline; DOI: 10.3389/fnut.2023.1405796; Adverse Events: Mild GI discomfort.",
+      "doi": "10.3389/fnut.2023.1405796",
+      "sameAs": "https://doi.org/10.3389/fnut.2023.1405796",
       "datePublished": "2012",
       "isPartOf": {
         "@type": "Periodical",
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:32dd429fff3b96e390d72516e98473f2f86667c3132688633e36dd22a2fd81ed",
-  "audit_hash": "0xe28b465b89ab5306"
+  "citations_manifest_hash": "sha256:b102cc4176e65e04d57d4622f765295951c25da76a1d8e31092297c8b5ac3490",
+  "audit_hash": "0xebf6b21e4134e66b"
 }

@@ -2,15 +2,15 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "metabolic:spermidine-long-lon07:longevity:v1",
-  "title": "Spermidine — Longevity",
+  "title": "Spermidine Long Lon07 — Longevity",
   "category": "longevity",
-  "tier": "Gold",
-  "label": "PASS",
-  "P_effect_gt_delta": 0.987507,
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 1.0,
   "gate_results": {
-    "phi": "PASS",
-    "r": 0.757,
-    "j": 0.507,
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
     "k": "PASS",
     "l": "PASS"
   },
@@ -18,11 +18,11 @@
     "n_studies": 3,
     "total_n": 481,
     "I2": 0.0,
-    "tau2": 0.00034425,
-    "mu_hat": 0.336,
+    "tau2": 0.0,
+    "mu_hat": 0.335223,
     "mu_CI95": [
-      0.173367,
-      0.498633
+      0.242422,
+      0.428025
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-27T01:51:32.562814+00:00",
+  "created": "2025-11-05T06:50:55.785591+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:a40ead19b9897189c611bcb7d50fae0c021c966c471e4dc3f6f89618c9201852",
-  "audit_hash": "0xddd020b833919a58"
+  "citations_manifest_hash": "sha256:d10a97e81ed4e45414b863da54d5b9ac17776d0d0af0268b92e992fa3122cdd8",
+  "audit_hash": "0x0a116e972c777ac4"
 }

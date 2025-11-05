@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:46.047570+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:51.472586+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/safety/nsaid-protocol-ren-nsaid-mit/renal_safety/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/ren-nsaid-mit-03"
     }
   ],
-  "manifest_hash": "sha256:5ad3ffa3ada588a795244c9680eae6d990223a2148d15f40c725371682057c97"
+  "manifest_hash": "sha256:192e0ac951cbc445809902d34fb979144e086a20edab990392ac17fd5299d75e"
 }

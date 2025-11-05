@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.588664+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:17.733978+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/creatine-musc-msk11/musculoskeletal/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/musc-msk11-03"
     }
   ],
-  "manifest_hash": "sha256:139feb65bf6e9b40e5983104e037e9e1dfa2a1701c13fe052c2256572a2589e2"
+  "manifest_hash": "sha256:4bc2414eab610ed52708e4eb194122cabb15bbca1a1e37483d2dbd708638b815"
 }

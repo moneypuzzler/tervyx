@@ -2,15 +2,15 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "physiological:casein-musc-msk18:musculoskeletal:v1",
-  "title": "Casein — Musculoskeletal",
+  "title": "Casein Musc Msk18 — Musculoskeletal",
   "category": "musculoskeletal",
-  "tier": "Gold",
-  "label": "PASS",
-  "P_effect_gt_delta": 0.822223,
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.9517,
   "gate_results": {
-    "phi": "PASS",
-    "r": 0.935,
-    "j": 0.685,
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
     "k": "PASS",
     "l": "PASS"
   },
@@ -18,11 +18,11 @@
     "n_studies": 3,
     "total_n": 487,
     "I2": 0.0,
-    "tau2": 0.00030031,
-    "mu_hat": 0.2916,
+    "tau2": 0.0,
+    "mu_hat": 0.29224,
     "mu_CI95": [
-      0.1397,
-      0.4435
+      0.207064,
+      0.377415
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-27T01:51:32.596850+00:00",
+  "created": "2025-11-05T06:51:13.880787+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:9bf6e10fea7774fbbe609a4def91214d5115afde5c35757c3d1442ca5865d76e",
-  "audit_hash": "0x7005ef82ae9e9e28"
+  "citations_manifest_hash": "sha256:000c6536665ee0c2a8cee675a4a96f9399532e270afc2e994c6f3bc275ea8b26",
+  "audit_hash": "0xc0ec12d1c1c6a429"
 }

@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:42.149462+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T07:22:13.087068+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/glycine-ment-glycine-mood/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -12,9 +12,9 @@
       "outcome": "negative_symptoms",
       "population": "Adults with negative symptoms concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/ment-glycine-mood-01",
-      "url": "https://doi.org/10.1234/ment-glycine-mood-01",
-      "citation": "MENT-GLYCINE-MOOD_01 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with negative symptoms concerns; Outcome: negative_symptoms; DOI: 10.1234/ment-glycine-mood-01; Adverse Events: None reported."
+      "doi": "10.1016/s0920-9964(98)00151-1",
+      "url": "https://doi.org/10.1016/s0920-9964(98)00151-1",
+      "citation": "MENT-GLYCINE-MOOD_01 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with negative symptoms concerns; Outcome: negative_symptoms; DOI: 10.1016/s0920-9964(98)00151-1; Adverse Events: None reported."
     },
     {
       "study_id": "MENT-GLYCINE-MOOD_02",
@@ -24,9 +24,9 @@
       "outcome": "negative_symptoms",
       "population": "Adults with negative symptoms concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/ment-glycine-mood-02",
-      "url": "https://doi.org/10.1234/ment-glycine-mood-02",
-      "citation": "MENT-GLYCINE-MOOD_02 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with negative symptoms concerns; Outcome: negative_symptoms; DOI: 10.1234/ment-glycine-mood-02; Adverse Events: Mild GI discomfort."
+      "doi": "10.1016/j.biopsych.2003.08.013",
+      "url": "https://doi.org/10.1016/j.biopsych.2003.08.013",
+      "citation": "MENT-GLYCINE-MOOD_02 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with negative symptoms concerns; Outcome: negative_symptoms; DOI: 10.1016/j.biopsych.2003.08.013; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "MENT-GLYCINE-MOOD_03",
@@ -36,39 +36,39 @@
       "outcome": "negative_symptoms",
       "population": "Adults with negative symptoms concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/ment-glycine-mood-03",
-      "url": "https://doi.org/10.1234/ment-glycine-mood-03",
-      "citation": "MENT-GLYCINE-MOOD_03 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with negative symptoms concerns; Outcome: negative_symptoms; DOI: 10.1234/ment-glycine-mood-03; Adverse Events: Transient headache."
+      "doi": "10.1111/j.1479-8425.2007.00262.x",
+      "url": "https://doi.org/10.1111/j.1479-8425.2007.00262.x",
+      "citation": "MENT-GLYCINE-MOOD_03 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with negative symptoms concerns; Outcome: negative_symptoms; DOI: 10.1111/j.1479-8425.2007.00262.x; Adverse Events: Transient headache."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/ment-glycine-mood-01",
-      "study_ids": [
-        "MENT-GLYCINE-MOOD_01"
-      ],
-      "primary_study_id": "MENT-GLYCINE-MOOD_01",
-      "url": "https://doi.org/10.1234/ment-glycine-mood-01"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/ment-glycine-mood-02",
+      "identifier": "10.1016/j.biopsych.2003.08.013",
       "study_ids": [
         "MENT-GLYCINE-MOOD_02"
       ],
       "primary_study_id": "MENT-GLYCINE-MOOD_02",
-      "url": "https://doi.org/10.1234/ment-glycine-mood-02"
+      "url": "https://doi.org/10.1016/j.biopsych.2003.08.013"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/ment-glycine-mood-03",
+      "identifier": "10.1016/s0920-9964(98)00151-1",
+      "study_ids": [
+        "MENT-GLYCINE-MOOD_01"
+      ],
+      "primary_study_id": "MENT-GLYCINE-MOOD_01",
+      "url": "https://doi.org/10.1016/s0920-9964(98)00151-1"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1111/j.1479-8425.2007.00262.x",
       "study_ids": [
         "MENT-GLYCINE-MOOD_03"
       ],
       "primary_study_id": "MENT-GLYCINE-MOOD_03",
-      "url": "https://doi.org/10.1234/ment-glycine-mood-03"
+      "url": "https://doi.org/10.1111/j.1479-8425.2007.00262.x"
     }
   ],
-  "manifest_hash": "sha256:84d2c123d0aca9cb248332cb6356c61109788ce8c80d34c4b6a912e2b060c3f7"
+  "manifest_hash": "sha256:6731293f9b87da8fbe66cb0baf210f11e8f5b9ea76fec850e233e3387ba4fa10"
 }

@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.596639+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:13.880635+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/casein-musc-msk18/musculoskeletal/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/musc-msk18-03"
     }
   ],
-  "manifest_hash": "sha256:9bf6e10fea7774fbbe609a4def91214d5115afde5c35757c3d1442ca5865d76e"
+  "manifest_hash": "sha256:000c6536665ee0c2a8cee675a4a96f9399532e270afc2e994c6f3bc275ea8b26"
 }

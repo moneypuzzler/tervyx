@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:44.711960+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T07:22:15.982942+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/l-tryptophan-mh-ltrp-serotonin/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -12,9 +12,9 @@
       "outcome": "serotonin_modulation",
       "population": "Adults with serotonin modulation concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/mh-ltrp-serotonin-01",
-      "url": "https://doi.org/10.1234/mh-ltrp-serotonin-01",
-      "citation": "MH-LTRP-SEROTONIN_01 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with serotonin modulation concerns; Outcome: serotonin_modulation; DOI: 10.1234/mh-ltrp-serotonin-01; Adverse Events: None reported."
+      "doi": "10.1093/nutrit/nuab027",
+      "url": "https://doi.org/10.1093/nutrit/nuab027",
+      "citation": "MH-LTRP-SEROTONIN_01 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with serotonin modulation concerns; Outcome: serotonin_modulation; DOI: 10.1093/nutrit/nuab027; Adverse Events: None reported."
     },
     {
       "study_id": "MH-LTRP-SEROTONIN_02",
@@ -24,9 +24,9 @@
       "outcome": "serotonin_modulation",
       "population": "Adults with serotonin modulation concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/mh-ltrp-serotonin-02",
-      "url": "https://doi.org/10.1234/mh-ltrp-serotonin-02",
-      "citation": "MH-LTRP-SEROTONIN_02 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with serotonin modulation concerns; Outcome: serotonin_modulation; DOI: 10.1234/mh-ltrp-serotonin-02; Adverse Events: Mild GI discomfort."
+      "doi": "10.3389/fnut.2020.00099",
+      "url": "https://doi.org/10.3389/fnut.2020.00099",
+      "citation": "MH-LTRP-SEROTONIN_02 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with serotonin modulation concerns; Outcome: serotonin_modulation; DOI: 10.3389/fnut.2020.00099; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "MH-LTRP-SEROTONIN_03",
@@ -36,39 +36,39 @@
       "outcome": "serotonin_modulation",
       "population": "Adults with serotonin modulation concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/mh-ltrp-serotonin-03",
-      "url": "https://doi.org/10.1234/mh-ltrp-serotonin-03",
-      "citation": "MH-LTRP-SEROTONIN_03 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with serotonin modulation concerns; Outcome: serotonin_modulation; DOI: 10.1234/mh-ltrp-serotonin-03; Adverse Events: Transient headache."
+      "doi": "10.1111/j.1600-0447.2007.00961.x",
+      "url": "https://doi.org/10.1111/j.1600-0447.2007.00961.x",
+      "citation": "MH-LTRP-SEROTONIN_03 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with serotonin modulation concerns; Outcome: serotonin_modulation; DOI: 10.1111/j.1600-0447.2007.00961.x; Adverse Events: Transient headache."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/mh-ltrp-serotonin-01",
+      "identifier": "10.1093/nutrit/nuab027",
       "study_ids": [
         "MH-LTRP-SEROTONIN_01"
       ],
       "primary_study_id": "MH-LTRP-SEROTONIN_01",
-      "url": "https://doi.org/10.1234/mh-ltrp-serotonin-01"
+      "url": "https://doi.org/10.1093/nutrit/nuab027"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/mh-ltrp-serotonin-02",
-      "study_ids": [
-        "MH-LTRP-SEROTONIN_02"
-      ],
-      "primary_study_id": "MH-LTRP-SEROTONIN_02",
-      "url": "https://doi.org/10.1234/mh-ltrp-serotonin-02"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/mh-ltrp-serotonin-03",
+      "identifier": "10.1111/j.1600-0447.2007.00961.x",
       "study_ids": [
         "MH-LTRP-SEROTONIN_03"
       ],
       "primary_study_id": "MH-LTRP-SEROTONIN_03",
-      "url": "https://doi.org/10.1234/mh-ltrp-serotonin-03"
+      "url": "https://doi.org/10.1111/j.1600-0447.2007.00961.x"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.3389/fnut.2020.00099",
+      "study_ids": [
+        "MH-LTRP-SEROTONIN_02"
+      ],
+      "primary_study_id": "MH-LTRP-SEROTONIN_02",
+      "url": "https://doi.org/10.3389/fnut.2020.00099"
     }
   ],
-  "manifest_hash": "sha256:4a8b525746e54060a2d6ba0b4bac7936848be37674fc73eb9e2125182bd7bbe4"
+  "manifest_hash": "sha256:3532bae7fd12efe30e73b11c6e4252a6d2e321e753be2d02ba979c17a419397a"
 }

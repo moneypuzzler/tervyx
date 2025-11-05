@@ -10,7 +10,7 @@
   "gate_results": {
     "phi": "PASS",
     "r": 0.9,
-    "j": 0.0,
+    "j": 0.701,
     "k": "PASS",
     "l": "PASS"
   },
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-23T09:24:40.474509+00:00",
+  "created": "2025-11-05T07:35:27.345246+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,31 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/cog-nico-noot-01",
+      "@id": "doi:10.1016/j.cmet.2018.02.012",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-nico-noot-01",
-      "studyIds": [
-        "COG-NICO-NOOT_01"
-      ],
-      "citation": "COG-NICO-NOOT_01 (2010); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with mitochondrial support concerns; Outcome: mitochondrial_support; DOI: 10.1234/cog-nico-noot-01; Adverse Events: Transient headache.",
-      "doi": "10.1234/cog-nico-noot-01",
-      "sameAs": "https://doi.org/10.1234/cog-nico-noot-01",
-      "datePublished": "2010",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "cognition_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/cog-nico-noot-02",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-nico-noot-02",
+      "identifier": "doi:10.1016/j.cmet.2018.02.012",
       "studyIds": [
         "COG-NICO-NOOT_02"
       ],
-      "citation": "COG-NICO-NOOT_02 (2011); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with mitochondrial support concerns; Outcome: mitochondrial_support; DOI: 10.1234/cog-nico-noot-02; Adverse Events: None reported.",
-      "doi": "10.1234/cog-nico-noot-02",
-      "sameAs": "https://doi.org/10.1234/cog-nico-noot-02",
+      "citation": "COG-NICO-NOOT_02 (2011); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with mitochondrial support concerns; Outcome: mitochondrial_support; DOI: 10.1016/j.cmet.2018.02.012; Adverse Events: None reported.",
+      "doi": "10.1016/j.cmet.2018.02.012",
+      "sameAs": "https://doi.org/10.1016/j.cmet.2018.02.012",
       "datePublished": "2011",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,15 +76,31 @@
       }
     },
     {
-      "@id": "doi:10.1234/cog-nico-noot-03",
+      "@id": "doi:10.1016/j.gerogsci.2023.11.007",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-nico-noot-03",
+      "identifier": "doi:10.1016/j.gerogsci.2023.11.007",
+      "studyIds": [
+        "COG-NICO-NOOT_01"
+      ],
+      "citation": "COG-NICO-NOOT_01 (2010); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with mitochondrial support concerns; Outcome: mitochondrial_support; DOI: 10.1016/j.gerogsci.2023.11.007; Adverse Events: Transient headache.",
+      "doi": "10.1016/j.gerogsci.2023.11.007",
+      "sameAs": "https://doi.org/10.1016/j.gerogsci.2023.11.007",
+      "datePublished": "2010",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cognition_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1038/s41467-019-08513-9",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1038/s41467-019-08513-9",
       "studyIds": [
         "COG-NICO-NOOT_03"
       ],
-      "citation": "COG-NICO-NOOT_03 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with mitochondrial support concerns; Outcome: mitochondrial_support; DOI: 10.1234/cog-nico-noot-03; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/cog-nico-noot-03",
-      "sameAs": "https://doi.org/10.1234/cog-nico-noot-03",
+      "citation": "COG-NICO-NOOT_03 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with mitochondrial support concerns; Outcome: mitochondrial_support; DOI: 10.1038/s41467-019-08513-9; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1038/s41467-019-08513-9",
+      "sameAs": "https://doi.org/10.1038/s41467-019-08513-9",
       "datePublished": "2012",
       "isPartOf": {
         "@type": "Periodical",
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:9eae197dbb6185bcaaa34134fa3cd3cc4b443b19cbe35873bfef4f30d53907b1",
-  "audit_hash": "0x5f69e92b96da8347"
+  "citations_manifest_hash": "sha256:c58ef42899489e13602bec5663de84774f749740716225f867ced550ea128d7f",
+  "audit_hash": "0xf3989ae02694341a"
 }

@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:42.924075+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:29.669290+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/red-yeast-rice-card-redy-statin/cardiovascular/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/card-redy-statin-03"
     }
   ],
-  "manifest_hash": "sha256:6907f70ed330b387340660337a62ec8f7f9078129b20ed6df73148de61d98989"
+  "manifest_hash": "sha256:f1a3232a76e3be28130628b1b37ea74f2f13bb360d83dd8842d1d5d8870aa775"
 }

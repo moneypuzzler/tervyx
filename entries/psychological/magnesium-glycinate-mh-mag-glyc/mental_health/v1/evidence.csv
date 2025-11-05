@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-MH-MAG-GLYC_01,2015,randomized controlled trial,SMD,-0.3212,-0.4548,-0.1877,50,53,some concerns,10.1234/mh-mag-glyc-01,mental_health_journal,generalized_anxiety,Adults with generalized anxiety concerns,Mild GI discomfort,7
-MH-MAG-GLYC_02,2016,randomized controlled trial,SMD,-0.3861,-0.5379,-0.2343,54,56,mixed,10.1234/mh-mag-glyc-02,mental_health_journal,generalized_anxiety,Adults with generalized anxiety concerns,Transient headache,8
-MH-MAG-GLYC_03,2017,randomized controlled trial,SMD,-0.4298,-0.5562,-0.3034,58,59,low,10.1234/mh-mag-glyc-03,mental_health_journal,generalized_anxiety,Adults with generalized anxiety concerns,None reported,9
+MH-MAG-GLYC_01,2015,randomized controlled trial,SMD,-0.3212,-0.4548,-0.1877,50,53,some concerns,10.1371/journal.pone.0180067,mental_health_journal,generalized_anxiety,Adults with generalized anxiety concerns,Mild GI discomfort,7
+MH-MAG-GLYC_02,2016,randomized controlled trial,SMD,-0.3861,-0.5379,-0.2343,54,56,mixed,10.1093/advances/nmaa097,mental_health_journal,generalized_anxiety,Adults with generalized anxiety concerns,Transient headache,8
+MH-MAG-GLYC_03,2017,randomized controlled trial,SMD,-0.4298,-0.5562,-0.3034,58,59,low,10.1684/mrh.2010.0220,mental_health_journal,generalized_anxiety,Adults with generalized anxiety concerns,None reported,9

@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:42.839879+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:11.613986+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/bergamot-card-berg-lip/cardiovascular/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/card-berg-lip-03"
     }
   ],
-  "manifest_hash": "sha256:deacfe7c6f78266f0461c9148841e0b77161efb88e54d121f7d9851029fb0e5e"
+  "manifest_hash": "sha256:e7d8a275f84555ada6a2643f7612240b2f0d10d11c542957c577245e5c010444"
 }

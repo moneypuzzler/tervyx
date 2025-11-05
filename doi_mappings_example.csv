@@ -1,0 +1,4 @@
+entry_path,study_id,old_doi,new_doi,pmid,notes
+entries/behavioral/magnesium-slp-mag-core/sleep/v1,SLP-MAG-CORE-01,10.1234/slp-mag-core-01,10.1016/j.sleep.2020.01.023,32145678,Example: Replace with real magnesium sleep study
+entries/behavioral/magnesium-slp-mag-core/sleep/v1,SLP-MAG-CORE-02,10.1234/slp-mag-core-02,10.1093/sleep/zsab123,33456789,Example: Another magnesium study
+entries/behavioral/magnesium-slp-mag-core/sleep/v1,SLP-MAG-CORE-03,10.1234/slp-mag-core-03,10.3390/nu12051375,32392795,Example: Nutrients journal paper

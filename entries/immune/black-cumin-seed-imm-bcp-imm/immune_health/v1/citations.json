@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-24T08:19:12.630301+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:14.074740+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/immune/black-cumin-seed-imm-bcp-imm/immune_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/black-cumin-seed-imm-bcp-imm-03"
     }
   ],
-  "manifest_hash": "sha256:e8aac8eac391f5eb97b80db7900a98f166b0559b639e876577e7303f3d715a2a"
+  "manifest_hash": "sha256:692bb916ed6d102fcb15dea2f448c9db2023cebc824892d0800ac23b7fc4997d"
 }

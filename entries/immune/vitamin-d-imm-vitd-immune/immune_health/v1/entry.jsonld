@@ -2,15 +2,15 @@
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "id": "immune:vitamin-d-imm-vitd-immune:immune_health:v1",
-  "title": "Vitamin D — Immune Health",
+  "title": "Vitamin D Imm Vitd Immune — Immune Health",
   "category": "immune_health",
   "tier": "Silver",
   "label": "PASS",
-  "P_effect_gt_delta": 0.73135,
+  "P_effect_gt_delta": 0.871,
   "gate_results": {
     "phi": "PASS",
-    "r": 0.915,
-    "j": 0.565,
+    "r": 0.9,
+    "j": 0.464,
     "k": "PASS",
     "l": "PASS"
   },
@@ -18,11 +18,11 @@
     "n_studies": 3,
     "total_n": 479,
     "I2": 0.0,
-    "tau2": 0.00029768,
-    "mu_hat": 0.2476,
+    "tau2": 0.0,
+    "mu_hat": 0.248619,
     "mu_CI95": [
-      0.096367,
-      0.398833
+      0.164239,
+      0.332999
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-27T01:50:36.323846+00:00",
+  "created": "2025-11-05T06:50:32.746827+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:f342ae7fae97ccfdc47974bfe742fdf4948f637fda622a9cb6ca34812f33d73d",
-  "audit_hash": "0xd76a958a582b94fc"
+  "citations_manifest_hash": "sha256:769ef4b820b9c9a709a685909c2d6c4c42403f63be61a2e9cc6947451baae057",
+  "audit_hash": "0xdba756827ca01b80"
 }

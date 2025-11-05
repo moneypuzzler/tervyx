@@ -10,7 +10,7 @@
   "gate_results": {
     "phi": "PASS",
     "r": 1.0,
-    "j": 0.0,
+    "j": 0.607,
     "k": "PASS",
     "l": "PASS"
   },
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-23T09:24:41.623104+00:00",
+  "created": "2025-11-05T07:22:13.650649+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/ment-kava-mood-01",
+      "@id": "doi:10.1007/s00213-009-1549-9",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-kava-mood-01",
+      "identifier": "doi:10.1007/s00213-009-1549-9",
       "studyIds": [
         "MENT-KAVA-MOOD_01"
       ],
-      "citation": "MENT-KAVA-MOOD_01 (2008); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-kava-mood-01; Adverse Events: None reported.",
-      "doi": "10.1234/ment-kava-mood-01",
-      "sameAs": "https://doi.org/10.1234/ment-kava-mood-01",
+      "citation": "MENT-KAVA-MOOD_01 (2008); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1007/s00213-009-1549-9; Adverse Events: None reported.",
+      "doi": "10.1007/s00213-009-1549-9",
+      "sameAs": "https://doi.org/10.1007/s00213-009-1549-9",
       "datePublished": "2008",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,38 +76,38 @@
       }
     },
     {
-      "@id": "doi:10.1234/ment-kava-mood-02",
+      "@id": "doi:10.1097/00004850-200609000-00001",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-kava-mood-02",
+      "identifier": "doi:10.1097/00004850-200609000-00001",
       "studyIds": [
-        "MENT-KAVA-MOOD_02"
+        "MENT-KAVA-MOOD_03"
       ],
-      "citation": "MENT-KAVA-MOOD_02 (2009); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-kava-mood-02; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/ment-kava-mood-02",
-      "sameAs": "https://doi.org/10.1234/ment-kava-mood-02",
-      "datePublished": "2009",
+      "citation": "MENT-KAVA-MOOD_03 (2010); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1097/00004850-200609000-00001; Adverse Events: Transient headache.",
+      "doi": "10.1097/00004850-200609000-00001",
+      "sameAs": "https://doi.org/10.1097/00004850-200609000-00001",
+      "datePublished": "2010",
       "isPartOf": {
         "@type": "Periodical",
         "name": "mental_health_journal"
       }
     },
     {
-      "@id": "doi:10.1234/ment-kava-mood-03",
+      "@id": "doi:10.3390/nu15214586",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-kava-mood-03",
+      "identifier": "doi:10.3390/nu15214586",
       "studyIds": [
-        "MENT-KAVA-MOOD_03"
+        "MENT-KAVA-MOOD_02"
       ],
-      "citation": "MENT-KAVA-MOOD_03 (2010); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-kava-mood-03; Adverse Events: Transient headache.",
-      "doi": "10.1234/ment-kava-mood-03",
-      "sameAs": "https://doi.org/10.1234/ment-kava-mood-03",
-      "datePublished": "2010",
+      "citation": "MENT-KAVA-MOOD_02 (2009); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.3390/nu15214586; Adverse Events: Mild GI discomfort.",
+      "doi": "10.3390/nu15214586",
+      "sameAs": "https://doi.org/10.3390/nu15214586",
+      "datePublished": "2009",
       "isPartOf": {
         "@type": "Periodical",
         "name": "mental_health_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:ec86237af3d3c4524ebb0ad051cf46689790c66c503bcc4c5e36666ac4d7a26b",
-  "audit_hash": "0x1a5f16489462f2e7"
+  "citations_manifest_hash": "sha256:44c1e58f953019dfa7774c9d5c93d5ac1d3cc656a72c83e9d8dfdbb4911209d5",
+  "audit_hash": "0x6d23f8a7eb3278e3"
 }

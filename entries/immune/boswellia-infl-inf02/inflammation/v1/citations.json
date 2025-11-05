@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.533474+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:15.155077+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/immune/boswellia-infl-inf02/inflammation/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/infl-inf02-03"
     }
   ],
-  "manifest_hash": "sha256:4cf3474325de677b23e754b4a02949e61744d7aac9234ea01234cc4ae3935496"
+  "manifest_hash": "sha256:3991065960829ae4a193aaf3737cc062cd17ef55778516b040de9cf154663be7"
 }

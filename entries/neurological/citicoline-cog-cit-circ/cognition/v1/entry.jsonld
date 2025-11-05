@@ -10,7 +10,7 @@
   "gate_results": {
     "phi": "PASS",
     "r": 1.0,
-    "j": 0.0,
+    "j": 0.701,
     "k": "PASS",
     "l": "PASS"
   },
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-23T09:24:39.695046+00:00",
+  "created": "2025-11-05T07:35:20.704015+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/cog-cit-circ-01",
+      "@id": "doi:10.1093/jn/nxab119",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-cit-circ-01",
+      "identifier": "doi:10.1093/jn/nxab119",
       "studyIds": [
         "COG-CIT-CIRC_01"
       ],
-      "citation": "COG-CIT-CIRC_01 (2016); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1234/cog-cit-circ-01; Adverse Events: Transient headache.",
-      "doi": "10.1234/cog-cit-circ-01",
-      "sameAs": "https://doi.org/10.1234/cog-cit-circ-01",
+      "citation": "COG-CIT-CIRC_01 (2016); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1093/jn/nxab119; Adverse Events: Transient headache.",
+      "doi": "10.1093/jn/nxab119",
+      "sameAs": "https://doi.org/10.1093/jn/nxab119",
       "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,15 +76,15 @@
       }
     },
     {
-      "@id": "doi:10.1234/cog-cit-circ-02",
+      "@id": "doi:10.1177/0269881114552744",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-cit-circ-02",
+      "identifier": "doi:10.1177/0269881114552744",
       "studyIds": [
         "COG-CIT-CIRC_02"
       ],
-      "citation": "COG-CIT-CIRC_02 (2017); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1234/cog-cit-circ-02; Adverse Events: None reported.",
-      "doi": "10.1234/cog-cit-circ-02",
-      "sameAs": "https://doi.org/10.1234/cog-cit-circ-02",
+      "citation": "COG-CIT-CIRC_02 (2017); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1177/0269881114552744; Adverse Events: None reported.",
+      "doi": "10.1177/0269881114552744",
+      "sameAs": "https://doi.org/10.1177/0269881114552744",
       "datePublished": "2017",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,15 +92,15 @@
       }
     },
     {
-      "@id": "doi:10.1234/cog-cit-circ-03",
+      "@id": "doi:10.3390/nu13020586",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/cog-cit-circ-03",
+      "identifier": "doi:10.3390/nu13020586",
       "studyIds": [
         "COG-CIT-CIRC_03"
       ],
-      "citation": "COG-CIT-CIRC_03 (2018); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.1234/cog-cit-circ-03; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/cog-cit-circ-03",
-      "sameAs": "https://doi.org/10.1234/cog-cit-circ-03",
+      "citation": "COG-CIT-CIRC_03 (2018); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with attention concerns; Outcome: attention; DOI: 10.3390/nu13020586; Adverse Events: Mild GI discomfort.",
+      "doi": "10.3390/nu13020586",
+      "sameAs": "https://doi.org/10.3390/nu13020586",
       "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:f0ada60de375cf1ff6accceed9e3dfda73d2a09ba1aa26048dd935a3d70ba13b",
-  "audit_hash": "0x8cec25b590a7bf35"
+  "citations_manifest_hash": "sha256:623eaf9c98ec9d83c200b1eb0f62bdf9e7ad8360a88421bd78c69394a0354b82",
+  "audit_hash": "0xaec2d678367dc84d"
 }

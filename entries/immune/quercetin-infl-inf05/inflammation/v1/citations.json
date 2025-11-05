@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.536749+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:26.913984+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/immune/quercetin-infl-inf05/inflammation/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/infl-inf05-03"
     }
   ],
-  "manifest_hash": "sha256:72374f0055ab0d9a7f6471caa518b87fa0593721b5fa351434a4883591557753"
+  "manifest_hash": "sha256:d1f2fdf21a853445ffa381767a6ffe003906cc06bca6638845c09d4c7f9267d3"
 }

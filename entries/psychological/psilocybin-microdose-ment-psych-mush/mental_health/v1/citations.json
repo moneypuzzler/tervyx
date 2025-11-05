@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:41.965216+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T07:22:19.323126+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/psilocybin-microdose-ment-psych-mush/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -12,9 +12,9 @@
       "outcome": "depression",
       "population": "Adults with depression concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/ment-psych-mush-01",
-      "url": "https://doi.org/10.1234/ment-psych-mush-01",
-      "citation": "MENT-PSYCH-MUSH_01 (2012); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-psych-mush-01; Adverse Events: Mild GI discomfort."
+      "doi": "10.1001/jamapsychiatry.2020.3285",
+      "url": "https://doi.org/10.1001/jamapsychiatry.2020.3285",
+      "citation": "MENT-PSYCH-MUSH_01 (2012); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1001/jamapsychiatry.2020.3285; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "MENT-PSYCH-MUSH_02",
@@ -24,9 +24,9 @@
       "outcome": "depression",
       "population": "Adults with depression concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/ment-psych-mush-02",
-      "url": "https://doi.org/10.1234/ment-psych-mush-02",
-      "citation": "MENT-PSYCH-MUSH_02 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-psych-mush-02; Adverse Events: Transient headache."
+      "doi": "10.1056/nejmoa2032994",
+      "url": "https://doi.org/10.1056/nejmoa2032994",
+      "citation": "MENT-PSYCH-MUSH_02 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1056/nejmoa2032994; Adverse Events: Transient headache."
     },
     {
       "study_id": "MENT-PSYCH-MUSH_03",
@@ -36,39 +36,39 @@
       "outcome": "depression",
       "population": "Adults with depression concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/ment-psych-mush-03",
-      "url": "https://doi.org/10.1234/ment-psych-mush-03",
-      "citation": "MENT-PSYCH-MUSH_03 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-psych-mush-03; Adverse Events: None reported."
+      "doi": "10.1371/journal.pone.0282446",
+      "url": "https://doi.org/10.1371/journal.pone.0282446",
+      "citation": "MENT-PSYCH-MUSH_03 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1371/journal.pone.0282446; Adverse Events: None reported."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/ment-psych-mush-01",
+      "identifier": "10.1001/jamapsychiatry.2020.3285",
       "study_ids": [
         "MENT-PSYCH-MUSH_01"
       ],
       "primary_study_id": "MENT-PSYCH-MUSH_01",
-      "url": "https://doi.org/10.1234/ment-psych-mush-01"
+      "url": "https://doi.org/10.1001/jamapsychiatry.2020.3285"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/ment-psych-mush-02",
+      "identifier": "10.1056/nejmoa2032994",
       "study_ids": [
         "MENT-PSYCH-MUSH_02"
       ],
       "primary_study_id": "MENT-PSYCH-MUSH_02",
-      "url": "https://doi.org/10.1234/ment-psych-mush-02"
+      "url": "https://doi.org/10.1056/nejmoa2032994"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/ment-psych-mush-03",
+      "identifier": "10.1371/journal.pone.0282446",
       "study_ids": [
         "MENT-PSYCH-MUSH_03"
       ],
       "primary_study_id": "MENT-PSYCH-MUSH_03",
-      "url": "https://doi.org/10.1234/ment-psych-mush-03"
+      "url": "https://doi.org/10.1371/journal.pone.0282446"
     }
   ],
-  "manifest_hash": "sha256:33ff1144fc828b07a8b6e2c997cd38353b38b84e79d6bdf262889aeab33eb518"
+  "manifest_hash": "sha256:0b0ae553f44c271533435aedc6511c0137e75bb491ac32c42db8ea0a232a937a"
 }

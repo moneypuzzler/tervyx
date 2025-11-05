@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-23T09:24:44.200441+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:09.348828+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/astaxanthin-card-asta-card/cardiovascular/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/card-asta-card-03"
     }
   ],
-  "manifest_hash": "sha256:0d640da4173b7936b8756d0f28c3be6968e265b395dae97762cf7cc92e078368"
+  "manifest_hash": "sha256:0ae5f5ff4ac2b1cc5222ecaa2437d0538732d74ce4620dcd2879b2aaffda0ff2"
 }

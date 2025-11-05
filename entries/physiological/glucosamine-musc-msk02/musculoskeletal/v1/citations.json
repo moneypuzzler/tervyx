@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.578769+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:51:21.150325+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/glucosamine-musc-msk02/musculoskeletal/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/musc-msk02-03"
     }
   ],
-  "manifest_hash": "sha256:50d494815cc41aa573fb82099c3b162f80ee48a1c2d03df661d5521ca886d8d7"
+  "manifest_hash": "sha256:4c3d6c73a96aae996ee6441940f48cdad9250c7b3f7c63ecd2c10559654b5481"
 }

@@ -10,7 +10,7 @@
   "gate_results": {
     "phi": "PASS",
     "r": 1.0,
-    "j": 0.0,
+    "j": 0.607,
     "k": "PASS",
     "l": "PASS"
   },
@@ -33,12 +33,12 @@
   "policy_refs": {
     "tel5_levels": "v1.2.0",
     "monte_carlo": "v1.0.1-reml-grid",
-    "journal_trust": "2025-10-05"
+    "journal_trust": "2025-10-30"
   },
   "version": "v1",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-10-23T09:24:41.442003+00:00",
+  "created": "2025-11-05T07:22:16.559933+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,31 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/ment-lav-caps-01",
+      "@id": "doi:10.1016/j.euroneuro.2015.07.024",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-lav-caps-01",
+      "identifier": "doi:10.1016/j.euroneuro.2015.07.024",
+      "studyIds": [
+        "MENT-LAV-CAPS_03"
+      ],
+      "citation": "MENT-LAV-CAPS_03 (2008); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1016/j.euroneuro.2015.07.024; Adverse Events: None reported.",
+      "doi": "10.1016/j.euroneuro.2015.07.024",
+      "sameAs": "https://doi.org/10.1016/j.euroneuro.2015.07.024",
+      "datePublished": "2008",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1016/j.phymed.2009.10.006",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1016/j.phymed.2009.10.006",
       "studyIds": [
         "MENT-LAV-CAPS_01"
       ],
-      "citation": "MENT-LAV-CAPS_01 (2006); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-lav-caps-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/ment-lav-caps-01",
-      "sameAs": "https://doi.org/10.1234/ment-lav-caps-01",
+      "citation": "MENT-LAV-CAPS_01 (2006); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1016/j.phymed.2009.10.006; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1016/j.phymed.2009.10.006",
+      "sameAs": "https://doi.org/10.1016/j.phymed.2009.10.006",
       "datePublished": "2006",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,38 +92,22 @@
       }
     },
     {
-      "@id": "doi:10.1234/ment-lav-caps-02",
+      "@id": "doi:10.1017/s1461145714000017",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-lav-caps-02",
+      "identifier": "doi:10.1017/s1461145714000017",
       "studyIds": [
         "MENT-LAV-CAPS_02"
       ],
-      "citation": "MENT-LAV-CAPS_02 (2007); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-lav-caps-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/ment-lav-caps-02",
-      "sameAs": "https://doi.org/10.1234/ment-lav-caps-02",
+      "citation": "MENT-LAV-CAPS_02 (2007); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1017/s1461145714000017; Adverse Events: Transient headache.",
+      "doi": "10.1017/s1461145714000017",
+      "sameAs": "https://doi.org/10.1017/s1461145714000017",
       "datePublished": "2007",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "mental_health_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/ment-lav-caps-03",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-lav-caps-03",
-      "studyIds": [
-        "MENT-LAV-CAPS_03"
-      ],
-      "citation": "MENT-LAV-CAPS_03 (2008); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-lav-caps-03; Adverse Events: None reported.",
-      "doi": "10.1234/ment-lav-caps-03",
-      "sameAs": "https://doi.org/10.1234/ment-lav-caps-03",
-      "datePublished": "2008",
       "isPartOf": {
         "@type": "Periodical",
         "name": "mental_health_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:ec33e5e724d7c9d4cde58fbfca92905eccbeb17e5c4ffed4bfe871dc50f30674",
-  "audit_hash": "0xe904927b007c15bf"
+  "citations_manifest_hash": "sha256:2ae5e93e6879f64640e0aecbecb11d8144d04f419356e671272dc26ead554cd2",
+  "audit_hash": "0x5a2b089bc47b59e8"
 }

@@ -1,6 +1,6 @@
 {
-  "generated": "2025-10-27T01:51:32.561095+00:00",
-  "policy_fingerprint": "0xbe3a798944b1c64b",
+  "generated": "2025-11-05T06:50:53.574279+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/metabolic/quercetin-long-lon06/longevity/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/long-lon06-03"
     }
   ],
-  "manifest_hash": "sha256:c4c6f510fd15d9be48ae3587bfc8e9be9b1d6b845b4bb608dac105119aed4fed"
+  "manifest_hash": "sha256:712d54ccff63d9bf3789e2e67361b149de922bd68624eef2c8ea409e4c3a90c3"
 }
