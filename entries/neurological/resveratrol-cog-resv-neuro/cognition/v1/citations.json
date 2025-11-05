@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:35:24.673918+00:00",
+  "generated": "2025-11-05T09:32:46.616018+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/resveratrol-cog-resv-neuro/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.3945/ajcn.112.055061"
     }
   ],
-  "manifest_hash": "sha256:db0af8b20e0c806bfcaade00d9de91a054b0f3503dac307c572ba22e65c4fae9"
+  "manifest_hash": "sha256:05105a5fcf1ef140332ef33099fc1ac9e8bd616994e227220817eef76e06bf0e"
 }

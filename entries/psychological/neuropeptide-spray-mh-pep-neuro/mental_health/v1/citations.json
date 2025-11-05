@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:22:18.768684+00:00",
+  "generated": "2025-11-05T09:32:36.804128+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/neuropeptide-spray-mh-pep-neuro/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1080/10673229.2018.1564921"
     }
   ],
-  "manifest_hash": "sha256:f07ef4a5d7f65e22b5427d35fefed89084e9a9bbf34e133ed5533fd0eec87b01"
+  "manifest_hash": "sha256:9542969ab14c8d59213780bee4c53add3cbb1fd58064de8065f56d569a776167"
 }

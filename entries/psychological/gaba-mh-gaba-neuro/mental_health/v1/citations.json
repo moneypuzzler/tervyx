@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:22:12.524416+00:00",
+  "generated": "2025-11-05T09:32:31.897714+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/gaba-mh-gaba-neuro/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.3390/nu16050608"
     }
   ],
-  "manifest_hash": "sha256:6153e625d0f6d2548231c700c0a86d0e5bfd5e63d09987c9da6581fe1622faa0"
+  "manifest_hash": "sha256:387adf834d69b6488c0cbbcf03191ce7b42b84bf88f804b53c1435f9c2f38b83"
 }

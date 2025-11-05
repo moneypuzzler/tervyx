@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:22:06.963491+00:00",
+  "generated": "2025-11-05T09:32:27.457062+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/rhodiola-ment-rhod-anx/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.3390/molecules27123823"
     }
   ],
-  "manifest_hash": "sha256:a2443320d737107b5968c1a4d03be9c4cdc3d0aa10676dd23d460b274b782a13"
+  "manifest_hash": "sha256:60ac895aaf13fac1a253a8379f5efc83c15c114c0c5835dfc691f5e97cb817f0"
 }

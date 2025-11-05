@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:22:17.111981+00:00",
+  "generated": "2025-11-05T09:32:35.469233+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/magnesium-glycinate-mh-mag-glyc/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1684/mrh.2010.0220"
     }
   ],
-  "manifest_hash": "sha256:0ca2599d89c7f0caf4ed303bbcd63f174e615267152f9133a8e182b59828734d"
+  "manifest_hash": "sha256:9c0ae08cd0f41d05702bdb8f23f27e8695e00c4436b7628a48ab8172dd9a66cd"
 }

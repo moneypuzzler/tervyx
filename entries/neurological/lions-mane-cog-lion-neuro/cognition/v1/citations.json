@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:35:18.384459+00:00",
+  "generated": "2025-11-05T09:32:41.689943+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/lions-mane-cog-lion-neuro/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.3389/fnut.2023.1405796"
     }
   ],
-  "manifest_hash": "sha256:b102cc4176e65e04d57d4622f765295951c25da76a1d8e31092297c8b5ac3490"
+  "manifest_hash": "sha256:7d61ff2cd540c46c8aa51dabd390a24bad7f589e5b8298c78193a0f8a954834e"
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T08:06:41.404307+00:00",
+  "generated": "2025-11-05T09:32:54.798454+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/magnesium-threonate-slp-mag-thr/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1684/mrh.2010.0220"
     }
   ],
-  "manifest_hash": "sha256:10675fab94dc7c12862476d35eb3deab8f7e9f79dd6b4b98a061f21973573f75"
+  "manifest_hash": "sha256:0b653ca3d01273090bf70d8cf88c8bf9bdb0a425086dd52db239ceb0580786f7"
 }

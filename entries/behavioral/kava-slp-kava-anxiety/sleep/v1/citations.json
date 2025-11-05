@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:16:53.154370+00:00",
+  "generated": "2025-11-05T09:32:18.607462+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/kava-slp-kava-anxiety/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.3390/nu15214586"
     }
   ],
-  "manifest_hash": "sha256:35322faaace53b5d18dfb61247771523673e70994cf429cd98bb043387316e2a"
+  "manifest_hash": "sha256:94e6c9866910b767d870c9c761e5ec3c68258fda193c4d321a3ee30077275dba"
 }

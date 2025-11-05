@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:35:27.345149+00:00",
+  "generated": "2025-11-05T09:32:48.845332+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/nicotinamide-riboside-cog-nico-noot/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1038/s41467-019-08513-9"
     }
   ],
-  "manifest_hash": "sha256:c58ef42899489e13602bec5663de84774f749740716225f867ced550ea128d7f"
+  "manifest_hash": "sha256:b9a7ad2c0543e732ad38b74c71d9ec734430219b55a571af203593763dd16d54"
 }

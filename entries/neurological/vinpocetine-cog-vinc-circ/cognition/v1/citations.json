@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:35:25.238310+00:00",
+  "generated": "2025-11-05T09:32:47.090311+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/vinpocetine-cog-vinc-circ/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1159/000445116"
     }
   ],
-  "manifest_hash": "sha256:c1f7772a7abe00b66d90a0bb3dd975405dc90d25e2b85f2180a2040bfbc9d5ef"
+  "manifest_hash": "sha256:7bfa9272487189b96264fbea44830fe8c09f2d5d69ca3c510a274de37ea548c5"
 }

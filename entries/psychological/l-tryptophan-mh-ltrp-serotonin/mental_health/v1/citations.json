@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:22:15.982942+00:00",
+  "generated": "2025-11-05T09:32:34.589525+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/l-tryptophan-mh-ltrp-serotonin/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.3389/fnut.2020.00099"
     }
   ],
-  "manifest_hash": "sha256:3532bae7fd12efe30e73b11c6e4252a6d2e321e753be2d02ba979c17a419397a"
+  "manifest_hash": "sha256:6c4056b0709e352653d9d6dc5e425b25c254d1dd93711672fe3aa6a1ad4a3a85"
 }

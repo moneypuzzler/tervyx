@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:22:10.890685+00:00",
+  "generated": "2025-11-05T09:32:30.598779+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/myo-inositol-ment-myo-in/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1176/ajp.152.5.792"
     }
   ],
-  "manifest_hash": "sha256:c16d67bd199dbe579a60016b4195f71e9ca2b58465d94c16832d14075b032567"
+  "manifest_hash": "sha256:1811f090781cfc0c9d94b311b045bcbd714444e6e1c307f5e7d727d53c39b56f"
 }

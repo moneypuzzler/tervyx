@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:16:52.029543+00:00",
+  "generated": "2025-11-05T09:32:17.710276+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/tryptophan-slp-tryp-mel/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.4137/ijtr.s1129"
     }
   ],
-  "manifest_hash": "sha256:8dfcedfaf6739ab8f0f4592a3a6b32f557aa5dc20739c58ce7757054d6eacdeb"
+  "manifest_hash": "sha256:b27d5e8ef5183b3e5eb4c2f6d40d6280205fb4f906b481894e44a2a3c6f0bb94"
 }

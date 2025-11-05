@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:22:08.071961+00:00",
+  "generated": "2025-11-05T09:32:28.397885+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/nac-ment-nac-ocd/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.4088/jcp.16m11101"
     }
   ],
-  "manifest_hash": "sha256:dde75209f8717ab8605f8dc7f1e8a17edacca9257115ff1c22f9f1b4747a0db7"
+  "manifest_hash": "sha256:187ceb2c180dd243fdc81815c36afbb60177ffa1bc8f4cf7d6fa9f82731eb93d"
 }

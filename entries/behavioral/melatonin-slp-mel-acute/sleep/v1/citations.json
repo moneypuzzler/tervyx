@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:16:49.708021+00:00",
+  "generated": "2025-11-05T09:32:16.012117+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/melatonin-slp-mel-acute/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1371/journal.pone.0063773"
     }
   ],
-  "manifest_hash": "sha256:edb4372b5485ebd952b13e579b7825a83e5609785048ce2be65e0d47f1c40742"
+  "manifest_hash": "sha256:4616f36298adeb258774e193540dbd525f37ccc581f4f235a2a11a57d0ba0c50"
 }

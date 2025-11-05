@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:22:14.221929+00:00",
+  "generated": "2025-11-05T09:32:33.254059+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/ketamine-support-ment-ket-nutri/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1038/s41386-020-0623-9"
     }
   ],
-  "manifest_hash": "sha256:392622df1d5c51d9b9f1c42d69c2fc195cb4afa4b95241cdf348452353813c46"
+  "manifest_hash": "sha256:ed19ce9690cc1d99fea2a5d2b551738c3d05d0c98288a6f916d35a4639f6a25e"
 }

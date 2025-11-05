@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T07:22:03.682533+00:00",
+  "created": "2025-11-05T09:32:24.806172+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:1e3e16eb49b30f908cb536f4197443655e05445950c59186c1de485722799d8d",
-  "audit_hash": "0x97b040710c0990e6"
+  "citations_manifest_hash": "sha256:052a314c6fe57560f5ad214090dbea1c4acbf45cfea1273f6d82d457750db905",
+  "audit_hash": "0x02be7facc8a7947a"
 }

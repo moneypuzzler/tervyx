@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:22:16.559815+00:00",
+  "generated": "2025-11-05T09:32:35.020728+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/lavender-ment-lav-caps/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1017/s1461145714000017"
     }
   ],
-  "manifest_hash": "sha256:2ae5e93e6879f64640e0aecbecb11d8144d04f419356e671272dc26ead554cd2"
+  "manifest_hash": "sha256:67b7ed14ceb24a5def79bffdae98364b1f74ca2f22171a75c4072b3613c2df9c"
 }

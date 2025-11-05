@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:35:28.437190+00:00",
+  "generated": "2025-11-05T09:32:49.695476+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/nootropic-blend-cog-brain-multi/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.3390/nu12051546"
     }
   ],
-  "manifest_hash": "sha256:9ccda3e19ba626b5ba8bfb8d954e68757917daa7538c82b6a1ed74b7f89cff93"
+  "manifest_hash": "sha256:ee07af603c58be9767c2b5f1f67ef4049584fedfe9c81204ce3d61516312b072"
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:22:05.329815+00:00",
+  "generated": "2025-11-05T09:32:26.087308+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/st-johns-wort-ment-stj-wort/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1192/bjp.186.2.99"
     }
   ],
-  "manifest_hash": "sha256:c09b3cc5adbe24cf9305dcff631d0fdf30ce6c2ae1fdbb3ced9e4df5d99b399a"
+  "manifest_hash": "sha256:d915521bda42064b3f3c919b7db0d1d43437142b2dcef6455b2ca22172653851"
 }

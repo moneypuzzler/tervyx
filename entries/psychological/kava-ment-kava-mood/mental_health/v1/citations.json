@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:22:13.650534+00:00",
+  "generated": "2025-11-05T09:32:32.788315+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/kava-ment-kava-mood/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.3390/nu15214586"
     }
   ],
-  "manifest_hash": "sha256:44c1e58f953019dfa7774c9d5c93d5ac1d3cc656a72c83e9d8dfdbb4911209d5"
+  "manifest_hash": "sha256:f26235fc71c318c8f17e0bb3181e06bb402a06ca328f076829e9fedb3cac4b5b"
 }

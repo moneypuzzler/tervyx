@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T07:35:26.305756+00:00",
+  "generated": "2025-11-05T09:32:47.988878+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/neurological/methyl-b12-cog-b12-cog/cognition/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.3945/ajcn.116.141374"
     }
   ],
-  "manifest_hash": "sha256:c9e1fa6be15cd039af7194508a34f97bb05fe2be4fc31c1a991fad86868fccdf"
+  "manifest_hash": "sha256:f162f38a7cb8dfde2b595182c3ac018e86d36b43e8623eec5400bd30436f8338"
 }
