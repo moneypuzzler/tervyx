@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:05.027777+00:00",
+  "created": "2025-11-05T07:16:53.768703+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,16 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/slp-inos-ocular-01",
+      "@id": "doi:10.1080/14767058.2020.1818225",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-inos-ocular-01",
+      "identifier": "doi:10.1080/14767058.2020.1818225",
       "studyIds": [
-        "SLP-INOS-OCULAR_01"
+        "SLP-INOS-OCULAR_01",
+        "SLP-INOS-OCULAR_03"
       ],
-      "citation": "SLP-INOS-OCULAR_01 (2005); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1234/slp-inos-ocular-01; Adverse Events: None reported.",
-      "doi": "10.1234/slp-inos-ocular-01",
-      "sameAs": "https://doi.org/10.1234/slp-inos-ocular-01",
+      "citation": "SLP-INOS-OCULAR_01 (2005); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1080/14767058.2020.1818225; Adverse Events: None reported.",
+      "doi": "10.1080/14767058.2020.1818225",
+      "sameAs": "https://doi.org/10.1080/14767058.2020.1818225",
       "datePublished": "2005",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,38 +77,22 @@
       }
     },
     {
-      "@id": "doi:10.1234/slp-inos-ocular-02",
+      "@id": "doi:10.1159/000478861",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-inos-ocular-02",
+      "identifier": "doi:10.1159/000478861",
       "studyIds": [
         "SLP-INOS-OCULAR_02"
       ],
-      "citation": "SLP-INOS-OCULAR_02 (2006); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1234/slp-inos-ocular-02; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/slp-inos-ocular-02",
-      "sameAs": "https://doi.org/10.1234/slp-inos-ocular-02",
+      "citation": "SLP-INOS-OCULAR_02 (2006); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1159/000478861; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1159/000478861",
+      "sameAs": "https://doi.org/10.1159/000478861",
       "datePublished": "2006",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "sleep_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/slp-inos-ocular-03",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-inos-ocular-03",
-      "studyIds": [
-        "SLP-INOS-OCULAR_03"
-      ],
-      "citation": "SLP-INOS-OCULAR_03 (2007); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1234/slp-inos-ocular-03; Adverse Events: Transient headache.",
-      "doi": "10.1234/slp-inos-ocular-03",
-      "sameAs": "https://doi.org/10.1234/slp-inos-ocular-03",
-      "datePublished": "2007",
       "isPartOf": {
         "@type": "Periodical",
         "name": "sleep_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:2e3a2f814e46d7382c931ab3779603687c3cda87ad94f396b6342f145ffb94aa",
-  "audit_hash": "0xc02409161058bb7c"
+  "citations_manifest_hash": "sha256:0ec0003ff2b2a0f5760176a23d47dbe8e82d3dfbf86f32626a18aaff85657200",
+  "audit_hash": "0x8980e7fb541e21c9"
 }

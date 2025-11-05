@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:50:09.029351+00:00",
+  "generated": "2025-11-05T07:16:54.903282+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/matcha-slp-thea-matcha/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -12,9 +12,9 @@
       "outcome": "sleep_quality",
       "population": "Adults with sleep quality concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/slp-thea-matcha-01",
-      "url": "https://doi.org/10.1234/slp-thea-matcha-01",
-      "citation": "SLP-THEA-MATCHA_01 (2006); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-thea-matcha-01; Adverse Events: Mild GI discomfort."
+      "doi": "10.3390/nu16172907",
+      "url": "https://doi.org/10.3390/nu16172907",
+      "citation": "SLP-THEA-MATCHA_01 (2006); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.3390/nu16172907; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "SLP-THEA-MATCHA_02",
@@ -24,9 +24,9 @@
       "outcome": "sleep_quality",
       "population": "Adults with sleep quality concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/slp-thea-matcha-02",
-      "url": "https://doi.org/10.1234/slp-thea-matcha-02",
-      "citation": "SLP-THEA-MATCHA_02 (2007); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-thea-matcha-02; Adverse Events: Transient headache."
+      "doi": "10.1371/journal.pone.0309287",
+      "url": "https://doi.org/10.1371/journal.pone.0309287",
+      "citation": "SLP-THEA-MATCHA_02 (2007); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1371/journal.pone.0309287; Adverse Events: Transient headache."
     },
     {
       "study_id": "SLP-THEA-MATCHA_03",
@@ -36,39 +36,39 @@
       "outcome": "sleep_quality",
       "population": "Adults with sleep quality concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/slp-thea-matcha-03",
-      "url": "https://doi.org/10.1234/slp-thea-matcha-03",
-      "citation": "SLP-THEA-MATCHA_03 (2008); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-thea-matcha-03; Adverse Events: None reported."
+      "doi": "10.3390/nu9070777",
+      "url": "https://doi.org/10.3390/nu9070777",
+      "citation": "SLP-THEA-MATCHA_03 (2008); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.3390/nu9070777; Adverse Events: None reported."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/slp-thea-matcha-01",
-      "study_ids": [
-        "SLP-THEA-MATCHA_01"
-      ],
-      "primary_study_id": "SLP-THEA-MATCHA_01",
-      "url": "https://doi.org/10.1234/slp-thea-matcha-01"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/slp-thea-matcha-02",
+      "identifier": "10.1371/journal.pone.0309287",
       "study_ids": [
         "SLP-THEA-MATCHA_02"
       ],
       "primary_study_id": "SLP-THEA-MATCHA_02",
-      "url": "https://doi.org/10.1234/slp-thea-matcha-02"
+      "url": "https://doi.org/10.1371/journal.pone.0309287"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/slp-thea-matcha-03",
+      "identifier": "10.3390/nu16172907",
+      "study_ids": [
+        "SLP-THEA-MATCHA_01"
+      ],
+      "primary_study_id": "SLP-THEA-MATCHA_01",
+      "url": "https://doi.org/10.3390/nu16172907"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.3390/nu9070777",
       "study_ids": [
         "SLP-THEA-MATCHA_03"
       ],
       "primary_study_id": "SLP-THEA-MATCHA_03",
-      "url": "https://doi.org/10.1234/slp-thea-matcha-03"
+      "url": "https://doi.org/10.3390/nu9070777"
     }
   ],
-  "manifest_hash": "sha256:81ccafbe56770f372687e09e7f4e5bab2ec98caab8f2e4551e5d9f1ca60f0151"
+  "manifest_hash": "sha256:08fda458f7fb94e466266e35796a438c8aa1589724c0eb6d47546d1dded0a6ab"
 }

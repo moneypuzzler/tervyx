@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:08.439457+00:00",
+  "created": "2025-11-05T07:16:54.340834+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,16 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/slp-mag-thr-01",
+      "@id": "doi:10.1016/j.sleepx.2024.100121",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-mag-thr-01",
+      "identifier": "doi:10.1016/j.sleepx.2024.100121",
       "studyIds": [
-        "SLP-MAG-THR_01"
+        "SLP-MAG-THR_01",
+        "SLP-MAG-THR_02"
       ],
-      "citation": "SLP-MAG-THR_01 (2007); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-mag-thr-01; Adverse Events: Transient headache.",
-      "doi": "10.1234/slp-mag-thr-01",
-      "sameAs": "https://doi.org/10.1234/slp-mag-thr-01",
+      "citation": "SLP-MAG-THR_01 (2007); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1016/j.sleepx.2024.100121; Adverse Events: Transient headache.",
+      "doi": "10.1016/j.sleepx.2024.100121",
+      "sameAs": "https://doi.org/10.1016/j.sleepx.2024.100121",
       "datePublished": "2007",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,31 +77,15 @@
       }
     },
     {
-      "@id": "doi:10.1234/slp-mag-thr-02",
+      "@id": "doi:10.1093/nutrit/nuab027",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-mag-thr-02",
-      "studyIds": [
-        "SLP-MAG-THR_02"
-      ],
-      "citation": "SLP-MAG-THR_02 (2008); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-mag-thr-02; Adverse Events: None reported.",
-      "doi": "10.1234/slp-mag-thr-02",
-      "sameAs": "https://doi.org/10.1234/slp-mag-thr-02",
-      "datePublished": "2008",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "sleep_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/slp-mag-thr-03",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-mag-thr-03",
+      "identifier": "doi:10.1093/nutrit/nuab027",
       "studyIds": [
         "SLP-MAG-THR_03"
       ],
-      "citation": "SLP-MAG-THR_03 (2009); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-mag-thr-03; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/slp-mag-thr-03",
-      "sameAs": "https://doi.org/10.1234/slp-mag-thr-03",
+      "citation": "SLP-MAG-THR_03 (2009); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1093/nutrit/nuab027; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1093/nutrit/nuab027",
+      "sameAs": "https://doi.org/10.1093/nutrit/nuab027",
       "datePublished": "2009",
       "isPartOf": {
         "@type": "Periodical",
@@ -108,6 +93,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:19de263d141c12e6e5f4d9775ccec5e70368f4679ee237be425f385089ffdc40",
-  "audit_hash": "0xfd0281e1b91b93df"
+  "citations_manifest_hash": "sha256:9648c0367a1fd00bd93ca3fa8945da13a662956fed9ba431098642599c6f81dd",
+  "audit_hash": "0x2badadfe2fb82603"
 }

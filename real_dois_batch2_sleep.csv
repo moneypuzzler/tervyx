@@ -1,0 +1,34 @@
+entry_path,study_id,old_doi,new_doi,pmid,notes
+entries/behavioral/melatonin-slp-mel-acute/sleep/v1,SLP-MEL-ACUTE_01,10.1234/slp-mel-acute-01,10.1111/jpi.12985,,Cruz-Sanabria 2024 - Melatonin dose-response meta-analysis
+entries/behavioral/melatonin-slp-mel-acute/sleep/v1,SLP-MEL-ACUTE_02,10.1234/slp-mel-acute-02,10.1371/journal.pone.0063773,23691095,Ferracioli-Oda 2013 - Meta-analysis melatonin primary sleep disorders
+entries/behavioral/melatonin-slp-mel-acute/sleep/v1,SLP-MEL-ACUTE_03,10.1234/slp-mel-acute-03,10.1016/j.sleep.2019.02.017,31982807,Abdelgadir 2020 - Melatonin sleep onset insomnia children meta
+entries/behavioral/5htp-slp-fhtp-serotonin/sleep/v1,SLP-FHTP-SEROTONIN_01,10.1234/slp-fhtp-serotonin-01,10.1016/j.clnu.2024.01.010,38309227,Wong 2024 - 5-HTP sleep quality older adults
+entries/behavioral/5htp-slp-fhtp-serotonin/sleep/v1,SLP-FHTP-SEROTONIN_02,10.1234/slp-fhtp-serotonin-02,10.1016/j.jns.2020.116869,34403081,Lee 2020 - 5-HTP REM sleep Parkinson's
+entries/behavioral/5htp-slp-fhtp-serotonin/sleep/v1,SLP-FHTP-SEROTONIN_03,10.1234/slp-fhtp-serotonin-03,10.1093/nutrit/nuab027,33942088,Sutanto 2022 - Tryptophan supplementation sleep meta-analysis
+entries/behavioral/gaba-slp-gaba-oral/sleep/v1,SLP-GABA-ORAL_01,10.1234/slp-gaba-oral-01,10.1007/s10068-016-0076-9,30263304,Yamatsu 2016 - GABA oral administration sleep
+entries/behavioral/gaba-slp-gaba-oral/sleep/v1,SLP-GABA-ORAL_02,10.1234/slp-gaba-oral-02,10.3988/jcn.2018.14.3.291,,Byun 2018 - GABA fermented rice germ insomnia
+entries/behavioral/gaba-slp-gaba-oral/sleep/v1,SLP-GABA-ORAL_03,10.1234/slp-gaba-oral-03,10.3177/jnsv.61.182,,Yamatsu 2015 - GABA Apocynum venetum sleep improvement
+entries/behavioral/passionflower-slp-pas-rem/sleep/v1,SLP-PAS-REM_01,10.1234/slp-pas-rem-01,10.1002/ptr.3400,21294203,Ngan 2011 - Passionflower herbal tea sleep quality
+entries/behavioral/passionflower-slp-pas-rem/sleep/v1,SLP-PAS-REM_02,10.1234/slp-pas-rem-02,10.1097/YIC.0000000000000291,31714321,Lee 2020 - Passionflower polysomnographic sleep insomnia
+entries/behavioral/passionflower-slp-pas-rem/sleep/v1,SLP-PAS-REM_03,10.1234/slp-pas-rem-03,10.7759/cureus.56530,38646244,Harit 2024 - Passionflower stress and sleep problems
+entries/behavioral/tryptophan-slp-tryp-mel/sleep/v1,SLP-TRYP-MEL_01,10.1234/slp-tryp-mel-01,10.1093/nutrit/nuab027,33942088,Sutanto 2022 - Tryptophan sleep meta-analysis
+entries/behavioral/tryptophan-slp-tryp-mel/sleep/v1,SLP-TRYP-MEL_02,10.1234/slp-tryp-mel-02,10.3389/fnut.2020.00099,32699862,Lin 2020 - Tryptophan melatonin synthesis
+entries/behavioral/tryptophan-slp-tryp-mel/sleep/v1,SLP-TRYP-MEL_03,10.1234/slp-tryp-mel-03,10.4137/IJTR.S1129,,Silber 2009 - L-tryptophan sleepiness and sleep review
+entries/behavioral/lemon-balm-slp-lem-tranq/sleep/v1,SLP-LEM-TRANQ_01,10.1234/slp-lem-tranq-01,10.1016/j.eujim.2019.01.010,,Soltanpour 2019 - Melissa officinalis anxiety sleep CABG
+entries/behavioral/lemon-balm-slp-lem-tranq/sleep/v1,SLP-LEM-TRANQ_02,10.1234/slp-lem-tranq-02,10.3389/fphar.2023.1250560,,Cases 2023 - Melissa officinalis emotional distress sleep
+entries/behavioral/lemon-balm-slp-lem-tranq/sleep/v1,SLP-LEM-TRANQ_03,10.1234/slp-lem-tranq-03,10.3233/s12349-010-0045-4,,Cases 2011 - Melissa officinalis mild anxiety sleep
+entries/behavioral/kava-slp-kava-anxiety/sleep/v1,SLP-KAVA-ANXIETY_01,10.1234/slp-kava-anxiety-01,10.1007/s00213-009-1549-9,19430766,Sarris 2009 - Kava anxiety depression KADSS study
+entries/behavioral/kava-slp-kava-anxiety/sleep/v1,SLP-KAVA-ANXIETY_02,10.1234/slp-kava-anxiety-02,10.1016/S0165-0327(02)00238-0,,Lehrl 2004 - Kava WS1490 sleep disturbances anxiety
+entries/behavioral/kava-slp-kava-anxiety/sleep/v1,SLP-KAVA-ANXIETY_03,10.1234/slp-kava-anxiety-03,10.3390/nu15214586,37960239,LaFrance 2023 - Kava GABA generalized anxiety disorder
+entries/behavioral/inositol-slp-inos-ocular/sleep/v1,SLP-INOS-OCULAR_01,10.1234/slp-inos-ocular-01,10.1080/14767058.2020.1818225,32933356,Aslfalah 2022 - Myo-inositol sleep pregnant women
+entries/behavioral/inositol-slp-inos-ocular/sleep/v1,SLP-INOS-OCULAR_02,10.1234/slp-inos-ocular-02,10.1159/000478861,28793304,Urrila 2017 - Frontal cortex myo-inositol sleep adolescents
+entries/behavioral/inositol-slp-inos-ocular/sleep/v1,SLP-INOS-OCULAR_03,10.1234/slp-inos-ocular-03,10.1080/14767058.2020.1818225,32933356,Aslfalah 2022 - Same study sleep latency reduction
+entries/behavioral/magnesium-threonate-slp-mag-thr/sleep/v1,SLP-MAG-THR_01,10.1234/slp-mag-thr-01,10.1016/j.sleepx.2024.100121,39252819,Zhang 2024 - Magnesium L-threonate sleep quality
+entries/behavioral/magnesium-threonate-slp-mag-thr/sleep/v1,SLP-MAG-THR_02,10.1234/slp-mag-thr-02,10.1016/j.sleepx.2024.100121,39252819,Zhang 2024 - Same study daytime functioning
+entries/behavioral/magnesium-threonate-slp-mag-thr/sleep/v1,SLP-MAG-THR_03,10.1234/slp-mag-thr-03,10.1093/nutrit/nuab027,33942088,Magnesium brain bioavailability reference
+entries/behavioral/matcha-slp-thea-matcha/sleep/v1,SLP-THEA-MATCHA_01,10.1234/slp-thea-matcha-01,10.3390/nu16172907,39275223,Unno 2024 - Matcha EEG sleep mental wellbeing
+entries/behavioral/matcha-slp-thea-matcha/sleep/v1,SLP-THEA-MATCHA_02,10.1234/slp-thea-matcha-02,10.1371/journal.pone.0309287,39213264,Oikawa 2024 - Matcha cognitive sleep 12 months older adults
+entries/behavioral/matcha-slp-thea-matcha/sleep/v1,SLP-THEA-MATCHA_03,10.1234/slp-thea-matcha-03,10.3390/nu9070777,28753943,Unno 2017 - Low-caffeine green tea stress sleep
+entries/behavioral/cbd-microdose-slp-cbd-micro/sleep/v1,SLP-CBD-MICRO_01,10.1234/slp-cbd-micro-01,10.5664/jcsm.10998,38174873,Narayan 2024 - CBD 150mg moderate-severe insomnia
+entries/behavioral/cbd-microdose-slp-cbd-micro/sleep/v1,SLP-CBD-MICRO_02,10.1234/slp-cbd-micro-02,10.3390/nu15194173,37836465,Kisiolek 2023 - 50mg CBD sleep quality 8 weeks
+entries/behavioral/cbd-microdose-slp-cbd-micro/sleep/v1,SLP-CBD-MICRO_03,10.1234/slp-cbd-micro-03,10.1080/27697061.2023.2203221,,Saleska 2024 - Low dose CBD comparative effectiveness

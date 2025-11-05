@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:50:07.300499+00:00",
+  "generated": "2025-11-05T07:16:52.584505+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/lemon-balm-slp-lem-tranq/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -12,9 +12,9 @@
       "outcome": "sleep_quality",
       "population": "Adults with sleep quality concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/slp-lem-tranq-01",
-      "url": "https://doi.org/10.1234/slp-lem-tranq-01",
-      "citation": "SLP-LEM-TRANQ_01 (2014); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-lem-tranq-01; Adverse Events: None reported."
+      "doi": "10.1016/j.eujim.2019.01.010",
+      "url": "https://doi.org/10.1016/j.eujim.2019.01.010",
+      "citation": "SLP-LEM-TRANQ_01 (2014); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1016/j.eujim.2019.01.010; Adverse Events: None reported."
     },
     {
       "study_id": "SLP-LEM-TRANQ_02",
@@ -24,9 +24,9 @@
       "outcome": "sleep_quality",
       "population": "Adults with sleep quality concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/slp-lem-tranq-02",
-      "url": "https://doi.org/10.1234/slp-lem-tranq-02",
-      "citation": "SLP-LEM-TRANQ_02 (2015); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-lem-tranq-02; Adverse Events: Mild GI discomfort."
+      "doi": "10.3389/fphar.2023.1250560",
+      "url": "https://doi.org/10.3389/fphar.2023.1250560",
+      "citation": "SLP-LEM-TRANQ_02 (2015); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.3389/fphar.2023.1250560; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "SLP-LEM-TRANQ_03",
@@ -36,39 +36,39 @@
       "outcome": "sleep_quality",
       "population": "Adults with sleep quality concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/slp-lem-tranq-03",
-      "url": "https://doi.org/10.1234/slp-lem-tranq-03",
-      "citation": "SLP-LEM-TRANQ_03 (2016); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-lem-tranq-03; Adverse Events: Transient headache."
+      "doi": "10.3233/s12349-010-0045-4",
+      "url": "https://doi.org/10.3233/s12349-010-0045-4",
+      "citation": "SLP-LEM-TRANQ_03 (2016); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.3233/s12349-010-0045-4; Adverse Events: Transient headache."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/slp-lem-tranq-01",
+      "identifier": "10.1016/j.eujim.2019.01.010",
       "study_ids": [
         "SLP-LEM-TRANQ_01"
       ],
       "primary_study_id": "SLP-LEM-TRANQ_01",
-      "url": "https://doi.org/10.1234/slp-lem-tranq-01"
+      "url": "https://doi.org/10.1016/j.eujim.2019.01.010"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/slp-lem-tranq-02",
-      "study_ids": [
-        "SLP-LEM-TRANQ_02"
-      ],
-      "primary_study_id": "SLP-LEM-TRANQ_02",
-      "url": "https://doi.org/10.1234/slp-lem-tranq-02"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/slp-lem-tranq-03",
+      "identifier": "10.3233/s12349-010-0045-4",
       "study_ids": [
         "SLP-LEM-TRANQ_03"
       ],
       "primary_study_id": "SLP-LEM-TRANQ_03",
-      "url": "https://doi.org/10.1234/slp-lem-tranq-03"
+      "url": "https://doi.org/10.3233/s12349-010-0045-4"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.3389/fphar.2023.1250560",
+      "study_ids": [
+        "SLP-LEM-TRANQ_02"
+      ],
+      "primary_study_id": "SLP-LEM-TRANQ_02",
+      "url": "https://doi.org/10.3389/fphar.2023.1250560"
     }
   ],
-  "manifest_hash": "sha256:55e949eb6d09796ac4859c1674a8d168ca72531cf2364619a825755388170b2a"
+  "manifest_hash": "sha256:17f05841e820c389a676dd92e85410f776857bc880e584e3488693cb6019bd32"
 }

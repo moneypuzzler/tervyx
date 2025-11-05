@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-SLP-KAVA-ANXIETY_01,2018,randomized controlled trial,SMD,-0.3306,-0.4803,-0.1810,68,53,some concerns,10.1234/slp-kava-anxiety-01,sleep_journal,sleep_anxiety,Adults with sleep anxiety concerns,Mild GI discomfort,7
-SLP-KAVA-ANXIETY_02,2019,randomized controlled trial,SMD,-0.3926,-0.5379,-0.2473,72,56,mixed,10.1234/slp-kava-anxiety-02,sleep_journal,sleep_anxiety,Adults with sleep anxiety concerns,Transient headache,8
-SLP-KAVA-ANXIETY_03,2020,randomized controlled trial,SMD,-0.3904,-0.5310,-0.2499,76,59,low,10.1234/slp-kava-anxiety-03,sleep_journal,sleep_anxiety,Adults with sleep anxiety concerns,None reported,9
+SLP-KAVA-ANXIETY_01,2018,randomized controlled trial,SMD,-0.3306,-0.4803,-0.1810,68,53,some concerns,10.1007/s00213-009-1549-9,sleep_journal,sleep_anxiety,Adults with sleep anxiety concerns,Mild GI discomfort,7
+SLP-KAVA-ANXIETY_02,2019,randomized controlled trial,SMD,-0.3926,-0.5379,-0.2473,72,56,mixed,10.1016/S0165-0327(02)00238-0,sleep_journal,sleep_anxiety,Adults with sleep anxiety concerns,Transient headache,8
+SLP-KAVA-ANXIETY_03,2020,randomized controlled trial,SMD,-0.3904,-0.5310,-0.2499,76,59,low,10.3390/nu15214586,sleep_journal,sleep_anxiety,Adults with sleep anxiety concerns,None reported,9

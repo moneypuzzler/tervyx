@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:01.088564+00:00",
+  "created": "2025-11-05T07:16:50.324710+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/slp-fhtp-serotonin-01",
+      "@id": "doi:10.1016/j.clnu.2024.01.010",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-fhtp-serotonin-01",
+      "identifier": "doi:10.1016/j.clnu.2024.01.010",
       "studyIds": [
         "SLP-FHTP-SEROTONIN_01"
       ],
-      "citation": "SLP-FHTP-SEROTONIN_01 (2017); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-fhtp-serotonin-01; Adverse Events: None reported.",
-      "doi": "10.1234/slp-fhtp-serotonin-01",
-      "sameAs": "https://doi.org/10.1234/slp-fhtp-serotonin-01",
+      "citation": "SLP-FHTP-SEROTONIN_01 (2017); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1016/j.clnu.2024.01.010; Adverse Events: None reported.",
+      "doi": "10.1016/j.clnu.2024.01.010",
+      "sameAs": "https://doi.org/10.1016/j.clnu.2024.01.010",
       "datePublished": "2017",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,15 +76,15 @@
       }
     },
     {
-      "@id": "doi:10.1234/slp-fhtp-serotonin-02",
+      "@id": "doi:10.1016/j.jns.2020.116869",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-fhtp-serotonin-02",
+      "identifier": "doi:10.1016/j.jns.2020.116869",
       "studyIds": [
         "SLP-FHTP-SEROTONIN_02"
       ],
-      "citation": "SLP-FHTP-SEROTONIN_02 (2018); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-fhtp-serotonin-02; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/slp-fhtp-serotonin-02",
-      "sameAs": "https://doi.org/10.1234/slp-fhtp-serotonin-02",
+      "citation": "SLP-FHTP-SEROTONIN_02 (2018); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1016/j.jns.2020.116869; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1016/j.jns.2020.116869",
+      "sameAs": "https://doi.org/10.1016/j.jns.2020.116869",
       "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,15 +92,15 @@
       }
     },
     {
-      "@id": "doi:10.1234/slp-fhtp-serotonin-03",
+      "@id": "doi:10.1093/nutrit/nuab027",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-fhtp-serotonin-03",
+      "identifier": "doi:10.1093/nutrit/nuab027",
       "studyIds": [
         "SLP-FHTP-SEROTONIN_03"
       ],
-      "citation": "SLP-FHTP-SEROTONIN_03 (2019); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-fhtp-serotonin-03; Adverse Events: Transient headache.",
-      "doi": "10.1234/slp-fhtp-serotonin-03",
-      "sameAs": "https://doi.org/10.1234/slp-fhtp-serotonin-03",
+      "citation": "SLP-FHTP-SEROTONIN_03 (2019); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1093/nutrit/nuab027; Adverse Events: Transient headache.",
+      "doi": "10.1093/nutrit/nuab027",
+      "sameAs": "https://doi.org/10.1093/nutrit/nuab027",
       "datePublished": "2019",
       "isPartOf": {
         "@type": "Periodical",
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:15b360897aaad140471facc8b5e2cd7aaaf26669224e38483fa1525192732214",
-  "audit_hash": "0x177ee36df00abc8c"
+  "citations_manifest_hash": "sha256:b0ae6956f4d401144ad4ab9fee7f43aecf384db624f0321b1dfa7fed57a2a8fe",
+  "audit_hash": "0xb468739a88a70be2"
 }

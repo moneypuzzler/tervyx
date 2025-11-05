@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:09.029468+00:00",
+  "created": "2025-11-05T07:16:54.903404+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,31 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/slp-thea-matcha-01",
+      "@id": "doi:10.1371/journal.pone.0309287",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-thea-matcha-01",
-      "studyIds": [
-        "SLP-THEA-MATCHA_01"
-      ],
-      "citation": "SLP-THEA-MATCHA_01 (2006); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-thea-matcha-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/slp-thea-matcha-01",
-      "sameAs": "https://doi.org/10.1234/slp-thea-matcha-01",
-      "datePublished": "2006",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "sleep_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/slp-thea-matcha-02",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-thea-matcha-02",
+      "identifier": "doi:10.1371/journal.pone.0309287",
       "studyIds": [
         "SLP-THEA-MATCHA_02"
       ],
-      "citation": "SLP-THEA-MATCHA_02 (2007); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-thea-matcha-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/slp-thea-matcha-02",
-      "sameAs": "https://doi.org/10.1234/slp-thea-matcha-02",
+      "citation": "SLP-THEA-MATCHA_02 (2007); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1371/journal.pone.0309287; Adverse Events: Transient headache.",
+      "doi": "10.1371/journal.pone.0309287",
+      "sameAs": "https://doi.org/10.1371/journal.pone.0309287",
       "datePublished": "2007",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,15 +76,31 @@
       }
     },
     {
-      "@id": "doi:10.1234/slp-thea-matcha-03",
+      "@id": "doi:10.3390/nu16172907",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-thea-matcha-03",
+      "identifier": "doi:10.3390/nu16172907",
+      "studyIds": [
+        "SLP-THEA-MATCHA_01"
+      ],
+      "citation": "SLP-THEA-MATCHA_01 (2006); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.3390/nu16172907; Adverse Events: Mild GI discomfort.",
+      "doi": "10.3390/nu16172907",
+      "sameAs": "https://doi.org/10.3390/nu16172907",
+      "datePublished": "2006",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    },
+    {
+      "@id": "doi:10.3390/nu9070777",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.3390/nu9070777",
       "studyIds": [
         "SLP-THEA-MATCHA_03"
       ],
-      "citation": "SLP-THEA-MATCHA_03 (2008); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-thea-matcha-03; Adverse Events: None reported.",
-      "doi": "10.1234/slp-thea-matcha-03",
-      "sameAs": "https://doi.org/10.1234/slp-thea-matcha-03",
+      "citation": "SLP-THEA-MATCHA_03 (2008); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.3390/nu9070777; Adverse Events: None reported.",
+      "doi": "10.3390/nu9070777",
+      "sameAs": "https://doi.org/10.3390/nu9070777",
       "datePublished": "2008",
       "isPartOf": {
         "@type": "Periodical",
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:81ccafbe56770f372687e09e7f4e5bab2ec98caab8f2e4551e5d9f1ca60f0151",
-  "audit_hash": "0xb7d20a3bf74f8815"
+  "citations_manifest_hash": "sha256:08fda458f7fb94e466266e35796a438c8aa1589724c0eb6d47546d1dded0a6ab",
+  "audit_hash": "0x2b70723ecd8373cc"
 }

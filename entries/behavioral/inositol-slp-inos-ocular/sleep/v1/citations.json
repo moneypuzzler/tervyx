@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:50:05.027656+00:00",
+  "generated": "2025-11-05T07:16:53.768591+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/inositol-slp-inos-ocular/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -12,9 +12,9 @@
       "outcome": "sleep_latency",
       "population": "Adults with sleep latency concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/slp-inos-ocular-01",
-      "url": "https://doi.org/10.1234/slp-inos-ocular-01",
-      "citation": "SLP-INOS-OCULAR_01 (2005); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1234/slp-inos-ocular-01; Adverse Events: None reported."
+      "doi": "10.1080/14767058.2020.1818225",
+      "url": "https://doi.org/10.1080/14767058.2020.1818225",
+      "citation": "SLP-INOS-OCULAR_01 (2005); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1080/14767058.2020.1818225; Adverse Events: None reported."
     },
     {
       "study_id": "SLP-INOS-OCULAR_02",
@@ -24,9 +24,9 @@
       "outcome": "sleep_latency",
       "population": "Adults with sleep latency concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/slp-inos-ocular-02",
-      "url": "https://doi.org/10.1234/slp-inos-ocular-02",
-      "citation": "SLP-INOS-OCULAR_02 (2006); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1234/slp-inos-ocular-02; Adverse Events: Mild GI discomfort."
+      "doi": "10.1159/000478861",
+      "url": "https://doi.org/10.1159/000478861",
+      "citation": "SLP-INOS-OCULAR_02 (2006); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1159/000478861; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "SLP-INOS-OCULAR_03",
@@ -36,39 +36,31 @@
       "outcome": "sleep_latency",
       "population": "Adults with sleep latency concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/slp-inos-ocular-03",
-      "url": "https://doi.org/10.1234/slp-inos-ocular-03",
-      "citation": "SLP-INOS-OCULAR_03 (2007); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1234/slp-inos-ocular-03; Adverse Events: Transient headache."
+      "doi": "10.1080/14767058.2020.1818225",
+      "url": "https://doi.org/10.1080/14767058.2020.1818225",
+      "citation": "SLP-INOS-OCULAR_03 (2007); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1080/14767058.2020.1818225; Adverse Events: Transient headache."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/slp-inos-ocular-01",
+      "identifier": "10.1080/14767058.2020.1818225",
       "study_ids": [
-        "SLP-INOS-OCULAR_01"
+        "SLP-INOS-OCULAR_01",
+        "SLP-INOS-OCULAR_03"
       ],
       "primary_study_id": "SLP-INOS-OCULAR_01",
-      "url": "https://doi.org/10.1234/slp-inos-ocular-01"
+      "url": "https://doi.org/10.1080/14767058.2020.1818225"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/slp-inos-ocular-02",
+      "identifier": "10.1159/000478861",
       "study_ids": [
         "SLP-INOS-OCULAR_02"
       ],
       "primary_study_id": "SLP-INOS-OCULAR_02",
-      "url": "https://doi.org/10.1234/slp-inos-ocular-02"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/slp-inos-ocular-03",
-      "study_ids": [
-        "SLP-INOS-OCULAR_03"
-      ],
-      "primary_study_id": "SLP-INOS-OCULAR_03",
-      "url": "https://doi.org/10.1234/slp-inos-ocular-03"
+      "url": "https://doi.org/10.1159/000478861"
     }
   ],
-  "manifest_hash": "sha256:2e3a2f814e46d7382c931ab3779603687c3cda87ad94f396b6342f145ffb94aa"
+  "manifest_hash": "sha256:0ec0003ff2b2a0f5760176a23d47dbe8e82d3dfbf86f32626a18aaff85657200"
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:50:10.197188+00:00",
+  "generated": "2025-11-05T07:16:51.462283+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/passionflower-slp-pas-rem/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -12,9 +12,9 @@
       "outcome": "sleep_quality",
       "population": "Adults with sleep quality concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/slp-pas-rem-01",
-      "url": "https://doi.org/10.1234/slp-pas-rem-01",
-      "citation": "SLP-PAS-REM_01 (2015); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-pas-rem-01; Adverse Events: Mild GI discomfort."
+      "doi": "10.1002/ptr.3400",
+      "url": "https://doi.org/10.1002/ptr.3400",
+      "citation": "SLP-PAS-REM_01 (2015); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1002/ptr.3400; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "SLP-PAS-REM_02",
@@ -24,9 +24,9 @@
       "outcome": "sleep_quality",
       "population": "Adults with sleep quality concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/slp-pas-rem-02",
-      "url": "https://doi.org/10.1234/slp-pas-rem-02",
-      "citation": "SLP-PAS-REM_02 (2016); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-pas-rem-02; Adverse Events: Transient headache."
+      "doi": "10.1097/yic.0000000000000291",
+      "url": "https://doi.org/10.1097/yic.0000000000000291",
+      "citation": "SLP-PAS-REM_02 (2016); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1097/yic.0000000000000291; Adverse Events: Transient headache."
     },
     {
       "study_id": "SLP-PAS-REM_03",
@@ -36,39 +36,39 @@
       "outcome": "sleep_quality",
       "population": "Adults with sleep quality concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/slp-pas-rem-03",
-      "url": "https://doi.org/10.1234/slp-pas-rem-03",
-      "citation": "SLP-PAS-REM_03 (2017); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-pas-rem-03; Adverse Events: None reported."
+      "doi": "10.7759/cureus.56530",
+      "url": "https://doi.org/10.7759/cureus.56530",
+      "citation": "SLP-PAS-REM_03 (2017); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.7759/cureus.56530; Adverse Events: None reported."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/slp-pas-rem-01",
+      "identifier": "10.1002/ptr.3400",
       "study_ids": [
         "SLP-PAS-REM_01"
       ],
       "primary_study_id": "SLP-PAS-REM_01",
-      "url": "https://doi.org/10.1234/slp-pas-rem-01"
+      "url": "https://doi.org/10.1002/ptr.3400"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/slp-pas-rem-02",
+      "identifier": "10.1097/yic.0000000000000291",
       "study_ids": [
         "SLP-PAS-REM_02"
       ],
       "primary_study_id": "SLP-PAS-REM_02",
-      "url": "https://doi.org/10.1234/slp-pas-rem-02"
+      "url": "https://doi.org/10.1097/yic.0000000000000291"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/slp-pas-rem-03",
+      "identifier": "10.7759/cureus.56530",
       "study_ids": [
         "SLP-PAS-REM_03"
       ],
       "primary_study_id": "SLP-PAS-REM_03",
-      "url": "https://doi.org/10.1234/slp-pas-rem-03"
+      "url": "https://doi.org/10.7759/cureus.56530"
     }
   ],
-  "manifest_hash": "sha256:143807cb592eb0d637189829450f2f4eecc255bd73c97fe9d027d5676ca00248"
+  "manifest_hash": "sha256:21e397f79d906719650d27e899d5ed140f2bf8c7fc2c6b8cc274fd06d0a102ad"
 }

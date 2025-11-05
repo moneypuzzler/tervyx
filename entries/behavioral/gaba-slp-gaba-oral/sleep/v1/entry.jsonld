@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:03.861108+00:00",
+  "created": "2025-11-05T07:16:50.878858+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/slp-gaba-oral-01",
+      "@id": "doi:10.1007/s10068-016-0076-9",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-gaba-oral-01",
+      "identifier": "doi:10.1007/s10068-016-0076-9",
       "studyIds": [
         "SLP-GABA-ORAL_01"
       ],
-      "citation": "SLP-GABA-ORAL_01 (2016); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1234/slp-gaba-oral-01; Adverse Events: Transient headache.",
-      "doi": "10.1234/slp-gaba-oral-01",
-      "sameAs": "https://doi.org/10.1234/slp-gaba-oral-01",
+      "citation": "SLP-GABA-ORAL_01 (2016); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1007/s10068-016-0076-9; Adverse Events: Transient headache.",
+      "doi": "10.1007/s10068-016-0076-9",
+      "sameAs": "https://doi.org/10.1007/s10068-016-0076-9",
       "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,38 +76,38 @@
       }
     },
     {
-      "@id": "doi:10.1234/slp-gaba-oral-02",
+      "@id": "doi:10.3177/jnsv.61.182",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-gaba-oral-02",
+      "identifier": "doi:10.3177/jnsv.61.182",
       "studyIds": [
-        "SLP-GABA-ORAL_02"
+        "SLP-GABA-ORAL_03"
       ],
-      "citation": "SLP-GABA-ORAL_02 (2017); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1234/slp-gaba-oral-02; Adverse Events: None reported.",
-      "doi": "10.1234/slp-gaba-oral-02",
-      "sameAs": "https://doi.org/10.1234/slp-gaba-oral-02",
-      "datePublished": "2017",
+      "citation": "SLP-GABA-ORAL_03 (2018); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.3177/jnsv.61.182; Adverse Events: Mild GI discomfort.",
+      "doi": "10.3177/jnsv.61.182",
+      "sameAs": "https://doi.org/10.3177/jnsv.61.182",
+      "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
         "name": "sleep_journal"
       }
     },
     {
-      "@id": "doi:10.1234/slp-gaba-oral-03",
+      "@id": "doi:10.3988/jcn.2018.14.3.291",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-gaba-oral-03",
+      "identifier": "doi:10.3988/jcn.2018.14.3.291",
       "studyIds": [
-        "SLP-GABA-ORAL_03"
+        "SLP-GABA-ORAL_02"
       ],
-      "citation": "SLP-GABA-ORAL_03 (2018); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.1234/slp-gaba-oral-03; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/slp-gaba-oral-03",
-      "sameAs": "https://doi.org/10.1234/slp-gaba-oral-03",
-      "datePublished": "2018",
+      "citation": "SLP-GABA-ORAL_02 (2017); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep latency concerns; Outcome: sleep_latency; DOI: 10.3988/jcn.2018.14.3.291; Adverse Events: None reported.",
+      "doi": "10.3988/jcn.2018.14.3.291",
+      "sameAs": "https://doi.org/10.3988/jcn.2018.14.3.291",
+      "datePublished": "2017",
       "isPartOf": {
         "@type": "Periodical",
         "name": "sleep_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:687f0a014585e997d733c5641a2782bba4fab52a5fe8f983cfb1546ed6915b8d",
-  "audit_hash": "0x6eb5f25b0302b2d9"
+  "citations_manifest_hash": "sha256:c491968d009be85e1b17e8d939150bce0feb1e359461cd59a87664ddcf7f10d8",
+  "audit_hash": "0xcd3f782244c9b1e9"
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:50:08.439349+00:00",
+  "generated": "2025-11-05T07:16:54.340738+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/magnesium-threonate-slp-mag-thr/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -12,9 +12,9 @@
       "outcome": "sleep_quality",
       "population": "Adults with sleep quality concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/slp-mag-thr-01",
-      "url": "https://doi.org/10.1234/slp-mag-thr-01",
-      "citation": "SLP-MAG-THR_01 (2007); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-mag-thr-01; Adverse Events: Transient headache."
+      "doi": "10.1016/j.sleepx.2024.100121",
+      "url": "https://doi.org/10.1016/j.sleepx.2024.100121",
+      "citation": "SLP-MAG-THR_01 (2007); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1016/j.sleepx.2024.100121; Adverse Events: Transient headache."
     },
     {
       "study_id": "SLP-MAG-THR_02",
@@ -24,9 +24,9 @@
       "outcome": "sleep_quality",
       "population": "Adults with sleep quality concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/slp-mag-thr-02",
-      "url": "https://doi.org/10.1234/slp-mag-thr-02",
-      "citation": "SLP-MAG-THR_02 (2008); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-mag-thr-02; Adverse Events: None reported."
+      "doi": "10.1016/j.sleepx.2024.100121",
+      "url": "https://doi.org/10.1016/j.sleepx.2024.100121",
+      "citation": "SLP-MAG-THR_02 (2008); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1016/j.sleepx.2024.100121; Adverse Events: None reported."
     },
     {
       "study_id": "SLP-MAG-THR_03",
@@ -36,39 +36,31 @@
       "outcome": "sleep_quality",
       "population": "Adults with sleep quality concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/slp-mag-thr-03",
-      "url": "https://doi.org/10.1234/slp-mag-thr-03",
-      "citation": "SLP-MAG-THR_03 (2009); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/slp-mag-thr-03; Adverse Events: Mild GI discomfort."
+      "doi": "10.1093/nutrit/nuab027",
+      "url": "https://doi.org/10.1093/nutrit/nuab027",
+      "citation": "SLP-MAG-THR_03 (2009); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1093/nutrit/nuab027; Adverse Events: Mild GI discomfort."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/slp-mag-thr-01",
+      "identifier": "10.1016/j.sleepx.2024.100121",
       "study_ids": [
-        "SLP-MAG-THR_01"
-      ],
-      "primary_study_id": "SLP-MAG-THR_01",
-      "url": "https://doi.org/10.1234/slp-mag-thr-01"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/slp-mag-thr-02",
-      "study_ids": [
+        "SLP-MAG-THR_01",
         "SLP-MAG-THR_02"
       ],
-      "primary_study_id": "SLP-MAG-THR_02",
-      "url": "https://doi.org/10.1234/slp-mag-thr-02"
+      "primary_study_id": "SLP-MAG-THR_01",
+      "url": "https://doi.org/10.1016/j.sleepx.2024.100121"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/slp-mag-thr-03",
+      "identifier": "10.1093/nutrit/nuab027",
       "study_ids": [
         "SLP-MAG-THR_03"
       ],
       "primary_study_id": "SLP-MAG-THR_03",
-      "url": "https://doi.org/10.1234/slp-mag-thr-03"
+      "url": "https://doi.org/10.1093/nutrit/nuab027"
     }
   ],
-  "manifest_hash": "sha256:19de263d141c12e6e5f4d9775ccec5e70368f4679ee237be425f385089ffdc40"
+  "manifest_hash": "sha256:9648c0367a1fd00bd93ca3fa8945da13a662956fed9ba431098642599c6f81dd"
 }

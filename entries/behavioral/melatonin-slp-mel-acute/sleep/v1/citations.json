@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:50:09.585999+00:00",
+  "generated": "2025-11-05T07:16:49.708021+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/melatonin-slp-mel-acute/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -12,9 +12,9 @@
       "outcome": "sleep_onset",
       "population": "Adults with sleep onset concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/slp-mel-acute-01",
-      "url": "https://doi.org/10.1234/slp-mel-acute-01",
-      "citation": "SLP-MEL-ACUTE_01 (2006); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep onset concerns; Outcome: sleep_onset; DOI: 10.1234/slp-mel-acute-01; Adverse Events: Mild GI discomfort."
+      "doi": "10.1111/jpi.12985",
+      "url": "https://doi.org/10.1111/jpi.12985",
+      "citation": "SLP-MEL-ACUTE_01 (2006); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep onset concerns; Outcome: sleep_onset; DOI: 10.1111/jpi.12985; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "SLP-MEL-ACUTE_02",
@@ -24,9 +24,9 @@
       "outcome": "sleep_onset",
       "population": "Adults with sleep onset concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/slp-mel-acute-02",
-      "url": "https://doi.org/10.1234/slp-mel-acute-02",
-      "citation": "SLP-MEL-ACUTE_02 (2007); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep onset concerns; Outcome: sleep_onset; DOI: 10.1234/slp-mel-acute-02; Adverse Events: Transient headache."
+      "doi": "10.1371/journal.pone.0063773",
+      "url": "https://doi.org/10.1371/journal.pone.0063773",
+      "citation": "SLP-MEL-ACUTE_02 (2007); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep onset concerns; Outcome: sleep_onset; DOI: 10.1371/journal.pone.0063773; Adverse Events: Transient headache."
     },
     {
       "study_id": "SLP-MEL-ACUTE_03",
@@ -36,39 +36,39 @@
       "outcome": "sleep_onset",
       "population": "Adults with sleep onset concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/slp-mel-acute-03",
-      "url": "https://doi.org/10.1234/slp-mel-acute-03",
-      "citation": "SLP-MEL-ACUTE_03 (2008); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep onset concerns; Outcome: sleep_onset; DOI: 10.1234/slp-mel-acute-03; Adverse Events: None reported."
+      "doi": "10.1016/j.sleep.2019.02.017",
+      "url": "https://doi.org/10.1016/j.sleep.2019.02.017",
+      "citation": "SLP-MEL-ACUTE_03 (2008); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep onset concerns; Outcome: sleep_onset; DOI: 10.1016/j.sleep.2019.02.017; Adverse Events: None reported."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/slp-mel-acute-01",
-      "study_ids": [
-        "SLP-MEL-ACUTE_01"
-      ],
-      "primary_study_id": "SLP-MEL-ACUTE_01",
-      "url": "https://doi.org/10.1234/slp-mel-acute-01"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/slp-mel-acute-02",
-      "study_ids": [
-        "SLP-MEL-ACUTE_02"
-      ],
-      "primary_study_id": "SLP-MEL-ACUTE_02",
-      "url": "https://doi.org/10.1234/slp-mel-acute-02"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/slp-mel-acute-03",
+      "identifier": "10.1016/j.sleep.2019.02.017",
       "study_ids": [
         "SLP-MEL-ACUTE_03"
       ],
       "primary_study_id": "SLP-MEL-ACUTE_03",
-      "url": "https://doi.org/10.1234/slp-mel-acute-03"
+      "url": "https://doi.org/10.1016/j.sleep.2019.02.017"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1111/jpi.12985",
+      "study_ids": [
+        "SLP-MEL-ACUTE_01"
+      ],
+      "primary_study_id": "SLP-MEL-ACUTE_01",
+      "url": "https://doi.org/10.1111/jpi.12985"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1371/journal.pone.0063773",
+      "study_ids": [
+        "SLP-MEL-ACUTE_02"
+      ],
+      "primary_study_id": "SLP-MEL-ACUTE_02",
+      "url": "https://doi.org/10.1371/journal.pone.0063773"
     }
   ],
-  "manifest_hash": "sha256:1c0f95c8afa16f1bd2277e5db21924b221b4137438360bad19e34f062803913d"
+  "manifest_hash": "sha256:edb4372b5485ebd952b13e579b7825a83e5609785048ce2be65e0d47f1c40742"
 }

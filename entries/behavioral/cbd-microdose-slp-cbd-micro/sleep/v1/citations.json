@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:50:02.170355+00:00",
+  "generated": "2025-11-05T07:16:55.468320+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/behavioral/cbd-microdose-slp-cbd-micro/sleep/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -12,9 +12,9 @@
       "outcome": "sleep_maintenance",
       "population": "Adults with sleep maintenance concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/slp-cbd-micro-01",
-      "url": "https://doi.org/10.1234/slp-cbd-micro-01",
-      "citation": "SLP-CBD-MICRO_01 (2008); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep maintenance concerns; Outcome: sleep_maintenance; DOI: 10.1234/slp-cbd-micro-01; Adverse Events: None reported."
+      "doi": "10.5664/jcsm.10998",
+      "url": "https://doi.org/10.5664/jcsm.10998",
+      "citation": "SLP-CBD-MICRO_01 (2008); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep maintenance concerns; Outcome: sleep_maintenance; DOI: 10.5664/jcsm.10998; Adverse Events: None reported."
     },
     {
       "study_id": "SLP-CBD-MICRO_02",
@@ -24,9 +24,9 @@
       "outcome": "sleep_maintenance",
       "population": "Adults with sleep maintenance concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/slp-cbd-micro-02",
-      "url": "https://doi.org/10.1234/slp-cbd-micro-02",
-      "citation": "SLP-CBD-MICRO_02 (2009); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep maintenance concerns; Outcome: sleep_maintenance; DOI: 10.1234/slp-cbd-micro-02; Adverse Events: Mild GI discomfort."
+      "doi": "10.3390/nu15194173",
+      "url": "https://doi.org/10.3390/nu15194173",
+      "citation": "SLP-CBD-MICRO_02 (2009); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep maintenance concerns; Outcome: sleep_maintenance; DOI: 10.3390/nu15194173; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "SLP-CBD-MICRO_03",
@@ -36,39 +36,39 @@
       "outcome": "sleep_maintenance",
       "population": "Adults with sleep maintenance concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/slp-cbd-micro-03",
-      "url": "https://doi.org/10.1234/slp-cbd-micro-03",
-      "citation": "SLP-CBD-MICRO_03 (2010); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep maintenance concerns; Outcome: sleep_maintenance; DOI: 10.1234/slp-cbd-micro-03; Adverse Events: Transient headache."
+      "doi": "10.1080/27697061.2023.2203221",
+      "url": "https://doi.org/10.1080/27697061.2023.2203221",
+      "citation": "SLP-CBD-MICRO_03 (2010); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep maintenance concerns; Outcome: sleep_maintenance; DOI: 10.1080/27697061.2023.2203221; Adverse Events: Transient headache."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/slp-cbd-micro-01",
-      "study_ids": [
-        "SLP-CBD-MICRO_01"
-      ],
-      "primary_study_id": "SLP-CBD-MICRO_01",
-      "url": "https://doi.org/10.1234/slp-cbd-micro-01"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/slp-cbd-micro-02",
-      "study_ids": [
-        "SLP-CBD-MICRO_02"
-      ],
-      "primary_study_id": "SLP-CBD-MICRO_02",
-      "url": "https://doi.org/10.1234/slp-cbd-micro-02"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/slp-cbd-micro-03",
+      "identifier": "10.1080/27697061.2023.2203221",
       "study_ids": [
         "SLP-CBD-MICRO_03"
       ],
       "primary_study_id": "SLP-CBD-MICRO_03",
-      "url": "https://doi.org/10.1234/slp-cbd-micro-03"
+      "url": "https://doi.org/10.1080/27697061.2023.2203221"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.3390/nu15194173",
+      "study_ids": [
+        "SLP-CBD-MICRO_02"
+      ],
+      "primary_study_id": "SLP-CBD-MICRO_02",
+      "url": "https://doi.org/10.3390/nu15194173"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.5664/jcsm.10998",
+      "study_ids": [
+        "SLP-CBD-MICRO_01"
+      ],
+      "primary_study_id": "SLP-CBD-MICRO_01",
+      "url": "https://doi.org/10.5664/jcsm.10998"
     }
   ],
-  "manifest_hash": "sha256:9aaec47c43d325cb90ec95bcd9276a72f0bf1096bd5b0cf82edd5711094d4b7b"
+  "manifest_hash": "sha256:d9806191ede68961d425f3a633908ab47f3de631ddd074df8436379073a372a4"
 }

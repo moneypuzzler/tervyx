@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:05.608131+00:00",
+  "created": "2025-11-05T07:16:53.154478+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/slp-kava-anxiety-01",
+      "@id": "doi:10.1007/s00213-009-1549-9",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-kava-anxiety-01",
+      "identifier": "doi:10.1007/s00213-009-1549-9",
       "studyIds": [
         "SLP-KAVA-ANXIETY_01"
       ],
-      "citation": "SLP-KAVA-ANXIETY_01 (2018); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep anxiety concerns; Outcome: sleep_anxiety; DOI: 10.1234/slp-kava-anxiety-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/slp-kava-anxiety-01",
-      "sameAs": "https://doi.org/10.1234/slp-kava-anxiety-01",
+      "citation": "SLP-KAVA-ANXIETY_01 (2018); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep anxiety concerns; Outcome: sleep_anxiety; DOI: 10.1007/s00213-009-1549-9; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1007/s00213-009-1549-9",
+      "sameAs": "https://doi.org/10.1007/s00213-009-1549-9",
       "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,15 +76,15 @@
       }
     },
     {
-      "@id": "doi:10.1234/slp-kava-anxiety-02",
+      "@id": "doi:10.1016/s0165-0327(02)00238-0",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-kava-anxiety-02",
+      "identifier": "doi:10.1016/s0165-0327(02)00238-0",
       "studyIds": [
         "SLP-KAVA-ANXIETY_02"
       ],
-      "citation": "SLP-KAVA-ANXIETY_02 (2019); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep anxiety concerns; Outcome: sleep_anxiety; DOI: 10.1234/slp-kava-anxiety-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/slp-kava-anxiety-02",
-      "sameAs": "https://doi.org/10.1234/slp-kava-anxiety-02",
+      "citation": "SLP-KAVA-ANXIETY_02 (2019); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep anxiety concerns; Outcome: sleep_anxiety; DOI: 10.1016/s0165-0327(02)00238-0; Adverse Events: Transient headache.",
+      "doi": "10.1016/s0165-0327(02)00238-0",
+      "sameAs": "https://doi.org/10.1016/s0165-0327(02)00238-0",
       "datePublished": "2019",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,15 +92,15 @@
       }
     },
     {
-      "@id": "doi:10.1234/slp-kava-anxiety-03",
+      "@id": "doi:10.3390/nu15214586",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/slp-kava-anxiety-03",
+      "identifier": "doi:10.3390/nu15214586",
       "studyIds": [
         "SLP-KAVA-ANXIETY_03"
       ],
-      "citation": "SLP-KAVA-ANXIETY_03 (2020); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep anxiety concerns; Outcome: sleep_anxiety; DOI: 10.1234/slp-kava-anxiety-03; Adverse Events: None reported.",
-      "doi": "10.1234/slp-kava-anxiety-03",
-      "sameAs": "https://doi.org/10.1234/slp-kava-anxiety-03",
+      "citation": "SLP-KAVA-ANXIETY_03 (2020); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep anxiety concerns; Outcome: sleep_anxiety; DOI: 10.3390/nu15214586; Adverse Events: None reported.",
+      "doi": "10.3390/nu15214586",
+      "sameAs": "https://doi.org/10.3390/nu15214586",
       "datePublished": "2020",
       "isPartOf": {
         "@type": "Periodical",
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:f578b78ec789f40f8a061946e104a897f33dcf314acb40eb2b452b399e0a6249",
-  "audit_hash": "0x4f7b4fddfb88f620"
+  "citations_manifest_hash": "sha256:35322faaace53b5d18dfb61247771523673e70994cf429cd98bb043387316e2a",
+  "audit_hash": "0x7f1c7c4ac78a5418"
 }
