@@ -73,6 +73,33 @@ def validate_entry(entry_dir: Path) -> None:
         if not evidence_full.exists():
             raise AssertionError(f"Evidence CSV missing: {evidence_full}")
 
+    # --- Stub-Block Rules (Soft-Fail Mode) ---
+    # TODO: Convert these warnings to hard-fail `raise AssertionError` after cleanup.
+
+    # 1. Method must be REML
+    tau2_method = sim_data.get("tau2_method", "")
+    if tau2_method != "REML":
+        msg = f"[{entry_dir.name}] Stub pattern: tau2_method is {tau2_method!r}, not 'REML'."
+        print(f"warning: {msg}", file=sys.stderr)
+        # raise AssertionError(msg) # <- Future hard-fail
+
+    # 2. Unrealistic convergence
+    reml_convergence = sim_data.get("reml_convergence", {})
+    if reml_convergence.get("iterations") == 1 and sim_data.get("final_nll") == 0.0:
+        msg = f"[{entry_dir.name}] Stub pattern: Unrealistic REML convergence (iterations=1, final_nll=0.0)."
+        print(f"warning: {msg}", file=sys.stderr)
+        # raise AssertionError(msg) # <- Future hard-fail
+
+    # 3. Zero variance and instant computation
+    if (
+        sim_data.get("I2") == 0.0
+        and sim_data.get("Q") == 0.0
+        and sim_data.get("computation_time_ms") == 1.0
+    ):
+        msg = f"[{entry_dir.name}] Stub pattern: I2=0, Q=0, and computation_time_ms=1."
+        print(f"warning: {msg}", file=sys.stderr)
+        # raise AssertionError(msg) # <- Future hard-fail
+
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate entry artifacts for a shard")
