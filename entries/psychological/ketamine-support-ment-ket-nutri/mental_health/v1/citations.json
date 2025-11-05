@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:51:38.048414+00:00",
+  "generated": "2025-11-05T07:22:14.221929+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/ketamine-support-ment-ket-nutri/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -12,9 +12,9 @@
       "outcome": "treatment_resistant_depression",
       "population": "Adults with treatment resistant depression concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/ment-ket-nutri-01",
-      "url": "https://doi.org/10.1234/ment-ket-nutri-01",
-      "citation": "MENT-KET-NUTRI_01 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with treatment resistant depression concerns; Outcome: treatment_resistant_depression; DOI: 10.1234/ment-ket-nutri-01; Adverse Events: Transient headache."
+      "doi": "10.1038/s41386-020-0623-9",
+      "url": "https://doi.org/10.1038/s41386-020-0623-9",
+      "citation": "MENT-KET-NUTRI_01 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with treatment resistant depression concerns; Outcome: treatment_resistant_depression; DOI: 10.1038/s41386-020-0623-9; Adverse Events: Transient headache."
     },
     {
       "study_id": "MENT-KET-NUTRI_02",
@@ -24,9 +24,9 @@
       "outcome": "treatment_resistant_depression",
       "population": "Adults with treatment resistant depression concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/ment-ket-nutri-02",
-      "url": "https://doi.org/10.1234/ment-ket-nutri-02",
-      "citation": "MENT-KET-NUTRI_02 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with treatment resistant depression concerns; Outcome: treatment_resistant_depression; DOI: 10.1234/ment-ket-nutri-02; Adverse Events: None reported."
+      "doi": "10.1001/jamapsychiatry.2018.1668",
+      "url": "https://doi.org/10.1001/jamapsychiatry.2018.1668",
+      "citation": "MENT-KET-NUTRI_02 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with treatment resistant depression concerns; Outcome: treatment_resistant_depression; DOI: 10.1001/jamapsychiatry.2018.1668; Adverse Events: None reported."
     },
     {
       "study_id": "MENT-KET-NUTRI_03",
@@ -36,39 +36,39 @@
       "outcome": "treatment_resistant_depression",
       "population": "Adults with treatment resistant depression concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/ment-ket-nutri-03",
-      "url": "https://doi.org/10.1234/ment-ket-nutri-03",
-      "citation": "MENT-KET-NUTRI_03 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with treatment resistant depression concerns; Outcome: treatment_resistant_depression; DOI: 10.1234/ment-ket-nutri-03; Adverse Events: Mild GI discomfort."
+      "doi": "10.1016/j.jad.2018.08.001",
+      "url": "https://doi.org/10.1016/j.jad.2018.08.001",
+      "citation": "MENT-KET-NUTRI_03 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with treatment resistant depression concerns; Outcome: treatment_resistant_depression; DOI: 10.1016/j.jad.2018.08.001; Adverse Events: Mild GI discomfort."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/ment-ket-nutri-01",
-      "study_ids": [
-        "MENT-KET-NUTRI_01"
-      ],
-      "primary_study_id": "MENT-KET-NUTRI_01",
-      "url": "https://doi.org/10.1234/ment-ket-nutri-01"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/ment-ket-nutri-02",
+      "identifier": "10.1001/jamapsychiatry.2018.1668",
       "study_ids": [
         "MENT-KET-NUTRI_02"
       ],
       "primary_study_id": "MENT-KET-NUTRI_02",
-      "url": "https://doi.org/10.1234/ment-ket-nutri-02"
+      "url": "https://doi.org/10.1001/jamapsychiatry.2018.1668"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/ment-ket-nutri-03",
+      "identifier": "10.1016/j.jad.2018.08.001",
       "study_ids": [
         "MENT-KET-NUTRI_03"
       ],
       "primary_study_id": "MENT-KET-NUTRI_03",
-      "url": "https://doi.org/10.1234/ment-ket-nutri-03"
+      "url": "https://doi.org/10.1016/j.jad.2018.08.001"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1038/s41386-020-0623-9",
+      "study_ids": [
+        "MENT-KET-NUTRI_01"
+      ],
+      "primary_study_id": "MENT-KET-NUTRI_01",
+      "url": "https://doi.org/10.1038/s41386-020-0623-9"
     }
   ],
-  "manifest_hash": "sha256:5e926639be81d20675467995e702291fac9cded3b6b3082ef7d578d8e517c721"
+  "manifest_hash": "sha256:392622df1d5c51d9b9f1c42d69c2fc195cb4afa4b95241cdf348452353813c46"
 }

@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:48.049505+00:00",
+  "created": "2025-11-05T07:22:06.422949+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/mh-safr-mood-01",
+      "@id": "doi:10.1016/j.ctim.2017.06.001",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/mh-safr-mood-01",
+      "identifier": "doi:10.1016/j.ctim.2017.06.001",
       "studyIds": [
         "MH-SAFR-MOOD_01"
       ],
-      "citation": "MH-SAFR-MOOD_01 (2010); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depressive symptoms concerns; Outcome: depressive_symptoms; DOI: 10.1234/mh-safr-mood-01; Adverse Events: Transient headache.",
-      "doi": "10.1234/mh-safr-mood-01",
-      "sameAs": "https://doi.org/10.1234/mh-safr-mood-01",
+      "citation": "MH-SAFR-MOOD_01 (2010); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depressive symptoms concerns; Outcome: depressive_symptoms; DOI: 10.1016/j.ctim.2017.06.001; Adverse Events: Transient headache.",
+      "doi": "10.1016/j.ctim.2017.06.001",
+      "sameAs": "https://doi.org/10.1016/j.ctim.2017.06.001",
       "datePublished": "2010",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,38 +76,38 @@
       }
     },
     {
-      "@id": "doi:10.1234/mh-safr-mood-02",
+      "@id": "doi:10.1016/j.jad.2015.11.032",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/mh-safr-mood-02",
+      "identifier": "doi:10.1016/j.jad.2015.11.032",
       "studyIds": [
-        "MH-SAFR-MOOD_02"
+        "MH-SAFR-MOOD_03"
       ],
-      "citation": "MH-SAFR-MOOD_02 (2011); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depressive symptoms concerns; Outcome: depressive_symptoms; DOI: 10.1234/mh-safr-mood-02; Adverse Events: None reported.",
-      "doi": "10.1234/mh-safr-mood-02",
-      "sameAs": "https://doi.org/10.1234/mh-safr-mood-02",
-      "datePublished": "2011",
+      "citation": "MH-SAFR-MOOD_03 (2012); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depressive symptoms concerns; Outcome: depressive_symptoms; DOI: 10.1016/j.jad.2015.11.032; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1016/j.jad.2015.11.032",
+      "sameAs": "https://doi.org/10.1016/j.jad.2015.11.032",
+      "datePublished": "2012",
       "isPartOf": {
         "@type": "Periodical",
         "name": "mental_health_journal"
       }
     },
     {
-      "@id": "doi:10.1234/mh-safr-mood-03",
+      "@id": "doi:10.1016/j.jcli.2025.02.062",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/mh-safr-mood-03",
+      "identifier": "doi:10.1016/j.jcli.2025.02.062",
       "studyIds": [
-        "MH-SAFR-MOOD_03"
+        "MH-SAFR-MOOD_02"
       ],
-      "citation": "MH-SAFR-MOOD_03 (2012); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depressive symptoms concerns; Outcome: depressive_symptoms; DOI: 10.1234/mh-safr-mood-03; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/mh-safr-mood-03",
-      "sameAs": "https://doi.org/10.1234/mh-safr-mood-03",
-      "datePublished": "2012",
+      "citation": "MH-SAFR-MOOD_02 (2011); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depressive symptoms concerns; Outcome: depressive_symptoms; DOI: 10.1016/j.jcli.2025.02.062; Adverse Events: None reported.",
+      "doi": "10.1016/j.jcli.2025.02.062",
+      "sameAs": "https://doi.org/10.1016/j.jcli.2025.02.062",
+      "datePublished": "2011",
       "isPartOf": {
         "@type": "Periodical",
         "name": "mental_health_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:4ab82d7e253e3934a3e64bab7048cfd069ec8a504ce3eb498809915811ec982b",
-  "audit_hash": "0xf2630f2debc29e22"
+  "citations_manifest_hash": "sha256:7ae17c155dfc23bb046d0fd9e0865ece327df7a566b7a79ca708ab8ba8aee1f2",
+  "audit_hash": "0x4a4146b49faa95c7"
 }

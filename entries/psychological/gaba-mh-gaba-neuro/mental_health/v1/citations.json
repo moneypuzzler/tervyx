@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:51:36.414315+00:00",
+  "generated": "2025-11-05T07:22:12.524416+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/gaba-mh-gaba-neuro/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -12,9 +12,9 @@
       "outcome": "acute_stress",
       "population": "Adults with acute stress concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/mh-gaba-neuro-01",
-      "url": "https://doi.org/10.1234/mh-gaba-neuro-01",
-      "citation": "MH-GABA-NEURO_01 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with acute stress concerns; Outcome: acute_stress; DOI: 10.1234/mh-gaba-neuro-01; Adverse Events: None reported."
+      "doi": "10.3389/fnins.2020.00923",
+      "url": "https://doi.org/10.3389/fnins.2020.00923",
+      "citation": "MH-GABA-NEURO_01 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with acute stress concerns; Outcome: acute_stress; DOI: 10.3389/fnins.2020.00923; Adverse Events: None reported."
     },
     {
       "study_id": "MH-GABA-NEURO_02",
@@ -24,9 +24,9 @@
       "outcome": "acute_stress",
       "population": "Adults with acute stress concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/mh-gaba-neuro-02",
-      "url": "https://doi.org/10.1234/mh-gaba-neuro-02",
-      "citation": "MH-GABA-NEURO_02 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with acute stress concerns; Outcome: acute_stress; DOI: 10.1234/mh-gaba-neuro-02; Adverse Events: Mild GI discomfort."
+      "doi": "10.3390/nu16050608",
+      "url": "https://doi.org/10.3390/nu16050608",
+      "citation": "MH-GABA-NEURO_02 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with acute stress concerns; Outcome: acute_stress; DOI: 10.3390/nu16050608; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "MH-GABA-NEURO_03",
@@ -36,39 +36,39 @@
       "outcome": "acute_stress",
       "population": "Adults with acute stress concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/mh-gaba-neuro-03",
-      "url": "https://doi.org/10.1234/mh-gaba-neuro-03",
-      "citation": "MH-GABA-NEURO_03 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with acute stress concerns; Outcome: acute_stress; DOI: 10.1234/mh-gaba-neuro-03; Adverse Events: Transient headache."
+      "doi": "10.1080/13880209.2018.1557698",
+      "url": "https://doi.org/10.1080/13880209.2018.1557698",
+      "citation": "MH-GABA-NEURO_03 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with acute stress concerns; Outcome: acute_stress; DOI: 10.1080/13880209.2018.1557698; Adverse Events: Transient headache."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/mh-gaba-neuro-01",
-      "study_ids": [
-        "MH-GABA-NEURO_01"
-      ],
-      "primary_study_id": "MH-GABA-NEURO_01",
-      "url": "https://doi.org/10.1234/mh-gaba-neuro-01"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/mh-gaba-neuro-02",
-      "study_ids": [
-        "MH-GABA-NEURO_02"
-      ],
-      "primary_study_id": "MH-GABA-NEURO_02",
-      "url": "https://doi.org/10.1234/mh-gaba-neuro-02"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/mh-gaba-neuro-03",
+      "identifier": "10.1080/13880209.2018.1557698",
       "study_ids": [
         "MH-GABA-NEURO_03"
       ],
       "primary_study_id": "MH-GABA-NEURO_03",
-      "url": "https://doi.org/10.1234/mh-gaba-neuro-03"
+      "url": "https://doi.org/10.1080/13880209.2018.1557698"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.3389/fnins.2020.00923",
+      "study_ids": [
+        "MH-GABA-NEURO_01"
+      ],
+      "primary_study_id": "MH-GABA-NEURO_01",
+      "url": "https://doi.org/10.3389/fnins.2020.00923"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.3390/nu16050608",
+      "study_ids": [
+        "MH-GABA-NEURO_02"
+      ],
+      "primary_study_id": "MH-GABA-NEURO_02",
+      "url": "https://doi.org/10.3390/nu16050608"
     }
   ],
-  "manifest_hash": "sha256:4b9409572fc4c8bf44c99856c0e7cbb1149772be4268cb5da1a60dc3ac690dab"
+  "manifest_hash": "sha256:6153e625d0f6d2548231c700c0a86d0e5bfd5e63d09987c9da6581fe1622faa0"
 }

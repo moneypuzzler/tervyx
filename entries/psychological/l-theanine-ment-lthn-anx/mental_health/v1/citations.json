@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:51:38.592044+00:00",
+  "generated": "2025-11-05T07:22:14.802579+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/l-theanine-ment-lthn-anx/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -12,9 +12,9 @@
       "outcome": "anxiety",
       "population": "Adults with anxiety concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/ment-lthn-anx-01",
-      "url": "https://doi.org/10.1234/ment-lthn-anx-01",
-      "citation": "MENT-LTHN-ANX_01 (2010); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-lthn-anx-01; Adverse Events: Transient headache."
+      "doi": "10.1007/s40120-021-00284-x",
+      "url": "https://doi.org/10.1007/s40120-021-00284-x",
+      "citation": "MENT-LTHN-ANX_01 (2010); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1007/s40120-021-00284-x; Adverse Events: Transient headache."
     },
     {
       "study_id": "MENT-LTHN-ANX_02",
@@ -24,9 +24,9 @@
       "outcome": "anxiety",
       "population": "Adults with anxiety concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/ment-lthn-anx-02",
-      "url": "https://doi.org/10.1234/ment-lthn-anx-02",
-      "citation": "MENT-LTHN-ANX_02 (2011); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-lthn-anx-02; Adverse Events: None reported."
+      "doi": "10.3390/nu11102362",
+      "url": "https://doi.org/10.3390/nu11102362",
+      "citation": "MENT-LTHN-ANX_02 (2011); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.3390/nu11102362; Adverse Events: None reported."
     },
     {
       "study_id": "MENT-LTHN-ANX_03",
@@ -36,39 +36,39 @@
       "outcome": "anxiety",
       "population": "Adults with anxiety concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/ment-lthn-anx-03",
-      "url": "https://doi.org/10.1234/ment-lthn-anx-03",
-      "citation": "MENT-LTHN-ANX_03 (2012); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-lthn-anx-03; Adverse Events: Mild GI discomfort."
+      "doi": "10.1007/s40120-024-00624-7",
+      "url": "https://doi.org/10.1007/s40120-024-00624-7",
+      "citation": "MENT-LTHN-ANX_03 (2012); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1007/s40120-024-00624-7; Adverse Events: Mild GI discomfort."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/ment-lthn-anx-01",
+      "identifier": "10.1007/s40120-021-00284-x",
       "study_ids": [
         "MENT-LTHN-ANX_01"
       ],
       "primary_study_id": "MENT-LTHN-ANX_01",
-      "url": "https://doi.org/10.1234/ment-lthn-anx-01"
+      "url": "https://doi.org/10.1007/s40120-021-00284-x"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/ment-lthn-anx-02",
-      "study_ids": [
-        "MENT-LTHN-ANX_02"
-      ],
-      "primary_study_id": "MENT-LTHN-ANX_02",
-      "url": "https://doi.org/10.1234/ment-lthn-anx-02"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/ment-lthn-anx-03",
+      "identifier": "10.1007/s40120-024-00624-7",
       "study_ids": [
         "MENT-LTHN-ANX_03"
       ],
       "primary_study_id": "MENT-LTHN-ANX_03",
-      "url": "https://doi.org/10.1234/ment-lthn-anx-03"
+      "url": "https://doi.org/10.1007/s40120-024-00624-7"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.3390/nu11102362",
+      "study_ids": [
+        "MENT-LTHN-ANX_02"
+      ],
+      "primary_study_id": "MENT-LTHN-ANX_02",
+      "url": "https://doi.org/10.3390/nu11102362"
     }
   ],
-  "manifest_hash": "sha256:3686578905ea2f888753b350931f55bf8ec78d6598f111894fe1ffe27b614f00"
+  "manifest_hash": "sha256:1978d4ac236b99eb4f40c477f237157dca48f8e4e74c012168bf9aa519b085f7"
 }

@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:34.744104+00:00",
+  "created": "2025-11-05T07:22:08.609566+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,31 +60,31 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/ment-b-complex-01",
+      "@id": "doi:10.1002/hup.2852",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-b-complex-01",
+      "identifier": "doi:10.1002/hup.2852",
       "studyIds": [
-        "MENT-B-COMPLEX_01"
+        "MENT-B-COMPLEX_03"
       ],
-      "citation": "MENT-B-COMPLEX_01 (2005); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-b-complex-01; Adverse Events: None reported.",
-      "doi": "10.1234/ment-b-complex-01",
-      "sameAs": "https://doi.org/10.1234/ment-b-complex-01",
-      "datePublished": "2005",
+      "citation": "MENT-B-COMPLEX_03 (2007); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1002/hup.2852; Adverse Events: Transient headache.",
+      "doi": "10.1002/hup.2852",
+      "sameAs": "https://doi.org/10.1002/hup.2852",
+      "datePublished": "2007",
       "isPartOf": {
         "@type": "Periodical",
         "name": "mental_health_journal"
       }
     },
     {
-      "@id": "doi:10.1234/ment-b-complex-02",
+      "@id": "doi:10.1080/1028415x.2022.2031494",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-b-complex-02",
+      "identifier": "doi:10.1080/1028415x.2022.2031494",
       "studyIds": [
         "MENT-B-COMPLEX_02"
       ],
-      "citation": "MENT-B-COMPLEX_02 (2006); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-b-complex-02; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/ment-b-complex-02",
-      "sameAs": "https://doi.org/10.1234/ment-b-complex-02",
+      "citation": "MENT-B-COMPLEX_02 (2006); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1080/1028415x.2022.2031494; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1080/1028415x.2022.2031494",
+      "sameAs": "https://doi.org/10.1080/1028415x.2022.2031494",
       "datePublished": "2006",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,22 +92,22 @@
       }
     },
     {
-      "@id": "doi:10.1234/ment-b-complex-03",
+      "@id": "doi:10.3390/nu11092232",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-b-complex-03",
+      "identifier": "doi:10.3390/nu11092232",
       "studyIds": [
-        "MENT-B-COMPLEX_03"
+        "MENT-B-COMPLEX_01"
       ],
-      "citation": "MENT-B-COMPLEX_03 (2007); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-b-complex-03; Adverse Events: Transient headache.",
-      "doi": "10.1234/ment-b-complex-03",
-      "sameAs": "https://doi.org/10.1234/ment-b-complex-03",
-      "datePublished": "2007",
+      "citation": "MENT-B-COMPLEX_01 (2005); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.3390/nu11092232; Adverse Events: None reported.",
+      "doi": "10.3390/nu11092232",
+      "sameAs": "https://doi.org/10.3390/nu11092232",
+      "datePublished": "2005",
       "isPartOf": {
         "@type": "Periodical",
         "name": "mental_health_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:b6d080a1fca323d81baaf7cb7163fc8a0c8eb0c99f3053461c36796bb027a826",
-  "audit_hash": "0x1ebb232bfab1b6c6"
+  "citations_manifest_hash": "sha256:e5246642a4b0e1a2723dcf47db1d78c31db0b33106b1c4ef04950cc822e509e5",
+  "audit_hash": "0x9c72616491d56119"
 }

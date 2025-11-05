@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:51:42.638196+00:00",
+  "generated": "2025-11-05T07:22:18.768684+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/neuropeptide-spray-mh-pep-neuro/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -12,9 +12,9 @@
       "outcome": "attachment_security",
       "population": "Adults with attachment security concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/mh-pep-neuro-01",
-      "url": "https://doi.org/10.1234/mh-pep-neuro-01",
-      "citation": "MH-PEP-NEURO_01 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with attachment security concerns; Outcome: attachment_security; DOI: 10.1234/mh-pep-neuro-01; Adverse Events: Mild GI discomfort."
+      "doi": "10.1038/s41398-023-02649-z",
+      "url": "https://doi.org/10.1038/s41398-023-02649-z",
+      "citation": "MH-PEP-NEURO_01 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with attachment security concerns; Outcome: attachment_security; DOI: 10.1038/s41398-023-02649-z; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "MH-PEP-NEURO_02",
@@ -24,9 +24,9 @@
       "outcome": "attachment_security",
       "population": "Adults with attachment security concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/mh-pep-neuro-02",
-      "url": "https://doi.org/10.1234/mh-pep-neuro-02",
-      "citation": "MH-PEP-NEURO_02 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with attachment security concerns; Outcome: attachment_security; DOI: 10.1234/mh-pep-neuro-02; Adverse Events: Transient headache."
+      "doi": "10.1016/j.biopsych.2020.06.007",
+      "url": "https://doi.org/10.1016/j.biopsych.2020.06.007",
+      "citation": "MH-PEP-NEURO_02 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with attachment security concerns; Outcome: attachment_security; DOI: 10.1016/j.biopsych.2020.06.007; Adverse Events: Transient headache."
     },
     {
       "study_id": "MH-PEP-NEURO_03",
@@ -36,39 +36,39 @@
       "outcome": "attachment_security",
       "population": "Adults with attachment security concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/mh-pep-neuro-03",
-      "url": "https://doi.org/10.1234/mh-pep-neuro-03",
-      "citation": "MH-PEP-NEURO_03 (2020); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with attachment security concerns; Outcome: attachment_security; DOI: 10.1234/mh-pep-neuro-03; Adverse Events: None reported."
+      "doi": "10.1080/10673229.2018.1564921",
+      "url": "https://doi.org/10.1080/10673229.2018.1564921",
+      "citation": "MH-PEP-NEURO_03 (2020); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with attachment security concerns; Outcome: attachment_security; DOI: 10.1080/10673229.2018.1564921; Adverse Events: None reported."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/mh-pep-neuro-01",
-      "study_ids": [
-        "MH-PEP-NEURO_01"
-      ],
-      "primary_study_id": "MH-PEP-NEURO_01",
-      "url": "https://doi.org/10.1234/mh-pep-neuro-01"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/mh-pep-neuro-02",
+      "identifier": "10.1016/j.biopsych.2020.06.007",
       "study_ids": [
         "MH-PEP-NEURO_02"
       ],
       "primary_study_id": "MH-PEP-NEURO_02",
-      "url": "https://doi.org/10.1234/mh-pep-neuro-02"
+      "url": "https://doi.org/10.1016/j.biopsych.2020.06.007"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/mh-pep-neuro-03",
+      "identifier": "10.1038/s41398-023-02649-z",
+      "study_ids": [
+        "MH-PEP-NEURO_01"
+      ],
+      "primary_study_id": "MH-PEP-NEURO_01",
+      "url": "https://doi.org/10.1038/s41398-023-02649-z"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1080/10673229.2018.1564921",
       "study_ids": [
         "MH-PEP-NEURO_03"
       ],
       "primary_study_id": "MH-PEP-NEURO_03",
-      "url": "https://doi.org/10.1234/mh-pep-neuro-03"
+      "url": "https://doi.org/10.1080/10673229.2018.1564921"
     }
   ],
-  "manifest_hash": "sha256:cbd8917d5f15dfe30662dd6f3a095638a84c77cbf2f267a14077ca638ece10f9"
+  "manifest_hash": "sha256:f07ef4a5d7f65e22b5427d35fefed89084e9a9bbf34e133ed5533fd0eec87b01"
 }

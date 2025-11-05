@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:40.926929+00:00",
+  "created": "2025-11-05T07:22:17.112084+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,31 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/mh-mag-glyc-01",
+      "@id": "doi:10.1093/advances/nmaa097",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/mh-mag-glyc-01",
-      "studyIds": [
-        "MH-MAG-GLYC_01"
-      ],
-      "citation": "MH-MAG-GLYC_01 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with generalized anxiety concerns; Outcome: generalized_anxiety; DOI: 10.1234/mh-mag-glyc-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/mh-mag-glyc-01",
-      "sameAs": "https://doi.org/10.1234/mh-mag-glyc-01",
-      "datePublished": "2015",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "mental_health_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/mh-mag-glyc-02",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/mh-mag-glyc-02",
+      "identifier": "doi:10.1093/advances/nmaa097",
       "studyIds": [
         "MH-MAG-GLYC_02"
       ],
-      "citation": "MH-MAG-GLYC_02 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with generalized anxiety concerns; Outcome: generalized_anxiety; DOI: 10.1234/mh-mag-glyc-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/mh-mag-glyc-02",
-      "sameAs": "https://doi.org/10.1234/mh-mag-glyc-02",
+      "citation": "MH-MAG-GLYC_02 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with generalized anxiety concerns; Outcome: generalized_anxiety; DOI: 10.1093/advances/nmaa097; Adverse Events: Transient headache.",
+      "doi": "10.1093/advances/nmaa097",
+      "sameAs": "https://doi.org/10.1093/advances/nmaa097",
       "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,15 +76,31 @@
       }
     },
     {
-      "@id": "doi:10.1234/mh-mag-glyc-03",
+      "@id": "doi:10.1371/journal.pone.0180067",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/mh-mag-glyc-03",
+      "identifier": "doi:10.1371/journal.pone.0180067",
+      "studyIds": [
+        "MH-MAG-GLYC_01"
+      ],
+      "citation": "MH-MAG-GLYC_01 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with generalized anxiety concerns; Outcome: generalized_anxiety; DOI: 10.1371/journal.pone.0180067; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1371/journal.pone.0180067",
+      "sameAs": "https://doi.org/10.1371/journal.pone.0180067",
+      "datePublished": "2015",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1684/mrh.2010.0220",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1684/mrh.2010.0220",
       "studyIds": [
         "MH-MAG-GLYC_03"
       ],
-      "citation": "MH-MAG-GLYC_03 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with generalized anxiety concerns; Outcome: generalized_anxiety; DOI: 10.1234/mh-mag-glyc-03; Adverse Events: None reported.",
-      "doi": "10.1234/mh-mag-glyc-03",
-      "sameAs": "https://doi.org/10.1234/mh-mag-glyc-03",
+      "citation": "MH-MAG-GLYC_03 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with generalized anxiety concerns; Outcome: generalized_anxiety; DOI: 10.1684/mrh.2010.0220; Adverse Events: None reported.",
+      "doi": "10.1684/mrh.2010.0220",
+      "sameAs": "https://doi.org/10.1684/mrh.2010.0220",
       "datePublished": "2017",
       "isPartOf": {
         "@type": "Periodical",
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:b45e76732654d7e77970c96164a26acfe5212ceeb1c4a91ea2d642b722e1273f",
-  "audit_hash": "0x00cb82a9ff590d1a"
+  "citations_manifest_hash": "sha256:0ca2599d89c7f0caf4ed303bbcd63f174e615267152f9133a8e182b59828734d",
+  "audit_hash": "0x6aa2609377984c04"
 }

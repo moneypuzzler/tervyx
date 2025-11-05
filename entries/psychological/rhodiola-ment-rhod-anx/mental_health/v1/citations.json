@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:51:46.348963+00:00",
+  "generated": "2025-11-05T07:22:06.963491+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/rhodiola-ment-rhod-anx/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -12,9 +12,9 @@
       "outcome": "stress",
       "population": "Adults with stress concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/ment-rhod-anx-01",
-      "url": "https://doi.org/10.1234/ment-rhod-anx-01",
-      "citation": "MENT-RHOD-ANX_01 (2011); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress concerns; Outcome: stress; DOI: 10.1234/ment-rhod-anx-01; Adverse Events: None reported."
+      "doi": "10.1055/s-0028-1088346",
+      "url": "https://doi.org/10.1055/s-0028-1088346",
+      "citation": "MENT-RHOD-ANX_01 (2011); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress concerns; Outcome: stress; DOI: 10.1055/s-0028-1088346; Adverse Events: None reported."
     },
     {
       "study_id": "MENT-RHOD-ANX_02",
@@ -24,9 +24,9 @@
       "outcome": "stress",
       "population": "Adults with stress concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/ment-rhod-anx-02",
-      "url": "https://doi.org/10.1234/ment-rhod-anx-02",
-      "citation": "MENT-RHOD-ANX_02 (2012); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress concerns; Outcome: stress; DOI: 10.1234/ment-rhod-anx-02; Adverse Events: Mild GI discomfort."
+      "doi": "10.3390/molecules27123823",
+      "url": "https://doi.org/10.3390/molecules27123823",
+      "citation": "MENT-RHOD-ANX_02 (2012); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress concerns; Outcome: stress; DOI: 10.3390/molecules27123823; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "MENT-RHOD-ANX_03",
@@ -36,39 +36,39 @@
       "outcome": "stress",
       "population": "Adults with stress concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/ment-rhod-anx-03",
-      "url": "https://doi.org/10.1234/ment-rhod-anx-03",
-      "citation": "MENT-RHOD-ANX_03 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress concerns; Outcome: stress; DOI: 10.1234/ment-rhod-anx-03; Adverse Events: Transient headache."
+      "doi": "10.1080/13651501.2017.1417442",
+      "url": "https://doi.org/10.1080/13651501.2017.1417442",
+      "citation": "MENT-RHOD-ANX_03 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress concerns; Outcome: stress; DOI: 10.1080/13651501.2017.1417442; Adverse Events: Transient headache."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/ment-rhod-anx-01",
+      "identifier": "10.1055/s-0028-1088346",
       "study_ids": [
         "MENT-RHOD-ANX_01"
       ],
       "primary_study_id": "MENT-RHOD-ANX_01",
-      "url": "https://doi.org/10.1234/ment-rhod-anx-01"
+      "url": "https://doi.org/10.1055/s-0028-1088346"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/ment-rhod-anx-02",
-      "study_ids": [
-        "MENT-RHOD-ANX_02"
-      ],
-      "primary_study_id": "MENT-RHOD-ANX_02",
-      "url": "https://doi.org/10.1234/ment-rhod-anx-02"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/ment-rhod-anx-03",
+      "identifier": "10.1080/13651501.2017.1417442",
       "study_ids": [
         "MENT-RHOD-ANX_03"
       ],
       "primary_study_id": "MENT-RHOD-ANX_03",
-      "url": "https://doi.org/10.1234/ment-rhod-anx-03"
+      "url": "https://doi.org/10.1080/13651501.2017.1417442"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.3390/molecules27123823",
+      "study_ids": [
+        "MENT-RHOD-ANX_02"
+      ],
+      "primary_study_id": "MENT-RHOD-ANX_02",
+      "url": "https://doi.org/10.3390/molecules27123823"
     }
   ],
-  "manifest_hash": "sha256:134c613e89183e0fa86c75460334967e8feab28c7b057b0d0446789ae52a99ff"
+  "manifest_hash": "sha256:a2443320d737107b5968c1a4d03be9c4cdc3d0aa10676dd23d460b274b782a13"
 }

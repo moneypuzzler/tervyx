@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:51:41.489720+00:00",
+  "generated": "2025-11-05T07:22:10.890685+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/myo-inositol-ment-myo-in/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -12,9 +12,9 @@
       "outcome": "panic_disorder",
       "population": "Adults with panic disorder concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/ment-myo-in-01",
-      "url": "https://doi.org/10.1234/ment-myo-in-01",
-      "citation": "MENT-MYO-IN_01 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with panic disorder concerns; Outcome: panic_disorder; DOI: 10.1234/ment-myo-in-01; Adverse Events: Transient headache."
+      "doi": "10.1016/j.jpsychires.2011.05.005",
+      "url": "https://doi.org/10.1016/j.jpsychires.2011.05.005",
+      "citation": "MENT-MYO-IN_01 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with panic disorder concerns; Outcome: panic_disorder; DOI: 10.1016/j.jpsychires.2011.05.005; Adverse Events: Transient headache."
     },
     {
       "study_id": "MENT-MYO-IN_02",
@@ -24,9 +24,9 @@
       "outcome": "panic_disorder",
       "population": "Adults with panic disorder concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/ment-myo-in-02",
-      "url": "https://doi.org/10.1234/ment-myo-in-02",
-      "citation": "MENT-MYO-IN_02 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with panic disorder concerns; Outcome: panic_disorder; DOI: 10.1234/ment-myo-in-02; Adverse Events: None reported."
+      "doi": "10.1176/ajp.152.5.792",
+      "url": "https://doi.org/10.1176/ajp.152.5.792",
+      "citation": "MENT-MYO-IN_02 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with panic disorder concerns; Outcome: panic_disorder; DOI: 10.1176/ajp.152.5.792; Adverse Events: None reported."
     },
     {
       "study_id": "MENT-MYO-IN_03",
@@ -36,39 +36,39 @@
       "outcome": "panic_disorder",
       "population": "Adults with panic disorder concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/ment-myo-in-03",
-      "url": "https://doi.org/10.1234/ment-myo-in-03",
-      "citation": "MENT-MYO-IN_03 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with panic disorder concerns; Outcome: panic_disorder; DOI: 10.1234/ment-myo-in-03; Adverse Events: Mild GI discomfort."
+      "doi": "10.1080/14767058.2020.1818225",
+      "url": "https://doi.org/10.1080/14767058.2020.1818225",
+      "citation": "MENT-MYO-IN_03 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with panic disorder concerns; Outcome: panic_disorder; DOI: 10.1080/14767058.2020.1818225; Adverse Events: Mild GI discomfort."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/ment-myo-in-01",
+      "identifier": "10.1016/j.jpsychires.2011.05.005",
       "study_ids": [
         "MENT-MYO-IN_01"
       ],
       "primary_study_id": "MENT-MYO-IN_01",
-      "url": "https://doi.org/10.1234/ment-myo-in-01"
+      "url": "https://doi.org/10.1016/j.jpsychires.2011.05.005"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/ment-myo-in-02",
-      "study_ids": [
-        "MENT-MYO-IN_02"
-      ],
-      "primary_study_id": "MENT-MYO-IN_02",
-      "url": "https://doi.org/10.1234/ment-myo-in-02"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/ment-myo-in-03",
+      "identifier": "10.1080/14767058.2020.1818225",
       "study_ids": [
         "MENT-MYO-IN_03"
       ],
       "primary_study_id": "MENT-MYO-IN_03",
-      "url": "https://doi.org/10.1234/ment-myo-in-03"
+      "url": "https://doi.org/10.1080/14767058.2020.1818225"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1176/ajp.152.5.792",
+      "study_ids": [
+        "MENT-MYO-IN_02"
+      ],
+      "primary_study_id": "MENT-MYO-IN_02",
+      "url": "https://doi.org/10.1176/ajp.152.5.792"
     }
   ],
-  "manifest_hash": "sha256:d8359060201be18df45edabc1807ab0e2d67eb09f1b4d83abe1f8867fc112309"
+  "manifest_hash": "sha256:c16d67bd199dbe579a60016b4195f71e9ca2b58465d94c16832d14075b032567"
 }

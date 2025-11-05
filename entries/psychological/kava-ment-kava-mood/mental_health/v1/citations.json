@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:51:37.498132+00:00",
+  "generated": "2025-11-05T07:22:13.650534+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/kava-ment-kava-mood/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -12,9 +12,9 @@
       "outcome": "anxiety",
       "population": "Adults with anxiety concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/ment-kava-mood-01",
-      "url": "https://doi.org/10.1234/ment-kava-mood-01",
-      "citation": "MENT-KAVA-MOOD_01 (2008); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-kava-mood-01; Adverse Events: None reported."
+      "doi": "10.1007/s00213-009-1549-9",
+      "url": "https://doi.org/10.1007/s00213-009-1549-9",
+      "citation": "MENT-KAVA-MOOD_01 (2008); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1007/s00213-009-1549-9; Adverse Events: None reported."
     },
     {
       "study_id": "MENT-KAVA-MOOD_02",
@@ -24,9 +24,9 @@
       "outcome": "anxiety",
       "population": "Adults with anxiety concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/ment-kava-mood-02",
-      "url": "https://doi.org/10.1234/ment-kava-mood-02",
-      "citation": "MENT-KAVA-MOOD_02 (2009); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-kava-mood-02; Adverse Events: Mild GI discomfort."
+      "doi": "10.3390/nu15214586",
+      "url": "https://doi.org/10.3390/nu15214586",
+      "citation": "MENT-KAVA-MOOD_02 (2009); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.3390/nu15214586; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "MENT-KAVA-MOOD_03",
@@ -36,39 +36,39 @@
       "outcome": "anxiety",
       "population": "Adults with anxiety concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/ment-kava-mood-03",
-      "url": "https://doi.org/10.1234/ment-kava-mood-03",
-      "citation": "MENT-KAVA-MOOD_03 (2010); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-kava-mood-03; Adverse Events: Transient headache."
+      "doi": "10.1097/00004850-200609000-00001",
+      "url": "https://doi.org/10.1097/00004850-200609000-00001",
+      "citation": "MENT-KAVA-MOOD_03 (2010); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1097/00004850-200609000-00001; Adverse Events: Transient headache."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/ment-kava-mood-01",
+      "identifier": "10.1007/s00213-009-1549-9",
       "study_ids": [
         "MENT-KAVA-MOOD_01"
       ],
       "primary_study_id": "MENT-KAVA-MOOD_01",
-      "url": "https://doi.org/10.1234/ment-kava-mood-01"
+      "url": "https://doi.org/10.1007/s00213-009-1549-9"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/ment-kava-mood-02",
-      "study_ids": [
-        "MENT-KAVA-MOOD_02"
-      ],
-      "primary_study_id": "MENT-KAVA-MOOD_02",
-      "url": "https://doi.org/10.1234/ment-kava-mood-02"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/ment-kava-mood-03",
+      "identifier": "10.1097/00004850-200609000-00001",
       "study_ids": [
         "MENT-KAVA-MOOD_03"
       ],
       "primary_study_id": "MENT-KAVA-MOOD_03",
-      "url": "https://doi.org/10.1234/ment-kava-mood-03"
+      "url": "https://doi.org/10.1097/00004850-200609000-00001"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.3390/nu15214586",
+      "study_ids": [
+        "MENT-KAVA-MOOD_02"
+      ],
+      "primary_study_id": "MENT-KAVA-MOOD_02",
+      "url": "https://doi.org/10.3390/nu15214586"
     }
   ],
-  "manifest_hash": "sha256:6859bafa0efcd4678dbb3d8d6f6d4b8f0665b755a2ec65b524df6590add79071"
+  "manifest_hash": "sha256:44c1e58f953019dfa7774c9d5c93d5ac1d3cc656a72c83e9d8dfdbb4911209d5"
 }

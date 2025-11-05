@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:49.823677+00:00",
+  "created": "2025-11-05T07:22:19.893451+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,31 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/ment-vitd-mood-01",
+      "@id": "doi:10.1016/j.psychres.2013.10.031",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-vitd-mood-01",
-      "studyIds": [
-        "MENT-VITD-MOOD_01"
-      ],
-      "citation": "MENT-VITD-MOOD_01 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-vitd-mood-01; Adverse Events: Transient headache.",
-      "doi": "10.1234/ment-vitd-mood-01",
-      "sameAs": "https://doi.org/10.1234/ment-vitd-mood-01",
-      "datePublished": "2019",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "mental_health_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/ment-vitd-mood-02",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-vitd-mood-02",
+      "identifier": "doi:10.1016/j.psychres.2013.10.031",
       "studyIds": [
         "MENT-VITD-MOOD_02"
       ],
-      "citation": "MENT-VITD-MOOD_02 (2020); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-vitd-mood-02; Adverse Events: None reported.",
-      "doi": "10.1234/ment-vitd-mood-02",
-      "sameAs": "https://doi.org/10.1234/ment-vitd-mood-02",
+      "citation": "MENT-VITD-MOOD_02 (2020); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1016/j.psychres.2013.10.031; Adverse Events: None reported.",
+      "doi": "10.1016/j.psychres.2013.10.031",
+      "sameAs": "https://doi.org/10.1016/j.psychres.2013.10.031",
       "datePublished": "2020",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,15 +76,31 @@
       }
     },
     {
-      "@id": "doi:10.1234/ment-vitd-mood-03",
+      "@id": "doi:10.1017/s0007114518001678",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-vitd-mood-03",
+      "identifier": "doi:10.1017/s0007114518001678",
+      "studyIds": [
+        "MENT-VITD-MOOD_01"
+      ],
+      "citation": "MENT-VITD-MOOD_01 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1017/s0007114518001678; Adverse Events: Transient headache.",
+      "doi": "10.1017/s0007114518001678",
+      "sameAs": "https://doi.org/10.1017/s0007114518001678",
+      "datePublished": "2019",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1684/mrh.2010.0220",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1684/mrh.2010.0220",
       "studyIds": [
         "MENT-VITD-MOOD_03"
       ],
-      "citation": "MENT-VITD-MOOD_03 (2021); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-vitd-mood-03; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/ment-vitd-mood-03",
-      "sameAs": "https://doi.org/10.1234/ment-vitd-mood-03",
+      "citation": "MENT-VITD-MOOD_03 (2021); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1684/mrh.2010.0220; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1684/mrh.2010.0220",
+      "sameAs": "https://doi.org/10.1684/mrh.2010.0220",
       "datePublished": "2021",
       "isPartOf": {
         "@type": "Periodical",
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:bf64eac2eaa0059d238d4a44eb0f845b5ab0c9a810e7271fec149b0feeea594d",
-  "audit_hash": "0xad3b4d4e0a67a3b0"
+  "citations_manifest_hash": "sha256:8b0ab14320d4a8c614fe0b2d83f6c60d938160d77390adb79d4a6dcc155c0c81",
+  "audit_hash": "0x5f154fd0bee70409"
 }

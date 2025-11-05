@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:39.163821+00:00",
+  "created": "2025-11-05T07:22:15.387403+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/mh-lthr-gaba-01",
+      "@id": "doi:10.1007/s40120-021-00284-x",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/mh-lthr-gaba-01",
+      "identifier": "doi:10.1007/s40120-021-00284-x",
       "studyIds": [
         "MH-LTHR-GABA_01"
       ],
-      "citation": "MH-LTHR-GABA_01 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety management concerns; Outcome: anxiety_management; DOI: 10.1234/mh-lthr-gaba-01; Adverse Events: Transient headache.",
-      "doi": "10.1234/mh-lthr-gaba-01",
-      "sameAs": "https://doi.org/10.1234/mh-lthr-gaba-01",
+      "citation": "MH-LTHR-GABA_01 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety management concerns; Outcome: anxiety_management; DOI: 10.1007/s40120-021-00284-x; Adverse Events: Transient headache.",
+      "doi": "10.1007/s40120-021-00284-x",
+      "sameAs": "https://doi.org/10.1007/s40120-021-00284-x",
       "datePublished": "2013",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,15 +76,15 @@
       }
     },
     {
-      "@id": "doi:10.1234/mh-lthr-gaba-02",
+      "@id": "doi:10.1080/13880209.2018.1557698",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/mh-lthr-gaba-02",
+      "identifier": "doi:10.1080/13880209.2018.1557698",
       "studyIds": [
         "MH-LTHR-GABA_02"
       ],
-      "citation": "MH-LTHR-GABA_02 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety management concerns; Outcome: anxiety_management; DOI: 10.1234/mh-lthr-gaba-02; Adverse Events: None reported.",
-      "doi": "10.1234/mh-lthr-gaba-02",
-      "sameAs": "https://doi.org/10.1234/mh-lthr-gaba-02",
+      "citation": "MH-LTHR-GABA_02 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety management concerns; Outcome: anxiety_management; DOI: 10.1080/13880209.2018.1557698; Adverse Events: None reported.",
+      "doi": "10.1080/13880209.2018.1557698",
+      "sameAs": "https://doi.org/10.1080/13880209.2018.1557698",
       "datePublished": "2014",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,15 +92,15 @@
       }
     },
     {
-      "@id": "doi:10.1234/mh-lthr-gaba-03",
+      "@id": "doi:10.3390/nu11102362",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/mh-lthr-gaba-03",
+      "identifier": "doi:10.3390/nu11102362",
       "studyIds": [
         "MH-LTHR-GABA_03"
       ],
-      "citation": "MH-LTHR-GABA_03 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety management concerns; Outcome: anxiety_management; DOI: 10.1234/mh-lthr-gaba-03; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/mh-lthr-gaba-03",
-      "sameAs": "https://doi.org/10.1234/mh-lthr-gaba-03",
+      "citation": "MH-LTHR-GABA_03 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety management concerns; Outcome: anxiety_management; DOI: 10.3390/nu11102362; Adverse Events: Mild GI discomfort.",
+      "doi": "10.3390/nu11102362",
+      "sameAs": "https://doi.org/10.3390/nu11102362",
       "datePublished": "2015",
       "isPartOf": {
         "@type": "Periodical",
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:7536c7f2c583f4b8f7d73b56c5e1e1395dbe146e0071428bfadc4d5e9f92dd35",
-  "audit_hash": "0x45024e1dc5dbd898"
+  "citations_manifest_hash": "sha256:a7bc2b54db3cc04da83cddbe036f30d6ff572260968bf81d2ab9d6f417e78405",
+  "audit_hash": "0x86e0acb7b0a87ae9"
 }

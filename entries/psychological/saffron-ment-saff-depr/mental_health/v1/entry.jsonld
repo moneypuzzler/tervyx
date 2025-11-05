@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:47.469054+00:00",
+  "created": "2025-11-05T07:22:05.875840+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/ment-saff-depr-01",
+      "@id": "doi:10.1016/j.ctim.2017.06.001",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-saff-depr-01",
+      "identifier": "doi:10.1016/j.ctim.2017.06.001",
       "studyIds": [
         "MENT-SAFF-DEPR_01"
       ],
-      "citation": "MENT-SAFF-DEPR_01 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-saff-depr-01; Adverse Events: None reported.",
-      "doi": "10.1234/ment-saff-depr-01",
-      "sameAs": "https://doi.org/10.1234/ment-saff-depr-01",
+      "citation": "MENT-SAFF-DEPR_01 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1016/j.ctim.2017.06.001; Adverse Events: None reported.",
+      "doi": "10.1016/j.ctim.2017.06.001",
+      "sameAs": "https://doi.org/10.1016/j.ctim.2017.06.001",
       "datePublished": "2017",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,15 +76,15 @@
       }
     },
     {
-      "@id": "doi:10.1234/ment-saff-depr-02",
+      "@id": "doi:10.1016/j.jad.2013.06.041",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-saff-depr-02",
+      "identifier": "doi:10.1016/j.jad.2013.06.041",
       "studyIds": [
         "MENT-SAFF-DEPR_02"
       ],
-      "citation": "MENT-SAFF-DEPR_02 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-saff-depr-02; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/ment-saff-depr-02",
-      "sameAs": "https://doi.org/10.1234/ment-saff-depr-02",
+      "citation": "MENT-SAFF-DEPR_02 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1016/j.jad.2013.06.041; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1016/j.jad.2013.06.041",
+      "sameAs": "https://doi.org/10.1016/j.jad.2013.06.041",
       "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,15 +92,15 @@
       }
     },
     {
-      "@id": "doi:10.1234/ment-saff-depr-03",
+      "@id": "doi:10.1111/jcpt.13040",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-saff-depr-03",
+      "identifier": "doi:10.1111/jcpt.13040",
       "studyIds": [
         "MENT-SAFF-DEPR_03"
       ],
-      "citation": "MENT-SAFF-DEPR_03 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-saff-depr-03; Adverse Events: Transient headache.",
-      "doi": "10.1234/ment-saff-depr-03",
-      "sameAs": "https://doi.org/10.1234/ment-saff-depr-03",
+      "citation": "MENT-SAFF-DEPR_03 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1111/jcpt.13040; Adverse Events: Transient headache.",
+      "doi": "10.1111/jcpt.13040",
+      "sameAs": "https://doi.org/10.1111/jcpt.13040",
       "datePublished": "2019",
       "isPartOf": {
         "@type": "Periodical",
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:737a983dc8d800d14aabf51f1841b583ca7ebe356ba283cf25e1401b6545a6ba",
-  "audit_hash": "0x9c8104cf320e549e"
+  "citations_manifest_hash": "sha256:522d1885b3ead547eea385b0735e9bb118d84c522061b60df675ad8196906495",
+  "audit_hash": "0x85e1ad568615ee80"
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:51:49.221058+00:00",
+  "generated": "2025-11-05T07:22:05.329815+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/st-johns-wort-ment-stj-wort/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -12,9 +12,9 @@
       "outcome": "depression",
       "population": "Adults with depression concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/ment-stj-wort-01",
-      "url": "https://doi.org/10.1234/ment-stj-wort-01",
-      "citation": "MENT-STJ-WORT_01 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-stj-wort-01; Adverse Events: Transient headache."
+      "doi": "10.1001/jama.285.15.1978",
+      "url": "https://doi.org/10.1001/jama.285.15.1978",
+      "citation": "MENT-STJ-WORT_01 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1001/jama.285.15.1978; Adverse Events: Transient headache."
     },
     {
       "study_id": "MENT-STJ-WORT_02",
@@ -24,9 +24,9 @@
       "outcome": "depression",
       "population": "Adults with depression concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/ment-stj-wort-02",
-      "url": "https://doi.org/10.1234/ment-stj-wort-02",
-      "citation": "MENT-STJ-WORT_02 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-stj-wort-02; Adverse Events: None reported."
+      "doi": "10.1001/jama.287.14.1807",
+      "url": "https://doi.org/10.1001/jama.287.14.1807",
+      "citation": "MENT-STJ-WORT_02 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1001/jama.287.14.1807; Adverse Events: None reported."
     },
     {
       "study_id": "MENT-STJ-WORT_03",
@@ -36,39 +36,39 @@
       "outcome": "depression",
       "population": "Adults with depression concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/ment-stj-wort-03",
-      "url": "https://doi.org/10.1234/ment-stj-wort-03",
-      "citation": "MENT-STJ-WORT_03 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-stj-wort-03; Adverse Events: Mild GI discomfort."
+      "doi": "10.1192/bjp.186.2.99",
+      "url": "https://doi.org/10.1192/bjp.186.2.99",
+      "citation": "MENT-STJ-WORT_03 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1192/bjp.186.2.99; Adverse Events: Mild GI discomfort."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/ment-stj-wort-01",
+      "identifier": "10.1001/jama.285.15.1978",
       "study_ids": [
         "MENT-STJ-WORT_01"
       ],
       "primary_study_id": "MENT-STJ-WORT_01",
-      "url": "https://doi.org/10.1234/ment-stj-wort-01"
+      "url": "https://doi.org/10.1001/jama.285.15.1978"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/ment-stj-wort-02",
+      "identifier": "10.1001/jama.287.14.1807",
       "study_ids": [
         "MENT-STJ-WORT_02"
       ],
       "primary_study_id": "MENT-STJ-WORT_02",
-      "url": "https://doi.org/10.1234/ment-stj-wort-02"
+      "url": "https://doi.org/10.1001/jama.287.14.1807"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/ment-stj-wort-03",
+      "identifier": "10.1192/bjp.186.2.99",
       "study_ids": [
         "MENT-STJ-WORT_03"
       ],
       "primary_study_id": "MENT-STJ-WORT_03",
-      "url": "https://doi.org/10.1234/ment-stj-wort-03"
+      "url": "https://doi.org/10.1192/bjp.186.2.99"
     }
   ],
-  "manifest_hash": "sha256:66119bc9fdb51fef42b42ae8af02a898ce08574ec5fe4ef1b6cc74d300326b60"
+  "manifest_hash": "sha256:c09b3cc5adbe24cf9305dcff631d0fdf30ce6c2ae1fdbb3ced9e4df5d99b399a"
 }

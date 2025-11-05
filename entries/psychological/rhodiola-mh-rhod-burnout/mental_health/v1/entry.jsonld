@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:46.918149+00:00",
+  "created": "2025-11-05T07:22:07.519349+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,31 +60,31 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/mh-rhod-burnout-01",
+      "@id": "doi:10.1055/s-0028-1088346",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/mh-rhod-burnout-01",
+      "identifier": "doi:10.1055/s-0028-1088346",
       "studyIds": [
-        "MH-RHOD-BURNOUT_01"
+        "MH-RHOD-BURNOUT_03"
       ],
-      "citation": "MH-RHOD-BURNOUT_01 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with burnout recovery concerns; Outcome: burnout_recovery; DOI: 10.1234/mh-rhod-burnout-01; Adverse Events: Transient headache.",
-      "doi": "10.1234/mh-rhod-burnout-01",
-      "sameAs": "https://doi.org/10.1234/mh-rhod-burnout-01",
-      "datePublished": "2016",
+      "citation": "MH-RHOD-BURNOUT_03 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with burnout recovery concerns; Outcome: burnout_recovery; DOI: 10.1055/s-0028-1088346; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1055/s-0028-1088346",
+      "sameAs": "https://doi.org/10.1055/s-0028-1088346",
+      "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
         "name": "mental_health_journal"
       }
     },
     {
-      "@id": "doi:10.1234/mh-rhod-burnout-02",
+      "@id": "doi:10.1080/13651501.2017.1417442",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/mh-rhod-burnout-02",
+      "identifier": "doi:10.1080/13651501.2017.1417442",
       "studyIds": [
         "MH-RHOD-BURNOUT_02"
       ],
-      "citation": "MH-RHOD-BURNOUT_02 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with burnout recovery concerns; Outcome: burnout_recovery; DOI: 10.1234/mh-rhod-burnout-02; Adverse Events: None reported.",
-      "doi": "10.1234/mh-rhod-burnout-02",
-      "sameAs": "https://doi.org/10.1234/mh-rhod-burnout-02",
+      "citation": "MH-RHOD-BURNOUT_02 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with burnout recovery concerns; Outcome: burnout_recovery; DOI: 10.1080/13651501.2017.1417442; Adverse Events: None reported.",
+      "doi": "10.1080/13651501.2017.1417442",
+      "sameAs": "https://doi.org/10.1080/13651501.2017.1417442",
       "datePublished": "2017",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,22 +92,22 @@
       }
     },
     {
-      "@id": "doi:10.1234/mh-rhod-burnout-03",
+      "@id": "doi:10.1186/s12991-017-0138-2",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/mh-rhod-burnout-03",
+      "identifier": "doi:10.1186/s12991-017-0138-2",
       "studyIds": [
-        "MH-RHOD-BURNOUT_03"
+        "MH-RHOD-BURNOUT_01"
       ],
-      "citation": "MH-RHOD-BURNOUT_03 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with burnout recovery concerns; Outcome: burnout_recovery; DOI: 10.1234/mh-rhod-burnout-03; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/mh-rhod-burnout-03",
-      "sameAs": "https://doi.org/10.1234/mh-rhod-burnout-03",
-      "datePublished": "2018",
+      "citation": "MH-RHOD-BURNOUT_01 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with burnout recovery concerns; Outcome: burnout_recovery; DOI: 10.1186/s12991-017-0138-2; Adverse Events: Transient headache.",
+      "doi": "10.1186/s12991-017-0138-2",
+      "sameAs": "https://doi.org/10.1186/s12991-017-0138-2",
+      "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
         "name": "mental_health_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:1498d70f483a540ddc69921f7115ae6af710c539d6d943bb20b9d1b18dca4e77",
-  "audit_hash": "0x3de493062daf4d5d"
+  "citations_manifest_hash": "sha256:796d56f73c8b28abf1a5cd3468395ba6d320c147f70e6ce55346fb5d12b919a7",
+  "audit_hash": "0x8e912de4487ac040"
 }

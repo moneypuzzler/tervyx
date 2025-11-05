@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:36.414426+00:00",
+  "created": "2025-11-05T07:22:12.524541+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,31 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/mh-gaba-neuro-01",
+      "@id": "doi:10.1080/13880209.2018.1557698",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/mh-gaba-neuro-01",
+      "identifier": "doi:10.1080/13880209.2018.1557698",
+      "studyIds": [
+        "MH-GABA-NEURO_03"
+      ],
+      "citation": "MH-GABA-NEURO_03 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with acute stress concerns; Outcome: acute_stress; DOI: 10.1080/13880209.2018.1557698; Adverse Events: Transient headache.",
+      "doi": "10.1080/13880209.2018.1557698",
+      "sameAs": "https://doi.org/10.1080/13880209.2018.1557698",
+      "datePublished": "2019",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.3389/fnins.2020.00923",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.3389/fnins.2020.00923",
       "studyIds": [
         "MH-GABA-NEURO_01"
       ],
-      "citation": "MH-GABA-NEURO_01 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with acute stress concerns; Outcome: acute_stress; DOI: 10.1234/mh-gaba-neuro-01; Adverse Events: None reported.",
-      "doi": "10.1234/mh-gaba-neuro-01",
-      "sameAs": "https://doi.org/10.1234/mh-gaba-neuro-01",
+      "citation": "MH-GABA-NEURO_01 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with acute stress concerns; Outcome: acute_stress; DOI: 10.3389/fnins.2020.00923; Adverse Events: None reported.",
+      "doi": "10.3389/fnins.2020.00923",
+      "sameAs": "https://doi.org/10.3389/fnins.2020.00923",
       "datePublished": "2017",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,38 +92,22 @@
       }
     },
     {
-      "@id": "doi:10.1234/mh-gaba-neuro-02",
+      "@id": "doi:10.3390/nu16050608",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/mh-gaba-neuro-02",
+      "identifier": "doi:10.3390/nu16050608",
       "studyIds": [
         "MH-GABA-NEURO_02"
       ],
-      "citation": "MH-GABA-NEURO_02 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with acute stress concerns; Outcome: acute_stress; DOI: 10.1234/mh-gaba-neuro-02; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/mh-gaba-neuro-02",
-      "sameAs": "https://doi.org/10.1234/mh-gaba-neuro-02",
+      "citation": "MH-GABA-NEURO_02 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with acute stress concerns; Outcome: acute_stress; DOI: 10.3390/nu16050608; Adverse Events: Mild GI discomfort.",
+      "doi": "10.3390/nu16050608",
+      "sameAs": "https://doi.org/10.3390/nu16050608",
       "datePublished": "2018",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "mental_health_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/mh-gaba-neuro-03",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/mh-gaba-neuro-03",
-      "studyIds": [
-        "MH-GABA-NEURO_03"
-      ],
-      "citation": "MH-GABA-NEURO_03 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with acute stress concerns; Outcome: acute_stress; DOI: 10.1234/mh-gaba-neuro-03; Adverse Events: Transient headache.",
-      "doi": "10.1234/mh-gaba-neuro-03",
-      "sameAs": "https://doi.org/10.1234/mh-gaba-neuro-03",
-      "datePublished": "2019",
       "isPartOf": {
         "@type": "Periodical",
         "name": "mental_health_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:4b9409572fc4c8bf44c99856c0e7cbb1149772be4268cb5da1a60dc3ac690dab",
-  "audit_hash": "0x0049e866f88dd897"
+  "citations_manifest_hash": "sha256:6153e625d0f6d2548231c700c0a86d0e5bfd5e63d09987c9da6581fe1622faa0",
+  "audit_hash": "0x20c583971b042a01"
 }

@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:48.643529+00:00",
+  "created": "2025-11-05T07:22:04.776889+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/ment-sam-e-01",
+      "@id": "doi:10.1007/s00213-019-05358-1",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-sam-e-01",
+      "identifier": "doi:10.1007/s00213-019-05358-1",
       "studyIds": [
         "MENT-SAM-E_01"
       ],
-      "citation": "MENT-SAM-E_01 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-sam-e-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/ment-sam-e-01",
-      "sameAs": "https://doi.org/10.1234/ment-sam-e-01",
+      "citation": "MENT-SAM-E_01 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1007/s00213-019-05358-1; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1007/s00213-019-05358-1",
+      "sameAs": "https://doi.org/10.1007/s00213-019-05358-1",
       "datePublished": "2015",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,38 +76,38 @@
       }
     },
     {
-      "@id": "doi:10.1234/ment-sam-e-02",
+      "@id": "doi:10.1016/j.euroneuro.2018.07.098",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-sam-e-02",
+      "identifier": "doi:10.1016/j.euroneuro.2018.07.098",
       "studyIds": [
-        "MENT-SAM-E_02"
+        "MENT-SAM-E_03"
       ],
-      "citation": "MENT-SAM-E_02 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-sam-e-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/ment-sam-e-02",
-      "sameAs": "https://doi.org/10.1234/ment-sam-e-02",
-      "datePublished": "2016",
+      "citation": "MENT-SAM-E_03 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1016/j.euroneuro.2018.07.098; Adverse Events: None reported.",
+      "doi": "10.1016/j.euroneuro.2018.07.098",
+      "sameAs": "https://doi.org/10.1016/j.euroneuro.2018.07.098",
+      "datePublished": "2017",
       "isPartOf": {
         "@type": "Periodical",
         "name": "mental_health_journal"
       }
     },
     {
-      "@id": "doi:10.1234/ment-sam-e-03",
+      "@id": "doi:10.1176/appi.ajp.2009.09081198",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-sam-e-03",
+      "identifier": "doi:10.1176/appi.ajp.2009.09081198",
       "studyIds": [
-        "MENT-SAM-E_03"
+        "MENT-SAM-E_02"
       ],
-      "citation": "MENT-SAM-E_03 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-sam-e-03; Adverse Events: None reported.",
-      "doi": "10.1234/ment-sam-e-03",
-      "sameAs": "https://doi.org/10.1234/ment-sam-e-03",
-      "datePublished": "2017",
+      "citation": "MENT-SAM-E_02 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1176/appi.ajp.2009.09081198; Adverse Events: Transient headache.",
+      "doi": "10.1176/appi.ajp.2009.09081198",
+      "sameAs": "https://doi.org/10.1176/appi.ajp.2009.09081198",
+      "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
         "name": "mental_health_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:6550d59a00a02aedfaf1c4fc0a6916ffd8432bc2ff9703f80331af07478307c4",
-  "audit_hash": "0x290944220617a7d3"
+  "citations_manifest_hash": "sha256:e38f3d7909a360549a0b9d4cec5d85387f7666c89f168c32483da6c41e3175cb",
+  "audit_hash": "0xec610a6f4d099f3b"
 }

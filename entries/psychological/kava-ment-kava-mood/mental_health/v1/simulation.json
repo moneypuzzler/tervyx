@@ -31,7 +31,7 @@
     "iterations": 1,
     "final_nll": -3.8471898673920446
   },
-  "computation_time_ms": 20.1,
+  "computation_time_ms": 22.3,
   "tel5_input": {
     "P_value": 0.8836,
     "phi_violation": false,

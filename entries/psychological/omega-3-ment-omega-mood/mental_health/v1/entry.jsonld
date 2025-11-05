@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:43.196798+00:00",
+  "created": "2025-11-05T07:22:03.682533+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,31 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/ment-omega-mood-01",
+      "@id": "doi:10.1016/j.psychres.2016.01.002",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-omega-mood-01",
-      "studyIds": [
-        "MENT-OMEGA-MOOD_01"
-      ],
-      "citation": "MENT-OMEGA-MOOD_01 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-omega-mood-01; Adverse Events: None reported.",
-      "doi": "10.1234/ment-omega-mood-01",
-      "sameAs": "https://doi.org/10.1234/ment-omega-mood-01",
-      "datePublished": "2014",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "mental_health_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/ment-omega-mood-02",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-omega-mood-02",
+      "identifier": "doi:10.1016/j.psychres.2016.01.002",
       "studyIds": [
         "MENT-OMEGA-MOOD_02"
       ],
-      "citation": "MENT-OMEGA-MOOD_02 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-omega-mood-02; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/ment-omega-mood-02",
-      "sameAs": "https://doi.org/10.1234/ment-omega-mood-02",
+      "citation": "MENT-OMEGA-MOOD_02 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1016/j.psychres.2016.01.002; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1016/j.psychres.2016.01.002",
+      "sameAs": "https://doi.org/10.1016/j.psychres.2016.01.002",
       "datePublished": "2015",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,15 +76,31 @@
       }
     },
     {
-      "@id": "doi:10.1234/ment-omega-mood-03",
+      "@id": "doi:10.1038/s41398-019-0515-5",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-omega-mood-03",
+      "identifier": "doi:10.1038/s41398-019-0515-5",
+      "studyIds": [
+        "MENT-OMEGA-MOOD_01"
+      ],
+      "citation": "MENT-OMEGA-MOOD_01 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1038/s41398-019-0515-5; Adverse Events: None reported.",
+      "doi": "10.1038/s41398-019-0515-5",
+      "sameAs": "https://doi.org/10.1038/s41398-019-0515-5",
+      "datePublished": "2014",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1371/journal.pone.0096905",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1371/journal.pone.0096905",
       "studyIds": [
         "MENT-OMEGA-MOOD_03"
       ],
-      "citation": "MENT-OMEGA-MOOD_03 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-omega-mood-03; Adverse Events: Transient headache.",
-      "doi": "10.1234/ment-omega-mood-03",
-      "sameAs": "https://doi.org/10.1234/ment-omega-mood-03",
+      "citation": "MENT-OMEGA-MOOD_03 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1371/journal.pone.0096905; Adverse Events: Transient headache.",
+      "doi": "10.1371/journal.pone.0096905",
+      "sameAs": "https://doi.org/10.1371/journal.pone.0096905",
       "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:ea3d345b676e375d302c2c24cad76c30cba92579690255c18978d3f3b83b3897",
-  "audit_hash": "0xebf4974b7860218e"
+  "citations_manifest_hash": "sha256:1e3e16eb49b30f908cb536f4197443655e05445950c59186c1de485722799d8d",
+  "audit_hash": "0x97b040710c0990e6"
 }

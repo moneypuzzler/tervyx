@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:38.048534+00:00",
+  "created": "2025-11-05T07:22:14.222036+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,31 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/ment-ket-nutri-01",
+      "@id": "doi:10.1001/jamapsychiatry.2018.1668",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-ket-nutri-01",
-      "studyIds": [
-        "MENT-KET-NUTRI_01"
-      ],
-      "citation": "MENT-KET-NUTRI_01 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with treatment resistant depression concerns; Outcome: treatment_resistant_depression; DOI: 10.1234/ment-ket-nutri-01; Adverse Events: Transient headache.",
-      "doi": "10.1234/ment-ket-nutri-01",
-      "sameAs": "https://doi.org/10.1234/ment-ket-nutri-01",
-      "datePublished": "2013",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "mental_health_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/ment-ket-nutri-02",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-ket-nutri-02",
+      "identifier": "doi:10.1001/jamapsychiatry.2018.1668",
       "studyIds": [
         "MENT-KET-NUTRI_02"
       ],
-      "citation": "MENT-KET-NUTRI_02 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with treatment resistant depression concerns; Outcome: treatment_resistant_depression; DOI: 10.1234/ment-ket-nutri-02; Adverse Events: None reported.",
-      "doi": "10.1234/ment-ket-nutri-02",
-      "sameAs": "https://doi.org/10.1234/ment-ket-nutri-02",
+      "citation": "MENT-KET-NUTRI_02 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with treatment resistant depression concerns; Outcome: treatment_resistant_depression; DOI: 10.1001/jamapsychiatry.2018.1668; Adverse Events: None reported.",
+      "doi": "10.1001/jamapsychiatry.2018.1668",
+      "sameAs": "https://doi.org/10.1001/jamapsychiatry.2018.1668",
       "datePublished": "2014",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,22 +76,38 @@
       }
     },
     {
-      "@id": "doi:10.1234/ment-ket-nutri-03",
+      "@id": "doi:10.1016/j.jad.2018.08.001",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-ket-nutri-03",
+      "identifier": "doi:10.1016/j.jad.2018.08.001",
       "studyIds": [
         "MENT-KET-NUTRI_03"
       ],
-      "citation": "MENT-KET-NUTRI_03 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with treatment resistant depression concerns; Outcome: treatment_resistant_depression; DOI: 10.1234/ment-ket-nutri-03; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/ment-ket-nutri-03",
-      "sameAs": "https://doi.org/10.1234/ment-ket-nutri-03",
+      "citation": "MENT-KET-NUTRI_03 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with treatment resistant depression concerns; Outcome: treatment_resistant_depression; DOI: 10.1016/j.jad.2018.08.001; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1016/j.jad.2018.08.001",
+      "sameAs": "https://doi.org/10.1016/j.jad.2018.08.001",
       "datePublished": "2015",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1038/s41386-020-0623-9",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1038/s41386-020-0623-9",
+      "studyIds": [
+        "MENT-KET-NUTRI_01"
+      ],
+      "citation": "MENT-KET-NUTRI_01 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with treatment resistant depression concerns; Outcome: treatment_resistant_depression; DOI: 10.1038/s41386-020-0623-9; Adverse Events: Transient headache.",
+      "doi": "10.1038/s41386-020-0623-9",
+      "sameAs": "https://doi.org/10.1038/s41386-020-0623-9",
+      "datePublished": "2013",
       "isPartOf": {
         "@type": "Periodical",
         "name": "mental_health_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:5e926639be81d20675467995e702291fac9cded3b6b3082ef7d578d8e517c721",
-  "audit_hash": "0x6d07ce419299142f"
+  "citations_manifest_hash": "sha256:392622df1d5c51d9b9f1c42d69c2fc195cb4afa4b95241cdf348452353813c46",
+  "audit_hash": "0x3a92c2754ee8b002"
 }

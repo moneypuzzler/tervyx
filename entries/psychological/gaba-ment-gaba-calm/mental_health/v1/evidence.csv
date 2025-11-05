@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-MENT-GABA-CALM_01,2009,randomized controlled trial,SMD,-0.3380,-0.4877,-0.1882,74,53,some concerns,10.1234/ment-gaba-calm-01,mental_health_journal,anxiety,Adults with anxiety concerns,Mild GI discomfort,7
-MENT-GABA-CALM_02,2010,randomized controlled trial,SMD,-0.3857,-0.5457,-0.2257,78,56,mixed,10.1234/ment-gaba-calm-02,mental_health_journal,anxiety,Adults with anxiety concerns,Transient headache,8
-MENT-GABA-CALM_03,2011,randomized controlled trial,SMD,-0.4144,-0.5722,-0.2567,82,59,low,10.1234/ment-gaba-calm-03,mental_health_journal,anxiety,Adults with anxiety concerns,None reported,9
+MENT-GABA-CALM_01,2009,randomized controlled trial,SMD,-0.3380,-0.4877,-0.1882,74,53,some concerns,10.3389/fnins.2020.00923,mental_health_journal,anxiety,Adults with anxiety concerns,Mild GI discomfort,7
+MENT-GABA-CALM_02,2010,randomized controlled trial,SMD,-0.3857,-0.5457,-0.2257,78,56,mixed,10.1007/s10068-016-0076-9,mental_health_journal,anxiety,Adults with anxiety concerns,Transient headache,8
+MENT-GABA-CALM_03,2011,randomized controlled trial,SMD,-0.4144,-0.5722,-0.2567,82,59,low,10.3390/nu16050608,mental_health_journal,anxiety,Adults with anxiety concerns,None reported,9

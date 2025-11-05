@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:45.282507+00:00",
+  "created": "2025-11-05T07:22:09.160734+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,31 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/ment-prob-mood-01",
+      "@id": "doi:10.1016/j.neubiorev.2019.03.023",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-prob-mood-01",
-      "studyIds": [
-        "MENT-PROB-MOOD_01"
-      ],
-      "citation": "MENT-PROB-MOOD_01 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-prob-mood-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/ment-prob-mood-01",
-      "sameAs": "https://doi.org/10.1234/ment-prob-mood-01",
-      "datePublished": "2018",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "mental_health_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/ment-prob-mood-02",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-prob-mood-02",
+      "identifier": "doi:10.1016/j.neubiorev.2019.03.023",
       "studyIds": [
         "MENT-PROB-MOOD_02"
       ],
-      "citation": "MENT-PROB-MOOD_02 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-prob-mood-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/ment-prob-mood-02",
-      "sameAs": "https://doi.org/10.1234/ment-prob-mood-02",
+      "citation": "MENT-PROB-MOOD_02 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1016/j.neubiorev.2019.03.023; Adverse Events: Transient headache.",
+      "doi": "10.1016/j.neubiorev.2019.03.023",
+      "sameAs": "https://doi.org/10.1016/j.neubiorev.2019.03.023",
       "datePublished": "2019",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,15 +76,31 @@
       }
     },
     {
-      "@id": "doi:10.1234/ment-prob-mood-03",
+      "@id": "doi:10.1038/s41398-022-01977-z",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-prob-mood-03",
+      "identifier": "doi:10.1038/s41398-022-01977-z",
+      "studyIds": [
+        "MENT-PROB-MOOD_01"
+      ],
+      "citation": "MENT-PROB-MOOD_01 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1038/s41398-022-01977-z; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1038/s41398-022-01977-z",
+      "sameAs": "https://doi.org/10.1038/s41398-022-01977-z",
+      "datePublished": "2018",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1038/s44184-025-00123-z",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1038/s44184-025-00123-z",
       "studyIds": [
         "MENT-PROB-MOOD_03"
       ],
-      "citation": "MENT-PROB-MOOD_03 (2020); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-prob-mood-03; Adverse Events: None reported.",
-      "doi": "10.1234/ment-prob-mood-03",
-      "sameAs": "https://doi.org/10.1234/ment-prob-mood-03",
+      "citation": "MENT-PROB-MOOD_03 (2020); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1038/s44184-025-00123-z; Adverse Events: None reported.",
+      "doi": "10.1038/s44184-025-00123-z",
+      "sameAs": "https://doi.org/10.1038/s44184-025-00123-z",
       "datePublished": "2020",
       "isPartOf": {
         "@type": "Periodical",
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:34b905402ec04815a61bb725dda12fed5526c48ce710a0ba7e826cf669a729d2",
-  "audit_hash": "0x70221e753d3f62de"
+  "citations_manifest_hash": "sha256:ae038e3b5398bd6c1dd9868caa80bce6bc10db66c4e667e85df608d7544aad57",
+  "audit_hash": "0x23418a317fa461d6"
 }

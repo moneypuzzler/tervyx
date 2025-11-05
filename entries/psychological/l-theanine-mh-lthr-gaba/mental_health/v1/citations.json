@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:51:39.163701+00:00",
+  "generated": "2025-11-05T07:22:15.387287+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/l-theanine-mh-lthr-gaba/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -12,9 +12,9 @@
       "outcome": "anxiety_management",
       "population": "Adults with anxiety management concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/mh-lthr-gaba-01",
-      "url": "https://doi.org/10.1234/mh-lthr-gaba-01",
-      "citation": "MH-LTHR-GABA_01 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety management concerns; Outcome: anxiety_management; DOI: 10.1234/mh-lthr-gaba-01; Adverse Events: Transient headache."
+      "doi": "10.1007/s40120-021-00284-x",
+      "url": "https://doi.org/10.1007/s40120-021-00284-x",
+      "citation": "MH-LTHR-GABA_01 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety management concerns; Outcome: anxiety_management; DOI: 10.1007/s40120-021-00284-x; Adverse Events: Transient headache."
     },
     {
       "study_id": "MH-LTHR-GABA_02",
@@ -24,9 +24,9 @@
       "outcome": "anxiety_management",
       "population": "Adults with anxiety management concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/mh-lthr-gaba-02",
-      "url": "https://doi.org/10.1234/mh-lthr-gaba-02",
-      "citation": "MH-LTHR-GABA_02 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety management concerns; Outcome: anxiety_management; DOI: 10.1234/mh-lthr-gaba-02; Adverse Events: None reported."
+      "doi": "10.1080/13880209.2018.1557698",
+      "url": "https://doi.org/10.1080/13880209.2018.1557698",
+      "citation": "MH-LTHR-GABA_02 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety management concerns; Outcome: anxiety_management; DOI: 10.1080/13880209.2018.1557698; Adverse Events: None reported."
     },
     {
       "study_id": "MH-LTHR-GABA_03",
@@ -36,39 +36,39 @@
       "outcome": "anxiety_management",
       "population": "Adults with anxiety management concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/mh-lthr-gaba-03",
-      "url": "https://doi.org/10.1234/mh-lthr-gaba-03",
-      "citation": "MH-LTHR-GABA_03 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety management concerns; Outcome: anxiety_management; DOI: 10.1234/mh-lthr-gaba-03; Adverse Events: Mild GI discomfort."
+      "doi": "10.3390/nu11102362",
+      "url": "https://doi.org/10.3390/nu11102362",
+      "citation": "MH-LTHR-GABA_03 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety management concerns; Outcome: anxiety_management; DOI: 10.3390/nu11102362; Adverse Events: Mild GI discomfort."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/mh-lthr-gaba-01",
+      "identifier": "10.1007/s40120-021-00284-x",
       "study_ids": [
         "MH-LTHR-GABA_01"
       ],
       "primary_study_id": "MH-LTHR-GABA_01",
-      "url": "https://doi.org/10.1234/mh-lthr-gaba-01"
+      "url": "https://doi.org/10.1007/s40120-021-00284-x"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/mh-lthr-gaba-02",
+      "identifier": "10.1080/13880209.2018.1557698",
       "study_ids": [
         "MH-LTHR-GABA_02"
       ],
       "primary_study_id": "MH-LTHR-GABA_02",
-      "url": "https://doi.org/10.1234/mh-lthr-gaba-02"
+      "url": "https://doi.org/10.1080/13880209.2018.1557698"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/mh-lthr-gaba-03",
+      "identifier": "10.3390/nu11102362",
       "study_ids": [
         "MH-LTHR-GABA_03"
       ],
       "primary_study_id": "MH-LTHR-GABA_03",
-      "url": "https://doi.org/10.1234/mh-lthr-gaba-03"
+      "url": "https://doi.org/10.3390/nu11102362"
     }
   ],
-  "manifest_hash": "sha256:7536c7f2c583f4b8f7d73b56c5e1e1395dbe146e0071428bfadc4d5e9f92dd35"
+  "manifest_hash": "sha256:a7bc2b54db3cc04da83cddbe036f30d6ff572260968bf81d2ab9d6f417e78405"
 }

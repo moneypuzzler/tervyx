@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:51:42.058817+00:00",
+  "generated": "2025-11-05T07:22:08.071961+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/nac-ment-nac-ocd/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -12,9 +12,9 @@
       "outcome": "ocd",
       "population": "Adults with ocd concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/ment-nac-ocd-01",
-      "url": "https://doi.org/10.1234/ment-nac-ocd-01",
-      "citation": "MENT-NAC-OCD_01 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with ocd concerns; Outcome: ocd; DOI: 10.1234/ment-nac-ocd-01; Adverse Events: Mild GI discomfort."
+      "doi": "10.4088/jcp.16m11101",
+      "url": "https://doi.org/10.4088/jcp.16m11101",
+      "citation": "MENT-NAC-OCD_01 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with ocd concerns; Outcome: ocd; DOI: 10.4088/jcp.16m11101; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "MENT-NAC-OCD_02",
@@ -24,9 +24,9 @@
       "outcome": "ocd",
       "population": "Adults with ocd concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/ment-nac-ocd-02",
-      "url": "https://doi.org/10.1234/ment-nac-ocd-02",
-      "citation": "MENT-NAC-OCD_02 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with ocd concerns; Outcome: ocd; DOI: 10.1234/ment-nac-ocd-02; Adverse Events: Transient headache."
+      "doi": "10.1016/j.jpsychires.2022.02.038",
+      "url": "https://doi.org/10.1016/j.jpsychires.2022.02.038",
+      "citation": "MENT-NAC-OCD_02 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with ocd concerns; Outcome: ocd; DOI: 10.1016/j.jpsychires.2022.02.038; Adverse Events: Transient headache."
     },
     {
       "study_id": "MENT-NAC-OCD_03",
@@ -36,39 +36,39 @@
       "outcome": "ocd",
       "population": "Adults with ocd concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/ment-nac-ocd-03",
-      "url": "https://doi.org/10.1234/ment-nac-ocd-03",
-      "citation": "MENT-NAC-OCD_03 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with ocd concerns; Outcome: ocd; DOI: 10.1234/ment-nac-ocd-03; Adverse Events: None reported."
+      "doi": "10.3389/fpsyt.2024.1421150",
+      "url": "https://doi.org/10.3389/fpsyt.2024.1421150",
+      "citation": "MENT-NAC-OCD_03 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with ocd concerns; Outcome: ocd; DOI: 10.3389/fpsyt.2024.1421150; Adverse Events: None reported."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/ment-nac-ocd-01",
-      "study_ids": [
-        "MENT-NAC-OCD_01"
-      ],
-      "primary_study_id": "MENT-NAC-OCD_01",
-      "url": "https://doi.org/10.1234/ment-nac-ocd-01"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/ment-nac-ocd-02",
+      "identifier": "10.1016/j.jpsychires.2022.02.038",
       "study_ids": [
         "MENT-NAC-OCD_02"
       ],
       "primary_study_id": "MENT-NAC-OCD_02",
-      "url": "https://doi.org/10.1234/ment-nac-ocd-02"
+      "url": "https://doi.org/10.1016/j.jpsychires.2022.02.038"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/ment-nac-ocd-03",
+      "identifier": "10.3389/fpsyt.2024.1421150",
       "study_ids": [
         "MENT-NAC-OCD_03"
       ],
       "primary_study_id": "MENT-NAC-OCD_03",
-      "url": "https://doi.org/10.1234/ment-nac-ocd-03"
+      "url": "https://doi.org/10.3389/fpsyt.2024.1421150"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.4088/jcp.16m11101",
+      "study_ids": [
+        "MENT-NAC-OCD_01"
+      ],
+      "primary_study_id": "MENT-NAC-OCD_01",
+      "url": "https://doi.org/10.4088/jcp.16m11101"
     }
   ],
-  "manifest_hash": "sha256:b2d1c115b2eda34316237fa2a33c21ab3573da04db8acc5c4917a869007593b0"
+  "manifest_hash": "sha256:dde75209f8717ab8605f8dc7f1e8a17edacca9257115ff1c22f9f1b4747a0db7"
 }

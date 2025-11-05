@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:39.726394+00:00",
+  "created": "2025-11-05T07:22:15.983067+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,15 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/mh-ltrp-serotonin-01",
+      "@id": "doi:10.1093/nutrit/nuab027",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/mh-ltrp-serotonin-01",
+      "identifier": "doi:10.1093/nutrit/nuab027",
       "studyIds": [
         "MH-LTRP-SEROTONIN_01"
       ],
-      "citation": "MH-LTRP-SEROTONIN_01 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with serotonin modulation concerns; Outcome: serotonin_modulation; DOI: 10.1234/mh-ltrp-serotonin-01; Adverse Events: None reported.",
-      "doi": "10.1234/mh-ltrp-serotonin-01",
-      "sameAs": "https://doi.org/10.1234/mh-ltrp-serotonin-01",
+      "citation": "MH-LTRP-SEROTONIN_01 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with serotonin modulation concerns; Outcome: serotonin_modulation; DOI: 10.1093/nutrit/nuab027; Adverse Events: None reported.",
+      "doi": "10.1093/nutrit/nuab027",
+      "sameAs": "https://doi.org/10.1093/nutrit/nuab027",
       "datePublished": "2014",
       "isPartOf": {
         "@type": "Periodical",
@@ -76,38 +76,38 @@
       }
     },
     {
-      "@id": "doi:10.1234/mh-ltrp-serotonin-02",
+      "@id": "doi:10.1111/j.1600-0447.2007.00961.x",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/mh-ltrp-serotonin-02",
+      "identifier": "doi:10.1111/j.1600-0447.2007.00961.x",
       "studyIds": [
-        "MH-LTRP-SEROTONIN_02"
+        "MH-LTRP-SEROTONIN_03"
       ],
-      "citation": "MH-LTRP-SEROTONIN_02 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with serotonin modulation concerns; Outcome: serotonin_modulation; DOI: 10.1234/mh-ltrp-serotonin-02; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/mh-ltrp-serotonin-02",
-      "sameAs": "https://doi.org/10.1234/mh-ltrp-serotonin-02",
-      "datePublished": "2015",
+      "citation": "MH-LTRP-SEROTONIN_03 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with serotonin modulation concerns; Outcome: serotonin_modulation; DOI: 10.1111/j.1600-0447.2007.00961.x; Adverse Events: Transient headache.",
+      "doi": "10.1111/j.1600-0447.2007.00961.x",
+      "sameAs": "https://doi.org/10.1111/j.1600-0447.2007.00961.x",
+      "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
         "name": "mental_health_journal"
       }
     },
     {
-      "@id": "doi:10.1234/mh-ltrp-serotonin-03",
+      "@id": "doi:10.3389/fnut.2020.00099",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/mh-ltrp-serotonin-03",
+      "identifier": "doi:10.3389/fnut.2020.00099",
       "studyIds": [
-        "MH-LTRP-SEROTONIN_03"
+        "MH-LTRP-SEROTONIN_02"
       ],
-      "citation": "MH-LTRP-SEROTONIN_03 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with serotonin modulation concerns; Outcome: serotonin_modulation; DOI: 10.1234/mh-ltrp-serotonin-03; Adverse Events: Transient headache.",
-      "doi": "10.1234/mh-ltrp-serotonin-03",
-      "sameAs": "https://doi.org/10.1234/mh-ltrp-serotonin-03",
-      "datePublished": "2016",
+      "citation": "MH-LTRP-SEROTONIN_02 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with serotonin modulation concerns; Outcome: serotonin_modulation; DOI: 10.3389/fnut.2020.00099; Adverse Events: Mild GI discomfort.",
+      "doi": "10.3389/fnut.2020.00099",
+      "sameAs": "https://doi.org/10.3389/fnut.2020.00099",
+      "datePublished": "2015",
       "isPartOf": {
         "@type": "Periodical",
         "name": "mental_health_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:4a1fdca4c0b0b35fddee60f13d10707c6dab9b0758303b4271b15d73e9069c2f",
-  "audit_hash": "0x16fc3d80892d09f5"
+  "citations_manifest_hash": "sha256:3532bae7fd12efe30e73b11c6e4252a6d2e321e753be2d02ba979c17a419397a",
+  "audit_hash": "0x943a0ac6db5fb9f6"
 }

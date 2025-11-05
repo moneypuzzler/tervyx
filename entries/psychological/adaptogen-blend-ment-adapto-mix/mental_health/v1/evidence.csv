@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-MENT-ADAPTO-MIX_01,2018,randomized controlled trial,SMD,-0.3306,-0.4784,-0.1829,68,53,some concerns,10.1234/ment-adapto-mix-01,mental_health_journal,stress,Adults with stress concerns,Mild GI discomfort,10
-MENT-ADAPTO-MIX_02,2019,randomized controlled trial,SMD,-0.3401,-0.4774,-0.2028,72,56,mixed,10.1234/ment-adapto-mix-02,mental_health_journal,stress,Adults with stress concerns,Transient headache,11
-MENT-ADAPTO-MIX_03,2020,randomized controlled trial,SMD,-0.4068,-0.5701,-0.2436,76,59,low,10.1234/ment-adapto-mix-03,mental_health_journal,stress,Adults with stress concerns,None reported,6
+MENT-ADAPTO-MIX_01,2018,randomized controlled trial,SMD,-0.3306,-0.4784,-0.1829,68,53,some concerns,10.1186/s12906-018-2246-x,mental_health_journal,stress,Adults with stress concerns,Mild GI discomfort,10
+MENT-ADAPTO-MIX_02,2019,randomized controlled trial,SMD,-0.3401,-0.4774,-0.2028,72,56,mixed,10.1016/j.phymed.2022.154598,mental_health_journal,stress,Adults with stress concerns,Transient headache,11
+MENT-ADAPTO-MIX_03,2020,randomized controlled trial,SMD,-0.4068,-0.5701,-0.2436,76,59,low,10.3390/molecules27123823,mental_health_journal,stress,Adults with stress concerns,None reported,6

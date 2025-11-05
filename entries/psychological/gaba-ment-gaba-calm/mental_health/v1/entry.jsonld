@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:35.846121+00:00",
+  "created": "2025-11-05T07:22:11.976784+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,31 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/ment-gaba-calm-01",
+      "@id": "doi:10.1007/s10068-016-0076-9",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-gaba-calm-01",
-      "studyIds": [
-        "MENT-GABA-CALM_01"
-      ],
-      "citation": "MENT-GABA-CALM_01 (2009); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-gaba-calm-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/ment-gaba-calm-01",
-      "sameAs": "https://doi.org/10.1234/ment-gaba-calm-01",
-      "datePublished": "2009",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "mental_health_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/ment-gaba-calm-02",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-gaba-calm-02",
+      "identifier": "doi:10.1007/s10068-016-0076-9",
       "studyIds": [
         "MENT-GABA-CALM_02"
       ],
-      "citation": "MENT-GABA-CALM_02 (2010); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-gaba-calm-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/ment-gaba-calm-02",
-      "sameAs": "https://doi.org/10.1234/ment-gaba-calm-02",
+      "citation": "MENT-GABA-CALM_02 (2010); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1007/s10068-016-0076-9; Adverse Events: Transient headache.",
+      "doi": "10.1007/s10068-016-0076-9",
+      "sameAs": "https://doi.org/10.1007/s10068-016-0076-9",
       "datePublished": "2010",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,15 +76,31 @@
       }
     },
     {
-      "@id": "doi:10.1234/ment-gaba-calm-03",
+      "@id": "doi:10.3389/fnins.2020.00923",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-gaba-calm-03",
+      "identifier": "doi:10.3389/fnins.2020.00923",
+      "studyIds": [
+        "MENT-GABA-CALM_01"
+      ],
+      "citation": "MENT-GABA-CALM_01 (2009); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.3389/fnins.2020.00923; Adverse Events: Mild GI discomfort.",
+      "doi": "10.3389/fnins.2020.00923",
+      "sameAs": "https://doi.org/10.3389/fnins.2020.00923",
+      "datePublished": "2009",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.3390/nu16050608",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.3390/nu16050608",
       "studyIds": [
         "MENT-GABA-CALM_03"
       ],
-      "citation": "MENT-GABA-CALM_03 (2011); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/ment-gaba-calm-03; Adverse Events: None reported.",
-      "doi": "10.1234/ment-gaba-calm-03",
-      "sameAs": "https://doi.org/10.1234/ment-gaba-calm-03",
+      "citation": "MENT-GABA-CALM_03 (2011); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.3390/nu16050608; Adverse Events: None reported.",
+      "doi": "10.3390/nu16050608",
+      "sameAs": "https://doi.org/10.3390/nu16050608",
       "datePublished": "2011",
       "isPartOf": {
         "@type": "Periodical",
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:5841a6ac3b4a5f6090f1ab1c68af1644bb4f34cbbcd22c8183c2f3556ad5f488",
-  "audit_hash": "0x08fb3ced83d60d0d"
+  "citations_manifest_hash": "sha256:e1098113e4159fcfc7a11492ae223d3b9bdfc74453a2b9635531147dec6930af",
+  "audit_hash": "0x13e90b3778c54189"
 }

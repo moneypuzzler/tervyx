@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-MENT-GLYCINE-MOOD_01,2014,randomized controlled trial,SMD,-0.3089,-0.4723,-0.1454,74,48,low,10.1234/ment-glycine-mood-01,mental_health_journal,negative_symptoms,Adults with negative symptoms concerns,None reported,6
-MENT-GLYCINE-MOOD_02,2015,randomized controlled trial,SMD,-0.3709,-0.5035,-0.2383,78,51,some concerns,10.1234/ment-glycine-mood-02,mental_health_journal,negative_symptoms,Adults with negative symptoms concerns,Mild GI discomfort,7
-MENT-GLYCINE-MOOD_03,2016,randomized controlled trial,SMD,-0.4394,-0.6018,-0.2770,82,54,mixed,10.1234/ment-glycine-mood-03,mental_health_journal,negative_symptoms,Adults with negative symptoms concerns,Transient headache,8
+MENT-GLYCINE-MOOD_01,2014,randomized controlled trial,SMD,-0.3089,-0.4723,-0.1454,74,48,low,10.1016/S0920-9964(98)00151-1,mental_health_journal,negative_symptoms,Adults with negative symptoms concerns,None reported,6
+MENT-GLYCINE-MOOD_02,2015,randomized controlled trial,SMD,-0.3709,-0.5035,-0.2383,78,51,some concerns,10.1016/j.biopsych.2003.08.013,mental_health_journal,negative_symptoms,Adults with negative symptoms concerns,Mild GI discomfort,7
+MENT-GLYCINE-MOOD_03,2016,randomized controlled trial,SMD,-0.4394,-0.6018,-0.2770,82,54,mixed,10.1111/j.1479-8425.2007.00262.x,mental_health_journal,negative_symptoms,Adults with negative symptoms concerns,Transient headache,8

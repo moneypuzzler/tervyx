@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:33.635231+00:00",
+  "created": "2025-11-05T07:22:18.214549+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,31 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/ment-adapto-mix-01",
+      "@id": "doi:10.1016/j.phymed.2022.154598",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-adapto-mix-01",
-      "studyIds": [
-        "MENT-ADAPTO-MIX_01"
-      ],
-      "citation": "MENT-ADAPTO-MIX_01 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress concerns; Outcome: stress; DOI: 10.1234/ment-adapto-mix-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/ment-adapto-mix-01",
-      "sameAs": "https://doi.org/10.1234/ment-adapto-mix-01",
-      "datePublished": "2018",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "mental_health_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/ment-adapto-mix-02",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-adapto-mix-02",
+      "identifier": "doi:10.1016/j.phymed.2022.154598",
       "studyIds": [
         "MENT-ADAPTO-MIX_02"
       ],
-      "citation": "MENT-ADAPTO-MIX_02 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress concerns; Outcome: stress; DOI: 10.1234/ment-adapto-mix-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/ment-adapto-mix-02",
-      "sameAs": "https://doi.org/10.1234/ment-adapto-mix-02",
+      "citation": "MENT-ADAPTO-MIX_02 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress concerns; Outcome: stress; DOI: 10.1016/j.phymed.2022.154598; Adverse Events: Transient headache.",
+      "doi": "10.1016/j.phymed.2022.154598",
+      "sameAs": "https://doi.org/10.1016/j.phymed.2022.154598",
       "datePublished": "2019",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,15 +76,31 @@
       }
     },
     {
-      "@id": "doi:10.1234/ment-adapto-mix-03",
+      "@id": "doi:10.1186/s12906-018-2246-x",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-adapto-mix-03",
+      "identifier": "doi:10.1186/s12906-018-2246-x",
+      "studyIds": [
+        "MENT-ADAPTO-MIX_01"
+      ],
+      "citation": "MENT-ADAPTO-MIX_01 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress concerns; Outcome: stress; DOI: 10.1186/s12906-018-2246-x; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1186/s12906-018-2246-x",
+      "sameAs": "https://doi.org/10.1186/s12906-018-2246-x",
+      "datePublished": "2018",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.3390/molecules27123823",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.3390/molecules27123823",
       "studyIds": [
         "MENT-ADAPTO-MIX_03"
       ],
-      "citation": "MENT-ADAPTO-MIX_03 (2020); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress concerns; Outcome: stress; DOI: 10.1234/ment-adapto-mix-03; Adverse Events: None reported.",
-      "doi": "10.1234/ment-adapto-mix-03",
-      "sameAs": "https://doi.org/10.1234/ment-adapto-mix-03",
+      "citation": "MENT-ADAPTO-MIX_03 (2020); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress concerns; Outcome: stress; DOI: 10.3390/molecules27123823; Adverse Events: None reported.",
+      "doi": "10.3390/molecules27123823",
+      "sameAs": "https://doi.org/10.3390/molecules27123823",
       "datePublished": "2020",
       "isPartOf": {
         "@type": "Periodical",
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:cd1681abdab7333c2d9542d0625e81db5d080f4b8064652071ded69a6be79e68",
-  "audit_hash": "0xcedcd72d95958021"
+  "citations_manifest_hash": "sha256:d9efd965f72d002c49594780708d5569e7e08283b48e96e65c284c1c1f4dbc6f",
+  "audit_hash": "0xb9cbee3c51f2d9bd"
 }

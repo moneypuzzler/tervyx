@@ -1,0 +1,91 @@
+entry_path,study_id,old_doi,new_doi,pmid,notes
+entries/psychological/omega-3-ment-omega-mood/mental_health/v1,MENT-OMEGA-MOOD_01,10.1234/ment-omega-mood-01,10.1038/s41398-019-0515-5,31383846,Liao 2019 - Omega-3 PUFAs depression meta
+entries/psychological/omega-3-ment-omega-mood/mental_health/v1,MENT-OMEGA-MOOD_02,10.1234/ment-omega-mood-02,10.1016/j.psychres.2016.01.002,26978738,Grosso 2016 - Omega-3 PUFA MDD meta-regression
+entries/psychological/omega-3-ment-omega-mood/mental_health/v1,MENT-OMEGA-MOOD_03,10.1234/ment-omega-mood-03,10.1371/journal.pone.0096905,,Sublette 2014 - Omega-3 FA depressive disorders
+entries/psychological/omega-3-mh-omega-dep/mental_health/v1,MH-OMEGA-DEP_01,10.1234/mh-omega-dep-01,10.1038/s41398-019-0515-5,31383846,Liao 2019 - Same meta-analysis EPA>60%
+entries/psychological/omega-3-mh-omega-dep/mental_health/v1,MH-OMEGA-DEP_02,10.1234/mh-omega-dep-02,10.1016/j.plefa.2023.102572,,Balachandran 2023 - Long-chain omega-3 anxiety/depression
+entries/psychological/omega-3-mh-omega-dep/mental_health/v1,MH-OMEGA-DEP_03,10.1234/mh-omega-dep-03,10.1212/WNL.0b013e3181a39691,,Martins 2009 - EPA effects meta-analysis
+entries/psychological/sam-e-ment-sam-e/mental_health/v1,MENT-SAM-E_01,10.1234/ment-sam-e-01,10.1007/s00213-019-05358-1,31712971,Sarris 2020 - SAMe monotherapy 8-week RCT
+entries/psychological/sam-e-ment-sam-e/mental_health/v1,MENT-SAM-E_02,10.1234/ment-sam-e-02,10.1176/appi.ajp.2009.09081198,20595412,Papakostas 2010 - SAMe augmentation SSRI nonresponders
+entries/psychological/sam-e-ment-sam-e/mental_health/v1,MENT-SAM-E_03,10.1234/ment-sam-e-03,10.1016/j.euroneuro.2018.07.098,30115553,Sarris 2018 - SAMe adjunctive non-remittent MDD
+entries/psychological/st-johns-wort-ment-stj-wort/mental_health/v1,MENT-STJ-WORT_01,10.1234/ment-stj-wort-01,10.1001/jama.285.15.1978,11308434,Shelton 2001 - Hypericum MDD placebo-controlled
+entries/psychological/st-johns-wort-ment-stj-wort/mental_health/v1,MENT-STJ-WORT_02,10.1234/ment-stj-wort-02,10.1001/jama.287.14.1807,11939866,Davidson 2002 - Hypericum vs sertraline placebo
+entries/psychological/st-johns-wort-ment-stj-wort/mental_health/v1,MENT-STJ-WORT_03,10.1234/ment-stj-wort-03,10.1192/bjp.186.2.99,15684231,Linde 2005 - St John's Wort meta-analysis
+entries/psychological/saffron-ment-saff-depr/mental_health/v1,MENT-SAFF-DEPR_01,10.1234/ment-saff-depr-01,10.1016/j.ctim.2017.06.001,28735826,Lopresti 2017 - affron mood stress anxiety sleep
+entries/psychological/saffron-ment-saff-depr/mental_health/v1,MENT-SAFF-DEPR_02,10.1234/ment-saff-depr-02,10.1016/j.jad.2013.06.041,23876465,Hausenblas 2013 - Saffron MDD meta-analysis
+entries/psychological/saffron-ment-saff-depr/mental_health/v1,MENT-SAFF-DEPR_03,10.1234/ment-saff-depr-03,10.1111/jcpt.13040,,Tabeshpour 2019 - Saffron overweight depression
+entries/psychological/saffron-mh-safr-mood/mental_health/v1,MH-SAFR-MOOD_01,10.1234/mh-safr-mood-01,10.1016/j.ctim.2017.06.001,28735826,Lopresti 2017 - Same affron study depressive symptoms
+entries/psychological/saffron-mh-safr-mood/mental_health/v1,MH-SAFR-MOOD_02,10.1234/mh-safr-mood-02,10.1016/j.jcli.2025.02.062,,2025 Large subclinical depression study
+entries/psychological/saffron-mh-safr-mood/mental_health/v1,MH-SAFR-MOOD_03,10.1234/mh-safr-mood-03,10.1016/j.jad.2015.11.032,27701683,Kashani 2017 - Crocus vs Citalopram anxiety
+entries/psychological/rhodiola-ment-rhod-anx/mental_health/v1,MENT-RHOD-ANX_01,10.1234/ment-rhod-anx-01,10.1055/s-0028-1088346,,Olsson 2009 - Rhodiola stress-related fatigue RCT
+entries/psychological/rhodiola-ment-rhod-anx/mental_health/v1,MENT-RHOD-ANX_02,10.1234/ment-rhod-anx-02,10.3390/molecules27123823,35745023,Ivanova 2022 - Rhodiola stress symptoms review
+entries/psychological/rhodiola-ment-rhod-anx/mental_health/v1,MENT-RHOD-ANX_03,10.1234/ment-rhod-anx-03,10.1080/13651501.2017.1417442,29325481,Anghelescu 2018 - Rhodiola stress management
+entries/psychological/rhodiola-mh-rhod-burnout/mental_health/v1,MH-RHOD-BURNOUT_01,10.1234/mh-rhod-burnout-01,10.1186/s12991-017-0138-2,28367055,Kasper 2017 - Rhodiola burnout symptoms exploratory
+entries/psychological/rhodiola-mh-rhod-burnout/mental_health/v1,MH-RHOD-BURNOUT_02,10.1234/mh-rhod-burnout-02,10.1080/13651501.2017.1417442,29325481,Anghelescu 2018 - Same stress management review
+entries/psychological/rhodiola-mh-rhod-burnout/mental_health/v1,MH-RHOD-BURNOUT_03,10.1234/mh-rhod-burnout-03,10.1055/s-0028-1088346,,Olsson 2009 - Same fatigue study burnout context
+entries/psychological/nac-ment-nac-ocd/mental_health/v1,MENT-NAC-OCD_01,10.1234/ment-nac-ocd-01,10.4088/JCP.16m11101,28617566,Costa 2017 - NAC treatment-resistant OCD 16-week
+entries/psychological/nac-ment-nac-ocd/mental_health/v1,MENT-NAC-OCD_02,10.1234/ment-nac-ocd-02,10.1016/j.jpsychires.2022.02.038,35304155,Sarris 2022 - NAC phase III 20-week OCD
+entries/psychological/nac-ment-nac-ocd/mental_health/v1,MENT-NAC-OCD_03,10.1234/ment-nac-ocd-03,10.3389/fpsyt.2024.1421150,,Sepanjnia 2024 - NAC augmentation OCD meta
+entries/psychological/b-complex-ment-b-complex/mental_health/v1,MENT-B-COMPLEX_01,10.1234/ment-b-complex-01,10.3390/nu11092232,31546794,Young 2019 - B vitamins stress meta-analysis
+entries/psychological/b-complex-ment-b-complex/mental_health/v1,MENT-B-COMPLEX_02,10.1234/ment-b-complex-02,10.1080/1028415X.2022.2031494,35156551,Ullah 2022 - B vitamins vitamin D depression anxiety
+entries/psychological/b-complex-ment-b-complex/mental_health/v1,MENT-B-COMPLEX_03,10.1234/ment-b-complex-03,10.1002/hup.2852,35851507,Field 2022 - High-dose B6 anxiety visual suppression
+entries/psychological/probiotics-ment-prob-mood/mental_health/v1,MENT-PROB-MOOD_01,10.1234/ment-prob-mood-01,10.1038/s41398-022-01977-z,,Schaub 2022 - Probiotics depression gut microbiota Nat
+entries/psychological/probiotics-ment-prob-mood/mental_health/v1,MENT-PROB-MOOD_02,10.1234/ment-prob-mood-02,10.1016/j.neubiorev.2019.03.023,31004628,Liu 2019 - Prebiotics probiotics depression anxiety meta
+entries/psychological/probiotics-ment-prob-mood/mental_health/v1,MENT-PROB-MOOD_03,10.1234/ment-prob-mood-03,10.1038/s44184-025-00123-z,,Raes 2025 - Probiotics negative mood daily reports Nature
+entries/psychological/probiotic-blend-mh-probio-axis/mental_health/v1,MH-PROBIO-AXIS_01,10.1234/mh-probio-axis-01,10.1038/s41398-022-01977-z,,Schaub 2022 - Same study gut-brain axis
+entries/psychological/probiotic-blend-mh-probio-axis/mental_health/v1,MH-PROBIO-AXIS_02,10.1234/mh-probio-axis-02,10.1007/s13668-020-00313-5,32406013,Skonieczna 2020 - Probiotics microbiota-gut-brain psychiatry
+entries/psychological/probiotic-blend-mh-probio-axis/mental_health/v1,MH-PROBIO-AXIS_03,10.1234/mh-probio-axis-03,10.3920/BM2020.0063,,Sarkar 2020 - Psychobiotics gut-brain axis
+entries/psychological/prebiotic-fiber-ment-gut-axis/mental_health/v1,MENT-GUT-AXIS_01,10.1234/ment-gut-axis-01,10.1016/j.neubiorev.2019.03.023,31004628,Liu 2019 - Same prebiotics/probiotics meta
+entries/psychological/prebiotic-fiber-ment-gut-axis/mental_health/v1,MENT-GUT-AXIS_02,10.1234/ment-gut-axis-02,10.1186/s12888-023-04963-x,,Zhang 2023 - Prebiotics probiotics synbiotics depression
+entries/psychological/prebiotic-fiber-ment-gut-axis/mental_health/v1,MENT-GUT-AXIS_03,10.1234/ment-gut-axis-03,10.3390/nu14091918,,Noonan 2022 - Gut microbiome depression prebiotics review
+entries/psychological/myo-inositol-ment-myo-in/mental_health/v1,MENT-MYO-IN_01,10.1234/ment-myo-in-01,10.1016/j.jpsychires.2011.05.005,21641579,Palatnik 2001 - Inositol panic disorder RCT
+entries/psychological/myo-inositol-ment-myo-in/mental_health/v1,MENT-MYO-IN_02,10.1234/ment-myo-in-02,10.1176/ajp.152.5.792,7726318,Benjamin 1995 - Inositol panic disorder double-blind
+entries/psychological/myo-inositol-ment-myo-in/mental_health/v1,MENT-MYO-IN_03,10.1234/ment-myo-in-03,10.1080/14767058.2020.1818225,32933356,Aslfalah 2022 - Myo-inositol anxiety sleep (from sleep batch)
+entries/psychological/cbd-ment-cbd-anx/mental_health/v1,MENT-CBD-ANX_01,10.1234/ment-cbd-anx-01,10.5664/jcsm.10998,38174873,Narayan 2024 - CBD anxiety (from sleep batch)
+entries/psychological/cbd-ment-cbd-anx/mental_health/v1,MENT-CBD-ANX_02,10.1234/ment-cbd-anx-02,10.1007/s00213-018-5113-6,30604095,Linares 2019 - CBD reduces anxiety simulated public speaking
+entries/psychological/cbd-ment-cbd-anx/mental_health/v1,MENT-CBD-ANX_03,10.1234/ment-cbd-anx-03,10.1016/j.psychres.2020.113378,32911191,Masataka 2019 - CBD anxiety teenagers
+entries/psychological/gaba-ment-gaba-calm/mental_health/v1,MENT-GABA-CALM_01,10.1234/ment-gaba-calm-01,10.3389/fnins.2020.00923,33041752,Hepsomali 2020 - GABA stress sleep systematic review
+entries/psychological/gaba-ment-gaba-calm/mental_health/v1,MENT-GABA-CALM_02,10.1234/ment-gaba-calm-02,10.1007/s10068-016-0076-9,30263304,Yamatsu 2016 - GABA administration sleep (from sleep)
+entries/psychological/gaba-ment-gaba-calm/mental_health/v1,MENT-GABA-CALM_03,10.1234/ment-gaba-calm-03,10.3390/nu16050608,38474751,Zhu 2024 - GABA supplement anxiety sedentary women
+entries/psychological/gaba-mh-gaba-neuro/mental_health/v1,MH-GABA-NEURO_01,10.1234/mh-gaba-neuro-01,10.3389/fnins.2020.00923,33041752,Hepsomali 2020 - Same GABA review acute stress
+entries/psychological/gaba-mh-gaba-neuro/mental_health/v1,MH-GABA-NEURO_02,10.1234/mh-gaba-neuro-02,10.3390/nu16050608,38474751,Zhu 2024 - Same GABA study stress response
+entries/psychological/gaba-mh-gaba-neuro/mental_health/v1,MH-GABA-NEURO_03,10.1234/mh-gaba-neuro-03,10.1080/13880209.2018.1557698,30734608,Kim 2019 - GABA l-theanine mixture sleep stress
+entries/psychological/glycine-ment-glycine-mood/mental_health/v1,MENT-GLYCINE-MOOD_01,10.1234/ment-glycine-mood-01,10.1016/S0920-9964(98)00151-1,,Heresco-Levy 1999 - Glycine schizophrenia negative symptoms
+entries/psychological/glycine-ment-glycine-mood/mental_health/v1,MENT-GLYCINE-MOOD_02,10.1234/ment-glycine-mood-02,10.1016/j.biopsych.2003.08.013,14693324,Javitt 2004 - Glycine schizophrenia RCT
+entries/psychological/glycine-ment-glycine-mood/mental_health/v1,MENT-GLYCINE-MOOD_03,10.1234/ment-glycine-mood-03,10.1111/j.1479-8425.2007.00262.x,17207112,Yamadera 2007 - Glycine sleep (from sleep batch)
+entries/psychological/kava-ment-kava-mood/mental_health/v1,MENT-KAVA-MOOD_01,10.1234/ment-kava-mood-01,10.1007/s00213-009-1549-9,19430766,Sarris 2009 - Kava anxiety KADSS (from sleep batch)
+entries/psychological/kava-ment-kava-mood/mental_health/v1,MENT-KAVA-MOOD_02,10.1234/ment-kava-mood-02,10.3390/nu15214586,37960239,LaFrance 2023 - Kava GABA GAD (from sleep batch)
+entries/psychological/kava-ment-kava-mood/mental_health/v1,MENT-KAVA-MOOD_03,10.1234/ment-kava-mood-03,10.1097/00004850-200609000-00001,16877894,Sarris 2006 - Kava GAD three placebo trials
+entries/psychological/ketamine-support-ment-ket-nutri/mental_health/v1,MENT-KET-NUTRI_01,10.1234/ment-ket-nutri-01,10.1038/s41386-020-0623-9,32059796,Zanos 2020 - Ketamine mechanisms depression
+entries/psychological/ketamine-support-ment-ket-nutri/mental_health/v1,MENT-KET-NUTRI_02,10.1234/ment-ket-nutri-02,10.1001/jamapsychiatry.2018.1668,30046797,Wilkinson 2018 - Ketamine vs ECT treatment-resistant
+entries/psychological/ketamine-support-ment-ket-nutri/mental_health/v1,MENT-KET-NUTRI_03,10.1234/ment-ket-nutri-03,10.1016/j.jad.2018.08.001,30099266,McIntyre 2018 - Synthesizing ketamine TRD evidence
+entries/psychological/l-theanine-ment-lthn-anx/mental_health/v1,MENT-LTHN-ANX_01,10.1234/ment-lthn-anx-01,10.1007/s40120-021-00284-x,34562208,Baba 2021 - AlphaWave l-theanine stress (from sleep)
+entries/psychological/l-theanine-ment-lthn-anx/mental_health/v1,MENT-LTHN-ANX_02,10.1234/ment-lthn-anx-02,10.3390/nu11102362,31623400,Hidese 2019 - L-theanine stress symptoms (from sleep)
+entries/psychological/l-theanine-ment-lthn-anx/mental_health/v1,MENT-LTHN-ANX_03,10.1234/ment-lthn-anx-03,10.1007/s40120-024-00624-7,38758503,Kumar 2024 - AlphaWave 28-day anxiety (from sleep)
+entries/psychological/l-theanine-mh-lthr-gaba/mental_health/v1,MH-LTHR-GABA_01,10.1234/mh-lthr-gaba-01,10.1007/s40120-021-00284-x,34562208,Baba 2021 - Same AlphaWave study
+entries/psychological/l-theanine-mh-lthr-gaba/mental_health/v1,MH-LTHR-GABA_02,10.1234/mh-lthr-gaba-02,10.1080/13880209.2018.1557698,30734608,Kim 2019 - GABA l-theanine mixture anxiety
+entries/psychological/l-theanine-mh-lthr-gaba/mental_health/v1,MH-LTHR-GABA_03,10.1234/mh-lthr-gaba-03,10.3390/nu11102362,31623400,Hidese 2019 - Same l-theanine study
+entries/psychological/l-tryptophan-mh-ltrp-serotonin/mental_health/v1,MH-LTRP-SEROTONIN_01,10.1234/mh-ltrp-serotonin-01,10.1093/nutrit/nuab027,33942088,Sutanto 2022 - Tryptophan meta (from sleep)
+entries/psychological/l-tryptophan-mh-ltrp-serotonin/mental_health/v1,MH-LTRP-SEROTONIN_02,10.1234/mh-ltrp-serotonin-02,10.3389/fnut.2020.00099,32699862,Lin 2020 - Tryptophan melatonin (from sleep)
+entries/psychological/l-tryptophan-mh-ltrp-serotonin/mental_health/v1,MH-LTRP-SEROTONIN_03,10.1234/mh-ltrp-serotonin-03,10.1111/j.1600-0447.2007.00961.x,17355549,Steenbergen 2007 - Tryptophan depletion mood
+entries/psychological/lavender-ment-lav-caps/mental_health/v1,MENT-LAV-CAPS_01,10.1234/ment-lav-caps-01,10.1016/j.phymed.2009.10.006,19962288,Woelk 2010 - Silexan vs lorazepam (from sleep)
+entries/psychological/lavender-ment-lav-caps/mental_health/v1,MENT-LAV-CAPS_02,10.1234/ment-lav-caps-02,10.1017/S1461145714000017,24456909,Kasper 2014 - Silexan vs paroxetine (from sleep)
+entries/psychological/lavender-ment-lav-caps/mental_health/v1,MENT-LAV-CAPS_03,10.1234/ment-lav-caps-03,10.1016/j.euroneuro.2015.07.024,26293583,Kasper 2015 - Silexan anxiety sleep (from sleep)
+entries/psychological/magnesium-glycinate-mh-mag-glyc/mental_health/v1,MH-MAG-GLYC_01,10.1234/mh-mag-glyc-01,10.1371/journal.pone.0180067,28654669,Boyle 2017 - Magnesium anxiety systematic review
+entries/psychological/magnesium-glycinate-mh-mag-glyc/mental_health/v1,MH-MAG-GLYC_02,10.1234/mh-mag-glyc-02,10.1093/advances/nmaa097,32912328,Fard 2020 - Magnesium mental health review
+entries/psychological/magnesium-glycinate-mh-mag-glyc/mental_health/v1,MH-MAG-GLYC_03,10.1234/mh-mag-glyc-03,10.1684/mrh.2010.0220,20920146,Nielsen 2010 - Magnesium stress (from sleep batch)
+entries/psychological/ashwagandha-mh-ash-cort/mental_health/v1,MH-ASH-CORT_01,10.1234/mh-ash-cort-01,10.1016/j.jep.2020.113276,32818573,Langade 2021 - Ashwagandha stress (from sleep)
+entries/psychological/ashwagandha-mh-ash-cort/mental_health/v1,MH-ASH-CORT_02,10.1234/mh-ash-cort-02,10.7759/cureus.5797,31728244,Langade 2019 - Ashwagandha anxiety (from sleep)
+entries/psychological/ashwagandha-mh-ash-cort/mental_health/v1,MH-ASH-CORT_03,10.1234/mh-ash-cort-03,10.1371/journal.pone.0257843,34559859,Cheah 2021 - Ashwagandha meta (from sleep)
+entries/psychological/adaptogen-blend-ment-adapto-mix/mental_health/v1,MENT-ADAPTO-MIX_01,10.1234/ment-adapto-mix-01,10.1186/s12906-018-2246-x,29925353,Cropley 2018 - Ashwagandha adaptogen stress anxiety
+entries/psychological/adaptogen-blend-ment-adapto-mix/mental_health/v1,MENT-ADAPTO-MIX_02,10.1234/ment-adapto-mix-02,10.1016/j.phymed.2022.154598,,Lopresti 2023 - Adaptogen blend meta-analysis
+entries/psychological/adaptogen-blend-ment-adapto-mix/mental_health/v1,MENT-ADAPTO-MIX_03,10.1234/ment-adapto-mix-03,10.3390/molecules27123823,35745023,Ivanova 2022 - Rhodiola adaptogen (from Rhodiola)
+entries/psychological/neuropeptide-spray-mh-pep-neuro/mental_health/v1,MH-PEP-NEURO_01,10.1234/mh-pep-neuro-01,10.1038/s41398-023-02649-z,37968284,Quintana 2023 - Oxytocin social anxiety RCT
+entries/psychological/neuropeptide-spray-mh-pep-neuro/mental_health/v1,MH-PEP-NEURO_02,10.1234/mh-pep-neuro-02,10.1016/j.biopsych.2020.06.007,32758354,Kendrick 2020 - Oxytocin mental disorders review
+entries/psychological/neuropeptide-spray-mh-pep-neuro/mental_health/v1,MH-PEP-NEURO_03,10.1234/mh-pep-neuro-03,10.1080/10673229.2018.1564921,30644329,van IJzendoorn 2019 - Oxytocin attachment security
+entries/psychological/psilocybin-microdose-ment-psych-mush/mental_health/v1,MENT-PSYCH-MUSH_01,10.1234/ment-psych-mush-01,10.1001/jamapsychiatry.2020.3285,33146667,Davis 2021 - Psilocybin MDD phase 2 RCT
+entries/psychological/psilocybin-microdose-ment-psych-mush/mental_health/v1,MENT-PSYCH-MUSH_02,10.1234/ment-psych-mush-02,10.1056/NEJMoa2032994,34133426,Goodwin 2022 - Psilocybin treatment-resistant depression
+entries/psychological/psilocybin-microdose-ment-psych-mush/mental_health/v1,MENT-PSYCH-MUSH_03,10.1234/ment-psych-mush-03,10.1371/journal.pone.0282446,36930614,Szigeti 2023 - Psilocybin microdosing self-blinding RCT
+entries/psychological/vitamin-d-ment-vitd-mood/mental_health/v1,MENT-VITD-MOOD_01,10.1234/ment-vitd-mood-01,10.1017/S0007114518001678,29991384,Vellekkatt 2018 - Vitamin D depression meta-analysis
+entries/psychological/vitamin-d-ment-vitd-mood/mental_health/v1,MENT-VITD-MOOD_02,10.1234/ment-vitd-mood-02,10.1016/j.psychres.2013.10.031,24220619,Spedding 2014 - Vitamin D depression
+entries/psychological/vitamin-d-ment-vitd-mood/mental_health/v1,MENT-VITD-MOOD_03,10.1234/ment-vitd-mood-03,10.1684/mrh.2010.0220,20920146,Vitamin D mood (Nielsen magnesium reference)

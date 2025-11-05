@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:42.058925+00:00",
+  "created": "2025-11-05T07:22:08.072077+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,31 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/ment-nac-ocd-01",
+      "@id": "doi:10.1016/j.jpsychires.2022.02.038",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-nac-ocd-01",
-      "studyIds": [
-        "MENT-NAC-OCD_01"
-      ],
-      "citation": "MENT-NAC-OCD_01 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with ocd concerns; Outcome: ocd; DOI: 10.1234/ment-nac-ocd-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/ment-nac-ocd-01",
-      "sameAs": "https://doi.org/10.1234/ment-nac-ocd-01",
-      "datePublished": "2015",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "mental_health_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/ment-nac-ocd-02",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-nac-ocd-02",
+      "identifier": "doi:10.1016/j.jpsychires.2022.02.038",
       "studyIds": [
         "MENT-NAC-OCD_02"
       ],
-      "citation": "MENT-NAC-OCD_02 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with ocd concerns; Outcome: ocd; DOI: 10.1234/ment-nac-ocd-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/ment-nac-ocd-02",
-      "sameAs": "https://doi.org/10.1234/ment-nac-ocd-02",
+      "citation": "MENT-NAC-OCD_02 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with ocd concerns; Outcome: ocd; DOI: 10.1016/j.jpsychires.2022.02.038; Adverse Events: Transient headache.",
+      "doi": "10.1016/j.jpsychires.2022.02.038",
+      "sameAs": "https://doi.org/10.1016/j.jpsychires.2022.02.038",
       "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,22 +76,38 @@
       }
     },
     {
-      "@id": "doi:10.1234/ment-nac-ocd-03",
+      "@id": "doi:10.3389/fpsyt.2024.1421150",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-nac-ocd-03",
+      "identifier": "doi:10.3389/fpsyt.2024.1421150",
       "studyIds": [
         "MENT-NAC-OCD_03"
       ],
-      "citation": "MENT-NAC-OCD_03 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with ocd concerns; Outcome: ocd; DOI: 10.1234/ment-nac-ocd-03; Adverse Events: None reported.",
-      "doi": "10.1234/ment-nac-ocd-03",
-      "sameAs": "https://doi.org/10.1234/ment-nac-ocd-03",
+      "citation": "MENT-NAC-OCD_03 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with ocd concerns; Outcome: ocd; DOI: 10.3389/fpsyt.2024.1421150; Adverse Events: None reported.",
+      "doi": "10.3389/fpsyt.2024.1421150",
+      "sameAs": "https://doi.org/10.3389/fpsyt.2024.1421150",
       "datePublished": "2017",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.4088/jcp.16m11101",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.4088/jcp.16m11101",
+      "studyIds": [
+        "MENT-NAC-OCD_01"
+      ],
+      "citation": "MENT-NAC-OCD_01 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with ocd concerns; Outcome: ocd; DOI: 10.4088/jcp.16m11101; Adverse Events: Mild GI discomfort.",
+      "doi": "10.4088/jcp.16m11101",
+      "sameAs": "https://doi.org/10.4088/jcp.16m11101",
+      "datePublished": "2015",
       "isPartOf": {
         "@type": "Periodical",
         "name": "mental_health_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:b2d1c115b2eda34316237fa2a33c21ab3573da04db8acc5c4917a869007593b0",
-  "audit_hash": "0xb7be60a168856d8e"
+  "citations_manifest_hash": "sha256:dde75209f8717ab8605f8dc7f1e8a17edacca9257115ff1c22f9f1b4747a0db7",
+  "audit_hash": "0x8494fb8804409317"
 }

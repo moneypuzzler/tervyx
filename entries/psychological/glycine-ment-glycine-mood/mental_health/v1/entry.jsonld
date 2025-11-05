@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:36.957921+00:00",
+  "created": "2025-11-05T07:22:13.087186+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,31 +60,15 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/ment-glycine-mood-01",
+      "@id": "doi:10.1016/j.biopsych.2003.08.013",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-glycine-mood-01",
-      "studyIds": [
-        "MENT-GLYCINE-MOOD_01"
-      ],
-      "citation": "MENT-GLYCINE-MOOD_01 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with negative symptoms concerns; Outcome: negative_symptoms; DOI: 10.1234/ment-glycine-mood-01; Adverse Events: None reported.",
-      "doi": "10.1234/ment-glycine-mood-01",
-      "sameAs": "https://doi.org/10.1234/ment-glycine-mood-01",
-      "datePublished": "2014",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "mental_health_journal"
-      }
-    },
-    {
-      "@id": "doi:10.1234/ment-glycine-mood-02",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-glycine-mood-02",
+      "identifier": "doi:10.1016/j.biopsych.2003.08.013",
       "studyIds": [
         "MENT-GLYCINE-MOOD_02"
       ],
-      "citation": "MENT-GLYCINE-MOOD_02 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with negative symptoms concerns; Outcome: negative_symptoms; DOI: 10.1234/ment-glycine-mood-02; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/ment-glycine-mood-02",
-      "sameAs": "https://doi.org/10.1234/ment-glycine-mood-02",
+      "citation": "MENT-GLYCINE-MOOD_02 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with negative symptoms concerns; Outcome: negative_symptoms; DOI: 10.1016/j.biopsych.2003.08.013; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1016/j.biopsych.2003.08.013",
+      "sameAs": "https://doi.org/10.1016/j.biopsych.2003.08.013",
       "datePublished": "2015",
       "isPartOf": {
         "@type": "Periodical",
@@ -92,15 +76,31 @@
       }
     },
     {
-      "@id": "doi:10.1234/ment-glycine-mood-03",
+      "@id": "doi:10.1016/s0920-9964(98)00151-1",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/ment-glycine-mood-03",
+      "identifier": "doi:10.1016/s0920-9964(98)00151-1",
+      "studyIds": [
+        "MENT-GLYCINE-MOOD_01"
+      ],
+      "citation": "MENT-GLYCINE-MOOD_01 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with negative symptoms concerns; Outcome: negative_symptoms; DOI: 10.1016/s0920-9964(98)00151-1; Adverse Events: None reported.",
+      "doi": "10.1016/s0920-9964(98)00151-1",
+      "sameAs": "https://doi.org/10.1016/s0920-9964(98)00151-1",
+      "datePublished": "2014",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1111/j.1479-8425.2007.00262.x",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1111/j.1479-8425.2007.00262.x",
       "studyIds": [
         "MENT-GLYCINE-MOOD_03"
       ],
-      "citation": "MENT-GLYCINE-MOOD_03 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with negative symptoms concerns; Outcome: negative_symptoms; DOI: 10.1234/ment-glycine-mood-03; Adverse Events: Transient headache.",
-      "doi": "10.1234/ment-glycine-mood-03",
-      "sameAs": "https://doi.org/10.1234/ment-glycine-mood-03",
+      "citation": "MENT-GLYCINE-MOOD_03 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with negative symptoms concerns; Outcome: negative_symptoms; DOI: 10.1111/j.1479-8425.2007.00262.x; Adverse Events: Transient headache.",
+      "doi": "10.1111/j.1479-8425.2007.00262.x",
+      "sameAs": "https://doi.org/10.1111/j.1479-8425.2007.00262.x",
       "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "citations_manifest_hash": "sha256:51f37a3049d685d6b5db79a0ce19f8c556e258d9882ee5aabbd7f65e670716b2",
-  "audit_hash": "0xce19cbe54cea2f19"
+  "citations_manifest_hash": "sha256:6731293f9b87da8fbe66cb0baf210f11e8f5b9ea76fec850e233e3387ba4fa10",
+  "audit_hash": "0xec62b494ed2bb3cb"
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:51:46.918027+00:00",
+  "generated": "2025-11-05T07:22:07.519214+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/rhodiola-mh-rhod-burnout/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -12,9 +12,9 @@
       "outcome": "burnout_recovery",
       "population": "Adults with burnout recovery concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/mh-rhod-burnout-01",
-      "url": "https://doi.org/10.1234/mh-rhod-burnout-01",
-      "citation": "MH-RHOD-BURNOUT_01 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with burnout recovery concerns; Outcome: burnout_recovery; DOI: 10.1234/mh-rhod-burnout-01; Adverse Events: Transient headache."
+      "doi": "10.1186/s12991-017-0138-2",
+      "url": "https://doi.org/10.1186/s12991-017-0138-2",
+      "citation": "MH-RHOD-BURNOUT_01 (2016); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with burnout recovery concerns; Outcome: burnout_recovery; DOI: 10.1186/s12991-017-0138-2; Adverse Events: Transient headache."
     },
     {
       "study_id": "MH-RHOD-BURNOUT_02",
@@ -24,9 +24,9 @@
       "outcome": "burnout_recovery",
       "population": "Adults with burnout recovery concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/mh-rhod-burnout-02",
-      "url": "https://doi.org/10.1234/mh-rhod-burnout-02",
-      "citation": "MH-RHOD-BURNOUT_02 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with burnout recovery concerns; Outcome: burnout_recovery; DOI: 10.1234/mh-rhod-burnout-02; Adverse Events: None reported."
+      "doi": "10.1080/13651501.2017.1417442",
+      "url": "https://doi.org/10.1080/13651501.2017.1417442",
+      "citation": "MH-RHOD-BURNOUT_02 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with burnout recovery concerns; Outcome: burnout_recovery; DOI: 10.1080/13651501.2017.1417442; Adverse Events: None reported."
     },
     {
       "study_id": "MH-RHOD-BURNOUT_03",
@@ -36,39 +36,39 @@
       "outcome": "burnout_recovery",
       "population": "Adults with burnout recovery concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/mh-rhod-burnout-03",
-      "url": "https://doi.org/10.1234/mh-rhod-burnout-03",
-      "citation": "MH-RHOD-BURNOUT_03 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with burnout recovery concerns; Outcome: burnout_recovery; DOI: 10.1234/mh-rhod-burnout-03; Adverse Events: Mild GI discomfort."
+      "doi": "10.1055/s-0028-1088346",
+      "url": "https://doi.org/10.1055/s-0028-1088346",
+      "citation": "MH-RHOD-BURNOUT_03 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with burnout recovery concerns; Outcome: burnout_recovery; DOI: 10.1055/s-0028-1088346; Adverse Events: Mild GI discomfort."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/mh-rhod-burnout-01",
-      "study_ids": [
-        "MH-RHOD-BURNOUT_01"
-      ],
-      "primary_study_id": "MH-RHOD-BURNOUT_01",
-      "url": "https://doi.org/10.1234/mh-rhod-burnout-01"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/mh-rhod-burnout-02",
-      "study_ids": [
-        "MH-RHOD-BURNOUT_02"
-      ],
-      "primary_study_id": "MH-RHOD-BURNOUT_02",
-      "url": "https://doi.org/10.1234/mh-rhod-burnout-02"
-    },
-    {
-      "type": "doi",
-      "identifier": "10.1234/mh-rhod-burnout-03",
+      "identifier": "10.1055/s-0028-1088346",
       "study_ids": [
         "MH-RHOD-BURNOUT_03"
       ],
       "primary_study_id": "MH-RHOD-BURNOUT_03",
-      "url": "https://doi.org/10.1234/mh-rhod-burnout-03"
+      "url": "https://doi.org/10.1055/s-0028-1088346"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1080/13651501.2017.1417442",
+      "study_ids": [
+        "MH-RHOD-BURNOUT_02"
+      ],
+      "primary_study_id": "MH-RHOD-BURNOUT_02",
+      "url": "https://doi.org/10.1080/13651501.2017.1417442"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1186/s12991-017-0138-2",
+      "study_ids": [
+        "MH-RHOD-BURNOUT_01"
+      ],
+      "primary_study_id": "MH-RHOD-BURNOUT_01",
+      "url": "https://doi.org/10.1186/s12991-017-0138-2"
     }
   ],
-  "manifest_hash": "sha256:1498d70f483a540ddc69921f7115ae6af710c539d6d943bb20b9d1b18dca4e77"
+  "manifest_hash": "sha256:796d56f73c8b28abf1a5cd3468395ba6d320c147f70e6ce55346fb5d12b919a7"
 }

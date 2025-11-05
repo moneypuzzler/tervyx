@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-05T06:51:47.468956+00:00",
+  "generated": "2025-11-05T07:22:05.875731+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/psychological/saffron-ment-saff-depr/mental_health/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -12,9 +12,9 @@
       "outcome": "depression",
       "population": "Adults with depression concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/ment-saff-depr-01",
-      "url": "https://doi.org/10.1234/ment-saff-depr-01",
-      "citation": "MENT-SAFF-DEPR_01 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-saff-depr-01; Adverse Events: None reported."
+      "doi": "10.1016/j.ctim.2017.06.001",
+      "url": "https://doi.org/10.1016/j.ctim.2017.06.001",
+      "citation": "MENT-SAFF-DEPR_01 (2017); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1016/j.ctim.2017.06.001; Adverse Events: None reported."
     },
     {
       "study_id": "MENT-SAFF-DEPR_02",
@@ -24,9 +24,9 @@
       "outcome": "depression",
       "population": "Adults with depression concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/ment-saff-depr-02",
-      "url": "https://doi.org/10.1234/ment-saff-depr-02",
-      "citation": "MENT-SAFF-DEPR_02 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-saff-depr-02; Adverse Events: Mild GI discomfort."
+      "doi": "10.1016/j.jad.2013.06.041",
+      "url": "https://doi.org/10.1016/j.jad.2013.06.041",
+      "citation": "MENT-SAFF-DEPR_02 (2018); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1016/j.jad.2013.06.041; Adverse Events: Mild GI discomfort."
     },
     {
       "study_id": "MENT-SAFF-DEPR_03",
@@ -36,39 +36,39 @@
       "outcome": "depression",
       "population": "Adults with depression concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/ment-saff-depr-03",
-      "url": "https://doi.org/10.1234/ment-saff-depr-03",
-      "citation": "MENT-SAFF-DEPR_03 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/ment-saff-depr-03; Adverse Events: Transient headache."
+      "doi": "10.1111/jcpt.13040",
+      "url": "https://doi.org/10.1111/jcpt.13040",
+      "citation": "MENT-SAFF-DEPR_03 (2019); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1111/jcpt.13040; Adverse Events: Transient headache."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/ment-saff-depr-01",
+      "identifier": "10.1016/j.ctim.2017.06.001",
       "study_ids": [
         "MENT-SAFF-DEPR_01"
       ],
       "primary_study_id": "MENT-SAFF-DEPR_01",
-      "url": "https://doi.org/10.1234/ment-saff-depr-01"
+      "url": "https://doi.org/10.1016/j.ctim.2017.06.001"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/ment-saff-depr-02",
+      "identifier": "10.1016/j.jad.2013.06.041",
       "study_ids": [
         "MENT-SAFF-DEPR_02"
       ],
       "primary_study_id": "MENT-SAFF-DEPR_02",
-      "url": "https://doi.org/10.1234/ment-saff-depr-02"
+      "url": "https://doi.org/10.1016/j.jad.2013.06.041"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/ment-saff-depr-03",
+      "identifier": "10.1111/jcpt.13040",
       "study_ids": [
         "MENT-SAFF-DEPR_03"
       ],
       "primary_study_id": "MENT-SAFF-DEPR_03",
-      "url": "https://doi.org/10.1234/ment-saff-depr-03"
+      "url": "https://doi.org/10.1111/jcpt.13040"
     }
   ],
-  "manifest_hash": "sha256:737a983dc8d800d14aabf51f1841b583ca7ebe356ba283cf25e1401b6545a6ba"
+  "manifest_hash": "sha256:522d1885b3ead547eea385b0735e9bb118d84c522061b60df675ad8196906495"
 }
