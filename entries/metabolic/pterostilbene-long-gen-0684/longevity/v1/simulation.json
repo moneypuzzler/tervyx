@@ -1,0 +1,41 @@
+{
+  "seed": 20251005,
+  "n_draws": 10000,
+  "tau2_method": "REML",
+  "delta": 0.15,
+  "P_effect_gt_delta": 0.9999,
+  "mu_hat": 0.32451,
+  "mu_CI95": [
+    0.224183,
+    0.424837
+  ],
+  "var_mu": 0.00262012,
+  "mu_se": 0.051187,
+  "I2": 0.0,
+  "tau2": 0.0,
+  "tau": 0.0,
+  "Q": 0.49,
+  "prediction_interval_95": [
+    0.224183,
+    0.424837
+  ],
+  "n_studies": 3,
+  "total_n": 398,
+  "benefit_direction": 1,
+  "benefit_note": "Higher scores indicate improvement",
+  "environment": "Python 3.11, NumPy 2.3.4",
+  "gate_terminated": false,
+  "termination_gate": "none",
+  "reml_convergence": {
+    "converged": true,
+    "iterations": 1,
+    "final_nll": -4.014655559016337
+  },
+  "computation_time_ms": 3.5,
+  "tel5_input": {
+    "P_value": 0.9999,
+    "phi_violation": true,
+    "k_violation": false
+  },
+  "policy_fingerprint": "0x6036438e1b958d88"
+}

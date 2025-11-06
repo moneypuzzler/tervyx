@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:48:06.237005+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/metabolic/fisetin-long-gen-0685/longevity/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "LONG-GEN-0685_01",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "oxidative_stress",
+      "population": "Adults with oxidative stress concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/fisetin-long-gen-0685-01",
+      "url": "https://doi.org/10.1234/fisetin-long-gen-0685-01",
+      "citation": "LONG-GEN-0685_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with oxidative stress concerns; Outcome: oxidative_stress; DOI: 10.1234/fisetin-long-gen-0685-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-GEN-0685_02",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "oxidative_stress",
+      "population": "Adults with oxidative stress concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/fisetin-long-gen-0685-02",
+      "url": "https://doi.org/10.1234/fisetin-long-gen-0685-02",
+      "citation": "LONG-GEN-0685_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with oxidative stress concerns; Outcome: oxidative_stress; DOI: 10.1234/fisetin-long-gen-0685-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-GEN-0685_03",
+      "year": 2020,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "oxidative_stress",
+      "population": "Adults with oxidative stress concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/fisetin-long-gen-0685-03",
+      "url": "https://doi.org/10.1234/fisetin-long-gen-0685-03",
+      "citation": "LONG-GEN-0685_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with oxidative stress concerns; Outcome: oxidative_stress; DOI: 10.1234/fisetin-long-gen-0685-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/fisetin-long-gen-0685-01",
+      "study_ids": [
+        "LONG-GEN-0685_01"
+      ],
+      "primary_study_id": "LONG-GEN-0685_01",
+      "url": "https://doi.org/10.1234/fisetin-long-gen-0685-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/fisetin-long-gen-0685-02",
+      "study_ids": [
+        "LONG-GEN-0685_02"
+      ],
+      "primary_study_id": "LONG-GEN-0685_02",
+      "url": "https://doi.org/10.1234/fisetin-long-gen-0685-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/fisetin-long-gen-0685-03",
+      "study_ids": [
+        "LONG-GEN-0685_03"
+      ],
+      "primary_study_id": "LONG-GEN-0685_03",
+      "url": "https://doi.org/10.1234/fisetin-long-gen-0685-03"
+    }
+  ],
+  "manifest_hash": "sha256:5f9dd8f2956f8b6fc191bdfb889b17bfe64cd1a3dff06524d1b5ac736e497d47"
+}

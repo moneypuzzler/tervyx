@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "metabolic:omega-3-long-gen-0688:longevity:v1",
+  "title": "Omega 3 Long Gen 0688 — Longevity",
+  "category": "longevity",
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.9999,
+  "gate_results": {
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 398,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.32451,
+    "mu_CI95": [
+      0.224183,
+      0.424837
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-30"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "tier_label_system": "TEL-5",
+  "created": "2025-11-06T07:48:06.431660+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/omega-3-long-gen-0688-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/omega-3-long-gen-0688-01",
+      "studyIds": [
+        "LONG-GEN-0688_01"
+      ],
+      "citation": "LONG-GEN-0688_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with healthspan concerns; Outcome: healthspan; DOI: 10.1234/omega-3-long-gen-0688-01; Adverse Events: None reported.",
+      "doi": "10.1234/omega-3-long-gen-0688-01",
+      "sameAs": "https://doi.org/10.1234/omega-3-long-gen-0688-01",
+      "datePublished": "2018",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "longevity_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/omega-3-long-gen-0688-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/omega-3-long-gen-0688-02",
+      "studyIds": [
+        "LONG-GEN-0688_02"
+      ],
+      "citation": "LONG-GEN-0688_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with healthspan concerns; Outcome: healthspan; DOI: 10.1234/omega-3-long-gen-0688-02; Adverse Events: None reported.",
+      "doi": "10.1234/omega-3-long-gen-0688-02",
+      "sameAs": "https://doi.org/10.1234/omega-3-long-gen-0688-02",
+      "datePublished": "2019",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "longevity_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/omega-3-long-gen-0688-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/omega-3-long-gen-0688-03",
+      "studyIds": [
+        "LONG-GEN-0688_03"
+      ],
+      "citation": "LONG-GEN-0688_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with healthspan concerns; Outcome: healthspan; DOI: 10.1234/omega-3-long-gen-0688-03; Adverse Events: None reported.",
+      "doi": "10.1234/omega-3-long-gen-0688-03",
+      "sameAs": "https://doi.org/10.1234/omega-3-long-gen-0688-03",
+      "datePublished": "2020",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "longevity_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:a2007a3e4adfc229e2d5136601dc649001e06b7f8a3c2ee5fdfb49e160bfac86",
+  "audit_hash": "0x953c10a06929c37a"
+}

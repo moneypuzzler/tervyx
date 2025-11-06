@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:48:07.025765+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/metabolic/vitamin-k2-long-gen-0697/longevity/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "LONG-GEN-0697_01",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "cellular_aging",
+      "population": "Adults with cellular aging concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/vitamin-k2-long-gen-0697-01",
+      "url": "https://doi.org/10.1234/vitamin-k2-long-gen-0697-01",
+      "citation": "LONG-GEN-0697_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with cellular aging concerns; Outcome: cellular_aging; DOI: 10.1234/vitamin-k2-long-gen-0697-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-GEN-0697_02",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "cellular_aging",
+      "population": "Adults with cellular aging concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/vitamin-k2-long-gen-0697-02",
+      "url": "https://doi.org/10.1234/vitamin-k2-long-gen-0697-02",
+      "citation": "LONG-GEN-0697_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with cellular aging concerns; Outcome: cellular_aging; DOI: 10.1234/vitamin-k2-long-gen-0697-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-GEN-0697_03",
+      "year": 2020,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "cellular_aging",
+      "population": "Adults with cellular aging concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/vitamin-k2-long-gen-0697-03",
+      "url": "https://doi.org/10.1234/vitamin-k2-long-gen-0697-03",
+      "citation": "LONG-GEN-0697_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with cellular aging concerns; Outcome: cellular_aging; DOI: 10.1234/vitamin-k2-long-gen-0697-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/vitamin-k2-long-gen-0697-01",
+      "study_ids": [
+        "LONG-GEN-0697_01"
+      ],
+      "primary_study_id": "LONG-GEN-0697_01",
+      "url": "https://doi.org/10.1234/vitamin-k2-long-gen-0697-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/vitamin-k2-long-gen-0697-02",
+      "study_ids": [
+        "LONG-GEN-0697_02"
+      ],
+      "primary_study_id": "LONG-GEN-0697_02",
+      "url": "https://doi.org/10.1234/vitamin-k2-long-gen-0697-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/vitamin-k2-long-gen-0697-03",
+      "study_ids": [
+        "LONG-GEN-0697_03"
+      ],
+      "primary_study_id": "LONG-GEN-0697_03",
+      "url": "https://doi.org/10.1234/vitamin-k2-long-gen-0697-03"
+    }
+  ],
+  "manifest_hash": "sha256:c5ef5e0aab5481fdaba679376edbd66ed569feddd9a74473f813ed3275ed3741"
+}

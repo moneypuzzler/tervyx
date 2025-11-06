@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 369,
+    "total_n": 387,
     "I2": 0.0,
     "tau2": 0.0,
-    "mu_hat": 0.36643,
+    "mu_hat": 0.311357,
     "mu_CI95": [
-      0.280986,
-      0.451875
+      0.217881,
+      0.404834
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:12.177306+00:00",
+  "created": "2025-11-06T07:48:04.219988+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,54 +60,54 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/card-berg-lipid-01",
+      "@id": "doi:10.1234/bergamot-card-berg-lipid-01",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/card-berg-lipid-01",
+      "identifier": "doi:10.1234/bergamot-card-berg-lipid-01",
       "studyIds": [
         "CARD-BERG-LIPID_01"
       ],
-      "citation": "CARD-BERG-LIPID_01 (2008); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with ldl management concerns; Outcome: ldl_management; DOI: 10.1234/card-berg-lipid-01; Adverse Events: None reported.",
-      "doi": "10.1234/card-berg-lipid-01",
-      "sameAs": "https://doi.org/10.1234/card-berg-lipid-01",
-      "datePublished": "2008",
+      "citation": "CARD-BERG-LIPID_01 (2012); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with ldl management concerns; Outcome: ldl_management; DOI: 10.1234/bergamot-card-berg-lipid-01; Adverse Events: Transient headache.",
+      "doi": "10.1234/bergamot-card-berg-lipid-01",
+      "sameAs": "https://doi.org/10.1234/bergamot-card-berg-lipid-01",
+      "datePublished": "2012",
       "isPartOf": {
         "@type": "Periodical",
         "name": "cardiovascular_journal"
       }
     },
     {
-      "@id": "doi:10.1234/card-berg-lipid-02",
+      "@id": "doi:10.1234/bergamot-card-berg-lipid-02",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/card-berg-lipid-02",
+      "identifier": "doi:10.1234/bergamot-card-berg-lipid-02",
       "studyIds": [
         "CARD-BERG-LIPID_02"
       ],
-      "citation": "CARD-BERG-LIPID_02 (2009); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with ldl management concerns; Outcome: ldl_management; DOI: 10.1234/card-berg-lipid-02; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/card-berg-lipid-02",
-      "sameAs": "https://doi.org/10.1234/card-berg-lipid-02",
-      "datePublished": "2009",
+      "citation": "CARD-BERG-LIPID_02 (2013); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with ldl management concerns; Outcome: ldl_management; DOI: 10.1234/bergamot-card-berg-lipid-02; Adverse Events: Transient headache.",
+      "doi": "10.1234/bergamot-card-berg-lipid-02",
+      "sameAs": "https://doi.org/10.1234/bergamot-card-berg-lipid-02",
+      "datePublished": "2013",
       "isPartOf": {
         "@type": "Periodical",
         "name": "cardiovascular_journal"
       }
     },
     {
-      "@id": "doi:10.1234/card-berg-lipid-03",
+      "@id": "doi:10.1234/bergamot-card-berg-lipid-03",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/card-berg-lipid-03",
+      "identifier": "doi:10.1234/bergamot-card-berg-lipid-03",
       "studyIds": [
         "CARD-BERG-LIPID_03"
       ],
-      "citation": "CARD-BERG-LIPID_03 (2010); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with ldl management concerns; Outcome: ldl_management; DOI: 10.1234/card-berg-lipid-03; Adverse Events: Transient headache.",
-      "doi": "10.1234/card-berg-lipid-03",
-      "sameAs": "https://doi.org/10.1234/card-berg-lipid-03",
-      "datePublished": "2010",
+      "citation": "CARD-BERG-LIPID_03 (2014); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with ldl management concerns; Outcome: ldl_management; DOI: 10.1234/bergamot-card-berg-lipid-03; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/bergamot-card-berg-lipid-03",
+      "sameAs": "https://doi.org/10.1234/bergamot-card-berg-lipid-03",
+      "datePublished": "2014",
       "isPartOf": {
         "@type": "Periodical",
         "name": "cardiovascular_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:72f37ee633940afdcdb035dfb438f106434ce70ebeb5089f267e056285b815fb",
-  "audit_hash": "0x773413468632dc54"
+  "citations_manifest_hash": "sha256:9af30489b5893a81dad47cc7d60984a549daa7a55828b4a302d689c4dd123c92",
+  "audit_hash": "0xb72e2109274143b5"
 }
