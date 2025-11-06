@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "physiological:magnesium-card-gen-0329:cardiovascular:v1",
+  "title": "Magnesium Card Gen 0329 — Cardiovascular",
+  "category": "cardiovascular",
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.0,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.9,
+    "j": 0.701,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 387,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.311357,
+    "mu_CI95": [
+      0.217881,
+      0.404834
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-30"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "tier_label_system": "TEL-5",
+  "created": "2025-11-06T07:07:40.344668+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/magnesium-card-gen-0329-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/magnesium-card-gen-0329-01",
+      "studyIds": [
+        "CARD-GEN-0329_01"
+      ],
+      "citation": "CARD-GEN-0329_01 (2012); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with heart rate variability concerns; Outcome: heart_rate_variability; DOI: 10.1234/magnesium-card-gen-0329-01; Adverse Events: Transient headache.",
+      "doi": "10.1234/magnesium-card-gen-0329-01",
+      "sameAs": "https://doi.org/10.1234/magnesium-card-gen-0329-01",
+      "datePublished": "2012",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cardiovascular_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/magnesium-card-gen-0329-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/magnesium-card-gen-0329-02",
+      "studyIds": [
+        "CARD-GEN-0329_02"
+      ],
+      "citation": "CARD-GEN-0329_02 (2013); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with heart rate variability concerns; Outcome: heart_rate_variability; DOI: 10.1234/magnesium-card-gen-0329-02; Adverse Events: Transient headache.",
+      "doi": "10.1234/magnesium-card-gen-0329-02",
+      "sameAs": "https://doi.org/10.1234/magnesium-card-gen-0329-02",
+      "datePublished": "2013",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cardiovascular_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/magnesium-card-gen-0329-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/magnesium-card-gen-0329-03",
+      "studyIds": [
+        "CARD-GEN-0329_03"
+      ],
+      "citation": "CARD-GEN-0329_03 (2014); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with heart rate variability concerns; Outcome: heart_rate_variability; DOI: 10.1234/magnesium-card-gen-0329-03; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/magnesium-card-gen-0329-03",
+      "sameAs": "https://doi.org/10.1234/magnesium-card-gen-0329-03",
+      "datePublished": "2014",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cardiovascular_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:b027f93e25d1924ab5b5c185b93045d50868d18bc5ea49ba7be6cc3658a04ce0",
+  "audit_hash": "0x5c2db767d2bb5250"
+}

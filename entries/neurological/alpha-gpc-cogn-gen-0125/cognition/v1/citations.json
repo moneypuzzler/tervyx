@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:40.023756+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/neurological/alpha-gpc-cogn-gen-0125/cognition/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "COGN-GEN-0125_01",
+      "year": 2012,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "memory",
+      "population": "Adults with memory concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/alpha-gpc-cogn-gen-0125-01",
+      "url": "https://doi.org/10.1234/alpha-gpc-cogn-gen-0125-01",
+      "citation": "COGN-GEN-0125_01 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1234/alpha-gpc-cogn-gen-0125-01; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "COGN-GEN-0125_02",
+      "year": 2013,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "memory",
+      "population": "Adults with memory concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/alpha-gpc-cogn-gen-0125-02",
+      "url": "https://doi.org/10.1234/alpha-gpc-cogn-gen-0125-02",
+      "citation": "COGN-GEN-0125_02 (2013); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1234/alpha-gpc-cogn-gen-0125-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "COGN-GEN-0125_03",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "memory",
+      "population": "Adults with memory concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/alpha-gpc-cogn-gen-0125-03",
+      "url": "https://doi.org/10.1234/alpha-gpc-cogn-gen-0125-03",
+      "citation": "COGN-GEN-0125_03 (2014); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with memory concerns; Outcome: memory; DOI: 10.1234/alpha-gpc-cogn-gen-0125-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/alpha-gpc-cogn-gen-0125-01",
+      "study_ids": [
+        "COGN-GEN-0125_01"
+      ],
+      "primary_study_id": "COGN-GEN-0125_01",
+      "url": "https://doi.org/10.1234/alpha-gpc-cogn-gen-0125-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/alpha-gpc-cogn-gen-0125-02",
+      "study_ids": [
+        "COGN-GEN-0125_02"
+      ],
+      "primary_study_id": "COGN-GEN-0125_02",
+      "url": "https://doi.org/10.1234/alpha-gpc-cogn-gen-0125-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/alpha-gpc-cogn-gen-0125-03",
+      "study_ids": [
+        "COGN-GEN-0125_03"
+      ],
+      "primary_study_id": "COGN-GEN-0125_03",
+      "url": "https://doi.org/10.1234/alpha-gpc-cogn-gen-0125-03"
+    }
+  ],
+  "manifest_hash": "sha256:cf61efc5d1855504f67adb0175d4e723a7ce3cf28640103388436122c256a0cc"
+}

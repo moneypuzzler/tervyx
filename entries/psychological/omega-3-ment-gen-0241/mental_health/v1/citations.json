@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:41.186021+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/psychological/omega-3-ment-gen-0241/mental_health/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MENT-GEN-0241_01",
+      "year": 2013,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "depression",
+      "population": "Adults with depression concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/omega-3-ment-gen-0241-01",
+      "url": "https://doi.org/10.1234/omega-3-ment-gen-0241-01",
+      "citation": "MENT-GEN-0241_01 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/omega-3-ment-gen-0241-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MENT-GEN-0241_02",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "depression",
+      "population": "Adults with depression concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/omega-3-ment-gen-0241-02",
+      "url": "https://doi.org/10.1234/omega-3-ment-gen-0241-02",
+      "citation": "MENT-GEN-0241_02 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/omega-3-ment-gen-0241-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MENT-GEN-0241_03",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "depression",
+      "population": "Adults with depression concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/omega-3-ment-gen-0241-03",
+      "url": "https://doi.org/10.1234/omega-3-ment-gen-0241-03",
+      "citation": "MENT-GEN-0241_03 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/omega-3-ment-gen-0241-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/omega-3-ment-gen-0241-01",
+      "study_ids": [
+        "MENT-GEN-0241_01"
+      ],
+      "primary_study_id": "MENT-GEN-0241_01",
+      "url": "https://doi.org/10.1234/omega-3-ment-gen-0241-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/omega-3-ment-gen-0241-02",
+      "study_ids": [
+        "MENT-GEN-0241_02"
+      ],
+      "primary_study_id": "MENT-GEN-0241_02",
+      "url": "https://doi.org/10.1234/omega-3-ment-gen-0241-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/omega-3-ment-gen-0241-03",
+      "study_ids": [
+        "MENT-GEN-0241_03"
+      ],
+      "primary_study_id": "MENT-GEN-0241_03",
+      "url": "https://doi.org/10.1234/omega-3-ment-gen-0241-03"
+    }
+  ],
+  "manifest_hash": "sha256:5fff4f2a2a43e056b590f1f95b44c1a007b8737c570607d12d5165fd392cccdb"
+}

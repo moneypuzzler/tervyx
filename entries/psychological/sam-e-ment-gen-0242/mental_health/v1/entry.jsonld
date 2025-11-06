@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "psychological:sam-e-ment-gen-0242:mental_health:v1",
+  "title": "Sam E Ment Gen 0242 — Mental Health",
+  "category": "mental_health",
+  "tier": "Bronze",
+  "label": "AMBER",
+  "P_effect_gt_delta": 0.6795,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 1.0,
+    "j": 0.607,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 396,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.3199,
+    "mu_CI95": [
+      0.237511,
+      0.40229
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-30"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "tier_label_system": "TEL-5",
+  "created": "2025-11-06T07:07:41.255006+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/sam-e-ment-gen-0242-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/sam-e-ment-gen-0242-01",
+      "studyIds": [
+        "MENT-GEN-0242_01"
+      ],
+      "citation": "MENT-GEN-0242_01 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/sam-e-ment-gen-0242-01; Adverse Events: Transient headache.",
+      "doi": "10.1234/sam-e-ment-gen-0242-01",
+      "sameAs": "https://doi.org/10.1234/sam-e-ment-gen-0242-01",
+      "datePublished": "2013",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/sam-e-ment-gen-0242-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/sam-e-ment-gen-0242-02",
+      "studyIds": [
+        "MENT-GEN-0242_02"
+      ],
+      "citation": "MENT-GEN-0242_02 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/sam-e-ment-gen-0242-02; Adverse Events: Transient headache.",
+      "doi": "10.1234/sam-e-ment-gen-0242-02",
+      "sameAs": "https://doi.org/10.1234/sam-e-ment-gen-0242-02",
+      "datePublished": "2014",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/sam-e-ment-gen-0242-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/sam-e-ment-gen-0242-03",
+      "studyIds": [
+        "MENT-GEN-0242_03"
+      ],
+      "citation": "MENT-GEN-0242_03 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/sam-e-ment-gen-0242-03; Adverse Events: Transient headache.",
+      "doi": "10.1234/sam-e-ment-gen-0242-03",
+      "sameAs": "https://doi.org/10.1234/sam-e-ment-gen-0242-03",
+      "datePublished": "2015",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "mental_health_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:5f530ce3b9debd19a34c4e08109c5407e66e29c92328ab9e2a4b1017871fa51e",
+  "audit_hash": "0xcbcfc00025256ffd"
+}

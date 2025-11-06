@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "metabolic:vanadium-meta-gen-0420:metabolic:v1",
+  "title": "Vanadium Meta Gen 0420 — Metabolic",
+  "category": "metabolic",
+  "tier": "Silver",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.8423,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.9,
+    "j": 0.607,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 400,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.295251,
+    "mu_CI95": [
+      0.207055,
+      0.383448
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-30"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "tier_label_system": "TEL-5",
+  "created": "2025-11-06T07:07:39.728485+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/vanadium-meta-gen-0420-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/vanadium-meta-gen-0420-01",
+      "studyIds": [
+        "META-GEN-0420_01"
+      ],
+      "citation": "META-GEN-0420_01 (2015); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with weight management concerns; Outcome: weight_management; DOI: 10.1234/vanadium-meta-gen-0420-01; Adverse Events: Transient headache.",
+      "doi": "10.1234/vanadium-meta-gen-0420-01",
+      "sameAs": "https://doi.org/10.1234/vanadium-meta-gen-0420-01",
+      "datePublished": "2015",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "metabolic_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/vanadium-meta-gen-0420-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/vanadium-meta-gen-0420-02",
+      "studyIds": [
+        "META-GEN-0420_02"
+      ],
+      "citation": "META-GEN-0420_02 (2016); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with weight management concerns; Outcome: weight_management; DOI: 10.1234/vanadium-meta-gen-0420-02; Adverse Events: None reported.",
+      "doi": "10.1234/vanadium-meta-gen-0420-02",
+      "sameAs": "https://doi.org/10.1234/vanadium-meta-gen-0420-02",
+      "datePublished": "2016",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "metabolic_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/vanadium-meta-gen-0420-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/vanadium-meta-gen-0420-03",
+      "studyIds": [
+        "META-GEN-0420_03"
+      ],
+      "citation": "META-GEN-0420_03 (2017); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with weight management concerns; Outcome: weight_management; DOI: 10.1234/vanadium-meta-gen-0420-03; Adverse Events: Transient headache.",
+      "doi": "10.1234/vanadium-meta-gen-0420-03",
+      "sameAs": "https://doi.org/10.1234/vanadium-meta-gen-0420-03",
+      "datePublished": "2017",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "metabolic_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:dd0118322c50e1b0a3a9ae34e5b383bee1188cea7db5bad2ada0470256e5a8ff",
+  "audit_hash": "0xd41e000e74f8d114"
+}

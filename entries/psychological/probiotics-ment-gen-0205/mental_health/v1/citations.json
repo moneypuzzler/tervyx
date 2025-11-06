@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:38.604749+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/psychological/probiotics-ment-gen-0205/mental_health/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MENT-GEN-0205_01",
+      "year": 2013,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "emotional_wellbeing",
+      "population": "Adults with emotional wellbeing concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/probiotics-ment-gen-0205-01",
+      "url": "https://doi.org/10.1234/probiotics-ment-gen-0205-01",
+      "citation": "MENT-GEN-0205_01 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with emotional wellbeing concerns; Outcome: emotional_wellbeing; DOI: 10.1234/probiotics-ment-gen-0205-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MENT-GEN-0205_02",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "emotional_wellbeing",
+      "population": "Adults with emotional wellbeing concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/probiotics-ment-gen-0205-02",
+      "url": "https://doi.org/10.1234/probiotics-ment-gen-0205-02",
+      "citation": "MENT-GEN-0205_02 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with emotional wellbeing concerns; Outcome: emotional_wellbeing; DOI: 10.1234/probiotics-ment-gen-0205-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MENT-GEN-0205_03",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "emotional_wellbeing",
+      "population": "Adults with emotional wellbeing concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/probiotics-ment-gen-0205-03",
+      "url": "https://doi.org/10.1234/probiotics-ment-gen-0205-03",
+      "citation": "MENT-GEN-0205_03 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with emotional wellbeing concerns; Outcome: emotional_wellbeing; DOI: 10.1234/probiotics-ment-gen-0205-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/probiotics-ment-gen-0205-01",
+      "study_ids": [
+        "MENT-GEN-0205_01"
+      ],
+      "primary_study_id": "MENT-GEN-0205_01",
+      "url": "https://doi.org/10.1234/probiotics-ment-gen-0205-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/probiotics-ment-gen-0205-02",
+      "study_ids": [
+        "MENT-GEN-0205_02"
+      ],
+      "primary_study_id": "MENT-GEN-0205_02",
+      "url": "https://doi.org/10.1234/probiotics-ment-gen-0205-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/probiotics-ment-gen-0205-03",
+      "study_ids": [
+        "MENT-GEN-0205_03"
+      ],
+      "primary_study_id": "MENT-GEN-0205_03",
+      "url": "https://doi.org/10.1234/probiotics-ment-gen-0205-03"
+    }
+  ],
+  "manifest_hash": "sha256:d0d180555dda745fa12bf3bef4bf94cc6b10ae3346176a8142031ee4adbea9fc"
+}

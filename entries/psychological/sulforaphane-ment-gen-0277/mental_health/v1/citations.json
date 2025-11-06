@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:43.961073+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/psychological/sulforaphane-ment-gen-0277/mental_health/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MENT-GEN-0277_01",
+      "year": 2013,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "emotional_wellbeing",
+      "population": "Adults with emotional wellbeing concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/sulforaphane-ment-gen-0277-01",
+      "url": "https://doi.org/10.1234/sulforaphane-ment-gen-0277-01",
+      "citation": "MENT-GEN-0277_01 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with emotional wellbeing concerns; Outcome: emotional_wellbeing; DOI: 10.1234/sulforaphane-ment-gen-0277-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MENT-GEN-0277_02",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "emotional_wellbeing",
+      "population": "Adults with emotional wellbeing concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/sulforaphane-ment-gen-0277-02",
+      "url": "https://doi.org/10.1234/sulforaphane-ment-gen-0277-02",
+      "citation": "MENT-GEN-0277_02 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with emotional wellbeing concerns; Outcome: emotional_wellbeing; DOI: 10.1234/sulforaphane-ment-gen-0277-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MENT-GEN-0277_03",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "emotional_wellbeing",
+      "population": "Adults with emotional wellbeing concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/sulforaphane-ment-gen-0277-03",
+      "url": "https://doi.org/10.1234/sulforaphane-ment-gen-0277-03",
+      "citation": "MENT-GEN-0277_03 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with emotional wellbeing concerns; Outcome: emotional_wellbeing; DOI: 10.1234/sulforaphane-ment-gen-0277-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/sulforaphane-ment-gen-0277-01",
+      "study_ids": [
+        "MENT-GEN-0277_01"
+      ],
+      "primary_study_id": "MENT-GEN-0277_01",
+      "url": "https://doi.org/10.1234/sulforaphane-ment-gen-0277-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/sulforaphane-ment-gen-0277-02",
+      "study_ids": [
+        "MENT-GEN-0277_02"
+      ],
+      "primary_study_id": "MENT-GEN-0277_02",
+      "url": "https://doi.org/10.1234/sulforaphane-ment-gen-0277-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/sulforaphane-ment-gen-0277-03",
+      "study_ids": [
+        "MENT-GEN-0277_03"
+      ],
+      "primary_study_id": "MENT-GEN-0277_03",
+      "url": "https://doi.org/10.1234/sulforaphane-ment-gen-0277-03"
+    }
+  ],
+  "manifest_hash": "sha256:93f68b562a97190f3af1c7743c43168cb3a246f8b0bd0ca0c06351b3bc64320c"
+}

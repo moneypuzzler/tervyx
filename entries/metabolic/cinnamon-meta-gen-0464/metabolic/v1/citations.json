@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:42.989405+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/metabolic/cinnamon-meta-gen-0464/metabolic/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "META-GEN-0464_01",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "hba1c",
+      "population": "Adults with hba1c concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/cinnamon-meta-gen-0464-01",
+      "url": "https://doi.org/10.1234/cinnamon-meta-gen-0464-01",
+      "citation": "META-GEN-0464_01 (2015); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with hba1c concerns; Outcome: hba1c; DOI: 10.1234/cinnamon-meta-gen-0464-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "META-GEN-0464_02",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "hba1c",
+      "population": "Adults with hba1c concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/cinnamon-meta-gen-0464-02",
+      "url": "https://doi.org/10.1234/cinnamon-meta-gen-0464-02",
+      "citation": "META-GEN-0464_02 (2016); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with hba1c concerns; Outcome: hba1c; DOI: 10.1234/cinnamon-meta-gen-0464-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "META-GEN-0464_03",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "hba1c",
+      "population": "Adults with hba1c concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/cinnamon-meta-gen-0464-03",
+      "url": "https://doi.org/10.1234/cinnamon-meta-gen-0464-03",
+      "citation": "META-GEN-0464_03 (2017); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with hba1c concerns; Outcome: hba1c; DOI: 10.1234/cinnamon-meta-gen-0464-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/cinnamon-meta-gen-0464-01",
+      "study_ids": [
+        "META-GEN-0464_01"
+      ],
+      "primary_study_id": "META-GEN-0464_01",
+      "url": "https://doi.org/10.1234/cinnamon-meta-gen-0464-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/cinnamon-meta-gen-0464-02",
+      "study_ids": [
+        "META-GEN-0464_02"
+      ],
+      "primary_study_id": "META-GEN-0464_02",
+      "url": "https://doi.org/10.1234/cinnamon-meta-gen-0464-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/cinnamon-meta-gen-0464-03",
+      "study_ids": [
+        "META-GEN-0464_03"
+      ],
+      "primary_study_id": "META-GEN-0464_03",
+      "url": "https://doi.org/10.1234/cinnamon-meta-gen-0464-03"
+    }
+  ],
+  "manifest_hash": "sha256:581ecdbf2aadafc0f615de1d2e7a499b8217e7a38426517ce66419faa44cc5f6"
+}

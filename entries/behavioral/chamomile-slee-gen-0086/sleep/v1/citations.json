@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:43.866825+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/behavioral/chamomile-slee-gen-0086/sleep/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "SLEE-GEN-0086_01",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "sleep_anxiety",
+      "population": "Adults with sleep anxiety concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/chamomile-slee-gen-0086-01",
+      "url": "https://doi.org/10.1234/chamomile-slee-gen-0086-01",
+      "citation": "SLEE-GEN-0086_01 (2016); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep anxiety concerns; Outcome: sleep_anxiety; DOI: 10.1234/chamomile-slee-gen-0086-01; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "SLEE-GEN-0086_02",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "sleep_anxiety",
+      "population": "Adults with sleep anxiety concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/chamomile-slee-gen-0086-02",
+      "url": "https://doi.org/10.1234/chamomile-slee-gen-0086-02",
+      "citation": "SLEE-GEN-0086_02 (2017); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep anxiety concerns; Outcome: sleep_anxiety; DOI: 10.1234/chamomile-slee-gen-0086-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "SLEE-GEN-0086_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "sleep_anxiety",
+      "population": "Adults with sleep anxiety concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/chamomile-slee-gen-0086-03",
+      "url": "https://doi.org/10.1234/chamomile-slee-gen-0086-03",
+      "citation": "SLEE-GEN-0086_03 (2018); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep anxiety concerns; Outcome: sleep_anxiety; DOI: 10.1234/chamomile-slee-gen-0086-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/chamomile-slee-gen-0086-01",
+      "study_ids": [
+        "SLEE-GEN-0086_01"
+      ],
+      "primary_study_id": "SLEE-GEN-0086_01",
+      "url": "https://doi.org/10.1234/chamomile-slee-gen-0086-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/chamomile-slee-gen-0086-02",
+      "study_ids": [
+        "SLEE-GEN-0086_02"
+      ],
+      "primary_study_id": "SLEE-GEN-0086_02",
+      "url": "https://doi.org/10.1234/chamomile-slee-gen-0086-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/chamomile-slee-gen-0086-03",
+      "study_ids": [
+        "SLEE-GEN-0086_03"
+      ],
+      "primary_study_id": "SLEE-GEN-0086_03",
+      "url": "https://doi.org/10.1234/chamomile-slee-gen-0086-03"
+    }
+  ],
+  "manifest_hash": "sha256:19474a4895208f411298be1d7ee1544b880a8f5198979eca43f576f5f2769b4b"
+}

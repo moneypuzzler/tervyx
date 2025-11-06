@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:41.217528+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/metabolic/vanadium-meta-gen-0440/metabolic/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "META-GEN-0440_01",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "hba1c",
+      "population": "Adults with hba1c concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/vanadium-meta-gen-0440-01",
+      "url": "https://doi.org/10.1234/vanadium-meta-gen-0440-01",
+      "citation": "META-GEN-0440_01 (2015); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with hba1c concerns; Outcome: hba1c; DOI: 10.1234/vanadium-meta-gen-0440-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "META-GEN-0440_02",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "hba1c",
+      "population": "Adults with hba1c concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/vanadium-meta-gen-0440-02",
+      "url": "https://doi.org/10.1234/vanadium-meta-gen-0440-02",
+      "citation": "META-GEN-0440_02 (2016); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with hba1c concerns; Outcome: hba1c; DOI: 10.1234/vanadium-meta-gen-0440-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "META-GEN-0440_03",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "hba1c",
+      "population": "Adults with hba1c concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/vanadium-meta-gen-0440-03",
+      "url": "https://doi.org/10.1234/vanadium-meta-gen-0440-03",
+      "citation": "META-GEN-0440_03 (2017); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with hba1c concerns; Outcome: hba1c; DOI: 10.1234/vanadium-meta-gen-0440-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/vanadium-meta-gen-0440-01",
+      "study_ids": [
+        "META-GEN-0440_01"
+      ],
+      "primary_study_id": "META-GEN-0440_01",
+      "url": "https://doi.org/10.1234/vanadium-meta-gen-0440-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/vanadium-meta-gen-0440-02",
+      "study_ids": [
+        "META-GEN-0440_02"
+      ],
+      "primary_study_id": "META-GEN-0440_02",
+      "url": "https://doi.org/10.1234/vanadium-meta-gen-0440-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/vanadium-meta-gen-0440-03",
+      "study_ids": [
+        "META-GEN-0440_03"
+      ],
+      "primary_study_id": "META-GEN-0440_03",
+      "url": "https://doi.org/10.1234/vanadium-meta-gen-0440-03"
+    }
+  ],
+  "manifest_hash": "sha256:46ff03449a6b1d6e137b3d456152e7aff6750841aa5a213d3483f32d4f49e0d9"
+}

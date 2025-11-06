@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:38.975691+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/metabolic/coq10-meta-gen-0410/metabolic/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "META-GEN-0410_01",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "insulin_sensitivity",
+      "population": "Adults with insulin sensitivity concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/coq10-meta-gen-0410-01",
+      "url": "https://doi.org/10.1234/coq10-meta-gen-0410-01",
+      "citation": "META-GEN-0410_01 (2015); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with insulin sensitivity concerns; Outcome: insulin_sensitivity; DOI: 10.1234/coq10-meta-gen-0410-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "META-GEN-0410_02",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "insulin_sensitivity",
+      "population": "Adults with insulin sensitivity concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/coq10-meta-gen-0410-02",
+      "url": "https://doi.org/10.1234/coq10-meta-gen-0410-02",
+      "citation": "META-GEN-0410_02 (2016); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with insulin sensitivity concerns; Outcome: insulin_sensitivity; DOI: 10.1234/coq10-meta-gen-0410-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "META-GEN-0410_03",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "insulin_sensitivity",
+      "population": "Adults with insulin sensitivity concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/coq10-meta-gen-0410-03",
+      "url": "https://doi.org/10.1234/coq10-meta-gen-0410-03",
+      "citation": "META-GEN-0410_03 (2017); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with insulin sensitivity concerns; Outcome: insulin_sensitivity; DOI: 10.1234/coq10-meta-gen-0410-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/coq10-meta-gen-0410-01",
+      "study_ids": [
+        "META-GEN-0410_01"
+      ],
+      "primary_study_id": "META-GEN-0410_01",
+      "url": "https://doi.org/10.1234/coq10-meta-gen-0410-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/coq10-meta-gen-0410-02",
+      "study_ids": [
+        "META-GEN-0410_02"
+      ],
+      "primary_study_id": "META-GEN-0410_02",
+      "url": "https://doi.org/10.1234/coq10-meta-gen-0410-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/coq10-meta-gen-0410-03",
+      "study_ids": [
+        "META-GEN-0410_03"
+      ],
+      "primary_study_id": "META-GEN-0410_03",
+      "url": "https://doi.org/10.1234/coq10-meta-gen-0410-03"
+    }
+  ],
+  "manifest_hash": "sha256:b1f6da1acd3916bd0faa03ea6b4bd2b4d0441ee3a03890d7e234872e1d170962"
+}

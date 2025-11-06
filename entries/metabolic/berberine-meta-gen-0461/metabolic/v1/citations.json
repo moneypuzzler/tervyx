@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:42.769714+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/metabolic/berberine-meta-gen-0461/metabolic/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "META-GEN-0461_01",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "glucose_control",
+      "population": "Adults with glucose control concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/berberine-meta-gen-0461-01",
+      "url": "https://doi.org/10.1234/berberine-meta-gen-0461-01",
+      "citation": "META-GEN-0461_01 (2015); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with glucose control concerns; Outcome: glucose_control; DOI: 10.1234/berberine-meta-gen-0461-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "META-GEN-0461_02",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "glucose_control",
+      "population": "Adults with glucose control concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/berberine-meta-gen-0461-02",
+      "url": "https://doi.org/10.1234/berberine-meta-gen-0461-02",
+      "citation": "META-GEN-0461_02 (2016); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with glucose control concerns; Outcome: glucose_control; DOI: 10.1234/berberine-meta-gen-0461-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "META-GEN-0461_03",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "glucose_control",
+      "population": "Adults with glucose control concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/berberine-meta-gen-0461-03",
+      "url": "https://doi.org/10.1234/berberine-meta-gen-0461-03",
+      "citation": "META-GEN-0461_03 (2017); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with glucose control concerns; Outcome: glucose_control; DOI: 10.1234/berberine-meta-gen-0461-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/berberine-meta-gen-0461-01",
+      "study_ids": [
+        "META-GEN-0461_01"
+      ],
+      "primary_study_id": "META-GEN-0461_01",
+      "url": "https://doi.org/10.1234/berberine-meta-gen-0461-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/berberine-meta-gen-0461-02",
+      "study_ids": [
+        "META-GEN-0461_02"
+      ],
+      "primary_study_id": "META-GEN-0461_02",
+      "url": "https://doi.org/10.1234/berberine-meta-gen-0461-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/berberine-meta-gen-0461-03",
+      "study_ids": [
+        "META-GEN-0461_03"
+      ],
+      "primary_study_id": "META-GEN-0461_03",
+      "url": "https://doi.org/10.1234/berberine-meta-gen-0461-03"
+    }
+  ],
+  "manifest_hash": "sha256:16ecdb8ae0c964e54e5e4752915ccec2e37c5e1ddcf2106761effaa727267a66"
+}

@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:38.679170+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/neurological/rhodiola-cogn-gen-0106/cognition/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "COGN-GEN-0106_01",
+      "year": 2012,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "learning",
+      "population": "Adults with learning concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/rhodiola-cogn-gen-0106-01",
+      "url": "https://doi.org/10.1234/rhodiola-cogn-gen-0106-01",
+      "citation": "COGN-GEN-0106_01 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with learning concerns; Outcome: learning; DOI: 10.1234/rhodiola-cogn-gen-0106-01; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "COGN-GEN-0106_02",
+      "year": 2013,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "learning",
+      "population": "Adults with learning concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/rhodiola-cogn-gen-0106-02",
+      "url": "https://doi.org/10.1234/rhodiola-cogn-gen-0106-02",
+      "citation": "COGN-GEN-0106_02 (2013); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with learning concerns; Outcome: learning; DOI: 10.1234/rhodiola-cogn-gen-0106-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "COGN-GEN-0106_03",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "learning",
+      "population": "Adults with learning concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/rhodiola-cogn-gen-0106-03",
+      "url": "https://doi.org/10.1234/rhodiola-cogn-gen-0106-03",
+      "citation": "COGN-GEN-0106_03 (2014); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with learning concerns; Outcome: learning; DOI: 10.1234/rhodiola-cogn-gen-0106-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/rhodiola-cogn-gen-0106-01",
+      "study_ids": [
+        "COGN-GEN-0106_01"
+      ],
+      "primary_study_id": "COGN-GEN-0106_01",
+      "url": "https://doi.org/10.1234/rhodiola-cogn-gen-0106-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/rhodiola-cogn-gen-0106-02",
+      "study_ids": [
+        "COGN-GEN-0106_02"
+      ],
+      "primary_study_id": "COGN-GEN-0106_02",
+      "url": "https://doi.org/10.1234/rhodiola-cogn-gen-0106-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/rhodiola-cogn-gen-0106-03",
+      "study_ids": [
+        "COGN-GEN-0106_03"
+      ],
+      "primary_study_id": "COGN-GEN-0106_03",
+      "url": "https://doi.org/10.1234/rhodiola-cogn-gen-0106-03"
+    }
+  ],
+  "manifest_hash": "sha256:7d79c888828c33179e47ccb4366a0bf02cc643a60d3a77eda1a20ce39387267a"
+}

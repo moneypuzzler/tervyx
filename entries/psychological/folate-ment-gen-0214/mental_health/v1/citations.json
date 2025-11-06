@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:39.268281+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/psychological/folate-ment-gen-0214/mental_health/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MENT-GEN-0214_01",
+      "year": 2013,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "social_anxiety",
+      "population": "Adults with social anxiety concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/folate-ment-gen-0214-01",
+      "url": "https://doi.org/10.1234/folate-ment-gen-0214-01",
+      "citation": "MENT-GEN-0214_01 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with social anxiety concerns; Outcome: social_anxiety; DOI: 10.1234/folate-ment-gen-0214-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MENT-GEN-0214_02",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "social_anxiety",
+      "population": "Adults with social anxiety concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/folate-ment-gen-0214-02",
+      "url": "https://doi.org/10.1234/folate-ment-gen-0214-02",
+      "citation": "MENT-GEN-0214_02 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with social anxiety concerns; Outcome: social_anxiety; DOI: 10.1234/folate-ment-gen-0214-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MENT-GEN-0214_03",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "social_anxiety",
+      "population": "Adults with social anxiety concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/folate-ment-gen-0214-03",
+      "url": "https://doi.org/10.1234/folate-ment-gen-0214-03",
+      "citation": "MENT-GEN-0214_03 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with social anxiety concerns; Outcome: social_anxiety; DOI: 10.1234/folate-ment-gen-0214-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/folate-ment-gen-0214-01",
+      "study_ids": [
+        "MENT-GEN-0214_01"
+      ],
+      "primary_study_id": "MENT-GEN-0214_01",
+      "url": "https://doi.org/10.1234/folate-ment-gen-0214-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/folate-ment-gen-0214-02",
+      "study_ids": [
+        "MENT-GEN-0214_02"
+      ],
+      "primary_study_id": "MENT-GEN-0214_02",
+      "url": "https://doi.org/10.1234/folate-ment-gen-0214-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/folate-ment-gen-0214-03",
+      "study_ids": [
+        "MENT-GEN-0214_03"
+      ],
+      "primary_study_id": "MENT-GEN-0214_03",
+      "url": "https://doi.org/10.1234/folate-ment-gen-0214-03"
+    }
+  ],
+  "manifest_hash": "sha256:c11dbadd68ad3e23ef88e3d229f5bf383910256557267fa723e50bad40a35ce6"
+}

@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:41.746518+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/psychological/n-acetyl-cysteine-ment-gen-0249/mental_health/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MENT-GEN-0249_01",
+      "year": 2013,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "depression",
+      "population": "Adults with depression concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/n-acetyl-cysteine-ment-gen-0249-01",
+      "url": "https://doi.org/10.1234/n-acetyl-cysteine-ment-gen-0249-01",
+      "citation": "MENT-GEN-0249_01 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/n-acetyl-cysteine-ment-gen-0249-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MENT-GEN-0249_02",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "depression",
+      "population": "Adults with depression concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/n-acetyl-cysteine-ment-gen-0249-02",
+      "url": "https://doi.org/10.1234/n-acetyl-cysteine-ment-gen-0249-02",
+      "citation": "MENT-GEN-0249_02 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/n-acetyl-cysteine-ment-gen-0249-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MENT-GEN-0249_03",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "depression",
+      "population": "Adults with depression concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/n-acetyl-cysteine-ment-gen-0249-03",
+      "url": "https://doi.org/10.1234/n-acetyl-cysteine-ment-gen-0249-03",
+      "citation": "MENT-GEN-0249_03 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with depression concerns; Outcome: depression; DOI: 10.1234/n-acetyl-cysteine-ment-gen-0249-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/n-acetyl-cysteine-ment-gen-0249-01",
+      "study_ids": [
+        "MENT-GEN-0249_01"
+      ],
+      "primary_study_id": "MENT-GEN-0249_01",
+      "url": "https://doi.org/10.1234/n-acetyl-cysteine-ment-gen-0249-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/n-acetyl-cysteine-ment-gen-0249-02",
+      "study_ids": [
+        "MENT-GEN-0249_02"
+      ],
+      "primary_study_id": "MENT-GEN-0249_02",
+      "url": "https://doi.org/10.1234/n-acetyl-cysteine-ment-gen-0249-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/n-acetyl-cysteine-ment-gen-0249-03",
+      "study_ids": [
+        "MENT-GEN-0249_03"
+      ],
+      "primary_study_id": "MENT-GEN-0249_03",
+      "url": "https://doi.org/10.1234/n-acetyl-cysteine-ment-gen-0249-03"
+    }
+  ],
+  "manifest_hash": "sha256:11401435586c1bcd15bb7f8fc85ba48e0e4a8835f7ce5e923cbbabfd40ca9a61"
+}

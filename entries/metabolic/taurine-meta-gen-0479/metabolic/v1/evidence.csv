@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+META-GEN-0479_01,2015,randomized controlled trial,SMD,-0.2662,-0.42,-0.1124,63,68,some concerns,10.1234/taurine-meta-gen-0479-01,metabolic_journal,energy_metabolism,Adults with energy metabolism concerns,Transient headache,11
+META-GEN-0479_02,2016,randomized controlled trial,SMD,-0.3641,-0.5163,-0.2119,66,71,some concerns,10.1234/taurine-meta-gen-0479-02,metabolic_journal,energy_metabolism,Adults with energy metabolism concerns,None reported,11
+META-GEN-0479_03,2017,randomized controlled trial,SMD,-0.2548,-0.4071,-0.1025,68,64,mixed,10.1234/taurine-meta-gen-0479-03,metabolic_journal,energy_metabolism,Adults with energy metabolism concerns,Transient headache,10

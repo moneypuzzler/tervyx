@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:45.209989+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/physiological/red-yeast-rice-card-gen-0393/cardiovascular/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "CARD-GEN-0393_01",
+      "year": 2012,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "heart_rate_variability",
+      "population": "Adults with heart rate variability concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/red-yeast-rice-card-gen-0393-01",
+      "url": "https://doi.org/10.1234/red-yeast-rice-card-gen-0393-01",
+      "citation": "CARD-GEN-0393_01 (2012); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with heart rate variability concerns; Outcome: heart_rate_variability; DOI: 10.1234/red-yeast-rice-card-gen-0393-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "CARD-GEN-0393_02",
+      "year": 2013,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "heart_rate_variability",
+      "population": "Adults with heart rate variability concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/red-yeast-rice-card-gen-0393-02",
+      "url": "https://doi.org/10.1234/red-yeast-rice-card-gen-0393-02",
+      "citation": "CARD-GEN-0393_02 (2013); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with heart rate variability concerns; Outcome: heart_rate_variability; DOI: 10.1234/red-yeast-rice-card-gen-0393-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "CARD-GEN-0393_03",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "heart_rate_variability",
+      "population": "Adults with heart rate variability concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/red-yeast-rice-card-gen-0393-03",
+      "url": "https://doi.org/10.1234/red-yeast-rice-card-gen-0393-03",
+      "citation": "CARD-GEN-0393_03 (2014); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with heart rate variability concerns; Outcome: heart_rate_variability; DOI: 10.1234/red-yeast-rice-card-gen-0393-03; Adverse Events: Mild GI discomfort."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/red-yeast-rice-card-gen-0393-01",
+      "study_ids": [
+        "CARD-GEN-0393_01"
+      ],
+      "primary_study_id": "CARD-GEN-0393_01",
+      "url": "https://doi.org/10.1234/red-yeast-rice-card-gen-0393-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/red-yeast-rice-card-gen-0393-02",
+      "study_ids": [
+        "CARD-GEN-0393_02"
+      ],
+      "primary_study_id": "CARD-GEN-0393_02",
+      "url": "https://doi.org/10.1234/red-yeast-rice-card-gen-0393-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/red-yeast-rice-card-gen-0393-03",
+      "study_ids": [
+        "CARD-GEN-0393_03"
+      ],
+      "primary_study_id": "CARD-GEN-0393_03",
+      "url": "https://doi.org/10.1234/red-yeast-rice-card-gen-0393-03"
+    }
+  ],
+  "manifest_hash": "sha256:d4480de9ec01d300bd7b133da72072da864b85571285b2ac01ab97a98697b962"
+}

@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:40.848739+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/metabolic/resveratrol-meta-gen-0435/metabolic/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "META-GEN-0435_01",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "metabolic_syndrome",
+      "population": "Adults with metabolic syndrome concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/resveratrol-meta-gen-0435-01",
+      "url": "https://doi.org/10.1234/resveratrol-meta-gen-0435-01",
+      "citation": "META-GEN-0435_01 (2015); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with metabolic syndrome concerns; Outcome: metabolic_syndrome; DOI: 10.1234/resveratrol-meta-gen-0435-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "META-GEN-0435_02",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "metabolic_syndrome",
+      "population": "Adults with metabolic syndrome concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/resveratrol-meta-gen-0435-02",
+      "url": "https://doi.org/10.1234/resveratrol-meta-gen-0435-02",
+      "citation": "META-GEN-0435_02 (2016); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with metabolic syndrome concerns; Outcome: metabolic_syndrome; DOI: 10.1234/resveratrol-meta-gen-0435-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "META-GEN-0435_03",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "metabolic_syndrome",
+      "population": "Adults with metabolic syndrome concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/resveratrol-meta-gen-0435-03",
+      "url": "https://doi.org/10.1234/resveratrol-meta-gen-0435-03",
+      "citation": "META-GEN-0435_03 (2017); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with metabolic syndrome concerns; Outcome: metabolic_syndrome; DOI: 10.1234/resveratrol-meta-gen-0435-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/resveratrol-meta-gen-0435-01",
+      "study_ids": [
+        "META-GEN-0435_01"
+      ],
+      "primary_study_id": "META-GEN-0435_01",
+      "url": "https://doi.org/10.1234/resveratrol-meta-gen-0435-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/resveratrol-meta-gen-0435-02",
+      "study_ids": [
+        "META-GEN-0435_02"
+      ],
+      "primary_study_id": "META-GEN-0435_02",
+      "url": "https://doi.org/10.1234/resveratrol-meta-gen-0435-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/resveratrol-meta-gen-0435-03",
+      "study_ids": [
+        "META-GEN-0435_03"
+      ],
+      "primary_study_id": "META-GEN-0435_03",
+      "url": "https://doi.org/10.1234/resveratrol-meta-gen-0435-03"
+    }
+  ],
+  "manifest_hash": "sha256:ee8d21cb1e6291ac0df97b331d1c8ceeefefc42b80280344ea4f8cf9f9ef92b4"
+}

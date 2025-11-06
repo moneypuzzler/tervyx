@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:38.309220+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/immune/ginger-infl-inf04/inflammation/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "INFL-INF04_01",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "joint_pain",
+      "population": "Adults with joint pain concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/ginger-infl-inf04-01",
+      "url": "https://doi.org/10.1234/ginger-infl-inf04-01",
+      "citation": "INFL-INF04_01 (2016); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/ginger-infl-inf04-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "INFL-INF04_02",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "joint_pain",
+      "population": "Adults with joint pain concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/ginger-infl-inf04-02",
+      "url": "https://doi.org/10.1234/ginger-infl-inf04-02",
+      "citation": "INFL-INF04_02 (2017); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/ginger-infl-inf04-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "INFL-INF04_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "joint_pain",
+      "population": "Adults with joint pain concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/ginger-infl-inf04-03",
+      "url": "https://doi.org/10.1234/ginger-infl-inf04-03",
+      "citation": "INFL-INF04_03 (2018); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/ginger-infl-inf04-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/ginger-infl-inf04-01",
+      "study_ids": [
+        "INFL-INF04_01"
+      ],
+      "primary_study_id": "INFL-INF04_01",
+      "url": "https://doi.org/10.1234/ginger-infl-inf04-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/ginger-infl-inf04-02",
+      "study_ids": [
+        "INFL-INF04_02"
+      ],
+      "primary_study_id": "INFL-INF04_02",
+      "url": "https://doi.org/10.1234/ginger-infl-inf04-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/ginger-infl-inf04-03",
+      "study_ids": [
+        "INFL-INF04_03"
+      ],
+      "primary_study_id": "INFL-INF04_03",
+      "url": "https://doi.org/10.1234/ginger-infl-inf04-03"
+    }
+  ],
+  "manifest_hash": "sha256:b36528a9145412debc2875e82ee96f4b88cf25ffd0b7f66d5796a24711580fff"
+}

@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:43.485336+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/physiological/berberine-card-gen-0372/cardiovascular/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "CARD-GEN-0372_01",
+      "year": 2012,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "triglycerides",
+      "population": "Adults with triglycerides concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/berberine-card-gen-0372-01",
+      "url": "https://doi.org/10.1234/berberine-card-gen-0372-01",
+      "citation": "CARD-GEN-0372_01 (2012); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with triglycerides concerns; Outcome: triglycerides; DOI: 10.1234/berberine-card-gen-0372-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "CARD-GEN-0372_02",
+      "year": 2013,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "triglycerides",
+      "population": "Adults with triglycerides concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/berberine-card-gen-0372-02",
+      "url": "https://doi.org/10.1234/berberine-card-gen-0372-02",
+      "citation": "CARD-GEN-0372_02 (2013); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with triglycerides concerns; Outcome: triglycerides; DOI: 10.1234/berberine-card-gen-0372-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "CARD-GEN-0372_03",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "triglycerides",
+      "population": "Adults with triglycerides concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/berberine-card-gen-0372-03",
+      "url": "https://doi.org/10.1234/berberine-card-gen-0372-03",
+      "citation": "CARD-GEN-0372_03 (2014); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with triglycerides concerns; Outcome: triglycerides; DOI: 10.1234/berberine-card-gen-0372-03; Adverse Events: Mild GI discomfort."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/berberine-card-gen-0372-01",
+      "study_ids": [
+        "CARD-GEN-0372_01"
+      ],
+      "primary_study_id": "CARD-GEN-0372_01",
+      "url": "https://doi.org/10.1234/berberine-card-gen-0372-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/berberine-card-gen-0372-02",
+      "study_ids": [
+        "CARD-GEN-0372_02"
+      ],
+      "primary_study_id": "CARD-GEN-0372_02",
+      "url": "https://doi.org/10.1234/berberine-card-gen-0372-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/berberine-card-gen-0372-03",
+      "study_ids": [
+        "CARD-GEN-0372_03"
+      ],
+      "primary_study_id": "CARD-GEN-0372_03",
+      "url": "https://doi.org/10.1234/berberine-card-gen-0372-03"
+    }
+  ],
+  "manifest_hash": "sha256:6223bba818e90afbeacf40d0d8f6834aac4b9006a5cd6169c58037cac9cfcc7e"
+}
