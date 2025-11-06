@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:16:49.236635+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/metabolic/vitamin-k2-long-gen-0637/longevity/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "LONG-GEN-0637_01",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "oxidative_stress",
+      "population": "Adults with oxidative stress concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/vitamin-k2-long-gen-0637-01",
+      "url": "https://doi.org/10.1234/vitamin-k2-long-gen-0637-01",
+      "citation": "LONG-GEN-0637_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with oxidative stress concerns; Outcome: oxidative_stress; DOI: 10.1234/vitamin-k2-long-gen-0637-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-GEN-0637_02",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "oxidative_stress",
+      "population": "Adults with oxidative stress concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/vitamin-k2-long-gen-0637-02",
+      "url": "https://doi.org/10.1234/vitamin-k2-long-gen-0637-02",
+      "citation": "LONG-GEN-0637_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with oxidative stress concerns; Outcome: oxidative_stress; DOI: 10.1234/vitamin-k2-long-gen-0637-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-GEN-0637_03",
+      "year": 2020,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "oxidative_stress",
+      "population": "Adults with oxidative stress concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/vitamin-k2-long-gen-0637-03",
+      "url": "https://doi.org/10.1234/vitamin-k2-long-gen-0637-03",
+      "citation": "LONG-GEN-0637_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with oxidative stress concerns; Outcome: oxidative_stress; DOI: 10.1234/vitamin-k2-long-gen-0637-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/vitamin-k2-long-gen-0637-01",
+      "study_ids": [
+        "LONG-GEN-0637_01"
+      ],
+      "primary_study_id": "LONG-GEN-0637_01",
+      "url": "https://doi.org/10.1234/vitamin-k2-long-gen-0637-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/vitamin-k2-long-gen-0637-02",
+      "study_ids": [
+        "LONG-GEN-0637_02"
+      ],
+      "primary_study_id": "LONG-GEN-0637_02",
+      "url": "https://doi.org/10.1234/vitamin-k2-long-gen-0637-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/vitamin-k2-long-gen-0637-03",
+      "study_ids": [
+        "LONG-GEN-0637_03"
+      ],
+      "primary_study_id": "LONG-GEN-0637_03",
+      "url": "https://doi.org/10.1234/vitamin-k2-long-gen-0637-03"
+    }
+  ],
+  "manifest_hash": "sha256:f7c87b506fb65aec5973db7b7d7f95e0dae9321cedd1478ba26b8fc06f168dc5"
+}

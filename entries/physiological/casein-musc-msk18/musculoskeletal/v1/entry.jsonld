@@ -6,7 +6,7 @@
   "category": "musculoskeletal",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 0.9517,
+  "P_effect_gt_delta": 0.9962,
   "gate_results": {
     "phi": "FAIL",
     "r": 0.9,
@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 487,
+    "total_n": 418,
     "I2": 0.0,
     "tau2": 0.0,
-    "mu_hat": 0.29224,
+    "mu_hat": 0.324709,
     "mu_CI95": [
-      0.207064,
-      0.377415
+      0.244141,
+      0.405276
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:13.880787+00:00",
+  "created": "2025-11-06T07:17:05.368117+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,54 +60,54 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/musc-msk18-01",
+      "@id": "doi:10.1234/casein-musc-msk18-01",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/musc-msk18-01",
+      "identifier": "doi:10.1234/casein-musc-msk18-01",
       "studyIds": [
-        "MUSC-MSK18-01"
+        "MUSC-MSK18_01"
       ],
-      "citation": "MUSC-MSK18-01 (2011); Journal: musculoskeletal-journal-01; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/musc-msk18-01; Adverse Events: None reported.",
-      "doi": "10.1234/musc-msk18-01",
-      "sameAs": "https://doi.org/10.1234/musc-msk18-01",
-      "datePublished": "2011",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "musculoskeletal-journal-01"
-      }
-    },
-    {
-      "@id": "doi:10.1234/musc-msk18-02",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/musc-msk18-02",
-      "studyIds": [
-        "MUSC-MSK18-02"
-      ],
-      "citation": "MUSC-MSK18-02 (2016); Journal: musculoskeletal-journal-02; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/musc-msk18-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/musc-msk18-02",
-      "sameAs": "https://doi.org/10.1234/musc-msk18-02",
+      "citation": "MUSC-MSK18_01 (2016); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/casein-musc-msk18-01; Adverse Events: None reported.",
+      "doi": "10.1234/casein-musc-msk18-01",
+      "sameAs": "https://doi.org/10.1234/casein-musc-msk18-01",
       "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "musculoskeletal-journal-02"
+        "name": "musculoskeletal_journal"
       }
     },
     {
-      "@id": "doi:10.1234/musc-msk18-03",
+      "@id": "doi:10.1234/casein-musc-msk18-02",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/musc-msk18-03",
+      "identifier": "doi:10.1234/casein-musc-msk18-02",
       "studyIds": [
-        "MUSC-MSK18-03"
+        "MUSC-MSK18_02"
       ],
-      "citation": "MUSC-MSK18-03 (2021); Journal: musculoskeletal-journal-03; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/musc-msk18-03; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/musc-msk18-03",
-      "sameAs": "https://doi.org/10.1234/musc-msk18-03",
-      "datePublished": "2021",
+      "citation": "MUSC-MSK18_02 (2017); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/casein-musc-msk18-02; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/casein-musc-msk18-02",
+      "sameAs": "https://doi.org/10.1234/casein-musc-msk18-02",
+      "datePublished": "2017",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "musculoskeletal-journal-03"
+        "name": "musculoskeletal_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/casein-musc-msk18-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/casein-musc-msk18-03",
+      "studyIds": [
+        "MUSC-MSK18_03"
+      ],
+      "citation": "MUSC-MSK18_03 (2018); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/casein-musc-msk18-03; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/casein-musc-msk18-03",
+      "sameAs": "https://doi.org/10.1234/casein-musc-msk18-03",
+      "datePublished": "2018",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "musculoskeletal_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:000c6536665ee0c2a8cee675a4a96f9399532e270afc2e994c6f3bc275ea8b26",
-  "audit_hash": "0xc0ec12d1c1c6a429"
+  "citations_manifest_hash": "sha256:ef7c47b178fd15a633f691bcce97a8dfbdb30d4bdaa1e1da65b0a9558c7bb5af",
+  "audit_hash": "0x658ca2959550dd4a"
 }

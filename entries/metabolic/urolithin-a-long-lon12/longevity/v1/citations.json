@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:16:45.713120+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/metabolic/urolithin-a-long-lon12/longevity/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "LONG-LON12_01",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "cellular_ageing",
+      "population": "Adults with cellular ageing concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/urolithin-a-long-lon12-01",
+      "url": "https://doi.org/10.1234/urolithin-a-long-lon12-01",
+      "citation": "LONG-LON12_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/urolithin-a-long-lon12-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-LON12_02",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "cellular_ageing",
+      "population": "Adults with cellular ageing concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/urolithin-a-long-lon12-02",
+      "url": "https://doi.org/10.1234/urolithin-a-long-lon12-02",
+      "citation": "LONG-LON12_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/urolithin-a-long-lon12-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-LON12_03",
+      "year": 2020,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "cellular_ageing",
+      "population": "Adults with cellular ageing concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/urolithin-a-long-lon12-03",
+      "url": "https://doi.org/10.1234/urolithin-a-long-lon12-03",
+      "citation": "LONG-LON12_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/urolithin-a-long-lon12-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/urolithin-a-long-lon12-01",
+      "study_ids": [
+        "LONG-LON12_01"
+      ],
+      "primary_study_id": "LONG-LON12_01",
+      "url": "https://doi.org/10.1234/urolithin-a-long-lon12-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/urolithin-a-long-lon12-02",
+      "study_ids": [
+        "LONG-LON12_02"
+      ],
+      "primary_study_id": "LONG-LON12_02",
+      "url": "https://doi.org/10.1234/urolithin-a-long-lon12-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/urolithin-a-long-lon12-03",
+      "study_ids": [
+        "LONG-LON12_03"
+      ],
+      "primary_study_id": "LONG-LON12_03",
+      "url": "https://doi.org/10.1234/urolithin-a-long-lon12-03"
+    }
+  ],
+  "manifest_hash": "sha256:98a9f12cec6ba793b54aaf125b9bf276bc74c2516c3e1f2f30f72d750c195281"
+}

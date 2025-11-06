@@ -6,7 +6,7 @@
   "category": "inflammation",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 0.4749,
+  "P_effect_gt_delta": 0.9952,
   "gate_results": {
     "phi": "FAIL",
     "r": 0.9,
@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 538,
-    "I2": 0.0,
-    "tau2": 0.0,
-    "mu_hat": 0.196736,
+    "total_n": 420,
+    "I2": 24.3,
+    "tau2": 0.00247267,
+    "mu_hat": 0.326053,
     "mu_CI95": [
-      0.105566,
-      0.287906
+      0.226767,
+      0.425338
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:31.650299+00:00",
+  "created": "2025-11-06T07:17:28.822874+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,54 +60,54 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/infl-inf15-01",
+      "@id": "doi:10.1234/vitamin-c-infl-inf15-01",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf15-01",
+      "identifier": "doi:10.1234/vitamin-c-infl-inf15-01",
       "studyIds": [
-        "INFL-INF15-01"
+        "INFL-INF15_01"
       ],
-      "citation": "INFL-INF15-01 (2010); Journal: inflammation-journal-01; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/infl-inf15-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/infl-inf15-01",
-      "sameAs": "https://doi.org/10.1234/infl-inf15-01",
-      "datePublished": "2010",
+      "citation": "INFL-INF15_01 (2016); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/vitamin-c-infl-inf15-01; Adverse Events: Transient headache.",
+      "doi": "10.1234/vitamin-c-infl-inf15-01",
+      "sameAs": "https://doi.org/10.1234/vitamin-c-infl-inf15-01",
+      "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "inflammation-journal-01"
+        "name": "inflammation_journal"
       }
     },
     {
-      "@id": "doi:10.1234/infl-inf15-02",
+      "@id": "doi:10.1234/vitamin-c-infl-inf15-02",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf15-02",
+      "identifier": "doi:10.1234/vitamin-c-infl-inf15-02",
       "studyIds": [
-        "INFL-INF15-02"
+        "INFL-INF15_02"
       ],
-      "citation": "INFL-INF15-02 (2015); Journal: inflammation-journal-02; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/infl-inf15-02; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/infl-inf15-02",
-      "sameAs": "https://doi.org/10.1234/infl-inf15-02",
-      "datePublished": "2015",
+      "citation": "INFL-INF15_02 (2017); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/vitamin-c-infl-inf15-02; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/vitamin-c-infl-inf15-02",
+      "sameAs": "https://doi.org/10.1234/vitamin-c-infl-inf15-02",
+      "datePublished": "2017",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "inflammation-journal-02"
+        "name": "inflammation_journal"
       }
     },
     {
-      "@id": "doi:10.1234/infl-inf15-03",
+      "@id": "doi:10.1234/vitamin-c-infl-inf15-03",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf15-03",
+      "identifier": "doi:10.1234/vitamin-c-infl-inf15-03",
       "studyIds": [
-        "INFL-INF15-03"
+        "INFL-INF15_03"
       ],
-      "citation": "INFL-INF15-03 (2020); Journal: inflammation-journal-03; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/infl-inf15-03; Adverse Events: None reported.",
-      "doi": "10.1234/infl-inf15-03",
-      "sameAs": "https://doi.org/10.1234/infl-inf15-03",
-      "datePublished": "2020",
+      "citation": "INFL-INF15_03 (2018); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/vitamin-c-infl-inf15-03; Adverse Events: None reported.",
+      "doi": "10.1234/vitamin-c-infl-inf15-03",
+      "sameAs": "https://doi.org/10.1234/vitamin-c-infl-inf15-03",
+      "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "inflammation-journal-03"
+        "name": "inflammation_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:1ab03f880b84178812089b4bb812e925fb0382dbc7b630fe4d3e2516b98fa474",
-  "audit_hash": "0x2e21483c9f1ff641"
+  "citations_manifest_hash": "sha256:21b5baa75e41f1cd3583ff045dae471ce732218c7088eb586c7c73388973a496",
+  "audit_hash": "0x9112140678086a26"
 }

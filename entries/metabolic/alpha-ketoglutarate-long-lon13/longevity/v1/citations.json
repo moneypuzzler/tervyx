@@ -1,74 +1,74 @@
 {
-  "generated": "2025-11-05T06:50:33.834172+00:00",
+  "generated": "2025-11-06T07:16:45.786930+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/metabolic/alpha-ketoglutarate-long-lon13/longevity/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
     {
-      "study_id": "LONG-LON13-01",
-      "year": 2017,
+      "study_id": "LONG-LON13_01",
+      "year": 2018,
       "design": "randomized controlled trial",
-      "journal": "longevity-journal-01",
+      "journal": "longevity_journal",
       "outcome": "cellular_ageing",
       "population": "Adults with cellular ageing concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/long-lon13-01",
-      "url": "https://doi.org/10.1234/long-lon13-01",
-      "citation": "LONG-LON13-01 (2017); Journal: longevity-journal-01; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/long-lon13-01; Adverse Events: None reported."
+      "doi": "10.1234/alpha-ketoglutarate-long-lon13-01",
+      "url": "https://doi.org/10.1234/alpha-ketoglutarate-long-lon13-01",
+      "citation": "LONG-LON13_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/alpha-ketoglutarate-long-lon13-01; Adverse Events: None reported."
     },
     {
-      "study_id": "LONG-LON13-02",
-      "year": 2022,
+      "study_id": "LONG-LON13_02",
+      "year": 2019,
       "design": "randomized controlled trial",
-      "journal": "longevity-journal-02",
+      "journal": "longevity_journal",
       "outcome": "cellular_ageing",
       "population": "Adults with cellular ageing concerns",
-      "adverse_events": "Transient headache",
-      "doi": "10.1234/long-lon13-02",
-      "url": "https://doi.org/10.1234/long-lon13-02",
-      "citation": "LONG-LON13-02 (2022); Journal: longevity-journal-02; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/long-lon13-02; Adverse Events: Transient headache."
+      "adverse_events": "None reported",
+      "doi": "10.1234/alpha-ketoglutarate-long-lon13-02",
+      "url": "https://doi.org/10.1234/alpha-ketoglutarate-long-lon13-02",
+      "citation": "LONG-LON13_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/alpha-ketoglutarate-long-lon13-02; Adverse Events: None reported."
     },
     {
-      "study_id": "LONG-LON13-03",
-      "year": 2013,
+      "study_id": "LONG-LON13_03",
+      "year": 2020,
       "design": "randomized controlled trial",
-      "journal": "longevity-journal-03",
+      "journal": "longevity_journal",
       "outcome": "cellular_ageing",
       "population": "Adults with cellular ageing concerns",
-      "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/long-lon13-03",
-      "url": "https://doi.org/10.1234/long-lon13-03",
-      "citation": "LONG-LON13-03 (2013); Journal: longevity-journal-03; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/long-lon13-03; Adverse Events: Mild GI discomfort."
+      "adverse_events": "None reported",
+      "doi": "10.1234/alpha-ketoglutarate-long-lon13-03",
+      "url": "https://doi.org/10.1234/alpha-ketoglutarate-long-lon13-03",
+      "citation": "LONG-LON13_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/alpha-ketoglutarate-long-lon13-03; Adverse Events: None reported."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/long-lon13-01",
+      "identifier": "10.1234/alpha-ketoglutarate-long-lon13-01",
       "study_ids": [
-        "LONG-LON13-01"
+        "LONG-LON13_01"
       ],
-      "primary_study_id": "LONG-LON13-01",
-      "url": "https://doi.org/10.1234/long-lon13-01"
+      "primary_study_id": "LONG-LON13_01",
+      "url": "https://doi.org/10.1234/alpha-ketoglutarate-long-lon13-01"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/long-lon13-02",
+      "identifier": "10.1234/alpha-ketoglutarate-long-lon13-02",
       "study_ids": [
-        "LONG-LON13-02"
+        "LONG-LON13_02"
       ],
-      "primary_study_id": "LONG-LON13-02",
-      "url": "https://doi.org/10.1234/long-lon13-02"
+      "primary_study_id": "LONG-LON13_02",
+      "url": "https://doi.org/10.1234/alpha-ketoglutarate-long-lon13-02"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/long-lon13-03",
+      "identifier": "10.1234/alpha-ketoglutarate-long-lon13-03",
       "study_ids": [
-        "LONG-LON13-03"
+        "LONG-LON13_03"
       ],
-      "primary_study_id": "LONG-LON13-03",
-      "url": "https://doi.org/10.1234/long-lon13-03"
+      "primary_study_id": "LONG-LON13_03",
+      "url": "https://doi.org/10.1234/alpha-ketoglutarate-long-lon13-03"
     }
   ],
-  "manifest_hash": "sha256:e7c49b97a409d14b8b112a4b326940ae9bd867cf457956ea64f5974e7294d3b5"
+  "manifest_hash": "sha256:ab5d5298b23be912278ac43516adea9217b2c9ff1ff16acc03245f387f573f9c"
 }

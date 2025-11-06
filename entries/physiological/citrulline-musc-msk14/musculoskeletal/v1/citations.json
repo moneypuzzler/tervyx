@@ -1,74 +1,74 @@
 {
-  "generated": "2025-11-05T06:51:14.977675+00:00",
+  "generated": "2025-11-06T07:17:05.094996+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/citrulline-musc-msk14/musculoskeletal/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
     {
-      "study_id": "MUSC-MSK14-01",
-      "year": 2011,
-      "design": "randomized controlled trial",
-      "journal": "musculoskeletal-journal-01",
-      "outcome": "bone_density",
-      "population": "Adults with bone density concerns",
-      "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/musc-msk14-01",
-      "url": "https://doi.org/10.1234/musc-msk14-01",
-      "citation": "MUSC-MSK14-01 (2011); Journal: musculoskeletal-journal-01; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/musc-msk14-01; Adverse Events: Mild GI discomfort."
-    },
-    {
-      "study_id": "MUSC-MSK14-02",
+      "study_id": "MUSC-MSK14_01",
       "year": 2016,
       "design": "randomized controlled trial",
-      "journal": "musculoskeletal-journal-02",
+      "journal": "musculoskeletal_journal",
       "outcome": "bone_density",
       "population": "Adults with bone density concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/musc-msk14-02",
-      "url": "https://doi.org/10.1234/musc-msk14-02",
-      "citation": "MUSC-MSK14-02 (2016); Journal: musculoskeletal-journal-02; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/musc-msk14-02; Adverse Events: None reported."
+      "doi": "10.1234/citrulline-musc-msk14-01",
+      "url": "https://doi.org/10.1234/citrulline-musc-msk14-01",
+      "citation": "MUSC-MSK14_01 (2016); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/citrulline-musc-msk14-01; Adverse Events: None reported."
     },
     {
-      "study_id": "MUSC-MSK14-03",
-      "year": 2021,
+      "study_id": "MUSC-MSK14_02",
+      "year": 2017,
       "design": "randomized controlled trial",
-      "journal": "musculoskeletal-journal-03",
+      "journal": "musculoskeletal_journal",
       "outcome": "bone_density",
       "population": "Adults with bone density concerns",
-      "adverse_events": "Transient headache",
-      "doi": "10.1234/musc-msk14-03",
-      "url": "https://doi.org/10.1234/musc-msk14-03",
-      "citation": "MUSC-MSK14-03 (2021); Journal: musculoskeletal-journal-03; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/musc-msk14-03; Adverse Events: Transient headache."
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/citrulline-musc-msk14-02",
+      "url": "https://doi.org/10.1234/citrulline-musc-msk14-02",
+      "citation": "MUSC-MSK14_02 (2017); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/citrulline-musc-msk14-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "MUSC-MSK14_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "bone_density",
+      "population": "Adults with bone density concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/citrulline-musc-msk14-03",
+      "url": "https://doi.org/10.1234/citrulline-musc-msk14-03",
+      "citation": "MUSC-MSK14_03 (2018); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/citrulline-musc-msk14-03; Adverse Events: Mild GI discomfort."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/musc-msk14-01",
+      "identifier": "10.1234/citrulline-musc-msk14-01",
       "study_ids": [
-        "MUSC-MSK14-01"
+        "MUSC-MSK14_01"
       ],
-      "primary_study_id": "MUSC-MSK14-01",
-      "url": "https://doi.org/10.1234/musc-msk14-01"
+      "primary_study_id": "MUSC-MSK14_01",
+      "url": "https://doi.org/10.1234/citrulline-musc-msk14-01"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/musc-msk14-02",
+      "identifier": "10.1234/citrulline-musc-msk14-02",
       "study_ids": [
-        "MUSC-MSK14-02"
+        "MUSC-MSK14_02"
       ],
-      "primary_study_id": "MUSC-MSK14-02",
-      "url": "https://doi.org/10.1234/musc-msk14-02"
+      "primary_study_id": "MUSC-MSK14_02",
+      "url": "https://doi.org/10.1234/citrulline-musc-msk14-02"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/musc-msk14-03",
+      "identifier": "10.1234/citrulline-musc-msk14-03",
       "study_ids": [
-        "MUSC-MSK14-03"
+        "MUSC-MSK14_03"
       ],
-      "primary_study_id": "MUSC-MSK14-03",
-      "url": "https://doi.org/10.1234/musc-msk14-03"
+      "primary_study_id": "MUSC-MSK14_03",
+      "url": "https://doi.org/10.1234/citrulline-musc-msk14-03"
     }
   ],
-  "manifest_hash": "sha256:7b30fcde94c8f9b32c46b2c7bc64559e000193d88bb885613dd0b6f65d40051b"
+  "manifest_hash": "sha256:ac977518d78151aa757b16a131f6396105b2984b406fae309da64d9b4aa26a84"
 }

@@ -1,74 +1,74 @@
 {
-  "generated": "2025-11-05T06:51:13.880635+00:00",
+  "generated": "2025-11-06T07:17:05.368012+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/casein-musc-msk18/musculoskeletal/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
     {
-      "study_id": "MUSC-MSK18-01",
-      "year": 2011,
+      "study_id": "MUSC-MSK18_01",
+      "year": 2016,
       "design": "randomized controlled trial",
-      "journal": "musculoskeletal-journal-01",
+      "journal": "musculoskeletal_journal",
       "outcome": "bone_density",
       "population": "Adults with bone density concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/musc-msk18-01",
-      "url": "https://doi.org/10.1234/musc-msk18-01",
-      "citation": "MUSC-MSK18-01 (2011); Journal: musculoskeletal-journal-01; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/musc-msk18-01; Adverse Events: None reported."
+      "doi": "10.1234/casein-musc-msk18-01",
+      "url": "https://doi.org/10.1234/casein-musc-msk18-01",
+      "citation": "MUSC-MSK18_01 (2016); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/casein-musc-msk18-01; Adverse Events: None reported."
     },
     {
-      "study_id": "MUSC-MSK18-02",
-      "year": 2016,
+      "study_id": "MUSC-MSK18_02",
+      "year": 2017,
       "design": "randomized controlled trial",
-      "journal": "musculoskeletal-journal-02",
-      "outcome": "bone_density",
-      "population": "Adults with bone density concerns",
-      "adverse_events": "Transient headache",
-      "doi": "10.1234/musc-msk18-02",
-      "url": "https://doi.org/10.1234/musc-msk18-02",
-      "citation": "MUSC-MSK18-02 (2016); Journal: musculoskeletal-journal-02; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/musc-msk18-02; Adverse Events: Transient headache."
-    },
-    {
-      "study_id": "MUSC-MSK18-03",
-      "year": 2021,
-      "design": "randomized controlled trial",
-      "journal": "musculoskeletal-journal-03",
+      "journal": "musculoskeletal_journal",
       "outcome": "bone_density",
       "population": "Adults with bone density concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/musc-msk18-03",
-      "url": "https://doi.org/10.1234/musc-msk18-03",
-      "citation": "MUSC-MSK18-03 (2021); Journal: musculoskeletal-journal-03; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/musc-msk18-03; Adverse Events: Mild GI discomfort."
+      "doi": "10.1234/casein-musc-msk18-02",
+      "url": "https://doi.org/10.1234/casein-musc-msk18-02",
+      "citation": "MUSC-MSK18_02 (2017); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/casein-musc-msk18-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "MUSC-MSK18_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "bone_density",
+      "population": "Adults with bone density concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/casein-musc-msk18-03",
+      "url": "https://doi.org/10.1234/casein-musc-msk18-03",
+      "citation": "MUSC-MSK18_03 (2018); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/casein-musc-msk18-03; Adverse Events: Mild GI discomfort."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/musc-msk18-01",
+      "identifier": "10.1234/casein-musc-msk18-01",
       "study_ids": [
-        "MUSC-MSK18-01"
+        "MUSC-MSK18_01"
       ],
-      "primary_study_id": "MUSC-MSK18-01",
-      "url": "https://doi.org/10.1234/musc-msk18-01"
+      "primary_study_id": "MUSC-MSK18_01",
+      "url": "https://doi.org/10.1234/casein-musc-msk18-01"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/musc-msk18-02",
+      "identifier": "10.1234/casein-musc-msk18-02",
       "study_ids": [
-        "MUSC-MSK18-02"
+        "MUSC-MSK18_02"
       ],
-      "primary_study_id": "MUSC-MSK18-02",
-      "url": "https://doi.org/10.1234/musc-msk18-02"
+      "primary_study_id": "MUSC-MSK18_02",
+      "url": "https://doi.org/10.1234/casein-musc-msk18-02"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/musc-msk18-03",
+      "identifier": "10.1234/casein-musc-msk18-03",
       "study_ids": [
-        "MUSC-MSK18-03"
+        "MUSC-MSK18_03"
       ],
-      "primary_study_id": "MUSC-MSK18-03",
-      "url": "https://doi.org/10.1234/musc-msk18-03"
+      "primary_study_id": "MUSC-MSK18_03",
+      "url": "https://doi.org/10.1234/casein-musc-msk18-03"
     }
   ],
-  "manifest_hash": "sha256:000c6536665ee0c2a8cee675a4a96f9399532e270afc2e994c6f3bc275ea8b26"
+  "manifest_hash": "sha256:ef7c47b178fd15a633f691bcce97a8dfbdb30d4bdaa1e1da65b0a9558c7bb5af"
 }

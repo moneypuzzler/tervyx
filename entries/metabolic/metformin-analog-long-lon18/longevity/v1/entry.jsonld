@@ -6,7 +6,7 @@
   "category": "longevity",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 1.0,
+  "P_effect_gt_delta": 0.9999,
   "gate_results": {
     "phi": "FAIL",
     "r": 0.9,
@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 490,
+    "total_n": 398,
     "I2": 0.0,
     "tau2": 0.0,
-    "mu_hat": 0.368147,
+    "mu_hat": 0.32451,
     "mu_CI95": [
-      0.283825,
-      0.452469
+      0.224183,
+      0.424837
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:47.983221+00:00",
+  "created": "2025-11-06T07:16:46.144844+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,54 +60,54 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/long-lon18-01",
+      "@id": "doi:10.1234/metformin-analog-long-lon18-01",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/long-lon18-01",
+      "identifier": "doi:10.1234/metformin-analog-long-lon18-01",
       "studyIds": [
-        "LONG-LON18-01"
+        "LONG-LON18_01"
       ],
-      "citation": "LONG-LON18-01 (2010); Journal: longevity-journal-01; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/long-lon18-01; Adverse Events: None reported.",
-      "doi": "10.1234/long-lon18-01",
-      "sameAs": "https://doi.org/10.1234/long-lon18-01",
-      "datePublished": "2010",
+      "citation": "LONG-LON18_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/metformin-analog-long-lon18-01; Adverse Events: None reported.",
+      "doi": "10.1234/metformin-analog-long-lon18-01",
+      "sameAs": "https://doi.org/10.1234/metformin-analog-long-lon18-01",
+      "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "longevity-journal-01"
+        "name": "longevity_journal"
       }
     },
     {
-      "@id": "doi:10.1234/long-lon18-02",
+      "@id": "doi:10.1234/metformin-analog-long-lon18-02",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/long-lon18-02",
+      "identifier": "doi:10.1234/metformin-analog-long-lon18-02",
       "studyIds": [
-        "LONG-LON18-02"
+        "LONG-LON18_02"
       ],
-      "citation": "LONG-LON18-02 (2015); Journal: longevity-journal-02; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/long-lon18-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/long-lon18-02",
-      "sameAs": "https://doi.org/10.1234/long-lon18-02",
-      "datePublished": "2015",
+      "citation": "LONG-LON18_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/metformin-analog-long-lon18-02; Adverse Events: None reported.",
+      "doi": "10.1234/metformin-analog-long-lon18-02",
+      "sameAs": "https://doi.org/10.1234/metformin-analog-long-lon18-02",
+      "datePublished": "2019",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "longevity-journal-02"
+        "name": "longevity_journal"
       }
     },
     {
-      "@id": "doi:10.1234/long-lon18-03",
+      "@id": "doi:10.1234/metformin-analog-long-lon18-03",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/long-lon18-03",
+      "identifier": "doi:10.1234/metformin-analog-long-lon18-03",
       "studyIds": [
-        "LONG-LON18-03"
+        "LONG-LON18_03"
       ],
-      "citation": "LONG-LON18-03 (2020); Journal: longevity-journal-03; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/long-lon18-03; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/long-lon18-03",
-      "sameAs": "https://doi.org/10.1234/long-lon18-03",
+      "citation": "LONG-LON18_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/metformin-analog-long-lon18-03; Adverse Events: None reported.",
+      "doi": "10.1234/metformin-analog-long-lon18-03",
+      "sameAs": "https://doi.org/10.1234/metformin-analog-long-lon18-03",
       "datePublished": "2020",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "longevity-journal-03"
+        "name": "longevity_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:4dcccf3210369e75872468467e5f86dc1a6cd79a2db5817d4c19d8182a4851c9",
-  "audit_hash": "0x909a5bf79c17268a"
+  "citations_manifest_hash": "sha256:fba132da7f9e33da2fa45e50f6560443c1d12b2cdb5b82aa0c2b5868f5ec8735",
+  "audit_hash": "0x475fe95fe77e4d32"
 }

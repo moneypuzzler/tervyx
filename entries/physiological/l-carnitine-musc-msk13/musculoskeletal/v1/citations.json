@@ -1,74 +1,74 @@
 {
-  "generated": "2025-11-05T06:51:24.042227+00:00",
+  "generated": "2025-11-06T07:17:05.023178+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/l-carnitine-musc-msk13/musculoskeletal/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
     {
-      "study_id": "MUSC-MSK13-01",
-      "year": 2015,
+      "study_id": "MUSC-MSK13_01",
+      "year": 2016,
       "design": "randomized controlled trial",
-      "journal": "musculoskeletal-journal-01",
+      "journal": "musculoskeletal_journal",
       "outcome": "joint_health",
       "population": "Adults with joint health concerns",
-      "adverse_events": "Transient headache",
-      "doi": "10.1234/musc-msk13-01",
-      "url": "https://doi.org/10.1234/musc-msk13-01",
-      "citation": "MUSC-MSK13-01 (2015); Journal: musculoskeletal-journal-01; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/musc-msk13-01; Adverse Events: Transient headache."
+      "adverse_events": "None reported",
+      "doi": "10.1234/l-carnitine-musc-msk13-01",
+      "url": "https://doi.org/10.1234/l-carnitine-musc-msk13-01",
+      "citation": "MUSC-MSK13_01 (2016); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/l-carnitine-musc-msk13-01; Adverse Events: None reported."
     },
     {
-      "study_id": "MUSC-MSK13-02",
-      "year": 2020,
+      "study_id": "MUSC-MSK13_02",
+      "year": 2017,
       "design": "randomized controlled trial",
-      "journal": "musculoskeletal-journal-02",
-      "outcome": "joint_health",
-      "population": "Adults with joint health concerns",
-      "adverse_events": "Transient headache",
-      "doi": "10.1234/musc-msk13-02",
-      "url": "https://doi.org/10.1234/musc-msk13-02",
-      "citation": "MUSC-MSK13-02 (2020); Journal: musculoskeletal-journal-02; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/musc-msk13-02; Adverse Events: Transient headache."
-    },
-    {
-      "study_id": "MUSC-MSK13-03",
-      "year": 2011,
-      "design": "randomized controlled trial",
-      "journal": "musculoskeletal-journal-03",
+      "journal": "musculoskeletal_journal",
       "outcome": "joint_health",
       "population": "Adults with joint health concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/musc-msk13-03",
-      "url": "https://doi.org/10.1234/musc-msk13-03",
-      "citation": "MUSC-MSK13-03 (2011); Journal: musculoskeletal-journal-03; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/musc-msk13-03; Adverse Events: Mild GI discomfort."
+      "doi": "10.1234/l-carnitine-musc-msk13-02",
+      "url": "https://doi.org/10.1234/l-carnitine-musc-msk13-02",
+      "citation": "MUSC-MSK13_02 (2017); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/l-carnitine-musc-msk13-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "MUSC-MSK13_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "joint_health",
+      "population": "Adults with joint health concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/l-carnitine-musc-msk13-03",
+      "url": "https://doi.org/10.1234/l-carnitine-musc-msk13-03",
+      "citation": "MUSC-MSK13_03 (2018); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/l-carnitine-musc-msk13-03; Adverse Events: Mild GI discomfort."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/musc-msk13-01",
+      "identifier": "10.1234/l-carnitine-musc-msk13-01",
       "study_ids": [
-        "MUSC-MSK13-01"
+        "MUSC-MSK13_01"
       ],
-      "primary_study_id": "MUSC-MSK13-01",
-      "url": "https://doi.org/10.1234/musc-msk13-01"
+      "primary_study_id": "MUSC-MSK13_01",
+      "url": "https://doi.org/10.1234/l-carnitine-musc-msk13-01"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/musc-msk13-02",
+      "identifier": "10.1234/l-carnitine-musc-msk13-02",
       "study_ids": [
-        "MUSC-MSK13-02"
+        "MUSC-MSK13_02"
       ],
-      "primary_study_id": "MUSC-MSK13-02",
-      "url": "https://doi.org/10.1234/musc-msk13-02"
+      "primary_study_id": "MUSC-MSK13_02",
+      "url": "https://doi.org/10.1234/l-carnitine-musc-msk13-02"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/musc-msk13-03",
+      "identifier": "10.1234/l-carnitine-musc-msk13-03",
       "study_ids": [
-        "MUSC-MSK13-03"
+        "MUSC-MSK13_03"
       ],
-      "primary_study_id": "MUSC-MSK13-03",
-      "url": "https://doi.org/10.1234/musc-msk13-03"
+      "primary_study_id": "MUSC-MSK13_03",
+      "url": "https://doi.org/10.1234/l-carnitine-musc-msk13-03"
     }
   ],
-  "manifest_hash": "sha256:d44003a90c8112cff347265faa88967c518f288807572daa4dfcb70c7fcc4a92"
+  "manifest_hash": "sha256:ea73dba9a071276c805286ad558f98cfa7c967d8a76ed3ac29b4eb70300d186c"
 }

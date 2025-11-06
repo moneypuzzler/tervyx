@@ -6,7 +6,7 @@
   "category": "musculoskeletal",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 0.8586,
+  "P_effect_gt_delta": 0.9962,
   "gate_results": {
     "phi": "FAIL",
     "r": 0.9,
@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 481,
+    "total_n": 418,
     "I2": 0.0,
     "tau2": 0.0,
-    "mu_hat": 0.267631,
+    "mu_hat": 0.324709,
     "mu_CI95": [
-      0.180944,
-      0.354318
+      0.244141,
+      0.405276
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:21.150456+00:00",
+  "created": "2025-11-06T07:17:04.278065+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,54 +60,54 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/musc-msk02-01",
+      "@id": "doi:10.1234/glucosamine-musc-msk02-01",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/musc-msk02-01",
+      "identifier": "doi:10.1234/glucosamine-musc-msk02-01",
       "studyIds": [
-        "MUSC-MSK02-01"
+        "MUSC-MSK02_01"
       ],
-      "citation": "MUSC-MSK02-01 (2018); Journal: musculoskeletal-journal-01; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/musc-msk02-01; Adverse Events: None reported.",
-      "doi": "10.1234/musc-msk02-01",
-      "sameAs": "https://doi.org/10.1234/musc-msk02-01",
+      "citation": "MUSC-MSK02_01 (2016); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/glucosamine-musc-msk02-01; Adverse Events: None reported.",
+      "doi": "10.1234/glucosamine-musc-msk02-01",
+      "sameAs": "https://doi.org/10.1234/glucosamine-musc-msk02-01",
+      "datePublished": "2016",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "musculoskeletal_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/glucosamine-musc-msk02-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/glucosamine-musc-msk02-02",
+      "studyIds": [
+        "MUSC-MSK02_02"
+      ],
+      "citation": "MUSC-MSK02_02 (2017); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/glucosamine-musc-msk02-02; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/glucosamine-musc-msk02-02",
+      "sameAs": "https://doi.org/10.1234/glucosamine-musc-msk02-02",
+      "datePublished": "2017",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "musculoskeletal_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/glucosamine-musc-msk02-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/glucosamine-musc-msk02-03",
+      "studyIds": [
+        "MUSC-MSK02_03"
+      ],
+      "citation": "MUSC-MSK02_03 (2018); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/glucosamine-musc-msk02-03; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/glucosamine-musc-msk02-03",
+      "sameAs": "https://doi.org/10.1234/glucosamine-musc-msk02-03",
       "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "musculoskeletal-journal-01"
-      }
-    },
-    {
-      "@id": "doi:10.1234/musc-msk02-02",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/musc-msk02-02",
-      "studyIds": [
-        "MUSC-MSK02-02"
-      ],
-      "citation": "MUSC-MSK02-02 (2023); Journal: musculoskeletal-journal-02; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/musc-msk02-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/musc-msk02-02",
-      "sameAs": "https://doi.org/10.1234/musc-msk02-02",
-      "datePublished": "2023",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "musculoskeletal-journal-02"
-      }
-    },
-    {
-      "@id": "doi:10.1234/musc-msk02-03",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/musc-msk02-03",
-      "studyIds": [
-        "MUSC-MSK02-03"
-      ],
-      "citation": "MUSC-MSK02-03 (2014); Journal: musculoskeletal-journal-03; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/musc-msk02-03; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/musc-msk02-03",
-      "sameAs": "https://doi.org/10.1234/musc-msk02-03",
-      "datePublished": "2014",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "musculoskeletal-journal-03"
+        "name": "musculoskeletal_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:4c3d6c73a96aae996ee6441940f48cdad9250c7b3f7c63ecd2c10559654b5481",
-  "audit_hash": "0xd0df24cfbd101639"
+  "citations_manifest_hash": "sha256:682fee366dbadec750947eb81330295ad87aa2f47a43b3702a2fd1e8a19a2ab2",
+  "audit_hash": "0x6c13ef00fbc5b312"
 }

@@ -1,74 +1,74 @@
 {
-  "generated": "2025-11-05T06:50:12.455770+00:00",
+  "generated": "2025-11-06T07:17:28.379450+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/immune/astaxanthin-infl-inf09/inflammation/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
     {
-      "study_id": "INFL-INF09-01",
-      "year": 2017,
+      "study_id": "INFL-INF09_01",
+      "year": 2016,
       "design": "randomized controlled trial",
-      "journal": "inflammation-journal-01",
-      "outcome": "joint_pain",
-      "population": "Adults with joint pain concerns",
-      "adverse_events": "None reported",
-      "doi": "10.1234/infl-inf09-01",
-      "url": "https://doi.org/10.1234/infl-inf09-01",
-      "citation": "INFL-INF09-01 (2017); Journal: inflammation-journal-01; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/infl-inf09-01; Adverse Events: None reported."
-    },
-    {
-      "study_id": "INFL-INF09-02",
-      "year": 2022,
-      "design": "randomized controlled trial",
-      "journal": "inflammation-journal-02",
+      "journal": "inflammation_journal",
       "outcome": "joint_pain",
       "population": "Adults with joint pain concerns",
       "adverse_events": "Transient headache",
-      "doi": "10.1234/infl-inf09-02",
-      "url": "https://doi.org/10.1234/infl-inf09-02",
-      "citation": "INFL-INF09-02 (2022); Journal: inflammation-journal-02; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/infl-inf09-02; Adverse Events: Transient headache."
+      "doi": "10.1234/astaxanthin-infl-inf09-01",
+      "url": "https://doi.org/10.1234/astaxanthin-infl-inf09-01",
+      "citation": "INFL-INF09_01 (2016); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/astaxanthin-infl-inf09-01; Adverse Events: Transient headache."
     },
     {
-      "study_id": "INFL-INF09-03",
-      "year": 2013,
+      "study_id": "INFL-INF09_02",
+      "year": 2017,
       "design": "randomized controlled trial",
-      "journal": "inflammation-journal-03",
+      "journal": "inflammation_journal",
       "outcome": "joint_pain",
       "population": "Adults with joint pain concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/infl-inf09-03",
-      "url": "https://doi.org/10.1234/infl-inf09-03",
-      "citation": "INFL-INF09-03 (2013); Journal: inflammation-journal-03; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/infl-inf09-03; Adverse Events: Mild GI discomfort."
+      "doi": "10.1234/astaxanthin-infl-inf09-02",
+      "url": "https://doi.org/10.1234/astaxanthin-infl-inf09-02",
+      "citation": "INFL-INF09_02 (2017); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/astaxanthin-infl-inf09-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "INFL-INF09_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "joint_pain",
+      "population": "Adults with joint pain concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/astaxanthin-infl-inf09-03",
+      "url": "https://doi.org/10.1234/astaxanthin-infl-inf09-03",
+      "citation": "INFL-INF09_03 (2018); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/astaxanthin-infl-inf09-03; Adverse Events: None reported."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/infl-inf09-01",
+      "identifier": "10.1234/astaxanthin-infl-inf09-01",
       "study_ids": [
-        "INFL-INF09-01"
+        "INFL-INF09_01"
       ],
-      "primary_study_id": "INFL-INF09-01",
-      "url": "https://doi.org/10.1234/infl-inf09-01"
+      "primary_study_id": "INFL-INF09_01",
+      "url": "https://doi.org/10.1234/astaxanthin-infl-inf09-01"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/infl-inf09-02",
+      "identifier": "10.1234/astaxanthin-infl-inf09-02",
       "study_ids": [
-        "INFL-INF09-02"
+        "INFL-INF09_02"
       ],
-      "primary_study_id": "INFL-INF09-02",
-      "url": "https://doi.org/10.1234/infl-inf09-02"
+      "primary_study_id": "INFL-INF09_02",
+      "url": "https://doi.org/10.1234/astaxanthin-infl-inf09-02"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/infl-inf09-03",
+      "identifier": "10.1234/astaxanthin-infl-inf09-03",
       "study_ids": [
-        "INFL-INF09-03"
+        "INFL-INF09_03"
       ],
-      "primary_study_id": "INFL-INF09-03",
-      "url": "https://doi.org/10.1234/infl-inf09-03"
+      "primary_study_id": "INFL-INF09_03",
+      "url": "https://doi.org/10.1234/astaxanthin-infl-inf09-03"
     }
   ],
-  "manifest_hash": "sha256:fbcdc07c0e88cd22536d1fcb7bd2ffc2cd876176d729951a3d2c85532a5a41e0"
+  "manifest_hash": "sha256:81b8e8a44878e6c5183b7022fca65ebf8df4955d6919de8297523b7c3b3a5ea9"
 }

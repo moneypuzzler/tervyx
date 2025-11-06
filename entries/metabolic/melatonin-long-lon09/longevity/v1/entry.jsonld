@@ -6,7 +6,7 @@
   "category": "longevity",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 1.0,
+  "P_effect_gt_delta": 0.9999,
   "gate_results": {
     "phi": "FAIL",
     "r": 0.9,
@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 489,
+    "total_n": 398,
     "I2": 0.0,
     "tau2": 0.0,
-    "mu_hat": 0.333118,
+    "mu_hat": 0.32451,
     "mu_CI95": [
-      0.24033,
-      0.425906
+      0.224183,
+      0.424837
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:47.393735+00:00",
+  "created": "2025-11-06T07:16:45.510678+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,54 +60,54 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/long-lon09-01",
+      "@id": "doi:10.1234/melatonin-long-lon09-01",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/long-lon09-01",
+      "identifier": "doi:10.1234/melatonin-long-lon09-01",
       "studyIds": [
-        "LONG-LON09-01"
+        "LONG-LON09_01"
       ],
-      "citation": "LONG-LON09-01 (2022); Journal: longevity-journal-01; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/long-lon09-01; Adverse Events: Transient headache.",
-      "doi": "10.1234/long-lon09-01",
-      "sameAs": "https://doi.org/10.1234/long-lon09-01",
-      "datePublished": "2022",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "longevity-journal-01"
-      }
-    },
-    {
-      "@id": "doi:10.1234/long-lon09-02",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/long-lon09-02",
-      "studyIds": [
-        "LONG-LON09-02"
-      ],
-      "citation": "LONG-LON09-02 (2013); Journal: longevity-journal-02; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/long-lon09-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/long-lon09-02",
-      "sameAs": "https://doi.org/10.1234/long-lon09-02",
-      "datePublished": "2013",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "longevity-journal-02"
-      }
-    },
-    {
-      "@id": "doi:10.1234/long-lon09-03",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/long-lon09-03",
-      "studyIds": [
-        "LONG-LON09-03"
-      ],
-      "citation": "LONG-LON09-03 (2018); Journal: longevity-journal-03; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/long-lon09-03; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/long-lon09-03",
-      "sameAs": "https://doi.org/10.1234/long-lon09-03",
+      "citation": "LONG-LON09_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/melatonin-long-lon09-01; Adverse Events: None reported.",
+      "doi": "10.1234/melatonin-long-lon09-01",
+      "sameAs": "https://doi.org/10.1234/melatonin-long-lon09-01",
       "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "longevity-journal-03"
+        "name": "longevity_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/melatonin-long-lon09-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/melatonin-long-lon09-02",
+      "studyIds": [
+        "LONG-LON09_02"
+      ],
+      "citation": "LONG-LON09_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/melatonin-long-lon09-02; Adverse Events: None reported.",
+      "doi": "10.1234/melatonin-long-lon09-02",
+      "sameAs": "https://doi.org/10.1234/melatonin-long-lon09-02",
+      "datePublished": "2019",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "longevity_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/melatonin-long-lon09-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/melatonin-long-lon09-03",
+      "studyIds": [
+        "LONG-LON09_03"
+      ],
+      "citation": "LONG-LON09_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/melatonin-long-lon09-03; Adverse Events: None reported.",
+      "doi": "10.1234/melatonin-long-lon09-03",
+      "sameAs": "https://doi.org/10.1234/melatonin-long-lon09-03",
+      "datePublished": "2020",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "longevity_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:c4341d353a2d470d60159fc057bc4daa21a6e57d46a1d56302fc8c8b32239fae",
-  "audit_hash": "0x44238ea4d3ea2015"
+  "citations_manifest_hash": "sha256:6efe2d3a6758e9d2c993de8d46e0c40bb461dcf6ae7ef1ad94fe9b2651337f0a",
+  "audit_hash": "0x67768ee5bb1f4417"
 }

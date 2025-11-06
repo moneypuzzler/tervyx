@@ -6,7 +6,7 @@
   "category": "longevity",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 1.0,
+  "P_effect_gt_delta": 0.9999,
   "gate_results": {
     "phi": "FAIL",
     "r": 0.9,
@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 492,
+    "total_n": 398,
     "I2": 0.0,
     "tau2": 0.0,
-    "mu_hat": 0.361576,
+    "mu_hat": 0.32451,
     "mu_CI95": [
-      0.274003,
-      0.449148
+      0.224183,
+      0.424837
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:45.191564+00:00",
+  "created": "2025-11-06T07:16:45.928354+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,54 +60,54 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/long-lon15-01",
+      "@id": "doi:10.1234/glutathione-long-lon15-01",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/long-lon15-01",
+      "identifier": "doi:10.1234/glutathione-long-lon15-01",
       "studyIds": [
-        "LONG-LON15-01"
+        "LONG-LON15_01"
       ],
-      "citation": "LONG-LON15-01 (2023); Journal: longevity-journal-01; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/long-lon15-01; Adverse Events: None reported.",
-      "doi": "10.1234/long-lon15-01",
-      "sameAs": "https://doi.org/10.1234/long-lon15-01",
-      "datePublished": "2023",
+      "citation": "LONG-LON15_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/glutathione-long-lon15-01; Adverse Events: None reported.",
+      "doi": "10.1234/glutathione-long-lon15-01",
+      "sameAs": "https://doi.org/10.1234/glutathione-long-lon15-01",
+      "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "longevity-journal-01"
+        "name": "longevity_journal"
       }
     },
     {
-      "@id": "doi:10.1234/long-lon15-02",
+      "@id": "doi:10.1234/glutathione-long-lon15-02",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/long-lon15-02",
+      "identifier": "doi:10.1234/glutathione-long-lon15-02",
       "studyIds": [
-        "LONG-LON15-02"
+        "LONG-LON15_02"
       ],
-      "citation": "LONG-LON15-02 (2014); Journal: longevity-journal-02; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/long-lon15-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/long-lon15-02",
-      "sameAs": "https://doi.org/10.1234/long-lon15-02",
-      "datePublished": "2014",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "longevity-journal-02"
-      }
-    },
-    {
-      "@id": "doi:10.1234/long-lon15-03",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/long-lon15-03",
-      "studyIds": [
-        "LONG-LON15-03"
-      ],
-      "citation": "LONG-LON15-03 (2019); Journal: longevity-journal-03; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/long-lon15-03; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/long-lon15-03",
-      "sameAs": "https://doi.org/10.1234/long-lon15-03",
+      "citation": "LONG-LON15_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/glutathione-long-lon15-02; Adverse Events: None reported.",
+      "doi": "10.1234/glutathione-long-lon15-02",
+      "sameAs": "https://doi.org/10.1234/glutathione-long-lon15-02",
       "datePublished": "2019",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "longevity-journal-03"
+        "name": "longevity_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/glutathione-long-lon15-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/glutathione-long-lon15-03",
+      "studyIds": [
+        "LONG-LON15_03"
+      ],
+      "citation": "LONG-LON15_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/glutathione-long-lon15-03; Adverse Events: None reported.",
+      "doi": "10.1234/glutathione-long-lon15-03",
+      "sameAs": "https://doi.org/10.1234/glutathione-long-lon15-03",
+      "datePublished": "2020",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "longevity_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:f3132db4cb1df3627a1045075c19087f6f24426016a8616d06bc09cd8251e718",
-  "audit_hash": "0xb7ba9a30b8152146"
+  "citations_manifest_hash": "sha256:82106ee702365cd4078c8ae214a1d17db5768fd2316753a0f471b850fd1395cf",
+  "audit_hash": "0x9d9b97d393981168"
 }

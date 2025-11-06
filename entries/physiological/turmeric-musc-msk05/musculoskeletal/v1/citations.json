@@ -1,74 +1,74 @@
 {
-  "generated": "2025-11-05T06:51:32.521334+00:00",
+  "generated": "2025-11-06T07:17:04.475100+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/turmeric-musc-msk05/musculoskeletal/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
     {
-      "study_id": "MUSC-MSK05-01",
-      "year": 2010,
+      "study_id": "MUSC-MSK05_01",
+      "year": 2016,
       "design": "randomized controlled trial",
-      "journal": "musculoskeletal-journal-01",
+      "journal": "musculoskeletal_journal",
       "outcome": "joint_health",
       "population": "Adults with joint health concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/musc-msk05-01",
-      "url": "https://doi.org/10.1234/musc-msk05-01",
-      "citation": "MUSC-MSK05-01 (2010); Journal: musculoskeletal-journal-01; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/musc-msk05-01; Adverse Events: None reported."
+      "doi": "10.1234/turmeric-musc-msk05-01",
+      "url": "https://doi.org/10.1234/turmeric-musc-msk05-01",
+      "citation": "MUSC-MSK05_01 (2016); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/turmeric-musc-msk05-01; Adverse Events: None reported."
     },
     {
-      "study_id": "MUSC-MSK05-02",
-      "year": 2015,
+      "study_id": "MUSC-MSK05_02",
+      "year": 2017,
       "design": "randomized controlled trial",
-      "journal": "musculoskeletal-journal-02",
-      "outcome": "joint_health",
-      "population": "Adults with joint health concerns",
-      "adverse_events": "Transient headache",
-      "doi": "10.1234/musc-msk05-02",
-      "url": "https://doi.org/10.1234/musc-msk05-02",
-      "citation": "MUSC-MSK05-02 (2015); Journal: musculoskeletal-journal-02; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/musc-msk05-02; Adverse Events: Transient headache."
-    },
-    {
-      "study_id": "MUSC-MSK05-03",
-      "year": 2020,
-      "design": "randomized controlled trial",
-      "journal": "musculoskeletal-journal-03",
+      "journal": "musculoskeletal_journal",
       "outcome": "joint_health",
       "population": "Adults with joint health concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/musc-msk05-03",
-      "url": "https://doi.org/10.1234/musc-msk05-03",
-      "citation": "MUSC-MSK05-03 (2020); Journal: musculoskeletal-journal-03; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/musc-msk05-03; Adverse Events: Mild GI discomfort."
+      "doi": "10.1234/turmeric-musc-msk05-02",
+      "url": "https://doi.org/10.1234/turmeric-musc-msk05-02",
+      "citation": "MUSC-MSK05_02 (2017); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/turmeric-musc-msk05-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "MUSC-MSK05_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "joint_health",
+      "population": "Adults with joint health concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/turmeric-musc-msk05-03",
+      "url": "https://doi.org/10.1234/turmeric-musc-msk05-03",
+      "citation": "MUSC-MSK05_03 (2018); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/turmeric-musc-msk05-03; Adverse Events: Mild GI discomfort."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/musc-msk05-01",
+      "identifier": "10.1234/turmeric-musc-msk05-01",
       "study_ids": [
-        "MUSC-MSK05-01"
+        "MUSC-MSK05_01"
       ],
-      "primary_study_id": "MUSC-MSK05-01",
-      "url": "https://doi.org/10.1234/musc-msk05-01"
+      "primary_study_id": "MUSC-MSK05_01",
+      "url": "https://doi.org/10.1234/turmeric-musc-msk05-01"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/musc-msk05-02",
+      "identifier": "10.1234/turmeric-musc-msk05-02",
       "study_ids": [
-        "MUSC-MSK05-02"
+        "MUSC-MSK05_02"
       ],
-      "primary_study_id": "MUSC-MSK05-02",
-      "url": "https://doi.org/10.1234/musc-msk05-02"
+      "primary_study_id": "MUSC-MSK05_02",
+      "url": "https://doi.org/10.1234/turmeric-musc-msk05-02"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/musc-msk05-03",
+      "identifier": "10.1234/turmeric-musc-msk05-03",
       "study_ids": [
-        "MUSC-MSK05-03"
+        "MUSC-MSK05_03"
       ],
-      "primary_study_id": "MUSC-MSK05-03",
-      "url": "https://doi.org/10.1234/musc-msk05-03"
+      "primary_study_id": "MUSC-MSK05_03",
+      "url": "https://doi.org/10.1234/turmeric-musc-msk05-03"
     }
   ],
-  "manifest_hash": "sha256:2c99c1e4ec87f59dd1b9c168b3463b54fe9d86a07c61ce0ab53270ee36e41b8d"
+  "manifest_hash": "sha256:97bc9f762accec004e2bd97b7f84dfa2d8b1743bba6ea82b8fa5e20629bd5d5e"
 }

@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:16:48.734717+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/metabolic/pqq-long-gen-0630/longevity/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "LONG-GEN-0630_01",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "telomere_support",
+      "population": "Adults with telomere support concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/pqq-long-gen-0630-01",
+      "url": "https://doi.org/10.1234/pqq-long-gen-0630-01",
+      "citation": "LONG-GEN-0630_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/pqq-long-gen-0630-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-GEN-0630_02",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "telomere_support",
+      "population": "Adults with telomere support concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/pqq-long-gen-0630-02",
+      "url": "https://doi.org/10.1234/pqq-long-gen-0630-02",
+      "citation": "LONG-GEN-0630_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/pqq-long-gen-0630-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-GEN-0630_03",
+      "year": 2020,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "telomere_support",
+      "population": "Adults with telomere support concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/pqq-long-gen-0630-03",
+      "url": "https://doi.org/10.1234/pqq-long-gen-0630-03",
+      "citation": "LONG-GEN-0630_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/pqq-long-gen-0630-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/pqq-long-gen-0630-01",
+      "study_ids": [
+        "LONG-GEN-0630_01"
+      ],
+      "primary_study_id": "LONG-GEN-0630_01",
+      "url": "https://doi.org/10.1234/pqq-long-gen-0630-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/pqq-long-gen-0630-02",
+      "study_ids": [
+        "LONG-GEN-0630_02"
+      ],
+      "primary_study_id": "LONG-GEN-0630_02",
+      "url": "https://doi.org/10.1234/pqq-long-gen-0630-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/pqq-long-gen-0630-03",
+      "study_ids": [
+        "LONG-GEN-0630_03"
+      ],
+      "primary_study_id": "LONG-GEN-0630_03",
+      "url": "https://doi.org/10.1234/pqq-long-gen-0630-03"
+    }
+  ],
+  "manifest_hash": "sha256:6d71339f738105995b8bf9357a5d95450a22477abb1388a0b93429d939e7254a"
+}

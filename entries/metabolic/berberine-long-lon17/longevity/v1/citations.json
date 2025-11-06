@@ -1,74 +1,74 @@
 {
-  "generated": "2025-11-05T06:50:37.097414+00:00",
+  "generated": "2025-11-06T07:16:46.069335+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/metabolic/berberine-long-lon17/longevity/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
     {
-      "study_id": "LONG-LON17-01",
+      "study_id": "LONG-LON17_01",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "cellular_ageing",
+      "population": "Adults with cellular ageing concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/berberine-long-lon17-01",
+      "url": "https://doi.org/10.1234/berberine-long-lon17-01",
+      "citation": "LONG-LON17_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/berberine-long-lon17-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-LON17_02",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "cellular_ageing",
+      "population": "Adults with cellular ageing concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/berberine-long-lon17-02",
+      "url": "https://doi.org/10.1234/berberine-long-lon17-02",
+      "citation": "LONG-LON17_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/berberine-long-lon17-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-LON17_03",
       "year": 2020,
       "design": "randomized controlled trial",
-      "journal": "longevity-journal-01",
+      "journal": "longevity_journal",
       "outcome": "cellular_ageing",
       "population": "Adults with cellular ageing concerns",
-      "adverse_events": "Transient headache",
-      "doi": "10.1234/long-lon17-01",
-      "url": "https://doi.org/10.1234/long-lon17-01",
-      "citation": "LONG-LON17-01 (2020); Journal: longevity-journal-01; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/long-lon17-01; Adverse Events: Transient headache."
-    },
-    {
-      "study_id": "LONG-LON17-02",
-      "year": 2011,
-      "design": "randomized controlled trial",
-      "journal": "longevity-journal-02",
-      "outcome": "cellular_ageing",
-      "population": "Adults with cellular ageing concerns",
-      "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/long-lon17-02",
-      "url": "https://doi.org/10.1234/long-lon17-02",
-      "citation": "LONG-LON17-02 (2011); Journal: longevity-journal-02; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/long-lon17-02; Adverse Events: Mild GI discomfort."
-    },
-    {
-      "study_id": "LONG-LON17-03",
-      "year": 2016,
-      "design": "randomized controlled trial",
-      "journal": "longevity-journal-03",
-      "outcome": "cellular_ageing",
-      "population": "Adults with cellular ageing concerns",
-      "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/long-lon17-03",
-      "url": "https://doi.org/10.1234/long-lon17-03",
-      "citation": "LONG-LON17-03 (2016); Journal: longevity-journal-03; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/long-lon17-03; Adverse Events: Mild GI discomfort."
+      "adverse_events": "None reported",
+      "doi": "10.1234/berberine-long-lon17-03",
+      "url": "https://doi.org/10.1234/berberine-long-lon17-03",
+      "citation": "LONG-LON17_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/berberine-long-lon17-03; Adverse Events: None reported."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/long-lon17-01",
+      "identifier": "10.1234/berberine-long-lon17-01",
       "study_ids": [
-        "LONG-LON17-01"
+        "LONG-LON17_01"
       ],
-      "primary_study_id": "LONG-LON17-01",
-      "url": "https://doi.org/10.1234/long-lon17-01"
+      "primary_study_id": "LONG-LON17_01",
+      "url": "https://doi.org/10.1234/berberine-long-lon17-01"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/long-lon17-02",
+      "identifier": "10.1234/berberine-long-lon17-02",
       "study_ids": [
-        "LONG-LON17-02"
+        "LONG-LON17_02"
       ],
-      "primary_study_id": "LONG-LON17-02",
-      "url": "https://doi.org/10.1234/long-lon17-02"
+      "primary_study_id": "LONG-LON17_02",
+      "url": "https://doi.org/10.1234/berberine-long-lon17-02"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/long-lon17-03",
+      "identifier": "10.1234/berberine-long-lon17-03",
       "study_ids": [
-        "LONG-LON17-03"
+        "LONG-LON17_03"
       ],
-      "primary_study_id": "LONG-LON17-03",
-      "url": "https://doi.org/10.1234/long-lon17-03"
+      "primary_study_id": "LONG-LON17_03",
+      "url": "https://doi.org/10.1234/berberine-long-lon17-03"
     }
   ],
-  "manifest_hash": "sha256:b3f0a4165cdadc86479763dfcdc2bb2d2bec9aecd893e454bbb4d0e3253353de"
+  "manifest_hash": "sha256:05757d1a2c9f77ee52284f937684e5ecf2ccfad842e62a831266dab9c8575baa"
 }

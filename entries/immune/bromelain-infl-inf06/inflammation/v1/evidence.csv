@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-INFL-INF06-01,2013,randomized controlled trial,SMD,-0.2298,-0.3681,-0.0915,79,86,some concerns,10.1234/infl-inf06-01,inflammation-journal-01,joint_pain,Adults with joint pain concerns,Mild GI discomfort,9
-INFL-INF06-02,2018,randomized controlled trial,SMD,-0.2244,-0.3451,-0.1037,92,71,mixed,10.1234/infl-inf06-02,inflammation-journal-02,joint_pain,Adults with joint pain concerns,None reported,13
-INFL-INF06-03,2023,randomized controlled trial,SMD,-0.219,-0.3921,-0.0459,75,85,low,10.1234/infl-inf06-03,inflammation-journal-03,joint_pain,Adults with joint pain concerns,Transient headache,12
+INFL-INF06_01,2016,randomized controlled trial,SMD,-0.3177,-0.5089,-0.1265,73,61,some concerns,10.1234/bromelain-infl-inf06-01,inflammation_journal,joint_pain,Adults with joint pain concerns,Transient headache,11
+INFL-INF06_02,2017,randomized controlled trial,SMD,-0.2529,-0.381,-0.1248,65,69,low,10.1234/bromelain-infl-inf06-02,inflammation_journal,joint_pain,Adults with joint pain concerns,Mild GI discomfort,9
+INFL-INF06_03,2018,randomized controlled trial,SMD,-0.3991,-0.5208,-0.2774,79,73,mixed,10.1234/bromelain-infl-inf06-03,inflammation_journal,joint_pain,Adults with joint pain concerns,None reported,9

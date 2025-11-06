@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:17:06.803265+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/physiological/glucosamine-musc-gen-0715/musculoskeletal/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MUSC-GEN-0715_01",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "joint_health",
+      "population": "Adults with joint health concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/glucosamine-musc-gen-0715-01",
+      "url": "https://doi.org/10.1234/glucosamine-musc-gen-0715-01",
+      "citation": "MUSC-GEN-0715_01 (2016); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/glucosamine-musc-gen-0715-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "MUSC-GEN-0715_02",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "joint_health",
+      "population": "Adults with joint health concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/glucosamine-musc-gen-0715-02",
+      "url": "https://doi.org/10.1234/glucosamine-musc-gen-0715-02",
+      "citation": "MUSC-GEN-0715_02 (2017); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/glucosamine-musc-gen-0715-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "MUSC-GEN-0715_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "joint_health",
+      "population": "Adults with joint health concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/glucosamine-musc-gen-0715-03",
+      "url": "https://doi.org/10.1234/glucosamine-musc-gen-0715-03",
+      "citation": "MUSC-GEN-0715_03 (2018); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/glucosamine-musc-gen-0715-03; Adverse Events: Mild GI discomfort."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/glucosamine-musc-gen-0715-01",
+      "study_ids": [
+        "MUSC-GEN-0715_01"
+      ],
+      "primary_study_id": "MUSC-GEN-0715_01",
+      "url": "https://doi.org/10.1234/glucosamine-musc-gen-0715-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/glucosamine-musc-gen-0715-02",
+      "study_ids": [
+        "MUSC-GEN-0715_02"
+      ],
+      "primary_study_id": "MUSC-GEN-0715_02",
+      "url": "https://doi.org/10.1234/glucosamine-musc-gen-0715-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/glucosamine-musc-gen-0715-03",
+      "study_ids": [
+        "MUSC-GEN-0715_03"
+      ],
+      "primary_study_id": "MUSC-GEN-0715_03",
+      "url": "https://doi.org/10.1234/glucosamine-musc-gen-0715-03"
+    }
+  ],
+  "manifest_hash": "sha256:ffefc93eca08624d9f43bc3c4123652886d0f1948e9ddc7c2e82a730e620b752"
+}

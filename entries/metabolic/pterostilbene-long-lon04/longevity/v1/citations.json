@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-06T07:07:38.302231+00:00",
+  "generated": "2025-11-06T07:16:45.162207+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/metabolic/pterostilbene-long-lon04/longevity/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/pterostilbene-long-lon04-03"
     }
   ],
-  "manifest_hash": "sha256:1582e9baa80f1c4e0ea57a20eb68376dda5f40da517c1e7e7c054a2e28cfb938"
+  "manifest_hash": "sha256:d8c45c34e8f94d52094769e56b1c41f536d0da9583b12a463351d53fed678b1f"
 }

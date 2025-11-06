@@ -1,5 +1,5 @@
 {
-  "generated": "2025-11-06T07:07:38.300357+00:00",
+  "generated": "2025-11-06T07:17:04.409939+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/msm-musc-msk04/musculoskeletal/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
@@ -70,5 +70,5 @@
       "url": "https://doi.org/10.1234/msm-musc-msk04-03"
     }
   ],
-  "manifest_hash": "sha256:6eb6cb94edb98c5757d082cca86e99de51777c976b24389176495fe89cd02ca6"
+  "manifest_hash": "sha256:533b36cba397126bcdf87cfd52f88abf526f7a769d067268e99d38f1c8f0fce1"
 }

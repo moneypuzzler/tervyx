@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 520,
+    "total_n": 398,
     "I2": 0.0,
     "tau2": 0.0,
-    "mu_hat": 0.321256,
+    "mu_hat": 0.32451,
     "mu_CI95": [
-      0.223985,
-      0.418527
+      0.224183,
+      0.424837
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:33.834305+00:00",
+  "created": "2025-11-06T07:16:45.787050+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,54 +60,54 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/long-lon13-01",
+      "@id": "doi:10.1234/alpha-ketoglutarate-long-lon13-01",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/long-lon13-01",
+      "identifier": "doi:10.1234/alpha-ketoglutarate-long-lon13-01",
       "studyIds": [
-        "LONG-LON13-01"
+        "LONG-LON13_01"
       ],
-      "citation": "LONG-LON13-01 (2017); Journal: longevity-journal-01; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/long-lon13-01; Adverse Events: None reported.",
-      "doi": "10.1234/long-lon13-01",
-      "sameAs": "https://doi.org/10.1234/long-lon13-01",
-      "datePublished": "2017",
+      "citation": "LONG-LON13_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/alpha-ketoglutarate-long-lon13-01; Adverse Events: None reported.",
+      "doi": "10.1234/alpha-ketoglutarate-long-lon13-01",
+      "sameAs": "https://doi.org/10.1234/alpha-ketoglutarate-long-lon13-01",
+      "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "longevity-journal-01"
+        "name": "longevity_journal"
       }
     },
     {
-      "@id": "doi:10.1234/long-lon13-02",
+      "@id": "doi:10.1234/alpha-ketoglutarate-long-lon13-02",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/long-lon13-02",
+      "identifier": "doi:10.1234/alpha-ketoglutarate-long-lon13-02",
       "studyIds": [
-        "LONG-LON13-02"
+        "LONG-LON13_02"
       ],
-      "citation": "LONG-LON13-02 (2022); Journal: longevity-journal-02; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/long-lon13-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/long-lon13-02",
-      "sameAs": "https://doi.org/10.1234/long-lon13-02",
-      "datePublished": "2022",
+      "citation": "LONG-LON13_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/alpha-ketoglutarate-long-lon13-02; Adverse Events: None reported.",
+      "doi": "10.1234/alpha-ketoglutarate-long-lon13-02",
+      "sameAs": "https://doi.org/10.1234/alpha-ketoglutarate-long-lon13-02",
+      "datePublished": "2019",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "longevity-journal-02"
+        "name": "longevity_journal"
       }
     },
     {
-      "@id": "doi:10.1234/long-lon13-03",
+      "@id": "doi:10.1234/alpha-ketoglutarate-long-lon13-03",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/long-lon13-03",
+      "identifier": "doi:10.1234/alpha-ketoglutarate-long-lon13-03",
       "studyIds": [
-        "LONG-LON13-03"
+        "LONG-LON13_03"
       ],
-      "citation": "LONG-LON13-03 (2013); Journal: longevity-journal-03; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/long-lon13-03; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/long-lon13-03",
-      "sameAs": "https://doi.org/10.1234/long-lon13-03",
-      "datePublished": "2013",
+      "citation": "LONG-LON13_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/alpha-ketoglutarate-long-lon13-03; Adverse Events: None reported.",
+      "doi": "10.1234/alpha-ketoglutarate-long-lon13-03",
+      "sameAs": "https://doi.org/10.1234/alpha-ketoglutarate-long-lon13-03",
+      "datePublished": "2020",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "longevity-journal-03"
+        "name": "longevity_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:e7c49b97a409d14b8b112a4b326940ae9bd867cf457956ea64f5974e7294d3b5",
-  "audit_hash": "0x70a02aa82277ab51"
+  "citations_manifest_hash": "sha256:ab5d5298b23be912278ac43516adea9217b2c9ff1ff16acc03245f387f573f9c",
+  "audit_hash": "0x30427dc521891f11"
 }

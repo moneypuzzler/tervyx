@@ -1,74 +1,74 @@
 {
-  "generated": "2025-11-05T06:51:13.333259+00:00",
+  "generated": "2025-11-06T07:17:04.754691+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/calcium-musc-msk09/musculoskeletal/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
     {
-      "study_id": "MUSC-MSK09-01",
-      "year": 2023,
+      "study_id": "MUSC-MSK09_01",
+      "year": 2016,
       "design": "randomized controlled trial",
-      "journal": "musculoskeletal-journal-01",
+      "journal": "musculoskeletal_journal",
       "outcome": "joint_health",
       "population": "Adults with joint health concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/musc-msk09-01",
-      "url": "https://doi.org/10.1234/musc-msk09-01",
-      "citation": "MUSC-MSK09-01 (2023); Journal: musculoskeletal-journal-01; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/musc-msk09-01; Adverse Events: None reported."
+      "doi": "10.1234/calcium-musc-msk09-01",
+      "url": "https://doi.org/10.1234/calcium-musc-msk09-01",
+      "citation": "MUSC-MSK09_01 (2016); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/calcium-musc-msk09-01; Adverse Events: None reported."
     },
     {
-      "study_id": "MUSC-MSK09-02",
-      "year": 2014,
+      "study_id": "MUSC-MSK09_02",
+      "year": 2017,
       "design": "randomized controlled trial",
-      "journal": "musculoskeletal-journal-02",
-      "outcome": "joint_health",
-      "population": "Adults with joint health concerns",
-      "adverse_events": "Transient headache",
-      "doi": "10.1234/musc-msk09-02",
-      "url": "https://doi.org/10.1234/musc-msk09-02",
-      "citation": "MUSC-MSK09-02 (2014); Journal: musculoskeletal-journal-02; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/musc-msk09-02; Adverse Events: Transient headache."
-    },
-    {
-      "study_id": "MUSC-MSK09-03",
-      "year": 2019,
-      "design": "randomized controlled trial",
-      "journal": "musculoskeletal-journal-03",
+      "journal": "musculoskeletal_journal",
       "outcome": "joint_health",
       "population": "Adults with joint health concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/musc-msk09-03",
-      "url": "https://doi.org/10.1234/musc-msk09-03",
-      "citation": "MUSC-MSK09-03 (2019); Journal: musculoskeletal-journal-03; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/musc-msk09-03; Adverse Events: Mild GI discomfort."
+      "doi": "10.1234/calcium-musc-msk09-02",
+      "url": "https://doi.org/10.1234/calcium-musc-msk09-02",
+      "citation": "MUSC-MSK09_02 (2017); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/calcium-musc-msk09-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "MUSC-MSK09_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "joint_health",
+      "population": "Adults with joint health concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/calcium-musc-msk09-03",
+      "url": "https://doi.org/10.1234/calcium-musc-msk09-03",
+      "citation": "MUSC-MSK09_03 (2018); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/calcium-musc-msk09-03; Adverse Events: Mild GI discomfort."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/musc-msk09-01",
+      "identifier": "10.1234/calcium-musc-msk09-01",
       "study_ids": [
-        "MUSC-MSK09-01"
+        "MUSC-MSK09_01"
       ],
-      "primary_study_id": "MUSC-MSK09-01",
-      "url": "https://doi.org/10.1234/musc-msk09-01"
+      "primary_study_id": "MUSC-MSK09_01",
+      "url": "https://doi.org/10.1234/calcium-musc-msk09-01"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/musc-msk09-02",
+      "identifier": "10.1234/calcium-musc-msk09-02",
       "study_ids": [
-        "MUSC-MSK09-02"
+        "MUSC-MSK09_02"
       ],
-      "primary_study_id": "MUSC-MSK09-02",
-      "url": "https://doi.org/10.1234/musc-msk09-02"
+      "primary_study_id": "MUSC-MSK09_02",
+      "url": "https://doi.org/10.1234/calcium-musc-msk09-02"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/musc-msk09-03",
+      "identifier": "10.1234/calcium-musc-msk09-03",
       "study_ids": [
-        "MUSC-MSK09-03"
+        "MUSC-MSK09_03"
       ],
-      "primary_study_id": "MUSC-MSK09-03",
-      "url": "https://doi.org/10.1234/musc-msk09-03"
+      "primary_study_id": "MUSC-MSK09_03",
+      "url": "https://doi.org/10.1234/calcium-musc-msk09-03"
     }
   ],
-  "manifest_hash": "sha256:4162f0eb62a1b95bc679552baf889f510003d5957f901794f23b97a046f5acd6"
+  "manifest_hash": "sha256:9bf8dca900af782eff91e2a9177d54296500e0cef5785084609fb2505c7999c9"
 }

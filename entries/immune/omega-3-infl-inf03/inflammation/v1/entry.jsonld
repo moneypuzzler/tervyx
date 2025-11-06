@@ -6,7 +6,7 @@
   "category": "inflammation",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 0.4281,
+  "P_effect_gt_delta": 0.9952,
   "gate_results": {
     "phi": "FAIL",
     "r": 0.9,
@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 505,
-    "I2": 0.0,
-    "tau2": 0.0,
-    "mu_hat": 0.191342,
+    "total_n": 420,
+    "I2": 24.3,
+    "tau2": 0.00247267,
+    "mu_hat": 0.326053,
     "mu_CI95": [
-      0.100708,
-      0.281976
+      0.226767,
+      0.425338
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:24.268473+00:00",
+  "created": "2025-11-06T07:17:27.944330+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,54 +60,54 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/infl-inf03-01",
+      "@id": "doi:10.1234/omega-3-infl-inf03-01",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf03-01",
+      "identifier": "doi:10.1234/omega-3-infl-inf03-01",
       "studyIds": [
-        "INFL-INF03-01"
+        "INFL-INF03_01"
       ],
-      "citation": "INFL-INF03-01 (2011); Journal: inflammation-journal-01; Design: randomized controlled trial; Population: Adults with recovery concerns; Outcome: recovery; DOI: 10.1234/infl-inf03-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/infl-inf03-01",
-      "sameAs": "https://doi.org/10.1234/infl-inf03-01",
-      "datePublished": "2011",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "inflammation-journal-01"
-      }
-    },
-    {
-      "@id": "doi:10.1234/infl-inf03-02",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf03-02",
-      "studyIds": [
-        "INFL-INF03-02"
-      ],
-      "citation": "INFL-INF03-02 (2016); Journal: inflammation-journal-02; Design: randomized controlled trial; Population: Adults with recovery concerns; Outcome: recovery; DOI: 10.1234/infl-inf03-02; Adverse Events: None reported.",
-      "doi": "10.1234/infl-inf03-02",
-      "sameAs": "https://doi.org/10.1234/infl-inf03-02",
+      "citation": "INFL-INF03_01 (2016); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with recovery concerns; Outcome: recovery; DOI: 10.1234/omega-3-infl-inf03-01; Adverse Events: Transient headache.",
+      "doi": "10.1234/omega-3-infl-inf03-01",
+      "sameAs": "https://doi.org/10.1234/omega-3-infl-inf03-01",
       "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "inflammation-journal-02"
+        "name": "inflammation_journal"
       }
     },
     {
-      "@id": "doi:10.1234/infl-inf03-03",
+      "@id": "doi:10.1234/omega-3-infl-inf03-02",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf03-03",
+      "identifier": "doi:10.1234/omega-3-infl-inf03-02",
       "studyIds": [
-        "INFL-INF03-03"
+        "INFL-INF03_02"
       ],
-      "citation": "INFL-INF03-03 (2021); Journal: inflammation-journal-03; Design: randomized controlled trial; Population: Adults with recovery concerns; Outcome: recovery; DOI: 10.1234/infl-inf03-03; Adverse Events: Transient headache.",
-      "doi": "10.1234/infl-inf03-03",
-      "sameAs": "https://doi.org/10.1234/infl-inf03-03",
-      "datePublished": "2021",
+      "citation": "INFL-INF03_02 (2017); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with recovery concerns; Outcome: recovery; DOI: 10.1234/omega-3-infl-inf03-02; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/omega-3-infl-inf03-02",
+      "sameAs": "https://doi.org/10.1234/omega-3-infl-inf03-02",
+      "datePublished": "2017",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "inflammation-journal-03"
+        "name": "inflammation_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/omega-3-infl-inf03-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/omega-3-infl-inf03-03",
+      "studyIds": [
+        "INFL-INF03_03"
+      ],
+      "citation": "INFL-INF03_03 (2018); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with recovery concerns; Outcome: recovery; DOI: 10.1234/omega-3-infl-inf03-03; Adverse Events: None reported.",
+      "doi": "10.1234/omega-3-infl-inf03-03",
+      "sameAs": "https://doi.org/10.1234/omega-3-infl-inf03-03",
+      "datePublished": "2018",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "inflammation_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:406e6dc63efb2b1171a0ef68784499a14836b7e273fb9c0101ef5bdfcf1b72f2",
-  "audit_hash": "0x2ba3992bc4d143ae"
+  "citations_manifest_hash": "sha256:577e64bffb5eb5f37963b5ab7e0e808b3c1e1d2afc8e56cfd73c41fa82cfda20",
+  "audit_hash": "0x6421cdbbc81daa69"
 }

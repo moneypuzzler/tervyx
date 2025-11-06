@@ -1,74 +1,74 @@
 {
-  "generated": "2025-11-05T06:50:53.574279+00:00",
+  "generated": "2025-11-06T07:16:45.299736+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/metabolic/quercetin-long-lon06/longevity/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
     {
-      "study_id": "LONG-LON06-01",
+      "study_id": "LONG-LON06_01",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "mitochondrial_function",
+      "population": "Adults with mitochondrial function concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/quercetin-long-lon06-01",
+      "url": "https://doi.org/10.1234/quercetin-long-lon06-01",
+      "citation": "LONG-LON06_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/quercetin-long-lon06-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-LON06_02",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "mitochondrial_function",
+      "population": "Adults with mitochondrial function concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/quercetin-long-lon06-02",
+      "url": "https://doi.org/10.1234/quercetin-long-lon06-02",
+      "citation": "LONG-LON06_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/quercetin-long-lon06-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-LON06_03",
       "year": 2020,
       "design": "randomized controlled trial",
-      "journal": "longevity-journal-01",
+      "journal": "longevity_journal",
       "outcome": "mitochondrial_function",
       "population": "Adults with mitochondrial function concerns",
-      "adverse_events": "Transient headache",
-      "doi": "10.1234/long-lon06-01",
-      "url": "https://doi.org/10.1234/long-lon06-01",
-      "citation": "LONG-LON06-01 (2020); Journal: longevity-journal-01; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/long-lon06-01; Adverse Events: Transient headache."
-    },
-    {
-      "study_id": "LONG-LON06-02",
-      "year": 2011,
-      "design": "randomized controlled trial",
-      "journal": "longevity-journal-02",
-      "outcome": "mitochondrial_function",
-      "population": "Adults with mitochondrial function concerns",
-      "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/long-lon06-02",
-      "url": "https://doi.org/10.1234/long-lon06-02",
-      "citation": "LONG-LON06-02 (2011); Journal: longevity-journal-02; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/long-lon06-02; Adverse Events: Mild GI discomfort."
-    },
-    {
-      "study_id": "LONG-LON06-03",
-      "year": 2016,
-      "design": "randomized controlled trial",
-      "journal": "longevity-journal-03",
-      "outcome": "mitochondrial_function",
-      "population": "Adults with mitochondrial function concerns",
-      "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/long-lon06-03",
-      "url": "https://doi.org/10.1234/long-lon06-03",
-      "citation": "LONG-LON06-03 (2016); Journal: longevity-journal-03; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/long-lon06-03; Adverse Events: Mild GI discomfort."
+      "adverse_events": "None reported",
+      "doi": "10.1234/quercetin-long-lon06-03",
+      "url": "https://doi.org/10.1234/quercetin-long-lon06-03",
+      "citation": "LONG-LON06_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/quercetin-long-lon06-03; Adverse Events: None reported."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/long-lon06-01",
+      "identifier": "10.1234/quercetin-long-lon06-01",
       "study_ids": [
-        "LONG-LON06-01"
+        "LONG-LON06_01"
       ],
-      "primary_study_id": "LONG-LON06-01",
-      "url": "https://doi.org/10.1234/long-lon06-01"
+      "primary_study_id": "LONG-LON06_01",
+      "url": "https://doi.org/10.1234/quercetin-long-lon06-01"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/long-lon06-02",
+      "identifier": "10.1234/quercetin-long-lon06-02",
       "study_ids": [
-        "LONG-LON06-02"
+        "LONG-LON06_02"
       ],
-      "primary_study_id": "LONG-LON06-02",
-      "url": "https://doi.org/10.1234/long-lon06-02"
+      "primary_study_id": "LONG-LON06_02",
+      "url": "https://doi.org/10.1234/quercetin-long-lon06-02"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/long-lon06-03",
+      "identifier": "10.1234/quercetin-long-lon06-03",
       "study_ids": [
-        "LONG-LON06-03"
+        "LONG-LON06_03"
       ],
-      "primary_study_id": "LONG-LON06-03",
-      "url": "https://doi.org/10.1234/long-lon06-03"
+      "primary_study_id": "LONG-LON06_03",
+      "url": "https://doi.org/10.1234/quercetin-long-lon06-03"
     }
   ],
-  "manifest_hash": "sha256:712d54ccff63d9bf3789e2e67361b149de922bd68624eef2c8ea409e4c3a90c3"
+  "manifest_hash": "sha256:563f8bac50411ca17dad96a106178776619c8cfced97e5dda302f0ec286ec8bd"
 }

@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-INFL-INF14-01,2011,randomized controlled trial,SMD,-0.2454,-0.4163,-0.0745,97,76,low,10.1234/infl-inf14-01,inflammation-journal-01,joint_pain,Adults with joint pain concerns,Transient headache,11
-INFL-INF14-02,2016,randomized controlled trial,SMD,-0.24,-0.3933,-0.0867,80,90,low,10.1234/infl-inf14-02,inflammation-journal-02,joint_pain,Adults with joint pain concerns,Mild GI discomfort,10
-INFL-INF14-03,2021,randomized controlled trial,SMD,-0.2346,-0.3703,-0.0989,93,75,some concerns,10.1234/infl-inf14-03,inflammation-journal-03,joint_pain,Adults with joint pain concerns,Mild GI discomfort,9
+INFL-INF14_01,2016,randomized controlled trial,SMD,-0.3177,-0.5089,-0.1265,73,61,some concerns,10.1234/sulforaphane-infl-inf14-01,inflammation_journal,joint_pain,Adults with joint pain concerns,Transient headache,11
+INFL-INF14_02,2017,randomized controlled trial,SMD,-0.2529,-0.381,-0.1248,65,69,low,10.1234/sulforaphane-infl-inf14-02,inflammation_journal,joint_pain,Adults with joint pain concerns,Mild GI discomfort,9
+INFL-INF14_03,2018,randomized controlled trial,SMD,-0.3991,-0.5208,-0.2774,79,73,mixed,10.1234/sulforaphane-infl-inf14-03,inflammation_journal,joint_pain,Adults with joint pain concerns,None reported,9

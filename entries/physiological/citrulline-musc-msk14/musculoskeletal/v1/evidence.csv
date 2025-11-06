@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-MUSC-MSK14-01,2011,randomized controlled trial,SMD,0.2282,0.1035,0.3529,91,88,mixed,10.1234/musc-msk14-01,musculoskeletal-journal-01,bone_density,Adults with bone density concerns,Mild GI discomfort,11
-MUSC-MSK14-02,2016,randomized controlled trial,SMD,0.2228,0.0457,0.3999,74,72,low,10.1234/musc-msk14-02,musculoskeletal-journal-02,bone_density,Adults with bone density concerns,None reported,9
-MUSC-MSK14-03,2021,randomized controlled trial,SMD,0.2174,0.0579,0.3769,87,87,low,10.1234/musc-msk14-03,musculoskeletal-journal-03,bone_density,Adults with bone density concerns,Transient headache,8
+MUSC-MSK14_01,2016,randomized controlled trial,SMD,0.3177,0.1783,0.4571,82,64,mixed,10.1234/citrulline-musc-msk14-01,musculoskeletal_journal,bone_density,Adults with bone density concerns,None reported,10
+MUSC-MSK14_02,2017,randomized controlled trial,SMD,0.3205,0.1755,0.4655,70,67,mixed,10.1234/citrulline-musc-msk14-02,musculoskeletal_journal,bone_density,Adults with bone density concerns,Mild GI discomfort,10
+MUSC-MSK14_03,2018,randomized controlled trial,SMD,0.3349,0.2001,0.4697,61,74,low,10.1234/citrulline-musc-msk14-03,musculoskeletal_journal,bone_density,Adults with bone density concerns,Mild GI discomfort,8

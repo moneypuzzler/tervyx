@@ -6,7 +6,7 @@
   "category": "musculoskeletal",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 0.5991,
+  "P_effect_gt_delta": 0.9962,
   "gate_results": {
     "phi": "FAIL",
     "r": 0.9,
@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 474,
+    "total_n": 418,
     "I2": 0.0,
     "tau2": 0.0,
-    "mu_hat": 0.230749,
+    "mu_hat": 0.324709,
     "mu_CI95": [
-      0.146174,
-      0.315324
+      0.244141,
+      0.405276
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:13.333366+00:00",
+  "created": "2025-11-06T07:17:04.754780+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,54 +60,54 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/musc-msk09-01",
+      "@id": "doi:10.1234/calcium-musc-msk09-01",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/musc-msk09-01",
+      "identifier": "doi:10.1234/calcium-musc-msk09-01",
       "studyIds": [
-        "MUSC-MSK09-01"
+        "MUSC-MSK09_01"
       ],
-      "citation": "MUSC-MSK09-01 (2023); Journal: musculoskeletal-journal-01; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/musc-msk09-01; Adverse Events: None reported.",
-      "doi": "10.1234/musc-msk09-01",
-      "sameAs": "https://doi.org/10.1234/musc-msk09-01",
-      "datePublished": "2023",
+      "citation": "MUSC-MSK09_01 (2016); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/calcium-musc-msk09-01; Adverse Events: None reported.",
+      "doi": "10.1234/calcium-musc-msk09-01",
+      "sameAs": "https://doi.org/10.1234/calcium-musc-msk09-01",
+      "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "musculoskeletal-journal-01"
+        "name": "musculoskeletal_journal"
       }
     },
     {
-      "@id": "doi:10.1234/musc-msk09-02",
+      "@id": "doi:10.1234/calcium-musc-msk09-02",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/musc-msk09-02",
+      "identifier": "doi:10.1234/calcium-musc-msk09-02",
       "studyIds": [
-        "MUSC-MSK09-02"
+        "MUSC-MSK09_02"
       ],
-      "citation": "MUSC-MSK09-02 (2014); Journal: musculoskeletal-journal-02; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/musc-msk09-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/musc-msk09-02",
-      "sameAs": "https://doi.org/10.1234/musc-msk09-02",
-      "datePublished": "2014",
+      "citation": "MUSC-MSK09_02 (2017); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/calcium-musc-msk09-02; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/calcium-musc-msk09-02",
+      "sameAs": "https://doi.org/10.1234/calcium-musc-msk09-02",
+      "datePublished": "2017",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "musculoskeletal-journal-02"
+        "name": "musculoskeletal_journal"
       }
     },
     {
-      "@id": "doi:10.1234/musc-msk09-03",
+      "@id": "doi:10.1234/calcium-musc-msk09-03",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/musc-msk09-03",
+      "identifier": "doi:10.1234/calcium-musc-msk09-03",
       "studyIds": [
-        "MUSC-MSK09-03"
+        "MUSC-MSK09_03"
       ],
-      "citation": "MUSC-MSK09-03 (2019); Journal: musculoskeletal-journal-03; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/musc-msk09-03; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/musc-msk09-03",
-      "sameAs": "https://doi.org/10.1234/musc-msk09-03",
-      "datePublished": "2019",
+      "citation": "MUSC-MSK09_03 (2018); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/calcium-musc-msk09-03; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/calcium-musc-msk09-03",
+      "sameAs": "https://doi.org/10.1234/calcium-musc-msk09-03",
+      "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "musculoskeletal-journal-03"
+        "name": "musculoskeletal_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:4162f0eb62a1b95bc679552baf889f510003d5957f901794f23b97a046f5acd6",
-  "audit_hash": "0xa7e2e416d2fb4f62"
+  "citations_manifest_hash": "sha256:9bf8dca900af782eff91e2a9177d54296500e0cef5785084609fb2505c7999c9",
+  "audit_hash": "0xe4e507f1cb9297dc"
 }

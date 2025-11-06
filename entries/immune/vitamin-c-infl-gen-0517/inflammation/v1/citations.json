@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:17:30.354147+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/immune/vitamin-c-infl-gen-0517/inflammation/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "INFL-GEN-0517_01",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "systemic_inflammation",
+      "population": "Adults with systemic inflammation concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/vitamin-c-infl-gen-0517-01",
+      "url": "https://doi.org/10.1234/vitamin-c-infl-gen-0517-01",
+      "citation": "INFL-GEN-0517_01 (2016); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with systemic inflammation concerns; Outcome: systemic_inflammation; DOI: 10.1234/vitamin-c-infl-gen-0517-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "INFL-GEN-0517_02",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "systemic_inflammation",
+      "population": "Adults with systemic inflammation concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/vitamin-c-infl-gen-0517-02",
+      "url": "https://doi.org/10.1234/vitamin-c-infl-gen-0517-02",
+      "citation": "INFL-GEN-0517_02 (2017); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with systemic inflammation concerns; Outcome: systemic_inflammation; DOI: 10.1234/vitamin-c-infl-gen-0517-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "INFL-GEN-0517_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "systemic_inflammation",
+      "population": "Adults with systemic inflammation concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/vitamin-c-infl-gen-0517-03",
+      "url": "https://doi.org/10.1234/vitamin-c-infl-gen-0517-03",
+      "citation": "INFL-GEN-0517_03 (2018); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with systemic inflammation concerns; Outcome: systemic_inflammation; DOI: 10.1234/vitamin-c-infl-gen-0517-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/vitamin-c-infl-gen-0517-01",
+      "study_ids": [
+        "INFL-GEN-0517_01"
+      ],
+      "primary_study_id": "INFL-GEN-0517_01",
+      "url": "https://doi.org/10.1234/vitamin-c-infl-gen-0517-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/vitamin-c-infl-gen-0517-02",
+      "study_ids": [
+        "INFL-GEN-0517_02"
+      ],
+      "primary_study_id": "INFL-GEN-0517_02",
+      "url": "https://doi.org/10.1234/vitamin-c-infl-gen-0517-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/vitamin-c-infl-gen-0517-03",
+      "study_ids": [
+        "INFL-GEN-0517_03"
+      ],
+      "primary_study_id": "INFL-GEN-0517_03",
+      "url": "https://doi.org/10.1234/vitamin-c-infl-gen-0517-03"
+    }
+  ],
+  "manifest_hash": "sha256:223968f57d12c369b0b5b7f4f4cfac988709814218d79e5968ec3c95310b5499"
+}

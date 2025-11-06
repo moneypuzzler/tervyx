@@ -6,7 +6,7 @@
   "category": "inflammation",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 1.0,
+  "P_effect_gt_delta": 0.9952,
   "gate_results": {
     "phi": "FAIL",
     "r": 0.9,
@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 516,
-    "I2": 0.0,
-    "tau2": 0.0,
-    "mu_hat": 0.366143,
+    "total_n": 420,
+    "I2": 24.3,
+    "tau2": 0.00247267,
+    "mu_hat": 0.326053,
     "mu_CI95": [
-      0.282023,
-      0.450262
+      0.226767,
+      0.425338
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:25.348983+00:00",
+  "created": "2025-11-06T07:17:28.448208+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,54 +60,54 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/infl-inf10-01",
+      "@id": "doi:10.1234/pycnogenol-infl-inf10-01",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf10-01",
+      "identifier": "doi:10.1234/pycnogenol-infl-inf10-01",
       "studyIds": [
-        "INFL-INF10-01"
+        "INFL-INF10_01"
       ],
-      "citation": "INFL-INF10-01 (2014); Journal: inflammation-journal-01; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/infl-inf10-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/infl-inf10-01",
-      "sameAs": "https://doi.org/10.1234/infl-inf10-01",
-      "datePublished": "2014",
+      "citation": "INFL-INF10_01 (2016); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/pycnogenol-infl-inf10-01; Adverse Events: Transient headache.",
+      "doi": "10.1234/pycnogenol-infl-inf10-01",
+      "sameAs": "https://doi.org/10.1234/pycnogenol-infl-inf10-01",
+      "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "inflammation-journal-01"
+        "name": "inflammation_journal"
       }
     },
     {
-      "@id": "doi:10.1234/infl-inf10-02",
+      "@id": "doi:10.1234/pycnogenol-infl-inf10-02",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf10-02",
+      "identifier": "doi:10.1234/pycnogenol-infl-inf10-02",
       "studyIds": [
-        "INFL-INF10-02"
+        "INFL-INF10_02"
       ],
-      "citation": "INFL-INF10-02 (2019); Journal: inflammation-journal-02; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/infl-inf10-02; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/infl-inf10-02",
-      "sameAs": "https://doi.org/10.1234/infl-inf10-02",
-      "datePublished": "2019",
+      "citation": "INFL-INF10_02 (2017); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/pycnogenol-infl-inf10-02; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/pycnogenol-infl-inf10-02",
+      "sameAs": "https://doi.org/10.1234/pycnogenol-infl-inf10-02",
+      "datePublished": "2017",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "inflammation-journal-02"
+        "name": "inflammation_journal"
       }
     },
     {
-      "@id": "doi:10.1234/infl-inf10-03",
+      "@id": "doi:10.1234/pycnogenol-infl-inf10-03",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf10-03",
+      "identifier": "doi:10.1234/pycnogenol-infl-inf10-03",
       "studyIds": [
-        "INFL-INF10-03"
+        "INFL-INF10_03"
       ],
-      "citation": "INFL-INF10-03 (2010); Journal: inflammation-journal-03; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/infl-inf10-03; Adverse Events: None reported.",
-      "doi": "10.1234/infl-inf10-03",
-      "sameAs": "https://doi.org/10.1234/infl-inf10-03",
-      "datePublished": "2010",
+      "citation": "INFL-INF10_03 (2018); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/pycnogenol-infl-inf10-03; Adverse Events: None reported.",
+      "doi": "10.1234/pycnogenol-infl-inf10-03",
+      "sameAs": "https://doi.org/10.1234/pycnogenol-infl-inf10-03",
+      "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "inflammation-journal-03"
+        "name": "inflammation_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:72f3ed78cd3f2b43ec09d579939a44f7dba01ddb4b8979eba270848f9faed518",
-  "audit_hash": "0xfaf6429e6bdf30c9"
+  "citations_manifest_hash": "sha256:ceb79a3844eb31a4c7638e0ed2051de935393a45fdd92327e667ff5ccec667a8",
+  "audit_hash": "0xfe1d55d973ca0563"
 }

@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:16:46.839477+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/metabolic/nicotinamide-riboside-long-gen-0603/longevity/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "LONG-GEN-0603_01",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "nad_boosting",
+      "population": "Adults with nad boosting concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/nicotinamide-riboside-long-gen-0603-01",
+      "url": "https://doi.org/10.1234/nicotinamide-riboside-long-gen-0603-01",
+      "citation": "LONG-GEN-0603_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with nad boosting concerns; Outcome: nad_boosting; DOI: 10.1234/nicotinamide-riboside-long-gen-0603-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-GEN-0603_02",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "nad_boosting",
+      "population": "Adults with nad boosting concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/nicotinamide-riboside-long-gen-0603-02",
+      "url": "https://doi.org/10.1234/nicotinamide-riboside-long-gen-0603-02",
+      "citation": "LONG-GEN-0603_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with nad boosting concerns; Outcome: nad_boosting; DOI: 10.1234/nicotinamide-riboside-long-gen-0603-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-GEN-0603_03",
+      "year": 2020,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "nad_boosting",
+      "population": "Adults with nad boosting concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/nicotinamide-riboside-long-gen-0603-03",
+      "url": "https://doi.org/10.1234/nicotinamide-riboside-long-gen-0603-03",
+      "citation": "LONG-GEN-0603_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with nad boosting concerns; Outcome: nad_boosting; DOI: 10.1234/nicotinamide-riboside-long-gen-0603-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/nicotinamide-riboside-long-gen-0603-01",
+      "study_ids": [
+        "LONG-GEN-0603_01"
+      ],
+      "primary_study_id": "LONG-GEN-0603_01",
+      "url": "https://doi.org/10.1234/nicotinamide-riboside-long-gen-0603-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/nicotinamide-riboside-long-gen-0603-02",
+      "study_ids": [
+        "LONG-GEN-0603_02"
+      ],
+      "primary_study_id": "LONG-GEN-0603_02",
+      "url": "https://doi.org/10.1234/nicotinamide-riboside-long-gen-0603-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/nicotinamide-riboside-long-gen-0603-03",
+      "study_ids": [
+        "LONG-GEN-0603_03"
+      ],
+      "primary_study_id": "LONG-GEN-0603_03",
+      "url": "https://doi.org/10.1234/nicotinamide-riboside-long-gen-0603-03"
+    }
+  ],
+  "manifest_hash": "sha256:06c5039e5a9e213e141758368ec6c448be4da30da1ddac236ea892e017f05295"
+}

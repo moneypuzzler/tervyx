@@ -6,7 +6,7 @@
   "category": "longevity",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 0.9987,
+  "P_effect_gt_delta": 0.9999,
   "gate_results": {
     "phi": "FAIL",
     "r": 0.9,
@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 467,
+    "total_n": 398,
     "I2": 0.0,
     "tau2": 0.0,
-    "mu_hat": 0.281328,
+    "mu_hat": 0.32451,
     "mu_CI95": [
-      0.189698,
-      0.372958
+      0.224183,
+      0.424837
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:54.702758+00:00",
+  "created": "2025-11-06T07:16:45.094615+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,54 +60,54 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/long-lon03-01",
+      "@id": "doi:10.1234/resveratrol-long-lon03-01",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/long-lon03-01",
+      "identifier": "doi:10.1234/resveratrol-long-lon03-01",
       "studyIds": [
-        "LONG-LON03-01"
+        "LONG-LON03_01"
       ],
-      "citation": "LONG-LON03-01 (2019); Journal: longevity-journal-01; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/long-lon03-01; Adverse Events: None reported.",
-      "doi": "10.1234/long-lon03-01",
-      "sameAs": "https://doi.org/10.1234/long-lon03-01",
+      "citation": "LONG-LON03_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/resveratrol-long-lon03-01; Adverse Events: None reported.",
+      "doi": "10.1234/resveratrol-long-lon03-01",
+      "sameAs": "https://doi.org/10.1234/resveratrol-long-lon03-01",
+      "datePublished": "2018",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "longevity_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/resveratrol-long-lon03-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/resveratrol-long-lon03-02",
+      "studyIds": [
+        "LONG-LON03_02"
+      ],
+      "citation": "LONG-LON03_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/resveratrol-long-lon03-02; Adverse Events: None reported.",
+      "doi": "10.1234/resveratrol-long-lon03-02",
+      "sameAs": "https://doi.org/10.1234/resveratrol-long-lon03-02",
       "datePublished": "2019",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "longevity-journal-01"
+        "name": "longevity_journal"
       }
     },
     {
-      "@id": "doi:10.1234/long-lon03-02",
+      "@id": "doi:10.1234/resveratrol-long-lon03-03",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/long-lon03-02",
+      "identifier": "doi:10.1234/resveratrol-long-lon03-03",
       "studyIds": [
-        "LONG-LON03-02"
+        "LONG-LON03_03"
       ],
-      "citation": "LONG-LON03-02 (2010); Journal: longevity-journal-02; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/long-lon03-02; Adverse Events: None reported.",
-      "doi": "10.1234/long-lon03-02",
-      "sameAs": "https://doi.org/10.1234/long-lon03-02",
-      "datePublished": "2010",
+      "citation": "LONG-LON03_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/resveratrol-long-lon03-03; Adverse Events: None reported.",
+      "doi": "10.1234/resveratrol-long-lon03-03",
+      "sameAs": "https://doi.org/10.1234/resveratrol-long-lon03-03",
+      "datePublished": "2020",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "longevity-journal-02"
-      }
-    },
-    {
-      "@id": "doi:10.1234/long-lon03-03",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/long-lon03-03",
-      "studyIds": [
-        "LONG-LON03-03"
-      ],
-      "citation": "LONG-LON03-03 (2015); Journal: longevity-journal-03; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/long-lon03-03; Adverse Events: Transient headache.",
-      "doi": "10.1234/long-lon03-03",
-      "sameAs": "https://doi.org/10.1234/long-lon03-03",
-      "datePublished": "2015",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "longevity-journal-03"
+        "name": "longevity_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:8dcca9cb28c0d173a86f1bcfe54a67cd16be4034e1f823cdd961890c58124f83",
-  "audit_hash": "0xea8f2de1c90de28e"
+  "citations_manifest_hash": "sha256:c3efb0cd03902d5df56254d49e08422e9bb334e508260d5c65dec8319ac5b14a",
+  "audit_hash": "0x2d6982eed5150ec3"
 }

@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:17:06.660711+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/physiological/casein-musc-gen-0713/musculoskeletal/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MUSC-GEN-0713_01",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "sarcopenia",
+      "population": "Adults with sarcopenia concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/casein-musc-gen-0713-01",
+      "url": "https://doi.org/10.1234/casein-musc-gen-0713-01",
+      "citation": "MUSC-GEN-0713_01 (2016); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with sarcopenia concerns; Outcome: sarcopenia; DOI: 10.1234/casein-musc-gen-0713-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "MUSC-GEN-0713_02",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "sarcopenia",
+      "population": "Adults with sarcopenia concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/casein-musc-gen-0713-02",
+      "url": "https://doi.org/10.1234/casein-musc-gen-0713-02",
+      "citation": "MUSC-GEN-0713_02 (2017); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with sarcopenia concerns; Outcome: sarcopenia; DOI: 10.1234/casein-musc-gen-0713-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "MUSC-GEN-0713_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "sarcopenia",
+      "population": "Adults with sarcopenia concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/casein-musc-gen-0713-03",
+      "url": "https://doi.org/10.1234/casein-musc-gen-0713-03",
+      "citation": "MUSC-GEN-0713_03 (2018); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with sarcopenia concerns; Outcome: sarcopenia; DOI: 10.1234/casein-musc-gen-0713-03; Adverse Events: Mild GI discomfort."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/casein-musc-gen-0713-01",
+      "study_ids": [
+        "MUSC-GEN-0713_01"
+      ],
+      "primary_study_id": "MUSC-GEN-0713_01",
+      "url": "https://doi.org/10.1234/casein-musc-gen-0713-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/casein-musc-gen-0713-02",
+      "study_ids": [
+        "MUSC-GEN-0713_02"
+      ],
+      "primary_study_id": "MUSC-GEN-0713_02",
+      "url": "https://doi.org/10.1234/casein-musc-gen-0713-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/casein-musc-gen-0713-03",
+      "study_ids": [
+        "MUSC-GEN-0713_03"
+      ],
+      "primary_study_id": "MUSC-GEN-0713_03",
+      "url": "https://doi.org/10.1234/casein-musc-gen-0713-03"
+    }
+  ],
+  "manifest_hash": "sha256:b9016c9ab268aaad5eb1a8759bd98531a8e23c2feaed817efe08c63e9bfc4a80"
+}

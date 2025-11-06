@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:17:30.705635+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/immune/omega-3-infl-gen-0522/inflammation/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "INFL-GEN-0522_01",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "autoimmune_support",
+      "population": "Adults with autoimmune support concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/omega-3-infl-gen-0522-01",
+      "url": "https://doi.org/10.1234/omega-3-infl-gen-0522-01",
+      "citation": "INFL-GEN-0522_01 (2016); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with autoimmune support concerns; Outcome: autoimmune_support; DOI: 10.1234/omega-3-infl-gen-0522-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "INFL-GEN-0522_02",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "autoimmune_support",
+      "population": "Adults with autoimmune support concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/omega-3-infl-gen-0522-02",
+      "url": "https://doi.org/10.1234/omega-3-infl-gen-0522-02",
+      "citation": "INFL-GEN-0522_02 (2017); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with autoimmune support concerns; Outcome: autoimmune_support; DOI: 10.1234/omega-3-infl-gen-0522-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "INFL-GEN-0522_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "autoimmune_support",
+      "population": "Adults with autoimmune support concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/omega-3-infl-gen-0522-03",
+      "url": "https://doi.org/10.1234/omega-3-infl-gen-0522-03",
+      "citation": "INFL-GEN-0522_03 (2018); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with autoimmune support concerns; Outcome: autoimmune_support; DOI: 10.1234/omega-3-infl-gen-0522-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/omega-3-infl-gen-0522-01",
+      "study_ids": [
+        "INFL-GEN-0522_01"
+      ],
+      "primary_study_id": "INFL-GEN-0522_01",
+      "url": "https://doi.org/10.1234/omega-3-infl-gen-0522-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/omega-3-infl-gen-0522-02",
+      "study_ids": [
+        "INFL-GEN-0522_02"
+      ],
+      "primary_study_id": "INFL-GEN-0522_02",
+      "url": "https://doi.org/10.1234/omega-3-infl-gen-0522-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/omega-3-infl-gen-0522-03",
+      "study_ids": [
+        "INFL-GEN-0522_03"
+      ],
+      "primary_study_id": "INFL-GEN-0522_03",
+      "url": "https://doi.org/10.1234/omega-3-infl-gen-0522-03"
+    }
+  ],
+  "manifest_hash": "sha256:b1e5e5a262bc2c5891856dddf471837efb10ae7d5b47340a59b87e7b2c0651c1"
+}

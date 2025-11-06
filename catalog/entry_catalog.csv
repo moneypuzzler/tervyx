@@ -121,110 +121,170 @@ META-GLU19,metabolic,omega_3,merge,standardized protocol 19,weight_management,me
 Batch generated on 2025-10-24T08:19:09.214679+00:00",2025-10-24T08:19:09.214717,,,
 META-GLU20,metabolic,curcumin,merge,standardized protocol 20,glucose_control,low,P2,PMID: 371020,pending,automation,,"stub rollback @2025-11-05; Document metabolic outcomes for curcumin protocol 20
 Batch generated on 2025-10-24T08:19:09.337914+00:00",2025-10-24T08:19:09.337950,,,
-INFL-INF01,inflammation,curcumin,merge,standardized protocol 1,joint_pain,high,P0,PMID: 451001,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for curcumin entry 1
-Stub entry generated on 2025-10-27T01:51:32.532836+00:00",2025-10-27T01:51:32.532846+00:00,,,
-INFL-INF02,inflammation,boswellia,merge,standardized protocol 2,systemic_inflammation,medium,P1,PMID: 451002,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for boswellia entry 2
-Stub entry generated on 2025-10-27T01:51:32.534569+00:00",2025-10-27T01:51:32.534578+00:00,,,
-INFL-INF03,inflammation,omega_3,split,standardized protocol 3,recovery,medium,P1,PMID: 451003,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for omega_3 entry 3
-Stub entry generated on 2025-10-27T01:51:32.536126+00:00",2025-10-27T01:51:32.536132+00:00,,,
-INFL-INF04,inflammation,ginger,merge,standardized protocol 4,joint_pain,low,P2,PMID: 451004,pending,,,Track inflammatory biomarkers for ginger entry 4,2024-05-01T00:00:00Z,,,
-INFL-INF05,inflammation,quercetin,merge,standardized protocol 5,skin_inflammation,high,P0,PMID: 451005,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for quercetin entry 5
-Stub entry generated on 2025-10-27T01:51:32.537745+00:00",2025-10-27T01:51:32.537754+00:00,,,
-INFL-INF06,inflammation,bromelain,split,standardized protocol 6,joint_pain,medium,P1,PMID: 451006,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for bromelain entry 6
-Stub entry generated on 2025-10-27T01:51:32.539218+00:00",2025-10-27T01:51:32.539226+00:00,,,
-INFL-INF07,inflammation,green_tea,merge,standardized protocol 7,systemic_inflammation,medium,P1,PMID: 451007,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for green_tea entry 7
-Stub entry generated on 2025-10-27T01:51:32.540789+00:00",2025-10-27T01:51:32.540797+00:00,,,
-INFL-INF08,inflammation,resveratrol,merge,standardized protocol 8,recovery,low,P2,PMID: 451008,pending,,,Track inflammatory biomarkers for resveratrol entry 8,2024-05-01T00:00:00Z,,,
-INFL-INF09,inflammation,astaxanthin,split,standardized protocol 9,joint_pain,high,P0,PMID: 451009,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for astaxanthin entry 9
-Stub entry generated on 2025-10-27T01:51:32.542453+00:00",2025-10-27T01:51:32.542461+00:00,,,
-INFL-INF10,inflammation,pycnogenol,merge,standardized protocol 10,skin_inflammation,medium,P1,PMID: 451010,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for pycnogenol entry 10
-Stub entry generated on 2025-10-27T01:51:32.544005+00:00",2025-10-27T01:51:32.544014+00:00,,,
-INFL-INF11,inflammation,collagen,merge,standardized protocol 11,joint_pain,medium,P1,PMID: 451011,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for collagen entry 11
-Stub entry generated on 2025-10-27T01:51:32.545517+00:00",2025-10-27T01:51:32.545526+00:00,,,
-INFL-INF12,inflammation,msm,split,standardized protocol 12,systemic_inflammation,low,P2,PMID: 451012,pending,,,Track inflammatory biomarkers for msm entry 12,2024-05-01T00:00:00Z,,,
-INFL-INF13,inflammation,hyaluronic_acid,merge,standardized protocol 13,recovery,high,P0,PMID: 451013,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for hyaluronic_acid entry 13
-Stub entry generated on 2025-10-27T01:51:32.547002+00:00",2025-10-27T01:51:32.547009+00:00,,,
-INFL-INF14,inflammation,sulforaphane,merge,standardized protocol 14,joint_pain,medium,P1,PMID: 451014,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for sulforaphane entry 14
-Stub entry generated on 2025-10-27T01:51:32.548496+00:00",2025-10-27T01:51:32.548505+00:00,,,
-INFL-INF15,inflammation,vitamin_c,split,standardized protocol 15,skin_inflammation,medium,P1,PMID: 451015,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for vitamin_c entry 15
-Stub entry generated on 2025-10-27T01:51:32.549981+00:00",2025-10-27T01:51:32.549989+00:00,,,
-INFL-INF16,inflammation,vitamin_e,merge,standardized protocol 16,joint_pain,low,P2,PMID: 451016,pending,,,Track inflammatory biomarkers for vitamin_e entry 16,2024-05-01T00:00:00Z,,,
-INFL-INF17,inflammation,turmeric_oil,merge,standardized protocol 17,systemic_inflammation,high,P0,PMID: 451017,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for turmeric_oil entry 17
-Stub entry generated on 2025-10-27T01:51:32.551320+00:00",2025-10-27T01:51:32.551327+00:00,,,
-INFL-INF18,inflammation,evening_primrose,split,standardized protocol 18,recovery,medium,P1,PMID: 451018,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for evening_primrose entry 18
-Stub entry generated on 2025-10-27T01:51:32.552758+00:00",2025-10-27T01:51:32.552767+00:00,,,
-INFL-INF19,inflammation,black_currant,merge,standardized protocol 19,joint_pain,medium,P1,PMID: 451019,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for black_currant entry 19
-Stub entry generated on 2025-10-27T01:51:32.554389+00:00",2025-10-27T01:51:32.554399+00:00,,,
-INFL-INF20,inflammation,arnica,merge,standardized protocol 20,skin_inflammation,low,P2,PMID: 451020,pending,,,Track inflammatory biomarkers for arnica entry 20,2024-05-01T00:00:00Z,,,
-LONG-LON01,longevity,nicotinamide_riboside,merge,standardized protocol 1,cellular_ageing,high,P0,PMID: 521001,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for nicotinamide_riboside study 1
-Stub entry generated on 2025-10-27T01:51:32.555903+00:00",2025-10-27T01:51:32.555911+00:00,,,
-LONG-LON02,longevity,nicotinamide_mononucleotide,merge,standardized protocol 2,mitochondrial_function,medium,P1,PMID: 521002,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for nicotinamide_mononucleotide study 2
-Stub entry generated on 2025-10-27T01:51:32.557674+00:00",2025-10-27T01:51:32.557684+00:00,,,
-LONG-LON03,longevity,resveratrol,split,standardized protocol 3,telomere_support,medium,P1,PMID: 521003,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for resveratrol study 3
-Stub entry generated on 2025-10-27T01:51:32.559122+00:00",2025-10-27T01:51:32.559130+00:00,,,
-LONG-LON04,longevity,pterostilbene,merge,standardized protocol 4,cellular_ageing,low,P2,PMID: 521004,pending,,,Summarize longevity markers for pterostilbene study 4,2024-05-01T00:00:00Z,,,
-LONG-LON05,longevity,fisetin,merge,standardized protocol 5,cellular_ageing,high,P0,PMID: 521005,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for fisetin study 5
-Stub entry generated on 2025-10-27T01:51:32.560586+00:00",2025-10-27T01:51:32.560596+00:00,,,
-LONG-LON06,longevity,quercetin,split,standardized protocol 6,mitochondrial_function,medium,P1,PMID: 521006,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for quercetin study 6
-Stub entry generated on 2025-10-27T01:51:32.562091+00:00",2025-10-27T01:51:32.562100+00:00,,,
-LONG-LON07,longevity,spermidine,merge,standardized protocol 7,telomere_support,medium,P1,PMID: 521007,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for spermidine study 7
-Stub entry generated on 2025-10-27T01:51:32.563564+00:00",2025-10-27T01:51:32.563574+00:00,,,
-LONG-LON08,longevity,taurine,merge,standardized protocol 8,cellular_ageing,low,P2,PMID: 521008,pending,,,Summarize longevity markers for taurine study 8,2024-05-01T00:00:00Z,,,
-LONG-LON09,longevity,melatonin,split,standardized protocol 9,cellular_ageing,high,P0,PMID: 521009,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for melatonin study 9
-Stub entry generated on 2025-10-27T01:51:32.564983+00:00",2025-10-27T01:51:32.564990+00:00,,,
-LONG-LON10,longevity,coq10,merge,standardized protocol 10,mitochondrial_function,medium,P1,PMID: 521010,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for coq10 study 10
-Stub entry generated on 2025-10-27T01:51:32.566390+00:00",2025-10-27T01:51:32.566398+00:00,,,
-LONG-LON11,longevity,astaxanthin,merge,standardized protocol 11,telomere_support,medium,P1,PMID: 521011,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for astaxanthin study 11
-Stub entry generated on 2025-10-27T01:51:32.567891+00:00",2025-10-27T01:51:32.567899+00:00,,,
-LONG-LON12,longevity,urolithin_a,split,standardized protocol 12,cellular_ageing,low,P2,PMID: 521012,pending,,,Summarize longevity markers for urolithin_a study 12,2024-05-01T00:00:00Z,,,
-LONG-LON13,longevity,alpha_ketoglutarate,merge,standardized protocol 13,cellular_ageing,high,P0,PMID: 521013,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for alpha_ketoglutarate study 13
-Stub entry generated on 2025-10-27T01:51:32.569400+00:00",2025-10-27T01:51:32.569408+00:00,,,
-LONG-LON14,longevity,collagen,merge,standardized protocol 14,mitochondrial_function,medium,P1,PMID: 521014,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for collagen study 14
-Stub entry generated on 2025-10-27T01:51:32.570773+00:00",2025-10-27T01:51:32.570782+00:00,,,
-LONG-LON15,longevity,glutathione,split,standardized protocol 15,telomere_support,medium,P1,PMID: 521015,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for glutathione study 15
-Stub entry generated on 2025-10-27T01:51:32.572113+00:00",2025-10-27T01:51:32.572120+00:00,,,
-LONG-LON16,longevity,curcumin,merge,standardized protocol 16,cellular_ageing,low,P2,PMID: 521016,pending,,,Summarize longevity markers for curcumin study 16,2024-05-01T00:00:00Z,,,
-LONG-LON17,longevity,berberine,merge,standardized protocol 17,cellular_ageing,high,P0,PMID: 521017,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for berberine study 17
-Stub entry generated on 2025-10-27T01:51:32.573627+00:00",2025-10-27T01:51:32.573634+00:00,,,
-LONG-LON18,longevity,metformin_analog,split,standardized protocol 18,mitochondrial_function,medium,P1,PMID: 521018,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for metformin_analog study 18
-Stub entry generated on 2025-10-27T01:51:32.574949+00:00",2025-10-27T01:51:32.574955+00:00,,,
-LONG-LON19,longevity,rapamycin_microdose,merge,standardized protocol 19,telomere_support,medium,P1,PMID: 521019,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for rapamycin_microdose study 19
-Stub entry generated on 2025-10-27T01:51:32.576566+00:00",2025-10-27T01:51:32.576574+00:00,,,
-LONG-LON20,longevity,omega_3,merge,standardized protocol 20,cellular_ageing,low,P2,PMID: 521020,pending,,,Summarize longevity markers for omega_3 study 20,2024-05-01T00:00:00Z,,,
-MUSC-MSK01,musculoskeletal,collagen,merge,standardized protocol 1,joint_health,high,P0,PMID: 631001,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for collagen program 1
-Stub entry generated on 2025-10-27T01:51:32.578106+00:00",2025-10-27T01:51:32.578116+00:00,,,
-MUSC-MSK02,musculoskeletal,glucosamine,merge,standardized protocol 2,bone_density,medium,P1,PMID: 631002,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for glucosamine program 2
-Stub entry generated on 2025-10-27T01:51:32.579637+00:00",2025-10-27T01:51:32.579644+00:00,,,
-MUSC-MSK03,musculoskeletal,chondroitin,split,standardized protocol 3,muscle_recovery,medium,P1,PMID: 631003,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for chondroitin program 3
-Stub entry generated on 2025-10-27T01:51:32.581267+00:00",2025-10-27T01:51:32.581275+00:00,,,
-MUSC-MSK04,musculoskeletal,msm,merge,standardized protocol 4,strength,low,P2,PMID: 631004,pending,,,Capture musculoskeletal endpoints for msm program 4,2024-05-01T00:00:00Z,,,
-MUSC-MSK05,musculoskeletal,turmeric,merge,standardized protocol 5,joint_health,high,P0,PMID: 631005,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for turmeric program 5
-Stub entry generated on 2025-10-27T01:51:32.582632+00:00",2025-10-27T01:51:32.582640+00:00,,,
-MUSC-MSK06,musculoskeletal,boswellia,split,standardized protocol 6,bone_density,medium,P1,PMID: 631006,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for boswellia program 6
-Stub entry generated on 2025-10-27T01:51:32.583910+00:00",2025-10-27T01:51:32.583916+00:00,,,
-MUSC-MSK07,musculoskeletal,hyaluronic_acid,merge,standardized protocol 7,muscle_recovery,medium,P1,PMID: 631007,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for hyaluronic_acid program 7
-Stub entry generated on 2025-10-27T01:51:32.585415+00:00",2025-10-27T01:51:32.585423+00:00,,,
-MUSC-MSK08,musculoskeletal,vitamin_d,merge,standardized protocol 8,strength,low,P2,PMID: 631008,pending,,,Capture musculoskeletal endpoints for vitamin_d program 8,2024-05-01T00:00:00Z,,,
-MUSC-MSK09,musculoskeletal,calcium,split,standardized protocol 9,joint_health,high,P0,PMID: 631009,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for calcium program 9
-Stub entry generated on 2025-10-27T01:51:32.586810+00:00",2025-10-27T01:51:32.586817+00:00,,,
-MUSC-MSK10,musculoskeletal,magnesium,merge,standardized protocol 10,bone_density,medium,P1,PMID: 631010,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for magnesium program 10
-Stub entry generated on 2025-10-27T01:51:32.588094+00:00",2025-10-27T01:51:32.588100+00:00,,,
-MUSC-MSK11,musculoskeletal,creatine,merge,standardized protocol 11,muscle_recovery,medium,P1,PMID: 631011,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for creatine program 11
-Stub entry generated on 2025-10-27T01:51:32.589500+00:00",2025-10-27T01:51:32.589508+00:00,,,
-MUSC-MSK12,musculoskeletal,beta_alanine,split,standardized protocol 12,strength,low,P2,PMID: 631012,pending,,,Capture musculoskeletal endpoints for beta_alanine program 12,2024-05-01T00:00:00Z,,,
-MUSC-MSK13,musculoskeletal,l_carnitine,merge,standardized protocol 13,joint_health,high,P0,PMID: 631013,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for l_carnitine program 13
-Stub entry generated on 2025-10-27T01:51:32.590907+00:00",2025-10-27T01:51:32.590915+00:00,,,
-MUSC-MSK14,musculoskeletal,citrulline,merge,standardized protocol 14,bone_density,medium,P1,PMID: 631014,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for citrulline program 14
-Stub entry generated on 2025-10-27T01:51:32.593093+00:00",2025-10-27T01:51:32.593103+00:00,,,
-MUSC-MSK15,musculoskeletal,beetroot,split,standardized protocol 15,muscle_recovery,medium,P1,PMID: 631015,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for beetroot program 15
-Stub entry generated on 2025-10-27T01:51:32.594684+00:00",2025-10-27T01:51:32.594693+00:00,,,
-MUSC-MSK16,musculoskeletal,omega_3,merge,standardized protocol 16,strength,low,P2,PMID: 631016,pending,,,Capture musculoskeletal endpoints for omega_3 program 16,2024-05-01T00:00:00Z,,,
-MUSC-MSK17,musculoskeletal,whey_protein,merge,standardized protocol 17,joint_health,high,P0,PMID: 631017,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for whey_protein program 17
-Stub entry generated on 2025-10-27T01:51:32.596083+00:00",2025-10-27T01:51:32.596090+00:00,,,
-MUSC-MSK18,musculoskeletal,casein,split,standardized protocol 18,bone_density,medium,P1,PMID: 631018,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for casein program 18
-Stub entry generated on 2025-10-27T01:51:32.597649+00:00",2025-10-27T01:51:32.597658+00:00,,,
-MUSC-MSK19,musculoskeletal,pea_protein,merge,standardized protocol 19,muscle_recovery,medium,P1,PMID: 631019,pending,,,Capture musculoskeletal endpoints for pea_protein program 19,2024-05-01T00:00:00Z,,,
-MUSC-MSK20,musculoskeletal,collagen_peptides,merge,standardized protocol 20,strength,low,P2,PMID: 631020,pending,,,Capture musculoskeletal endpoints for collagen_peptides program 20,2024-05-01T00:00:00Z,,,
+INFL-INF01,inflammation,curcumin,merge,standardized protocol 1,joint_pain,high,P0,PMID: 451001,completed,automation,Black,"stub rollback @2025-11-05; Track inflammatory biomarkers for curcumin entry 1
+Stub entry generated on 2025-10-27T01:51:32.532836+00:00
+Batch generated on 2025-11-06T07:17:27.829192+00:00",2025-11-06T07:17:27.829212,,,
+INFL-INF02,inflammation,boswellia,merge,standardized protocol 2,systemic_inflammation,medium,P1,PMID: 451002,completed,automation,Black,"stub rollback @2025-11-05; Track inflammatory biomarkers for boswellia entry 2
+Stub entry generated on 2025-10-27T01:51:32.534569+00:00
+Batch generated on 2025-11-06T07:17:27.896813+00:00",2025-11-06T07:17:27.896828,,,
+INFL-INF03,inflammation,omega_3,split,standardized protocol 3,recovery,medium,P1,PMID: 451003,completed,automation,Black,"stub rollback @2025-11-05; Track inflammatory biomarkers for omega_3 entry 3
+Stub entry generated on 2025-10-27T01:51:32.536126+00:00
+Batch generated on 2025-11-06T07:17:27.964449+00:00",2025-11-06T07:17:27.964469,,,
+INFL-INF04,inflammation,ginger,merge,standardized protocol 4,joint_pain,low,P2,PMID: 451004,completed,automation,Black,"Track inflammatory biomarkers for ginger entry 4
+Batch generated on 2025-11-06T07:17:28.036677+00:00",2025-11-06T07:17:28.036698,,,
+INFL-INF05,inflammation,quercetin,merge,standardized protocol 5,skin_inflammation,high,P0,PMID: 451005,completed,automation,Black,"stub rollback @2025-11-05; Track inflammatory biomarkers for quercetin entry 5
+Stub entry generated on 2025-10-27T01:51:32.537745+00:00
+Batch generated on 2025-11-06T07:17:28.105879+00:00",2025-11-06T07:17:28.105901,,,
+INFL-INF06,inflammation,bromelain,split,standardized protocol 6,joint_pain,medium,P1,PMID: 451006,completed,automation,Black,"stub rollback @2025-11-05; Track inflammatory biomarkers for bromelain entry 6
+Stub entry generated on 2025-10-27T01:51:32.539218+00:00
+Batch generated on 2025-11-06T07:17:28.176706+00:00",2025-11-06T07:17:28.176727,,,
+INFL-INF07,inflammation,green_tea,merge,standardized protocol 7,systemic_inflammation,medium,P1,PMID: 451007,completed,automation,Black,"stub rollback @2025-11-05; Track inflammatory biomarkers for green_tea entry 7
+Stub entry generated on 2025-10-27T01:51:32.540789+00:00
+Batch generated on 2025-11-06T07:17:28.258318+00:00",2025-11-06T07:17:28.258343,,,
+INFL-INF08,inflammation,resveratrol,merge,standardized protocol 8,recovery,low,P2,PMID: 451008,completed,automation,Black,"Track inflammatory biomarkers for resveratrol entry 8
+Batch generated on 2025-11-06T07:17:28.330506+00:00",2025-11-06T07:17:28.330531,,,
+INFL-INF09,inflammation,astaxanthin,split,standardized protocol 9,joint_pain,high,P0,PMID: 451009,completed,automation,Black,"stub rollback @2025-11-05; Track inflammatory biomarkers for astaxanthin entry 9
+Stub entry generated on 2025-10-27T01:51:32.542453+00:00
+Batch generated on 2025-11-06T07:17:28.400623+00:00",2025-11-06T07:17:28.400642,,,
+INFL-INF10,inflammation,pycnogenol,merge,standardized protocol 10,skin_inflammation,medium,P1,PMID: 451010,completed,automation,Black,"stub rollback @2025-11-05; Track inflammatory biomarkers for pycnogenol entry 10
+Stub entry generated on 2025-10-27T01:51:32.544005+00:00
+Batch generated on 2025-11-06T07:17:28.471120+00:00",2025-11-06T07:17:28.471148,,,
+INFL-INF11,inflammation,collagen,merge,standardized protocol 11,joint_pain,medium,P1,PMID: 451011,completed,automation,Black,"stub rollback @2025-11-05; Track inflammatory biomarkers for collagen entry 11
+Stub entry generated on 2025-10-27T01:51:32.545517+00:00
+Batch generated on 2025-11-06T07:17:28.544605+00:00",2025-11-06T07:17:28.544629,,,
+INFL-INF12,inflammation,msm,split,standardized protocol 12,systemic_inflammation,low,P2,PMID: 451012,completed,automation,Black,"Track inflammatory biomarkers for msm entry 12
+Batch generated on 2025-11-06T07:17:28.615238+00:00",2025-11-06T07:17:28.615261,,,
+INFL-INF13,inflammation,hyaluronic_acid,merge,standardized protocol 13,recovery,high,P0,PMID: 451013,completed,automation,Black,"stub rollback @2025-11-05; Track inflammatory biomarkers for hyaluronic_acid entry 13
+Stub entry generated on 2025-10-27T01:51:32.547002+00:00
+Batch generated on 2025-11-06T07:17:28.691274+00:00",2025-11-06T07:17:28.691295,,,
+INFL-INF14,inflammation,sulforaphane,merge,standardized protocol 14,joint_pain,medium,P1,PMID: 451014,completed,automation,Black,"stub rollback @2025-11-05; Track inflammatory biomarkers for sulforaphane entry 14
+Stub entry generated on 2025-10-27T01:51:32.548496+00:00
+Batch generated on 2025-11-06T07:17:28.770963+00:00",2025-11-06T07:17:28.770986,,,
+INFL-INF15,inflammation,vitamin_c,split,standardized protocol 15,skin_inflammation,medium,P1,PMID: 451015,completed,automation,Black,"stub rollback @2025-11-05; Track inflammatory biomarkers for vitamin_c entry 15
+Stub entry generated on 2025-10-27T01:51:32.549981+00:00
+Batch generated on 2025-11-06T07:17:28.847214+00:00",2025-11-06T07:17:28.847235,,,
+INFL-INF16,inflammation,vitamin_e,merge,standardized protocol 16,joint_pain,low,P2,PMID: 451016,completed,automation,Black,"Track inflammatory biomarkers for vitamin_e entry 16
+Batch generated on 2025-11-06T07:17:28.921489+00:00",2025-11-06T07:17:28.921512,,,
+INFL-INF17,inflammation,turmeric_oil,merge,standardized protocol 17,systemic_inflammation,high,P0,PMID: 451017,completed,automation,Black,"stub rollback @2025-11-05; Track inflammatory biomarkers for turmeric_oil entry 17
+Stub entry generated on 2025-10-27T01:51:32.551320+00:00
+Batch generated on 2025-11-06T07:17:28.996980+00:00",2025-11-06T07:17:28.997000,,,
+INFL-INF18,inflammation,evening_primrose,split,standardized protocol 18,recovery,medium,P1,PMID: 451018,completed,automation,Black,"stub rollback @2025-11-05; Track inflammatory biomarkers for evening_primrose entry 18
+Stub entry generated on 2025-10-27T01:51:32.552758+00:00
+Batch generated on 2025-11-06T07:17:29.080101+00:00",2025-11-06T07:17:29.080138,,,
+INFL-INF19,inflammation,black_currant,merge,standardized protocol 19,joint_pain,medium,P1,PMID: 451019,completed,automation,Black,"stub rollback @2025-11-05; Track inflammatory biomarkers for black_currant entry 19
+Stub entry generated on 2025-10-27T01:51:32.554389+00:00
+Batch generated on 2025-11-06T07:17:29.157413+00:00",2025-11-06T07:17:29.157431,,,
+INFL-INF20,inflammation,arnica,merge,standardized protocol 20,skin_inflammation,low,P2,PMID: 451020,completed,automation,Black,"Track inflammatory biomarkers for arnica entry 20
+Batch generated on 2025-11-06T07:17:29.225992+00:00",2025-11-06T07:17:29.226009,,,
+LONG-LON01,longevity,nicotinamide_riboside,merge,standardized protocol 1,cellular_ageing,high,P0,PMID: 521001,completed,automation,Black,"stub rollback @2025-11-05; Summarize longevity markers for nicotinamide_riboside study 1
+Stub entry generated on 2025-10-27T01:51:32.555903+00:00
+Batch generated on 2025-11-06T07:16:44.970051+00:00",2025-11-06T07:16:44.970067,,,
+LONG-LON02,longevity,nicotinamide_mononucleotide,merge,standardized protocol 2,mitochondrial_function,medium,P1,PMID: 521002,completed,automation,Black,"stub rollback @2025-11-05; Summarize longevity markers for nicotinamide_mononucleotide study 2
+Stub entry generated on 2025-10-27T01:51:32.557674+00:00
+Batch generated on 2025-11-06T07:16:45.039358+00:00",2025-11-06T07:16:45.039374,,,
+LONG-LON03,longevity,resveratrol,split,standardized protocol 3,telomere_support,medium,P1,PMID: 521003,completed,automation,Black,"stub rollback @2025-11-05; Summarize longevity markers for resveratrol study 3
+Stub entry generated on 2025-10-27T01:51:32.559122+00:00
+Batch generated on 2025-11-06T07:16:45.115549+00:00",2025-11-06T07:16:45.115570,,,
+LONG-LON04,longevity,pterostilbene,merge,standardized protocol 4,cellular_ageing,low,P2,PMID: 521004,completed,automation,Black,"Summarize longevity markers for pterostilbene study 4
+Batch generated on 2025-11-06T07:16:45.183392+00:00",2025-11-06T07:16:45.183407,,,
+LONG-LON05,longevity,fisetin,merge,standardized protocol 5,cellular_ageing,high,P0,PMID: 521005,completed,automation,Black,"stub rollback @2025-11-05; Summarize longevity markers for fisetin study 5
+Stub entry generated on 2025-10-27T01:51:32.560586+00:00
+Batch generated on 2025-11-06T07:16:45.253354+00:00",2025-11-06T07:16:45.253372,,,
+LONG-LON06,longevity,quercetin,split,standardized protocol 6,mitochondrial_function,medium,P1,PMID: 521006,completed,automation,Black,"stub rollback @2025-11-05; Summarize longevity markers for quercetin study 6
+Stub entry generated on 2025-10-27T01:51:32.562091+00:00
+Batch generated on 2025-11-06T07:16:45.320325+00:00",2025-11-06T07:16:45.320346,,,
+LONG-LON07,longevity,spermidine,merge,standardized protocol 7,telomere_support,medium,P1,PMID: 521007,completed,automation,Black,"stub rollback @2025-11-05; Summarize longevity markers for spermidine study 7
+Stub entry generated on 2025-10-27T01:51:32.563564+00:00
+Batch generated on 2025-11-06T07:16:45.396751+00:00",2025-11-06T07:16:45.396778,,,
+LONG-LON08,longevity,taurine,merge,standardized protocol 8,cellular_ageing,low,P2,PMID: 521008,completed,automation,Black,"Summarize longevity markers for taurine study 8
+Batch generated on 2025-11-06T07:16:45.464022+00:00",2025-11-06T07:16:45.464037,,,
+LONG-LON09,longevity,melatonin,split,standardized protocol 9,cellular_ageing,high,P0,PMID: 521009,completed,automation,Black,"stub rollback @2025-11-05; Summarize longevity markers for melatonin study 9
+Stub entry generated on 2025-10-27T01:51:32.564983+00:00
+Batch generated on 2025-11-06T07:16:45.533308+00:00",2025-11-06T07:16:45.533326,,,
+LONG-LON10,longevity,coq10,merge,standardized protocol 10,mitochondrial_function,medium,P1,PMID: 521010,completed,automation,Black,"stub rollback @2025-11-05; Summarize longevity markers for coq10 study 10
+Stub entry generated on 2025-10-27T01:51:32.566390+00:00
+Batch generated on 2025-11-06T07:16:45.601019+00:00",2025-11-06T07:16:45.601036,,,
+LONG-LON11,longevity,astaxanthin,merge,standardized protocol 11,telomere_support,medium,P1,PMID: 521011,completed,automation,Black,"stub rollback @2025-11-05; Summarize longevity markers for astaxanthin study 11
+Stub entry generated on 2025-10-27T01:51:32.567891+00:00
+Batch generated on 2025-11-06T07:16:45.668879+00:00",2025-11-06T07:16:45.668899,,,
+LONG-LON12,longevity,urolithin_a,split,standardized protocol 12,cellular_ageing,low,P2,PMID: 521012,completed,automation,Black,"Summarize longevity markers for urolithin_a study 12
+Batch generated on 2025-11-06T07:16:45.734344+00:00",2025-11-06T07:16:45.734365,,,
+LONG-LON13,longevity,alpha_ketoglutarate,merge,standardized protocol 13,cellular_ageing,high,P0,PMID: 521013,completed,automation,Black,"stub rollback @2025-11-05; Summarize longevity markers for alpha_ketoglutarate study 13
+Stub entry generated on 2025-10-27T01:51:32.569400+00:00
+Batch generated on 2025-11-06T07:16:45.809399+00:00",2025-11-06T07:16:45.809421,,,
+LONG-LON14,longevity,collagen,merge,standardized protocol 14,mitochondrial_function,medium,P1,PMID: 521014,completed,automation,Black,"stub rollback @2025-11-05; Summarize longevity markers for collagen study 14
+Stub entry generated on 2025-10-27T01:51:32.570773+00:00
+Batch generated on 2025-11-06T07:16:45.877837+00:00",2025-11-06T07:16:45.877857,,,
+LONG-LON15,longevity,glutathione,split,standardized protocol 15,telomere_support,medium,P1,PMID: 521015,completed,automation,Black,"stub rollback @2025-11-05; Summarize longevity markers for glutathione study 15
+Stub entry generated on 2025-10-27T01:51:32.572113+00:00
+Batch generated on 2025-11-06T07:16:45.949049+00:00",2025-11-06T07:16:45.949075,,,
+LONG-LON16,longevity,curcumin,merge,standardized protocol 16,cellular_ageing,low,P2,PMID: 521016,completed,automation,Black,"Summarize longevity markers for curcumin study 16
+Batch generated on 2025-11-06T07:16:46.018903+00:00",2025-11-06T07:16:46.018926,,,
+LONG-LON17,longevity,berberine,merge,standardized protocol 17,cellular_ageing,high,P0,PMID: 521017,completed,automation,Black,"stub rollback @2025-11-05; Summarize longevity markers for berberine study 17
+Stub entry generated on 2025-10-27T01:51:32.573627+00:00
+Batch generated on 2025-11-06T07:16:46.092659+00:00",2025-11-06T07:16:46.092680,,,
+LONG-LON18,longevity,metformin_analog,split,standardized protocol 18,mitochondrial_function,medium,P1,PMID: 521018,completed,automation,Black,"stub rollback @2025-11-05; Summarize longevity markers for metformin_analog study 18
+Stub entry generated on 2025-10-27T01:51:32.574949+00:00
+Batch generated on 2025-11-06T07:16:46.165231+00:00",2025-11-06T07:16:46.165252,,,
+LONG-LON19,longevity,rapamycin_microdose,merge,standardized protocol 19,telomere_support,medium,P1,PMID: 521019,completed,automation,Black,"stub rollback @2025-11-05; Summarize longevity markers for rapamycin_microdose study 19
+Stub entry generated on 2025-10-27T01:51:32.576566+00:00
+Batch generated on 2025-11-06T07:16:46.245040+00:00",2025-11-06T07:16:46.245057,,,
+LONG-LON20,longevity,omega_3,merge,standardized protocol 20,cellular_ageing,low,P2,PMID: 521020,completed,automation,Black,"Summarize longevity markers for omega_3 study 20
+Batch generated on 2025-11-06T07:16:46.311610+00:00",2025-11-06T07:16:46.311629,,,
+MUSC-MSK01,musculoskeletal,collagen,merge,standardized protocol 1,joint_health,high,P0,PMID: 631001,completed,automation,Black,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for collagen program 1
+Stub entry generated on 2025-10-27T01:51:32.578106+00:00
+Batch generated on 2025-11-06T07:17:04.232044+00:00",2025-11-06T07:17:04.232064,,,
+MUSC-MSK02,musculoskeletal,glucosamine,merge,standardized protocol 2,bone_density,medium,P1,PMID: 631002,completed,automation,Black,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for glucosamine program 2
+Stub entry generated on 2025-10-27T01:51:32.579637+00:00
+Batch generated on 2025-11-06T07:17:04.297862+00:00",2025-11-06T07:17:04.297877,,,
+MUSC-MSK03,musculoskeletal,chondroitin,split,standardized protocol 3,muscle_recovery,medium,P1,PMID: 631003,completed,automation,Black,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for chondroitin program 3
+Stub entry generated on 2025-10-27T01:51:32.581267+00:00
+Batch generated on 2025-11-06T07:17:04.363870+00:00",2025-11-06T07:17:04.363886,,,
+MUSC-MSK04,musculoskeletal,msm,merge,standardized protocol 4,strength,low,P2,PMID: 631004,completed,automation,Black,"Capture musculoskeletal endpoints for msm program 4
+Batch generated on 2025-11-06T07:17:04.430380+00:00",2025-11-06T07:17:04.430396,,,
+MUSC-MSK05,musculoskeletal,turmeric,merge,standardized protocol 5,joint_health,high,P0,PMID: 631005,completed,automation,Black,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for turmeric program 5
+Stub entry generated on 2025-10-27T01:51:32.582632+00:00
+Batch generated on 2025-11-06T07:17:04.495034+00:00",2025-11-06T07:17:04.495047,,,
+MUSC-MSK06,musculoskeletal,boswellia,split,standardized protocol 6,bone_density,medium,P1,PMID: 631006,completed,automation,Black,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for boswellia program 6
+Stub entry generated on 2025-10-27T01:51:32.583910+00:00
+Batch generated on 2025-11-06T07:17:04.562109+00:00",2025-11-06T07:17:04.562123,,,
+MUSC-MSK07,musculoskeletal,hyaluronic_acid,merge,standardized protocol 7,muscle_recovery,medium,P1,PMID: 631007,completed,automation,Black,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for hyaluronic_acid program 7
+Stub entry generated on 2025-10-27T01:51:32.585415+00:00
+Batch generated on 2025-11-06T07:17:04.637796+00:00",2025-11-06T07:17:04.637810,,,
+MUSC-MSK08,musculoskeletal,vitamin_d,merge,standardized protocol 8,strength,low,P2,PMID: 631008,completed,automation,Black,"Capture musculoskeletal endpoints for vitamin_d program 8
+Batch generated on 2025-11-06T07:17:04.707848+00:00",2025-11-06T07:17:04.707868,,,
+MUSC-MSK09,musculoskeletal,calcium,split,standardized protocol 9,joint_health,high,P0,PMID: 631009,completed,automation,Black,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for calcium program 9
+Stub entry generated on 2025-10-27T01:51:32.586810+00:00
+Batch generated on 2025-11-06T07:17:04.775479+00:00",2025-11-06T07:17:04.775495,,,
+MUSC-MSK10,musculoskeletal,magnesium,merge,standardized protocol 10,bone_density,medium,P1,PMID: 631010,completed,automation,Black,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for magnesium program 10
+Stub entry generated on 2025-10-27T01:51:32.588094+00:00
+Batch generated on 2025-11-06T07:17:04.841535+00:00",2025-11-06T07:17:04.841558,,,
+MUSC-MSK11,musculoskeletal,creatine,merge,standardized protocol 11,muscle_recovery,medium,P1,PMID: 631011,completed,automation,Black,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for creatine program 11
+Stub entry generated on 2025-10-27T01:51:32.589500+00:00
+Batch generated on 2025-11-06T07:17:04.910726+00:00",2025-11-06T07:17:04.910740,,,
+MUSC-MSK12,musculoskeletal,beta_alanine,split,standardized protocol 12,strength,low,P2,PMID: 631012,completed,automation,Black,"Capture musculoskeletal endpoints for beta_alanine program 12
+Batch generated on 2025-11-06T07:17:04.977905+00:00",2025-11-06T07:17:04.977920,,,
+MUSC-MSK13,musculoskeletal,l_carnitine,merge,standardized protocol 13,joint_health,high,P0,PMID: 631013,completed,automation,Black,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for l_carnitine program 13
+Stub entry generated on 2025-10-27T01:51:32.590907+00:00
+Batch generated on 2025-11-06T07:17:05.046326+00:00",2025-11-06T07:17:05.046345,,,
+MUSC-MSK14,musculoskeletal,citrulline,merge,standardized protocol 14,bone_density,medium,P1,PMID: 631014,completed,automation,Black,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for citrulline program 14
+Stub entry generated on 2025-10-27T01:51:32.593093+00:00
+Batch generated on 2025-11-06T07:17:05.116209+00:00",2025-11-06T07:17:05.116226,,,
+MUSC-MSK15,musculoskeletal,beetroot,split,standardized protocol 15,muscle_recovery,medium,P1,PMID: 631015,completed,automation,Black,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for beetroot program 15
+Stub entry generated on 2025-10-27T01:51:32.594684+00:00
+Batch generated on 2025-11-06T07:17:05.184411+00:00",2025-11-06T07:17:05.184433,,,
+MUSC-MSK16,musculoskeletal,omega_3,merge,standardized protocol 16,strength,low,P2,PMID: 631016,completed,automation,Black,"Capture musculoskeletal endpoints for omega_3 program 16
+Batch generated on 2025-11-06T07:17:05.254422+00:00",2025-11-06T07:17:05.254440,,,
+MUSC-MSK17,musculoskeletal,whey_protein,merge,standardized protocol 17,joint_health,high,P0,PMID: 631017,completed,automation,Black,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for whey_protein program 17
+Stub entry generated on 2025-10-27T01:51:32.596083+00:00
+Batch generated on 2025-11-06T07:17:05.321480+00:00",2025-11-06T07:17:05.321497,,,
+MUSC-MSK18,musculoskeletal,casein,split,standardized protocol 18,bone_density,medium,P1,PMID: 631018,completed,automation,Black,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for casein program 18
+Stub entry generated on 2025-10-27T01:51:32.597649+00:00
+Batch generated on 2025-11-06T07:17:05.390419+00:00",2025-11-06T07:17:05.390438,,,
+MUSC-MSK19,musculoskeletal,pea_protein,merge,standardized protocol 19,muscle_recovery,medium,P1,PMID: 631019,completed,automation,Black,"Capture musculoskeletal endpoints for pea_protein program 19
+Batch generated on 2025-11-06T07:17:05.463281+00:00",2025-11-06T07:17:05.463300,,,
+MUSC-MSK20,musculoskeletal,collagen_peptides,merge,standardized protocol 20,strength,low,P2,PMID: 631020,completed,automation,Black,"Capture musculoskeletal endpoints for collagen_peptides program 20
+Batch generated on 2025-11-06T07:17:05.537343+00:00",2025-11-06T07:17:05.537362,,,
 IMM-IMM01,immune,echinacea,merge,standardized protocol 1,upper_respiratory,high,P0,PMID: 711001,pending,automation,,"stub rollback @2025-11-05; Document immune outcomes for echinacea cohort 1
 Batch generated on 2025-10-24T08:19:09.459179+00:00",2025-10-24T08:19:09.459226,,,
 IMM-IMM02,immune,elderberry,merge,standardized protocol 2,immune_modulation,medium,P1,PMID: 711002,pending,automation,,"stub rollback @2025-11-05; Document immune outcomes for elderberry cohort 2
@@ -339,17 +399,25 @@ GUT-BCO-IBS,gut_health,butyrate_complex,merge,tributyrin capsule vs sodium butyr
 GUT-PEPP-DYS,gut_health,peppermint_oil,merge,enteric coated capsule standardization,ibs_dyspepsia,medium,P1,PMID: 35582121,pending,,,Include gastric emptying scans and symptom diaries,2025-02-19T00:00:00Z,,,
 GUT-ZINC-LEAK,gut_health,zinc_carnosine,merge,37.5mg vs 75mg titration,intestinal_permeability,medium,P1,PMID: 35191353,pending,,,Document lactulose mannitol ratios with histology subsets,2025-02-19T00:00:00Z,,,
 GUT-SBO-RESTORE,gut_health,soil_based_probiotic,split,consortium vs single strain,post_antibiotic_recovery,low,P2,PMID: 36022741,pending,,,Coordinate microbiome sequencing with symptom recurrence,2025-02-19T00:00:00Z,,,
-LONG-NMN-LONG,longevity,nmn,merge,oral powder vs sublingual tablet,cellular_nad_support,medium,P1,PMID: 35831071,pending,,,Monitor nad metabolites and functional mobility,2025-02-20T00:00:00Z,,,
-LONG-RESV-SIRT,longevity,resveratrol,merge,trans resveratrol with piperine,sirtuin_activation,medium,P1,PMID: 35461473,pending,,,Track mitochondrial respiration assays and frailty indices,2025-02-20T00:00:00Z,,,
-LONG-SPERM-MITO,longevity,spermidine,merge,wheat germ extract vs synthetic,autophagy_support,medium,P1,PMID: 35141563,pending,,,Capture immune senescence markers and sleep outcomes,2025-02-20T00:00:00Z,,,
-LONG-FIS-AGING,longevity,fish_oil,split,high dha vs balanced epa dha,healthy_aging,medium,P1,PMID: 34509822,pending,,,Connect telomere length change with inflammation panels,2025-02-20T00:00:00Z,,,
-LONG-ASTAX-OX,longevity,astaxanthin,merge,oil based vs beadlet delivery,oxidative_stress,medium,P1,PMID: 35289177,pending,,,Document skin carotenoid scanning and lipid peroxidation,2025-02-20T00:00:00Z,,,
+LONG-NMN-LONG,longevity,nmn,merge,oral powder vs sublingual tablet,cellular_nad_support,medium,P1,PMID: 35831071,completed,automation,Black,"Monitor nad metabolites and functional mobility
+Batch generated on 2025-11-06T07:16:46.378950+00:00",2025-11-06T07:16:46.378969,,,
+LONG-RESV-SIRT,longevity,resveratrol,merge,trans resveratrol with piperine,sirtuin_activation,medium,P1,PMID: 35461473,completed,automation,Black,"Track mitochondrial respiration assays and frailty indices
+Batch generated on 2025-11-06T07:16:46.450283+00:00",2025-11-06T07:16:46.450305,,,
+LONG-SPERM-MITO,longevity,spermidine,merge,wheat germ extract vs synthetic,autophagy_support,medium,P1,PMID: 35141563,completed,automation,Black,"Capture immune senescence markers and sleep outcomes
+Batch generated on 2025-11-06T07:16:46.520900+00:00",2025-11-06T07:16:46.520927,,,
+LONG-FIS-AGING,longevity,fish_oil,split,high dha vs balanced epa dha,healthy_aging,medium,P1,PMID: 34509822,completed,automation,Black,"Connect telomere length change with inflammation panels
+Batch generated on 2025-11-06T07:16:46.588420+00:00",2025-11-06T07:16:46.588442,,,
+LONG-ASTAX-OX,longevity,astaxanthin,merge,oil based vs beadlet delivery,oxidative_stress,medium,P1,PMID: 35289177,completed,automation,Black,"Document skin carotenoid scanning and lipid peroxidation
+Batch generated on 2025-11-06T07:16:46.658210+00:00",2025-11-06T07:16:46.658230,,,
 REN-CRTN-SAFE,renal_safety,creatine,merge,monohydrate vs buffered,long_term_safety,medium,P1,PMID: 35399650,pending,,,Integrate egfr trends and hydration monitoring,2025-02-21T00:00:00Z,,,
 REN-NSAID-MIT,renal_safety,nsaid_protocol,split,rotating ibuprofen vs naproxen with hydration controls,renal_risk_mitigation,medium,P1,PMID: 34978112,pending,,,Capture cystatin c and electrolyte disturbances,2025-02-21T00:00:00Z,,,
 REN-CAFF-DOSE,renal_safety,caffeine,split,habitual users vs naive controlled dosing,renal_hemodynamics,low,P2,PMID: 34051962,pending,,,Track renal blood flow imaging and sleep metrics,2025-02-21T00:00:00Z,,,
-MSK-COLL-JOINT,musculoskeletal,collagen,merge,types I and II hydrolysate comparison,joint_health,medium,P1,PMID: 35792018,pending,,,Include mri cartilage mapping and pain scales,2025-02-22T00:00:00Z,,,
-MSK-BOSW-INFL,musculoskeletal,boswellia,merge,akba standardization,osteoarthritis_pain,medium,P1,PMID: 33304454,pending,,,Ensure concomitant nsaid washout enforcement,2025-02-22T00:00:00Z,,,
-MSK-TURM-SPORT,musculoskeletal,curcumin,split,theracurmin vs phytosome for athletes,exercise_recovery,medium,P1,PMID: 36514401,pending,,,Correlate doms scores with ck reductions,2025-02-22T00:00:00Z,,,
+MSK-COLL-JOINT,musculoskeletal,collagen,merge,types I and II hydrolysate comparison,joint_health,medium,P1,PMID: 35792018,completed,automation,Black,"Include mri cartilage mapping and pain scales
+Batch generated on 2025-11-06T07:17:05.607748+00:00",2025-11-06T07:17:05.607770,,,
+MSK-BOSW-INFL,musculoskeletal,boswellia,merge,akba standardization,osteoarthritis_pain,medium,P1,PMID: 33304454,completed,automation,Black,"Ensure concomitant nsaid washout enforcement
+Batch generated on 2025-11-06T07:17:05.676656+00:00",2025-11-06T07:17:05.676675,,,
+MSK-TURM-SPORT,musculoskeletal,curcumin,split,theracurmin vs phytosome for athletes,exercise_recovery,medium,P1,PMID: 36514401,completed,automation,Black,"Correlate doms scores with ck reductions
+Batch generated on 2025-11-06T07:17:05.745950+00:00",2025-11-06T07:17:05.745971,,,
 ONC-MTC-ADJ,oncology_support,medicinal_mushroom_blend,merge,trametes vs lentinula extracts,adjuvant_support,medium,P1,PMID: 33147812,pending,,,Track immune reconstitution and qoli,2025-02-23T00:00:00Z,,,
 ONC-CBD-SYM,oncology_support,cbd,merge,full spectrum vs isolate,symptom_management,medium,P1,PMID: 35711908,pending,,,Capture pain interference and sleep quality measures,2025-02-23T00:00:00Z,,,
 ONC-OMEGA-CHEMO,oncology_support,omega_3,split,epa enriched vs balanced regimens,chemo_tolerance,medium,P1,PMID: 34685431,pending,,,Include body weight preservation and inflammatory markers,2025-02-23T00:00:00Z,,,
@@ -967,86 +1035,166 @@ META-GEN-0499,metabolic,taurine,merge,Generated formulation detail for taurine,m
 Batch generated on 2025-11-06T07:07:45.743112+00:00",2025-11-06T07:07:45.743126,,,
 META-GEN-0500,metabolic,vanadium,split,Generated formulation detail for vanadium,weight_management,low,P2,Generated entry 500,completed,automation,Silver,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097698+00:00
 Batch generated on 2025-11-06T07:07:45.822614+00:00",2025-11-06T07:07:45.822635,,,
-INFL-GEN-0501,inflammation,curcumin,split,Generated formulation detail for curcumin,systemic_inflammation,high,P0,Generated entry 501,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097703+00:00,2025-11-06T07:06:31.097704+00:00,,,
-INFL-GEN-0502,inflammation,omega_3,merge,Generated formulation detail for omega_3,joint_pain,high,P0,Generated entry 502,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097706+00:00,2025-11-06T07:06:31.097708+00:00,,,
-INFL-GEN-0503,inflammation,boswellia,merge,Generated formulation detail for boswellia,arthritis,high,P0,Generated entry 503,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097710+00:00,2025-11-06T07:06:31.097712+00:00,,,
-INFL-GEN-0504,inflammation,ginger,split,Generated formulation detail for ginger,crp_reduction,high,P0,Generated entry 504,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097714+00:00,2025-11-06T07:06:31.097716+00:00,,,
-INFL-GEN-0505,inflammation,quercetin,merge,Generated formulation detail for quercetin,inflammatory_markers,high,P0,Generated entry 505,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097718+00:00,2025-11-06T07:06:31.097719+00:00,,,
-INFL-GEN-0506,inflammation,resveratrol,merge,Generated formulation detail for resveratrol,autoimmune_support,high,P0,Generated entry 506,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097724+00:00,2025-11-06T07:06:31.097725+00:00,,,
-INFL-GEN-0507,inflammation,green_tea,split,Generated formulation detail for green_tea,chronic_inflammation,high,P0,Generated entry 507,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097728+00:00,2025-11-06T07:06:31.097729+00:00,,,
-INFL-GEN-0508,inflammation,bromelain,merge,Generated formulation detail for bromelain,pain_relief,high,P0,Generated entry 508,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097733+00:00,2025-11-06T07:06:31.097735+00:00,,,
-INFL-GEN-0509,inflammation,devil_s_claw,merge,Generated formulation detail for devil_s_claw,systemic_inflammation,high,P0,Generated entry 509,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097737+00:00,2025-11-06T07:06:31.097738+00:00,,,
-INFL-GEN-0510,inflammation,white_willow,split,Generated formulation detail for white_willow,joint_pain,high,P0,Generated entry 510,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097743+00:00,2025-11-06T07:06:31.097744+00:00,,,
-INFL-GEN-0511,inflammation,msm,merge,Generated formulation detail for msm,arthritis,high,P0,Generated entry 511,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097747+00:00,2025-11-06T07:06:31.097753+00:00,,,
-INFL-GEN-0512,inflammation,sam_e,merge,Generated formulation detail for sam_e,crp_reduction,high,P0,Generated entry 512,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097756+00:00,2025-11-06T07:06:31.097757+00:00,,,
-INFL-GEN-0513,inflammation,glucosamine,split,Generated formulation detail for glucosamine,inflammatory_markers,high,P0,Generated entry 513,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097760+00:00,2025-11-06T07:06:31.097762+00:00,,,
-INFL-GEN-0514,inflammation,chondroitin,merge,Generated formulation detail for chondroitin,autoimmune_support,high,P0,Generated entry 514,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097764+00:00,2025-11-06T07:06:31.097766+00:00,,,
-INFL-GEN-0515,inflammation,collagen,merge,Generated formulation detail for collagen,chronic_inflammation,high,P0,Generated entry 515,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097768+00:00,2025-11-06T07:06:31.097769+00:00,,,
-INFL-GEN-0516,inflammation,vitamin_d,split,Generated formulation detail for vitamin_d,pain_relief,high,P0,Generated entry 516,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097772+00:00,2025-11-06T07:06:31.097773+00:00,,,
-INFL-GEN-0517,inflammation,vitamin_c,merge,Generated formulation detail for vitamin_c,systemic_inflammation,high,P0,Generated entry 517,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097776+00:00,2025-11-06T07:06:31.097777+00:00,,,
-INFL-GEN-0518,inflammation,zinc,merge,Generated formulation detail for zinc,joint_pain,high,P0,Generated entry 518,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097781+00:00,2025-11-06T07:06:31.097783+00:00,,,
-INFL-GEN-0519,inflammation,n_acetyl_cysteine,split,Generated formulation detail for n_acetyl_cysteine,arthritis,high,P0,Generated entry 519,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097785+00:00,2025-11-06T07:06:31.097787+00:00,,,
-INFL-GEN-0520,inflammation,spirulina,merge,Generated formulation detail for spirulina,crp_reduction,high,P0,Generated entry 520,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097803+00:00,2025-11-06T07:06:31.097806+00:00,,,
-INFL-GEN-0521,inflammation,curcumin,merge,Generated formulation detail for curcumin,inflammatory_markers,high,P0,Generated entry 521,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097810+00:00,2025-11-06T07:06:31.097813+00:00,,,
-INFL-GEN-0522,inflammation,omega_3,split,Generated formulation detail for omega_3,autoimmune_support,high,P0,Generated entry 522,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097818+00:00,2025-11-06T07:06:31.097819+00:00,,,
-INFL-GEN-0523,inflammation,boswellia,merge,Generated formulation detail for boswellia,chronic_inflammation,high,P0,Generated entry 523,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097821+00:00,2025-11-06T07:06:31.097823+00:00,,,
-INFL-GEN-0524,inflammation,ginger,merge,Generated formulation detail for ginger,pain_relief,high,P0,Generated entry 524,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097825+00:00,2025-11-06T07:06:31.097827+00:00,,,
-INFL-GEN-0525,inflammation,quercetin,split,Generated formulation detail for quercetin,systemic_inflammation,high,P0,Generated entry 525,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097829+00:00,2025-11-06T07:06:31.097830+00:00,,,
-INFL-GEN-0526,inflammation,resveratrol,merge,Generated formulation detail for resveratrol,joint_pain,high,P0,Generated entry 526,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097833+00:00,2025-11-06T07:06:31.097834+00:00,,,
-INFL-GEN-0527,inflammation,green_tea,merge,Generated formulation detail for green_tea,arthritis,high,P0,Generated entry 527,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097837+00:00,2025-11-06T07:06:31.097838+00:00,,,
-INFL-GEN-0528,inflammation,bromelain,split,Generated formulation detail for bromelain,crp_reduction,high,P0,Generated entry 528,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097843+00:00,2025-11-06T07:06:31.097844+00:00,,,
-INFL-GEN-0529,inflammation,devil_s_claw,merge,Generated formulation detail for devil_s_claw,inflammatory_markers,high,P0,Generated entry 529,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097847+00:00,2025-11-06T07:06:31.097848+00:00,,,
-INFL-GEN-0530,inflammation,white_willow,merge,Generated formulation detail for white_willow,autoimmune_support,high,P0,Generated entry 530,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097853+00:00,2025-11-06T07:06:31.097854+00:00,,,
-INFL-GEN-0531,inflammation,msm,split,Generated formulation detail for msm,chronic_inflammation,medium,P1,Generated entry 531,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097857+00:00,2025-11-06T07:06:31.097858+00:00,,,
-INFL-GEN-0532,inflammation,sam_e,merge,Generated formulation detail for sam_e,pain_relief,medium,P1,Generated entry 532,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097861+00:00,2025-11-06T07:06:31.097862+00:00,,,
-INFL-GEN-0533,inflammation,glucosamine,merge,Generated formulation detail for glucosamine,systemic_inflammation,medium,P1,Generated entry 533,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097865+00:00,2025-11-06T07:06:31.097866+00:00,,,
-INFL-GEN-0534,inflammation,chondroitin,split,Generated formulation detail for chondroitin,joint_pain,medium,P1,Generated entry 534,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097868+00:00,2025-11-06T07:06:31.097870+00:00,,,
-INFL-GEN-0535,inflammation,collagen,merge,Generated formulation detail for collagen,arthritis,medium,P1,Generated entry 535,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097872+00:00,2025-11-06T07:06:31.097874+00:00,,,
-INFL-GEN-0536,inflammation,vitamin_d,merge,Generated formulation detail for vitamin_d,crp_reduction,medium,P1,Generated entry 536,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097876+00:00,2025-11-06T07:06:31.097877+00:00,,,
-INFL-GEN-0537,inflammation,vitamin_c,split,Generated formulation detail for vitamin_c,inflammatory_markers,medium,P1,Generated entry 537,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097880+00:00,2025-11-06T07:06:31.097881+00:00,,,
-INFL-GEN-0538,inflammation,zinc,merge,Generated formulation detail for zinc,autoimmune_support,medium,P1,Generated entry 538,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097884+00:00,2025-11-06T07:06:31.097885+00:00,,,
-INFL-GEN-0539,inflammation,n_acetyl_cysteine,merge,Generated formulation detail for n_acetyl_cysteine,chronic_inflammation,medium,P1,Generated entry 539,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097888+00:00,2025-11-06T07:06:31.097889+00:00,,,
-INFL-GEN-0540,inflammation,spirulina,split,Generated formulation detail for spirulina,pain_relief,medium,P1,Generated entry 540,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097898+00:00,2025-11-06T07:06:31.097899+00:00,,,
-INFL-GEN-0541,inflammation,curcumin,merge,Generated formulation detail for curcumin,systemic_inflammation,medium,P1,Generated entry 541,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097902+00:00,2025-11-06T07:06:31.097903+00:00,,,
-INFL-GEN-0542,inflammation,omega_3,merge,Generated formulation detail for omega_3,joint_pain,medium,P1,Generated entry 542,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097906+00:00,2025-11-06T07:06:31.097907+00:00,,,
-INFL-GEN-0543,inflammation,boswellia,split,Generated formulation detail for boswellia,arthritis,medium,P1,Generated entry 543,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097910+00:00,2025-11-06T07:06:31.097913+00:00,,,
-INFL-GEN-0544,inflammation,ginger,merge,Generated formulation detail for ginger,crp_reduction,medium,P1,Generated entry 544,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097916+00:00,2025-11-06T07:06:31.097917+00:00,,,
-INFL-GEN-0545,inflammation,quercetin,merge,Generated formulation detail for quercetin,inflammatory_markers,medium,P1,Generated entry 545,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097920+00:00,2025-11-06T07:06:31.097921+00:00,,,
-INFL-GEN-0546,inflammation,resveratrol,split,Generated formulation detail for resveratrol,autoimmune_support,medium,P1,Generated entry 546,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097924+00:00,2025-11-06T07:06:31.097925+00:00,,,
-INFL-GEN-0547,inflammation,green_tea,merge,Generated formulation detail for green_tea,chronic_inflammation,medium,P1,Generated entry 547,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097928+00:00,2025-11-06T07:06:31.097929+00:00,,,
-INFL-GEN-0548,inflammation,bromelain,merge,Generated formulation detail for bromelain,pain_relief,medium,P1,Generated entry 548,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097931+00:00,2025-11-06T07:06:31.097933+00:00,,,
-INFL-GEN-0549,inflammation,devil_s_claw,split,Generated formulation detail for devil_s_claw,systemic_inflammation,medium,P1,Generated entry 549,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097935+00:00,2025-11-06T07:06:31.097937+00:00,,,
-INFL-GEN-0550,inflammation,white_willow,merge,Generated formulation detail for white_willow,joint_pain,medium,P1,Generated entry 550,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097943+00:00,2025-11-06T07:06:31.097945+00:00,,,
-INFL-GEN-0551,inflammation,msm,merge,Generated formulation detail for msm,arthritis,medium,P1,Generated entry 551,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097947+00:00,2025-11-06T07:06:31.097948+00:00,,,
-INFL-GEN-0552,inflammation,sam_e,split,Generated formulation detail for sam_e,crp_reduction,medium,P1,Generated entry 552,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097951+00:00,2025-11-06T07:06:31.097952+00:00,,,
-INFL-GEN-0553,inflammation,glucosamine,merge,Generated formulation detail for glucosamine,inflammatory_markers,medium,P1,Generated entry 553,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097955+00:00,2025-11-06T07:06:31.097956+00:00,,,
-INFL-GEN-0554,inflammation,chondroitin,merge,Generated formulation detail for chondroitin,autoimmune_support,medium,P1,Generated entry 554,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097959+00:00,2025-11-06T07:06:31.097960+00:00,,,
-INFL-GEN-0555,inflammation,collagen,split,Generated formulation detail for collagen,chronic_inflammation,medium,P1,Generated entry 555,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097962+00:00,2025-11-06T07:06:31.097964+00:00,,,
-INFL-GEN-0556,inflammation,vitamin_d,merge,Generated formulation detail for vitamin_d,pain_relief,medium,P1,Generated entry 556,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097966+00:00,2025-11-06T07:06:31.097968+00:00,,,
-INFL-GEN-0557,inflammation,vitamin_c,merge,Generated formulation detail for vitamin_c,systemic_inflammation,medium,P1,Generated entry 557,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097970+00:00,2025-11-06T07:06:31.097972+00:00,,,
-INFL-GEN-0558,inflammation,zinc,split,Generated formulation detail for zinc,joint_pain,medium,P1,Generated entry 558,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097974+00:00,2025-11-06T07:06:31.097975+00:00,,,
-INFL-GEN-0559,inflammation,n_acetyl_cysteine,merge,Generated formulation detail for n_acetyl_cysteine,arthritis,medium,P1,Generated entry 559,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097978+00:00,2025-11-06T07:06:31.097979+00:00,,,
-INFL-GEN-0560,inflammation,spirulina,merge,Generated formulation detail for spirulina,crp_reduction,medium,P1,Generated entry 560,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097984+00:00,2025-11-06T07:06:31.097985+00:00,,,
-INFL-GEN-0561,inflammation,curcumin,split,Generated formulation detail for curcumin,inflammatory_markers,medium,P1,Generated entry 561,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097988+00:00,2025-11-06T07:06:31.097991+00:00,,,
-INFL-GEN-0562,inflammation,omega_3,merge,Generated formulation detail for omega_3,autoimmune_support,medium,P1,Generated entry 562,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097994+00:00,2025-11-06T07:06:31.097995+00:00,,,
-INFL-GEN-0563,inflammation,boswellia,merge,Generated formulation detail for boswellia,chronic_inflammation,medium,P1,Generated entry 563,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097997+00:00,2025-11-06T07:06:31.097999+00:00,,,
-INFL-GEN-0564,inflammation,ginger,split,Generated formulation detail for ginger,pain_relief,medium,P1,Generated entry 564,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098001+00:00,2025-11-06T07:06:31.098003+00:00,,,
-INFL-GEN-0565,inflammation,quercetin,merge,Generated formulation detail for quercetin,systemic_inflammation,medium,P1,Generated entry 565,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098005+00:00,2025-11-06T07:06:31.098007+00:00,,,
-INFL-GEN-0566,inflammation,resveratrol,merge,Generated formulation detail for resveratrol,joint_pain,medium,P1,Generated entry 566,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098009+00:00,2025-11-06T07:06:31.098011+00:00,,,
-INFL-GEN-0567,inflammation,green_tea,split,Generated formulation detail for green_tea,arthritis,medium,P1,Generated entry 567,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098013+00:00,2025-11-06T07:06:31.098014+00:00,,,
-INFL-GEN-0568,inflammation,bromelain,merge,Generated formulation detail for bromelain,crp_reduction,medium,P1,Generated entry 568,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098017+00:00,2025-11-06T07:06:31.098018+00:00,,,
-INFL-GEN-0569,inflammation,devil_s_claw,merge,Generated formulation detail for devil_s_claw,inflammatory_markers,medium,P1,Generated entry 569,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098021+00:00,2025-11-06T07:06:31.098022+00:00,,,
-INFL-GEN-0570,inflammation,white_willow,split,Generated formulation detail for white_willow,autoimmune_support,medium,P1,Generated entry 570,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098027+00:00,2025-11-06T07:06:31.098032+00:00,,,
-INFL-GEN-0571,inflammation,msm,merge,Generated formulation detail for msm,chronic_inflammation,low,P2,Generated entry 571,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098037+00:00,2025-11-06T07:06:31.098040+00:00,,,
-INFL-GEN-0572,inflammation,sam_e,merge,Generated formulation detail for sam_e,pain_relief,low,P2,Generated entry 572,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098043+00:00,2025-11-06T07:06:31.098044+00:00,,,
-INFL-GEN-0573,inflammation,glucosamine,split,Generated formulation detail for glucosamine,systemic_inflammation,low,P2,Generated entry 573,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098047+00:00,2025-11-06T07:06:31.098048+00:00,,,
-INFL-GEN-0574,inflammation,chondroitin,merge,Generated formulation detail for chondroitin,joint_pain,low,P2,Generated entry 574,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098051+00:00,2025-11-06T07:06:31.098054+00:00,,,
-INFL-GEN-0575,inflammation,collagen,merge,Generated formulation detail for collagen,arthritis,low,P2,Generated entry 575,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098057+00:00,2025-11-06T07:06:31.098058+00:00,,,
-INFL-GEN-0576,inflammation,vitamin_d,split,Generated formulation detail for vitamin_d,crp_reduction,low,P2,Generated entry 576,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098060+00:00,2025-11-06T07:06:31.098062+00:00,,,
-INFL-GEN-0577,inflammation,vitamin_c,merge,Generated formulation detail for vitamin_c,inflammatory_markers,low,P2,Generated entry 577,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098064+00:00,2025-11-06T07:06:31.098066+00:00,,,
-INFL-GEN-0578,inflammation,zinc,merge,Generated formulation detail for zinc,autoimmune_support,low,P2,Generated entry 578,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098068+00:00,2025-11-06T07:06:31.098069+00:00,,,
-INFL-GEN-0579,inflammation,n_acetyl_cysteine,split,Generated formulation detail for n_acetyl_cysteine,chronic_inflammation,low,P2,Generated entry 579,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098072+00:00,2025-11-06T07:06:31.098073+00:00,,,
-INFL-GEN-0580,inflammation,spirulina,merge,Generated formulation detail for spirulina,pain_relief,low,P2,Generated entry 580,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098078+00:00,2025-11-06T07:06:31.098079+00:00,,,
+INFL-GEN-0501,inflammation,curcumin,split,Generated formulation detail for curcumin,systemic_inflammation,high,P0,Generated entry 501,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097703+00:00
+Batch generated on 2025-11-06T07:17:29.291440+00:00",2025-11-06T07:17:29.291460,,,
+INFL-GEN-0502,inflammation,omega_3,merge,Generated formulation detail for omega_3,joint_pain,high,P0,Generated entry 502,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097706+00:00
+Batch generated on 2025-11-06T07:17:29.360780+00:00",2025-11-06T07:17:29.360813,,,
+INFL-GEN-0503,inflammation,boswellia,merge,Generated formulation detail for boswellia,arthritis,high,P0,Generated entry 503,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097710+00:00
+Batch generated on 2025-11-06T07:17:29.431438+00:00",2025-11-06T07:17:29.431455,,,
+INFL-GEN-0504,inflammation,ginger,split,Generated formulation detail for ginger,crp_reduction,high,P0,Generated entry 504,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097714+00:00
+Batch generated on 2025-11-06T07:17:29.497903+00:00",2025-11-06T07:17:29.497919,,,
+INFL-GEN-0505,inflammation,quercetin,merge,Generated formulation detail for quercetin,inflammatory_markers,high,P0,Generated entry 505,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097718+00:00
+Batch generated on 2025-11-06T07:17:29.571633+00:00",2025-11-06T07:17:29.571655,,,
+INFL-GEN-0506,inflammation,resveratrol,merge,Generated formulation detail for resveratrol,autoimmune_support,high,P0,Generated entry 506,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097724+00:00
+Batch generated on 2025-11-06T07:17:29.638868+00:00",2025-11-06T07:17:29.638893,,,
+INFL-GEN-0507,inflammation,green_tea,split,Generated formulation detail for green_tea,chronic_inflammation,high,P0,Generated entry 507,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097728+00:00
+Batch generated on 2025-11-06T07:17:29.703969+00:00",2025-11-06T07:17:29.703988,,,
+INFL-GEN-0508,inflammation,bromelain,merge,Generated formulation detail for bromelain,pain_relief,high,P0,Generated entry 508,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097733+00:00
+Batch generated on 2025-11-06T07:17:29.768932+00:00",2025-11-06T07:17:29.768949,,,
+INFL-GEN-0509,inflammation,devil_s_claw,merge,Generated formulation detail for devil_s_claw,systemic_inflammation,high,P0,Generated entry 509,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097737+00:00
+Batch generated on 2025-11-06T07:17:29.844174+00:00",2025-11-06T07:17:29.844190,,,
+INFL-GEN-0510,inflammation,white_willow,split,Generated formulation detail for white_willow,joint_pain,high,P0,Generated entry 510,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097743+00:00
+Batch generated on 2025-11-06T07:17:29.909713+00:00",2025-11-06T07:17:29.909728,,,
+INFL-GEN-0511,inflammation,msm,merge,Generated formulation detail for msm,arthritis,high,P0,Generated entry 511,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097747+00:00
+Batch generated on 2025-11-06T07:17:29.974368+00:00",2025-11-06T07:17:29.974384,,,
+INFL-GEN-0512,inflammation,sam_e,merge,Generated formulation detail for sam_e,crp_reduction,high,P0,Generated entry 512,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097756+00:00
+Batch generated on 2025-11-06T07:17:30.039872+00:00",2025-11-06T07:17:30.039890,,,
+INFL-GEN-0513,inflammation,glucosamine,split,Generated formulation detail for glucosamine,inflammatory_markers,high,P0,Generated entry 513,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097760+00:00
+Batch generated on 2025-11-06T07:17:30.108135+00:00",2025-11-06T07:17:30.108155,,,
+INFL-GEN-0514,inflammation,chondroitin,merge,Generated formulation detail for chondroitin,autoimmune_support,high,P0,Generated entry 514,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097764+00:00
+Batch generated on 2025-11-06T07:17:30.175613+00:00",2025-11-06T07:17:30.175631,,,
+INFL-GEN-0515,inflammation,collagen,merge,Generated formulation detail for collagen,chronic_inflammation,high,P0,Generated entry 515,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097768+00:00
+Batch generated on 2025-11-06T07:17:30.240742+00:00",2025-11-06T07:17:30.240759,,,
+INFL-GEN-0516,inflammation,vitamin_d,split,Generated formulation detail for vitamin_d,pain_relief,high,P0,Generated entry 516,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097772+00:00
+Batch generated on 2025-11-06T07:17:30.306446+00:00",2025-11-06T07:17:30.306462,,,
+INFL-GEN-0517,inflammation,vitamin_c,merge,Generated formulation detail for vitamin_c,systemic_inflammation,high,P0,Generated entry 517,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097776+00:00
+Batch generated on 2025-11-06T07:17:30.375051+00:00",2025-11-06T07:17:30.375070,,,
+INFL-GEN-0518,inflammation,zinc,merge,Generated formulation detail for zinc,joint_pain,high,P0,Generated entry 518,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097781+00:00
+Batch generated on 2025-11-06T07:17:30.442145+00:00",2025-11-06T07:17:30.442168,,,
+INFL-GEN-0519,inflammation,n_acetyl_cysteine,split,Generated formulation detail for n_acetyl_cysteine,arthritis,high,P0,Generated entry 519,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097785+00:00
+Batch generated on 2025-11-06T07:17:30.518763+00:00",2025-11-06T07:17:30.518785,,,
+INFL-GEN-0520,inflammation,spirulina,merge,Generated formulation detail for spirulina,crp_reduction,high,P0,Generated entry 520,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097803+00:00
+Batch generated on 2025-11-06T07:17:30.586813+00:00",2025-11-06T07:17:30.586833,,,
+INFL-GEN-0521,inflammation,curcumin,merge,Generated formulation detail for curcumin,inflammatory_markers,high,P0,Generated entry 521,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097810+00:00
+Batch generated on 2025-11-06T07:17:30.659773+00:00",2025-11-06T07:17:30.659801,,,
+INFL-GEN-0522,inflammation,omega_3,split,Generated formulation detail for omega_3,autoimmune_support,high,P0,Generated entry 522,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097818+00:00
+Batch generated on 2025-11-06T07:17:30.726759+00:00",2025-11-06T07:17:30.726776,,,
+INFL-GEN-0523,inflammation,boswellia,merge,Generated formulation detail for boswellia,chronic_inflammation,high,P0,Generated entry 523,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097821+00:00
+Batch generated on 2025-11-06T07:17:30.790265+00:00",2025-11-06T07:17:30.790279,,,
+INFL-GEN-0524,inflammation,ginger,merge,Generated formulation detail for ginger,pain_relief,high,P0,Generated entry 524,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097825+00:00
+Batch generated on 2025-11-06T07:17:30.855820+00:00",2025-11-06T07:17:30.855842,,,
+INFL-GEN-0525,inflammation,quercetin,split,Generated formulation detail for quercetin,systemic_inflammation,high,P0,Generated entry 525,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097829+00:00
+Batch generated on 2025-11-06T07:17:30.924542+00:00",2025-11-06T07:17:30.924563,,,
+INFL-GEN-0526,inflammation,resveratrol,merge,Generated formulation detail for resveratrol,joint_pain,high,P0,Generated entry 526,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097833+00:00
+Batch generated on 2025-11-06T07:17:30.989128+00:00",2025-11-06T07:17:30.989149,,,
+INFL-GEN-0527,inflammation,green_tea,merge,Generated formulation detail for green_tea,arthritis,high,P0,Generated entry 527,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097837+00:00
+Batch generated on 2025-11-06T07:17:31.055898+00:00",2025-11-06T07:17:31.055913,,,
+INFL-GEN-0528,inflammation,bromelain,split,Generated formulation detail for bromelain,crp_reduction,high,P0,Generated entry 528,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097843+00:00
+Batch generated on 2025-11-06T07:17:31.122603+00:00",2025-11-06T07:17:31.122620,,,
+INFL-GEN-0529,inflammation,devil_s_claw,merge,Generated formulation detail for devil_s_claw,inflammatory_markers,high,P0,Generated entry 529,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097847+00:00
+Batch generated on 2025-11-06T07:17:31.188410+00:00",2025-11-06T07:17:31.188432,,,
+INFL-GEN-0530,inflammation,white_willow,merge,Generated formulation detail for white_willow,autoimmune_support,high,P0,Generated entry 530,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097853+00:00
+Batch generated on 2025-11-06T07:17:31.255424+00:00",2025-11-06T07:17:31.255444,,,
+INFL-GEN-0531,inflammation,msm,split,Generated formulation detail for msm,chronic_inflammation,medium,P1,Generated entry 531,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097857+00:00
+Batch generated on 2025-11-06T07:17:31.328017+00:00",2025-11-06T07:17:31.328032,,,
+INFL-GEN-0532,inflammation,sam_e,merge,Generated formulation detail for sam_e,pain_relief,medium,P1,Generated entry 532,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097861+00:00
+Batch generated on 2025-11-06T07:17:31.390978+00:00",2025-11-06T07:17:31.390994,,,
+INFL-GEN-0533,inflammation,glucosamine,merge,Generated formulation detail for glucosamine,systemic_inflammation,medium,P1,Generated entry 533,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097865+00:00
+Batch generated on 2025-11-06T07:17:31.459519+00:00",2025-11-06T07:17:31.459535,,,
+INFL-GEN-0534,inflammation,chondroitin,split,Generated formulation detail for chondroitin,joint_pain,medium,P1,Generated entry 534,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097868+00:00
+Batch generated on 2025-11-06T07:17:31.527101+00:00",2025-11-06T07:17:31.527116,,,
+INFL-GEN-0535,inflammation,collagen,merge,Generated formulation detail for collagen,arthritis,medium,P1,Generated entry 535,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097872+00:00
+Batch generated on 2025-11-06T07:17:31.592674+00:00",2025-11-06T07:17:31.592689,,,
+INFL-GEN-0536,inflammation,vitamin_d,merge,Generated formulation detail for vitamin_d,crp_reduction,medium,P1,Generated entry 536,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097876+00:00
+Batch generated on 2025-11-06T07:17:31.658424+00:00",2025-11-06T07:17:31.658442,,,
+INFL-GEN-0537,inflammation,vitamin_c,split,Generated formulation detail for vitamin_c,inflammatory_markers,medium,P1,Generated entry 537,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097880+00:00
+Batch generated on 2025-11-06T07:17:31.726897+00:00",2025-11-06T07:17:31.726913,,,
+INFL-GEN-0538,inflammation,zinc,merge,Generated formulation detail for zinc,autoimmune_support,medium,P1,Generated entry 538,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097884+00:00
+Batch generated on 2025-11-06T07:17:31.793120+00:00",2025-11-06T07:17:31.793140,,,
+INFL-GEN-0539,inflammation,n_acetyl_cysteine,merge,Generated formulation detail for n_acetyl_cysteine,chronic_inflammation,medium,P1,Generated entry 539,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097888+00:00
+Batch generated on 2025-11-06T07:17:31.861334+00:00",2025-11-06T07:17:31.861351,,,
+INFL-GEN-0540,inflammation,spirulina,split,Generated formulation detail for spirulina,pain_relief,medium,P1,Generated entry 540,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097898+00:00
+Batch generated on 2025-11-06T07:17:31.927954+00:00",2025-11-06T07:17:31.927974,,,
+INFL-GEN-0541,inflammation,curcumin,merge,Generated formulation detail for curcumin,systemic_inflammation,medium,P1,Generated entry 541,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097902+00:00
+Batch generated on 2025-11-06T07:17:31.997185+00:00",2025-11-06T07:17:31.997204,,,
+INFL-GEN-0542,inflammation,omega_3,merge,Generated formulation detail for omega_3,joint_pain,medium,P1,Generated entry 542,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097906+00:00
+Batch generated on 2025-11-06T07:17:32.062767+00:00",2025-11-06T07:17:32.062785,,,
+INFL-GEN-0543,inflammation,boswellia,split,Generated formulation detail for boswellia,arthritis,medium,P1,Generated entry 543,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097910+00:00
+Batch generated on 2025-11-06T07:17:32.133396+00:00",2025-11-06T07:17:32.133414,,,
+INFL-GEN-0544,inflammation,ginger,merge,Generated formulation detail for ginger,crp_reduction,medium,P1,Generated entry 544,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097916+00:00
+Batch generated on 2025-11-06T07:17:32.199066+00:00",2025-11-06T07:17:32.199084,,,
+INFL-GEN-0545,inflammation,quercetin,merge,Generated formulation detail for quercetin,inflammatory_markers,medium,P1,Generated entry 545,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097920+00:00
+Batch generated on 2025-11-06T07:17:32.268403+00:00",2025-11-06T07:17:32.268423,,,
+INFL-GEN-0546,inflammation,resveratrol,split,Generated formulation detail for resveratrol,autoimmune_support,medium,P1,Generated entry 546,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097924+00:00
+Batch generated on 2025-11-06T07:17:32.333226+00:00",2025-11-06T07:17:32.333242,,,
+INFL-GEN-0547,inflammation,green_tea,merge,Generated formulation detail for green_tea,chronic_inflammation,medium,P1,Generated entry 547,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097928+00:00
+Batch generated on 2025-11-06T07:17:32.407404+00:00",2025-11-06T07:17:32.407423,,,
+INFL-GEN-0548,inflammation,bromelain,merge,Generated formulation detail for bromelain,pain_relief,medium,P1,Generated entry 548,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097931+00:00
+Batch generated on 2025-11-06T07:17:32.471284+00:00",2025-11-06T07:17:32.471304,,,
+INFL-GEN-0549,inflammation,devil_s_claw,split,Generated formulation detail for devil_s_claw,systemic_inflammation,medium,P1,Generated entry 549,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097935+00:00
+Batch generated on 2025-11-06T07:17:32.534669+00:00",2025-11-06T07:17:32.534688,,,
+INFL-GEN-0550,inflammation,white_willow,merge,Generated formulation detail for white_willow,joint_pain,medium,P1,Generated entry 550,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097943+00:00
+Batch generated on 2025-11-06T07:17:32.599772+00:00",2025-11-06T07:17:32.599801,,,
+INFL-GEN-0551,inflammation,msm,merge,Generated formulation detail for msm,arthritis,medium,P1,Generated entry 551,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097947+00:00
+Batch generated on 2025-11-06T07:17:32.665612+00:00",2025-11-06T07:17:32.665629,,,
+INFL-GEN-0552,inflammation,sam_e,split,Generated formulation detail for sam_e,crp_reduction,medium,P1,Generated entry 552,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097951+00:00
+Batch generated on 2025-11-06T07:17:32.730287+00:00",2025-11-06T07:17:32.730300,,,
+INFL-GEN-0553,inflammation,glucosamine,merge,Generated formulation detail for glucosamine,inflammatory_markers,medium,P1,Generated entry 553,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097955+00:00
+Batch generated on 2025-11-06T07:17:32.801239+00:00",2025-11-06T07:17:32.801255,,,
+INFL-GEN-0554,inflammation,chondroitin,merge,Generated formulation detail for chondroitin,autoimmune_support,medium,P1,Generated entry 554,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097959+00:00
+Batch generated on 2025-11-06T07:17:32.865820+00:00",2025-11-06T07:17:32.865835,,,
+INFL-GEN-0555,inflammation,collagen,split,Generated formulation detail for collagen,chronic_inflammation,medium,P1,Generated entry 555,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097962+00:00
+Batch generated on 2025-11-06T07:17:32.932041+00:00",2025-11-06T07:17:32.932057,,,
+INFL-GEN-0556,inflammation,vitamin_d,merge,Generated formulation detail for vitamin_d,pain_relief,medium,P1,Generated entry 556,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097966+00:00
+Batch generated on 2025-11-06T07:17:32.996295+00:00",2025-11-06T07:17:32.996310,,,
+INFL-GEN-0557,inflammation,vitamin_c,merge,Generated formulation detail for vitamin_c,systemic_inflammation,medium,P1,Generated entry 557,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097970+00:00
+Batch generated on 2025-11-06T07:17:33.061196+00:00",2025-11-06T07:17:33.061212,,,
+INFL-GEN-0558,inflammation,zinc,split,Generated formulation detail for zinc,joint_pain,medium,P1,Generated entry 558,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097974+00:00
+Batch generated on 2025-11-06T07:17:33.131311+00:00",2025-11-06T07:17:33.131327,,,
+INFL-GEN-0559,inflammation,n_acetyl_cysteine,merge,Generated formulation detail for n_acetyl_cysteine,arthritis,medium,P1,Generated entry 559,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097978+00:00
+Batch generated on 2025-11-06T07:17:33.205489+00:00",2025-11-06T07:17:33.205506,,,
+INFL-GEN-0560,inflammation,spirulina,merge,Generated formulation detail for spirulina,crp_reduction,medium,P1,Generated entry 560,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097984+00:00
+Batch generated on 2025-11-06T07:17:33.273276+00:00",2025-11-06T07:17:33.273290,,,
+INFL-GEN-0561,inflammation,curcumin,split,Generated formulation detail for curcumin,inflammatory_markers,medium,P1,Generated entry 561,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097988+00:00
+Batch generated on 2025-11-06T07:17:33.337324+00:00",2025-11-06T07:17:33.337339,,,
+INFL-GEN-0562,inflammation,omega_3,merge,Generated formulation detail for omega_3,autoimmune_support,medium,P1,Generated entry 562,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097994+00:00
+Batch generated on 2025-11-06T07:17:33.404705+00:00",2025-11-06T07:17:33.404722,,,
+INFL-GEN-0563,inflammation,boswellia,merge,Generated formulation detail for boswellia,chronic_inflammation,medium,P1,Generated entry 563,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.097997+00:00
+Batch generated on 2025-11-06T07:17:33.474312+00:00",2025-11-06T07:17:33.474330,,,
+INFL-GEN-0564,inflammation,ginger,split,Generated formulation detail for ginger,pain_relief,medium,P1,Generated entry 564,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098001+00:00
+Batch generated on 2025-11-06T07:17:33.538570+00:00",2025-11-06T07:17:33.538589,,,
+INFL-GEN-0565,inflammation,quercetin,merge,Generated formulation detail for quercetin,systemic_inflammation,medium,P1,Generated entry 565,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098005+00:00
+Batch generated on 2025-11-06T07:17:33.607133+00:00",2025-11-06T07:17:33.607151,,,
+INFL-GEN-0566,inflammation,resveratrol,merge,Generated formulation detail for resveratrol,joint_pain,medium,P1,Generated entry 566,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098009+00:00
+Batch generated on 2025-11-06T07:17:33.673472+00:00",2025-11-06T07:17:33.673493,,,
+INFL-GEN-0567,inflammation,green_tea,split,Generated formulation detail for green_tea,arthritis,medium,P1,Generated entry 567,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098013+00:00
+Batch generated on 2025-11-06T07:17:33.739606+00:00",2025-11-06T07:17:33.739624,,,
+INFL-GEN-0568,inflammation,bromelain,merge,Generated formulation detail for bromelain,crp_reduction,medium,P1,Generated entry 568,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098017+00:00
+Batch generated on 2025-11-06T07:17:33.803927+00:00",2025-11-06T07:17:33.803943,,,
+INFL-GEN-0569,inflammation,devil_s_claw,merge,Generated formulation detail for devil_s_claw,inflammatory_markers,medium,P1,Generated entry 569,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098021+00:00
+Batch generated on 2025-11-06T07:17:33.868406+00:00",2025-11-06T07:17:33.868427,,,
+INFL-GEN-0570,inflammation,white_willow,split,Generated formulation detail for white_willow,autoimmune_support,medium,P1,Generated entry 570,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098027+00:00
+Batch generated on 2025-11-06T07:17:33.935202+00:00",2025-11-06T07:17:33.935224,,,
+INFL-GEN-0571,inflammation,msm,merge,Generated formulation detail for msm,chronic_inflammation,low,P2,Generated entry 571,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098037+00:00
+Batch generated on 2025-11-06T07:17:34.001343+00:00",2025-11-06T07:17:34.001361,,,
+INFL-GEN-0572,inflammation,sam_e,merge,Generated formulation detail for sam_e,pain_relief,low,P2,Generated entry 572,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098043+00:00
+Batch generated on 2025-11-06T07:17:34.073151+00:00",2025-11-06T07:17:34.073170,,,
+INFL-GEN-0573,inflammation,glucosamine,split,Generated formulation detail for glucosamine,systemic_inflammation,low,P2,Generated entry 573,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098047+00:00
+Batch generated on 2025-11-06T07:17:34.149332+00:00",2025-11-06T07:17:34.149353,,,
+INFL-GEN-0574,inflammation,chondroitin,merge,Generated formulation detail for chondroitin,joint_pain,low,P2,Generated entry 574,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098051+00:00
+Batch generated on 2025-11-06T07:17:34.216197+00:00",2025-11-06T07:17:34.216215,,,
+INFL-GEN-0575,inflammation,collagen,merge,Generated formulation detail for collagen,arthritis,low,P2,Generated entry 575,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098057+00:00
+Batch generated on 2025-11-06T07:17:34.290479+00:00",2025-11-06T07:17:34.290495,,,
+INFL-GEN-0576,inflammation,vitamin_d,split,Generated formulation detail for vitamin_d,crp_reduction,low,P2,Generated entry 576,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098060+00:00
+Batch generated on 2025-11-06T07:17:34.355045+00:00",2025-11-06T07:17:34.355062,,,
+INFL-GEN-0577,inflammation,vitamin_c,merge,Generated formulation detail for vitamin_c,inflammatory_markers,low,P2,Generated entry 577,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098064+00:00
+Batch generated on 2025-11-06T07:17:34.420468+00:00",2025-11-06T07:17:34.420486,,,
+INFL-GEN-0578,inflammation,zinc,merge,Generated formulation detail for zinc,autoimmune_support,low,P2,Generated entry 578,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098068+00:00
+Batch generated on 2025-11-06T07:17:34.484420+00:00",2025-11-06T07:17:34.484437,,,
+INFL-GEN-0579,inflammation,n_acetyl_cysteine,split,Generated formulation detail for n_acetyl_cysteine,chronic_inflammation,low,P2,Generated entry 579,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098072+00:00
+Batch generated on 2025-11-06T07:17:34.546350+00:00",2025-11-06T07:17:34.546370,,,
+INFL-GEN-0580,inflammation,spirulina,merge,Generated formulation detail for spirulina,pain_relief,low,P2,Generated entry 580,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098078+00:00
+Batch generated on 2025-11-06T07:17:34.609945+00:00",2025-11-06T07:17:34.609962,,,
 INFL-GEN-0581,inflammation,curcumin,merge,Generated formulation detail for curcumin,systemic_inflammation,low,P2,Generated entry 581,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098082+00:00,2025-11-06T07:06:31.098083+00:00,,,
 INFL-GEN-0582,inflammation,omega_3,split,Generated formulation detail for omega_3,joint_pain,low,P2,Generated entry 582,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098085+00:00,2025-11-06T07:06:31.098087+00:00,,,
 INFL-GEN-0583,inflammation,boswellia,merge,Generated formulation detail for boswellia,arthritis,low,P2,Generated entry 583,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098089+00:00,2025-11-06T07:06:31.098091+00:00,,,
@@ -1067,81 +1215,156 @@ INFL-GEN-0597,inflammation,vitamin_c,split,Generated formulation detail for vita
 INFL-GEN-0598,inflammation,zinc,merge,Generated formulation detail for zinc,joint_pain,low,P2,Generated entry 598,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098151+00:00,2025-11-06T07:06:31.098153+00:00,,,
 INFL-GEN-0599,inflammation,n_acetyl_cysteine,merge,Generated formulation detail for n_acetyl_cysteine,arthritis,low,P2,Generated entry 599,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098155+00:00,2025-11-06T07:06:31.098157+00:00,,,
 INFL-GEN-0600,inflammation,spirulina,split,Generated formulation detail for spirulina,crp_reduction,low,P2,Generated entry 600,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098161+00:00,2025-11-06T07:06:31.098162+00:00,,,
-LONG-GEN-0601,longevity,resveratrol,split,Generated formulation detail for resveratrol,cellular_aging,high,P0,Generated entry 601,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098165+00:00,2025-11-06T07:06:31.098167+00:00,,,
-LONG-GEN-0602,longevity,nmn,merge,Generated formulation detail for nmn,mitochondrial_function,high,P0,Generated entry 602,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098169+00:00,2025-11-06T07:06:31.098171+00:00,,,
-LONG-GEN-0603,longevity,nicotinamide_riboside,merge,Generated formulation detail for nicotinamide_riboside,nad_boosting,high,P0,Generated entry 603,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098178+00:00,2025-11-06T07:06:31.098181+00:00,,,
-LONG-GEN-0604,longevity,pterostilbene,split,Generated formulation detail for pterostilbene,senescence,high,P0,Generated entry 604,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098185+00:00,2025-11-06T07:06:31.098187+00:00,,,
-LONG-GEN-0605,longevity,fisetin,merge,Generated formulation detail for fisetin,oxidative_stress,high,P0,Generated entry 605,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098191+00:00,2025-11-06T07:06:31.098193+00:00,,,
-LONG-GEN-0606,longevity,quercetin,merge,Generated formulation detail for quercetin,telomere_support,high,P0,Generated entry 606,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098197+00:00,2025-11-06T07:06:31.098204+00:00,,,
-LONG-GEN-0607,longevity,curcumin,split,Generated formulation detail for curcumin,autophagy,high,P0,Generated entry 607,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098208+00:00,2025-11-06T07:06:31.098210+00:00,,,
-LONG-GEN-0608,longevity,omega_3,merge,Generated formulation detail for omega_3,healthspan,high,P0,Generated entry 608,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098214+00:00,2025-11-06T07:06:31.098217+00:00,,,
-LONG-GEN-0609,longevity,coq10,merge,Generated formulation detail for coq10,cellular_aging,high,P0,Generated entry 609,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098221+00:00,2025-11-06T07:06:31.098223+00:00,,,
-LONG-GEN-0610,longevity,pqq,split,Generated formulation detail for pqq,mitochondrial_function,high,P0,Generated entry 610,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098230+00:00,2025-11-06T07:06:31.098232+00:00,,,
-LONG-GEN-0611,longevity,astaxanthin,merge,Generated formulation detail for astaxanthin,nad_boosting,high,P0,Generated entry 611,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098236+00:00,2025-11-06T07:06:31.098238+00:00,,,
-LONG-GEN-0612,longevity,alpha_lipoic_acid,merge,Generated formulation detail for alpha_lipoic_acid,senescence,high,P0,Generated entry 612,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098242+00:00,2025-11-06T07:06:31.098247+00:00,,,
-LONG-GEN-0613,longevity,carnosine,split,Generated formulation detail for carnosine,oxidative_stress,high,P0,Generated entry 613,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098252+00:00,2025-11-06T07:06:31.098254+00:00,,,
-LONG-GEN-0614,longevity,taurine,merge,Generated formulation detail for taurine,telomere_support,high,P0,Generated entry 614,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098258+00:00,2025-11-06T07:06:31.098261+00:00,,,
-LONG-GEN-0615,longevity,glutathione,merge,Generated formulation detail for glutathione,autophagy,high,P0,Generated entry 615,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098265+00:00,2025-11-06T07:06:31.098268+00:00,,,
-LONG-GEN-0616,longevity,vitamin_d,split,Generated formulation detail for vitamin_d,healthspan,high,P0,Generated entry 616,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098274+00:00,2025-11-06T07:06:31.098276+00:00,,,
-LONG-GEN-0617,longevity,vitamin_k2,merge,Generated formulation detail for vitamin_k2,cellular_aging,high,P0,Generated entry 617,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098278+00:00,2025-11-06T07:06:31.098280+00:00,,,
-LONG-GEN-0618,longevity,spermidine,merge,Generated formulation detail for spermidine,mitochondrial_function,high,P0,Generated entry 618,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098282+00:00,2025-11-06T07:06:31.098284+00:00,,,
-LONG-GEN-0619,longevity,rapamycin_alternative,split,Generated formulation detail for rapamycin_alternative,nad_boosting,high,P0,Generated entry 619,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098286+00:00,2025-11-06T07:06:31.098287+00:00,,,
-LONG-GEN-0620,longevity,metformin_alternative,merge,Generated formulation detail for metformin_alternative,senescence,high,P0,Generated entry 620,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098292+00:00,2025-11-06T07:06:31.098294+00:00,,,
-LONG-GEN-0621,longevity,resveratrol,merge,Generated formulation detail for resveratrol,oxidative_stress,high,P0,Generated entry 621,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098298+00:00,2025-11-06T07:06:31.098301+00:00,,,
-LONG-GEN-0622,longevity,nmn,split,Generated formulation detail for nmn,telomere_support,high,P0,Generated entry 622,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098305+00:00,2025-11-06T07:06:31.098308+00:00,,,
-LONG-GEN-0623,longevity,nicotinamide_riboside,merge,Generated formulation detail for nicotinamide_riboside,autophagy,high,P0,Generated entry 623,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098312+00:00,2025-11-06T07:06:31.098314+00:00,,,
-LONG-GEN-0624,longevity,pterostilbene,merge,Generated formulation detail for pterostilbene,healthspan,high,P0,Generated entry 624,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098318+00:00,2025-11-06T07:06:31.098320+00:00,,,
-LONG-GEN-0625,longevity,fisetin,split,Generated formulation detail for fisetin,cellular_aging,high,P0,Generated entry 625,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098324+00:00,2025-11-06T07:06:31.098327+00:00,,,
-LONG-GEN-0626,longevity,quercetin,merge,Generated formulation detail for quercetin,mitochondrial_function,high,P0,Generated entry 626,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098331+00:00,2025-11-06T07:06:31.098334+00:00,,,
-LONG-GEN-0627,longevity,curcumin,merge,Generated formulation detail for curcumin,nad_boosting,high,P0,Generated entry 627,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098338+00:00,2025-11-06T07:06:31.098341+00:00,,,
-LONG-GEN-0628,longevity,omega_3,split,Generated formulation detail for omega_3,senescence,high,P0,Generated entry 628,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098345+00:00,2025-11-06T07:06:31.098347+00:00,,,
-LONG-GEN-0629,longevity,coq10,merge,Generated formulation detail for coq10,oxidative_stress,high,P0,Generated entry 629,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098351+00:00,2025-11-06T07:06:31.098352+00:00,,,
-LONG-GEN-0630,longevity,pqq,merge,Generated formulation detail for pqq,telomere_support,high,P0,Generated entry 630,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098358+00:00,2025-11-06T07:06:31.098359+00:00,,,
-LONG-GEN-0631,longevity,astaxanthin,split,Generated formulation detail for astaxanthin,autophagy,medium,P1,Generated entry 631,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098361+00:00,2025-11-06T07:06:31.098363+00:00,,,
-LONG-GEN-0632,longevity,alpha_lipoic_acid,merge,Generated formulation detail for alpha_lipoic_acid,healthspan,medium,P1,Generated entry 632,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098365+00:00,2025-11-06T07:06:31.098367+00:00,,,
-LONG-GEN-0633,longevity,carnosine,merge,Generated formulation detail for carnosine,cellular_aging,medium,P1,Generated entry 633,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098369+00:00,2025-11-06T07:06:31.098370+00:00,,,
-LONG-GEN-0634,longevity,taurine,split,Generated formulation detail for taurine,mitochondrial_function,medium,P1,Generated entry 634,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098373+00:00,2025-11-06T07:06:31.098374+00:00,,,
-LONG-GEN-0635,longevity,glutathione,merge,Generated formulation detail for glutathione,nad_boosting,medium,P1,Generated entry 635,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098378+00:00,2025-11-06T07:06:31.098380+00:00,,,
-LONG-GEN-0636,longevity,vitamin_d,merge,Generated formulation detail for vitamin_d,senescence,medium,P1,Generated entry 636,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098382+00:00,2025-11-06T07:06:31.098384+00:00,,,
-LONG-GEN-0637,longevity,vitamin_k2,split,Generated formulation detail for vitamin_k2,oxidative_stress,medium,P1,Generated entry 637,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098386+00:00,2025-11-06T07:06:31.098387+00:00,,,
-LONG-GEN-0638,longevity,spermidine,merge,Generated formulation detail for spermidine,telomere_support,medium,P1,Generated entry 638,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098390+00:00,2025-11-06T07:06:31.098394+00:00,,,
-LONG-GEN-0639,longevity,rapamycin_alternative,merge,Generated formulation detail for rapamycin_alternative,autophagy,medium,P1,Generated entry 639,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098396+00:00,2025-11-06T07:06:31.098398+00:00,,,
-LONG-GEN-0640,longevity,metformin_alternative,split,Generated formulation detail for metformin_alternative,healthspan,medium,P1,Generated entry 640,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098402+00:00,2025-11-06T07:06:31.098405+00:00,,,
-LONG-GEN-0641,longevity,resveratrol,merge,Generated formulation detail for resveratrol,cellular_aging,medium,P1,Generated entry 641,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098408+00:00,2025-11-06T07:06:31.098409+00:00,,,
-LONG-GEN-0642,longevity,nmn,merge,Generated formulation detail for nmn,mitochondrial_function,medium,P1,Generated entry 642,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098411+00:00,2025-11-06T07:06:31.098413+00:00,,,
-LONG-GEN-0643,longevity,nicotinamide_riboside,split,Generated formulation detail for nicotinamide_riboside,nad_boosting,medium,P1,Generated entry 643,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098415+00:00,2025-11-06T07:06:31.098417+00:00,,,
-LONG-GEN-0644,longevity,pterostilbene,merge,Generated formulation detail for pterostilbene,senescence,medium,P1,Generated entry 644,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098419+00:00,2025-11-06T07:06:31.098420+00:00,,,
-LONG-GEN-0645,longevity,fisetin,merge,Generated formulation detail for fisetin,oxidative_stress,medium,P1,Generated entry 645,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098423+00:00,2025-11-06T07:06:31.098424+00:00,,,
-LONG-GEN-0646,longevity,quercetin,split,Generated formulation detail for quercetin,telomere_support,medium,P1,Generated entry 646,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098426+00:00,2025-11-06T07:06:31.098428+00:00,,,
-LONG-GEN-0647,longevity,curcumin,merge,Generated formulation detail for curcumin,autophagy,medium,P1,Generated entry 647,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098430+00:00,2025-11-06T07:06:31.098431+00:00,,,
-LONG-GEN-0648,longevity,omega_3,merge,Generated formulation detail for omega_3,healthspan,medium,P1,Generated entry 648,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098434+00:00,2025-11-06T07:06:31.098435+00:00,,,
-LONG-GEN-0649,longevity,coq10,split,Generated formulation detail for coq10,cellular_aging,medium,P1,Generated entry 649,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098438+00:00,2025-11-06T07:06:31.098439+00:00,,,
-LONG-GEN-0650,longevity,pqq,merge,Generated formulation detail for pqq,mitochondrial_function,medium,P1,Generated entry 650,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098444+00:00,2025-11-06T07:06:31.098445+00:00,,,
-LONG-GEN-0651,longevity,astaxanthin,merge,Generated formulation detail for astaxanthin,nad_boosting,medium,P1,Generated entry 651,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098447+00:00,2025-11-06T07:06:31.098449+00:00,,,
-LONG-GEN-0652,longevity,alpha_lipoic_acid,split,Generated formulation detail for alpha_lipoic_acid,senescence,medium,P1,Generated entry 652,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098451+00:00,2025-11-06T07:06:31.098453+00:00,,,
-LONG-GEN-0653,longevity,carnosine,merge,Generated formulation detail for carnosine,oxidative_stress,medium,P1,Generated entry 653,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098455+00:00,2025-11-06T07:06:31.098456+00:00,,,
-LONG-GEN-0654,longevity,taurine,merge,Generated formulation detail for taurine,telomere_support,medium,P1,Generated entry 654,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098459+00:00,2025-11-06T07:06:31.098460+00:00,,,
-LONG-GEN-0655,longevity,glutathione,split,Generated formulation detail for glutathione,autophagy,medium,P1,Generated entry 655,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098462+00:00,2025-11-06T07:06:31.098464+00:00,,,
-LONG-GEN-0656,longevity,vitamin_d,merge,Generated formulation detail for vitamin_d,healthspan,medium,P1,Generated entry 656,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098466+00:00,2025-11-06T07:06:31.098467+00:00,,,
-LONG-GEN-0657,longevity,vitamin_k2,merge,Generated formulation detail for vitamin_k2,cellular_aging,medium,P1,Generated entry 657,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098470+00:00,2025-11-06T07:06:31.098471+00:00,,,
-LONG-GEN-0658,longevity,spermidine,split,Generated formulation detail for spermidine,mitochondrial_function,medium,P1,Generated entry 658,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098473+00:00,2025-11-06T07:06:31.098475+00:00,,,
-LONG-GEN-0659,longevity,rapamycin_alternative,merge,Generated formulation detail for rapamycin_alternative,nad_boosting,medium,P1,Generated entry 659,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098477+00:00,2025-11-06T07:06:31.098479+00:00,,,
-LONG-GEN-0660,longevity,metformin_alternative,merge,Generated formulation detail for metformin_alternative,senescence,medium,P1,Generated entry 660,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098483+00:00,2025-11-06T07:06:31.098484+00:00,,,
-LONG-GEN-0661,longevity,resveratrol,split,Generated formulation detail for resveratrol,oxidative_stress,medium,P1,Generated entry 661,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098487+00:00,2025-11-06T07:06:31.098488+00:00,,,
-LONG-GEN-0662,longevity,nmn,merge,Generated formulation detail for nmn,telomere_support,medium,P1,Generated entry 662,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098491+00:00,2025-11-06T07:06:31.098492+00:00,,,
-LONG-GEN-0663,longevity,nicotinamide_riboside,merge,Generated formulation detail for nicotinamide_riboside,autophagy,medium,P1,Generated entry 663,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098494+00:00,2025-11-06T07:06:31.098498+00:00,,,
-LONG-GEN-0664,longevity,pterostilbene,split,Generated formulation detail for pterostilbene,healthspan,medium,P1,Generated entry 664,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098502+00:00,2025-11-06T07:06:31.098503+00:00,,,
-LONG-GEN-0665,longevity,fisetin,merge,Generated formulation detail for fisetin,cellular_aging,medium,P1,Generated entry 665,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098506+00:00,2025-11-06T07:06:31.098507+00:00,,,
-LONG-GEN-0666,longevity,quercetin,merge,Generated formulation detail for quercetin,mitochondrial_function,medium,P1,Generated entry 666,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098510+00:00,2025-11-06T07:06:31.098511+00:00,,,
-LONG-GEN-0667,longevity,curcumin,split,Generated formulation detail for curcumin,nad_boosting,medium,P1,Generated entry 667,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098516+00:00,2025-11-06T07:06:31.098517+00:00,,,
-LONG-GEN-0668,longevity,omega_3,merge,Generated formulation detail for omega_3,senescence,medium,P1,Generated entry 668,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098520+00:00,2025-11-06T07:06:31.098521+00:00,,,
-LONG-GEN-0669,longevity,coq10,merge,Generated formulation detail for coq10,oxidative_stress,medium,P1,Generated entry 669,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098524+00:00,2025-11-06T07:06:31.098525+00:00,,,
-LONG-GEN-0670,longevity,pqq,split,Generated formulation detail for pqq,telomere_support,medium,P1,Generated entry 670,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098531+00:00,2025-11-06T07:06:31.098535+00:00,,,
-LONG-GEN-0671,longevity,astaxanthin,merge,Generated formulation detail for astaxanthin,autophagy,low,P2,Generated entry 671,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098537+00:00,2025-11-06T07:06:31.098539+00:00,,,
-LONG-GEN-0672,longevity,alpha_lipoic_acid,merge,Generated formulation detail for alpha_lipoic_acid,healthspan,low,P2,Generated entry 672,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098543+00:00,2025-11-06T07:06:31.098545+00:00,,,
-LONG-GEN-0673,longevity,carnosine,split,Generated formulation detail for carnosine,cellular_aging,low,P2,Generated entry 673,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098547+00:00,2025-11-06T07:06:31.098549+00:00,,,
-LONG-GEN-0674,longevity,taurine,merge,Generated formulation detail for taurine,mitochondrial_function,low,P2,Generated entry 674,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098551+00:00,2025-11-06T07:06:31.098553+00:00,,,
-LONG-GEN-0675,longevity,glutathione,merge,Generated formulation detail for glutathione,nad_boosting,low,P2,Generated entry 675,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098555+00:00,2025-11-06T07:06:31.098556+00:00,,,
+LONG-GEN-0601,longevity,resveratrol,split,Generated formulation detail for resveratrol,cellular_aging,high,P0,Generated entry 601,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098165+00:00
+Batch generated on 2025-11-06T07:16:46.726494+00:00",2025-11-06T07:16:46.726515,,,
+LONG-GEN-0602,longevity,nmn,merge,Generated formulation detail for nmn,mitochondrial_function,high,P0,Generated entry 602,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098169+00:00
+Batch generated on 2025-11-06T07:16:46.794137+00:00",2025-11-06T07:16:46.794167,,,
+LONG-GEN-0603,longevity,nicotinamide_riboside,merge,Generated formulation detail for nicotinamide_riboside,nad_boosting,high,P0,Generated entry 603,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098178+00:00
+Batch generated on 2025-11-06T07:16:46.859960+00:00",2025-11-06T07:16:46.859981,,,
+LONG-GEN-0604,longevity,pterostilbene,split,Generated formulation detail for pterostilbene,senescence,high,P0,Generated entry 604,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098185+00:00
+Batch generated on 2025-11-06T07:16:46.940236+00:00",2025-11-06T07:16:46.940256,,,
+LONG-GEN-0605,longevity,fisetin,merge,Generated formulation detail for fisetin,oxidative_stress,high,P0,Generated entry 605,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098191+00:00
+Batch generated on 2025-11-06T07:16:47.009379+00:00",2025-11-06T07:16:47.009402,,,
+LONG-GEN-0606,longevity,quercetin,merge,Generated formulation detail for quercetin,telomere_support,high,P0,Generated entry 606,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098197+00:00
+Batch generated on 2025-11-06T07:16:47.075487+00:00",2025-11-06T07:16:47.075507,,,
+LONG-GEN-0607,longevity,curcumin,split,Generated formulation detail for curcumin,autophagy,high,P0,Generated entry 607,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098208+00:00
+Batch generated on 2025-11-06T07:16:47.145367+00:00",2025-11-06T07:16:47.145387,,,
+LONG-GEN-0608,longevity,omega_3,merge,Generated formulation detail for omega_3,healthspan,high,P0,Generated entry 608,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098214+00:00
+Batch generated on 2025-11-06T07:16:47.213730+00:00",2025-11-06T07:16:47.213752,,,
+LONG-GEN-0609,longevity,coq10,merge,Generated formulation detail for coq10,cellular_aging,high,P0,Generated entry 609,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098221+00:00
+Batch generated on 2025-11-06T07:16:47.294979+00:00",2025-11-06T07:16:47.294995,,,
+LONG-GEN-0610,longevity,pqq,split,Generated formulation detail for pqq,mitochondrial_function,high,P0,Generated entry 610,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098230+00:00
+Batch generated on 2025-11-06T07:16:47.362814+00:00",2025-11-06T07:16:47.362838,,,
+LONG-GEN-0611,longevity,astaxanthin,merge,Generated formulation detail for astaxanthin,nad_boosting,high,P0,Generated entry 611,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098236+00:00
+Batch generated on 2025-11-06T07:16:47.435342+00:00",2025-11-06T07:16:47.435356,,,
+LONG-GEN-0612,longevity,alpha_lipoic_acid,merge,Generated formulation detail for alpha_lipoic_acid,senescence,high,P0,Generated entry 612,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098242+00:00
+Batch generated on 2025-11-06T07:16:47.504632+00:00",2025-11-06T07:16:47.504654,,,
+LONG-GEN-0613,longevity,carnosine,split,Generated formulation detail for carnosine,oxidative_stress,high,P0,Generated entry 613,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098252+00:00
+Batch generated on 2025-11-06T07:16:47.575772+00:00",2025-11-06T07:16:47.575810,,,
+LONG-GEN-0614,longevity,taurine,merge,Generated formulation detail for taurine,telomere_support,high,P0,Generated entry 614,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098258+00:00
+Batch generated on 2025-11-06T07:16:47.643283+00:00",2025-11-06T07:16:47.643298,,,
+LONG-GEN-0615,longevity,glutathione,merge,Generated formulation detail for glutathione,autophagy,high,P0,Generated entry 615,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098265+00:00
+Batch generated on 2025-11-06T07:16:47.709786+00:00",2025-11-06T07:16:47.709817,,,
+LONG-GEN-0616,longevity,vitamin_d,split,Generated formulation detail for vitamin_d,healthspan,high,P0,Generated entry 616,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098274+00:00
+Batch generated on 2025-11-06T07:16:47.776447+00:00",2025-11-06T07:16:47.776470,,,
+LONG-GEN-0617,longevity,vitamin_k2,merge,Generated formulation detail for vitamin_k2,cellular_aging,high,P0,Generated entry 617,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098278+00:00
+Batch generated on 2025-11-06T07:16:47.845612+00:00",2025-11-06T07:16:47.845632,,,
+LONG-GEN-0618,longevity,spermidine,merge,Generated formulation detail for spermidine,mitochondrial_function,high,P0,Generated entry 618,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098282+00:00
+Batch generated on 2025-11-06T07:16:47.915677+00:00",2025-11-06T07:16:47.915697,,,
+LONG-GEN-0619,longevity,rapamycin_alternative,split,Generated formulation detail for rapamycin_alternative,nad_boosting,high,P0,Generated entry 619,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098286+00:00
+Batch generated on 2025-11-06T07:16:47.984559+00:00",2025-11-06T07:16:47.984579,,,
+LONG-GEN-0620,longevity,metformin_alternative,merge,Generated formulation detail for metformin_alternative,senescence,high,P0,Generated entry 620,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098292+00:00
+Batch generated on 2025-11-06T07:16:48.054207+00:00",2025-11-06T07:16:48.054226,,,
+LONG-GEN-0621,longevity,resveratrol,merge,Generated formulation detail for resveratrol,oxidative_stress,high,P0,Generated entry 621,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098298+00:00
+Batch generated on 2025-11-06T07:16:48.124633+00:00",2025-11-06T07:16:48.124655,,,
+LONG-GEN-0622,longevity,nmn,split,Generated formulation detail for nmn,telomere_support,high,P0,Generated entry 622,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098305+00:00
+Batch generated on 2025-11-06T07:16:48.192710+00:00",2025-11-06T07:16:48.192730,,,
+LONG-GEN-0623,longevity,nicotinamide_riboside,merge,Generated formulation detail for nicotinamide_riboside,autophagy,high,P0,Generated entry 623,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098312+00:00
+Batch generated on 2025-11-06T07:16:48.259462+00:00",2025-11-06T07:16:48.259483,,,
+LONG-GEN-0624,longevity,pterostilbene,merge,Generated formulation detail for pterostilbene,healthspan,high,P0,Generated entry 624,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098318+00:00
+Batch generated on 2025-11-06T07:16:48.327672+00:00",2025-11-06T07:16:48.327691,,,
+LONG-GEN-0625,longevity,fisetin,split,Generated formulation detail for fisetin,cellular_aging,high,P0,Generated entry 625,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098324+00:00
+Batch generated on 2025-11-06T07:16:48.405348+00:00",2025-11-06T07:16:48.405369,,,
+LONG-GEN-0626,longevity,quercetin,merge,Generated formulation detail for quercetin,mitochondrial_function,high,P0,Generated entry 626,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098331+00:00
+Batch generated on 2025-11-06T07:16:48.482114+00:00",2025-11-06T07:16:48.482134,,,
+LONG-GEN-0627,longevity,curcumin,merge,Generated formulation detail for curcumin,nad_boosting,high,P0,Generated entry 627,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098338+00:00
+Batch generated on 2025-11-06T07:16:48.549543+00:00",2025-11-06T07:16:48.549560,,,
+LONG-GEN-0628,longevity,omega_3,split,Generated formulation detail for omega_3,senescence,high,P0,Generated entry 628,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098345+00:00
+Batch generated on 2025-11-06T07:16:48.620836+00:00",2025-11-06T07:16:48.620853,,,
+LONG-GEN-0629,longevity,coq10,merge,Generated formulation detail for coq10,oxidative_stress,high,P0,Generated entry 629,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098351+00:00
+Batch generated on 2025-11-06T07:16:48.688921+00:00",2025-11-06T07:16:48.688939,,,
+LONG-GEN-0630,longevity,pqq,merge,Generated formulation detail for pqq,telomere_support,high,P0,Generated entry 630,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098358+00:00
+Batch generated on 2025-11-06T07:16:48.757912+00:00",2025-11-06T07:16:48.757928,,,
+LONG-GEN-0631,longevity,astaxanthin,split,Generated formulation detail for astaxanthin,autophagy,medium,P1,Generated entry 631,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098361+00:00
+Batch generated on 2025-11-06T07:16:48.827842+00:00",2025-11-06T07:16:48.827863,,,
+LONG-GEN-0632,longevity,alpha_lipoic_acid,merge,Generated formulation detail for alpha_lipoic_acid,healthspan,medium,P1,Generated entry 632,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098365+00:00
+Batch generated on 2025-11-06T07:16:48.897677+00:00",2025-11-06T07:16:48.897699,,,
+LONG-GEN-0633,longevity,carnosine,merge,Generated formulation detail for carnosine,cellular_aging,medium,P1,Generated entry 633,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098369+00:00
+Batch generated on 2025-11-06T07:16:48.966814+00:00",2025-11-06T07:16:48.966834,,,
+LONG-GEN-0634,longevity,taurine,split,Generated formulation detail for taurine,mitochondrial_function,medium,P1,Generated entry 634,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098373+00:00
+Batch generated on 2025-11-06T07:16:49.033740+00:00",2025-11-06T07:16:49.033761,,,
+LONG-GEN-0635,longevity,glutathione,merge,Generated formulation detail for glutathione,nad_boosting,medium,P1,Generated entry 635,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098378+00:00
+Batch generated on 2025-11-06T07:16:49.113416+00:00",2025-11-06T07:16:49.113434,,,
+LONG-GEN-0636,longevity,vitamin_d,merge,Generated formulation detail for vitamin_d,senescence,medium,P1,Generated entry 636,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098382+00:00
+Batch generated on 2025-11-06T07:16:49.184998+00:00",2025-11-06T07:16:49.185023,,,
+LONG-GEN-0637,longevity,vitamin_k2,split,Generated formulation detail for vitamin_k2,oxidative_stress,medium,P1,Generated entry 637,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098386+00:00
+Batch generated on 2025-11-06T07:16:49.258131+00:00",2025-11-06T07:16:49.258150,,,
+LONG-GEN-0638,longevity,spermidine,merge,Generated formulation detail for spermidine,telomere_support,medium,P1,Generated entry 638,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098390+00:00
+Batch generated on 2025-11-06T07:16:49.326634+00:00",2025-11-06T07:16:49.326651,,,
+LONG-GEN-0639,longevity,rapamycin_alternative,merge,Generated formulation detail for rapamycin_alternative,autophagy,medium,P1,Generated entry 639,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098396+00:00
+Batch generated on 2025-11-06T07:16:49.397345+00:00",2025-11-06T07:16:49.397364,,,
+LONG-GEN-0640,longevity,metformin_alternative,split,Generated formulation detail for metformin_alternative,healthspan,medium,P1,Generated entry 640,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098402+00:00
+Batch generated on 2025-11-06T07:16:49.464624+00:00",2025-11-06T07:16:49.464642,,,
+LONG-GEN-0641,longevity,resveratrol,merge,Generated formulation detail for resveratrol,cellular_aging,medium,P1,Generated entry 641,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098408+00:00
+Batch generated on 2025-11-06T07:16:49.533345+00:00",2025-11-06T07:16:49.533366,,,
+LONG-GEN-0642,longevity,nmn,merge,Generated formulation detail for nmn,mitochondrial_function,medium,P1,Generated entry 642,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098411+00:00
+Batch generated on 2025-11-06T07:16:49.600422+00:00",2025-11-06T07:16:49.600441,,,
+LONG-GEN-0643,longevity,nicotinamide_riboside,split,Generated formulation detail for nicotinamide_riboside,nad_boosting,medium,P1,Generated entry 643,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098415+00:00
+Batch generated on 2025-11-06T07:16:49.668471+00:00",2025-11-06T07:16:49.668488,,,
+LONG-GEN-0644,longevity,pterostilbene,merge,Generated formulation detail for pterostilbene,senescence,medium,P1,Generated entry 644,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098419+00:00
+Batch generated on 2025-11-06T07:16:49.736044+00:00",2025-11-06T07:16:49.736063,,,
+LONG-GEN-0645,longevity,fisetin,merge,Generated formulation detail for fisetin,oxidative_stress,medium,P1,Generated entry 645,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098423+00:00
+Batch generated on 2025-11-06T07:16:49.803926+00:00",2025-11-06T07:16:49.803945,,,
+LONG-GEN-0646,longevity,quercetin,split,Generated formulation detail for quercetin,telomere_support,medium,P1,Generated entry 646,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098426+00:00
+Batch generated on 2025-11-06T07:16:49.871404+00:00",2025-11-06T07:16:49.871436,,,
+LONG-GEN-0647,longevity,curcumin,merge,Generated formulation detail for curcumin,autophagy,medium,P1,Generated entry 647,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098430+00:00
+Batch generated on 2025-11-06T07:16:49.938405+00:00",2025-11-06T07:16:49.938426,,,
+LONG-GEN-0648,longevity,omega_3,merge,Generated formulation detail for omega_3,healthspan,medium,P1,Generated entry 648,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098434+00:00
+Batch generated on 2025-11-06T07:16:50.012282+00:00",2025-11-06T07:16:50.012300,,,
+LONG-GEN-0649,longevity,coq10,split,Generated formulation detail for coq10,cellular_aging,medium,P1,Generated entry 649,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098438+00:00
+Batch generated on 2025-11-06T07:16:50.095259+00:00",2025-11-06T07:16:50.095280,,,
+LONG-GEN-0650,longevity,pqq,merge,Generated formulation detail for pqq,mitochondrial_function,medium,P1,Generated entry 650,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098444+00:00
+Batch generated on 2025-11-06T07:16:50.161131+00:00",2025-11-06T07:16:50.161152,,,
+LONG-GEN-0651,longevity,astaxanthin,merge,Generated formulation detail for astaxanthin,nad_boosting,medium,P1,Generated entry 651,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098447+00:00
+Batch generated on 2025-11-06T07:16:50.228212+00:00",2025-11-06T07:16:50.228234,,,
+LONG-GEN-0652,longevity,alpha_lipoic_acid,split,Generated formulation detail for alpha_lipoic_acid,senescence,medium,P1,Generated entry 652,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098451+00:00
+Batch generated on 2025-11-06T07:16:50.297769+00:00",2025-11-06T07:16:50.297802,,,
+LONG-GEN-0653,longevity,carnosine,merge,Generated formulation detail for carnosine,oxidative_stress,medium,P1,Generated entry 653,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098455+00:00
+Batch generated on 2025-11-06T07:16:50.364211+00:00",2025-11-06T07:16:50.364235,,,
+LONG-GEN-0654,longevity,taurine,merge,Generated formulation detail for taurine,telomere_support,medium,P1,Generated entry 654,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098459+00:00
+Batch generated on 2025-11-06T07:16:50.431379+00:00",2025-11-06T07:16:50.431397,,,
+LONG-GEN-0655,longevity,glutathione,split,Generated formulation detail for glutathione,autophagy,medium,P1,Generated entry 655,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098462+00:00
+Batch generated on 2025-11-06T07:16:50.497368+00:00",2025-11-06T07:16:50.497388,,,
+LONG-GEN-0656,longevity,vitamin_d,merge,Generated formulation detail for vitamin_d,healthspan,medium,P1,Generated entry 656,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098466+00:00
+Batch generated on 2025-11-06T07:16:50.567430+00:00",2025-11-06T07:16:50.567447,,,
+LONG-GEN-0657,longevity,vitamin_k2,merge,Generated formulation detail for vitamin_k2,cellular_aging,medium,P1,Generated entry 657,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098470+00:00
+Batch generated on 2025-11-06T07:16:50.635307+00:00",2025-11-06T07:16:50.635326,,,
+LONG-GEN-0658,longevity,spermidine,split,Generated formulation detail for spermidine,mitochondrial_function,medium,P1,Generated entry 658,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098473+00:00
+Batch generated on 2025-11-06T07:16:50.702039+00:00",2025-11-06T07:16:50.702067,,,
+LONG-GEN-0659,longevity,rapamycin_alternative,merge,Generated formulation detail for rapamycin_alternative,nad_boosting,medium,P1,Generated entry 659,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098477+00:00
+Batch generated on 2025-11-06T07:16:50.768083+00:00",2025-11-06T07:16:50.768104,,,
+LONG-GEN-0660,longevity,metformin_alternative,merge,Generated formulation detail for metformin_alternative,senescence,medium,P1,Generated entry 660,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098483+00:00
+Batch generated on 2025-11-06T07:16:50.835405+00:00",2025-11-06T07:16:50.835423,,,
+LONG-GEN-0661,longevity,resveratrol,split,Generated formulation detail for resveratrol,oxidative_stress,medium,P1,Generated entry 661,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098487+00:00
+Batch generated on 2025-11-06T07:16:50.907353+00:00",2025-11-06T07:16:50.907380,,,
+LONG-GEN-0662,longevity,nmn,merge,Generated formulation detail for nmn,telomere_support,medium,P1,Generated entry 662,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098491+00:00
+Batch generated on 2025-11-06T07:16:50.978903+00:00",2025-11-06T07:16:50.978925,,,
+LONG-GEN-0663,longevity,nicotinamide_riboside,merge,Generated formulation detail for nicotinamide_riboside,autophagy,medium,P1,Generated entry 663,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098494+00:00
+Batch generated on 2025-11-06T07:16:51.048218+00:00",2025-11-06T07:16:51.048234,,,
+LONG-GEN-0664,longevity,pterostilbene,split,Generated formulation detail for pterostilbene,healthspan,medium,P1,Generated entry 664,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098502+00:00
+Batch generated on 2025-11-06T07:16:51.117941+00:00",2025-11-06T07:16:51.117963,,,
+LONG-GEN-0665,longevity,fisetin,merge,Generated formulation detail for fisetin,cellular_aging,medium,P1,Generated entry 665,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098506+00:00
+Batch generated on 2025-11-06T07:16:51.188593+00:00",2025-11-06T07:16:51.188611,,,
+LONG-GEN-0666,longevity,quercetin,merge,Generated formulation detail for quercetin,mitochondrial_function,medium,P1,Generated entry 666,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098510+00:00
+Batch generated on 2025-11-06T07:16:51.257766+00:00",2025-11-06T07:16:51.257784,,,
+LONG-GEN-0667,longevity,curcumin,split,Generated formulation detail for curcumin,nad_boosting,medium,P1,Generated entry 667,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098516+00:00
+Batch generated on 2025-11-06T07:16:51.336885+00:00",2025-11-06T07:16:51.336908,,,
+LONG-GEN-0668,longevity,omega_3,merge,Generated formulation detail for omega_3,senescence,medium,P1,Generated entry 668,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098520+00:00
+Batch generated on 2025-11-06T07:16:51.406216+00:00",2025-11-06T07:16:51.406235,,,
+LONG-GEN-0669,longevity,coq10,merge,Generated formulation detail for coq10,oxidative_stress,medium,P1,Generated entry 669,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098524+00:00
+Batch generated on 2025-11-06T07:16:51.474910+00:00",2025-11-06T07:16:51.474937,,,
+LONG-GEN-0670,longevity,pqq,split,Generated formulation detail for pqq,telomere_support,medium,P1,Generated entry 670,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098531+00:00
+Batch generated on 2025-11-06T07:16:51.554803+00:00",2025-11-06T07:16:51.554824,,,
+LONG-GEN-0671,longevity,astaxanthin,merge,Generated formulation detail for astaxanthin,autophagy,low,P2,Generated entry 671,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098537+00:00
+Batch generated on 2025-11-06T07:16:51.622046+00:00",2025-11-06T07:16:51.622066,,,
+LONG-GEN-0672,longevity,alpha_lipoic_acid,merge,Generated formulation detail for alpha_lipoic_acid,healthspan,low,P2,Generated entry 672,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098543+00:00
+Batch generated on 2025-11-06T07:16:51.702004+00:00",2025-11-06T07:16:51.702032,,,
+LONG-GEN-0673,longevity,carnosine,split,Generated formulation detail for carnosine,cellular_aging,low,P2,Generated entry 673,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098547+00:00
+Batch generated on 2025-11-06T07:16:51.771432+00:00",2025-11-06T07:16:51.771455,,,
+LONG-GEN-0674,longevity,taurine,merge,Generated formulation detail for taurine,mitochondrial_function,low,P2,Generated entry 674,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098551+00:00
+Batch generated on 2025-11-06T07:16:51.846745+00:00",2025-11-06T07:16:51.846761,,,
+LONG-GEN-0675,longevity,glutathione,merge,Generated formulation detail for glutathione,nad_boosting,low,P2,Generated entry 675,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098555+00:00
+Batch generated on 2025-11-06T07:16:51.916976+00:00",2025-11-06T07:16:51.916998,,,
 LONG-GEN-0676,longevity,vitamin_d,split,Generated formulation detail for vitamin_d,senescence,low,P2,Generated entry 676,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098559+00:00,2025-11-06T07:06:31.098560+00:00,,,
 LONG-GEN-0677,longevity,vitamin_k2,merge,Generated formulation detail for vitamin_k2,oxidative_stress,low,P2,Generated entry 677,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098562+00:00,2025-11-06T07:06:31.098564+00:00,,,
 LONG-GEN-0678,longevity,spermidine,merge,Generated formulation detail for spermidine,telomere_support,low,P2,Generated entry 678,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098566+00:00,2025-11-06T07:06:31.098567+00:00,,,
@@ -1167,46 +1390,89 @@ LONG-GEN-0697,longevity,vitamin_k2,split,Generated formulation detail for vitami
 LONG-GEN-0698,longevity,spermidine,merge,Generated formulation detail for spermidine,mitochondrial_function,low,P2,Generated entry 698,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098660+00:00,2025-11-06T07:06:31.098662+00:00,,,
 LONG-GEN-0699,longevity,rapamycin_alternative,merge,Generated formulation detail for rapamycin_alternative,nad_boosting,low,P2,Generated entry 699,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098667+00:00,2025-11-06T07:06:31.098668+00:00,,,
 LONG-GEN-0700,longevity,metformin_alternative,split,Generated formulation detail for metformin_alternative,senescence,low,P2,Generated entry 700,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098673+00:00,2025-11-06T07:06:31.098674+00:00,,,
-MUSC-GEN-0701,musculoskeletal,creatine,split,Generated formulation detail for creatine,muscle_strength,high,P0,Generated entry 701,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098678+00:00,2025-11-06T07:06:31.098682+00:00,,,
-MUSC-GEN-0702,musculoskeletal,hmb,merge,Generated formulation detail for hmb,bone_density,high,P0,Generated entry 702,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098684+00:00,2025-11-06T07:06:31.098686+00:00,,,
-MUSC-GEN-0703,musculoskeletal,leucine,merge,Generated formulation detail for leucine,recovery,high,P0,Generated entry 703,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098688+00:00,2025-11-06T07:06:31.098690+00:00,,,
-MUSC-GEN-0704,musculoskeletal,collagen,split,Generated formulation detail for collagen,protein_synthesis,high,P0,Generated entry 704,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098692+00:00,2025-11-06T07:06:31.098693+00:00,,,
-MUSC-GEN-0705,musculoskeletal,vitamin_d,merge,Generated formulation detail for vitamin_d,sarcopenia,high,P0,Generated entry 705,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098696+00:00,2025-11-06T07:06:31.098697+00:00,,,
-MUSC-GEN-0706,musculoskeletal,calcium,merge,Generated formulation detail for calcium,osteoporosis,high,P0,Generated entry 706,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098699+00:00,2025-11-06T07:06:31.098701+00:00,,,
-MUSC-GEN-0707,musculoskeletal,magnesium,split,Generated formulation detail for magnesium,joint_health,high,P0,Generated entry 707,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098703+00:00,2025-11-06T07:06:31.098706+00:00,,,
-MUSC-GEN-0708,musculoskeletal,vitamin_k2,merge,Generated formulation detail for vitamin_k2,muscle_mass,high,P0,Generated entry 708,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098711+00:00,2025-11-06T07:06:31.098713+00:00,,,
-MUSC-GEN-0709,musculoskeletal,boron,merge,Generated formulation detail for boron,muscle_strength,high,P0,Generated entry 709,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098717+00:00,2025-11-06T07:06:31.098720+00:00,,,
-MUSC-GEN-0710,musculoskeletal,strontium,split,Generated formulation detail for strontium,bone_density,high,P0,Generated entry 710,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098730+00:00,2025-11-06T07:06:31.098733+00:00,,,
-MUSC-GEN-0711,musculoskeletal,protein_blend,merge,Generated formulation detail for protein_blend,recovery,high,P0,Generated entry 711,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098737+00:00,2025-11-06T07:06:31.098740+00:00,,,
-MUSC-GEN-0712,musculoskeletal,whey_protein,merge,Generated formulation detail for whey_protein,protein_synthesis,high,P0,Generated entry 712,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098743+00:00,2025-11-06T07:06:31.098744+00:00,,,
-MUSC-GEN-0713,musculoskeletal,casein,split,Generated formulation detail for casein,sarcopenia,high,P0,Generated entry 713,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098746+00:00,2025-11-06T07:06:31.098748+00:00,,,
-MUSC-GEN-0714,musculoskeletal,bcaa,merge,Generated formulation detail for bcaa,osteoporosis,high,P0,Generated entry 714,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098750+00:00,2025-11-06T07:06:31.098752+00:00,,,
-MUSC-GEN-0715,musculoskeletal,glucosamine,merge,Generated formulation detail for glucosamine,joint_health,high,P0,Generated entry 715,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098754+00:00,2025-11-06T07:06:31.098758+00:00,,,
-MUSC-GEN-0716,musculoskeletal,chondroitin,split,Generated formulation detail for chondroitin,muscle_mass,high,P0,Generated entry 716,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098761+00:00,2025-11-06T07:06:31.098763+00:00,,,
-MUSC-GEN-0717,musculoskeletal,msm,merge,Generated formulation detail for msm,muscle_strength,high,P0,Generated entry 717,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098765+00:00,2025-11-06T07:06:31.098767+00:00,,,
-MUSC-GEN-0718,musculoskeletal,hyaluronic_acid,merge,Generated formulation detail for hyaluronic_acid,bone_density,high,P0,Generated entry 718,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098769+00:00,2025-11-06T07:06:31.098770+00:00,,,
-MUSC-GEN-0719,musculoskeletal,curcumin,split,Generated formulation detail for curcumin,recovery,high,P0,Generated entry 719,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098773+00:00,2025-11-06T07:06:31.098774+00:00,,,
-MUSC-GEN-0720,musculoskeletal,omega_3,merge,Generated formulation detail for omega_3,protein_synthesis,high,P0,Generated entry 720,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098779+00:00,2025-11-06T07:06:31.098781+00:00,,,
-MUSC-GEN-0721,musculoskeletal,creatine,merge,Generated formulation detail for creatine,sarcopenia,high,P0,Generated entry 721,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098784+00:00,2025-11-06T07:06:31.098785+00:00,,,
-MUSC-GEN-0722,musculoskeletal,hmb,split,Generated formulation detail for hmb,osteoporosis,high,P0,Generated entry 722,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098801+00:00,2025-11-06T07:06:31.098803+00:00,,,
-MUSC-GEN-0723,musculoskeletal,leucine,merge,Generated formulation detail for leucine,joint_health,high,P0,Generated entry 723,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098805+00:00,2025-11-06T07:06:31.098806+00:00,,,
-MUSC-GEN-0724,musculoskeletal,collagen,merge,Generated formulation detail for collagen,muscle_mass,high,P0,Generated entry 724,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098809+00:00,2025-11-06T07:06:31.098810+00:00,,,
-MUSC-GEN-0725,musculoskeletal,vitamin_d,split,Generated formulation detail for vitamin_d,muscle_strength,high,P0,Generated entry 725,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098813+00:00,2025-11-06T07:06:31.098814+00:00,,,
-MUSC-GEN-0726,musculoskeletal,calcium,merge,Generated formulation detail for calcium,bone_density,high,P0,Generated entry 726,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098817+00:00,2025-11-06T07:06:31.098818+00:00,,,
-MUSC-GEN-0727,musculoskeletal,magnesium,merge,Generated formulation detail for magnesium,recovery,high,P0,Generated entry 727,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098820+00:00,2025-11-06T07:06:31.098822+00:00,,,
-MUSC-GEN-0728,musculoskeletal,vitamin_k2,split,Generated formulation detail for vitamin_k2,protein_synthesis,high,P0,Generated entry 728,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098824+00:00,2025-11-06T07:06:31.098826+00:00,,,
-MUSC-GEN-0729,musculoskeletal,boron,merge,Generated formulation detail for boron,sarcopenia,high,P0,Generated entry 729,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098828+00:00,2025-11-06T07:06:31.098830+00:00,,,
-MUSC-GEN-0730,musculoskeletal,strontium,merge,Generated formulation detail for strontium,osteoporosis,high,P0,Generated entry 730,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098835+00:00,2025-11-06T07:06:31.098836+00:00,,,
-MUSC-GEN-0731,musculoskeletal,protein_blend,split,Generated formulation detail for protein_blend,joint_health,medium,P1,Generated entry 731,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098841+00:00,2025-11-06T07:06:31.098843+00:00,,,
-MUSC-GEN-0732,musculoskeletal,whey_protein,merge,Generated formulation detail for whey_protein,muscle_mass,medium,P1,Generated entry 732,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.099005+00:00,2025-11-06T07:06:31.099026+00:00,,,
-MUSC-GEN-0733,musculoskeletal,casein,merge,Generated formulation detail for casein,muscle_strength,medium,P1,Generated entry 733,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.099038+00:00,2025-11-06T07:06:31.099043+00:00,,,
-MUSC-GEN-0734,musculoskeletal,bcaa,split,Generated formulation detail for bcaa,bone_density,medium,P1,Generated entry 734,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.099047+00:00,2025-11-06T07:06:31.099049+00:00,,,
-MUSC-GEN-0735,musculoskeletal,glucosamine,merge,Generated formulation detail for glucosamine,recovery,medium,P1,Generated entry 735,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.099053+00:00,2025-11-06T07:06:31.099055+00:00,,,
-MUSC-GEN-0736,musculoskeletal,chondroitin,merge,Generated formulation detail for chondroitin,protein_synthesis,medium,P1,Generated entry 736,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.099059+00:00,2025-11-06T07:06:31.099061+00:00,,,
-MUSC-GEN-0737,musculoskeletal,msm,split,Generated formulation detail for msm,sarcopenia,medium,P1,Generated entry 737,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.099065+00:00,2025-11-06T07:06:31.099067+00:00,,,
-MUSC-GEN-0738,musculoskeletal,hyaluronic_acid,merge,Generated formulation detail for hyaluronic_acid,osteoporosis,medium,P1,Generated entry 738,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.099075+00:00,2025-11-06T07:06:31.099077+00:00,,,
-MUSC-GEN-0739,musculoskeletal,curcumin,merge,Generated formulation detail for curcumin,joint_health,medium,P1,Generated entry 739,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.099080+00:00,2025-11-06T07:06:31.099082+00:00,,,
-MUSC-GEN-0740,musculoskeletal,omega_3,split,Generated formulation detail for omega_3,muscle_mass,medium,P1,Generated entry 740,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.099089+00:00,2025-11-06T07:06:31.099091+00:00,,,
-MUSC-GEN-0741,musculoskeletal,creatine,merge,Generated formulation detail for creatine,muscle_strength,medium,P1,Generated entry 741,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.099094+00:00,2025-11-06T07:06:31.099097+00:00,,,
-MUSC-GEN-0742,musculoskeletal,hmb,merge,Generated formulation detail for hmb,bone_density,medium,P1,Generated entry 742,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.099100+00:00,2025-11-06T07:06:31.099102+00:00,,,
-MUSC-GEN-0743,musculoskeletal,leucine,split,Generated formulation detail for leucine,recovery,medium,P1,Generated entry 743,pending,automation,,Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.099106+00:00,2025-11-06T07:06:31.099108+00:00,,,
+MUSC-GEN-0701,musculoskeletal,creatine,split,Generated formulation detail for creatine,muscle_strength,high,P0,Generated entry 701,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098678+00:00
+Batch generated on 2025-11-06T07:17:05.818245+00:00",2025-11-06T07:17:05.818264,,,
+MUSC-GEN-0702,musculoskeletal,hmb,merge,Generated formulation detail for hmb,bone_density,high,P0,Generated entry 702,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098684+00:00
+Batch generated on 2025-11-06T07:17:05.889535+00:00",2025-11-06T07:17:05.889550,,,
+MUSC-GEN-0703,musculoskeletal,leucine,merge,Generated formulation detail for leucine,recovery,high,P0,Generated entry 703,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098688+00:00
+Batch generated on 2025-11-06T07:17:05.961669+00:00",2025-11-06T07:17:05.961686,,,
+MUSC-GEN-0704,musculoskeletal,collagen,split,Generated formulation detail for collagen,protein_synthesis,high,P0,Generated entry 704,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098692+00:00
+Batch generated on 2025-11-06T07:17:06.034165+00:00",2025-11-06T07:17:06.034190,,,
+MUSC-GEN-0705,musculoskeletal,vitamin_d,merge,Generated formulation detail for vitamin_d,sarcopenia,high,P0,Generated entry 705,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098696+00:00
+Batch generated on 2025-11-06T07:17:06.103065+00:00",2025-11-06T07:17:06.103087,,,
+MUSC-GEN-0706,musculoskeletal,calcium,merge,Generated formulation detail for calcium,osteoporosis,high,P0,Generated entry 706,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098699+00:00
+Batch generated on 2025-11-06T07:17:06.184209+00:00",2025-11-06T07:17:06.184230,,,
+MUSC-GEN-0707,musculoskeletal,magnesium,split,Generated formulation detail for magnesium,joint_health,high,P0,Generated entry 707,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098703+00:00
+Batch generated on 2025-11-06T07:17:06.256601+00:00",2025-11-06T07:17:06.256619,,,
+MUSC-GEN-0708,musculoskeletal,vitamin_k2,merge,Generated formulation detail for vitamin_k2,muscle_mass,high,P0,Generated entry 708,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098711+00:00
+Batch generated on 2025-11-06T07:17:06.329012+00:00",2025-11-06T07:17:06.329036,,,
+MUSC-GEN-0709,musculoskeletal,boron,merge,Generated formulation detail for boron,muscle_strength,high,P0,Generated entry 709,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098717+00:00
+Batch generated on 2025-11-06T07:17:06.397139+00:00",2025-11-06T07:17:06.397162,,,
+MUSC-GEN-0710,musculoskeletal,strontium,split,Generated formulation detail for strontium,bone_density,high,P0,Generated entry 710,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098730+00:00
+Batch generated on 2025-11-06T07:17:06.468496+00:00",2025-11-06T07:17:06.468519,,,
+MUSC-GEN-0711,musculoskeletal,protein_blend,merge,Generated formulation detail for protein_blend,recovery,high,P0,Generated entry 711,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098737+00:00
+Batch generated on 2025-11-06T07:17:06.540542+00:00",2025-11-06T07:17:06.540564,,,
+MUSC-GEN-0712,musculoskeletal,whey_protein,merge,Generated formulation detail for whey_protein,protein_synthesis,high,P0,Generated entry 712,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098743+00:00
+Batch generated on 2025-11-06T07:17:06.613388+00:00",2025-11-06T07:17:06.613410,,,
+MUSC-GEN-0713,musculoskeletal,casein,split,Generated formulation detail for casein,sarcopenia,high,P0,Generated entry 713,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098746+00:00
+Batch generated on 2025-11-06T07:17:06.684410+00:00",2025-11-06T07:17:06.684428,,,
+MUSC-GEN-0714,musculoskeletal,bcaa,merge,Generated formulation detail for bcaa,osteoporosis,high,P0,Generated entry 714,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098750+00:00
+Batch generated on 2025-11-06T07:17:06.754751+00:00",2025-11-06T07:17:06.754774,,,
+MUSC-GEN-0715,musculoskeletal,glucosamine,merge,Generated formulation detail for glucosamine,joint_health,high,P0,Generated entry 715,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098754+00:00
+Batch generated on 2025-11-06T07:17:06.826800+00:00",2025-11-06T07:17:06.826824,,,
+MUSC-GEN-0716,musculoskeletal,chondroitin,split,Generated formulation detail for chondroitin,muscle_mass,high,P0,Generated entry 716,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098761+00:00
+Batch generated on 2025-11-06T07:17:06.898218+00:00",2025-11-06T07:17:06.898247,,,
+MUSC-GEN-0717,musculoskeletal,msm,merge,Generated formulation detail for msm,muscle_strength,high,P0,Generated entry 717,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098765+00:00
+Batch generated on 2025-11-06T07:17:06.971809+00:00",2025-11-06T07:17:06.971829,,,
+MUSC-GEN-0718,musculoskeletal,hyaluronic_acid,merge,Generated formulation detail for hyaluronic_acid,bone_density,high,P0,Generated entry 718,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098769+00:00
+Batch generated on 2025-11-06T07:17:07.042879+00:00",2025-11-06T07:17:07.042901,,,
+MUSC-GEN-0719,musculoskeletal,curcumin,split,Generated formulation detail for curcumin,recovery,high,P0,Generated entry 719,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098773+00:00
+Batch generated on 2025-11-06T07:17:07.112609+00:00",2025-11-06T07:17:07.112634,,,
+MUSC-GEN-0720,musculoskeletal,omega_3,merge,Generated formulation detail for omega_3,protein_synthesis,high,P0,Generated entry 720,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098779+00:00
+Batch generated on 2025-11-06T07:17:07.187879+00:00",2025-11-06T07:17:07.187907,,,
+MUSC-GEN-0721,musculoskeletal,creatine,merge,Generated formulation detail for creatine,sarcopenia,high,P0,Generated entry 721,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098784+00:00
+Batch generated on 2025-11-06T07:17:07.257512+00:00",2025-11-06T07:17:07.257535,,,
+MUSC-GEN-0722,musculoskeletal,hmb,split,Generated formulation detail for hmb,osteoporosis,high,P0,Generated entry 722,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098801+00:00
+Batch generated on 2025-11-06T07:17:07.329700+00:00",2025-11-06T07:17:07.329723,,,
+MUSC-GEN-0723,musculoskeletal,leucine,merge,Generated formulation detail for leucine,joint_health,high,P0,Generated entry 723,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098805+00:00
+Batch generated on 2025-11-06T07:17:07.405801+00:00",2025-11-06T07:17:07.405828,,,
+MUSC-GEN-0724,musculoskeletal,collagen,merge,Generated formulation detail for collagen,muscle_mass,high,P0,Generated entry 724,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098809+00:00
+Batch generated on 2025-11-06T07:17:07.480301+00:00",2025-11-06T07:17:07.480324,,,
+MUSC-GEN-0725,musculoskeletal,vitamin_d,split,Generated formulation detail for vitamin_d,muscle_strength,high,P0,Generated entry 725,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098813+00:00
+Batch generated on 2025-11-06T07:17:07.551005+00:00",2025-11-06T07:17:07.551031,,,
+MUSC-GEN-0726,musculoskeletal,calcium,merge,Generated formulation detail for calcium,bone_density,high,P0,Generated entry 726,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098817+00:00
+Batch generated on 2025-11-06T07:17:07.623965+00:00",2025-11-06T07:17:07.623986,,,
+MUSC-GEN-0727,musculoskeletal,magnesium,merge,Generated formulation detail for magnesium,recovery,high,P0,Generated entry 727,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098820+00:00
+Batch generated on 2025-11-06T07:17:07.695324+00:00",2025-11-06T07:17:07.695346,,,
+MUSC-GEN-0728,musculoskeletal,vitamin_k2,split,Generated formulation detail for vitamin_k2,protein_synthesis,high,P0,Generated entry 728,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098824+00:00
+Batch generated on 2025-11-06T07:17:07.775955+00:00",2025-11-06T07:17:07.775975,,,
+MUSC-GEN-0729,musculoskeletal,boron,merge,Generated formulation detail for boron,sarcopenia,high,P0,Generated entry 729,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098828+00:00
+Batch generated on 2025-11-06T07:17:07.856586+00:00",2025-11-06T07:17:07.856610,,,
+MUSC-GEN-0730,musculoskeletal,strontium,merge,Generated formulation detail for strontium,osteoporosis,high,P0,Generated entry 730,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098835+00:00
+Batch generated on 2025-11-06T07:17:07.926834+00:00",2025-11-06T07:17:07.926855,,,
+MUSC-GEN-0731,musculoskeletal,protein_blend,split,Generated formulation detail for protein_blend,joint_health,medium,P1,Generated entry 731,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.098841+00:00
+Batch generated on 2025-11-06T07:17:07.993524+00:00",2025-11-06T07:17:07.993544,,,
+MUSC-GEN-0732,musculoskeletal,whey_protein,merge,Generated formulation detail for whey_protein,muscle_mass,medium,P1,Generated entry 732,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.099005+00:00
+Batch generated on 2025-11-06T07:17:08.071292+00:00",2025-11-06T07:17:08.071315,,,
+MUSC-GEN-0733,musculoskeletal,casein,merge,Generated formulation detail for casein,muscle_strength,medium,P1,Generated entry 733,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.099038+00:00
+Batch generated on 2025-11-06T07:17:08.143394+00:00",2025-11-06T07:17:08.143415,,,
+MUSC-GEN-0734,musculoskeletal,bcaa,split,Generated formulation detail for bcaa,bone_density,medium,P1,Generated entry 734,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.099047+00:00
+Batch generated on 2025-11-06T07:17:08.215537+00:00",2025-11-06T07:17:08.215562,,,
+MUSC-GEN-0735,musculoskeletal,glucosamine,merge,Generated formulation detail for glucosamine,recovery,medium,P1,Generated entry 735,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.099053+00:00
+Batch generated on 2025-11-06T07:17:08.288434+00:00",2025-11-06T07:17:08.288458,,,
+MUSC-GEN-0736,musculoskeletal,chondroitin,merge,Generated formulation detail for chondroitin,protein_synthesis,medium,P1,Generated entry 736,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.099059+00:00
+Batch generated on 2025-11-06T07:17:08.359332+00:00",2025-11-06T07:17:08.359355,,,
+MUSC-GEN-0737,musculoskeletal,msm,split,Generated formulation detail for msm,sarcopenia,medium,P1,Generated entry 737,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.099065+00:00
+Batch generated on 2025-11-06T07:17:08.427036+00:00",2025-11-06T07:17:08.427058,,,
+MUSC-GEN-0738,musculoskeletal,hyaluronic_acid,merge,Generated formulation detail for hyaluronic_acid,osteoporosis,medium,P1,Generated entry 738,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.099075+00:00
+Batch generated on 2025-11-06T07:17:08.501541+00:00",2025-11-06T07:17:08.501563,,,
+MUSC-GEN-0739,musculoskeletal,curcumin,merge,Generated formulation detail for curcumin,joint_health,medium,P1,Generated entry 739,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.099080+00:00
+Batch generated on 2025-11-06T07:17:08.577639+00:00",2025-11-06T07:17:08.577659,,,
+MUSC-GEN-0740,musculoskeletal,omega_3,split,Generated formulation detail for omega_3,muscle_mass,medium,P1,Generated entry 740,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.099089+00:00
+Batch generated on 2025-11-06T07:17:08.645518+00:00",2025-11-06T07:17:08.645540,,,
+MUSC-GEN-0741,musculoskeletal,creatine,merge,Generated formulation detail for creatine,muscle_strength,medium,P1,Generated entry 741,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.099094+00:00
+Batch generated on 2025-11-06T07:17:08.711894+00:00",2025-11-06T07:17:08.711915,,,
+MUSC-GEN-0742,musculoskeletal,hmb,merge,Generated formulation detail for hmb,bone_density,medium,P1,Generated entry 742,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.099100+00:00
+Batch generated on 2025-11-06T07:17:08.777437+00:00",2025-11-06T07:17:08.777463,,,
+MUSC-GEN-0743,musculoskeletal,leucine,split,Generated formulation detail for leucine,recovery,medium,P1,Generated entry 743,completed,automation,Black,"Auto-generated for 1000-entry scaling test on 2025-11-06T07:06:31.099106+00:00
+Batch generated on 2025-11-06T07:17:08.847516+00:00",2025-11-06T07:17:08.847538,,,

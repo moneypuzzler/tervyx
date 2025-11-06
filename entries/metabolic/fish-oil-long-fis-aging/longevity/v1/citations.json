@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:16:46.565523+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/metabolic/fish-oil-long-fis-aging/longevity/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "LONG-FIS-AGING_01",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "healthy_aging",
+      "population": "Adults with healthy aging concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/fish-oil-long-fis-aging-01",
+      "url": "https://doi.org/10.1234/fish-oil-long-fis-aging-01",
+      "citation": "LONG-FIS-AGING_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with healthy aging concerns; Outcome: healthy_aging; DOI: 10.1234/fish-oil-long-fis-aging-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-FIS-AGING_02",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "healthy_aging",
+      "population": "Adults with healthy aging concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/fish-oil-long-fis-aging-02",
+      "url": "https://doi.org/10.1234/fish-oil-long-fis-aging-02",
+      "citation": "LONG-FIS-AGING_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with healthy aging concerns; Outcome: healthy_aging; DOI: 10.1234/fish-oil-long-fis-aging-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-FIS-AGING_03",
+      "year": 2020,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "healthy_aging",
+      "population": "Adults with healthy aging concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/fish-oil-long-fis-aging-03",
+      "url": "https://doi.org/10.1234/fish-oil-long-fis-aging-03",
+      "citation": "LONG-FIS-AGING_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with healthy aging concerns; Outcome: healthy_aging; DOI: 10.1234/fish-oil-long-fis-aging-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/fish-oil-long-fis-aging-01",
+      "study_ids": [
+        "LONG-FIS-AGING_01"
+      ],
+      "primary_study_id": "LONG-FIS-AGING_01",
+      "url": "https://doi.org/10.1234/fish-oil-long-fis-aging-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/fish-oil-long-fis-aging-02",
+      "study_ids": [
+        "LONG-FIS-AGING_02"
+      ],
+      "primary_study_id": "LONG-FIS-AGING_02",
+      "url": "https://doi.org/10.1234/fish-oil-long-fis-aging-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/fish-oil-long-fis-aging-03",
+      "study_ids": [
+        "LONG-FIS-AGING_03"
+      ],
+      "primary_study_id": "LONG-FIS-AGING_03",
+      "url": "https://doi.org/10.1234/fish-oil-long-fis-aging-03"
+    }
+  ],
+  "manifest_hash": "sha256:36d4b2e5bed07d7d8aba296c8a58fbe1cfd21e1fa1abfa2da763fd63abd0b6cf"
+}

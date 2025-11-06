@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:17:34.589849+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/immune/spirulina-infl-gen-0580/inflammation/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "INFL-GEN-0580_01",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "pain_relief",
+      "population": "Adults with pain relief concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/spirulina-infl-gen-0580-01",
+      "url": "https://doi.org/10.1234/spirulina-infl-gen-0580-01",
+      "citation": "INFL-GEN-0580_01 (2016); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with pain relief concerns; Outcome: pain_relief; DOI: 10.1234/spirulina-infl-gen-0580-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "INFL-GEN-0580_02",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "pain_relief",
+      "population": "Adults with pain relief concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/spirulina-infl-gen-0580-02",
+      "url": "https://doi.org/10.1234/spirulina-infl-gen-0580-02",
+      "citation": "INFL-GEN-0580_02 (2017); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with pain relief concerns; Outcome: pain_relief; DOI: 10.1234/spirulina-infl-gen-0580-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "INFL-GEN-0580_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "pain_relief",
+      "population": "Adults with pain relief concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/spirulina-infl-gen-0580-03",
+      "url": "https://doi.org/10.1234/spirulina-infl-gen-0580-03",
+      "citation": "INFL-GEN-0580_03 (2018); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with pain relief concerns; Outcome: pain_relief; DOI: 10.1234/spirulina-infl-gen-0580-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/spirulina-infl-gen-0580-01",
+      "study_ids": [
+        "INFL-GEN-0580_01"
+      ],
+      "primary_study_id": "INFL-GEN-0580_01",
+      "url": "https://doi.org/10.1234/spirulina-infl-gen-0580-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/spirulina-infl-gen-0580-02",
+      "study_ids": [
+        "INFL-GEN-0580_02"
+      ],
+      "primary_study_id": "INFL-GEN-0580_02",
+      "url": "https://doi.org/10.1234/spirulina-infl-gen-0580-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/spirulina-infl-gen-0580-03",
+      "study_ids": [
+        "INFL-GEN-0580_03"
+      ],
+      "primary_study_id": "INFL-GEN-0580_03",
+      "url": "https://doi.org/10.1234/spirulina-infl-gen-0580-03"
+    }
+  ],
+  "manifest_hash": "sha256:2ed57394764f5c66eba8f4a13f0d7b845298ee70f65bcc6c6d71b4747a37a7ac"
+}

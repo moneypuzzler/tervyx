@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-INFL-INF01-01,2023,randomized controlled trial,SMD,-0.3662,-0.5505,-0.1819,81,73,mixed,10.1234/infl-inf01-01,inflammation-journal-01,joint_pain,Adults with joint pain concerns,None reported,9
-INFL-INF01-02,2014,randomized controlled trial,SMD,-0.3608,-0.5276,-0.194,94,88,low,10.1234/infl-inf01-02,inflammation-journal-02,joint_pain,Adults with joint pain concerns,Transient headache,8
-INFL-INF01-03,2019,randomized controlled trial,SMD,-0.3554,-0.5046,-0.2062,77,73,low,10.1234/infl-inf01-03,inflammation-journal-03,joint_pain,Adults with joint pain concerns,Mild GI discomfort,13
+INFL-INF01_01,2016,randomized controlled trial,SMD,-0.3177,-0.5089,-0.1265,73,61,some concerns,10.1234/curcumin-infl-inf01-01,inflammation_journal,joint_pain,Adults with joint pain concerns,Transient headache,11
+INFL-INF01_02,2017,randomized controlled trial,SMD,-0.2529,-0.381,-0.1248,65,69,low,10.1234/curcumin-infl-inf01-02,inflammation_journal,joint_pain,Adults with joint pain concerns,Mild GI discomfort,9
+INFL-INF01_03,2018,randomized controlled trial,SMD,-0.3991,-0.5208,-0.2774,79,73,mixed,10.1234/curcumin-infl-inf01-03,inflammation_journal,joint_pain,Adults with joint pain concerns,None reported,9

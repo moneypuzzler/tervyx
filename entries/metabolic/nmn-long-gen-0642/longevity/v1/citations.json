@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:16:49.578711+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/metabolic/nmn-long-gen-0642/longevity/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "LONG-GEN-0642_01",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "mitochondrial_function",
+      "population": "Adults with mitochondrial function concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/nmn-long-gen-0642-01",
+      "url": "https://doi.org/10.1234/nmn-long-gen-0642-01",
+      "citation": "LONG-GEN-0642_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/nmn-long-gen-0642-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-GEN-0642_02",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "mitochondrial_function",
+      "population": "Adults with mitochondrial function concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/nmn-long-gen-0642-02",
+      "url": "https://doi.org/10.1234/nmn-long-gen-0642-02",
+      "citation": "LONG-GEN-0642_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/nmn-long-gen-0642-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-GEN-0642_03",
+      "year": 2020,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "mitochondrial_function",
+      "population": "Adults with mitochondrial function concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/nmn-long-gen-0642-03",
+      "url": "https://doi.org/10.1234/nmn-long-gen-0642-03",
+      "citation": "LONG-GEN-0642_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/nmn-long-gen-0642-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/nmn-long-gen-0642-01",
+      "study_ids": [
+        "LONG-GEN-0642_01"
+      ],
+      "primary_study_id": "LONG-GEN-0642_01",
+      "url": "https://doi.org/10.1234/nmn-long-gen-0642-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/nmn-long-gen-0642-02",
+      "study_ids": [
+        "LONG-GEN-0642_02"
+      ],
+      "primary_study_id": "LONG-GEN-0642_02",
+      "url": "https://doi.org/10.1234/nmn-long-gen-0642-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/nmn-long-gen-0642-03",
+      "study_ids": [
+        "LONG-GEN-0642_03"
+      ],
+      "primary_study_id": "LONG-GEN-0642_03",
+      "url": "https://doi.org/10.1234/nmn-long-gen-0642-03"
+    }
+  ],
+  "manifest_hash": "sha256:afb04f41b94caae4d38bf67c4b393b6af4a53778156511edeaebfc1f5230ac6c"
+}

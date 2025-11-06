@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:16:51.748725+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/metabolic/carnosine-long-gen-0673/longevity/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "LONG-GEN-0673_01",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "cellular_aging",
+      "population": "Adults with cellular aging concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/carnosine-long-gen-0673-01",
+      "url": "https://doi.org/10.1234/carnosine-long-gen-0673-01",
+      "citation": "LONG-GEN-0673_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with cellular aging concerns; Outcome: cellular_aging; DOI: 10.1234/carnosine-long-gen-0673-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-GEN-0673_02",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "cellular_aging",
+      "population": "Adults with cellular aging concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/carnosine-long-gen-0673-02",
+      "url": "https://doi.org/10.1234/carnosine-long-gen-0673-02",
+      "citation": "LONG-GEN-0673_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with cellular aging concerns; Outcome: cellular_aging; DOI: 10.1234/carnosine-long-gen-0673-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-GEN-0673_03",
+      "year": 2020,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "cellular_aging",
+      "population": "Adults with cellular aging concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/carnosine-long-gen-0673-03",
+      "url": "https://doi.org/10.1234/carnosine-long-gen-0673-03",
+      "citation": "LONG-GEN-0673_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with cellular aging concerns; Outcome: cellular_aging; DOI: 10.1234/carnosine-long-gen-0673-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/carnosine-long-gen-0673-01",
+      "study_ids": [
+        "LONG-GEN-0673_01"
+      ],
+      "primary_study_id": "LONG-GEN-0673_01",
+      "url": "https://doi.org/10.1234/carnosine-long-gen-0673-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/carnosine-long-gen-0673-02",
+      "study_ids": [
+        "LONG-GEN-0673_02"
+      ],
+      "primary_study_id": "LONG-GEN-0673_02",
+      "url": "https://doi.org/10.1234/carnosine-long-gen-0673-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/carnosine-long-gen-0673-03",
+      "study_ids": [
+        "LONG-GEN-0673_03"
+      ],
+      "primary_study_id": "LONG-GEN-0673_03",
+      "url": "https://doi.org/10.1234/carnosine-long-gen-0673-03"
+    }
+  ],
+  "manifest_hash": "sha256:fdd5f2bd4280bfe4266ae588339c356bb1ccc63d6e4ff01fcd03a92d334193d5"
+}

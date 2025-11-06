@@ -1,74 +1,74 @@
 {
-  "generated": "2025-11-05T06:50:42.510948+00:00",
+  "generated": "2025-11-06T07:16:45.578945+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/metabolic/coq10-long-lon10/longevity/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
     {
-      "study_id": "LONG-LON10-01",
-      "year": 2016,
+      "study_id": "LONG-LON10_01",
+      "year": 2018,
       "design": "randomized controlled trial",
-      "journal": "longevity-journal-01",
-      "outcome": "mitochondrial_function",
-      "population": "Adults with mitochondrial function concerns",
-      "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/long-lon10-01",
-      "url": "https://doi.org/10.1234/long-lon10-01",
-      "citation": "LONG-LON10-01 (2016); Journal: longevity-journal-01; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/long-lon10-01; Adverse Events: Mild GI discomfort."
-    },
-    {
-      "study_id": "LONG-LON10-02",
-      "year": 2021,
-      "design": "randomized controlled trial",
-      "journal": "longevity-journal-02",
+      "journal": "longevity_journal",
       "outcome": "mitochondrial_function",
       "population": "Adults with mitochondrial function concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/long-lon10-02",
-      "url": "https://doi.org/10.1234/long-lon10-02",
-      "citation": "LONG-LON10-02 (2021); Journal: longevity-journal-02; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/long-lon10-02; Adverse Events: None reported."
+      "doi": "10.1234/coq10-long-lon10-01",
+      "url": "https://doi.org/10.1234/coq10-long-lon10-01",
+      "citation": "LONG-LON10_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/coq10-long-lon10-01; Adverse Events: None reported."
     },
     {
-      "study_id": "LONG-LON10-03",
-      "year": 2012,
+      "study_id": "LONG-LON10_02",
+      "year": 2019,
       "design": "randomized controlled trial",
-      "journal": "longevity-journal-03",
+      "journal": "longevity_journal",
       "outcome": "mitochondrial_function",
       "population": "Adults with mitochondrial function concerns",
-      "adverse_events": "Transient headache",
-      "doi": "10.1234/long-lon10-03",
-      "url": "https://doi.org/10.1234/long-lon10-03",
-      "citation": "LONG-LON10-03 (2012); Journal: longevity-journal-03; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/long-lon10-03; Adverse Events: Transient headache."
+      "adverse_events": "None reported",
+      "doi": "10.1234/coq10-long-lon10-02",
+      "url": "https://doi.org/10.1234/coq10-long-lon10-02",
+      "citation": "LONG-LON10_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/coq10-long-lon10-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-LON10_03",
+      "year": 2020,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "mitochondrial_function",
+      "population": "Adults with mitochondrial function concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/coq10-long-lon10-03",
+      "url": "https://doi.org/10.1234/coq10-long-lon10-03",
+      "citation": "LONG-LON10_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/coq10-long-lon10-03; Adverse Events: None reported."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/long-lon10-01",
+      "identifier": "10.1234/coq10-long-lon10-01",
       "study_ids": [
-        "LONG-LON10-01"
+        "LONG-LON10_01"
       ],
-      "primary_study_id": "LONG-LON10-01",
-      "url": "https://doi.org/10.1234/long-lon10-01"
+      "primary_study_id": "LONG-LON10_01",
+      "url": "https://doi.org/10.1234/coq10-long-lon10-01"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/long-lon10-02",
+      "identifier": "10.1234/coq10-long-lon10-02",
       "study_ids": [
-        "LONG-LON10-02"
+        "LONG-LON10_02"
       ],
-      "primary_study_id": "LONG-LON10-02",
-      "url": "https://doi.org/10.1234/long-lon10-02"
+      "primary_study_id": "LONG-LON10_02",
+      "url": "https://doi.org/10.1234/coq10-long-lon10-02"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/long-lon10-03",
+      "identifier": "10.1234/coq10-long-lon10-03",
       "study_ids": [
-        "LONG-LON10-03"
+        "LONG-LON10_03"
       ],
-      "primary_study_id": "LONG-LON10-03",
-      "url": "https://doi.org/10.1234/long-lon10-03"
+      "primary_study_id": "LONG-LON10_03",
+      "url": "https://doi.org/10.1234/coq10-long-lon10-03"
     }
   ],
-  "manifest_hash": "sha256:4f988f0215e0248d77f642fbc6d7e9ee4d89ff5e666928b3796b8bc26ed5987d"
+  "manifest_hash": "sha256:4763052dbd6d5af2355f839d40718128bc311549eb737558c22514d2fc7f886c"
 }

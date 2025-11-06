@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:17:05.655437+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/physiological/boswellia-msk-bosw-infl/musculoskeletal/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MSK-BOSW-INFL_01",
+      "year": 2013,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "osteoarthritis_pain",
+      "population": "Adults with osteoarthritis pain concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/boswellia-msk-bosw-infl-01",
+      "url": "https://doi.org/10.1234/boswellia-msk-bosw-infl-01",
+      "citation": "MSK-BOSW-INFL_01 (2013); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with osteoarthritis pain concerns; Outcome: osteoarthritis_pain; DOI: 10.1234/boswellia-msk-bosw-infl-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "MSK-BOSW-INFL_02",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "osteoarthritis_pain",
+      "population": "Adults with osteoarthritis pain concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/boswellia-msk-bosw-infl-02",
+      "url": "https://doi.org/10.1234/boswellia-msk-bosw-infl-02",
+      "citation": "MSK-BOSW-INFL_02 (2014); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with osteoarthritis pain concerns; Outcome: osteoarthritis_pain; DOI: 10.1234/boswellia-msk-bosw-infl-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MSK-BOSW-INFL_03",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "osteoarthritis_pain",
+      "population": "Adults with osteoarthritis pain concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/boswellia-msk-bosw-infl-03",
+      "url": "https://doi.org/10.1234/boswellia-msk-bosw-infl-03",
+      "citation": "MSK-BOSW-INFL_03 (2015); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with osteoarthritis pain concerns; Outcome: osteoarthritis_pain; DOI: 10.1234/boswellia-msk-bosw-infl-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/boswellia-msk-bosw-infl-01",
+      "study_ids": [
+        "MSK-BOSW-INFL_01"
+      ],
+      "primary_study_id": "MSK-BOSW-INFL_01",
+      "url": "https://doi.org/10.1234/boswellia-msk-bosw-infl-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/boswellia-msk-bosw-infl-02",
+      "study_ids": [
+        "MSK-BOSW-INFL_02"
+      ],
+      "primary_study_id": "MSK-BOSW-INFL_02",
+      "url": "https://doi.org/10.1234/boswellia-msk-bosw-infl-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/boswellia-msk-bosw-infl-03",
+      "study_ids": [
+        "MSK-BOSW-INFL_03"
+      ],
+      "primary_study_id": "MSK-BOSW-INFL_03",
+      "url": "https://doi.org/10.1234/boswellia-msk-bosw-infl-03"
+    }
+  ],
+  "manifest_hash": "sha256:51bed3ce890bfde5266fed29d717c14239699fc50539aa0a0002c5b2ce518506"
+}
