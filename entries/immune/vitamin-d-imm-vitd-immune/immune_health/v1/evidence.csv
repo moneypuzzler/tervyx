@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-IMM-VITD-IMMUNE-01,2019,randomized controlled trial,SMD,0.253,0.1309,0.3751,75,77,some concerns,10.1234/imm-vitd-immune-01,immune_health-journal-01,immune_resilience,Adults with immune resilience concerns,None reported,8
-IMM-VITD-IMMUNE-02,2010,randomized controlled trial,SMD,0.2476,0.073,0.4222,88,92,some concerns,10.1234/imm-vitd-immune-02,immune_health-journal-02,immune_resilience,Adults with immune resilience concerns,Transient headache,13
-IMM-VITD-IMMUNE-03,2015,randomized controlled trial,SMD,0.2422,0.0852,0.3992,71,76,mixed,10.1234/imm-vitd-immune-03,immune_health-journal-03,immune_resilience,Adults with immune resilience concerns,Mild GI discomfort,11

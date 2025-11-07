@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-MSK-COLL-JOINT_01,2013,randomized controlled trial,SMD,0.3335,0.2048,0.4622,60,57,low,10.1234/collagen-msk-coll-joint-01,musculoskeletal_journal,joint_health,Adults with joint health concerns,None reported,11
-MSK-COLL-JOINT_02,2014,randomized controlled trial,SMD,0.3288,0.178,0.4796,71,72,low,10.1234/collagen-msk-coll-joint-02,musculoskeletal_journal,joint_health,Adults with joint health concerns,Transient headache,11
-MSK-COLL-JOINT_03,2015,randomized controlled trial,SMD,0.2699,0.1061,0.4337,71,72,mixed,10.1234/collagen-msk-coll-joint-03,musculoskeletal_journal,joint_health,Adults with joint health concerns,Transient headache,9

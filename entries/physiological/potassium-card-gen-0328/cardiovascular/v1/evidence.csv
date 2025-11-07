@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-CARD-GEN-0328_01,2012,randomized controlled trial,SMD,-0.2699,-0.4485,-0.0913,63,65,mixed,10.1234/potassium-card-gen-0328-01,cardiovascular_journal,arterial_health,Adults with arterial health concerns,Transient headache,8
-CARD-GEN-0328_02,2013,randomized controlled trial,SMD,-0.2815,-0.47,-0.093,72,63,some concerns,10.1234/potassium-card-gen-0328-02,cardiovascular_journal,arterial_health,Adults with arterial health concerns,Transient headache,8
-CARD-GEN-0328_03,2014,randomized controlled trial,SMD,-0.3503,-0.4852,-0.2154,68,56,mixed,10.1234/potassium-card-gen-0328-03,cardiovascular_journal,arterial_health,Adults with arterial health concerns,Mild GI discomfort,11

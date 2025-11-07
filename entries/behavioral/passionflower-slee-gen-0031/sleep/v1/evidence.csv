@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-SLEE-GEN-0031_01,2016,randomized controlled trial,SMD,-0.3385,-0.4927,-0.1843,61,61,some concerns,10.1234/passionflower-slee-gen-0031-01,sleep_journal,stress_insomnia,Adults with stress insomnia concerns,Mild GI discomfort,10
-SLEE-GEN-0031_02,2017,randomized controlled trial,SMD,-0.2888,-0.4658,-0.1118,81,69,low,10.1234/passionflower-slee-gen-0031-02,sleep_journal,stress_insomnia,Adults with stress insomnia concerns,None reported,10
-SLEE-GEN-0031_03,2018,randomized controlled trial,SMD,-0.2758,-0.3971,-0.1545,62,57,some concerns,10.1234/passionflower-slee-gen-0031-03,sleep_journal,stress_insomnia,Adults with stress insomnia concerns,Transient headache,12

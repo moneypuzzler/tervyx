@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-COG-BRAIN-MULTI_01,2006,randomized controlled trial,SMD,0.3149,0.1650,0.4649,56,53,some concerns,10.3390/nu12051546,cognition_journal,attention,Adults with attention concerns,Mild GI discomfort,7
-COG-BRAIN-MULTI_02,2007,randomized controlled trial,SMD,0.3548,0.2251,0.4846,60,56,mixed,10.3390/nu11081852,cognition_journal,attention,Adults with attention concerns,Transient headache,8
-COG-BRAIN-MULTI_03,2008,randomized controlled trial,SMD,0.4108,0.2650,0.5565,64,59,low,10.1371/journal.pone.0225006,cognition_journal,attention,Adults with attention concerns,None reported,9

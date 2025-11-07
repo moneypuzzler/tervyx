@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-LONG-GEN-0641_01,2018,randomized controlled trial,SMD,0.3852,0.186,0.5844,63,72,mixed,10.1234/resveratrol-long-gen-0641-01,longevity_journal,cellular_aging,Adults with cellular aging concerns,None reported,10
-LONG-GEN-0641_02,2019,randomized controlled trial,SMD,0.2984,0.1461,0.4507,60,74,mixed,10.1234/resveratrol-long-gen-0641-02,longevity_journal,cellular_aging,Adults with cellular aging concerns,None reported,8
-LONG-GEN-0641_03,2020,randomized controlled trial,SMD,0.3115,0.132,0.491,71,58,low,10.1234/resveratrol-long-gen-0641-03,longevity_journal,cellular_aging,Adults with cellular aging concerns,None reported,9

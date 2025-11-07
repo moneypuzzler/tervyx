@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-COG-CURC-NEURO_01,2019,randomized controlled trial,SMD,0.2999,0.1645,0.4353,74,58,mixed,10.3389/frdem.2023.1222708,cognition_journal,memory,Adults with memory concerns,Transient headache,11
-COG-CURC-NEURO_02,2020,randomized controlled trial,SMD,0.3489,0.2081,0.4898,78,61,low,10.1016/j.jagp.2017.10.010,cognition_journal,memory,Adults with memory concerns,None reported,6
-COG-CURC-NEURO_03,2021,randomized controlled trial,SMD,0.4276,0.2824,0.5727,82,64,some concerns,10.1186/s12916-024-03759-3,cognition_journal,memory,Adults with memory concerns,Mild GI discomfort,7

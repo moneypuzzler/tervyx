@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-SLP-MEL-ACUTE_01,2006,randomized controlled trial,SMD,-0.3120,-0.4564,-0.1676,56,53,some concerns,10.1111/jpi.12985,sleep_journal,sleep_onset,Adults with sleep onset concerns,Mild GI discomfort,7
-SLP-MEL-ACUTE_02,2007,randomized controlled trial,SMD,-0.3360,-0.4869,-0.1852,60,56,mixed,10.1371/journal.pone.0063773,sleep_journal,sleep_onset,Adults with sleep onset concerns,Transient headache,8
-SLP-MEL-ACUTE_03,2008,randomized controlled trial,SMD,-0.4234,-0.5518,-0.2950,64,59,low,10.1016/j.sleep.2019.02.017,sleep_journal,sleep_onset,Adults with sleep onset concerns,None reported,9

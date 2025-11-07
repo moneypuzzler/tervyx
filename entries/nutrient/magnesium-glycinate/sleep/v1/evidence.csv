@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-Nguyen2022,2022,randomized controlled trial,SMD,-0.42,-0.68,-0.16,64,62,low,10.1001/jama.2022.12345,ISSN:1389-9457,psqi_total,adults with primary insomnia,None reported,8
-Sato2023,2023,double-blind randomized trial,SMD,-0.35,-0.58,-0.12,58,60,low,10.1093/sleep/zsad115,ISSN:0161-8105,psqi_total,working adults reporting sleep dissatisfaction,Mild GI discomfort (transient),6
-Rossi2021,2021,randomized placebo-controlled,SMD,-0.28,-0.55,-0.01,72,70,some concerns,10.5664/jcsm.2021.0456,ISSN:1550-9389,psqi_total,adults with subclinical insomnia,None reported,10

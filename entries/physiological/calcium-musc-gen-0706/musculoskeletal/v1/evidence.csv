@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-MUSC-GEN-0706_01,2016,randomized controlled trial,SMD,0.3177,0.1783,0.4571,82,64,mixed,10.1234/calcium-musc-gen-0706-01,musculoskeletal_journal,osteoporosis,Adults with osteoporosis concerns,None reported,10
-MUSC-GEN-0706_02,2017,randomized controlled trial,SMD,0.3205,0.1755,0.4655,70,67,mixed,10.1234/calcium-musc-gen-0706-02,musculoskeletal_journal,osteoporosis,Adults with osteoporosis concerns,Mild GI discomfort,10
-MUSC-GEN-0706_03,2018,randomized controlled trial,SMD,0.3349,0.2001,0.4697,61,74,low,10.1234/calcium-musc-gen-0706-03,musculoskeletal_journal,osteoporosis,Adults with osteoporosis concerns,Mild GI discomfort,8

@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-COGN-GEN-0192_01,2012,randomized controlled trial,SMD,0.3849,0.2365,0.5333,63,63,some concerns,10.1234/omega-3-cogn-gen-0192-01,cognition_journal,processing_speed,Adults with processing speed concerns,Mild GI discomfort,8
-COGN-GEN-0192_02,2013,randomized controlled trial,SMD,0.3244,0.1887,0.4601,64,69,mixed,10.1234/omega-3-cogn-gen-0192-02,cognition_journal,processing_speed,Adults with processing speed concerns,Mild GI discomfort,8
-COGN-GEN-0192_03,2014,randomized controlled trial,SMD,0.37,0.1843,0.5557,74,73,low,10.1234/omega-3-cogn-gen-0192-03,cognition_journal,processing_speed,Adults with processing speed concerns,None reported,12

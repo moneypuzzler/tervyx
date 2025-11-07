@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-REN-CAFF-DOSE_01,2016,randomized controlled trial,SMD,0.3349,0.1825,0.4873,56,58,mixed,10.1234/ren-caff-dose-01,renal_safety_journal,renal_hemodynamics,Adults with renal hemodynamics concerns,Transient headache,11
-REN-CAFF-DOSE_02,2017,randomized controlled trial,SMD,0.3722,0.2320,0.5124,60,61,low,10.1234/ren-caff-dose-02,renal_safety_journal,renal_hemodynamics,Adults with renal hemodynamics concerns,None reported,6
-REN-CAFF-DOSE_03,2018,randomized controlled trial,SMD,0.3845,0.2568,0.5121,64,64,some concerns,10.1234/ren-caff-dose-03,renal_safety_journal,renal_hemodynamics,Adults with renal hemodynamics concerns,Mild GI discomfort,7

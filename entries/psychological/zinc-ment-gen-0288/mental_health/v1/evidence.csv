@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-MENT-GEN-0288_01,2013,randomized controlled trial,SMD,-0.3296,-0.4565,-0.2027,79,59,low,10.1234/zinc-ment-gen-0288-01,mental_health_journal,ocd,Adults with ocd concerns,Transient headache,9
-MENT-GEN-0288_02,2014,randomized controlled trial,SMD,-0.3327,-0.4743,-0.1911,65,70,some concerns,10.1234/zinc-ment-gen-0288-02,mental_health_journal,ocd,Adults with ocd concerns,Transient headache,8
-MENT-GEN-0288_03,2015,randomized controlled trial,SMD,-0.2848,-0.453,-0.1166,65,58,some concerns,10.1234/zinc-ment-gen-0288-03,mental_health_journal,ocd,Adults with ocd concerns,Transient headache,11

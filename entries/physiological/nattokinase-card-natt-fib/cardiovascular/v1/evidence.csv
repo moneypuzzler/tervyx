@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-CARD-NATT-FIB_01,2010,randomized controlled trial,SMD,-0.3074,-0.4660,-0.1487,50,58,mixed,10.1234/card-natt-fib-01,cardiovascular_journal,thrombotic_risk,Adults with thrombotic risk concerns,Transient headache,11
-CARD-NATT-FIB_02,2011,randomized controlled trial,SMD,-0.3851,-0.5470,-0.2232,54,61,low,10.1234/card-natt-fib-02,cardiovascular_journal,thrombotic_risk,Adults with thrombotic risk concerns,None reported,6
-CARD-NATT-FIB_03,2012,randomized controlled trial,SMD,-0.3821,-0.5234,-0.2408,58,64,some concerns,10.1234/card-natt-fib-03,cardiovascular_journal,thrombotic_risk,Adults with thrombotic risk concerns,Mild GI discomfort,7

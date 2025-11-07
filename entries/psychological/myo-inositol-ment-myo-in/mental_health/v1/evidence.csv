@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-MENT-MYO-IN_01,2016,randomized controlled trial,SMD,-0.3050,-0.4494,-0.1606,56,58,mixed,10.1016/j.jpsychires.2011.05.005,mental_health_journal,panic_disorder,Adults with panic disorder concerns,Transient headache,8
-MENT-MYO-IN_02,2017,randomized controlled trial,SMD,-0.3501,-0.5085,-0.1917,60,61,low,10.1176/ajp.152.5.792,mental_health_journal,panic_disorder,Adults with panic disorder concerns,None reported,9
-MENT-MYO-IN_03,2018,randomized controlled trial,SMD,-0.4366,-0.5631,-0.3102,64,64,some concerns,10.1080/14767058.2020.1818225,mental_health_journal,panic_disorder,Adults with panic disorder concerns,Mild GI discomfort,10

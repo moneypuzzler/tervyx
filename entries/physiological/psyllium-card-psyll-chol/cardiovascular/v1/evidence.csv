@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-CARD-PSYLL-CHOL_01,2013,randomized controlled trial,SMD,-0.3358,-0.4900,-0.1816,68,58,mixed,10.1234/card-psyll-chol-01,cardiovascular_journal,cholesterol,Adults with cholesterol concerns,Transient headache,8
-CARD-PSYLL-CHOL_02,2014,randomized controlled trial,SMD,-0.3371,-0.4798,-0.1943,72,61,low,10.1234/card-psyll-chol-02,cardiovascular_journal,cholesterol,Adults with cholesterol concerns,None reported,9
-CARD-PSYLL-CHOL_03,2015,randomized controlled trial,SMD,-0.4332,-0.5733,-0.2930,76,64,some concerns,10.1234/card-psyll-chol-03,cardiovascular_journal,cholesterol,Adults with cholesterol concerns,Mild GI discomfort,10

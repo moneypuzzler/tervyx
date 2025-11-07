@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-CARD-OMEGA-TRIG_01,2019,randomized controlled trial,SMD,-0.3303,-0.4604,-0.2001,74,58,mixed,10.1234/card-omega-trig-01,cardiovascular_journal,hypertriglyceridemia,Adults with hypertriglyceridemia concerns,Transient headache,11
-CARD-OMEGA-TRIG_02,2020,randomized controlled trial,SMD,-0.3638,-0.5267,-0.2009,78,61,low,10.1234/card-omega-trig-02,cardiovascular_journal,hypertriglyceridemia,Adults with hypertriglyceridemia concerns,None reported,6
-CARD-OMEGA-TRIG_03,2021,randomized controlled trial,SMD,-0.4407,-0.5746,-0.3068,82,64,some concerns,10.1234/card-omega-trig-03,cardiovascular_journal,hypertriglyceridemia,Adults with hypertriglyceridemia concerns,Mild GI discomfort,7

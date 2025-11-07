@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-CARD-CARN-PUMP_01,2014,randomized controlled trial,SMD,-0.3175,-0.4531,-0.1820,74,48,low,10.1234/card-carn-pump-01,cardiovascular_journal,exercise_capacity,Adults with exercise capacity concerns,None reported,9
-CARD-CARN-PUMP_02,2015,randomized controlled trial,SMD,-0.3918,-0.5466,-0.2370,78,51,some concerns,10.1234/card-carn-pump-02,cardiovascular_journal,exercise_capacity,Adults with exercise capacity concerns,Mild GI discomfort,10
-CARD-CARN-PUMP_03,2016,randomized controlled trial,SMD,-0.4401,-0.5897,-0.2905,82,54,mixed,10.1234/card-carn-pump-03,cardiovascular_journal,exercise_capacity,Adults with exercise capacity concerns,Transient headache,11

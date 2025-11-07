@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-SLP-PAS-REM_01,2015,randomized controlled trial,SMD,-0.3418,-0.4881,-0.1955,50,53,some concerns,10.1002/ptr.3400,sleep_journal,sleep_quality,Adults with sleep quality concerns,Mild GI discomfort,10
-SLP-PAS-REM_02,2016,randomized controlled trial,SMD,-0.3972,-0.5548,-0.2396,54,56,mixed,10.1097/YIC.0000000000000291,sleep_journal,sleep_quality,Adults with sleep quality concerns,Transient headache,11
-SLP-PAS-REM_03,2017,randomized controlled trial,SMD,-0.3816,-0.5223,-0.2409,58,59,low,10.7759/cureus.56530,sleep_journal,sleep_quality,Adults with sleep quality concerns,None reported,6

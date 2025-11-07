@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-MENT-NAC-OCD_01,2015,randomized controlled trial,SMD,-0.3245,-0.4569,-0.1921,50,53,some concerns,10.4088/JCP.16m11101,mental_health_journal,ocd,Adults with ocd concerns,Mild GI discomfort,7
-MENT-NAC-OCD_02,2016,randomized controlled trial,SMD,-0.3805,-0.5429,-0.2181,54,56,mixed,10.1016/j.jpsychires.2022.02.038,mental_health_journal,ocd,Adults with ocd concerns,Transient headache,8
-MENT-NAC-OCD_03,2017,randomized controlled trial,SMD,-0.4081,-0.5468,-0.2693,58,59,low,10.3389/fpsyt.2024.1421150,mental_health_journal,ocd,Adults with ocd concerns,None reported,9

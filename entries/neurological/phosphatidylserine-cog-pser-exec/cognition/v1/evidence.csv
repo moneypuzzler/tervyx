@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-COG-PSER-EXEC_01,2012,randomized controlled trial,SMD,0.2952,0.1617,0.4286,62,53,some concerns,10.1007/s40120-023-00454-z,cognition_journal,executive_function,Adults with executive function concerns,Mild GI discomfort,10
-COG-PSER-EXEC_02,2013,randomized controlled trial,SMD,0.3455,0.1962,0.4949,66,56,mixed,10.2147/CIA.S40348,cognition_journal,executive_function,Adults with executive function concerns,Transient headache,11
-COG-PSER-EXEC_03,2014,randomized controlled trial,SMD,0.3867,0.2423,0.5312,70,59,low,10.3892/etm.2024.12744,cognition_journal,executive_function,Adults with executive function concerns,None reported,6

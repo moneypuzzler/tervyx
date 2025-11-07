@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-META-GLU13_01,2015,randomized controlled trial,SMD,-0.2662,-0.42,-0.1124,63,68,some concerns,10.1234/chlorella-meta-glu13-01,metabolic_journal,lipid_profile,Adults with lipid profile concerns,Transient headache,11
-META-GLU13_02,2016,randomized controlled trial,SMD,-0.3641,-0.5163,-0.2119,66,71,some concerns,10.1234/chlorella-meta-glu13-02,metabolic_journal,lipid_profile,Adults with lipid profile concerns,None reported,11
-META-GLU13_03,2017,randomized controlled trial,SMD,-0.2548,-0.4071,-0.1025,68,64,mixed,10.1234/chlorella-meta-glu13-03,metabolic_journal,lipid_profile,Adults with lipid profile concerns,Transient headache,10

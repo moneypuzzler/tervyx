@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-CARD-DARK-CHOC_01,2006,randomized controlled trial,SMD,-0.2913,-0.4267,-0.1559,56,53,some concerns,10.1234/card-dark-choc-01,cardiovascular_journal,blood_pressure,Adults with blood pressure concerns,Mild GI discomfort,10
-CARD-DARK-CHOC_02,2007,randomized controlled trial,SMD,-0.3685,-0.4959,-0.2410,60,56,mixed,10.1234/card-dark-choc-02,cardiovascular_journal,blood_pressure,Adults with blood pressure concerns,Transient headache,11
-CARD-DARK-CHOC_03,2008,randomized controlled trial,SMD,-0.3995,-0.5446,-0.2544,64,59,low,10.1234/card-dark-choc-03,cardiovascular_journal,blood_pressure,Adults with blood pressure concerns,None reported,6

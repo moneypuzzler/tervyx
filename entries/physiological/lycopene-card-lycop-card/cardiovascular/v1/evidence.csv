@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-CARD-LYCOP-CARD_01,2012,randomized controlled trial,SMD,-0.3441,-0.4817,-0.2065,62,53,some concerns,10.1234/card-lycop-card-01,cardiovascular_journal,arterial_stiffness,Adults with arterial stiffness concerns,Mild GI discomfort,7
-CARD-LYCOP-CARD_02,2013,randomized controlled trial,SMD,-0.3531,-0.4964,-0.2098,66,56,mixed,10.1234/card-lycop-card-02,cardiovascular_journal,arterial_stiffness,Adults with arterial stiffness concerns,Transient headache,8
-CARD-LYCOP-CARD_03,2014,randomized controlled trial,SMD,-0.4183,-0.5829,-0.2537,70,59,low,10.1234/card-lycop-card-03,cardiovascular_journal,arterial_stiffness,Adults with arterial stiffness concerns,None reported,9

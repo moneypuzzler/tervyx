@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-MH-LTRP-SEROTONIN_01,2014,randomized controlled trial,SMD,-0.3351,-0.4648,-0.2054,74,48,low,10.1093/nutrit/nuab027,mental_health_journal,serotonin_modulation,Adults with serotonin modulation concerns,None reported,6
-MH-LTRP-SEROTONIN_02,2015,randomized controlled trial,SMD,-0.3591,-0.4899,-0.2282,78,51,some concerns,10.3389/fnut.2020.00099,mental_health_journal,serotonin_modulation,Adults with serotonin modulation concerns,Mild GI discomfort,7
-MH-LTRP-SEROTONIN_03,2016,randomized controlled trial,SMD,-0.4383,-0.5757,-0.3009,82,54,mixed,10.1111/j.1600-0447.2007.00961.x,mental_health_journal,serotonin_modulation,Adults with serotonin modulation concerns,Transient headache,8
