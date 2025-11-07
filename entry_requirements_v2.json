@@ -1,0 +1,184 @@
+[
+  {
+    "intervention_type": "supplement",
+    "subcategory": "minerals",
+    "product": "magnesium-glycinate",
+    "product_variants": ["magnesium-citrate", "magnesium-threonate", "magnesium-oxide"],
+    "outcomes": ["sleep", "anxiety", "muscle_pain", "cardiovascular"],
+    "priority": "high",
+    "studies_estimate": 30,
+    "notes": "One of most well-studied mineral supplements"
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "fatty_acids",
+    "product": "omega-3",
+    "product_variants": ["fish-oil", "krill-oil", "algal-oil"],
+    "outcomes": ["cardiovascular", "mental_health", "inflammation", "cognition"],
+    "priority": "high",
+    "studies_estimate": 50,
+    "notes": "Extensive evidence base, multiple FDA-approved formulations"
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "vitamins",
+    "product": "vitamin-d",
+    "product_variants": ["vitamin-d3", "vitamin-d2"],
+    "outcomes": ["immune", "musculoskeletal", "mental_health"],
+    "priority": "high",
+    "studies_estimate": 40
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "herbs_botanicals",
+    "product": "ashwagandha",
+    "outcomes": ["stress", "anxiety", "sleep", "cognition"],
+    "priority": "high",
+    "studies_estimate": 25
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "herbs_botanicals",
+    "product": "curcumin",
+    "product_variants": ["turmeric-extract"],
+    "outcomes": ["inflammation", "mental_health", "metabolic"],
+    "priority": "high",
+    "studies_estimate": 35
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "amino_acids",
+    "product": "l-theanine",
+    "outcomes": ["anxiety", "sleep", "cognition"],
+    "priority": "high",
+    "studies_estimate": 20
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "amino_acids",
+    "product": "glycine",
+    "outcomes": ["sleep", "cognition"],
+    "priority": "medium",
+    "studies_estimate": 15
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "specialty_compounds",
+    "product": "melatonin",
+    "outcomes": ["sleep"],
+    "priority": "high",
+    "studies_estimate": 45,
+    "notes": "Hormone supplement, well-established for sleep"
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "antioxidants",
+    "product": "resveratrol",
+    "outcomes": ["cardiovascular", "longevity", "metabolic"],
+    "priority": "medium",
+    "studies_estimate": 18
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "antioxidants",
+    "product": "coq10",
+    "outcomes": ["cardiovascular", "metabolic", "musculoskeletal"],
+    "priority": "high",
+    "studies_estimate": 28
+  },
+  {
+    "intervention_type": "device_noninvasive",
+    "subcategory": "electrical_stimulation",
+    "product": "tens",
+    "outcomes": ["pain_chronic", "pain_acute"],
+    "priority": "high",
+    "studies_estimate": 30,
+    "notes": "FDA-cleared for pain relief"
+  },
+  {
+    "intervention_type": "device_noninvasive",
+    "subcategory": "electrical_stimulation",
+    "product": "ems",
+    "outcomes": ["muscle_strength", "recovery"],
+    "priority": "medium",
+    "studies_estimate": 20,
+    "notes": "Exclude fat reduction claims (phi-fail)"
+  },
+  {
+    "intervention_type": "device_noninvasive",
+    "subcategory": "electrical_stimulation",
+    "product": "tdcs",
+    "outcomes": ["depression", "cognition"],
+    "priority": "medium",
+    "studies_estimate": 25,
+    "notes": "Transcranial direct current stimulation"
+  },
+  {
+    "intervention_type": "device_noninvasive",
+    "subcategory": "light_therapy",
+    "product": "red-light-therapy",
+    "outcomes": ["skin_aging", "wound_healing", "pain"],
+    "priority": "medium",
+    "studies_estimate": 22,
+    "notes": "Low-level laser therapy (LLLT)"
+  },
+  {
+    "intervention_type": "device_noninvasive",
+    "subcategory": "light_therapy",
+    "product": "blue-light-therapy",
+    "outcomes": ["acne", "seasonal_affective_disorder"],
+    "priority": "medium",
+    "studies_estimate": 15
+  },
+  {
+    "intervention_type": "behavioral",
+    "subcategory": "exercise",
+    "product": "aerobic-exercise",
+    "outcomes": ["cardiovascular", "metabolic", "mental_health", "cognition"],
+    "priority": "high",
+    "studies_estimate": 100,
+    "notes": "Most evidence-based intervention"
+  },
+  {
+    "intervention_type": "behavioral",
+    "subcategory": "meditation",
+    "product": "mindfulness",
+    "outcomes": ["anxiety", "stress", "depression", "pain"],
+    "priority": "high",
+    "studies_estimate": 50
+  },
+  {
+    "intervention_type": "behavioral",
+    "subcategory": "sleep_hygiene",
+    "product": "sleep-restriction-therapy",
+    "outcomes": ["insomnia"],
+    "priority": "high",
+    "studies_estimate": 30,
+    "notes": "Part of CBT-I protocol"
+  },
+  {
+    "intervention_type": "food",
+    "subcategory": "whole_foods",
+    "product": "beetroot",
+    "outcomes": ["cardiovascular", "athletic_performance"],
+    "priority": "medium",
+    "studies_estimate": 18,
+    "notes": "Nitrate-rich food"
+  },
+  {
+    "intervention_type": "food",
+    "subcategory": "whole_foods",
+    "product": "garlic",
+    "outcomes": ["cardiovascular", "immune"],
+    "priority": "medium",
+    "studies_estimate": 20
+  },
+  {
+    "intervention_type": "food",
+    "subcategory": "beverages",
+    "product": "green-tea",
+    "outcomes": ["metabolic", "cognition", "cardiovascular"],
+    "priority": "high",
+    "studies_estimate": 35
+  }
+]
