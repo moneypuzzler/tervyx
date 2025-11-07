@@ -58,13 +58,17 @@ Normalized atomic evidence units with standardized schema:
 
 ### 🚪 Gate Governance Protocol (GGP)
 Five sequential gates ensuring **safety-first monotonicity**:
-- **Φ (Natural/Category)**: Physiological impossibility / category misrouting → `FAIL`
+- **Φ (Phi/Natural)**: Blocks pseudoscience **automatically** via global forbidden patterns
+  - Germanium bracelets, magnetic therapy, quantum devices → instant `FAIL`
+  - Physiological impossibility / category misrouting → `FAIL`
 - **R (Relevance)**: Routing fit between claim and category
 - **J (Journal Trust)**: J-Oracle score; predatory/hijacked/retracted → `J-BLACK = 0`
 - **K (Safety)**: Absolute caps for contraindications and serious adverse events
 - **L (Exaggeration)**: "cure/permanent/instant/miracle" triggers corrective down-shifts
 
 **Monotone invariant**: Φ or K violations cannot be offset by high J scores.
+
+**NEW in v1.1**: Φ gate now includes 8 **global forbidden patterns** (Korean + English) that automatically reject non-local devices and pseudoscientific interventions before probabilistic evaluation.
 
 ### 🏆 TEL-5 (TERVYX Evidence Levels)
 5-tier classification based on `P(effect > δ)`:
@@ -105,7 +109,10 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-# Scaffold a new entry (creates a directory with a placeholder evidence.csv)
+# Test Φ gate with pseudoscience detection
+python test_phi_global_forbidden.py
+
+# Scaffold a new entry (intervention-based structure)
 # Format: {intervention_type} {subcategory} {product} {outcome}
 python scripts/tervyx.py new supplements minerals magnesium-glycinate sleep
 
@@ -122,6 +129,16 @@ cat entries/supplements/minerals/magnesium-glycinate/sleep/v1/citations.json
 
 # Fingerprint current policy configuration (captures gate rules + journal snapshot)
 python scripts/tervyx.py fingerprint
+```
+
+## 🧪 Testing Pseudoscience Rejection
+
+```bash
+# Test Φ gate forbidden patterns (14 test cases)
+python test_phi_global_forbidden.py
+
+# Expected: Germanium bracelets → Φ-FAIL → Black → FAIL
+# Expected: Legitimate supplements → PASS
 ```
 
 ## 🧮 Batch Entry Targeting Helper
@@ -142,57 +159,38 @@ tervyx-protocol/
 ├── protocol/
 │   ├── schemas/                 # JSON-Schema definitions
 │   │   ├── citations.schema.json  # Citations manifest
-│   │   ├── entry.schema.json      # Final TEL-5 entry format
+│   │   ├── entry.schema.json      # Final TEL-5 entry format (with intervention_type)
 │   │   ├── esv.schema.json        # Evidence State Vector
 │   │   └── simulation.schema.json # Monte Carlo outputs
 │   ├── journal_trust/
 │   │   └── snapshot-2025-10-30.json
-│   └── taxonomy/
-│       └── intervention_based_v2.yaml
-├── entries/                     # 1,000+ validated entries (intervention-based)
-│   ├── supplements/             # Dietary supplements
-│   │   ├── vitamins/           # vitamin-d, b12, k2, etc.
-│   │   ├── minerals/           # magnesium, zinc, iron, etc.
-│   │   ├── herbs_botanicals/   # ashwagandha, curcumin, etc.
-│   │   ├── amino_acids/        # l-theanine, glycine, 5-htp, etc.
-│   │   ├── fatty_acids/        # omega-3, fish-oil, etc.
-│   │   ├── probiotics/         # lactobacillus, multi-strain, etc.
-│   │   └── antioxidants/       # resveratrol, quercetin, coq10, etc.
-│   ├── devices/                 # Physical devices & therapies
-│   │   ├── electrical_stimulation/  # EMS, TENS, tDCS
-│   │   ├── wearables/          # germanium bracelets, ion bands
-│   │   ├── light_therapy/      # red light, blue light, SAD lamps
-│   │   └── thermal_therapy/    # sauna, cryotherapy
-│   ├── behavioral/              # Behavioral interventions
-│   │   ├── exercise/           # aerobic, resistance, yoga
-│   │   ├── meditation/         # mindfulness, transcendental
-│   │   └── sleep_hygiene/      # sleep restriction, stimulus control
-│   ├── foods/                   # Whole foods & dietary patterns
-│   │   ├── whole_foods/        # beetroot, garlic, ginger
-│   │   ├── fermented_foods/    # kimchi, kefir, kombucha
-│   │   └── beverages/          # green tea, coffee
-│   └── safety/                  # Contraindications & adverse events
-│       ├── drug_interactions/  # supplement-drug interactions
-│       ├── contraindications/  # pregnancy, disease-specific
-│       └── adverse_events/     # hepatotoxicity, nephrotoxicity
+│   ├── taxonomy/
+│   │   └── intervention_types_v2.yaml  # 2-axis taxonomy (Outcome × Intervention)
+│   └── phi_rules.yaml           # Φ gate rules + forbidden_global patterns
+├── entries/                     # Entry artifacts (structure prepared, entries generated last)
+│   └── .gitkeep
+├── entry_requirements_v2.json   # Intervention-based entry catalog (21 seed entries)
 ├── engine/                      # Core processing engine
 │   ├── citations.py             # Citations exporter
-│   ├── gates.py                 # Φ/R/J/K/L gate logic
+│   ├── gates.py                 # Φ/R/J/K/L gate logic (with global forbidden patterns)
 │   ├── mc_meta.py               # REML + Monte Carlo
 │   ├── policy_fingerprint.py    # Policy digest construction
 │   ├── schema_validate.py       # Schema validation helpers
 │   └── tel5_rules.py            # P(effect>δ) → TEL-5 mapping
-├── scripts/                     # CLI and utilities
+├── tools/                       # Build and automation scripts
+├── scripts/                     # CLI utilities
+├── tests/                       # Unit and integration tests
+├── test_phi_global_forbidden.py # Φ gate pseudoscience rejection tests
 └── .github/workflows/          # CI/CD pipeline
 ```
 
-**Current scope**: The repository contains **1,000+ validated entries** organized by **intervention type** (supplements, devices, behavioral, foods, safety). Each entry represents a **commercial product claim** (e.g., "Magnesium glycinate improves sleep quality") with complete artifact bundles:
-- `evidence.csv` - Study-level data (RCTs, cohorts)
-- `simulation.json` - REML + Monte Carlo results
-- `entry.jsonld` - Final TEL-5 label (Schema.org compliant)
-- `citations.json` - Structured bibliography with DOIs
+**Current state**: Repository is in **structure design phase**. The taxonomy, gate rules, and schemas are finalized. Entry generation will occur **last** after structure is confirmed and real paper DOIs are collected.
 
-**Policy version**: v1.3.0 | **TEL-5 version**: v1.2.0 | **Journal Trust snapshot**: 2025-10-30
+**Taxonomy**: **2-axis design** (Outcome × Intervention)
+- **Outcome axis**: sleep, cognition, cardiovascular, metabolic, etc. (12 categories)
+- **Intervention axis**: supplement, device_noninvasive, behavioral, food, pharmaceutical, procedure (6 types)
+
+**Policy version**: v1.3.0 | **TEL-5 version**: v1.2.0 | **Journal Trust snapshot**: 2025-10-30 | **Φ rules**: v1.1.0 (with forbidden_global)
 
 ## 🔧 Core Engine Implementation
 

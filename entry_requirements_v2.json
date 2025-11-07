@@ -7,7 +7,169 @@
     "outcomes": ["sleep", "anxiety", "muscle_pain", "cardiovascular"],
     "priority": "high",
     "studies_estimate": 30,
-    "notes": "One of most well-studied mineral supplements"
+    "notes": "Most well-studied magnesium form"
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "minerals",
+    "product": "zinc",
+    "product_variants": ["zinc-picolinate", "zinc-gluconate"],
+    "outcomes": ["immune", "skin_health", "testosterone"],
+    "priority": "high",
+    "studies_estimate": 25
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "minerals",
+    "product": "iron",
+    "product_variants": ["ferrous-sulfate", "ferrous-gluconate", "heme-iron"],
+    "outcomes": ["anemia", "fatigue", "cognition"],
+    "priority": "high",
+    "studies_estimate": 40
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "minerals",
+    "product": "calcium",
+    "product_variants": ["calcium-carbonate", "calcium-citrate"],
+    "outcomes": ["musculoskeletal", "cardiovascular"],
+    "priority": "high",
+    "studies_estimate": 35
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "minerals",
+    "product": "selenium",
+    "outcomes": ["immune", "thyroid", "antioxidant"],
+    "priority": "medium",
+    "studies_estimate": 18
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "minerals",
+    "product": "chromium",
+    "product_variants": ["chromium-picolinate"],
+    "outcomes": ["metabolic", "diabetes"],
+    "priority": "medium",
+    "studies_estimate": 20
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "minerals",
+    "product": "potassium",
+    "outcomes": ["cardiovascular", "blood_pressure"],
+    "priority": "medium",
+    "studies_estimate": 15
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "minerals",
+    "product": "iodine",
+    "outcomes": ["thyroid", "cognition"],
+    "priority": "medium",
+    "studies_estimate": 12
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "minerals",
+    "product": "manganese",
+    "outcomes": ["musculoskeletal", "antioxidant"],
+    "priority": "low",
+    "studies_estimate": 8
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "minerals",
+    "product": "copper",
+    "outcomes": ["cardiovascular", "connective_tissue"],
+    "priority": "low",
+    "studies_estimate": 10
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "vitamins",
+    "product": "vitamin-d",
+    "product_variants": ["vitamin-d3", "vitamin-d2"],
+    "outcomes": ["immune", "musculoskeletal", "mental_health", "cardiovascular"],
+    "priority": "high",
+    "studies_estimate": 50,
+    "notes": "Most researched vitamin"
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "vitamins",
+    "product": "vitamin-b12",
+    "product_variants": ["methylcobalamin", "cyanocobalamin"],
+    "outcomes": ["cognition", "energy", "anemia"],
+    "priority": "high",
+    "studies_estimate": 30
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "vitamins",
+    "product": "vitamin-k2",
+    "product_variants": ["mk-7", "mk-4"],
+    "outcomes": ["musculoskeletal", "cardiovascular"],
+    "priority": "high",
+    "studies_estimate": 22
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "vitamins",
+    "product": "vitamin-c",
+    "outcomes": ["immune", "skin_health", "cardiovascular"],
+    "priority": "high",
+    "studies_estimate": 40
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "vitamins",
+    "product": "vitamin-e",
+    "outcomes": ["cardiovascular", "skin_health", "cognition"],
+    "priority": "medium",
+    "studies_estimate": 25
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "vitamins",
+    "product": "b-complex",
+    "outcomes": ["energy", "cognition", "mental_health"],
+    "priority": "high",
+    "studies_estimate": 28
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "vitamins",
+    "product": "folate",
+    "product_variants": ["folic-acid", "methylfolate"],
+    "outcomes": ["pregnancy", "cardiovascular", "mental_health"],
+    "priority": "high",
+    "studies_estimate": 35
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "vitamins",
+    "product": "vitamin-a",
+    "product_variants": ["retinol", "beta-carotene"],
+    "outcomes": ["vision", "immune", "skin_health"],
+    "priority": "medium",
+    "studies_estimate": 20
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "vitamins",
+    "product": "vitamin-b6",
+    "outcomes": ["mental_health", "immune", "metabolic"],
+    "priority": "medium",
+    "studies_estimate": 18
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "vitamins",
+    "product": "niacin",
+    "outcomes": ["cardiovascular", "metabolic"],
+    "priority": "medium",
+    "studies_estimate": 20
   },
   {
     "intervention_type": "supplement",
@@ -16,34 +178,163 @@
     "product_variants": ["fish-oil", "krill-oil", "algal-oil"],
     "outcomes": ["cardiovascular", "mental_health", "inflammation", "cognition"],
     "priority": "high",
-    "studies_estimate": 50,
-    "notes": "Extensive evidence base, multiple FDA-approved formulations"
+    "studies_estimate": 60,
+    "notes": "Most studied supplement"
   },
   {
     "intervention_type": "supplement",
-    "subcategory": "vitamins",
-    "product": "vitamin-d",
-    "product_variants": ["vitamin-d3", "vitamin-d2"],
-    "outcomes": ["immune", "musculoskeletal", "mental_health"],
+    "subcategory": "fatty_acids",
+    "product": "dha",
+    "outcomes": ["cognition", "pregnancy", "cardiovascular"],
     "priority": "high",
-    "studies_estimate": 40
+    "studies_estimate": 30
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "fatty_acids",
+    "product": "epa",
+    "outcomes": ["mental_health", "inflammation", "cardiovascular"],
+    "priority": "high",
+    "studies_estimate": 25
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "fatty_acids",
+    "product": "cla",
+    "outcomes": ["metabolic", "body_composition"],
+    "priority": "medium",
+    "studies_estimate": 15
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "fatty_acids",
+    "product": "gla",
+    "outcomes": ["inflammation", "skin_health"],
+    "priority": "low",
+    "studies_estimate": 10
   },
   {
     "intervention_type": "supplement",
     "subcategory": "herbs_botanicals",
     "product": "ashwagandha",
-    "outcomes": ["stress", "anxiety", "sleep", "cognition"],
+    "outcomes": ["stress", "anxiety", "sleep", "cognition", "testosterone"],
     "priority": "high",
-    "studies_estimate": 25
+    "studies_estimate": 30
   },
   {
     "intervention_type": "supplement",
     "subcategory": "herbs_botanicals",
     "product": "curcumin",
     "product_variants": ["turmeric-extract"],
-    "outcomes": ["inflammation", "mental_health", "metabolic"],
+    "outcomes": ["inflammation", "mental_health", "metabolic", "pain"],
     "priority": "high",
-    "studies_estimate": 35
+    "studies_estimate": 40
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "herbs_botanicals",
+    "product": "rhodiola",
+    "outcomes": ["stress", "fatigue", "cognition"],
+    "priority": "high",
+    "studies_estimate": 20
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "herbs_botanicals",
+    "product": "ginseng",
+    "product_variants": ["panax-ginseng", "american-ginseng"],
+    "outcomes": ["cognition", "energy", "immune"],
+    "priority": "high",
+    "studies_estimate": 28
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "herbs_botanicals",
+    "product": "bacopa",
+    "outcomes": ["cognition", "anxiety"],
+    "priority": "medium",
+    "studies_estimate": 18
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "herbs_botanicals",
+    "product": "st-johns-wort",
+    "outcomes": ["mental_health"],
+    "priority": "high",
+    "studies_estimate": 25,
+    "notes": "Drug interaction warnings"
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "herbs_botanicals",
+    "product": "ginkgo-biloba",
+    "outcomes": ["cognition", "cardiovascular"],
+    "priority": "high",
+    "studies_estimate": 30
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "herbs_botanicals",
+    "product": "valerian",
+    "outcomes": ["sleep", "anxiety"],
+    "priority": "medium",
+    "studies_estimate": 15
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "herbs_botanicals",
+    "product": "chamomile",
+    "outcomes": ["sleep", "anxiety", "digestive"],
+    "priority": "medium",
+    "studies_estimate": 12
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "herbs_botanicals",
+    "product": "milk-thistle",
+    "outcomes": ["hepatic", "metabolic"],
+    "priority": "medium",
+    "studies_estimate": 16
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "herbs_botanicals",
+    "product": "saw-palmetto",
+    "outcomes": ["prostate", "urinary"],
+    "priority": "medium",
+    "studies_estimate": 18
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "herbs_botanicals",
+    "product": "feverfew",
+    "outcomes": ["migraine"],
+    "priority": "medium",
+    "studies_estimate": 12
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "herbs_botanicals",
+    "product": "black-cohosh",
+    "outcomes": ["menopause"],
+    "priority": "medium",
+    "studies_estimate": 14
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "herbs_botanicals",
+    "product": "echinacea",
+    "outcomes": ["immune", "respiratory"],
+    "priority": "medium",
+    "studies_estimate": 18
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "herbs_botanicals",
+    "product": "lions-mane",
+    "outcomes": ["cognition", "nerve_health"],
+    "priority": "medium",
+    "studies_estimate": 10
   },
   {
     "intervention_type": "supplement",
@@ -51,15 +342,143 @@
     "product": "l-theanine",
     "outcomes": ["anxiety", "sleep", "cognition"],
     "priority": "high",
-    "studies_estimate": 20
+    "studies_estimate": 22
   },
   {
     "intervention_type": "supplement",
     "subcategory": "amino_acids",
     "product": "glycine",
     "outcomes": ["sleep", "cognition"],
+    "priority": "high",
+    "studies_estimate": 16
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "amino_acids",
+    "product": "l-tryptophan",
+    "outcomes": ["sleep", "mental_health"],
+    "priority": "medium",
+    "studies_estimate": 14
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "amino_acids",
+    "product": "5-htp",
+    "outcomes": ["mental_health", "sleep"],
+    "priority": "medium",
+    "studies_estimate": 12
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "amino_acids",
+    "product": "l-tyrosine",
+    "outcomes": ["cognition", "stress", "energy"],
+    "priority": "medium",
+    "studies_estimate": 14
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "amino_acids",
+    "product": "taurine",
+    "outcomes": ["cardiovascular", "energy", "longevity"],
+    "priority": "medium",
+    "studies_estimate": 18
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "amino_acids",
+    "product": "l-carnitine",
+    "outcomes": ["energy", "athletic_performance", "cardiovascular"],
+    "priority": "medium",
+    "studies_estimate": 20
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "amino_acids",
+    "product": "creatine",
+    "outcomes": ["muscle_strength", "cognition", "athletic_performance"],
+    "priority": "high",
+    "studies_estimate": 35
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "amino_acids",
+    "product": "beta-alanine",
+    "outcomes": ["athletic_performance", "muscle_endurance"],
     "priority": "medium",
     "studies_estimate": 15
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "amino_acids",
+    "product": "glutamine",
+    "outcomes": ["digestive", "immune", "muscle_recovery"],
+    "priority": "medium",
+    "studies_estimate": 16
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "probiotics",
+    "product": "lactobacillus",
+    "outcomes": ["digestive", "immune", "mental_health"],
+    "priority": "high",
+    "studies_estimate": 30
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "probiotics",
+    "product": "bifidobacterium",
+    "outcomes": ["digestive", "immune"],
+    "priority": "high",
+    "studies_estimate": 25
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "probiotics",
+    "product": "multi-strain-probiotic",
+    "outcomes": ["digestive", "immune", "mental_health"],
+    "priority": "high",
+    "studies_estimate": 28
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "antioxidants",
+    "product": "resveratrol",
+    "outcomes": ["cardiovascular", "longevity", "metabolic"],
+    "priority": "high",
+    "studies_estimate": 22
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "antioxidants",
+    "product": "coq10",
+    "outcomes": ["cardiovascular", "metabolic", "musculoskeletal", "energy"],
+    "priority": "high",
+    "studies_estimate": 32
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "antioxidants",
+    "product": "quercetin",
+    "outcomes": ["immune", "inflammation", "cardiovascular"],
+    "priority": "medium",
+    "studies_estimate": 18
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "antioxidants",
+    "product": "alpha-lipoic-acid",
+    "outcomes": ["metabolic", "nerve_health", "antioxidant"],
+    "priority": "medium",
+    "studies_estimate": 16
+  },
+  {
+    "intervention_type": "supplement",
+    "subcategory": "antioxidants",
+    "product": "astaxanthin",
+    "outcomes": ["cardiovascular", "skin_health", "athletic_performance"],
+    "priority": "medium",
+    "studies_estimate": 14
   },
   {
     "intervention_type": "supplement",
@@ -67,24 +486,17 @@
     "product": "melatonin",
     "outcomes": ["sleep"],
     "priority": "high",
-    "studies_estimate": 45,
-    "notes": "Hormone supplement, well-established for sleep"
+    "studies_estimate": 50,
+    "notes": "Hormone supplement"
   },
   {
     "intervention_type": "supplement",
-    "subcategory": "antioxidants",
-    "product": "resveratrol",
-    "outcomes": ["cardiovascular", "longevity", "metabolic"],
-    "priority": "medium",
-    "studies_estimate": 18
-  },
-  {
-    "intervention_type": "supplement",
-    "subcategory": "antioxidants",
-    "product": "coq10",
-    "outcomes": ["cardiovascular", "metabolic", "musculoskeletal"],
+    "subcategory": "specialty_compounds",
+    "product": "cbd",
+    "outcomes": ["anxiety", "pain", "sleep"],
     "priority": "high",
-    "studies_estimate": 28
+    "studies_estimate": 25,
+    "notes": "Legal status varies"
   },
   {
     "intervention_type": "device_noninvasive",
@@ -92,8 +504,8 @@
     "product": "tens",
     "outcomes": ["pain_chronic", "pain_acute"],
     "priority": "high",
-    "studies_estimate": 30,
-    "notes": "FDA-cleared for pain relief"
+    "studies_estimate": 35,
+    "notes": "FDA-cleared for pain"
   },
   {
     "intervention_type": "device_noninvasive",
@@ -101,8 +513,8 @@
     "product": "ems",
     "outcomes": ["muscle_strength", "recovery"],
     "priority": "medium",
-    "studies_estimate": 20,
-    "notes": "Exclude fat reduction claims (phi-fail)"
+    "studies_estimate": 22,
+    "notes": "Exclude fat reduction claims"
   },
   {
     "intervention_type": "device_noninvasive",
@@ -110,17 +522,59 @@
     "product": "tdcs",
     "outcomes": ["depression", "cognition"],
     "priority": "medium",
-    "studies_estimate": 25,
-    "notes": "Transcranial direct current stimulation"
+    "studies_estimate": 28,
+    "notes": "Transcranial direct current"
+  },
+  {
+    "intervention_type": "device_noninvasive",
+    "subcategory": "electrical_stimulation",
+    "product": "rtms",
+    "outcomes": ["depression", "ocd"],
+    "priority": "high",
+    "studies_estimate": 40,
+    "notes": "FDA-cleared for depression"
+  },
+  {
+    "intervention_type": "device_noninvasive",
+    "subcategory": "electrical_stimulation",
+    "product": "tacs",
+    "outcomes": ["cognition", "sleep"],
+    "priority": "low",
+    "studies_estimate": 12,
+    "notes": "Transcranial alternating current"
+  },
+  {
+    "intervention_type": "device_noninvasive",
+    "subcategory": "electrical_stimulation",
+    "product": "vagus-nerve-stimulation",
+    "outcomes": ["depression", "epilepsy"],
+    "priority": "medium",
+    "studies_estimate": 18
+  },
+  {
+    "intervention_type": "device_noninvasive",
+    "subcategory": "electrical_stimulation",
+    "product": "spinal-cord-stimulation",
+    "outcomes": ["pain_chronic"],
+    "priority": "medium",
+    "studies_estimate": 20
+  },
+  {
+    "intervention_type": "device_noninvasive",
+    "subcategory": "electrical_stimulation",
+    "product": "interferential-current",
+    "outcomes": ["pain", "muscle_recovery"],
+    "priority": "low",
+    "studies_estimate": 10
   },
   {
     "intervention_type": "device_noninvasive",
     "subcategory": "light_therapy",
     "product": "red-light-therapy",
-    "outcomes": ["skin_aging", "wound_healing", "pain"],
-    "priority": "medium",
-    "studies_estimate": 22,
-    "notes": "Low-level laser therapy (LLLT)"
+    "outcomes": ["skin_aging", "wound_healing", "pain", "hair_loss"],
+    "priority": "high",
+    "studies_estimate": 25,
+    "notes": "Low-level laser therapy"
   },
   {
     "intervention_type": "device_noninvasive",
@@ -128,7 +582,88 @@
     "product": "blue-light-therapy",
     "outcomes": ["acne", "seasonal_affective_disorder"],
     "priority": "medium",
+    "studies_estimate": 16
+  },
+  {
+    "intervention_type": "device_noninvasive",
+    "subcategory": "light_therapy",
+    "product": "bright-light-therapy",
+    "outcomes": ["seasonal_affective_disorder", "sleep"],
+    "priority": "high",
+    "studies_estimate": 30
+  },
+  {
+    "intervention_type": "device_noninvasive",
+    "subcategory": "light_therapy",
+    "product": "infrared-therapy",
+    "outcomes": ["pain", "wound_healing", "circulation"],
+    "priority": "medium",
+    "studies_estimate": 18
+  },
+  {
+    "intervention_type": "device_noninvasive",
+    "subcategory": "light_therapy",
+    "product": "uv-therapy",
+    "outcomes": ["psoriasis", "eczema", "vitiligo"],
+    "priority": "medium",
+    "studies_estimate": 20
+  },
+  {
+    "intervention_type": "device_noninvasive",
+    "subcategory": "thermal_therapy",
+    "product": "sauna",
+    "outcomes": ["cardiovascular", "longevity", "recovery"],
+    "priority": "high",
+    "studies_estimate": 22
+  },
+  {
+    "intervention_type": "device_noninvasive",
+    "subcategory": "thermal_therapy",
+    "product": "cryotherapy",
+    "outcomes": ["recovery", "pain", "inflammation"],
+    "priority": "medium",
     "studies_estimate": 15
+  },
+  {
+    "intervention_type": "device_noninvasive",
+    "subcategory": "thermal_therapy",
+    "product": "heat-therapy",
+    "outcomes": ["pain", "muscle_recovery"],
+    "priority": "medium",
+    "studies_estimate": 18
+  },
+  {
+    "intervention_type": "device_noninvasive",
+    "subcategory": "mechanical",
+    "product": "vibration-plate",
+    "outcomes": ["musculoskeletal", "circulation"],
+    "priority": "medium",
+    "studies_estimate": 14,
+    "notes": "Exclude weight loss claims"
+  },
+  {
+    "intervention_type": "device_noninvasive",
+    "subcategory": "mechanical",
+    "product": "ultrasound-therapy",
+    "outcomes": ["wound_healing", "pain", "tissue_repair"],
+    "priority": "medium",
+    "studies_estimate": 20
+  },
+  {
+    "intervention_type": "device_noninvasive",
+    "subcategory": "mechanical",
+    "product": "compression-therapy",
+    "outcomes": ["recovery", "circulation", "lymphedema"],
+    "priority": "medium",
+    "studies_estimate": 16
+  },
+  {
+    "intervention_type": "device_noninvasive",
+    "subcategory": "mechanical",
+    "product": "traction-therapy",
+    "outcomes": ["back_pain", "neck_pain"],
+    "priority": "low",
+    "studies_estimate": 12
   },
   {
     "intervention_type": "behavioral",
@@ -141,11 +676,51 @@
   },
   {
     "intervention_type": "behavioral",
+    "subcategory": "exercise",
+    "product": "resistance-training",
+    "outcomes": ["musculoskeletal", "metabolic", "longevity"],
+    "priority": "high",
+    "studies_estimate": 80
+  },
+  {
+    "intervention_type": "behavioral",
+    "subcategory": "exercise",
+    "product": "yoga",
+    "outcomes": ["flexibility", "stress", "pain", "mental_health"],
+    "priority": "high",
+    "studies_estimate": 60
+  },
+  {
+    "intervention_type": "behavioral",
+    "subcategory": "exercise",
+    "product": "tai-chi",
+    "outcomes": ["balance", "cognition", "musculoskeletal"],
+    "priority": "medium",
+    "studies_estimate": 35
+  },
+  {
+    "intervention_type": "behavioral",
     "subcategory": "meditation",
     "product": "mindfulness",
     "outcomes": ["anxiety", "stress", "depression", "pain"],
     "priority": "high",
-    "studies_estimate": 50
+    "studies_estimate": 55
+  },
+  {
+    "intervention_type": "behavioral",
+    "subcategory": "meditation",
+    "product": "transcendental-meditation",
+    "outcomes": ["stress", "cardiovascular"],
+    "priority": "medium",
+    "studies_estimate": 25
+  },
+  {
+    "intervention_type": "behavioral",
+    "subcategory": "meditation",
+    "product": "loving-kindness-meditation",
+    "outcomes": ["mental_health", "social_connection"],
+    "priority": "medium",
+    "studies_estimate": 15
   },
   {
     "intervention_type": "behavioral",
@@ -153,32 +728,104 @@
     "product": "sleep-restriction-therapy",
     "outcomes": ["insomnia"],
     "priority": "high",
-    "studies_estimate": 30,
-    "notes": "Part of CBT-I protocol"
+    "studies_estimate": 32,
+    "notes": "Part of CBT-I"
+  },
+  {
+    "intervention_type": "behavioral",
+    "subcategory": "sleep_hygiene",
+    "product": "stimulus-control-therapy",
+    "outcomes": ["insomnia"],
+    "priority": "high",
+    "studies_estimate": 28
+  },
+  {
+    "intervention_type": "behavioral",
+    "subcategory": "sleep_hygiene",
+    "product": "sleep-schedule-regulation",
+    "outcomes": ["sleep", "circadian"],
+    "priority": "medium",
+    "studies_estimate": 20
   },
   {
     "intervention_type": "food",
     "subcategory": "whole_foods",
     "product": "beetroot",
     "outcomes": ["cardiovascular", "athletic_performance"],
-    "priority": "medium",
-    "studies_estimate": 18,
-    "notes": "Nitrate-rich food"
+    "priority": "high",
+    "studies_estimate": 20,
+    "notes": "Nitrate-rich"
   },
   {
     "intervention_type": "food",
     "subcategory": "whole_foods",
     "product": "garlic",
     "outcomes": ["cardiovascular", "immune"],
+    "priority": "high",
+    "studies_estimate": 22
+  },
+  {
+    "intervention_type": "food",
+    "subcategory": "whole_foods",
+    "product": "ginger",
+    "outcomes": ["nausea", "inflammation", "pain"],
+    "priority": "high",
+    "studies_estimate": 18
+  },
+  {
+    "intervention_type": "food",
+    "subcategory": "whole_foods",
+    "product": "tart-cherry",
+    "outcomes": ["sleep", "inflammation", "recovery"],
     "priority": "medium",
+    "studies_estimate": 14
+  },
+  {
+    "intervention_type": "food",
+    "subcategory": "whole_foods",
+    "product": "blueberry",
+    "outcomes": ["cognition", "cardiovascular", "metabolic"],
+    "priority": "high",
     "studies_estimate": 20
   },
   {
     "intervention_type": "food",
     "subcategory": "beverages",
     "product": "green-tea",
-    "outcomes": ["metabolic", "cognition", "cardiovascular"],
+    "outcomes": ["metabolic", "cognition", "cardiovascular", "longevity"],
     "priority": "high",
-    "studies_estimate": 35
+    "studies_estimate": 40
+  },
+  {
+    "intervention_type": "food",
+    "subcategory": "beverages",
+    "product": "coffee",
+    "outcomes": ["cognition", "metabolic", "longevity"],
+    "priority": "high",
+    "studies_estimate": 45
+  },
+  {
+    "intervention_type": "food",
+    "subcategory": "beverages",
+    "product": "cocoa",
+    "outcomes": ["cardiovascular", "cognition"],
+    "priority": "medium",
+    "studies_estimate": 18
+  },
+  {
+    "intervention_type": "food",
+    "subcategory": "fermented_foods",
+    "product": "kimchi",
+    "outcomes": ["digestive", "immune", "metabolic"],
+    "priority": "medium",
+    "studies_estimate": 12
+  },
+  {
+    "intervention_type": "food",
+    "subcategory": "fermented_foods",
+    "product": "kefir",
+    "outcomes": ["digestive", "immune"],
+    "priority": "medium",
+    "studies_estimate": 14
   }
 ]
