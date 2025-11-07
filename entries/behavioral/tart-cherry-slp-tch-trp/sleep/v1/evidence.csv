@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-SLP-TCH-TRP_01,2011,randomized controlled trial,SMD,-0.2969,-0.4417,-0.1521,56,48,low,10.1234/slp-tch-trp-01,sleep_journal,sleep_duration,Adults with sleep duration concerns,None reported,6
-SLP-TCH-TRP_02,2012,randomized controlled trial,SMD,-0.3768,-0.5058,-0.2477,60,51,some concerns,10.1234/slp-tch-trp-02,sleep_journal,sleep_duration,Adults with sleep duration concerns,Mild GI discomfort,7
-SLP-TCH-TRP_03,2013,randomized controlled trial,SMD,-0.4438,-0.5805,-0.3071,64,54,mixed,10.1234/slp-tch-trp-03,sleep_journal,sleep_duration,Adults with sleep duration concerns,Transient headache,8

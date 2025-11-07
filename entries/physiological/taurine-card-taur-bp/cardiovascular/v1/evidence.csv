@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-CARD-TAUR-BP_01,2015,randomized controlled trial,SMD,-0.3345,-0.4947,-0.1743,50,53,some concerns,10.1234/card-taur-bp-01,cardiovascular_journal,blood_pressure,Adults with blood pressure concerns,Mild GI discomfort,10
-CARD-TAUR-BP_02,2016,randomized controlled trial,SMD,-0.3443,-0.4942,-0.1945,54,56,mixed,10.1234/card-taur-bp-02,cardiovascular_journal,blood_pressure,Adults with blood pressure concerns,Transient headache,11
-CARD-TAUR-BP_03,2017,randomized controlled trial,SMD,-0.4184,-0.5653,-0.2715,58,59,low,10.1234/card-taur-bp-03,cardiovascular_journal,blood_pressure,Adults with blood pressure concerns,None reported,6

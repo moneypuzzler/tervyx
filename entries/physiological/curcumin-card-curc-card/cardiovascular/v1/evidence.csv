@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-CARD-CURC-CARD_01,2007,randomized controlled trial,SMD,-0.2856,-0.4366,-0.1347,62,58,mixed,10.1234/card-curc-card-01,cardiovascular_journal,lipoprotein_a,Adults with lipoprotein a concerns,Transient headache,11
-CARD-CURC-CARD_02,2008,randomized controlled trial,SMD,-0.3702,-0.5057,-0.2347,66,61,low,10.1234/card-curc-card-02,cardiovascular_journal,lipoprotein_a,Adults with lipoprotein a concerns,None reported,6
-CARD-CURC-CARD_03,2009,randomized controlled trial,SMD,-0.4152,-0.5462,-0.2842,70,64,some concerns,10.1234/card-curc-card-03,cardiovascular_journal,lipoprotein_a,Adults with lipoprotein a concerns,Mild GI discomfort,7

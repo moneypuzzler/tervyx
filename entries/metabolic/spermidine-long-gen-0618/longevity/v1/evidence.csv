@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-LONG-GEN-0618_01,2018,randomized controlled trial,SMD,0.3852,0.186,0.5844,63,72,mixed,10.1234/spermidine-long-gen-0618-01,longevity_journal,mitochondrial_function,Adults with mitochondrial function concerns,None reported,10
-LONG-GEN-0618_02,2019,randomized controlled trial,SMD,0.2984,0.1461,0.4507,60,74,mixed,10.1234/spermidine-long-gen-0618-02,longevity_journal,mitochondrial_function,Adults with mitochondrial function concerns,None reported,8
-LONG-GEN-0618_03,2020,randomized controlled trial,SMD,0.3115,0.132,0.491,71,58,low,10.1234/spermidine-long-gen-0618-03,longevity_journal,mitochondrial_function,Adults with mitochondrial function concerns,None reported,9

@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-COG-ACET-LEARN_01,2015,randomized controlled trial,SMD,0.3272,0.1634,0.4909,50,53,some concerns,10.3390/nu12061710,cognition_journal,processing_speed,Adults with processing speed concerns,Mild GI discomfort,7
-COG-ACET-LEARN_02,2016,randomized controlled trial,SMD,0.3713,0.2415,0.5011,54,56,mixed,10.1002/14651858.CD001015.pub2,cognition_journal,processing_speed,Adults with processing speed concerns,Transient headache,8
-COG-ACET-LEARN_03,2017,randomized controlled trial,SMD,0.4164,0.2523,0.5806,58,59,low,10.1016/S0197-4580(03)00006-5,cognition_journal,processing_speed,Adults with processing speed concerns,None reported,9

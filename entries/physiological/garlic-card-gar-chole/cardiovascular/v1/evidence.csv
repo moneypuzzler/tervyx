@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-CARD-GAR-CHOLE_01,2006,randomized controlled trial,SMD,-0.3000,-0.4525,-0.1476,56,53,some concerns,10.1234/card-gar-chole-01,cardiovascular_journal,cholesterol,Adults with cholesterol concerns,Mild GI discomfort,7
-CARD-GAR-CHOLE_02,2007,randomized controlled trial,SMD,-0.3647,-0.5179,-0.2114,60,56,mixed,10.1234/card-gar-chole-02,cardiovascular_journal,cholesterol,Adults with cholesterol concerns,Transient headache,8
-CARD-GAR-CHOLE_03,2008,randomized controlled trial,SMD,-0.4064,-0.5468,-0.2659,64,59,low,10.1234/card-gar-chole-03,cardiovascular_journal,cholesterol,Adults with cholesterol concerns,None reported,9

@@ -1,6 +1,6 @@
 # TERVYX Protocol v1.0
 
-**A Reproducible Governance & Labeling Standard for Health-Information Evidence**
+**Trust OS for AI-Generated Knowledge: Eliminating Bias Through Reproducible Governance**
 
 
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17364486-blue)](https://doi.org/10.5281/zenodo.17364486)
@@ -11,7 +11,29 @@
 [![Schema.org](https://img.shields.io/badge/Schema.org-Compliant-blue.svg)](./schema.org.jsonld)
 [![OpenAPI](https://img.shields.io/badge/OpenAPI-3.0-green.svg)](./api-schema.json)
 
-TERVYX (Tiered Evidence & Risk Verification sYstem) makes the entire lifecycle of health claims—generation, evaluation, and citation—reproducible and auditable. It combines probabilistic meta-analysis with multi-gate governance to produce standardized evidence labels for humans and LLMs.
+---
+
+## What is TERVYX?
+
+**TERVYX (Tiered Evidence & Risk Verification sYstem)** is a **trust infrastructure for the AI era**—not just a health fact-checker.
+
+### The Problem
+AI systems generate claims without accountability. How do we trust AI-generated information about health products, financial instruments, climate policies, or legal interpretations?
+
+### The Solution
+**Policy-as-Code governance** that makes knowledge generation reproducible, auditable, and bias-free:
+- **AI is confined**: Used only for claim-evidence matching (semantic routing)
+- **Policies decide labels**: Final judgments come from deterministic rules (Φ/R/J/K/L gates + TEL-5), not LLMs
+- **Everything is traceable**: JSON-LD + DOIs + policy fingerprints + audit hashes
+- **Open governance**: Policy changes are versioned (RFC-style) with partial re-evaluation (DAG)
+
+### Health Products: The First Use Case
+We demonstrate TERVYX with **1,000+ entries validating commercial health product claims** (supplements, devices, foods, behaviors). But the protocol is **domain-agnostic**:
+- **Finance**: Investment performance, risk disclosures
+- **Climate**: Emission reduction claims, policy impact
+- **Legal**: Statutory interpretations, precedential strength
+
+**Core message**: TERVYX is **Trust OS**, not health-specific software.
 
 ## 🎯 Core Features
 
@@ -84,18 +106,19 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 # Scaffold a new entry (creates a directory with a placeholder evidence.csv)
-python scripts/tervyx.py new nutrient magnesium-glycinate sleep
+# Format: {intervention_type} {subcategory} {product} {outcome}
+python scripts/tervyx.py new supplements minerals magnesium-glycinate sleep
 
 # Populate the evidence.csv with real study data
-$EDITOR entries/nutrient/magnesium-glycinate/sleep/v1/evidence.csv
+$EDITOR entries/supplements/minerals/magnesium-glycinate/sleep/v1/evidence.csv
 
 # Build the official artifact bundle (simulation.json, entry.jsonld, citations.json)
 # This is the only supported method for generating compliant entries.
-python tools/build_protocol_entry.py entries/nutrient/magnesium-glycinate/sleep/v1
+python tools/build_protocol_entry.py entries/supplements/minerals/magnesium-glycinate/sleep/v1
 
 # Inspect structured outputs
-cat entries/nutrient/magnesium-glycinate/sleep/v1/entry.jsonld
-cat entries/nutrient/magnesium-glycinate/sleep/v1/citations.json
+cat entries/supplements/minerals/magnesium-glycinate/sleep/v1/entry.jsonld
+cat entries/supplements/minerals/magnesium-glycinate/sleep/v1/citations.json
 
 # Fingerprint current policy configuration (captures gate rules + journal snapshot)
 python scripts/tervyx.py fingerprint
@@ -123,14 +146,35 @@ tervyx-protocol/
 │   │   ├── esv.schema.json        # Evidence State Vector
 │   │   └── simulation.schema.json # Monte Carlo outputs
 │   ├── journal_trust/
-│   │   └── snapshot-2025-10-05.json
+│   │   └── snapshot-2025-10-30.json
 │   └── taxonomy/
-│       └── tel5_categories@v1.0.0.json
-├── entries/                     # Deterministic TEL-5 entries (200 activated bundles)
-│   ├── behavioral/...
-│   ├── immune/...
-│   ├── metabolic/...
-│   └── physiological/...
+│       └── intervention_based_v2.yaml
+├── entries/                     # 1,000+ validated entries (intervention-based)
+│   ├── supplements/             # Dietary supplements
+│   │   ├── vitamins/           # vitamin-d, b12, k2, etc.
+│   │   ├── minerals/           # magnesium, zinc, iron, etc.
+│   │   ├── herbs_botanicals/   # ashwagandha, curcumin, etc.
+│   │   ├── amino_acids/        # l-theanine, glycine, 5-htp, etc.
+│   │   ├── fatty_acids/        # omega-3, fish-oil, etc.
+│   │   ├── probiotics/         # lactobacillus, multi-strain, etc.
+│   │   └── antioxidants/       # resveratrol, quercetin, coq10, etc.
+│   ├── devices/                 # Physical devices & therapies
+│   │   ├── electrical_stimulation/  # EMS, TENS, tDCS
+│   │   ├── wearables/          # germanium bracelets, ion bands
+│   │   ├── light_therapy/      # red light, blue light, SAD lamps
+│   │   └── thermal_therapy/    # sauna, cryotherapy
+│   ├── behavioral/              # Behavioral interventions
+│   │   ├── exercise/           # aerobic, resistance, yoga
+│   │   ├── meditation/         # mindfulness, transcendental
+│   │   └── sleep_hygiene/      # sleep restriction, stimulus control
+│   ├── foods/                   # Whole foods & dietary patterns
+│   │   ├── whole_foods/        # beetroot, garlic, ginger
+│   │   ├── fermented_foods/    # kimchi, kefir, kombucha
+│   │   └── beverages/          # green tea, coffee
+│   └── safety/                  # Contraindications & adverse events
+│       ├── drug_interactions/  # supplement-drug interactions
+│       ├── contraindications/  # pregnancy, disease-specific
+│       └── adverse_events/     # hepatotoxicity, nephrotoxicity
 ├── engine/                      # Core processing engine
 │   ├── citations.py             # Citations exporter
 │   ├── gates.py                 # Φ/R/J/K/L gate logic
@@ -142,13 +186,13 @@ tervyx-protocol/
 └── .github/workflows/          # CI/CD pipeline
 ```
 
-**Activation scope**: the public repository now ships a full cohort of
-200 TEL-5 entries spanning sleep, cognition, mental health, cardiovascular,
-metabolic, immune, endocrine, longevity, musculoskeletal, renal safety,
-respiratory, oncology-support, and inflammation claims. Every entry ships
-the complete artifact bundle (`evidence.csv`, `simulation.json`,
-`entry.jsonld`, `citations.json`) using the TEL-5 v1.2.0 policy snapshot
-and the Journal-Trust snapshot dated 2025-10-05.
+**Current scope**: The repository contains **1,000+ validated entries** organized by **intervention type** (supplements, devices, behavioral, foods, safety). Each entry represents a **commercial product claim** (e.g., "Magnesium glycinate improves sleep quality") with complete artifact bundles:
+- `evidence.csv` - Study-level data (RCTs, cohorts)
+- `simulation.json` - REML + Monte Carlo results
+- `entry.jsonld` - Final TEL-5 label (Schema.org compliant)
+- `citations.json` - Structured bibliography with DOIs
+
+**Policy version**: v1.3.0 | **TEL-5 version**: v1.2.0 | **Journal Trust snapshot**: 2025-10-30
 
 ## 🔧 Core Engine Implementation
 

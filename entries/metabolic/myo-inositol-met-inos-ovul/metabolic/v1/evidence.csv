@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-MET-INOS-OVUL_01,2012,randomized controlled trial,SMD,-0.273,-0.413,-0.133,65,63,some concerns,10.1234/myo-inositol-met-inos-ovul-01,metabolic_journal,ovulatory_dysfunction,Adults with ovulatory dysfunction concerns,Transient headache,11
-MET-INOS-OVUL_02,2013,randomized controlled trial,SMD,-0.3502,-0.5362,-0.1642,80,66,mixed,10.1234/myo-inositol-met-inos-ovul-02,metabolic_journal,ovulatory_dysfunction,Adults with ovulatory dysfunction concerns,Mild GI discomfort,8
-MET-INOS-OVUL_03,2014,randomized controlled trial,SMD,-0.3634,-0.5313,-0.1955,61,69,some concerns,10.1234/myo-inositol-met-inos-ovul-03,metabolic_journal,ovulatory_dysfunction,Adults with ovulatory dysfunction concerns,None reported,8

@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-COG-LION-NEURO_01,2010,randomized controlled trial,SMD,0.3344,0.2070,0.4619,50,58,mixed,10.2220/biomedres.40.125,cognition_journal,cognitive_decline,Adults with cognitive decline concerns,Transient headache,8
-COG-LION-NEURO_02,2011,randomized controlled trial,SMD,0.3826,0.2260,0.5392,54,61,low,10.1093/ecam/nem046,cognition_journal,cognitive_decline,Adults with cognitive decline concerns,None reported,9
-COG-LION-NEURO_03,2012,randomized controlled trial,SMD,0.4224,0.2638,0.5811,58,64,some concerns,10.3389/fnut.2023.1405796,cognition_journal,cognitive_decline,Adults with cognitive decline concerns,Mild GI discomfort,10

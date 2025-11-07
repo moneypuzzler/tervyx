@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-COG-PEP-NEURO_01,2007,randomized controlled trial,SMD,0.3337,0.2051,0.4624,62,58,mixed,10.1159/000377672,cognition_journal,cognitive_decline,Adults with cognitive decline concerns,Transient headache,8
-COG-PEP-NEURO_02,2008,randomized controlled trial,SMD,0.3867,0.2294,0.5440,66,61,low,10.1159/000200588,cognition_journal,cognitive_decline,Adults with cognitive decline concerns,None reported,9
-COG-PEP-NEURO_03,2009,randomized controlled trial,SMD,0.4140,0.2517,0.5763,70,64,some concerns,10.1159/000091790,cognition_journal,cognitive_decline,Adults with cognitive decline concerns,Mild GI discomfort,10

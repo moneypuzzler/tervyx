@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-SLEE-GEN-0083_01,2016,randomized controlled trial,SMD,-0.3385,-0.4927,-0.1843,61,61,some concerns,10.1234/ashwagandha-slee-gen-0083-01,sleep_journal,sleep_duration,Adults with sleep duration concerns,Mild GI discomfort,10
-SLEE-GEN-0083_02,2017,randomized controlled trial,SMD,-0.2888,-0.4658,-0.1118,81,69,low,10.1234/ashwagandha-slee-gen-0083-02,sleep_journal,sleep_duration,Adults with sleep duration concerns,None reported,10
-SLEE-GEN-0083_03,2018,randomized controlled trial,SMD,-0.2758,-0.3971,-0.1545,62,57,some concerns,10.1234/ashwagandha-slee-gen-0083-03,sleep_journal,sleep_duration,Adults with sleep duration concerns,Transient headache,12

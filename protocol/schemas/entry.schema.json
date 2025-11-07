@@ -44,7 +44,19 @@
         "longevity",
         "endocrine"
       ],
-      "description": "Evidence category from TEL-5 taxonomy"
+      "description": "Evidence category (outcome) from TEL-5 taxonomy"
+    },
+    "intervention_type": {
+      "type": "string",
+      "enum": [
+        "supplement",
+        "device_noninvasive",
+        "behavioral",
+        "food",
+        "pharmaceutical",
+        "procedure"
+      ],
+      "description": "Intervention type classification (v2.0 taxonomy)"
     },
     "tier": {
       "type": "string",

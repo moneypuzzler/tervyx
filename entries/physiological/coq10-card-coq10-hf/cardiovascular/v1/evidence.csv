@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-CARD-COQ10-HF_01,2005,randomized controlled trial,SMD,-0.3474,-0.4855,-0.2093,50,48,low,10.1234/card-coq10-hf-01,cardiovascular_journal,heart_failure,Adults with heart failure concerns,None reported,6
-CARD-COQ10-HF_02,2006,randomized controlled trial,SMD,-0.3314,-0.4637,-0.1992,54,51,some concerns,10.1234/card-coq10-hf-02,cardiovascular_journal,heart_failure,Adults with heart failure concerns,Mild GI discomfort,7
-CARD-COQ10-HF_03,2007,randomized controlled trial,SMD,-0.4170,-0.5491,-0.2849,58,54,mixed,10.1234/card-coq10-hf-03,cardiovascular_journal,heart_failure,Adults with heart failure concerns,Transient headache,8

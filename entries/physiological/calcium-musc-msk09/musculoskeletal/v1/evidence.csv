@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-MUSC-MSK09_01,2016,randomized controlled trial,SMD,0.3177,0.1783,0.4571,82,64,mixed,10.1234/calcium-musc-msk09-01,musculoskeletal_journal,joint_health,Adults with joint health concerns,None reported,10
-MUSC-MSK09_02,2017,randomized controlled trial,SMD,0.3205,0.1755,0.4655,70,67,mixed,10.1234/calcium-musc-msk09-02,musculoskeletal_journal,joint_health,Adults with joint health concerns,Mild GI discomfort,10
-MUSC-MSK09_03,2018,randomized controlled trial,SMD,0.3349,0.2001,0.4697,61,74,low,10.1234/calcium-musc-msk09-03,musculoskeletal_journal,joint_health,Adults with joint health concerns,Mild GI discomfort,8

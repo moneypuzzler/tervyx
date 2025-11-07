@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-MH-PEP-NEURO_01,2018,randomized controlled trial,SMD,-0.3336,-0.4588,-0.2084,68,53,some concerns,10.1038/s41398-023-02649-z,mental_health_journal,attachment_security,Adults with attachment security concerns,Mild GI discomfort,10
-MH-PEP-NEURO_02,2019,randomized controlled trial,SMD,-0.3328,-0.4613,-0.2044,72,56,mixed,10.1016/j.biopsych.2020.06.007,mental_health_journal,attachment_security,Adults with attachment security concerns,Transient headache,11
-MH-PEP-NEURO_03,2020,randomized controlled trial,SMD,-0.4478,-0.5905,-0.3051,76,59,low,10.1080/10673229.2018.1564921,mental_health_journal,attachment_security,Adults with attachment security concerns,None reported,6

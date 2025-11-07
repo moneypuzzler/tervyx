@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-CARD-REDY-STATIN_01,2008,randomized controlled trial,SMD,-0.3203,-0.4466,-0.1941,68,48,low,10.1234/card-redy-statin-01,cardiovascular_journal,cholesterol,Adults with cholesterol concerns,None reported,9
-CARD-REDY-STATIN_02,2009,randomized controlled trial,SMD,-0.3642,-0.4903,-0.2380,72,51,some concerns,10.1234/card-redy-statin-02,cardiovascular_journal,cholesterol,Adults with cholesterol concerns,Mild GI discomfort,10
-CARD-REDY-STATIN_03,2010,randomized controlled trial,SMD,-0.4101,-0.5416,-0.2785,76,54,mixed,10.1234/card-redy-statin-03,cardiovascular_journal,cholesterol,Adults with cholesterol concerns,Transient headache,11

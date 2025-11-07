@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-SLP-CHM-APNEA_01,2010,randomized controlled trial,SMD,-0.2858,-0.4216,-0.1500,50,58,mixed,10.1234/slp-chm-apnea-01,sleep_journal,sleep_quality,Adults with sleep quality concerns,Transient headache,11
-SLP-CHM-APNEA_02,2011,randomized controlled trial,SMD,-0.3651,-0.4984,-0.2317,54,61,low,10.1234/slp-chm-apnea-02,sleep_journal,sleep_quality,Adults with sleep quality concerns,None reported,6
-SLP-CHM-APNEA_03,2012,randomized controlled trial,SMD,-0.3887,-0.5498,-0.2275,58,64,some concerns,10.1234/slp-chm-apnea-03,sleep_journal,sleep_quality,Adults with sleep quality concerns,Mild GI discomfort,7

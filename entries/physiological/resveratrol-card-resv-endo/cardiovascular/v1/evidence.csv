@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-CARD-RESV-ENDO_01,2012,randomized controlled trial,SMD,-0.2808,-0.4077,-0.1539,62,53,some concerns,10.1234/card-resv-endo-01,cardiovascular_journal,endothelial_health,Adults with endothelial health concerns,Mild GI discomfort,7
-CARD-RESV-ENDO_02,2013,randomized controlled trial,SMD,-0.3743,-0.5069,-0.2417,66,56,mixed,10.1234/card-resv-endo-02,cardiovascular_journal,endothelial_health,Adults with endothelial health concerns,Transient headache,8
-CARD-RESV-ENDO_03,2014,randomized controlled trial,SMD,-0.4459,-0.5990,-0.2929,70,59,low,10.1234/card-resv-endo-03,cardiovascular_journal,endothelial_health,Adults with endothelial health concerns,None reported,9

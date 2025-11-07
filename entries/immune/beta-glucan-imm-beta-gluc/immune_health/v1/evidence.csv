@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-IMM-BETA-GLUC-01,2015,randomized controlled trial,SMD,0.2562,0.0735,0.4389,91,96,some concerns,10.1234/imm-beta-gluc-01,immune_health-journal-01,immune_readiness,Adults with immune readiness concerns,None reported,8
-IMM-BETA-GLUC-02,2020,randomized controlled trial,SMD,0.2508,0.0857,0.4159,74,81,mixed,10.1234/imm-beta-gluc-02,immune_health-journal-02,immune_readiness,Adults with immune readiness concerns,None reported,13
-IMM-BETA-GLUC-03,2011,randomized controlled trial,SMD,0.2454,0.0979,0.3929,87,96,low,10.1234/imm-beta-gluc-03,immune_health-journal-03,immune_readiness,Adults with immune readiness concerns,Transient headache,11

@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-MENT-STJ-WORT_01,2016,randomized controlled trial,SMD,-0.3450,-0.4755,-0.2146,56,58,mixed,10.1001/jama.285.15.1978,mental_health_journal,depression,Adults with depression concerns,Transient headache,11
-MENT-STJ-WORT_02,2017,randomized controlled trial,SMD,-0.3540,-0.5176,-0.1905,60,61,low,10.1001/jama.287.14.1807,mental_health_journal,depression,Adults with depression concerns,None reported,6
-MENT-STJ-WORT_03,2018,randomized controlled trial,SMD,-0.3895,-0.5309,-0.2482,64,64,some concerns,10.1192/bjp.186.2.99,mental_health_journal,depression,Adults with depression concerns,Mild GI discomfort,7

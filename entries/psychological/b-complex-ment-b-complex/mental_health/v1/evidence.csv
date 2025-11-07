@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-MENT-B-COMPLEX_01,2005,randomized controlled trial,SMD,-0.2823,-0.4385,-0.1260,50,48,low,10.3390/nu11092232,mental_health_journal,anxiety,Adults with anxiety concerns,None reported,9
-MENT-B-COMPLEX_02,2006,randomized controlled trial,SMD,-0.3898,-0.5236,-0.2559,54,51,some concerns,10.1080/1028415X.2022.2031494,mental_health_journal,anxiety,Adults with anxiety concerns,Mild GI discomfort,10
-MENT-B-COMPLEX_03,2007,randomized controlled trial,SMD,-0.3848,-0.5463,-0.2234,58,54,mixed,10.1002/hup.2852,mental_health_journal,anxiety,Adults with anxiety concerns,Transient headache,11

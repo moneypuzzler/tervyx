@@ -103,13 +103,45 @@ def compute_journal_trust_score(snapshot: Dict[str, Any], journal_id: str) -> fl
 
 
 def check_phi_gate(category: str, evidence_rows: List[Dict[str, Any]],
-                   substance: str = "") -> Tuple[str, str]:
-    """Evaluate Φ gate using deterministic policy rules."""
+                   substance: str = "", claim_text: str = "") -> Tuple[str, str]:
+    """
+    Evaluate Φ gate using deterministic policy rules.
+
+    Checks for:
+    1. Global forbidden patterns (non-local devices, pseudoscience)
+    2. Category-specific effect type restrictions
+    3. Physiological plausibility caps
+    4. Substance-category misrouting
+
+    Args:
+        category: Target category (e.g., 'sleep', 'cardiovascular')
+        evidence_rows: Study-level evidence data
+        substance: Intervention/substance name
+        claim_text: Full claim text for pattern matching
+
+    Returns:
+        Tuple of (status, reason) where status is 'PASS' or 'FAIL'
+    """
 
     if not evidence_rows:
         return "FAIL", "No evidence provided for Φ gate evaluation"
 
     rules = _load_phi_rules()
+
+    # --- GLOBAL FORBIDDEN PATTERNS (highest priority) ---
+    # Check for non-local devices and pseudoscientific interventions
+    forbidden_global = rules.get("forbidden_global", []) or []
+    search_text = f"{substance} {claim_text}".lower()
+
+    for ban in forbidden_global:
+        pattern = str(ban.get("pattern", ""))
+        if pattern and re.search(pattern, search_text, re.IGNORECASE):
+            reason = ban.get("reason", "Global Φ forbidden pattern detected")
+            note = ban.get("note", "")
+            logger.warning(f"Φ-FAIL: {reason} | Pattern: {pattern} | Note: {note}")
+            return "FAIL", f"{reason} (global exclusion)"
+
+    # --- CATEGORY-SPECIFIC RULES ---
     category_rules = (rules.get("categories") or {}).get(category)
 
     if not category_rules:
@@ -474,9 +506,10 @@ def evaluate_gate_governance_protocol(evidence_rows: List[Dict[str, Any]],
         Dictionary with comprehensive gate results and summary
     """
     gates_config = policy.get("gates", {})
-    
+
     # Gate Φ: Natural/Category violation (deterministic safety gate)
-    phi_result, phi_reason = check_phi_gate(category, evidence_rows, substance)
+    # Includes global forbidden patterns (non-local devices, pseudoscience)
+    phi_result, phi_reason = check_phi_gate(category, evidence_rows, substance, claim_text)
     phi_violation = (phi_result == "FAIL")
     
     # Gate R: Relevance assessment 

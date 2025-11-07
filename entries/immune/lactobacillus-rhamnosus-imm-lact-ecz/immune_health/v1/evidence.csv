@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-IMM-LACT-ECZ-01,2013,randomized controlled trial,SMD,0.2686,0.0972,0.44,83,78,mixed,10.1234/imm-lact-ecz-01,immune_health-journal-01,atopic_dermatitis,Adults with atopic dermatitis concerns,Mild GI discomfort,13
-IMM-LACT-ECZ-02,2018,randomized controlled trial,SMD,0.2632,0.1094,0.417,96,93,mixed,10.1234/imm-lact-ecz-02,immune_health-journal-02,atopic_dermatitis,Adults with atopic dermatitis concerns,None reported,11
-IMM-LACT-ECZ-03,2023,randomized controlled trial,SMD,0.2578,0.1215,0.3941,79,77,low,10.1234/imm-lact-ecz-03,immune_health-journal-03,atopic_dermatitis,Adults with atopic dermatitis concerns,Transient headache,10

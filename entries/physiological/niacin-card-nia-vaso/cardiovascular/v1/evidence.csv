@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-CARD-NIA-VASO_01,2005,randomized controlled trial,SMD,-0.2845,-0.4130,-0.1560,50,48,low,10.1234/card-nia-vaso-01,cardiovascular_journal,hdl_cholesterol,Adults with hdl cholesterol concerns,None reported,9
-CARD-NIA-VASO_02,2006,randomized controlled trial,SMD,-0.3723,-0.5191,-0.2254,54,51,some concerns,10.1234/card-nia-vaso-02,cardiovascular_journal,hdl_cholesterol,Adults with hdl cholesterol concerns,Mild GI discomfort,10
-CARD-NIA-VASO_03,2007,randomized controlled trial,SMD,-0.4492,-0.5988,-0.2996,58,54,mixed,10.1234/card-nia-vaso-03,cardiovascular_journal,hdl_cholesterol,Adults with hdl cholesterol concerns,Transient headache,11
