@@ -1,0 +1,281 @@
+version: v2.0.0
+updated: 2025-11-07
+description: |
+  Intervention-based taxonomy for TERVYX Protocol.
+  Defines intervention types and their Φ/K gate requirements.
+
+  This taxonomy enables 2-axis categorization:
+  - Outcome axis: sleep, cognition, metabolic_health, etc. (existing)
+  - Intervention axis: supplement, device_noninvasive, behavioral, etc. (new)
+
+intervention_types:
+  supplement:
+    id: supplement
+    name: "Dietary Supplement / Herbal"
+    description: "Orally consumed nutritional supplements and herbal products"
+    examples:
+      - magnesium glycinate
+      - ashwagandha
+      - berberine
+      - omega-3
+      - vitamin D
+      - curcumin
+      - probiotics
+    phi_requirements:
+      - id: oral_bioavailability
+        description: "Must have plausible oral absorption pathway"
+      - id: dose_response
+        description: "Dose must be within physiologically relevant range"
+    k_safety_profile: medium
+    notes: |
+      Requires verification of:
+      - Product purity and standardization
+      - Dosage within safe/effective range
+      - No contraindications for target population
+
+  device_noninvasive:
+    id: device_noninvasive
+    name: "Non-invasive Device"
+    description: "External devices with local energy transfer mechanism"
+    examples:
+      - EMS (electrical muscle stimulation)
+      - TENS (transcutaneous electrical nerve stimulation)
+      - tDCS (transcranial direct current stimulation)
+      - rTMS (repetitive transcranial magnetic stimulation)
+      - red light therapy (LLLT)
+      - infrared therapy
+      - ultrasound therapy
+      - vibration plates
+    phi_requirements:
+      - id: local_action_required
+        description: "Must have physical contact or validated energy coupling"
+      - id: mechanism_validation
+        description: "Energy transfer pathway must be scientifically plausible"
+      - id: dosimetry
+        description: "Energy dose (current, magnetic field, wavelength) must be specified"
+    phi_exclusions:
+      - germanium bracelets (no coupling mechanism)
+      - magnetic bracelets (insufficient field strength)
+      - ion bands (no validated emission)
+      - copper bracelets (no transdermal absorption at therapeutic levels)
+    k_safety_profile: high
+    notes: |
+      Requires:
+      - Validated energy coupling mechanism
+      - Dosimetry data (field strength, current density, wavelength, irradiance)
+      - Tissue penetration depth evidence
+      - Safety limits for energy exposure
+
+  behavioral:
+    id: behavioral
+    name: "Behavioral / Lifestyle Intervention"
+    description: "Non-product behavioral modifications"
+    examples:
+      - sleep hygiene protocols
+      - meditation (mindfulness, transcendental)
+      - exercise programs (aerobic, resistance, yoga)
+      - breathing techniques
+      - cognitive behavioral therapy (CBT)
+      - stress management protocols
+    phi_requirements:
+      - id: plausibility_general
+        description: "Intervention must have plausible psychophysiological basis"
+    k_safety_profile: low
+    notes: |
+      Generally low risk, but consider:
+      - Contraindications for specific populations
+      - Intensity/duration limits
+      - Supervision requirements
+
+  food:
+    id: food
+    name: "Whole Food / Dietary Pattern"
+    description: "Unprocessed foods or dietary patterns"
+    examples:
+      - beetroot
+      - garlic
+      - ginger
+      - tart cherry
+      - green tea
+      - kimchi
+      - Mediterranean diet
+      - intermittent fasting
+    phi_requirements:
+      - id: bioactive_components
+        description: "Must contain identified bioactive compounds"
+      - id: achievable_intake
+        description: "Dosage achievable through normal dietary intake"
+    k_safety_profile: low
+    notes: |
+      Generally safe, but consider:
+      - Allergenicity
+      - Drug-nutrient interactions
+      - Excessive intake risks
+
+  pharmaceutical:
+    id: pharmaceutical
+    name: "Approved Pharmaceutical"
+    description: "Prescription or OTC medications"
+    examples:
+      - SSRIs (for depression)
+      - metformin (for diabetes)
+      - statins (for cholesterol)
+      - NSAIDs (for pain/inflammation)
+    phi_requirements:
+      - id: indication_match
+        description: "Use must match approved indication or have off-label evidence"
+    k_safety_profile: critical
+    notes: |
+      Highest scrutiny required:
+      - FDA/regulatory approval status
+      - Contraindications
+      - Drug-drug interactions
+      - Serious adverse event monitoring
+
+  procedure:
+    id: procedure
+    name: "Procedure / Manual Therapy"
+    description: "Hands-on or procedural interventions"
+    examples:
+      - acupuncture
+      - spinal manipulation (chiropractic)
+      - massage therapy
+      - cupping
+      - dry needling
+    phi_requirements:
+      - id: mechanistic_support
+        description: "Must have plausible mechanism (neurophysiological or biomechanical)"
+    k_safety_profile: medium
+    notes: |
+      Requires:
+      - Practitioner qualification
+      - Technique standardization
+      - Contraindication screening
+
+# Outcome-intervention compatibility matrix
+# Defines which intervention types are plausible for each outcome category
+outcome_intervention_compatibility:
+  sleep:
+    allowed_interventions:
+      - supplement
+      - behavioral
+      - device_noninvasive  # Limited: light therapy, sound therapy
+    conditional:
+      - intervention: device_noninvasive
+        restrictions:
+          - "Light therapy (blue light blocking, bright light therapy)"
+          - "Sound therapy (binaural beats, white noise)"
+          - "Temperature regulation devices"
+        exclusions:
+          - "EMS, TENS (no validated mechanism for sleep)"
+    notes: "Primary interventions are supplements and behavioral. Devices require specific mechanisms."
+
+  cognition:
+    allowed_interventions:
+      - supplement
+      - behavioral
+      - device_noninvasive  # Limited: tDCS, rTMS with evidence
+      - pharmaceutical
+    conditional:
+      - intervention: device_noninvasive
+        restrictions:
+          - "tDCS (transcranial direct current stimulation)"
+          - "rTMS (repetitive transcranial magnetic stimulation)"
+        exclusions:
+          - "Bracelets, wearables without validated cognitive coupling"
+
+  mental_health:
+    allowed_interventions:
+      - supplement
+      - behavioral
+      - pharmaceutical
+      - device_noninvasive  # Limited: rTMS, tDCS for depression
+      - procedure  # Acupuncture with evidence
+    conditional:
+      - intervention: device_noninvasive
+        restrictions:
+          - "rTMS for depression (FDA-cleared)"
+          - "tDCS for depression (research contexts)"
+        exclusions:
+          - "Ion bands, magnetic bracelets claiming mood effects"
+
+  cardiovascular:
+    allowed_interventions:
+      - supplement
+      - food
+      - behavioral  # Exercise primary
+      - pharmaceutical
+    exclusions:
+      - "Bracelets/wearables claiming circulation improvement"
+      - "Magnetic therapy for blood pressure"
+
+  metabolic:
+    allowed_interventions:
+      - supplement
+      - food
+      - behavioral  # Exercise, fasting
+      - pharmaceutical
+      - device_noninvasive  # Very limited
+    conditional:
+      - intervention: device_noninvasive
+        restrictions:
+          - "EMS for muscle metabolism (glycogen, insulin sensitivity) with validated mechanism"
+        exclusions:
+          - "EMS for fat reduction (insufficient evidence for lipolysis)"
+          - "Vibration plates for weight loss (implausible mechanism)"
+
+  immune:
+    allowed_interventions:
+      - supplement
+      - food
+      - behavioral
+      - pharmaceutical
+    exclusions:
+      - "Devices claiming immune boosting without mechanism"
+
+  musculoskeletal:
+    allowed_interventions:
+      - supplement
+      - behavioral  # Exercise primary
+      - device_noninvasive  # TENS, ultrasound for pain
+      - procedure  # Manual therapy
+      - pharmaceutical
+    conditional:
+      - intervention: device_noninvasive
+        restrictions:
+          - "TENS for pain (validated)"
+          - "Ultrasound for tissue healing"
+          - "EMS for muscle strength (validated)"
+        exclusions:
+          - "Magnetic bracelets for arthritis"
+
+  renal_safety:
+    allowed_interventions:
+      - supplement  # Safety monitoring
+      - pharmaceutical  # Contraindication assessment
+    notes: "Primarily safety/contraindication assessments, not efficacy claims"
+
+# Φ gate enforcement rules by intervention type
+phi_gate_enforcement:
+  strict:
+    - device_noninvasive  # Must prove energy coupling
+    - pharmaceutical      # Must match indication
+  moderate:
+    - supplement          # Must have plausible absorption
+    - procedure           # Must have mechanistic support
+  lenient:
+    - behavioral          # General plausibility sufficient
+    - food               # Bioactive components check
+
+# K gate (safety) priorities by intervention type
+k_gate_priorities:
+  critical:
+    - pharmaceutical  # Serious adverse events, drug interactions
+  high:
+    - device_noninvasive  # Electrical/thermal injury risk
+  medium:
+    - supplement  # Hepatotoxicity, nephrotoxicity, interactions
+    - procedure   # Injury risk from manual manipulation
+  low:
+    - behavioral  # Minimal direct harm risk
+    - food       # Generally safe at dietary levels

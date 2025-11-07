@@ -64,3 +64,38 @@ misrouting:
   - substance_pattern: "magnesium"
     blocked_categories: ["renal_safety"]
     reason: "Magnesium formulations cannot be routed to renal recovery claims per TEL-5"
+
+# Global forbidden patterns - non-local action devices and pseudoscientific interventions
+# These patterns trigger immediate Φ-FAIL regardless of category
+forbidden_global:
+  - pattern: "(germanium.{0,20}(bracelet|band|jewelry|팔찌|밴드)|게르마늄.{0,20}(팔찌|밴드|제품))"
+    reason: "Non-local device with no plausible physiological coupling mechanism (Φ-FAIL)"
+    note: "Germanium accessories claim systemic effects without energy transfer pathway"
+
+  - pattern: "(magnetic.{0,20}(bracelet|band|jewelry|팔찌|밴드)|자석.{0,20}(팔찌|밴드|제품))"
+    reason: "Magnetic field devices without therapeutic-grade field strength (Φ-FAIL)"
+    note: "Consumer magnetic accessories lack sufficient field strength for biological effect"
+
+  - pattern: "(ion.{0,20}(bracelet|band|wristband|팔찌|밴드)|이온.{0,20}(팔찌|밴드|제품))"
+    reason: "Ion-emitting wearables without validated emission mechanism (Φ-FAIL)"
+    note: "Claims of negative ion emission require dosimetry and exposure pathway"
+
+  - pattern: "(copper.{0,20}(bracelet|band|jewelry|팔찌|밴드)|구리.{0,20}(팔찌|밴드|제품))"
+    reason: "Copper accessories claiming systemic absorption without dermal penetration (Φ-FAIL)"
+    note: "Metallic copper does not transdermally absorb at therapeutic levels"
+
+  - pattern: "(quantum|양자).{0,20}(pendant|necklace|bracelet|팬던트|목걸이|팔찌|energy|에너지)"
+    reason: "Quantum pseudoscience claims without physical mechanism (Φ-FAIL)"
+    note: "Commercial 'quantum' devices lack coherence and entanglement requirements"
+
+  - pattern: "(bio.?resonance|바이오.?공명|bio.?frequency|생체.?주파수).{0,40}(device|기기|band|밴드|치료)"
+    reason: "Bioresonance devices without validated frequency-response model (Φ-FAIL)"
+    note: "Claims require specific frequency bands and tissue coupling mechanisms"
+
+  - pattern: "(scalar.{0,20}(energy|wave|field)|스칼라.{0,20}(에너지|파동|장))"
+    reason: "Scalar wave claims violate Maxwell's equations (Φ-FAIL)"
+    note: "Scalar electromagnetic waves are not supported by physics"
+
+  - pattern: "(detox.{0,20}(foot.?pad|발.?패드)|디톡스.{0,20}(풋.?패드|발.?패드))"
+    reason: "Detox foot pads with chemical color change misattributed to toxin extraction (Φ-FAIL)"
+    note: "Color change is chemical reaction with moisture, not toxin removal"
