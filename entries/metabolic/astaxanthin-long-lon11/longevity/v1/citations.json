@@ -1,74 +1,74 @@
 {
-  "generated": "2025-11-05T06:50:36.554697+00:00",
+  "generated": "2025-11-06T07:16:45.647603+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/metabolic/astaxanthin-long-lon11/longevity/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
     {
-      "study_id": "LONG-LON11-01",
-      "year": 2011,
+      "study_id": "LONG-LON11_01",
+      "year": 2018,
       "design": "randomized controlled trial",
-      "journal": "longevity-journal-01",
+      "journal": "longevity_journal",
       "outcome": "telomere_support",
       "population": "Adults with telomere support concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/long-lon11-01",
-      "url": "https://doi.org/10.1234/long-lon11-01",
-      "citation": "LONG-LON11-01 (2011); Journal: longevity-journal-01; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/long-lon11-01; Adverse Events: None reported."
+      "doi": "10.1234/astaxanthin-long-lon11-01",
+      "url": "https://doi.org/10.1234/astaxanthin-long-lon11-01",
+      "citation": "LONG-LON11_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/astaxanthin-long-lon11-01; Adverse Events: None reported."
     },
     {
-      "study_id": "LONG-LON11-02",
-      "year": 2016,
+      "study_id": "LONG-LON11_02",
+      "year": 2019,
       "design": "randomized controlled trial",
-      "journal": "longevity-journal-02",
+      "journal": "longevity_journal",
       "outcome": "telomere_support",
       "population": "Adults with telomere support concerns",
-      "adverse_events": "Transient headache",
-      "doi": "10.1234/long-lon11-02",
-      "url": "https://doi.org/10.1234/long-lon11-02",
-      "citation": "LONG-LON11-02 (2016); Journal: longevity-journal-02; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/long-lon11-02; Adverse Events: Transient headache."
+      "adverse_events": "None reported",
+      "doi": "10.1234/astaxanthin-long-lon11-02",
+      "url": "https://doi.org/10.1234/astaxanthin-long-lon11-02",
+      "citation": "LONG-LON11_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/astaxanthin-long-lon11-02; Adverse Events: None reported."
     },
     {
-      "study_id": "LONG-LON11-03",
-      "year": 2021,
+      "study_id": "LONG-LON11_03",
+      "year": 2020,
       "design": "randomized controlled trial",
-      "journal": "longevity-journal-03",
+      "journal": "longevity_journal",
       "outcome": "telomere_support",
       "population": "Adults with telomere support concerns",
-      "adverse_events": "Transient headache",
-      "doi": "10.1234/long-lon11-03",
-      "url": "https://doi.org/10.1234/long-lon11-03",
-      "citation": "LONG-LON11-03 (2021); Journal: longevity-journal-03; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/long-lon11-03; Adverse Events: Transient headache."
+      "adverse_events": "None reported",
+      "doi": "10.1234/astaxanthin-long-lon11-03",
+      "url": "https://doi.org/10.1234/astaxanthin-long-lon11-03",
+      "citation": "LONG-LON11_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/astaxanthin-long-lon11-03; Adverse Events: None reported."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/long-lon11-01",
+      "identifier": "10.1234/astaxanthin-long-lon11-01",
       "study_ids": [
-        "LONG-LON11-01"
+        "LONG-LON11_01"
       ],
-      "primary_study_id": "LONG-LON11-01",
-      "url": "https://doi.org/10.1234/long-lon11-01"
+      "primary_study_id": "LONG-LON11_01",
+      "url": "https://doi.org/10.1234/astaxanthin-long-lon11-01"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/long-lon11-02",
+      "identifier": "10.1234/astaxanthin-long-lon11-02",
       "study_ids": [
-        "LONG-LON11-02"
+        "LONG-LON11_02"
       ],
-      "primary_study_id": "LONG-LON11-02",
-      "url": "https://doi.org/10.1234/long-lon11-02"
+      "primary_study_id": "LONG-LON11_02",
+      "url": "https://doi.org/10.1234/astaxanthin-long-lon11-02"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/long-lon11-03",
+      "identifier": "10.1234/astaxanthin-long-lon11-03",
       "study_ids": [
-        "LONG-LON11-03"
+        "LONG-LON11_03"
       ],
-      "primary_study_id": "LONG-LON11-03",
-      "url": "https://doi.org/10.1234/long-lon11-03"
+      "primary_study_id": "LONG-LON11_03",
+      "url": "https://doi.org/10.1234/astaxanthin-long-lon11-03"
     }
   ],
-  "manifest_hash": "sha256:3b7e47b30665475ec216a9db0791ab8de745d3814416144763710a6d33ae5da6"
+  "manifest_hash": "sha256:b134ef15d77aca8ae489a1b7f3749b585fcb6f087bfccebe41bda12142da7425"
 }

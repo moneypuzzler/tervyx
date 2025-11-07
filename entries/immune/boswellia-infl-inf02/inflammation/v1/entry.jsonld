@@ -6,7 +6,7 @@
   "category": "inflammation",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 0.949,
+  "P_effect_gt_delta": 0.9952,
   "gate_results": {
     "phi": "FAIL",
     "r": 0.9,
@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 524,
-    "I2": 0.0,
-    "tau2": 0.0,
-    "mu_hat": 0.275934,
+    "total_n": 420,
+    "I2": 24.3,
+    "tau2": 0.00247267,
+    "mu_hat": 0.326053,
     "mu_CI95": [
-      0.18484,
-      0.367029
+      0.226767,
+      0.425338
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:15.155173+00:00",
+  "created": "2025-11-06T07:17:27.876151+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,54 +60,54 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/infl-inf02-01",
+      "@id": "doi:10.1234/boswellia-infl-inf02-01",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf02-01",
+      "identifier": "doi:10.1234/boswellia-infl-inf02-01",
       "studyIds": [
-        "INFL-INF02-01"
+        "INFL-INF02_01"
       ],
-      "citation": "INFL-INF02-01 (2020); Journal: inflammation-journal-01; Design: randomized controlled trial; Population: Adults with systemic inflammation concerns; Outcome: systemic_inflammation; DOI: 10.1234/infl-inf02-01; Adverse Events: None reported.",
-      "doi": "10.1234/infl-inf02-01",
-      "sameAs": "https://doi.org/10.1234/infl-inf02-01",
-      "datePublished": "2020",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "inflammation-journal-01"
-      }
-    },
-    {
-      "@id": "doi:10.1234/infl-inf02-02",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf02-02",
-      "studyIds": [
-        "INFL-INF02-02"
-      ],
-      "citation": "INFL-INF02-02 (2011); Journal: inflammation-journal-02; Design: randomized controlled trial; Population: Adults with systemic inflammation concerns; Outcome: systemic_inflammation; DOI: 10.1234/infl-inf02-02; Adverse Events: None reported.",
-      "doi": "10.1234/infl-inf02-02",
-      "sameAs": "https://doi.org/10.1234/infl-inf02-02",
-      "datePublished": "2011",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "inflammation-journal-02"
-      }
-    },
-    {
-      "@id": "doi:10.1234/infl-inf02-03",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf02-03",
-      "studyIds": [
-        "INFL-INF02-03"
-      ],
-      "citation": "INFL-INF02-03 (2016); Journal: inflammation-journal-03; Design: randomized controlled trial; Population: Adults with systemic inflammation concerns; Outcome: systemic_inflammation; DOI: 10.1234/infl-inf02-03; Adverse Events: Transient headache.",
-      "doi": "10.1234/infl-inf02-03",
-      "sameAs": "https://doi.org/10.1234/infl-inf02-03",
+      "citation": "INFL-INF02_01 (2016); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with systemic inflammation concerns; Outcome: systemic_inflammation; DOI: 10.1234/boswellia-infl-inf02-01; Adverse Events: Transient headache.",
+      "doi": "10.1234/boswellia-infl-inf02-01",
+      "sameAs": "https://doi.org/10.1234/boswellia-infl-inf02-01",
       "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "inflammation-journal-03"
+        "name": "inflammation_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/boswellia-infl-inf02-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/boswellia-infl-inf02-02",
+      "studyIds": [
+        "INFL-INF02_02"
+      ],
+      "citation": "INFL-INF02_02 (2017); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with systemic inflammation concerns; Outcome: systemic_inflammation; DOI: 10.1234/boswellia-infl-inf02-02; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/boswellia-infl-inf02-02",
+      "sameAs": "https://doi.org/10.1234/boswellia-infl-inf02-02",
+      "datePublished": "2017",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "inflammation_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/boswellia-infl-inf02-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/boswellia-infl-inf02-03",
+      "studyIds": [
+        "INFL-INF02_03"
+      ],
+      "citation": "INFL-INF02_03 (2018); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with systemic inflammation concerns; Outcome: systemic_inflammation; DOI: 10.1234/boswellia-infl-inf02-03; Adverse Events: None reported.",
+      "doi": "10.1234/boswellia-infl-inf02-03",
+      "sameAs": "https://doi.org/10.1234/boswellia-infl-inf02-03",
+      "datePublished": "2018",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "inflammation_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:3991065960829ae4a193aaf3737cc062cd17ef55778516b040de9cf154663be7",
-  "audit_hash": "0xe42aa6d8ec77cf9e"
+  "citations_manifest_hash": "sha256:b0b72e2f5a306681cb33e510f6221a0d3e1513e54cbcb101f2c2e3a9745cfcfc",
+  "audit_hash": "0x53392faf696cdd42"
 }

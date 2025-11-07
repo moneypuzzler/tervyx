@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-INFL-INF07-01,2020,randomized controlled trial,SMD,-0.2964,-0.4858,-0.107,82,95,some concerns,10.1234/infl-inf07-01,inflammation-journal-01,systemic_inflammation,Adults with systemic inflammation concerns,None reported,13
-INFL-INF07-02,2011,randomized controlled trial,SMD,-0.291,-0.4628,-0.1192,95,80,mixed,10.1234/infl-inf07-02,inflammation-journal-02,systemic_inflammation,Adults with systemic inflammation concerns,None reported,12
-INFL-INF07-03,2016,randomized controlled trial,SMD,-0.2856,-0.4398,-0.1314,78,94,mixed,10.1234/infl-inf07-03,inflammation-journal-03,systemic_inflammation,Adults with systemic inflammation concerns,Transient headache,10
+INFL-INF07_01,2016,randomized controlled trial,SMD,-0.3177,-0.5089,-0.1265,73,61,some concerns,10.1234/green-tea-infl-inf07-01,inflammation_journal,systemic_inflammation,Adults with systemic inflammation concerns,Transient headache,11
+INFL-INF07_02,2017,randomized controlled trial,SMD,-0.2529,-0.381,-0.1248,65,69,low,10.1234/green-tea-infl-inf07-02,inflammation_journal,systemic_inflammation,Adults with systemic inflammation concerns,Mild GI discomfort,9
+INFL-INF07_03,2018,randomized controlled trial,SMD,-0.3991,-0.5208,-0.2774,79,73,mixed,10.1234/green-tea-infl-inf07-03,inflammation_journal,systemic_inflammation,Adults with systemic inflammation concerns,None reported,9

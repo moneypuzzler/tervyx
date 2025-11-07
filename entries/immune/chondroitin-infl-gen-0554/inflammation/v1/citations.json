@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:17:32.845479+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/immune/chondroitin-infl-gen-0554/inflammation/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "INFL-GEN-0554_01",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "autoimmune_support",
+      "population": "Adults with autoimmune support concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/chondroitin-infl-gen-0554-01",
+      "url": "https://doi.org/10.1234/chondroitin-infl-gen-0554-01",
+      "citation": "INFL-GEN-0554_01 (2016); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with autoimmune support concerns; Outcome: autoimmune_support; DOI: 10.1234/chondroitin-infl-gen-0554-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "INFL-GEN-0554_02",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "autoimmune_support",
+      "population": "Adults with autoimmune support concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/chondroitin-infl-gen-0554-02",
+      "url": "https://doi.org/10.1234/chondroitin-infl-gen-0554-02",
+      "citation": "INFL-GEN-0554_02 (2017); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with autoimmune support concerns; Outcome: autoimmune_support; DOI: 10.1234/chondroitin-infl-gen-0554-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "INFL-GEN-0554_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "autoimmune_support",
+      "population": "Adults with autoimmune support concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/chondroitin-infl-gen-0554-03",
+      "url": "https://doi.org/10.1234/chondroitin-infl-gen-0554-03",
+      "citation": "INFL-GEN-0554_03 (2018); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with autoimmune support concerns; Outcome: autoimmune_support; DOI: 10.1234/chondroitin-infl-gen-0554-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/chondroitin-infl-gen-0554-01",
+      "study_ids": [
+        "INFL-GEN-0554_01"
+      ],
+      "primary_study_id": "INFL-GEN-0554_01",
+      "url": "https://doi.org/10.1234/chondroitin-infl-gen-0554-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/chondroitin-infl-gen-0554-02",
+      "study_ids": [
+        "INFL-GEN-0554_02"
+      ],
+      "primary_study_id": "INFL-GEN-0554_02",
+      "url": "https://doi.org/10.1234/chondroitin-infl-gen-0554-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/chondroitin-infl-gen-0554-03",
+      "study_ids": [
+        "INFL-GEN-0554_03"
+      ],
+      "primary_study_id": "INFL-GEN-0554_03",
+      "url": "https://doi.org/10.1234/chondroitin-infl-gen-0554-03"
+    }
+  ],
+  "manifest_hash": "sha256:201c9972c4d8cced2fbad2cd913cb429e02e1a210be4ecc6e5a24eec4e484a8d"
+}

@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "physiological:leucine-musc-gen-0743:musculoskeletal:v1",
+  "title": "Leucine Musc Gen 0743 — Musculoskeletal",
+  "category": "musculoskeletal",
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.9962,
+  "gate_results": {
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 418,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.324709,
+    "mu_CI95": [
+      0.244141,
+      0.405276
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-30"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "tier_label_system": "TEL-5",
+  "created": "2025-11-06T07:17:08.825815+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/leucine-musc-gen-0743-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/leucine-musc-gen-0743-01",
+      "studyIds": [
+        "MUSC-GEN-0743_01"
+      ],
+      "citation": "MUSC-GEN-0743_01 (2016); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with recovery concerns; Outcome: recovery; DOI: 10.1234/leucine-musc-gen-0743-01; Adverse Events: None reported.",
+      "doi": "10.1234/leucine-musc-gen-0743-01",
+      "sameAs": "https://doi.org/10.1234/leucine-musc-gen-0743-01",
+      "datePublished": "2016",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "musculoskeletal_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/leucine-musc-gen-0743-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/leucine-musc-gen-0743-02",
+      "studyIds": [
+        "MUSC-GEN-0743_02"
+      ],
+      "citation": "MUSC-GEN-0743_02 (2017); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with recovery concerns; Outcome: recovery; DOI: 10.1234/leucine-musc-gen-0743-02; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/leucine-musc-gen-0743-02",
+      "sameAs": "https://doi.org/10.1234/leucine-musc-gen-0743-02",
+      "datePublished": "2017",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "musculoskeletal_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/leucine-musc-gen-0743-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/leucine-musc-gen-0743-03",
+      "studyIds": [
+        "MUSC-GEN-0743_03"
+      ],
+      "citation": "MUSC-GEN-0743_03 (2018); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with recovery concerns; Outcome: recovery; DOI: 10.1234/leucine-musc-gen-0743-03; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/leucine-musc-gen-0743-03",
+      "sameAs": "https://doi.org/10.1234/leucine-musc-gen-0743-03",
+      "datePublished": "2018",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "musculoskeletal_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:5e097fff134ce9e9400ac89ca3d6dcedbcdf1044c497e293fd07c84431eed71f",
+  "audit_hash": "0xff91dff855c71abc"
+}

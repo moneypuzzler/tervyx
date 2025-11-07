@@ -1,74 +1,74 @@
 {
-  "generated": "2025-11-05T06:51:22.906032+00:00",
+  "generated": "2025-11-06T07:17:04.616994+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/physiological/hyaluronic-acid-musc-msk07/musculoskeletal/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
     {
-      "study_id": "MUSC-MSK07-01",
-      "year": 2022,
+      "study_id": "MUSC-MSK07_01",
+      "year": 2016,
       "design": "randomized controlled trial",
-      "journal": "musculoskeletal-journal-01",
-      "outcome": "muscle_recovery",
-      "population": "Adults with muscle recovery concerns",
-      "adverse_events": "Transient headache",
-      "doi": "10.1234/musc-msk07-01",
-      "url": "https://doi.org/10.1234/musc-msk07-01",
-      "citation": "MUSC-MSK07-01 (2022); Journal: musculoskeletal-journal-01; Design: randomized controlled trial; Population: Adults with muscle recovery concerns; Outcome: muscle_recovery; DOI: 10.1234/musc-msk07-01; Adverse Events: Transient headache."
-    },
-    {
-      "study_id": "MUSC-MSK07-02",
-      "year": 2013,
-      "design": "randomized controlled trial",
-      "journal": "musculoskeletal-journal-02",
-      "outcome": "muscle_recovery",
-      "population": "Adults with muscle recovery concerns",
-      "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/musc-msk07-02",
-      "url": "https://doi.org/10.1234/musc-msk07-02",
-      "citation": "MUSC-MSK07-02 (2013); Journal: musculoskeletal-journal-02; Design: randomized controlled trial; Population: Adults with muscle recovery concerns; Outcome: muscle_recovery; DOI: 10.1234/musc-msk07-02; Adverse Events: Mild GI discomfort."
-    },
-    {
-      "study_id": "MUSC-MSK07-03",
-      "year": 2018,
-      "design": "randomized controlled trial",
-      "journal": "musculoskeletal-journal-03",
+      "journal": "musculoskeletal_journal",
       "outcome": "muscle_recovery",
       "population": "Adults with muscle recovery concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/musc-msk07-03",
-      "url": "https://doi.org/10.1234/musc-msk07-03",
-      "citation": "MUSC-MSK07-03 (2018); Journal: musculoskeletal-journal-03; Design: randomized controlled trial; Population: Adults with muscle recovery concerns; Outcome: muscle_recovery; DOI: 10.1234/musc-msk07-03; Adverse Events: None reported."
+      "doi": "10.1234/hyaluronic-acid-musc-msk07-01",
+      "url": "https://doi.org/10.1234/hyaluronic-acid-musc-msk07-01",
+      "citation": "MUSC-MSK07_01 (2016); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with muscle recovery concerns; Outcome: muscle_recovery; DOI: 10.1234/hyaluronic-acid-musc-msk07-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "MUSC-MSK07_02",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "muscle_recovery",
+      "population": "Adults with muscle recovery concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/hyaluronic-acid-musc-msk07-02",
+      "url": "https://doi.org/10.1234/hyaluronic-acid-musc-msk07-02",
+      "citation": "MUSC-MSK07_02 (2017); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with muscle recovery concerns; Outcome: muscle_recovery; DOI: 10.1234/hyaluronic-acid-musc-msk07-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "MUSC-MSK07_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "muscle_recovery",
+      "population": "Adults with muscle recovery concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/hyaluronic-acid-musc-msk07-03",
+      "url": "https://doi.org/10.1234/hyaluronic-acid-musc-msk07-03",
+      "citation": "MUSC-MSK07_03 (2018); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with muscle recovery concerns; Outcome: muscle_recovery; DOI: 10.1234/hyaluronic-acid-musc-msk07-03; Adverse Events: Mild GI discomfort."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/musc-msk07-01",
+      "identifier": "10.1234/hyaluronic-acid-musc-msk07-01",
       "study_ids": [
-        "MUSC-MSK07-01"
+        "MUSC-MSK07_01"
       ],
-      "primary_study_id": "MUSC-MSK07-01",
-      "url": "https://doi.org/10.1234/musc-msk07-01"
+      "primary_study_id": "MUSC-MSK07_01",
+      "url": "https://doi.org/10.1234/hyaluronic-acid-musc-msk07-01"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/musc-msk07-02",
+      "identifier": "10.1234/hyaluronic-acid-musc-msk07-02",
       "study_ids": [
-        "MUSC-MSK07-02"
+        "MUSC-MSK07_02"
       ],
-      "primary_study_id": "MUSC-MSK07-02",
-      "url": "https://doi.org/10.1234/musc-msk07-02"
+      "primary_study_id": "MUSC-MSK07_02",
+      "url": "https://doi.org/10.1234/hyaluronic-acid-musc-msk07-02"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/musc-msk07-03",
+      "identifier": "10.1234/hyaluronic-acid-musc-msk07-03",
       "study_ids": [
-        "MUSC-MSK07-03"
+        "MUSC-MSK07_03"
       ],
-      "primary_study_id": "MUSC-MSK07-03",
-      "url": "https://doi.org/10.1234/musc-msk07-03"
+      "primary_study_id": "MUSC-MSK07_03",
+      "url": "https://doi.org/10.1234/hyaluronic-acid-musc-msk07-03"
     }
   ],
-  "manifest_hash": "sha256:6070957bccf4cb8c9e67538d98267298c91e81cd34f028c9ff4fa9b7e73067e5"
+  "manifest_hash": "sha256:ff2dfc25e0966b82d6515b3a845ddee8157eae237b3181c1bebfa0930d71b841"
 }

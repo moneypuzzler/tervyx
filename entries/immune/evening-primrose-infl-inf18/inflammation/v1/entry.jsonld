@@ -6,7 +6,7 @@
   "category": "inflammation",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 0.7814,
+  "P_effect_gt_delta": 0.9952,
   "gate_results": {
     "phi": "FAIL",
     "r": 0.9,
@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 496,
-    "I2": 0.0,
-    "tau2": 0.0,
-    "mu_hat": 0.23171,
+    "total_n": 420,
+    "I2": 24.3,
+    "tau2": 0.00247267,
+    "mu_hat": 0.326053,
     "mu_CI95": [
-      0.150944,
-      0.312477
+      0.226767,
+      0.425338
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:20.441529+00:00",
+  "created": "2025-11-06T07:17:29.054633+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,54 +60,54 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/infl-inf18-01",
+      "@id": "doi:10.1234/evening-primrose-infl-inf18-01",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf18-01",
+      "identifier": "doi:10.1234/evening-primrose-infl-inf18-01",
       "studyIds": [
-        "INFL-INF18-01"
+        "INFL-INF18_01"
       ],
-      "citation": "INFL-INF18-01 (2010); Journal: inflammation-journal-01; Design: randomized controlled trial; Population: Adults with recovery concerns; Outcome: recovery; DOI: 10.1234/infl-inf18-01; Adverse Events: None reported.",
-      "doi": "10.1234/infl-inf18-01",
-      "sameAs": "https://doi.org/10.1234/infl-inf18-01",
-      "datePublished": "2010",
+      "citation": "INFL-INF18_01 (2016); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with recovery concerns; Outcome: recovery; DOI: 10.1234/evening-primrose-infl-inf18-01; Adverse Events: Transient headache.",
+      "doi": "10.1234/evening-primrose-infl-inf18-01",
+      "sameAs": "https://doi.org/10.1234/evening-primrose-infl-inf18-01",
+      "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "inflammation-journal-01"
+        "name": "inflammation_journal"
       }
     },
     {
-      "@id": "doi:10.1234/infl-inf18-02",
+      "@id": "doi:10.1234/evening-primrose-infl-inf18-02",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf18-02",
+      "identifier": "doi:10.1234/evening-primrose-infl-inf18-02",
       "studyIds": [
-        "INFL-INF18-02"
+        "INFL-INF18_02"
       ],
-      "citation": "INFL-INF18-02 (2015); Journal: inflammation-journal-02; Design: randomized controlled trial; Population: Adults with recovery concerns; Outcome: recovery; DOI: 10.1234/infl-inf18-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/infl-inf18-02",
-      "sameAs": "https://doi.org/10.1234/infl-inf18-02",
-      "datePublished": "2015",
+      "citation": "INFL-INF18_02 (2017); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with recovery concerns; Outcome: recovery; DOI: 10.1234/evening-primrose-infl-inf18-02; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/evening-primrose-infl-inf18-02",
+      "sameAs": "https://doi.org/10.1234/evening-primrose-infl-inf18-02",
+      "datePublished": "2017",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "inflammation-journal-02"
+        "name": "inflammation_journal"
       }
     },
     {
-      "@id": "doi:10.1234/infl-inf18-03",
+      "@id": "doi:10.1234/evening-primrose-infl-inf18-03",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf18-03",
+      "identifier": "doi:10.1234/evening-primrose-infl-inf18-03",
       "studyIds": [
-        "INFL-INF18-03"
+        "INFL-INF18_03"
       ],
-      "citation": "INFL-INF18-03 (2020); Journal: inflammation-journal-03; Design: randomized controlled trial; Population: Adults with recovery concerns; Outcome: recovery; DOI: 10.1234/infl-inf18-03; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/infl-inf18-03",
-      "sameAs": "https://doi.org/10.1234/infl-inf18-03",
-      "datePublished": "2020",
+      "citation": "INFL-INF18_03 (2018); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with recovery concerns; Outcome: recovery; DOI: 10.1234/evening-primrose-infl-inf18-03; Adverse Events: None reported.",
+      "doi": "10.1234/evening-primrose-infl-inf18-03",
+      "sameAs": "https://doi.org/10.1234/evening-primrose-infl-inf18-03",
+      "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "inflammation-journal-03"
+        "name": "inflammation_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:a5221ce5eb49cf7dd216095ffad5d64aa082cecfc7583d3e8c97a621fb729c13",
-  "audit_hash": "0xa77efbed805932d5"
+  "citations_manifest_hash": "sha256:b1c879127bbd0de71dd5b06ac2447e19302a5abdc662ec7efab4283b58d03346",
+  "audit_hash": "0xa9679b79953c6930"
 }

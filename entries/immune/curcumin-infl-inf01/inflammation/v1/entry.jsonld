@@ -6,7 +6,7 @@
   "category": "inflammation",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 0.9999,
+  "P_effect_gt_delta": 0.9952,
   "gate_results": {
     "phi": "FAIL",
     "r": 0.9,
@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 486,
-    "I2": 0.0,
-    "tau2": 0.0,
-    "mu_hat": 0.360042,
+    "total_n": 420,
+    "I2": 24.3,
+    "tau2": 0.00247267,
+    "mu_hat": 0.326053,
     "mu_CI95": [
-      0.264828,
-      0.455256
+      0.226767,
+      0.425338
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:18.267604+00:00",
+  "created": "2025-11-06T07:17:27.807618+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,54 +60,54 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/infl-inf01-01",
+      "@id": "doi:10.1234/curcumin-infl-inf01-01",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf01-01",
+      "identifier": "doi:10.1234/curcumin-infl-inf01-01",
       "studyIds": [
-        "INFL-INF01-01"
+        "INFL-INF01_01"
       ],
-      "citation": "INFL-INF01-01 (2023); Journal: inflammation-journal-01; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/infl-inf01-01; Adverse Events: None reported.",
-      "doi": "10.1234/infl-inf01-01",
-      "sameAs": "https://doi.org/10.1234/infl-inf01-01",
-      "datePublished": "2023",
+      "citation": "INFL-INF01_01 (2016); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/curcumin-infl-inf01-01; Adverse Events: Transient headache.",
+      "doi": "10.1234/curcumin-infl-inf01-01",
+      "sameAs": "https://doi.org/10.1234/curcumin-infl-inf01-01",
+      "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "inflammation-journal-01"
+        "name": "inflammation_journal"
       }
     },
     {
-      "@id": "doi:10.1234/infl-inf01-02",
+      "@id": "doi:10.1234/curcumin-infl-inf01-02",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf01-02",
+      "identifier": "doi:10.1234/curcumin-infl-inf01-02",
       "studyIds": [
-        "INFL-INF01-02"
+        "INFL-INF01_02"
       ],
-      "citation": "INFL-INF01-02 (2014); Journal: inflammation-journal-02; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/infl-inf01-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/infl-inf01-02",
-      "sameAs": "https://doi.org/10.1234/infl-inf01-02",
-      "datePublished": "2014",
+      "citation": "INFL-INF01_02 (2017); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/curcumin-infl-inf01-02; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/curcumin-infl-inf01-02",
+      "sameAs": "https://doi.org/10.1234/curcumin-infl-inf01-02",
+      "datePublished": "2017",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "inflammation-journal-02"
+        "name": "inflammation_journal"
       }
     },
     {
-      "@id": "doi:10.1234/infl-inf01-03",
+      "@id": "doi:10.1234/curcumin-infl-inf01-03",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf01-03",
+      "identifier": "doi:10.1234/curcumin-infl-inf01-03",
       "studyIds": [
-        "INFL-INF01-03"
+        "INFL-INF01_03"
       ],
-      "citation": "INFL-INF01-03 (2019); Journal: inflammation-journal-03; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/infl-inf01-03; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/infl-inf01-03",
-      "sameAs": "https://doi.org/10.1234/infl-inf01-03",
-      "datePublished": "2019",
+      "citation": "INFL-INF01_03 (2018); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/curcumin-infl-inf01-03; Adverse Events: None reported.",
+      "doi": "10.1234/curcumin-infl-inf01-03",
+      "sameAs": "https://doi.org/10.1234/curcumin-infl-inf01-03",
+      "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "inflammation-journal-03"
+        "name": "inflammation_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:2998b6e7fabc1fb9b8b875846e52bcd65e5c669d5f2120362b6d972e5d1bd054",
-  "audit_hash": "0xd151b6cfaa137251"
+  "citations_manifest_hash": "sha256:c6859ef2900132ff24a6460df2e430d73a02c535d66938c43082ab49ef3ae8b4",
+  "audit_hash": "0x71dc3f0387afda87"
 }

@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:17:29.954286+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/immune/msm-infl-gen-0511/inflammation/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "INFL-GEN-0511_01",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "arthritis",
+      "population": "Adults with arthritis concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/msm-infl-gen-0511-01",
+      "url": "https://doi.org/10.1234/msm-infl-gen-0511-01",
+      "citation": "INFL-GEN-0511_01 (2016); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with arthritis concerns; Outcome: arthritis; DOI: 10.1234/msm-infl-gen-0511-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "INFL-GEN-0511_02",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "arthritis",
+      "population": "Adults with arthritis concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/msm-infl-gen-0511-02",
+      "url": "https://doi.org/10.1234/msm-infl-gen-0511-02",
+      "citation": "INFL-GEN-0511_02 (2017); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with arthritis concerns; Outcome: arthritis; DOI: 10.1234/msm-infl-gen-0511-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "INFL-GEN-0511_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "arthritis",
+      "population": "Adults with arthritis concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/msm-infl-gen-0511-03",
+      "url": "https://doi.org/10.1234/msm-infl-gen-0511-03",
+      "citation": "INFL-GEN-0511_03 (2018); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with arthritis concerns; Outcome: arthritis; DOI: 10.1234/msm-infl-gen-0511-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/msm-infl-gen-0511-01",
+      "study_ids": [
+        "INFL-GEN-0511_01"
+      ],
+      "primary_study_id": "INFL-GEN-0511_01",
+      "url": "https://doi.org/10.1234/msm-infl-gen-0511-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/msm-infl-gen-0511-02",
+      "study_ids": [
+        "INFL-GEN-0511_02"
+      ],
+      "primary_study_id": "INFL-GEN-0511_02",
+      "url": "https://doi.org/10.1234/msm-infl-gen-0511-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/msm-infl-gen-0511-03",
+      "study_ids": [
+        "INFL-GEN-0511_03"
+      ],
+      "primary_study_id": "INFL-GEN-0511_03",
+      "url": "https://doi.org/10.1234/msm-infl-gen-0511-03"
+    }
+  ],
+  "manifest_hash": "sha256:aeb9e3376cfb31967a1bddbd7f0788436d6f1b3db0b4a168155a562887162809"
+}

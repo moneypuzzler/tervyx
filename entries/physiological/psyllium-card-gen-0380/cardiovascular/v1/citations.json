@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:44.205315+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/physiological/psyllium-card-gen-0380/cardiovascular/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "CARD-GEN-0380_01",
+      "year": 2012,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "triglycerides",
+      "population": "Adults with triglycerides concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/psyllium-card-gen-0380-01",
+      "url": "https://doi.org/10.1234/psyllium-card-gen-0380-01",
+      "citation": "CARD-GEN-0380_01 (2012); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with triglycerides concerns; Outcome: triglycerides; DOI: 10.1234/psyllium-card-gen-0380-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "CARD-GEN-0380_02",
+      "year": 2013,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "triglycerides",
+      "population": "Adults with triglycerides concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/psyllium-card-gen-0380-02",
+      "url": "https://doi.org/10.1234/psyllium-card-gen-0380-02",
+      "citation": "CARD-GEN-0380_02 (2013); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with triglycerides concerns; Outcome: triglycerides; DOI: 10.1234/psyllium-card-gen-0380-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "CARD-GEN-0380_03",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "triglycerides",
+      "population": "Adults with triglycerides concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/psyllium-card-gen-0380-03",
+      "url": "https://doi.org/10.1234/psyllium-card-gen-0380-03",
+      "citation": "CARD-GEN-0380_03 (2014); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with triglycerides concerns; Outcome: triglycerides; DOI: 10.1234/psyllium-card-gen-0380-03; Adverse Events: Mild GI discomfort."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/psyllium-card-gen-0380-01",
+      "study_ids": [
+        "CARD-GEN-0380_01"
+      ],
+      "primary_study_id": "CARD-GEN-0380_01",
+      "url": "https://doi.org/10.1234/psyllium-card-gen-0380-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/psyllium-card-gen-0380-02",
+      "study_ids": [
+        "CARD-GEN-0380_02"
+      ],
+      "primary_study_id": "CARD-GEN-0380_02",
+      "url": "https://doi.org/10.1234/psyllium-card-gen-0380-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/psyllium-card-gen-0380-03",
+      "study_ids": [
+        "CARD-GEN-0380_03"
+      ],
+      "primary_study_id": "CARD-GEN-0380_03",
+      "url": "https://doi.org/10.1234/psyllium-card-gen-0380-03"
+    }
+  ],
+  "manifest_hash": "sha256:7073669e74c3adabbe5b4095afa2a1ab0df851db06b5ae0b68d48d31f41e457e"
+}

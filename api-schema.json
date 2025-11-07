@@ -35,7 +35,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "enum": ["sleep", "cognition", "mental_health", "cardiovascular", "renal_safety"]
+              "enum": ["sleep", "cognition", "mental_health", "cardiovascular", "renal_safety", "metabolic", "immune", "immune_health", "inflammation", "musculoskeletal", "longevity", "endocrine"]
             },
             "description": "Evidence category"
           }
@@ -205,7 +205,7 @@
           },
           "category": {
             "type": "string",
-            "enum": ["sleep", "cognition", "mental_health", "cardiovascular", "renal_safety"],
+            "enum": ["sleep", "cognition", "mental_health", "cardiovascular", "renal_safety", "metabolic", "immune", "immune_health", "inflammation", "musculoskeletal", "longevity", "endocrine"],
             "description": "Evidence category"
           },
           "tier": {

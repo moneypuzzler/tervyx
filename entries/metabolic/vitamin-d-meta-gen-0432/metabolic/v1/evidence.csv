@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+META-GEN-0432_01,2015,randomized controlled trial,SMD,-0.2662,-0.42,-0.1124,63,68,some concerns,10.1234/vitamin-d-meta-gen-0432-01,metabolic_journal,hba1c,Adults with hba1c concerns,Transient headache,11
+META-GEN-0432_02,2016,randomized controlled trial,SMD,-0.3641,-0.5163,-0.2119,66,71,some concerns,10.1234/vitamin-d-meta-gen-0432-02,metabolic_journal,hba1c,Adults with hba1c concerns,None reported,11
+META-GEN-0432_03,2017,randomized controlled trial,SMD,-0.2548,-0.4071,-0.1025,68,64,mixed,10.1234/vitamin-d-meta-gen-0432-03,metabolic_journal,hba1c,Adults with hba1c concerns,Transient headache,10

@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:40.745848+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/neurological/methyl-b12-cogn-gen-0135/cognition/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "COGN-GEN-0135_01",
+      "year": 2012,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "executive_function",
+      "population": "Adults with executive function concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/methyl-b12-cogn-gen-0135-01",
+      "url": "https://doi.org/10.1234/methyl-b12-cogn-gen-0135-01",
+      "citation": "COGN-GEN-0135_01 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with executive function concerns; Outcome: executive_function; DOI: 10.1234/methyl-b12-cogn-gen-0135-01; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "COGN-GEN-0135_02",
+      "year": 2013,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "executive_function",
+      "population": "Adults with executive function concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/methyl-b12-cogn-gen-0135-02",
+      "url": "https://doi.org/10.1234/methyl-b12-cogn-gen-0135-02",
+      "citation": "COGN-GEN-0135_02 (2013); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with executive function concerns; Outcome: executive_function; DOI: 10.1234/methyl-b12-cogn-gen-0135-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "COGN-GEN-0135_03",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "executive_function",
+      "population": "Adults with executive function concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/methyl-b12-cogn-gen-0135-03",
+      "url": "https://doi.org/10.1234/methyl-b12-cogn-gen-0135-03",
+      "citation": "COGN-GEN-0135_03 (2014); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with executive function concerns; Outcome: executive_function; DOI: 10.1234/methyl-b12-cogn-gen-0135-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/methyl-b12-cogn-gen-0135-01",
+      "study_ids": [
+        "COGN-GEN-0135_01"
+      ],
+      "primary_study_id": "COGN-GEN-0135_01",
+      "url": "https://doi.org/10.1234/methyl-b12-cogn-gen-0135-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/methyl-b12-cogn-gen-0135-02",
+      "study_ids": [
+        "COGN-GEN-0135_02"
+      ],
+      "primary_study_id": "COGN-GEN-0135_02",
+      "url": "https://doi.org/10.1234/methyl-b12-cogn-gen-0135-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/methyl-b12-cogn-gen-0135-03",
+      "study_ids": [
+        "COGN-GEN-0135_03"
+      ],
+      "primary_study_id": "COGN-GEN-0135_03",
+      "url": "https://doi.org/10.1234/methyl-b12-cogn-gen-0135-03"
+    }
+  ],
+  "manifest_hash": "sha256:05522b062ea9f7453bf2da6f56da41c52e9084ec018ec003e4ee7b006468de0e"
+}

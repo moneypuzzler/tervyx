@@ -6,7 +6,7 @@
   "category": "musculoskeletal",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 0.9929,
+  "P_effect_gt_delta": 0.9962,
   "gate_results": {
     "phi": "FAIL",
     "r": 0.9,
@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 507,
+    "total_n": 418,
     "I2": 0.0,
     "tau2": 0.0,
-    "mu_hat": 0.322142,
+    "mu_hat": 0.324709,
     "mu_CI95": [
-      0.238405,
-      0.405878
+      0.244141,
+      0.405276
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:25.176649+00:00",
+  "created": "2025-11-06T07:17:04.821174+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,54 +60,54 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/musc-msk10-01",
+      "@id": "doi:10.1234/magnesium-musc-msk10-01",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/musc-msk10-01",
+      "identifier": "doi:10.1234/magnesium-musc-msk10-01",
       "studyIds": [
-        "MUSC-MSK10-01"
+        "MUSC-MSK10_01"
       ],
-      "citation": "MUSC-MSK10-01 (2022); Journal: musculoskeletal-journal-01; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/musc-msk10-01; Adverse Events: None reported.",
-      "doi": "10.1234/musc-msk10-01",
-      "sameAs": "https://doi.org/10.1234/musc-msk10-01",
-      "datePublished": "2022",
+      "citation": "MUSC-MSK10_01 (2016); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/magnesium-musc-msk10-01; Adverse Events: None reported.",
+      "doi": "10.1234/magnesium-musc-msk10-01",
+      "sameAs": "https://doi.org/10.1234/magnesium-musc-msk10-01",
+      "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "musculoskeletal-journal-01"
+        "name": "musculoskeletal_journal"
       }
     },
     {
-      "@id": "doi:10.1234/musc-msk10-02",
+      "@id": "doi:10.1234/magnesium-musc-msk10-02",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/musc-msk10-02",
+      "identifier": "doi:10.1234/magnesium-musc-msk10-02",
       "studyIds": [
-        "MUSC-MSK10-02"
+        "MUSC-MSK10_02"
       ],
-      "citation": "MUSC-MSK10-02 (2013); Journal: musculoskeletal-journal-02; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/musc-msk10-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/musc-msk10-02",
-      "sameAs": "https://doi.org/10.1234/musc-msk10-02",
-      "datePublished": "2013",
+      "citation": "MUSC-MSK10_02 (2017); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/magnesium-musc-msk10-02; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/magnesium-musc-msk10-02",
+      "sameAs": "https://doi.org/10.1234/magnesium-musc-msk10-02",
+      "datePublished": "2017",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "musculoskeletal-journal-02"
+        "name": "musculoskeletal_journal"
       }
     },
     {
-      "@id": "doi:10.1234/musc-msk10-03",
+      "@id": "doi:10.1234/magnesium-musc-msk10-03",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/musc-msk10-03",
+      "identifier": "doi:10.1234/magnesium-musc-msk10-03",
       "studyIds": [
-        "MUSC-MSK10-03"
+        "MUSC-MSK10_03"
       ],
-      "citation": "MUSC-MSK10-03 (2018); Journal: musculoskeletal-journal-03; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/musc-msk10-03; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/musc-msk10-03",
-      "sameAs": "https://doi.org/10.1234/musc-msk10-03",
+      "citation": "MUSC-MSK10_03 (2018); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with bone density concerns; Outcome: bone_density; DOI: 10.1234/magnesium-musc-msk10-03; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/magnesium-musc-msk10-03",
+      "sameAs": "https://doi.org/10.1234/magnesium-musc-msk10-03",
       "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "musculoskeletal-journal-03"
+        "name": "musculoskeletal_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:3dff13ca56f7277f819c828eaf0175a879344525737c322ae63db113bf7eff40",
-  "audit_hash": "0x2f06423be4bb3d56"
+  "citations_manifest_hash": "sha256:33c56014d9a0e211b6647c8a7e814b3b9bc2289e560d2d8c7304bd3f4d3345d0",
+  "audit_hash": "0x69ac7281c96155f5"
 }

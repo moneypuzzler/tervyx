@@ -131,13 +131,21 @@ def load_catalog_entries(
     catalog: EntryCatalog,
     categories: Sequence[str],
     *,
+    entry_ids: Sequence[str] | None = None,
     include_completed: bool = False,
 ) -> List[Dict[str, str]]:
     allowed = {category.lower() for category in categories}
+    allowed_ids = {eid.strip() for eid in entry_ids} if entry_ids else None
     selected: List[Dict[str, str]] = []
     for entry in catalog.entries:
+        entry_id = entry.data.get("entry_id", "").strip()
         status = entry.data.get("status", "").strip().lower()
         category = entry.category.lower()
+
+        # If entry_ids specified, only select those
+        if allowed_ids and entry_id not in allowed_ids:
+            continue
+
         if allowed and category not in allowed:
             continue
         if not include_completed and status and status not in DEFAULT_PENDING_STATUSES:
@@ -161,6 +169,7 @@ def generate_entries(
     count: int,
     categories: Sequence[str],
     log_path: Path,
+    entry_ids: Sequence[str] | None = None,
     dry_run: bool = False,
     overwrite: bool = False,
 ) -> None:
@@ -171,6 +180,7 @@ def generate_entries(
     entries = load_catalog_entries(
         catalog,
         categories,
+        entry_ids=entry_ids,
         include_completed=overwrite,
     )
     if not entries:
@@ -291,6 +301,11 @@ def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
         help="Catalog categories to include in generation",
     )
     parser.add_argument(
+        "--entry-ids",
+        nargs="+",
+        help="Specific entry IDs to generate (overrides category filtering if provided)",
+    )
+    parser.add_argument(
         "--log",
         default="reports/generated_entries_batch.csv",
         help="Destination CSV log for generated entries",
@@ -307,6 +322,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         count=max(0, args.count),
         categories=args.categories,
         log_path=Path(args.log),
+        entry_ids=args.entry_ids,
         dry_run=args.dry_run,
         overwrite=args.overwrite,
     )

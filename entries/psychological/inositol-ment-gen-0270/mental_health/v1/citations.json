@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:43.324055+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/psychological/inositol-ment-gen-0270/mental_health/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MENT-GEN-0270_01",
+      "year": 2013,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "social_anxiety",
+      "population": "Adults with social anxiety concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/inositol-ment-gen-0270-01",
+      "url": "https://doi.org/10.1234/inositol-ment-gen-0270-01",
+      "citation": "MENT-GEN-0270_01 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with social anxiety concerns; Outcome: social_anxiety; DOI: 10.1234/inositol-ment-gen-0270-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MENT-GEN-0270_02",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "social_anxiety",
+      "population": "Adults with social anxiety concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/inositol-ment-gen-0270-02",
+      "url": "https://doi.org/10.1234/inositol-ment-gen-0270-02",
+      "citation": "MENT-GEN-0270_02 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with social anxiety concerns; Outcome: social_anxiety; DOI: 10.1234/inositol-ment-gen-0270-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MENT-GEN-0270_03",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "social_anxiety",
+      "population": "Adults with social anxiety concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/inositol-ment-gen-0270-03",
+      "url": "https://doi.org/10.1234/inositol-ment-gen-0270-03",
+      "citation": "MENT-GEN-0270_03 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with social anxiety concerns; Outcome: social_anxiety; DOI: 10.1234/inositol-ment-gen-0270-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/inositol-ment-gen-0270-01",
+      "study_ids": [
+        "MENT-GEN-0270_01"
+      ],
+      "primary_study_id": "MENT-GEN-0270_01",
+      "url": "https://doi.org/10.1234/inositol-ment-gen-0270-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/inositol-ment-gen-0270-02",
+      "study_ids": [
+        "MENT-GEN-0270_02"
+      ],
+      "primary_study_id": "MENT-GEN-0270_02",
+      "url": "https://doi.org/10.1234/inositol-ment-gen-0270-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/inositol-ment-gen-0270-03",
+      "study_ids": [
+        "MENT-GEN-0270_03"
+      ],
+      "primary_study_id": "MENT-GEN-0270_03",
+      "url": "https://doi.org/10.1234/inositol-ment-gen-0270-03"
+    }
+  ],
+  "manifest_hash": "sha256:54f506d26bc8101b402d45afa3354c0f1d068ebf261a019d75e1eba9fa90759d"
+}

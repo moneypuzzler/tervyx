@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:40.701242+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/psychological/folate-ment-gen-0234/mental_health/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MENT-GEN-0234_01",
+      "year": 2013,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "anxiety",
+      "population": "Adults with anxiety concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/folate-ment-gen-0234-01",
+      "url": "https://doi.org/10.1234/folate-ment-gen-0234-01",
+      "citation": "MENT-GEN-0234_01 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/folate-ment-gen-0234-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MENT-GEN-0234_02",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "anxiety",
+      "population": "Adults with anxiety concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/folate-ment-gen-0234-02",
+      "url": "https://doi.org/10.1234/folate-ment-gen-0234-02",
+      "citation": "MENT-GEN-0234_02 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/folate-ment-gen-0234-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MENT-GEN-0234_03",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "anxiety",
+      "population": "Adults with anxiety concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/folate-ment-gen-0234-03",
+      "url": "https://doi.org/10.1234/folate-ment-gen-0234-03",
+      "citation": "MENT-GEN-0234_03 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with anxiety concerns; Outcome: anxiety; DOI: 10.1234/folate-ment-gen-0234-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/folate-ment-gen-0234-01",
+      "study_ids": [
+        "MENT-GEN-0234_01"
+      ],
+      "primary_study_id": "MENT-GEN-0234_01",
+      "url": "https://doi.org/10.1234/folate-ment-gen-0234-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/folate-ment-gen-0234-02",
+      "study_ids": [
+        "MENT-GEN-0234_02"
+      ],
+      "primary_study_id": "MENT-GEN-0234_02",
+      "url": "https://doi.org/10.1234/folate-ment-gen-0234-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/folate-ment-gen-0234-03",
+      "study_ids": [
+        "MENT-GEN-0234_03"
+      ],
+      "primary_study_id": "MENT-GEN-0234_03",
+      "url": "https://doi.org/10.1234/folate-ment-gen-0234-03"
+    }
+  ],
+  "manifest_hash": "sha256:5a99417f65aeea396e8c0d2150ed02996344409d14bfd295eaf2a81e6c253363"
+}

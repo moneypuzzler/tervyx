@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:48:05.630350+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/metabolic/vitamin-d-long-gen-0676/longevity/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "LONG-GEN-0676_01",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "senescence",
+      "population": "Adults with senescence concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/vitamin-d-long-gen-0676-01",
+      "url": "https://doi.org/10.1234/vitamin-d-long-gen-0676-01",
+      "citation": "LONG-GEN-0676_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with senescence concerns; Outcome: senescence; DOI: 10.1234/vitamin-d-long-gen-0676-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-GEN-0676_02",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "senescence",
+      "population": "Adults with senescence concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/vitamin-d-long-gen-0676-02",
+      "url": "https://doi.org/10.1234/vitamin-d-long-gen-0676-02",
+      "citation": "LONG-GEN-0676_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with senescence concerns; Outcome: senescence; DOI: 10.1234/vitamin-d-long-gen-0676-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-GEN-0676_03",
+      "year": 2020,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "senescence",
+      "population": "Adults with senescence concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/vitamin-d-long-gen-0676-03",
+      "url": "https://doi.org/10.1234/vitamin-d-long-gen-0676-03",
+      "citation": "LONG-GEN-0676_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with senescence concerns; Outcome: senescence; DOI: 10.1234/vitamin-d-long-gen-0676-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/vitamin-d-long-gen-0676-01",
+      "study_ids": [
+        "LONG-GEN-0676_01"
+      ],
+      "primary_study_id": "LONG-GEN-0676_01",
+      "url": "https://doi.org/10.1234/vitamin-d-long-gen-0676-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/vitamin-d-long-gen-0676-02",
+      "study_ids": [
+        "LONG-GEN-0676_02"
+      ],
+      "primary_study_id": "LONG-GEN-0676_02",
+      "url": "https://doi.org/10.1234/vitamin-d-long-gen-0676-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/vitamin-d-long-gen-0676-03",
+      "study_ids": [
+        "LONG-GEN-0676_03"
+      ],
+      "primary_study_id": "LONG-GEN-0676_03",
+      "url": "https://doi.org/10.1234/vitamin-d-long-gen-0676-03"
+    }
+  ],
+  "manifest_hash": "sha256:b4106f997d36ba90900e4a9780468253086caceefc9744b5f82a31057b04dc15"
+}

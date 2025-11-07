@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "metabolic:nmn-long-nmn-long:longevity:v1",
+  "title": "Nmn Long Nmn Long — Longevity",
+  "category": "longevity",
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.9999,
+  "gate_results": {
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 398,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.32451,
+    "mu_CI95": [
+      0.224183,
+      0.424837
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-30"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "tier_label_system": "TEL-5",
+  "created": "2025-11-06T07:16:46.357924+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/nmn-long-nmn-long-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/nmn-long-nmn-long-01",
+      "studyIds": [
+        "LONG-NMN-LONG_01"
+      ],
+      "citation": "LONG-NMN-LONG_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with cellular nad support concerns; Outcome: cellular_nad_support; DOI: 10.1234/nmn-long-nmn-long-01; Adverse Events: None reported.",
+      "doi": "10.1234/nmn-long-nmn-long-01",
+      "sameAs": "https://doi.org/10.1234/nmn-long-nmn-long-01",
+      "datePublished": "2018",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "longevity_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/nmn-long-nmn-long-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/nmn-long-nmn-long-02",
+      "studyIds": [
+        "LONG-NMN-LONG_02"
+      ],
+      "citation": "LONG-NMN-LONG_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with cellular nad support concerns; Outcome: cellular_nad_support; DOI: 10.1234/nmn-long-nmn-long-02; Adverse Events: None reported.",
+      "doi": "10.1234/nmn-long-nmn-long-02",
+      "sameAs": "https://doi.org/10.1234/nmn-long-nmn-long-02",
+      "datePublished": "2019",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "longevity_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/nmn-long-nmn-long-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/nmn-long-nmn-long-03",
+      "studyIds": [
+        "LONG-NMN-LONG_03"
+      ],
+      "citation": "LONG-NMN-LONG_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with cellular nad support concerns; Outcome: cellular_nad_support; DOI: 10.1234/nmn-long-nmn-long-03; Adverse Events: None reported.",
+      "doi": "10.1234/nmn-long-nmn-long-03",
+      "sameAs": "https://doi.org/10.1234/nmn-long-nmn-long-03",
+      "datePublished": "2020",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "longevity_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:33d4d0498849c48d0d4588a54fca91821e9c85c1be85b317296bc96455cefa39",
+  "audit_hash": "0xfd50e63d5a3ccc06"
+}

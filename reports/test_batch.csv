@@ -1,0 +1,11 @@
+entry_id,category,domain,slug,tier,label,path,generated_at
+SLEE-GEN-0001,sleep,behavioral,magnesium-slee-gen-0001,Gold,PASS,entries/behavioral/magnesium-slee-gen-0001/sleep/v1,2025-11-06T07:07:06.342219+00:00
+SLEE-GEN-0002,sleep,behavioral,melatonin-slee-gen-0002,Gold,PASS,entries/behavioral/melatonin-slee-gen-0002/sleep/v1,2025-11-06T07:07:06.409183+00:00
+SLEE-GEN-0003,sleep,behavioral,ashwagandha-slee-gen-0003,Gold,PASS,entries/behavioral/ashwagandha-slee-gen-0003/sleep/v1,2025-11-06T07:07:06.479540+00:00
+SLEE-GEN-0004,sleep,behavioral,glycine-slee-gen-0004,Gold,PASS,entries/behavioral/glycine-slee-gen-0004/sleep/v1,2025-11-06T07:07:06.550948+00:00
+SLEE-GEN-0005,sleep,behavioral,l-theanine-slee-gen-0005,Gold,PASS,entries/behavioral/l-theanine-slee-gen-0005/sleep/v1,2025-11-06T07:07:06.618465+00:00
+SLEE-GEN-0006,sleep,behavioral,chamomile-slee-gen-0006,Gold,PASS,entries/behavioral/chamomile-slee-gen-0006/sleep/v1,2025-11-06T07:07:06.688046+00:00
+SLEE-GEN-0007,sleep,behavioral,tart-cherry-slee-gen-0007,Gold,PASS,entries/behavioral/tart-cherry-slee-gen-0007/sleep/v1,2025-11-06T07:07:06.767592+00:00
+SLEE-GEN-0008,sleep,behavioral,lavender-slee-gen-0008,Gold,PASS,entries/behavioral/lavender-slee-gen-0008/sleep/v1,2025-11-06T07:07:06.835285+00:00
+SLEE-GEN-0009,sleep,behavioral,cbd-slee-gen-0009,Gold,PASS,entries/behavioral/cbd-slee-gen-0009/sleep/v1,2025-11-06T07:07:06.905805+00:00
+SLEE-GEN-0010,sleep,behavioral,lemon-balm-slee-gen-0010,Gold,PASS,entries/behavioral/lemon-balm-slee-gen-0010/sleep/v1,2025-11-06T07:07:06.972218+00:00

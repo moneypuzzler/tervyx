@@ -6,7 +6,7 @@
   "category": "inflammation",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 0.9999,
+  "P_effect_gt_delta": 0.9952,
   "gate_results": {
     "phi": "FAIL",
     "r": 0.9,
@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 497,
-    "I2": 0.0,
-    "tau2": 0.0,
-    "mu_hat": 0.350051,
+    "total_n": 420,
+    "I2": 24.3,
+    "tau2": 0.00247267,
+    "mu_hat": 0.326053,
     "mu_CI95": [
-      0.267071,
-      0.433031
+      0.226767,
+      0.425338
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:26.914075+00:00",
+  "created": "2025-11-06T07:17:28.084314+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,54 +60,54 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/infl-inf05-01",
+      "@id": "doi:10.1234/quercetin-infl-inf05-01",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf05-01",
+      "identifier": "doi:10.1234/quercetin-infl-inf05-01",
       "studyIds": [
-        "INFL-INF05-01"
+        "INFL-INF05_01"
       ],
-      "citation": "INFL-INF05-01 (2012); Journal: inflammation-journal-01; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/infl-inf05-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/infl-inf05-01",
-      "sameAs": "https://doi.org/10.1234/infl-inf05-01",
-      "datePublished": "2012",
+      "citation": "INFL-INF05_01 (2016); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/quercetin-infl-inf05-01; Adverse Events: Transient headache.",
+      "doi": "10.1234/quercetin-infl-inf05-01",
+      "sameAs": "https://doi.org/10.1234/quercetin-infl-inf05-01",
+      "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "inflammation-journal-01"
+        "name": "inflammation_journal"
       }
     },
     {
-      "@id": "doi:10.1234/infl-inf05-02",
+      "@id": "doi:10.1234/quercetin-infl-inf05-02",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf05-02",
+      "identifier": "doi:10.1234/quercetin-infl-inf05-02",
       "studyIds": [
-        "INFL-INF05-02"
+        "INFL-INF05_02"
       ],
-      "citation": "INFL-INF05-02 (2017); Journal: inflammation-journal-02; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/infl-inf05-02; Adverse Events: None reported.",
-      "doi": "10.1234/infl-inf05-02",
-      "sameAs": "https://doi.org/10.1234/infl-inf05-02",
+      "citation": "INFL-INF05_02 (2017); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/quercetin-infl-inf05-02; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/quercetin-infl-inf05-02",
+      "sameAs": "https://doi.org/10.1234/quercetin-infl-inf05-02",
       "datePublished": "2017",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "inflammation-journal-02"
+        "name": "inflammation_journal"
       }
     },
     {
-      "@id": "doi:10.1234/infl-inf05-03",
+      "@id": "doi:10.1234/quercetin-infl-inf05-03",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf05-03",
+      "identifier": "doi:10.1234/quercetin-infl-inf05-03",
       "studyIds": [
-        "INFL-INF05-03"
+        "INFL-INF05_03"
       ],
-      "citation": "INFL-INF05-03 (2022); Journal: inflammation-journal-03; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/infl-inf05-03; Adverse Events: Transient headache.",
-      "doi": "10.1234/infl-inf05-03",
-      "sameAs": "https://doi.org/10.1234/infl-inf05-03",
-      "datePublished": "2022",
+      "citation": "INFL-INF05_03 (2018); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/quercetin-infl-inf05-03; Adverse Events: None reported.",
+      "doi": "10.1234/quercetin-infl-inf05-03",
+      "sameAs": "https://doi.org/10.1234/quercetin-infl-inf05-03",
+      "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "inflammation-journal-03"
+        "name": "inflammation_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:d1f2fdf21a853445ffa381767a6ffe003906cc06bca6638845c09d4c7f9267d3",
-  "audit_hash": "0x5d58066912948e29"
+  "citations_manifest_hash": "sha256:4e977f70da40ca79f8069f6d9168a7a64fb23dd95b8fb0d6b2fdf2af66c480bc",
+  "audit_hash": "0x45773b71104fbe77"
 }

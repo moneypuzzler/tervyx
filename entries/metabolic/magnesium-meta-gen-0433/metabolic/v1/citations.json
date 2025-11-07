@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:40.706253+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/metabolic/magnesium-meta-gen-0433/metabolic/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "META-GEN-0433_01",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "blood_sugar",
+      "population": "Adults with blood sugar concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/magnesium-meta-gen-0433-01",
+      "url": "https://doi.org/10.1234/magnesium-meta-gen-0433-01",
+      "citation": "META-GEN-0433_01 (2015); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with blood sugar concerns; Outcome: blood_sugar; DOI: 10.1234/magnesium-meta-gen-0433-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "META-GEN-0433_02",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "blood_sugar",
+      "population": "Adults with blood sugar concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/magnesium-meta-gen-0433-02",
+      "url": "https://doi.org/10.1234/magnesium-meta-gen-0433-02",
+      "citation": "META-GEN-0433_02 (2016); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with blood sugar concerns; Outcome: blood_sugar; DOI: 10.1234/magnesium-meta-gen-0433-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "META-GEN-0433_03",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "blood_sugar",
+      "population": "Adults with blood sugar concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/magnesium-meta-gen-0433-03",
+      "url": "https://doi.org/10.1234/magnesium-meta-gen-0433-03",
+      "citation": "META-GEN-0433_03 (2017); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with blood sugar concerns; Outcome: blood_sugar; DOI: 10.1234/magnesium-meta-gen-0433-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/magnesium-meta-gen-0433-01",
+      "study_ids": [
+        "META-GEN-0433_01"
+      ],
+      "primary_study_id": "META-GEN-0433_01",
+      "url": "https://doi.org/10.1234/magnesium-meta-gen-0433-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/magnesium-meta-gen-0433-02",
+      "study_ids": [
+        "META-GEN-0433_02"
+      ],
+      "primary_study_id": "META-GEN-0433_02",
+      "url": "https://doi.org/10.1234/magnesium-meta-gen-0433-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/magnesium-meta-gen-0433-03",
+      "study_ids": [
+        "META-GEN-0433_03"
+      ],
+      "primary_study_id": "META-GEN-0433_03",
+      "url": "https://doi.org/10.1234/magnesium-meta-gen-0433-03"
+    }
+  ],
+  "manifest_hash": "sha256:4baf1e6d4d5e81055fb2b48a5ed80e8091cdaa7933d029e9f7f9f8c8471c7feb"
+}

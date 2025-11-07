@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+META-GEN-0403_01,2015,randomized controlled trial,SMD,-0.2662,-0.42,-0.1124,63,68,some concerns,10.1234/alpha-lipoic-acid-meta-gen-0403-01,metabolic_journal,metabolic_syndrome,Adults with metabolic syndrome concerns,Transient headache,11
+META-GEN-0403_02,2016,randomized controlled trial,SMD,-0.3641,-0.5163,-0.2119,66,71,some concerns,10.1234/alpha-lipoic-acid-meta-gen-0403-02,metabolic_journal,metabolic_syndrome,Adults with metabolic syndrome concerns,None reported,11
+META-GEN-0403_03,2017,randomized controlled trial,SMD,-0.2548,-0.4071,-0.1025,68,64,mixed,10.1234/alpha-lipoic-acid-meta-gen-0403-03,metabolic_journal,metabolic_syndrome,Adults with metabolic syndrome concerns,Transient headache,10

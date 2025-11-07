@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:45.584287+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/metabolic/milk-thistle-meta-gen-0497/metabolic/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "META-GEN-0497_01",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "blood_sugar",
+      "population": "Adults with blood sugar concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/milk-thistle-meta-gen-0497-01",
+      "url": "https://doi.org/10.1234/milk-thistle-meta-gen-0497-01",
+      "citation": "META-GEN-0497_01 (2015); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with blood sugar concerns; Outcome: blood_sugar; DOI: 10.1234/milk-thistle-meta-gen-0497-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "META-GEN-0497_02",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "blood_sugar",
+      "population": "Adults with blood sugar concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/milk-thistle-meta-gen-0497-02",
+      "url": "https://doi.org/10.1234/milk-thistle-meta-gen-0497-02",
+      "citation": "META-GEN-0497_02 (2016); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with blood sugar concerns; Outcome: blood_sugar; DOI: 10.1234/milk-thistle-meta-gen-0497-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "META-GEN-0497_03",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "blood_sugar",
+      "population": "Adults with blood sugar concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/milk-thistle-meta-gen-0497-03",
+      "url": "https://doi.org/10.1234/milk-thistle-meta-gen-0497-03",
+      "citation": "META-GEN-0497_03 (2017); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with blood sugar concerns; Outcome: blood_sugar; DOI: 10.1234/milk-thistle-meta-gen-0497-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/milk-thistle-meta-gen-0497-01",
+      "study_ids": [
+        "META-GEN-0497_01"
+      ],
+      "primary_study_id": "META-GEN-0497_01",
+      "url": "https://doi.org/10.1234/milk-thistle-meta-gen-0497-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/milk-thistle-meta-gen-0497-02",
+      "study_ids": [
+        "META-GEN-0497_02"
+      ],
+      "primary_study_id": "META-GEN-0497_02",
+      "url": "https://doi.org/10.1234/milk-thistle-meta-gen-0497-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/milk-thistle-meta-gen-0497-03",
+      "study_ids": [
+        "META-GEN-0497_03"
+      ],
+      "primary_study_id": "META-GEN-0497_03",
+      "url": "https://doi.org/10.1234/milk-thistle-meta-gen-0497-03"
+    }
+  ],
+  "manifest_hash": "sha256:63e4e8a94ce63cc250a74f6ed35c569c32c5ba60dd12cf95d91820389bd7f7ad"
+}

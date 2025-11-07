@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-INFL-INF02-01,2020,randomized controlled trial,SMD,-0.2804,-0.4138,-0.147,82,95,low,10.1234/infl-inf02-01,inflammation-journal-01,systemic_inflammation,Adults with systemic inflammation concerns,None reported,10
-INFL-INF02-02,2011,randomized controlled trial,SMD,-0.275,-0.4608,-0.0892,95,80,low,10.1234/infl-inf02-02,inflammation-journal-02,systemic_inflammation,Adults with systemic inflammation concerns,None reported,8
-INFL-INF02-03,2016,randomized controlled trial,SMD,-0.2696,-0.4378,-0.1014,78,94,some concerns,10.1234/infl-inf02-03,inflammation-journal-03,systemic_inflammation,Adults with systemic inflammation concerns,Transient headache,13
+INFL-INF02_01,2016,randomized controlled trial,SMD,-0.3177,-0.5089,-0.1265,73,61,some concerns,10.1234/boswellia-infl-inf02-01,inflammation_journal,systemic_inflammation,Adults with systemic inflammation concerns,Transient headache,11
+INFL-INF02_02,2017,randomized controlled trial,SMD,-0.2529,-0.381,-0.1248,65,69,low,10.1234/boswellia-infl-inf02-02,inflammation_journal,systemic_inflammation,Adults with systemic inflammation concerns,Mild GI discomfort,9
+INFL-INF02_03,2018,randomized controlled trial,SMD,-0.3991,-0.5208,-0.2774,79,73,mixed,10.1234/boswellia-infl-inf02-03,inflammation_journal,systemic_inflammation,Adults with systemic inflammation concerns,None reported,9

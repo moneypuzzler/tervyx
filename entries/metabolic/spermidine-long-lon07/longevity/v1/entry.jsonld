@@ -6,7 +6,7 @@
   "category": "longevity",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 1.0,
+  "P_effect_gt_delta": 0.9999,
   "gate_results": {
     "phi": "FAIL",
     "r": 0.9,
@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 481,
+    "total_n": 398,
     "I2": 0.0,
     "tau2": 0.0,
-    "mu_hat": 0.335223,
+    "mu_hat": 0.32451,
     "mu_CI95": [
-      0.242422,
-      0.428025
+      0.224183,
+      0.424837
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:55.785591+00:00",
+  "created": "2025-11-06T07:16:45.376373+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,54 +60,54 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/long-lon07-01",
+      "@id": "doi:10.1234/spermidine-long-lon07-01",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/long-lon07-01",
+      "identifier": "doi:10.1234/spermidine-long-lon07-01",
       "studyIds": [
-        "LONG-LON07-01"
+        "LONG-LON07_01"
       ],
-      "citation": "LONG-LON07-01 (2011); Journal: longevity-journal-01; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/long-lon07-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/long-lon07-01",
-      "sameAs": "https://doi.org/10.1234/long-lon07-01",
-      "datePublished": "2011",
+      "citation": "LONG-LON07_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/spermidine-long-lon07-01; Adverse Events: None reported.",
+      "doi": "10.1234/spermidine-long-lon07-01",
+      "sameAs": "https://doi.org/10.1234/spermidine-long-lon07-01",
+      "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "longevity-journal-01"
+        "name": "longevity_journal"
       }
     },
     {
-      "@id": "doi:10.1234/long-lon07-02",
+      "@id": "doi:10.1234/spermidine-long-lon07-02",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/long-lon07-02",
+      "identifier": "doi:10.1234/spermidine-long-lon07-02",
       "studyIds": [
-        "LONG-LON07-02"
+        "LONG-LON07_02"
       ],
-      "citation": "LONG-LON07-02 (2016); Journal: longevity-journal-02; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/long-lon07-02; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/long-lon07-02",
-      "sameAs": "https://doi.org/10.1234/long-lon07-02",
-      "datePublished": "2016",
+      "citation": "LONG-LON07_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/spermidine-long-lon07-02; Adverse Events: None reported.",
+      "doi": "10.1234/spermidine-long-lon07-02",
+      "sameAs": "https://doi.org/10.1234/spermidine-long-lon07-02",
+      "datePublished": "2019",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "longevity-journal-02"
+        "name": "longevity_journal"
       }
     },
     {
-      "@id": "doi:10.1234/long-lon07-03",
+      "@id": "doi:10.1234/spermidine-long-lon07-03",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/long-lon07-03",
+      "identifier": "doi:10.1234/spermidine-long-lon07-03",
       "studyIds": [
-        "LONG-LON07-03"
+        "LONG-LON07_03"
       ],
-      "citation": "LONG-LON07-03 (2021); Journal: longevity-journal-03; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/long-lon07-03; Adverse Events: None reported.",
-      "doi": "10.1234/long-lon07-03",
-      "sameAs": "https://doi.org/10.1234/long-lon07-03",
-      "datePublished": "2021",
+      "citation": "LONG-LON07_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/spermidine-long-lon07-03; Adverse Events: None reported.",
+      "doi": "10.1234/spermidine-long-lon07-03",
+      "sameAs": "https://doi.org/10.1234/spermidine-long-lon07-03",
+      "datePublished": "2020",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "longevity-journal-03"
+        "name": "longevity_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:d10a97e81ed4e45414b863da54d5b9ac17776d0d0af0268b92e992fa3122cdd8",
-  "audit_hash": "0x0a116e972c777ac4"
+  "citations_manifest_hash": "sha256:5a163ba428971efb9ec142e242a7ab1202302070075969f6fa98eef2136450d9",
+  "audit_hash": "0x9b7d3d0ab2396f35"
 }

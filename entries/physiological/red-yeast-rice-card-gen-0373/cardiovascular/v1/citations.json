@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:43.575761+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/physiological/red-yeast-rice-card-gen-0373/cardiovascular/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "CARD-GEN-0373_01",
+      "year": 2012,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "blood_pressure",
+      "population": "Adults with blood pressure concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/red-yeast-rice-card-gen-0373-01",
+      "url": "https://doi.org/10.1234/red-yeast-rice-card-gen-0373-01",
+      "citation": "CARD-GEN-0373_01 (2012); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with blood pressure concerns; Outcome: blood_pressure; DOI: 10.1234/red-yeast-rice-card-gen-0373-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "CARD-GEN-0373_02",
+      "year": 2013,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "blood_pressure",
+      "population": "Adults with blood pressure concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/red-yeast-rice-card-gen-0373-02",
+      "url": "https://doi.org/10.1234/red-yeast-rice-card-gen-0373-02",
+      "citation": "CARD-GEN-0373_02 (2013); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with blood pressure concerns; Outcome: blood_pressure; DOI: 10.1234/red-yeast-rice-card-gen-0373-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "CARD-GEN-0373_03",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "blood_pressure",
+      "population": "Adults with blood pressure concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/red-yeast-rice-card-gen-0373-03",
+      "url": "https://doi.org/10.1234/red-yeast-rice-card-gen-0373-03",
+      "citation": "CARD-GEN-0373_03 (2014); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with blood pressure concerns; Outcome: blood_pressure; DOI: 10.1234/red-yeast-rice-card-gen-0373-03; Adverse Events: Mild GI discomfort."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/red-yeast-rice-card-gen-0373-01",
+      "study_ids": [
+        "CARD-GEN-0373_01"
+      ],
+      "primary_study_id": "CARD-GEN-0373_01",
+      "url": "https://doi.org/10.1234/red-yeast-rice-card-gen-0373-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/red-yeast-rice-card-gen-0373-02",
+      "study_ids": [
+        "CARD-GEN-0373_02"
+      ],
+      "primary_study_id": "CARD-GEN-0373_02",
+      "url": "https://doi.org/10.1234/red-yeast-rice-card-gen-0373-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/red-yeast-rice-card-gen-0373-03",
+      "study_ids": [
+        "CARD-GEN-0373_03"
+      ],
+      "primary_study_id": "CARD-GEN-0373_03",
+      "url": "https://doi.org/10.1234/red-yeast-rice-card-gen-0373-03"
+    }
+  ],
+  "manifest_hash": "sha256:2c1e84565b172ab9a328402bd45e54444b5a540d2a98b16176b9e12d967c449d"
+}

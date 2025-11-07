@@ -6,7 +6,7 @@
   "category": "longevity",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 0.8025,
+  "P_effect_gt_delta": 0.9999,
   "gate_results": {
     "phi": "FAIL",
     "r": 0.9,
@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 498,
+    "total_n": 398,
     "I2": 0.0,
     "tau2": 0.0,
-    "mu_hat": 0.187195,
+    "mu_hat": 0.32451,
     "mu_CI95": [
-      0.100962,
-      0.273428
+      0.224183,
+      0.424837
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:49.730740+00:00",
+  "created": "2025-11-06T07:16:45.018076+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,54 +60,54 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/long-lon02-01",
+      "@id": "doi:10.1234/nicotinamide-mononucleotide-long-lon02-01",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/long-lon02-01",
+      "identifier": "doi:10.1234/nicotinamide-mononucleotide-long-lon02-01",
       "studyIds": [
-        "LONG-LON02-01"
+        "LONG-LON02_01"
       ],
-      "citation": "LONG-LON02-01 (2014); Journal: longevity-journal-01; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/long-lon02-01; Adverse Events: Transient headache.",
-      "doi": "10.1234/long-lon02-01",
-      "sameAs": "https://doi.org/10.1234/long-lon02-01",
-      "datePublished": "2014",
+      "citation": "LONG-LON02_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/nicotinamide-mononucleotide-long-lon02-01; Adverse Events: None reported.",
+      "doi": "10.1234/nicotinamide-mononucleotide-long-lon02-01",
+      "sameAs": "https://doi.org/10.1234/nicotinamide-mononucleotide-long-lon02-01",
+      "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "longevity-journal-01"
+        "name": "longevity_journal"
       }
     },
     {
-      "@id": "doi:10.1234/long-lon02-02",
+      "@id": "doi:10.1234/nicotinamide-mononucleotide-long-lon02-02",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/long-lon02-02",
+      "identifier": "doi:10.1234/nicotinamide-mononucleotide-long-lon02-02",
       "studyIds": [
-        "LONG-LON02-02"
+        "LONG-LON02_02"
       ],
-      "citation": "LONG-LON02-02 (2019); Journal: longevity-journal-02; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/long-lon02-02; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/long-lon02-02",
-      "sameAs": "https://doi.org/10.1234/long-lon02-02",
+      "citation": "LONG-LON02_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/nicotinamide-mononucleotide-long-lon02-02; Adverse Events: None reported.",
+      "doi": "10.1234/nicotinamide-mononucleotide-long-lon02-02",
+      "sameAs": "https://doi.org/10.1234/nicotinamide-mononucleotide-long-lon02-02",
       "datePublished": "2019",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "longevity-journal-02"
+        "name": "longevity_journal"
       }
     },
     {
-      "@id": "doi:10.1234/long-lon02-03",
+      "@id": "doi:10.1234/nicotinamide-mononucleotide-long-lon02-03",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/long-lon02-03",
+      "identifier": "doi:10.1234/nicotinamide-mononucleotide-long-lon02-03",
       "studyIds": [
-        "LONG-LON02-03"
+        "LONG-LON02_03"
       ],
-      "citation": "LONG-LON02-03 (2010); Journal: longevity-journal-03; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/long-lon02-03; Adverse Events: None reported.",
-      "doi": "10.1234/long-lon02-03",
-      "sameAs": "https://doi.org/10.1234/long-lon02-03",
-      "datePublished": "2010",
+      "citation": "LONG-LON02_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/nicotinamide-mononucleotide-long-lon02-03; Adverse Events: None reported.",
+      "doi": "10.1234/nicotinamide-mononucleotide-long-lon02-03",
+      "sameAs": "https://doi.org/10.1234/nicotinamide-mononucleotide-long-lon02-03",
+      "datePublished": "2020",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "longevity-journal-03"
+        "name": "longevity_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:06b19d85c6113c60ca1323deb2b54806334c748bd2a863a1e02b672f78c88692",
-  "audit_hash": "0x2ca711eace06ddd7"
+  "citations_manifest_hash": "sha256:f33f2511410650bac3da376a71d3dc7b374eebd7bbb0e7a0b5dcc6707809d44c",
+  "audit_hash": "0x632c05ab5160c26c"
 }

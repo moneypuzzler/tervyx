@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-INFL-INF03-01,2011,randomized controlled trial,SMD,-0.1958,-0.3284,-0.0632,89,92,mixed,10.1234/infl-inf03-01,inflammation-journal-01,recovery,Adults with recovery concerns,Mild GI discomfort,10
-INFL-INF03-02,2016,randomized controlled trial,SMD,-0.1904,-0.3754,-0.0054,72,76,low,10.1234/infl-inf03-02,inflammation-journal-02,recovery,Adults with recovery concerns,None reported,8
-INFL-INF03-03,2021,randomized controlled trial,SMD,-0.185,-0.3525,-0.0175,85,91,some concerns,10.1234/infl-inf03-03,inflammation-journal-03,recovery,Adults with recovery concerns,Transient headache,13
+INFL-INF03_01,2016,randomized controlled trial,SMD,-0.3177,-0.5089,-0.1265,73,61,some concerns,10.1234/omega-3-infl-inf03-01,inflammation_journal,recovery,Adults with recovery concerns,Transient headache,11
+INFL-INF03_02,2017,randomized controlled trial,SMD,-0.2529,-0.381,-0.1248,65,69,low,10.1234/omega-3-infl-inf03-02,inflammation_journal,recovery,Adults with recovery concerns,Mild GI discomfort,9
+INFL-INF03_03,2018,randomized controlled trial,SMD,-0.3991,-0.5208,-0.2774,79,73,mixed,10.1234/omega-3-infl-inf03-03,inflammation_journal,recovery,Adults with recovery concerns,None reported,9

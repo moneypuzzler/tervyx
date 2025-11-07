@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:40.170118+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/neurological/acetyl-l-carnitine-cogn-gen-0127/cognition/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "COGN-GEN-0127_01",
+      "year": 2012,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "executive_function",
+      "population": "Adults with executive function concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/acetyl-l-carnitine-cogn-gen-0127-01",
+      "url": "https://doi.org/10.1234/acetyl-l-carnitine-cogn-gen-0127-01",
+      "citation": "COGN-GEN-0127_01 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with executive function concerns; Outcome: executive_function; DOI: 10.1234/acetyl-l-carnitine-cogn-gen-0127-01; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "COGN-GEN-0127_02",
+      "year": 2013,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "executive_function",
+      "population": "Adults with executive function concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/acetyl-l-carnitine-cogn-gen-0127-02",
+      "url": "https://doi.org/10.1234/acetyl-l-carnitine-cogn-gen-0127-02",
+      "citation": "COGN-GEN-0127_02 (2013); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with executive function concerns; Outcome: executive_function; DOI: 10.1234/acetyl-l-carnitine-cogn-gen-0127-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "COGN-GEN-0127_03",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "cognition_journal",
+      "outcome": "executive_function",
+      "population": "Adults with executive function concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/acetyl-l-carnitine-cogn-gen-0127-03",
+      "url": "https://doi.org/10.1234/acetyl-l-carnitine-cogn-gen-0127-03",
+      "citation": "COGN-GEN-0127_03 (2014); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with executive function concerns; Outcome: executive_function; DOI: 10.1234/acetyl-l-carnitine-cogn-gen-0127-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/acetyl-l-carnitine-cogn-gen-0127-01",
+      "study_ids": [
+        "COGN-GEN-0127_01"
+      ],
+      "primary_study_id": "COGN-GEN-0127_01",
+      "url": "https://doi.org/10.1234/acetyl-l-carnitine-cogn-gen-0127-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/acetyl-l-carnitine-cogn-gen-0127-02",
+      "study_ids": [
+        "COGN-GEN-0127_02"
+      ],
+      "primary_study_id": "COGN-GEN-0127_02",
+      "url": "https://doi.org/10.1234/acetyl-l-carnitine-cogn-gen-0127-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/acetyl-l-carnitine-cogn-gen-0127-03",
+      "study_ids": [
+        "COGN-GEN-0127_03"
+      ],
+      "primary_study_id": "COGN-GEN-0127_03",
+      "url": "https://doi.org/10.1234/acetyl-l-carnitine-cogn-gen-0127-03"
+    }
+  ],
+  "manifest_hash": "sha256:4fbf1be3728250927c74832805428831d8f94777d6029e840eb8f86199988985"
+}

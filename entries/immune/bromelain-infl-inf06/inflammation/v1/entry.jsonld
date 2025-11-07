@@ -6,7 +6,7 @@
   "category": "inflammation",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 0.7291,
+  "P_effect_gt_delta": 0.9952,
   "gate_results": {
     "phi": "FAIL",
     "r": 0.9,
@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 488,
-    "I2": 0.0,
-    "tau2": 0.0,
-    "mu_hat": 0.225062,
+    "total_n": 420,
+    "I2": 24.3,
+    "tau2": 0.00247267,
+    "mu_hat": 0.326053,
     "mu_CI95": [
-      0.144557,
-      0.305566
+      0.226767,
+      0.425338
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:15.694857+00:00",
+  "created": "2025-11-06T07:17:28.155621+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,54 +60,54 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/infl-inf06-01",
+      "@id": "doi:10.1234/bromelain-infl-inf06-01",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf06-01",
+      "identifier": "doi:10.1234/bromelain-infl-inf06-01",
       "studyIds": [
-        "INFL-INF06-01"
+        "INFL-INF06_01"
       ],
-      "citation": "INFL-INF06-01 (2013); Journal: inflammation-journal-01; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/infl-inf06-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/infl-inf06-01",
-      "sameAs": "https://doi.org/10.1234/infl-inf06-01",
-      "datePublished": "2013",
+      "citation": "INFL-INF06_01 (2016); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/bromelain-infl-inf06-01; Adverse Events: Transient headache.",
+      "doi": "10.1234/bromelain-infl-inf06-01",
+      "sameAs": "https://doi.org/10.1234/bromelain-infl-inf06-01",
+      "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "inflammation-journal-01"
+        "name": "inflammation_journal"
       }
     },
     {
-      "@id": "doi:10.1234/infl-inf06-02",
+      "@id": "doi:10.1234/bromelain-infl-inf06-02",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf06-02",
+      "identifier": "doi:10.1234/bromelain-infl-inf06-02",
       "studyIds": [
-        "INFL-INF06-02"
+        "INFL-INF06_02"
       ],
-      "citation": "INFL-INF06-02 (2018); Journal: inflammation-journal-02; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/infl-inf06-02; Adverse Events: None reported.",
-      "doi": "10.1234/infl-inf06-02",
-      "sameAs": "https://doi.org/10.1234/infl-inf06-02",
+      "citation": "INFL-INF06_02 (2017); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/bromelain-infl-inf06-02; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/bromelain-infl-inf06-02",
+      "sameAs": "https://doi.org/10.1234/bromelain-infl-inf06-02",
+      "datePublished": "2017",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "inflammation_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/bromelain-infl-inf06-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/bromelain-infl-inf06-03",
+      "studyIds": [
+        "INFL-INF06_03"
+      ],
+      "citation": "INFL-INF06_03 (2018); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/bromelain-infl-inf06-03; Adverse Events: None reported.",
+      "doi": "10.1234/bromelain-infl-inf06-03",
+      "sameAs": "https://doi.org/10.1234/bromelain-infl-inf06-03",
       "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "inflammation-journal-02"
-      }
-    },
-    {
-      "@id": "doi:10.1234/infl-inf06-03",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf06-03",
-      "studyIds": [
-        "INFL-INF06-03"
-      ],
-      "citation": "INFL-INF06-03 (2023); Journal: inflammation-journal-03; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/infl-inf06-03; Adverse Events: Transient headache.",
-      "doi": "10.1234/infl-inf06-03",
-      "sameAs": "https://doi.org/10.1234/infl-inf06-03",
-      "datePublished": "2023",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "inflammation-journal-03"
+        "name": "inflammation_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:a834fb911119ee982903fc9208e9ed4ea16c76cfaf9910b5b4afbb23764af494",
-  "audit_hash": "0x381456cbbe9eb6ea"
+  "citations_manifest_hash": "sha256:16664668f68ca5de12b60826921a17485e5644f273c5d6a2c14981e33af17cae",
+  "audit_hash": "0x2545950d5bf69c66"
 }

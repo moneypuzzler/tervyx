@@ -6,7 +6,7 @@
   "category": "longevity",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 1.0,
+  "P_effect_gt_delta": 0.9999,
   "gate_results": {
     "phi": "FAIL",
     "r": 0.9,
@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 463,
+    "total_n": 398,
     "I2": 0.0,
     "tau2": 0.0,
-    "mu_hat": 0.317234,
+    "mu_hat": 0.32451,
     "mu_CI95": [
-      0.233991,
-      0.400478
+      0.224183,
+      0.424837
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:41.987191+00:00",
+  "created": "2025-11-06T07:16:45.854740+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,54 +60,54 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/long-lon14-01",
+      "@id": "doi:10.1234/collagen-long-lon14-01",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/long-lon14-01",
+      "identifier": "doi:10.1234/collagen-long-lon14-01",
       "studyIds": [
-        "LONG-LON14-01"
+        "LONG-LON14_01"
       ],
-      "citation": "LONG-LON14-01 (2018); Journal: longevity-journal-01; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/long-lon14-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/long-lon14-01",
-      "sameAs": "https://doi.org/10.1234/long-lon14-01",
+      "citation": "LONG-LON14_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/collagen-long-lon14-01; Adverse Events: None reported.",
+      "doi": "10.1234/collagen-long-lon14-01",
+      "sameAs": "https://doi.org/10.1234/collagen-long-lon14-01",
       "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "longevity-journal-01"
+        "name": "longevity_journal"
       }
     },
     {
-      "@id": "doi:10.1234/long-lon14-02",
+      "@id": "doi:10.1234/collagen-long-lon14-02",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/long-lon14-02",
+      "identifier": "doi:10.1234/collagen-long-lon14-02",
       "studyIds": [
-        "LONG-LON14-02"
+        "LONG-LON14_02"
       ],
-      "citation": "LONG-LON14-02 (2023); Journal: longevity-journal-02; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/long-lon14-02; Adverse Events: None reported.",
-      "doi": "10.1234/long-lon14-02",
-      "sameAs": "https://doi.org/10.1234/long-lon14-02",
-      "datePublished": "2023",
+      "citation": "LONG-LON14_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/collagen-long-lon14-02; Adverse Events: None reported.",
+      "doi": "10.1234/collagen-long-lon14-02",
+      "sameAs": "https://doi.org/10.1234/collagen-long-lon14-02",
+      "datePublished": "2019",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "longevity-journal-02"
+        "name": "longevity_journal"
       }
     },
     {
-      "@id": "doi:10.1234/long-lon14-03",
+      "@id": "doi:10.1234/collagen-long-lon14-03",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/long-lon14-03",
+      "identifier": "doi:10.1234/collagen-long-lon14-03",
       "studyIds": [
-        "LONG-LON14-03"
+        "LONG-LON14_03"
       ],
-      "citation": "LONG-LON14-03 (2014); Journal: longevity-journal-03; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/long-lon14-03; Adverse Events: None reported.",
-      "doi": "10.1234/long-lon14-03",
-      "sameAs": "https://doi.org/10.1234/long-lon14-03",
-      "datePublished": "2014",
+      "citation": "LONG-LON14_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with mitochondrial function concerns; Outcome: mitochondrial_function; DOI: 10.1234/collagen-long-lon14-03; Adverse Events: None reported.",
+      "doi": "10.1234/collagen-long-lon14-03",
+      "sameAs": "https://doi.org/10.1234/collagen-long-lon14-03",
+      "datePublished": "2020",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "longevity-journal-03"
+        "name": "longevity_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:d167603df1f62b5b6214d5fb11a39aff11a5006e19f355d810c8e79ff5732fe6",
-  "audit_hash": "0xbf7115e9a944d0a4"
+  "citations_manifest_hash": "sha256:7441168164ebebe2729598de71844859c28afe2a62405583b736c196d28fbb28",
+  "audit_hash": "0xd803cec5672f9966"
 }

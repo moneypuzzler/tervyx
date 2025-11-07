@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:17:08.336536+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/physiological/chondroitin-musc-gen-0736/musculoskeletal/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MUSC-GEN-0736_01",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "protein_synthesis",
+      "population": "Adults with protein synthesis concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/chondroitin-musc-gen-0736-01",
+      "url": "https://doi.org/10.1234/chondroitin-musc-gen-0736-01",
+      "citation": "MUSC-GEN-0736_01 (2016); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with protein synthesis concerns; Outcome: protein_synthesis; DOI: 10.1234/chondroitin-musc-gen-0736-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "MUSC-GEN-0736_02",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "protein_synthesis",
+      "population": "Adults with protein synthesis concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/chondroitin-musc-gen-0736-02",
+      "url": "https://doi.org/10.1234/chondroitin-musc-gen-0736-02",
+      "citation": "MUSC-GEN-0736_02 (2017); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with protein synthesis concerns; Outcome: protein_synthesis; DOI: 10.1234/chondroitin-musc-gen-0736-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "MUSC-GEN-0736_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "protein_synthesis",
+      "population": "Adults with protein synthesis concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/chondroitin-musc-gen-0736-03",
+      "url": "https://doi.org/10.1234/chondroitin-musc-gen-0736-03",
+      "citation": "MUSC-GEN-0736_03 (2018); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with protein synthesis concerns; Outcome: protein_synthesis; DOI: 10.1234/chondroitin-musc-gen-0736-03; Adverse Events: Mild GI discomfort."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/chondroitin-musc-gen-0736-01",
+      "study_ids": [
+        "MUSC-GEN-0736_01"
+      ],
+      "primary_study_id": "MUSC-GEN-0736_01",
+      "url": "https://doi.org/10.1234/chondroitin-musc-gen-0736-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/chondroitin-musc-gen-0736-02",
+      "study_ids": [
+        "MUSC-GEN-0736_02"
+      ],
+      "primary_study_id": "MUSC-GEN-0736_02",
+      "url": "https://doi.org/10.1234/chondroitin-musc-gen-0736-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/chondroitin-musc-gen-0736-03",
+      "study_ids": [
+        "MUSC-GEN-0736_03"
+      ],
+      "primary_study_id": "MUSC-GEN-0736_03",
+      "url": "https://doi.org/10.1234/chondroitin-musc-gen-0736-03"
+    }
+  ],
+  "manifest_hash": "sha256:0469c442382510cc73b750e6d61f505feeb39b6e2cded737a0229a211342f7cf"
+}

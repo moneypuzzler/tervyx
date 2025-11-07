@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "behavioral:l-theanine-slee-gen-0025:sleep:v1",
+  "title": "L Theanine Slee Gen 0025 — Sleep",
+  "category": "sleep",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.9888,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 1.0,
+    "j": 0.607,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 391,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.297301,
+    "mu_CI95": [
+      0.213365,
+      0.381237
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-30"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "tier_label_system": "TEL-5",
+  "created": "2025-11-06T07:07:39.344059+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/l-theanine-slee-gen-0025-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/l-theanine-slee-gen-0025-01",
+      "studyIds": [
+        "SLEE-GEN-0025_01"
+      ],
+      "citation": "SLEE-GEN-0025_01 (2016); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/l-theanine-slee-gen-0025-01; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/l-theanine-slee-gen-0025-01",
+      "sameAs": "https://doi.org/10.1234/l-theanine-slee-gen-0025-01",
+      "datePublished": "2016",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/l-theanine-slee-gen-0025-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/l-theanine-slee-gen-0025-02",
+      "studyIds": [
+        "SLEE-GEN-0025_02"
+      ],
+      "citation": "SLEE-GEN-0025_02 (2017); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/l-theanine-slee-gen-0025-02; Adverse Events: None reported.",
+      "doi": "10.1234/l-theanine-slee-gen-0025-02",
+      "sameAs": "https://doi.org/10.1234/l-theanine-slee-gen-0025-02",
+      "datePublished": "2017",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/l-theanine-slee-gen-0025-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/l-theanine-slee-gen-0025-03",
+      "studyIds": [
+        "SLEE-GEN-0025_03"
+      ],
+      "citation": "SLEE-GEN-0025_03 (2018); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/l-theanine-slee-gen-0025-03; Adverse Events: Transient headache.",
+      "doi": "10.1234/l-theanine-slee-gen-0025-03",
+      "sameAs": "https://doi.org/10.1234/l-theanine-slee-gen-0025-03",
+      "datePublished": "2018",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "sleep_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:51b0967c3ad3e0df21273f7dcfec53aeb072fa5ca1f42e20a6fff0d9015c50e4",
+  "audit_hash": "0x7fe38355a22f945d"
+}

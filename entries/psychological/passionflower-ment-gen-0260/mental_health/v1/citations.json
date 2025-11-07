@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:42.577224+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/psychological/passionflower-ment-gen-0260/mental_health/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MENT-GEN-0260_01",
+      "year": 2013,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "stress_resilience",
+      "population": "Adults with stress resilience concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/passionflower-ment-gen-0260-01",
+      "url": "https://doi.org/10.1234/passionflower-ment-gen-0260-01",
+      "citation": "MENT-GEN-0260_01 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1234/passionflower-ment-gen-0260-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MENT-GEN-0260_02",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "stress_resilience",
+      "population": "Adults with stress resilience concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/passionflower-ment-gen-0260-02",
+      "url": "https://doi.org/10.1234/passionflower-ment-gen-0260-02",
+      "citation": "MENT-GEN-0260_02 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1234/passionflower-ment-gen-0260-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MENT-GEN-0260_03",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "stress_resilience",
+      "population": "Adults with stress resilience concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/passionflower-ment-gen-0260-03",
+      "url": "https://doi.org/10.1234/passionflower-ment-gen-0260-03",
+      "citation": "MENT-GEN-0260_03 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with stress resilience concerns; Outcome: stress_resilience; DOI: 10.1234/passionflower-ment-gen-0260-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/passionflower-ment-gen-0260-01",
+      "study_ids": [
+        "MENT-GEN-0260_01"
+      ],
+      "primary_study_id": "MENT-GEN-0260_01",
+      "url": "https://doi.org/10.1234/passionflower-ment-gen-0260-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/passionflower-ment-gen-0260-02",
+      "study_ids": [
+        "MENT-GEN-0260_02"
+      ],
+      "primary_study_id": "MENT-GEN-0260_02",
+      "url": "https://doi.org/10.1234/passionflower-ment-gen-0260-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/passionflower-ment-gen-0260-03",
+      "study_ids": [
+        "MENT-GEN-0260_03"
+      ],
+      "primary_study_id": "MENT-GEN-0260_03",
+      "url": "https://doi.org/10.1234/passionflower-ment-gen-0260-03"
+    }
+  ],
+  "manifest_hash": "sha256:50be6e2dfb9c43550b020a544ec7dbb1e79bd75a8ffe89b48e1750bf249b327f"
+}

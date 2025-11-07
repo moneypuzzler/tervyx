@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-INFL-INF10-01,2014,randomized controlled trial,SMD,-0.3724,-0.5378,-0.207,82,82,low,10.1234/infl-inf10-01,inflammation-journal-01,skin_inflammation,Adults with skin inflammation concerns,Mild GI discomfort,10
-INFL-INF10-02,2019,randomized controlled trial,SMD,-0.367,-0.5148,-0.2192,95,97,some concerns,10.1234/infl-inf10-02,inflammation-journal-02,skin_inflammation,Adults with skin inflammation concerns,Mild GI discomfort,9
-INFL-INF10-03,2010,randomized controlled trial,SMD,-0.3616,-0.4918,-0.2314,78,82,some concerns,10.1234/infl-inf10-03,inflammation-journal-03,skin_inflammation,Adults with skin inflammation concerns,None reported,13
+INFL-INF10_01,2016,randomized controlled trial,SMD,-0.3177,-0.5089,-0.1265,73,61,some concerns,10.1234/pycnogenol-infl-inf10-01,inflammation_journal,skin_inflammation,Adults with skin inflammation concerns,Transient headache,11
+INFL-INF10_02,2017,randomized controlled trial,SMD,-0.2529,-0.381,-0.1248,65,69,low,10.1234/pycnogenol-infl-inf10-02,inflammation_journal,skin_inflammation,Adults with skin inflammation concerns,Mild GI discomfort,9
+INFL-INF10_03,2018,randomized controlled trial,SMD,-0.3991,-0.5208,-0.2774,79,73,mixed,10.1234/pycnogenol-infl-inf10-03,inflammation_journal,skin_inflammation,Adults with skin inflammation concerns,None reported,9

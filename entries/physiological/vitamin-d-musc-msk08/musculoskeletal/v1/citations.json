@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:17:04.683916+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/physiological/vitamin-d-musc-msk08/musculoskeletal/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MUSC-MSK08_01",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "strength",
+      "population": "Adults with strength concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/vitamin-d-musc-msk08-01",
+      "url": "https://doi.org/10.1234/vitamin-d-musc-msk08-01",
+      "citation": "MUSC-MSK08_01 (2016); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with strength concerns; Outcome: strength; DOI: 10.1234/vitamin-d-musc-msk08-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "MUSC-MSK08_02",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "strength",
+      "population": "Adults with strength concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/vitamin-d-musc-msk08-02",
+      "url": "https://doi.org/10.1234/vitamin-d-musc-msk08-02",
+      "citation": "MUSC-MSK08_02 (2017); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with strength concerns; Outcome: strength; DOI: 10.1234/vitamin-d-musc-msk08-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "MUSC-MSK08_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "strength",
+      "population": "Adults with strength concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/vitamin-d-musc-msk08-03",
+      "url": "https://doi.org/10.1234/vitamin-d-musc-msk08-03",
+      "citation": "MUSC-MSK08_03 (2018); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with strength concerns; Outcome: strength; DOI: 10.1234/vitamin-d-musc-msk08-03; Adverse Events: Mild GI discomfort."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/vitamin-d-musc-msk08-01",
+      "study_ids": [
+        "MUSC-MSK08_01"
+      ],
+      "primary_study_id": "MUSC-MSK08_01",
+      "url": "https://doi.org/10.1234/vitamin-d-musc-msk08-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/vitamin-d-musc-msk08-02",
+      "study_ids": [
+        "MUSC-MSK08_02"
+      ],
+      "primary_study_id": "MUSC-MSK08_02",
+      "url": "https://doi.org/10.1234/vitamin-d-musc-msk08-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/vitamin-d-musc-msk08-03",
+      "study_ids": [
+        "MUSC-MSK08_03"
+      ],
+      "primary_study_id": "MUSC-MSK08_03",
+      "url": "https://doi.org/10.1234/vitamin-d-musc-msk08-03"
+    }
+  ],
+  "manifest_hash": "sha256:9220d4b0f182e93a3da7024c9c19858d4d90dae4ef0fd6b07098a3c2cd62274c"
+}

@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-MUSC-MSK10-01,2022,randomized controlled trial,SMD,0.3284,0.1637,0.4931,92,79,low,10.1234/musc-msk10-01,musculoskeletal-journal-01,bone_density,Adults with bone density concerns,None reported,12
-MUSC-MSK10-02,2013,randomized controlled trial,SMD,0.323,0.1759,0.4701,75,94,some concerns,10.1234/musc-msk10-02,musculoskeletal-journal-02,bone_density,Adults with bone density concerns,Transient headache,11
-MUSC-MSK10-03,2018,randomized controlled trial,SMD,0.3176,0.188,0.4472,88,79,mixed,10.1234/musc-msk10-03,musculoskeletal-journal-03,bone_density,Adults with bone density concerns,Mild GI discomfort,10
+MUSC-MSK10_01,2016,randomized controlled trial,SMD,0.3177,0.1783,0.4571,82,64,mixed,10.1234/magnesium-musc-msk10-01,musculoskeletal_journal,bone_density,Adults with bone density concerns,None reported,10
+MUSC-MSK10_02,2017,randomized controlled trial,SMD,0.3205,0.1755,0.4655,70,67,mixed,10.1234/magnesium-musc-msk10-02,musculoskeletal_journal,bone_density,Adults with bone density concerns,Mild GI discomfort,10
+MUSC-MSK10_03,2018,randomized controlled trial,SMD,0.3349,0.2001,0.4697,61,74,low,10.1234/magnesium-musc-msk10-03,musculoskeletal_journal,bone_density,Adults with bone density concerns,Mild GI discomfort,8

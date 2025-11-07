@@ -6,7 +6,7 @@
   "category": "musculoskeletal",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 0.9067,
+  "P_effect_gt_delta": 0.9962,
   "gate_results": {
     "phi": "FAIL",
     "r": 0.9,
@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 522,
+    "total_n": 418,
     "I2": 0.0,
     "tau2": 0.0,
-    "mu_hat": 0.284859,
+    "mu_hat": 0.324709,
     "mu_CI95": [
-      0.187238,
-      0.382479
+      0.244141,
+      0.405276
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:16.099508+00:00",
+  "created": "2025-11-06T07:17:04.209002+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,54 +60,54 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/musc-msk01-01",
+      "@id": "doi:10.1234/collagen-musc-msk01-01",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/musc-msk01-01",
+      "identifier": "doi:10.1234/collagen-musc-msk01-01",
       "studyIds": [
-        "MUSC-MSK01-01"
+        "MUSC-MSK01_01"
       ],
-      "citation": "MUSC-MSK01-01 (2021); Journal: musculoskeletal-journal-01; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/musc-msk01-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/musc-msk01-01",
-      "sameAs": "https://doi.org/10.1234/musc-msk01-01",
-      "datePublished": "2021",
+      "citation": "MUSC-MSK01_01 (2016); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/collagen-musc-msk01-01; Adverse Events: None reported.",
+      "doi": "10.1234/collagen-musc-msk01-01",
+      "sameAs": "https://doi.org/10.1234/collagen-musc-msk01-01",
+      "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "musculoskeletal-journal-01"
+        "name": "musculoskeletal_journal"
       }
     },
     {
-      "@id": "doi:10.1234/musc-msk01-02",
+      "@id": "doi:10.1234/collagen-musc-msk01-02",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/musc-msk01-02",
+      "identifier": "doi:10.1234/collagen-musc-msk01-02",
       "studyIds": [
-        "MUSC-MSK01-02"
+        "MUSC-MSK01_02"
       ],
-      "citation": "MUSC-MSK01-02 (2012); Journal: musculoskeletal-journal-02; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/musc-msk01-02; Adverse Events: None reported.",
-      "doi": "10.1234/musc-msk01-02",
-      "sameAs": "https://doi.org/10.1234/musc-msk01-02",
-      "datePublished": "2012",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "musculoskeletal-journal-02"
-      }
-    },
-    {
-      "@id": "doi:10.1234/musc-msk01-03",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/musc-msk01-03",
-      "studyIds": [
-        "MUSC-MSK01-03"
-      ],
-      "citation": "MUSC-MSK01-03 (2017); Journal: musculoskeletal-journal-03; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/musc-msk01-03; Adverse Events: Transient headache.",
-      "doi": "10.1234/musc-msk01-03",
-      "sameAs": "https://doi.org/10.1234/musc-msk01-03",
+      "citation": "MUSC-MSK01_02 (2017); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/collagen-musc-msk01-02; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/collagen-musc-msk01-02",
+      "sameAs": "https://doi.org/10.1234/collagen-musc-msk01-02",
       "datePublished": "2017",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "musculoskeletal-journal-03"
+        "name": "musculoskeletal_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/collagen-musc-msk01-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/collagen-musc-msk01-03",
+      "studyIds": [
+        "MUSC-MSK01_03"
+      ],
+      "citation": "MUSC-MSK01_03 (2018); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/collagen-musc-msk01-03; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/collagen-musc-msk01-03",
+      "sameAs": "https://doi.org/10.1234/collagen-musc-msk01-03",
+      "datePublished": "2018",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "musculoskeletal_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:3b1b2b6c9b6f88853c9c1164c7a706bfb8e7195d9017161e5639b4b7daaea33b",
-  "audit_hash": "0xa9339be95cf2b91d"
+  "citations_manifest_hash": "sha256:079aec9e9ed772e272b5a0bcd44445d70f46ab654b9c4f9b400127923a853bfc",
+  "audit_hash": "0x07c403313490f752"
 }

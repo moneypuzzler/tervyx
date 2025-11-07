@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:44.868914+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/psychological/zinc-ment-gen-0288/mental_health/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MENT-GEN-0288_01",
+      "year": 2013,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "ocd",
+      "population": "Adults with ocd concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/zinc-ment-gen-0288-01",
+      "url": "https://doi.org/10.1234/zinc-ment-gen-0288-01",
+      "citation": "MENT-GEN-0288_01 (2013); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with ocd concerns; Outcome: ocd; DOI: 10.1234/zinc-ment-gen-0288-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MENT-GEN-0288_02",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "ocd",
+      "population": "Adults with ocd concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/zinc-ment-gen-0288-02",
+      "url": "https://doi.org/10.1234/zinc-ment-gen-0288-02",
+      "citation": "MENT-GEN-0288_02 (2014); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with ocd concerns; Outcome: ocd; DOI: 10.1234/zinc-ment-gen-0288-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "MENT-GEN-0288_03",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "mental_health_journal",
+      "outcome": "ocd",
+      "population": "Adults with ocd concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/zinc-ment-gen-0288-03",
+      "url": "https://doi.org/10.1234/zinc-ment-gen-0288-03",
+      "citation": "MENT-GEN-0288_03 (2015); Journal: mental_health_journal; Design: randomized controlled trial; Population: Adults with ocd concerns; Outcome: ocd; DOI: 10.1234/zinc-ment-gen-0288-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/zinc-ment-gen-0288-01",
+      "study_ids": [
+        "MENT-GEN-0288_01"
+      ],
+      "primary_study_id": "MENT-GEN-0288_01",
+      "url": "https://doi.org/10.1234/zinc-ment-gen-0288-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/zinc-ment-gen-0288-02",
+      "study_ids": [
+        "MENT-GEN-0288_02"
+      ],
+      "primary_study_id": "MENT-GEN-0288_02",
+      "url": "https://doi.org/10.1234/zinc-ment-gen-0288-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/zinc-ment-gen-0288-03",
+      "study_ids": [
+        "MENT-GEN-0288_03"
+      ],
+      "primary_study_id": "MENT-GEN-0288_03",
+      "url": "https://doi.org/10.1234/zinc-ment-gen-0288-03"
+    }
+  ],
+  "manifest_hash": "sha256:bfd29815aa77cacc5bba8e44899e71b6340a4bfdc707472801a49430b92fa3f8"
+}

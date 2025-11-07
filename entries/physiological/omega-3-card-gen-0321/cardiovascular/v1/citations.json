@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:39.754127+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/physiological/omega-3-card-gen-0321/cardiovascular/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "CARD-GEN-0321_01",
+      "year": 2012,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "heart_rate_variability",
+      "population": "Adults with heart rate variability concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/omega-3-card-gen-0321-01",
+      "url": "https://doi.org/10.1234/omega-3-card-gen-0321-01",
+      "citation": "CARD-GEN-0321_01 (2012); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with heart rate variability concerns; Outcome: heart_rate_variability; DOI: 10.1234/omega-3-card-gen-0321-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "CARD-GEN-0321_02",
+      "year": 2013,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "heart_rate_variability",
+      "population": "Adults with heart rate variability concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/omega-3-card-gen-0321-02",
+      "url": "https://doi.org/10.1234/omega-3-card-gen-0321-02",
+      "citation": "CARD-GEN-0321_02 (2013); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with heart rate variability concerns; Outcome: heart_rate_variability; DOI: 10.1234/omega-3-card-gen-0321-02; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "CARD-GEN-0321_03",
+      "year": 2014,
+      "design": "randomized controlled trial",
+      "journal": "cardiovascular_journal",
+      "outcome": "heart_rate_variability",
+      "population": "Adults with heart rate variability concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/omega-3-card-gen-0321-03",
+      "url": "https://doi.org/10.1234/omega-3-card-gen-0321-03",
+      "citation": "CARD-GEN-0321_03 (2014); Journal: cardiovascular_journal; Design: randomized controlled trial; Population: Adults with heart rate variability concerns; Outcome: heart_rate_variability; DOI: 10.1234/omega-3-card-gen-0321-03; Adverse Events: Mild GI discomfort."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/omega-3-card-gen-0321-01",
+      "study_ids": [
+        "CARD-GEN-0321_01"
+      ],
+      "primary_study_id": "CARD-GEN-0321_01",
+      "url": "https://doi.org/10.1234/omega-3-card-gen-0321-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/omega-3-card-gen-0321-02",
+      "study_ids": [
+        "CARD-GEN-0321_02"
+      ],
+      "primary_study_id": "CARD-GEN-0321_02",
+      "url": "https://doi.org/10.1234/omega-3-card-gen-0321-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/omega-3-card-gen-0321-03",
+      "study_ids": [
+        "CARD-GEN-0321_03"
+      ],
+      "primary_study_id": "CARD-GEN-0321_03",
+      "url": "https://doi.org/10.1234/omega-3-card-gen-0321-03"
+    }
+  ],
+  "manifest_hash": "sha256:1f5862af4524979a18dc7bb45118323864483415f4b41fd55ca819fd6a64ce03"
+}

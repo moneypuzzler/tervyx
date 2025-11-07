@@ -6,7 +6,7 @@
   "category": "inflammation",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 0.8123,
+  "P_effect_gt_delta": 0.9952,
   "gate_results": {
     "phi": "FAIL",
     "r": 0.9,
@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 511,
-    "I2": 0.0,
-    "tau2": 0.0,
-    "mu_hat": 0.239173,
+    "total_n": 420,
+    "I2": 24.3,
+    "tau2": 0.00247267,
+    "mu_hat": 0.326053,
     "mu_CI95": [
-      0.151835,
-      0.326512
+      0.226767,
+      0.425338
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:29.482855+00:00",
+  "created": "2025-11-06T07:17:28.746228+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,54 +60,54 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/infl-inf14-01",
+      "@id": "doi:10.1234/sulforaphane-infl-inf14-01",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf14-01",
+      "identifier": "doi:10.1234/sulforaphane-infl-inf14-01",
       "studyIds": [
-        "INFL-INF14-01"
+        "INFL-INF14_01"
       ],
-      "citation": "INFL-INF14-01 (2011); Journal: inflammation-journal-01; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/infl-inf14-01; Adverse Events: Transient headache.",
-      "doi": "10.1234/infl-inf14-01",
-      "sameAs": "https://doi.org/10.1234/infl-inf14-01",
-      "datePublished": "2011",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "inflammation-journal-01"
-      }
-    },
-    {
-      "@id": "doi:10.1234/infl-inf14-02",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf14-02",
-      "studyIds": [
-        "INFL-INF14-02"
-      ],
-      "citation": "INFL-INF14-02 (2016); Journal: inflammation-journal-02; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/infl-inf14-02; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/infl-inf14-02",
-      "sameAs": "https://doi.org/10.1234/infl-inf14-02",
+      "citation": "INFL-INF14_01 (2016); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/sulforaphane-infl-inf14-01; Adverse Events: Transient headache.",
+      "doi": "10.1234/sulforaphane-infl-inf14-01",
+      "sameAs": "https://doi.org/10.1234/sulforaphane-infl-inf14-01",
       "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "inflammation-journal-02"
+        "name": "inflammation_journal"
       }
     },
     {
-      "@id": "doi:10.1234/infl-inf14-03",
+      "@id": "doi:10.1234/sulforaphane-infl-inf14-02",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf14-03",
+      "identifier": "doi:10.1234/sulforaphane-infl-inf14-02",
       "studyIds": [
-        "INFL-INF14-03"
+        "INFL-INF14_02"
       ],
-      "citation": "INFL-INF14-03 (2021); Journal: inflammation-journal-03; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/infl-inf14-03; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/infl-inf14-03",
-      "sameAs": "https://doi.org/10.1234/infl-inf14-03",
-      "datePublished": "2021",
+      "citation": "INFL-INF14_02 (2017); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/sulforaphane-infl-inf14-02; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/sulforaphane-infl-inf14-02",
+      "sameAs": "https://doi.org/10.1234/sulforaphane-infl-inf14-02",
+      "datePublished": "2017",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "inflammation-journal-03"
+        "name": "inflammation_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/sulforaphane-infl-inf14-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/sulforaphane-infl-inf14-03",
+      "studyIds": [
+        "INFL-INF14_03"
+      ],
+      "citation": "INFL-INF14_03 (2018); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/sulforaphane-infl-inf14-03; Adverse Events: None reported.",
+      "doi": "10.1234/sulforaphane-infl-inf14-03",
+      "sameAs": "https://doi.org/10.1234/sulforaphane-infl-inf14-03",
+      "datePublished": "2018",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "inflammation_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:8d81b2da7a810858feb333270c463a9d4e03bb8f3dfb07e5942537ae0b9bb836",
-  "audit_hash": "0xf02ed58426e65341"
+  "citations_manifest_hash": "sha256:68cdc2c9bfe3496466387bc4af4da118060ac665fad3737e25d27cdf26905e15",
+  "audit_hash": "0xc4e335a05d697bff"
 }

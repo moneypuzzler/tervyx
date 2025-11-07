@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:16:45.162207+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/metabolic/pterostilbene-long-lon04/longevity/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "LONG-LON04_01",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "cellular_ageing",
+      "population": "Adults with cellular ageing concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/pterostilbene-long-lon04-01",
+      "url": "https://doi.org/10.1234/pterostilbene-long-lon04-01",
+      "citation": "LONG-LON04_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/pterostilbene-long-lon04-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-LON04_02",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "cellular_ageing",
+      "population": "Adults with cellular ageing concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/pterostilbene-long-lon04-02",
+      "url": "https://doi.org/10.1234/pterostilbene-long-lon04-02",
+      "citation": "LONG-LON04_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/pterostilbene-long-lon04-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-LON04_03",
+      "year": 2020,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "cellular_ageing",
+      "population": "Adults with cellular ageing concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/pterostilbene-long-lon04-03",
+      "url": "https://doi.org/10.1234/pterostilbene-long-lon04-03",
+      "citation": "LONG-LON04_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with cellular ageing concerns; Outcome: cellular_ageing; DOI: 10.1234/pterostilbene-long-lon04-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/pterostilbene-long-lon04-01",
+      "study_ids": [
+        "LONG-LON04_01"
+      ],
+      "primary_study_id": "LONG-LON04_01",
+      "url": "https://doi.org/10.1234/pterostilbene-long-lon04-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/pterostilbene-long-lon04-02",
+      "study_ids": [
+        "LONG-LON04_02"
+      ],
+      "primary_study_id": "LONG-LON04_02",
+      "url": "https://doi.org/10.1234/pterostilbene-long-lon04-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/pterostilbene-long-lon04-03",
+      "study_ids": [
+        "LONG-LON04_03"
+      ],
+      "primary_study_id": "LONG-LON04_03",
+      "url": "https://doi.org/10.1234/pterostilbene-long-lon04-03"
+    }
+  ],
+  "manifest_hash": "sha256:d8c45c34e8f94d52094769e56b1c41f536d0da9583b12a463351d53fed678b1f"
+}

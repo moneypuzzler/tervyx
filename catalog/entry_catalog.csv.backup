@@ -1,0 +1,359 @@
+entry_id,category,substance,formulation_policy,formulation_detail,primary_indication,priority,evidence_tier,source_hint,status,assignee,final_tier,notes,last_updated,algo_version_pinned,data_freeze_policy,deprecation_policy
+SLP-MAG-CORE,sleep,magnesium,merge,glycinate baseline with sleep maintenance co-factors,sleep_quality,high,P0,PMID: 37611507,pending,automation,,"stub rollback @2025-11-05; Anchor magnesium glycinate stack for adult insomnia cohorts
+
+Versioned scaffold generated via scaling CLI
+Stub entry generated on 2025-10-27T01:50:36.313514+00:00",2025-10-27T01:50:36.313524+00:00,,,
+SLP-MEL-ACUTE,sleep,melatonin,split,acute dosing vs sustained release decision gate,sleep_onset,high,P0,doi:10.7326/M20-0741,pending,,,Focus on short latency onset protocols; capture pediatric safety notes,2024-05-01T00:00:00Z,,,
+SLP-ASH-HPA,sleep,ashwagandha,merge,KSM-66 vs Sensoril adaptogen comparison,stress_insomnia,medium,P1,PMID: 31317699,pending,,,Capture cortisol reduction outcomes alongside sleep scores,2024-05-01T00:00:00Z,,,
+SLP-GLY-THERM,sleep,glycine,merge,3g evening dosing with cooling protocol,sleep_latency,medium,P1,PMID: 20110082,pending,,,Track core body temperature change and morning alertness,2024-05-01T00:00:00Z,,,
+SLP-THN-ALPHA,sleep,l_theanine,merge,evening alpha-wave modulation,sleep_quality,medium,P1,PMID: 32239622,pending,,,Segment adult anxiety cohorts vs healthy sleepers,2024-05-01T00:00:00Z,,,
+SLP-CHM-APNEA,sleep,chamomile,merge,apigenin standardized extracts,sleep_quality,low,P2,PMID: 26726741,pending,,,Include combinations with lemon balm,2024-05-01T00:00:00Z,,,
+SLP-TCH-TRP,sleep,tart_cherry,merge,proanthocyanidin-rich concentrate,sleep_duration,medium,P1,doi:10.1080/07315724.2012.10720465,pending,,,Differentiate juice vs extract capsules,2024-05-01T00:00:00Z,,,
+SLP-LAV-AROMA,sleep,lavender,split,oral Silexan vs aromatherapy arms,sleep_anxiety,medium,P1,PMID: 28153670,pending,,,Keep smell-based protocols separate from oral dosing,2024-05-01T00:00:00Z,,,
+SLP-CBD-INSOMNIA,sleep,cbd,split,isolate vs full-spectrum nighttime dosing,sleep_quality,medium,P1,PMID: 31447135,pending,,,Document THC thresholds and anxiety comorbidity,2024-05-01T00:00:00Z,,,
+SLP-LEM-TRANQ,sleep,lemon_balm,merge,rosmarinic acid standardization,sleep_quality,low,P1,PMID: 23724484,pending,,,Track daytime calmness spillover,2024-05-01T00:00:00Z,,,
+SLP-PAS-REM,sleep,passionflower,merge,herbal tea vs extract,sleep_quality,low,P1,PMID: 22305049,pending,,,Document REM latency effects,2024-05-01T00:00:00Z,,,
+SLP-GABA-ORAL,sleep,gaba,merge,oral pharma-GABA vs synthetic,sleep_latency,low,P1,PMID: 20926445,pending,,,Include heart-rate variability outcomes,2024-05-01T00:00:00Z,,,
+SLP-FHTP-SEROTONIN,sleep,5htp,split,5-HTP alone vs with vitamin B6,sleep_quality,medium,P1,PMID: 12717472,pending,,,Track serotonin syndrome risk alerts,2024-05-01T00:00:00Z,,,
+SLP-KAVA-ANXIETY,sleep,kava,split,noble cultivars vs unspecified,sleep_anxiety,medium,P1,PMID: 22409871,pending,,,Surface liver safety monitoring requirements,2024-05-01T00:00:00Z,,,
+SLP-TRYP-MEL,sleep,tryptophan,merge,evening carbohydrate pairing,sleep_onset,medium,P1,PMID: 36313330,pending,,,Highlight serotonin precursor stacking,2024-05-01T00:00:00Z,,,
+SLP-INOS-OCULAR,sleep,inositol,merge,myo-inositol bedtime dosing,sleep_latency,low,P1,PMID: 29083590,pending,,,Cross-reference PCOS insomnia cohorts,2024-05-01T00:00:00Z,,,
+SLP-THEA-MATCHA,sleep,matcha,split,decaf ceremonial vs capsule,sleep_quality,low,P1,PMID: 35061279,pending,,,Separate caffeine-containing blends,2024-05-01T00:00:00Z,,,
+SLP-MAG-THR,sleep,magnesium_threonate,merge,L-threonate cognitive-sleep crossover,sleep_quality,medium,P1,PMID: 32748788,pending,,,Highlight blood-brain barrier penetration claims,2024-05-01T00:00:00Z,,,
+SLP-CBD-MICRO,sleep,cbd_microdose,merge,sub-10mg nightly titration,sleep_maintenance,medium,P1,PMID: 30624194,pending,,,Evaluate microdosing adherence,2024-05-01T00:00:00Z,,,
+COG-BAC-MEM,cognition,bacopa,merge,bacoside A standardized,memory,high,P0,PMID: 21129626,pending,,,Emphasize long-term memory endpoints,2024-05-01T00:00:00Z,,,
+COG-LION-NEURO,cognition,lions_mane,merge,hericenone vs erinacine,cognitive_decline,high,P0,PMID: 24266378,pending,,,Separate dementia vs mild impairment cohorts,2024-05-01T00:00:00Z,,,
+COG-GINK-CIRC,cognition,ginkgo,merge,EGb 761 standard,memory,medium,P1,PMID: 24294394,pending,,,Document platelet interaction warnings,2024-05-01T00:00:00Z,,,
+COG-PSER-EXEC,cognition,phosphatidylserine,merge,soy vs sunflower source,executive_function,medium,P1,PMID: 21432743,pending,,,Segment ADHD adult cohorts,2024-05-01T00:00:00Z,,,
+COG-ALPGPC-FOCUS,cognition,alpha_gpc,merge,cognitive enhancement,attention,medium,P1,PMID: 23909254,pending,,,Include stroke recovery data,2024-05-01T00:00:00Z,,,
+COG-RHOD-STRESS,cognition,rhodiola,merge,standardized SHR-5 extract with fatigue endpoints,stress_resilience,medium,P1,PMID: 32175974,ready,,,Prioritize occupational stress populations before student cohorts,2024-05-01T00:00:00Z,,,
+COG-ACET-LEARN,cognition,acetyl_l_carnitine,merge,neuroplasticity stack,processing_speed,medium,P1,PMID: 24316276,pending,,,Flag combination with alpha lipoic acid,2024-05-01T00:00:00Z,,,
+COG-CIT-CIRC,cognition,citicoline,merge,CDP-choline oral,attention,medium,P1,PMID: 18676590,pending,,,Include neuroimaging evidence,2024-05-01T00:00:00Z,,,
+COG-LUTE-VIS,cognition,lutein,merge,brain-eye axis,processing_speed,low,P1,PMID: 26864365,pending,,,Track macular pigment density,2024-05-01T00:00:00Z,,,
+COG-RESV-NEURO,cognition,resveratrol,merge,microencapsulated brain delivery,cerebral_blood_flow,medium,P1,PMID: 22976155,pending,,,Highlight hemodynamic outcomes,2024-05-01T00:00:00Z,,,
+COG-CURC-NEURO,cognition,curcumin,split,BCM-95 vs Theracurmin,memory,medium,P1,PMID: 28196908,pending,,,Compare bioavailability enhancements,2024-05-01T00:00:00Z,,,
+COG-OMEGA-COG,cognition,omega_3,split,DHA dominant vs balanced,cognitive_decline,high,P0,PMID: 26502823,pending,,,Stratify APOE4 carriers,2024-05-01T00:00:00Z,,,
+COG-BRAIN-MULTI,cognition,nootropic_blend,merge,multi-ingredient capsules,attention,low,P1,PMID: 33601557,pending,,,Request component disclosure,2024-05-01T00:00:00Z,,,
+COG-PEP-NEURO,cognition,cerebrolysin_peptide,split,injectable vs oral mimetics,cognitive_decline,medium,P1,PMID: 26059819,pending,,,Flag invasive delivery methods,2024-05-01T00:00:00Z,,,
+COG-B12-COG,cognition,methyl_b12,merge,high-dose methylcobalamin,cognitive_decline,medium,P1,PMID: 31630248,pending,,,Capture neuropathy improvements,2024-05-01T00:00:00Z,,,
+COG-FOL-MCI,cognition,methylfolate,merge,L-methylfolate cognition,memory,medium,P1,PMID: 26015964,pending,,,Include homocysteine modulation,2024-05-01T00:00:00Z,,,
+COG-NICO-NOOT,cognition,nicotinamide_riboside,split,NR vs NMN comparative,mitochondrial_support,medium,P1,PMID: 34253274,pending,,,Track NAD+ biomarker response,2024-05-01T00:00:00Z,,,
+COG-CAFF-ADJ,cognition,caffeine_l_theanine,merge,synergy dosing,attention,high,P0,PMID: 23606881,pending,,,Monitor jitter reduction,2024-05-01T00:00:00Z,,,
+COG-GINS-ADAPT,cognition,panax_ginseng,merge,standardized ginsenosides,processing_speed,medium,P1,PMID: 23737848,pending,,,Highlight mental fatigue endpoints,2024-05-01T00:00:00Z,,,
+COG-VINC-CIRC,cognition,vinpocetine,merge,synthetic semisynthetic,cerebral_blood_flow,low,P1,PMID: 15982915,pending,,,Address regulatory warnings,2024-05-01T00:00:00Z,,,
+MENT-OMEGA-MOOD,mental_health,omega_3,merge,EPA dominant formulations for mood,depression,high,P0,doi:10.1001/jama.2018.8047,pending,,,Flag trials with EPA:DHA >= 2:1,2024-05-01T00:00:00Z,,,
+MENT-SAM-E,mental_health,sam_e,merge,stabilized enteric coated,depression,high,P0,PMID: 29247382,pending,,,Capture adjunct SSRI protocols,2024-05-01T00:00:00Z,,,
+MENT-STJ-WORT,mental_health,st_johns_wort,split,hypericin titration,depression,high,P0,PMID: 28756543,pending,,,Document CYP interactions,2024-05-01T00:00:00Z,,,
+MENT-SAFF-DEPR,mental_health,saffron,merge,affron vs crocetin,depression,medium,P1,PMID: 30571283,pending,,,Segment postpartum subsets,2024-05-01T00:00:00Z,,,
+MENT-PROB-MOOD,mental_health,probiotics,split,single strain vs multi-strain psychobiotics,anxiety,medium,P1,PMID: 32557471,pending,,,Track gut-brain axis biomarkers,2024-05-01T00:00:00Z,,,
+MENT-VITD-MOOD,mental_health,vitamin_d,merge,2000-5000 IU mood trials,depression,medium,P1,PMID: 34252593,pending,,,Include deficiency correction time,2024-05-01T00:00:00Z,,,
+MENT-B-COMPLEX,mental_health,b_complex,merge,high potency stress formulas,anxiety,medium,P1,PMID: 26035775,pending,,,Track energy level improvements,2024-05-01T00:00:00Z,,,
+MENT-LAV-CAPS,mental_health,lavender,merge,oral Silexan for anxiety,anxiety,medium,P1,PMID: 31452192,pending,,,Map to sleep overlap entries,2024-05-01T00:00:00Z,,,
+MENT-CBD-ANX,mental_health,cbd,split,isolate vs broad spectrum for anxiety,anxiety,medium,P1,PMID: 30624194,pending,,,Record dose-response curve,2024-05-01T00:00:00Z,,,
+MENT-KAVA-MOOD,mental_health,kava,split,kavalactone titration,anxiety,medium,P1,PMID: 22314855,pending,,,Flag hepatotoxicity alerts,2024-05-01T00:00:00Z,,,
+MENT-GABA-CALM,mental_health,gaba,merge,chewable pharma-GABA,anxiety,low,P1,PMID: 29069551,pending,,,Align with sleep latency dataset,2024-05-01T00:00:00Z,,,
+MENT-LTHN-ANX,mental_health,l_theanine,merge,200mg acute stress,anxiety,medium,P1,PMID: 30970138,pending,,,Capture HRV and cortisol changes,2024-05-01T00:00:00Z,,,
+MENT-RHOD-ANX,mental_health,rhodiola,merge,stress adaptogen,stress,medium,P1,PMID: 28436212,pending,,,Focus on burnout cohorts,2024-05-01T00:00:00Z,,,
+MENT-PSYCH-MUSH,mental_health,psilocybin_microdose,split,microdosing vs macrodose therapy,depression,high,P1,PMID: 33106615,pending,,,Track regulatory pathway,2024-05-01T00:00:00Z,,,
+MENT-KET-NUTRI,mental_health,ketamine_support,merge,nutraceutical adjunct,treatment_resistant_depression,high,P1,PMID: 36121969,pending,,,Document clinic-based protocols,2024-05-01T00:00:00Z,,,
+MENT-GLYCINE-MOOD,mental_health,glycine,merge,schizophrenia negative symptoms,negative_symptoms,medium,P1,PMID: 20080944,pending,,,Include NMDA modulation data,2024-05-01T00:00:00Z,,,
+MENT-NAC-OCD,mental_health,nac,merge,obsessive-compulsive protocols,ocd,medium,P1,PMID: 20679196,pending,,,Track glutamate markers,2024-05-01T00:00:00Z,,,
+MENT-MYO-IN,mental_health,myo_inositol,merge,panic disorder dosing,panic_disorder,medium,P1,PMID: 8811583,pending,,,Cross-link with sleep entries,2024-05-01T00:00:00Z,,,
+MENT-GUT-AXIS,mental_health,prebiotic_fiber,merge,galacto-oligosaccharide mood,anxiety,low,P1,PMID: 27693436,pending,,,Track microbiome diversity,2024-05-01T00:00:00Z,,,
+MENT-ADAPTO-MIX,mental_health,adaptogen_blend,merge,multi-herb stress support,stress,low,P1,PMID: 31712964,pending,,,Request full ingredient transparency,2024-05-01T00:00:00Z,,,
+CARD-COQ-BP,cardiovascular,coq10,merge,"ubiquinol focus, hypertension primary",blood_pressure,medium,P1,PMID: 27002429,pending,,,Document interactions with beta blockers,2024-05-01T00:00:00Z,,,
+CARD-OMEGA-CARD,cardiovascular,omega_3,split,EPA vs EPA+DHA cardiovascular,triglycerides,high,P0,PMID: 31475798,pending,,,Stratify REDUCE-IT style protocols,2024-05-01T00:00:00Z,,,
+CARD-GAR-CHOLE,cardiovascular,garlic,merge,aged garlic extract,cholesterol,medium,P1,PMID: 29128659,pending,,,Capture blood pressure secondary outcomes,2024-05-01T00:00:00Z,,,
+CARD-BERG-LIP,cardiovascular,bergamot,merge,citrus bergamia flavonoids,cholesterol,medium,P1,PMID: 27583603,pending,,,Focus on metabolic syndrome subsets,2024-05-01T00:00:00Z,,,
+CARD-REDY-STATIN,cardiovascular,red_yeast_rice,split,monacolin K content,cholesterol,high,P1,PMID: 27826854,pending,,,Flag statin-equivalent dosing,2024-05-01T00:00:00Z,,,
+CARD-HAW-HEART,cardiovascular,hawthorn,merge,Crataegus standardized extract,heart_failure,medium,P1,PMID: 18824421,pending,,,Document NYHA class improvements,2024-05-01T00:00:00Z,,,
+CARD-BEET-NIT,cardiovascular,beetroot,merge,nitrate-rich juice,endothelial_function,medium,P1,PMID: 28741527,pending,,,Track nitrate responsiveness,2024-05-01T00:00:00Z,,,
+CARD-POLY-RES,cardiovascular,polyphenol_blend,merge,grape seed + resveratrol,blood_pressure,low,P1,PMID: 26608248,pending,,,Confirm blend composition,2024-05-01T00:00:00Z,,,
+CARD-LYCOP-CARD,cardiovascular,lycopene,merge,tomato extract capsules,arterial_stiffness,low,P1,PMID: 24032464,pending,,,Capture carotid-femoral PWV,2024-05-01T00:00:00Z,,,
+CARD-PSYLL-CHOL,cardiovascular,psyllium,merge,soluble fiber cardiovascular,cholesterol,medium,P1,PMID: 25225344,pending,,,Track LDL reduction magnitude,2024-05-01T00:00:00Z,,,
+CARD-CARN-PUMP,cardiovascular,l_carnitine,merge,heart failure support,exercise_capacity,medium,P1,PMID: 21954889,pending,,,Include VO2 peak data,2024-05-01T00:00:00Z,,,
+CARD-TAUR-BP,cardiovascular,taurine,merge,1500mg dosing with potassium cofactor,blood_pressure_control,medium,P1,PMID: 34550123,pending,,,Measure nocturnal dipping status and arrhythmia surveillance,2025-02-16T00:00:00Z,,,
+CARD-POME-GTP,cardiovascular,pomegranate,merge,polyphenol-rich juice,blood_pressure,low,P1,PMID: 18224338,pending,,,Differentiate whole fruit vs extract,2024-05-01T00:00:00Z,,,
+CARD-FISH-PEP,cardiovascular,fish_peptides,merge,ACE-inhibitory peptides,blood_pressure,low,P1,PMID: 32075994,pending,,,Capture renin-angiotensin biomarkers,2024-05-01T00:00:00Z,,,
+CARD-SPIR-HTN,cardiovascular,spirulina,merge,phycocyanin fractions,blood_pressure,low,P1,PMID: 24640700,pending,,,Include endothelial markers,2024-05-01T00:00:00Z,,,
+CARD-CACAO-ENDO,cardiovascular,cocoa_flavanols,merge,high-flavanol beverages,endothelial_function,medium,P1,PMID: 26595631,pending,,,Track flow-mediated dilation,2024-05-01T00:00:00Z,,,
+CARD-NIA-VASO,cardiovascular,niacin,split,extended vs immediate release,hdl_cholesterol,medium,P1,PMID: 20625674,pending,,,Document flushing mitigation,2024-05-01T00:00:00Z,,,
+CARD-DARK-CHOC,cardiovascular,dark_chocolate,merge,70% cocoa polyphenols,blood_pressure,low,P1,PMID: 27586169,pending,,,Track dose vs sugar load,2024-05-01T00:00:00Z,,,
+CARD-CURC-CARD,cardiovascular,curcumin,split,nanoparticle vs standard,lipoprotein_a,medium,P1,PMID: 31588864,pending,,,Highlight inflammatory markers,2024-05-01T00:00:00Z,,,
+CARD-ASTA-CARD,cardiovascular,astaxanthin,merge,cardiometabolic support,oxidative_stress,low,P1,PMID: 29053537,pending,,,Include LDL oxidation endpoints,2024-05-01T00:00:00Z,,,
+META-GLU01,metabolic,berberine,merge,standardized protocol 1,glucose_control,high,P0,PMID: 371001,pending,automation,,"stub rollback @2025-11-05; Document metabolic outcomes for berberine protocol 1
+Batch generated on 2025-10-24T08:19:07.017645+00:00",2025-10-24T08:19:07.017693,,,
+META-GLU02,metabolic,alpha_lipoic_acid,merge,standardized protocol 2,insulin_sensitivity,medium,P1,PMID: 371002,pending,automation,,"stub rollback @2025-11-05; Document metabolic outcomes for alpha_lipoic_acid protocol 2
+Batch generated on 2025-10-24T08:19:07.137967+00:00",2025-10-24T08:19:07.138030,,,
+META-GLU03,metabolic,chromium,split,standardized protocol 3,lipid_profile,medium,P1,PMID: 371003,pending,automation,,"stub rollback @2025-11-05; Document metabolic outcomes for chromium protocol 3
+Batch generated on 2025-10-24T08:19:07.254430+00:00",2025-10-24T08:19:07.254513,,,
+META-GLU04,metabolic,cinnamon,merge,standardized protocol 4,weight_management,low,P2,PMID: 371004,pending,automation,,"stub rollback @2025-11-05; Document metabolic outcomes for cinnamon protocol 4
+Batch generated on 2025-10-24T08:19:07.372052+00:00",2025-10-24T08:19:07.372097,,,
+META-GLU05,metabolic,gymnema,merge,standardized protocol 5,glucose_control,high,P0,PMID: 371005,pending,automation,,"stub rollback @2025-11-05; Document metabolic outcomes for gymnema protocol 5
+Batch generated on 2025-10-24T08:19:07.491248+00:00",2025-10-24T08:19:07.491284,,,
+META-GLU06,metabolic,bitter_melon,split,standardized protocol 6,glucose_control,medium,P1,PMID: 371006,pending,automation,,"stub rollback @2025-11-05; Document metabolic outcomes for bitter_melon protocol 6
+Batch generated on 2025-10-24T08:19:07.611183+00:00",2025-10-24T08:19:07.611225,,,
+META-GLU07,metabolic,inositol,merge,standardized protocol 7,insulin_sensitivity,medium,P1,PMID: 371007,pending,automation,,"stub rollback @2025-11-05; Document metabolic outcomes for inositol protocol 7
+Batch generated on 2025-10-24T08:19:07.730724+00:00",2025-10-24T08:19:07.730775,,,
+META-GLU08,metabolic,magnesium,merge,standardized protocol 8,lipid_profile,low,P2,PMID: 371008,pending,automation,,"stub rollback @2025-11-05; Document metabolic outcomes for magnesium protocol 8
+Batch generated on 2025-10-24T08:19:07.836354+00:00",2025-10-24T08:19:07.836390,,,
+META-GLU09,metabolic,vanadyl_sulfate,split,standardized protocol 9,weight_management,high,P0,PMID: 371009,pending,automation,,"stub rollback @2025-11-05; Document metabolic outcomes for vanadyl_sulfate protocol 9
+Batch generated on 2025-10-24T08:19:07.941002+00:00",2025-10-24T08:19:07.941039,,,
+META-GLU10,metabolic,apple_cider_vinegar,merge,standardized protocol 10,glucose_control,medium,P1,PMID: 371010,pending,automation,,"stub rollback @2025-11-05; Document metabolic outcomes for apple_cider_vinegar protocol 10
+Batch generated on 2025-10-24T08:19:08.104098+00:00",2025-10-24T08:19:08.104133,,,
+META-GLU11,metabolic,fenugreek,merge,standardized protocol 11,glucose_control,medium,P1,PMID: 371011,pending,automation,,"stub rollback @2025-11-05; Document metabolic outcomes for fenugreek protocol 11
+Batch generated on 2025-10-24T08:19:08.222080+00:00",2025-10-24T08:19:08.222114,,,
+META-GLU12,metabolic,spirulina,split,standardized protocol 12,insulin_sensitivity,low,P2,PMID: 371012,pending,automation,,"stub rollback @2025-11-05; Document metabolic outcomes for spirulina protocol 12
+Batch generated on 2025-10-24T08:19:08.346004+00:00",2025-10-24T08:19:08.346041,,,
+META-GLU13,metabolic,chlorella,merge,standardized protocol 13,lipid_profile,high,P0,PMID: 371013,pending,automation,,"stub rollback @2025-11-05; Document metabolic outcomes for chlorella protocol 13
+Batch generated on 2025-10-24T08:19:08.464097+00:00",2025-10-24T08:19:08.464133,,,
+META-GLU14,metabolic,milk_thistle,merge,standardized protocol 14,weight_management,medium,P1,PMID: 371014,pending,automation,,"stub rollback @2025-11-05; Document metabolic outcomes for milk_thistle protocol 14
+Batch generated on 2025-10-24T08:19:08.580622+00:00",2025-10-24T08:19:08.580657,,,
+META-GLU15,metabolic,artichoke_extract,split,standardized protocol 15,glucose_control,medium,P1,PMID: 371015,pending,automation,,"stub rollback @2025-11-05; Document metabolic outcomes for artichoke_extract protocol 15
+Batch generated on 2025-10-24T08:19:08.708022+00:00",2025-10-24T08:19:08.708079,,,
+META-GLU16,metabolic,olive_leaf,merge,standardized protocol 16,glucose_control,low,P2,PMID: 371016,pending,automation,,"stub rollback @2025-11-05; Document metabolic outcomes for olive_leaf protocol 16
+Batch generated on 2025-10-24T08:19:08.828987+00:00",2025-10-24T08:19:08.829045,,,
+META-GLU17,metabolic,resveratrol,merge,standardized protocol 17,insulin_sensitivity,high,P0,PMID: 371017,pending,automation,,"stub rollback @2025-11-05; Document metabolic outcomes for resveratrol protocol 17
+Batch generated on 2025-10-24T08:19:08.946939+00:00",2025-10-24T08:19:08.947010,,,
+META-GLU18,metabolic,pterostilbene,split,standardized protocol 18,lipid_profile,medium,P1,PMID: 371018,pending,automation,,"stub rollback @2025-11-05; Document metabolic outcomes for pterostilbene protocol 18
+Batch generated on 2025-10-24T08:19:09.090540+00:00",2025-10-24T08:19:09.090592,,,
+META-GLU19,metabolic,omega_3,merge,standardized protocol 19,weight_management,medium,P1,PMID: 371019,pending,automation,,"stub rollback @2025-11-05; Document metabolic outcomes for omega_3 protocol 19
+Batch generated on 2025-10-24T08:19:09.214679+00:00",2025-10-24T08:19:09.214717,,,
+META-GLU20,metabolic,curcumin,merge,standardized protocol 20,glucose_control,low,P2,PMID: 371020,pending,automation,,"stub rollback @2025-11-05; Document metabolic outcomes for curcumin protocol 20
+Batch generated on 2025-10-24T08:19:09.337914+00:00",2025-10-24T08:19:09.337950,,,
+INFL-INF01,inflammation,curcumin,merge,standardized protocol 1,joint_pain,high,P0,PMID: 451001,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for curcumin entry 1
+Stub entry generated on 2025-10-27T01:51:32.532836+00:00",2025-10-27T01:51:32.532846+00:00,,,
+INFL-INF02,inflammation,boswellia,merge,standardized protocol 2,systemic_inflammation,medium,P1,PMID: 451002,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for boswellia entry 2
+Stub entry generated on 2025-10-27T01:51:32.534569+00:00",2025-10-27T01:51:32.534578+00:00,,,
+INFL-INF03,inflammation,omega_3,split,standardized protocol 3,recovery,medium,P1,PMID: 451003,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for omega_3 entry 3
+Stub entry generated on 2025-10-27T01:51:32.536126+00:00",2025-10-27T01:51:32.536132+00:00,,,
+INFL-INF04,inflammation,ginger,merge,standardized protocol 4,joint_pain,low,P2,PMID: 451004,pending,,,Track inflammatory biomarkers for ginger entry 4,2024-05-01T00:00:00Z,,,
+INFL-INF05,inflammation,quercetin,merge,standardized protocol 5,skin_inflammation,high,P0,PMID: 451005,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for quercetin entry 5
+Stub entry generated on 2025-10-27T01:51:32.537745+00:00",2025-10-27T01:51:32.537754+00:00,,,
+INFL-INF06,inflammation,bromelain,split,standardized protocol 6,joint_pain,medium,P1,PMID: 451006,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for bromelain entry 6
+Stub entry generated on 2025-10-27T01:51:32.539218+00:00",2025-10-27T01:51:32.539226+00:00,,,
+INFL-INF07,inflammation,green_tea,merge,standardized protocol 7,systemic_inflammation,medium,P1,PMID: 451007,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for green_tea entry 7
+Stub entry generated on 2025-10-27T01:51:32.540789+00:00",2025-10-27T01:51:32.540797+00:00,,,
+INFL-INF08,inflammation,resveratrol,merge,standardized protocol 8,recovery,low,P2,PMID: 451008,pending,,,Track inflammatory biomarkers for resveratrol entry 8,2024-05-01T00:00:00Z,,,
+INFL-INF09,inflammation,astaxanthin,split,standardized protocol 9,joint_pain,high,P0,PMID: 451009,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for astaxanthin entry 9
+Stub entry generated on 2025-10-27T01:51:32.542453+00:00",2025-10-27T01:51:32.542461+00:00,,,
+INFL-INF10,inflammation,pycnogenol,merge,standardized protocol 10,skin_inflammation,medium,P1,PMID: 451010,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for pycnogenol entry 10
+Stub entry generated on 2025-10-27T01:51:32.544005+00:00",2025-10-27T01:51:32.544014+00:00,,,
+INFL-INF11,inflammation,collagen,merge,standardized protocol 11,joint_pain,medium,P1,PMID: 451011,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for collagen entry 11
+Stub entry generated on 2025-10-27T01:51:32.545517+00:00",2025-10-27T01:51:32.545526+00:00,,,
+INFL-INF12,inflammation,msm,split,standardized protocol 12,systemic_inflammation,low,P2,PMID: 451012,pending,,,Track inflammatory biomarkers for msm entry 12,2024-05-01T00:00:00Z,,,
+INFL-INF13,inflammation,hyaluronic_acid,merge,standardized protocol 13,recovery,high,P0,PMID: 451013,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for hyaluronic_acid entry 13
+Stub entry generated on 2025-10-27T01:51:32.547002+00:00",2025-10-27T01:51:32.547009+00:00,,,
+INFL-INF14,inflammation,sulforaphane,merge,standardized protocol 14,joint_pain,medium,P1,PMID: 451014,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for sulforaphane entry 14
+Stub entry generated on 2025-10-27T01:51:32.548496+00:00",2025-10-27T01:51:32.548505+00:00,,,
+INFL-INF15,inflammation,vitamin_c,split,standardized protocol 15,skin_inflammation,medium,P1,PMID: 451015,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for vitamin_c entry 15
+Stub entry generated on 2025-10-27T01:51:32.549981+00:00",2025-10-27T01:51:32.549989+00:00,,,
+INFL-INF16,inflammation,vitamin_e,merge,standardized protocol 16,joint_pain,low,P2,PMID: 451016,pending,,,Track inflammatory biomarkers for vitamin_e entry 16,2024-05-01T00:00:00Z,,,
+INFL-INF17,inflammation,turmeric_oil,merge,standardized protocol 17,systemic_inflammation,high,P0,PMID: 451017,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for turmeric_oil entry 17
+Stub entry generated on 2025-10-27T01:51:32.551320+00:00",2025-10-27T01:51:32.551327+00:00,,,
+INFL-INF18,inflammation,evening_primrose,split,standardized protocol 18,recovery,medium,P1,PMID: 451018,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for evening_primrose entry 18
+Stub entry generated on 2025-10-27T01:51:32.552758+00:00",2025-10-27T01:51:32.552767+00:00,,,
+INFL-INF19,inflammation,black_currant,merge,standardized protocol 19,joint_pain,medium,P1,PMID: 451019,pending,automation,,"stub rollback @2025-11-05; Track inflammatory biomarkers for black_currant entry 19
+Stub entry generated on 2025-10-27T01:51:32.554389+00:00",2025-10-27T01:51:32.554399+00:00,,,
+INFL-INF20,inflammation,arnica,merge,standardized protocol 20,skin_inflammation,low,P2,PMID: 451020,pending,,,Track inflammatory biomarkers for arnica entry 20,2024-05-01T00:00:00Z,,,
+LONG-LON01,longevity,nicotinamide_riboside,merge,standardized protocol 1,cellular_ageing,high,P0,PMID: 521001,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for nicotinamide_riboside study 1
+Stub entry generated on 2025-10-27T01:51:32.555903+00:00",2025-10-27T01:51:32.555911+00:00,,,
+LONG-LON02,longevity,nicotinamide_mononucleotide,merge,standardized protocol 2,mitochondrial_function,medium,P1,PMID: 521002,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for nicotinamide_mononucleotide study 2
+Stub entry generated on 2025-10-27T01:51:32.557674+00:00",2025-10-27T01:51:32.557684+00:00,,,
+LONG-LON03,longevity,resveratrol,split,standardized protocol 3,telomere_support,medium,P1,PMID: 521003,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for resveratrol study 3
+Stub entry generated on 2025-10-27T01:51:32.559122+00:00",2025-10-27T01:51:32.559130+00:00,,,
+LONG-LON04,longevity,pterostilbene,merge,standardized protocol 4,cellular_ageing,low,P2,PMID: 521004,pending,,,Summarize longevity markers for pterostilbene study 4,2024-05-01T00:00:00Z,,,
+LONG-LON05,longevity,fisetin,merge,standardized protocol 5,cellular_ageing,high,P0,PMID: 521005,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for fisetin study 5
+Stub entry generated on 2025-10-27T01:51:32.560586+00:00",2025-10-27T01:51:32.560596+00:00,,,
+LONG-LON06,longevity,quercetin,split,standardized protocol 6,mitochondrial_function,medium,P1,PMID: 521006,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for quercetin study 6
+Stub entry generated on 2025-10-27T01:51:32.562091+00:00",2025-10-27T01:51:32.562100+00:00,,,
+LONG-LON07,longevity,spermidine,merge,standardized protocol 7,telomere_support,medium,P1,PMID: 521007,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for spermidine study 7
+Stub entry generated on 2025-10-27T01:51:32.563564+00:00",2025-10-27T01:51:32.563574+00:00,,,
+LONG-LON08,longevity,taurine,merge,standardized protocol 8,cellular_ageing,low,P2,PMID: 521008,pending,,,Summarize longevity markers for taurine study 8,2024-05-01T00:00:00Z,,,
+LONG-LON09,longevity,melatonin,split,standardized protocol 9,cellular_ageing,high,P0,PMID: 521009,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for melatonin study 9
+Stub entry generated on 2025-10-27T01:51:32.564983+00:00",2025-10-27T01:51:32.564990+00:00,,,
+LONG-LON10,longevity,coq10,merge,standardized protocol 10,mitochondrial_function,medium,P1,PMID: 521010,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for coq10 study 10
+Stub entry generated on 2025-10-27T01:51:32.566390+00:00",2025-10-27T01:51:32.566398+00:00,,,
+LONG-LON11,longevity,astaxanthin,merge,standardized protocol 11,telomere_support,medium,P1,PMID: 521011,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for astaxanthin study 11
+Stub entry generated on 2025-10-27T01:51:32.567891+00:00",2025-10-27T01:51:32.567899+00:00,,,
+LONG-LON12,longevity,urolithin_a,split,standardized protocol 12,cellular_ageing,low,P2,PMID: 521012,pending,,,Summarize longevity markers for urolithin_a study 12,2024-05-01T00:00:00Z,,,
+LONG-LON13,longevity,alpha_ketoglutarate,merge,standardized protocol 13,cellular_ageing,high,P0,PMID: 521013,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for alpha_ketoglutarate study 13
+Stub entry generated on 2025-10-27T01:51:32.569400+00:00",2025-10-27T01:51:32.569408+00:00,,,
+LONG-LON14,longevity,collagen,merge,standardized protocol 14,mitochondrial_function,medium,P1,PMID: 521014,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for collagen study 14
+Stub entry generated on 2025-10-27T01:51:32.570773+00:00",2025-10-27T01:51:32.570782+00:00,,,
+LONG-LON15,longevity,glutathione,split,standardized protocol 15,telomere_support,medium,P1,PMID: 521015,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for glutathione study 15
+Stub entry generated on 2025-10-27T01:51:32.572113+00:00",2025-10-27T01:51:32.572120+00:00,,,
+LONG-LON16,longevity,curcumin,merge,standardized protocol 16,cellular_ageing,low,P2,PMID: 521016,pending,,,Summarize longevity markers for curcumin study 16,2024-05-01T00:00:00Z,,,
+LONG-LON17,longevity,berberine,merge,standardized protocol 17,cellular_ageing,high,P0,PMID: 521017,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for berberine study 17
+Stub entry generated on 2025-10-27T01:51:32.573627+00:00",2025-10-27T01:51:32.573634+00:00,,,
+LONG-LON18,longevity,metformin_analog,split,standardized protocol 18,mitochondrial_function,medium,P1,PMID: 521018,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for metformin_analog study 18
+Stub entry generated on 2025-10-27T01:51:32.574949+00:00",2025-10-27T01:51:32.574955+00:00,,,
+LONG-LON19,longevity,rapamycin_microdose,merge,standardized protocol 19,telomere_support,medium,P1,PMID: 521019,pending,automation,,"stub rollback @2025-11-05; Summarize longevity markers for rapamycin_microdose study 19
+Stub entry generated on 2025-10-27T01:51:32.576566+00:00",2025-10-27T01:51:32.576574+00:00,,,
+LONG-LON20,longevity,omega_3,merge,standardized protocol 20,cellular_ageing,low,P2,PMID: 521020,pending,,,Summarize longevity markers for omega_3 study 20,2024-05-01T00:00:00Z,,,
+MUSC-MSK01,musculoskeletal,collagen,merge,standardized protocol 1,joint_health,high,P0,PMID: 631001,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for collagen program 1
+Stub entry generated on 2025-10-27T01:51:32.578106+00:00",2025-10-27T01:51:32.578116+00:00,,,
+MUSC-MSK02,musculoskeletal,glucosamine,merge,standardized protocol 2,bone_density,medium,P1,PMID: 631002,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for glucosamine program 2
+Stub entry generated on 2025-10-27T01:51:32.579637+00:00",2025-10-27T01:51:32.579644+00:00,,,
+MUSC-MSK03,musculoskeletal,chondroitin,split,standardized protocol 3,muscle_recovery,medium,P1,PMID: 631003,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for chondroitin program 3
+Stub entry generated on 2025-10-27T01:51:32.581267+00:00",2025-10-27T01:51:32.581275+00:00,,,
+MUSC-MSK04,musculoskeletal,msm,merge,standardized protocol 4,strength,low,P2,PMID: 631004,pending,,,Capture musculoskeletal endpoints for msm program 4,2024-05-01T00:00:00Z,,,
+MUSC-MSK05,musculoskeletal,turmeric,merge,standardized protocol 5,joint_health,high,P0,PMID: 631005,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for turmeric program 5
+Stub entry generated on 2025-10-27T01:51:32.582632+00:00",2025-10-27T01:51:32.582640+00:00,,,
+MUSC-MSK06,musculoskeletal,boswellia,split,standardized protocol 6,bone_density,medium,P1,PMID: 631006,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for boswellia program 6
+Stub entry generated on 2025-10-27T01:51:32.583910+00:00",2025-10-27T01:51:32.583916+00:00,,,
+MUSC-MSK07,musculoskeletal,hyaluronic_acid,merge,standardized protocol 7,muscle_recovery,medium,P1,PMID: 631007,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for hyaluronic_acid program 7
+Stub entry generated on 2025-10-27T01:51:32.585415+00:00",2025-10-27T01:51:32.585423+00:00,,,
+MUSC-MSK08,musculoskeletal,vitamin_d,merge,standardized protocol 8,strength,low,P2,PMID: 631008,pending,,,Capture musculoskeletal endpoints for vitamin_d program 8,2024-05-01T00:00:00Z,,,
+MUSC-MSK09,musculoskeletal,calcium,split,standardized protocol 9,joint_health,high,P0,PMID: 631009,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for calcium program 9
+Stub entry generated on 2025-10-27T01:51:32.586810+00:00",2025-10-27T01:51:32.586817+00:00,,,
+MUSC-MSK10,musculoskeletal,magnesium,merge,standardized protocol 10,bone_density,medium,P1,PMID: 631010,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for magnesium program 10
+Stub entry generated on 2025-10-27T01:51:32.588094+00:00",2025-10-27T01:51:32.588100+00:00,,,
+MUSC-MSK11,musculoskeletal,creatine,merge,standardized protocol 11,muscle_recovery,medium,P1,PMID: 631011,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for creatine program 11
+Stub entry generated on 2025-10-27T01:51:32.589500+00:00",2025-10-27T01:51:32.589508+00:00,,,
+MUSC-MSK12,musculoskeletal,beta_alanine,split,standardized protocol 12,strength,low,P2,PMID: 631012,pending,,,Capture musculoskeletal endpoints for beta_alanine program 12,2024-05-01T00:00:00Z,,,
+MUSC-MSK13,musculoskeletal,l_carnitine,merge,standardized protocol 13,joint_health,high,P0,PMID: 631013,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for l_carnitine program 13
+Stub entry generated on 2025-10-27T01:51:32.590907+00:00",2025-10-27T01:51:32.590915+00:00,,,
+MUSC-MSK14,musculoskeletal,citrulline,merge,standardized protocol 14,bone_density,medium,P1,PMID: 631014,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for citrulline program 14
+Stub entry generated on 2025-10-27T01:51:32.593093+00:00",2025-10-27T01:51:32.593103+00:00,,,
+MUSC-MSK15,musculoskeletal,beetroot,split,standardized protocol 15,muscle_recovery,medium,P1,PMID: 631015,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for beetroot program 15
+Stub entry generated on 2025-10-27T01:51:32.594684+00:00",2025-10-27T01:51:32.594693+00:00,,,
+MUSC-MSK16,musculoskeletal,omega_3,merge,standardized protocol 16,strength,low,P2,PMID: 631016,pending,,,Capture musculoskeletal endpoints for omega_3 program 16,2024-05-01T00:00:00Z,,,
+MUSC-MSK17,musculoskeletal,whey_protein,merge,standardized protocol 17,joint_health,high,P0,PMID: 631017,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for whey_protein program 17
+Stub entry generated on 2025-10-27T01:51:32.596083+00:00",2025-10-27T01:51:32.596090+00:00,,,
+MUSC-MSK18,musculoskeletal,casein,split,standardized protocol 18,bone_density,medium,P1,PMID: 631018,pending,automation,,"stub rollback @2025-11-05; Capture musculoskeletal endpoints for casein program 18
+Stub entry generated on 2025-10-27T01:51:32.597649+00:00",2025-10-27T01:51:32.597658+00:00,,,
+MUSC-MSK19,musculoskeletal,pea_protein,merge,standardized protocol 19,muscle_recovery,medium,P1,PMID: 631019,pending,,,Capture musculoskeletal endpoints for pea_protein program 19,2024-05-01T00:00:00Z,,,
+MUSC-MSK20,musculoskeletal,collagen_peptides,merge,standardized protocol 20,strength,low,P2,PMID: 631020,pending,,,Capture musculoskeletal endpoints for collagen_peptides program 20,2024-05-01T00:00:00Z,,,
+IMM-IMM01,immune,echinacea,merge,standardized protocol 1,upper_respiratory,high,P0,PMID: 711001,pending,automation,,"stub rollback @2025-11-05; Document immune outcomes for echinacea cohort 1
+Batch generated on 2025-10-24T08:19:09.459179+00:00",2025-10-24T08:19:09.459226,,,
+IMM-IMM02,immune,elderberry,merge,standardized protocol 2,immune_modulation,medium,P1,PMID: 711002,pending,automation,,"stub rollback @2025-11-05; Document immune outcomes for elderberry cohort 2
+Batch generated on 2025-10-24T08:19:09.578910+00:00",2025-10-24T08:19:09.578980,,,
+IMM-IMM03,immune,vitamin_c,split,standardized protocol 3,antiviral_support,medium,P1,PMID: 711003,pending,automation,,"stub rollback @2025-11-05; Document immune outcomes for vitamin_c cohort 3
+Batch generated on 2025-10-24T08:19:09.701680+00:00",2025-10-24T08:19:09.701728,,,
+IMM-IMM04,immune,vitamin_d,merge,standardized protocol 4,upper_respiratory,low,P2,PMID: 711004,pending,automation,,"stub rollback @2025-11-05; Document immune outcomes for vitamin_d cohort 4
+Batch generated on 2025-10-24T08:19:09.825189+00:00",2025-10-24T08:19:09.825243,,,
+IMM-IMM05,immune,zinc,merge,standardized protocol 5,upper_respiratory,high,P0,PMID: 711005,pending,automation,,"stub rollback @2025-11-05; Document immune outcomes for zinc cohort 5
+Batch generated on 2025-10-24T08:19:09.944692+00:00",2025-10-24T08:19:09.944813,,,
+IMM-IMM06,immune,selenium,split,standardized protocol 6,immune_modulation,medium,P1,PMID: 711006,pending,automation,,"stub rollback @2025-11-05; Document immune outcomes for selenium cohort 6
+Batch generated on 2025-10-24T08:19:10.089251+00:00",2025-10-24T08:19:10.089286,,,
+IMM-IMM07,immune,beta_glucans,merge,standardized protocol 7,antiviral_support,medium,P1,PMID: 711007,pending,automation,,"stub rollback @2025-11-05; Document immune outcomes for beta_glucans cohort 7
+Batch generated on 2025-10-24T08:19:10.199553+00:00",2025-10-24T08:19:10.199601,,,
+IMM-IMM08,immune,colostrum,merge,standardized protocol 8,upper_respiratory,low,P2,PMID: 711008,pending,automation,,"stub rollback @2025-11-05; Document immune outcomes for colostrum cohort 8
+Batch generated on 2025-10-24T08:19:10.334370+00:00",2025-10-24T08:19:10.334450,,,
+IMM-IMM09,immune,propolis,split,standardized protocol 9,upper_respiratory,high,P0,PMID: 711009,pending,automation,,"stub rollback @2025-11-05; Document immune outcomes for propolis cohort 9
+Batch generated on 2025-10-24T08:19:10.450040+00:00",2025-10-24T08:19:10.450075,,,
+IMM-IMM10,immune,andrographis,merge,standardized protocol 10,immune_modulation,medium,P1,PMID: 711010,pending,automation,,"stub rollback @2025-11-05; Document immune outcomes for andrographis cohort 10
+Batch generated on 2025-10-24T08:19:10.570917+00:00",2025-10-24T08:19:10.570963,,,
+IMM-IMM11,immune,quercetin,merge,standardized protocol 11,antiviral_support,medium,P1,PMID: 711011,pending,automation,,"stub rollback @2025-11-05; Document immune outcomes for quercetin cohort 11
+Batch generated on 2025-10-24T08:19:10.689532+00:00",2025-10-24T08:19:10.689603,,,
+IMM-IMM12,immune,n_acetyl_cysteine,split,standardized protocol 12,upper_respiratory,low,P2,PMID: 711012,pending,automation,,"stub rollback @2025-11-05; Document immune outcomes for n_acetyl_cysteine cohort 12
+Batch generated on 2025-10-24T08:19:10.809247+00:00",2025-10-24T08:19:10.809295,,,
+IMM-IMM13,immune,glutathione,merge,standardized protocol 13,upper_respiratory,high,P0,PMID: 711013,pending,automation,,"stub rollback @2025-11-05; Document immune outcomes for glutathione cohort 13
+Batch generated on 2025-10-24T08:19:10.917171+00:00",2025-10-24T08:19:10.917235,,,
+IMM-IMM14,immune,spirulina,merge,standardized protocol 14,immune_modulation,medium,P1,PMID: 711014,pending,automation,,"stub rollback @2025-11-05; Document immune outcomes for spirulina cohort 14
+Batch generated on 2025-10-24T08:19:11.013980+00:00",2025-10-24T08:19:11.014041,,,
+IMM-IMM15,immune,chlorella,split,standardized protocol 15,antiviral_support,medium,P1,PMID: 711015,pending,automation,,"stub rollback @2025-11-05; Document immune outcomes for chlorella cohort 15
+Batch generated on 2025-10-24T08:19:11.117077+00:00",2025-10-24T08:19:11.117139,,,
+IMM-IMM16,immune,cordyceps,merge,standardized protocol 16,upper_respiratory,low,P2,PMID: 711016,pending,automation,,"stub rollback @2025-11-05; Document immune outcomes for cordyceps cohort 16
+Batch generated on 2025-10-24T08:19:11.220624+00:00",2025-10-24T08:19:11.220658,,,
+IMM-IMM17,immune,reishi,merge,standardized protocol 17,upper_respiratory,high,P0,PMID: 711017,pending,automation,,"stub rollback @2025-11-05; Document immune outcomes for reishi cohort 17
+Batch generated on 2025-10-24T08:19:11.318442+00:00",2025-10-24T08:19:11.318490,,,
+IMM-IMM18,immune,maitake,split,standardized protocol 18,immune_modulation,medium,P1,PMID: 711018,pending,automation,,"stub rollback @2025-11-05; Document immune outcomes for maitake cohort 18
+Batch generated on 2025-10-24T08:19:11.417523+00:00",2025-10-24T08:19:11.417565,,,
+IMM-IMM19,immune,shiitake,merge,standardized protocol 19,antiviral_support,medium,P1,PMID: 711019,pending,automation,,"stub rollback @2025-11-05; Document immune outcomes for shiitake cohort 19
+Batch generated on 2025-10-24T08:19:11.515321+00:00",2025-10-24T08:19:11.515356,,,
+IMM-IMM20,immune,turkey_tail,merge,standardized protocol 20,upper_respiratory,low,P2,PMID: 711020,pending,automation,,"stub rollback @2025-11-05; Document immune outcomes for turkey_tail cohort 20
+Batch generated on 2025-10-24T08:19:11.621318+00:00",2025-10-24T08:19:11.621353,,,
+ENDO-END01,endocrine,inositol,merge,standardized protocol 1,pcos_support,high,P0,PMID: 821001,pending,,,Capture endocrine metrics for inositol case 1,2024-05-01T00:00:00Z,,,
+ENDO-END02,endocrine,berberine,merge,standardized protocol 2,thyroid_support,medium,P1,PMID: 821002,pending,,,Capture endocrine metrics for berberine case 2,2024-05-01T00:00:00Z,,,
+ENDO-END03,endocrine,ashwagandha,split,standardized protocol 3,testosterone_balance,medium,P1,PMID: 821003,pending,,,Capture endocrine metrics for ashwagandha case 3,2024-05-01T00:00:00Z,,,
+ENDO-END04,endocrine,maca,merge,standardized protocol 4,menopause_support,low,P2,PMID: 821004,pending,,,Capture endocrine metrics for maca case 4,2024-05-01T00:00:00Z,,,
+ENDO-END05,endocrine,tribulus,merge,standardized protocol 5,pcos_support,high,P0,PMID: 821005,pending,,,Capture endocrine metrics for tribulus case 5,2024-05-01T00:00:00Z,,,
+ENDO-END06,endocrine,vitex,split,standardized protocol 6,thyroid_support,medium,P1,PMID: 821006,pending,,,Capture endocrine metrics for vitex case 6,2024-05-01T00:00:00Z,,,
+ENDO-END07,endocrine,black_cohosh,merge,standardized protocol 7,testosterone_balance,medium,P1,PMID: 821007,pending,,,Capture endocrine metrics for black_cohosh case 7,2024-05-01T00:00:00Z,,,
+ENDO-END08,endocrine,evening_primrose,merge,standardized protocol 8,menopause_support,low,P2,PMID: 821008,pending,,,Capture endocrine metrics for evening_primrose case 8,2024-05-01T00:00:00Z,,,
+ENDO-END09,endocrine,dhea,split,standardized protocol 9,pcos_support,high,P0,PMID: 821009,pending,,,Capture endocrine metrics for dhea case 9,2024-05-01T00:00:00Z,,,
+ENDO-END10,endocrine,pregnenolone,merge,standardized protocol 10,thyroid_support,medium,P1,PMID: 821010,pending,,,Capture endocrine metrics for pregnenolone case 10,2024-05-01T00:00:00Z,,,
+ENDO-END11,endocrine,vitamin_d,merge,standardized protocol 11,testosterone_balance,medium,P1,PMID: 821011,pending,,,Capture endocrine metrics for vitamin_d case 11,2024-05-01T00:00:00Z,,,
+ENDO-END12,endocrine,magnesium,split,standardized protocol 12,menopause_support,low,P2,PMID: 821012,pending,,,Capture endocrine metrics for magnesium case 12,2024-05-01T00:00:00Z,,,
+ENDO-END13,endocrine,chromium,merge,standardized protocol 13,pcos_support,high,P0,PMID: 821013,pending,,,Capture endocrine metrics for chromium case 13,2024-05-01T00:00:00Z,,,
+ENDO-END14,endocrine,alpha_lipoic_acid,merge,standardized protocol 14,thyroid_support,medium,P1,PMID: 821014,pending,,,Capture endocrine metrics for alpha_lipoic_acid case 14,2024-05-01T00:00:00Z,,,
+ENDO-END15,endocrine,fenugreek,split,standardized protocol 15,testosterone_balance,medium,P1,PMID: 821015,pending,,,Capture endocrine metrics for fenugreek case 15,2024-05-01T00:00:00Z,,,
+ENDO-END16,endocrine,saw_palmetto,merge,standardized protocol 16,menopause_support,low,P2,PMID: 821016,pending,,,Capture endocrine metrics for saw_palmetto case 16,2024-05-01T00:00:00Z,,,
+ENDO-END17,endocrine,pygeum,merge,standardized protocol 17,pcos_support,high,P0,PMID: 821017,pending,,,Capture endocrine metrics for pygeum case 17,2024-05-01T00:00:00Z,,,
+ENDO-END18,endocrine,beta_sitosterol,split,standardized protocol 18,thyroid_support,medium,P1,PMID: 821018,pending,,,Capture endocrine metrics for beta_sitosterol case 18,2024-05-01T00:00:00Z,,,
+ENDO-END19,endocrine,myo_inositol,merge,standardized protocol 19,testosterone_balance,medium,P1,PMID: 821019,pending,,,Capture endocrine metrics for myo_inositol case 19,2024-05-01T00:00:00Z,,,
+ENDO-END20,endocrine,nac,merge,standardized protocol 20,menopause_support,low,P2,PMID: 821020,pending,,,Capture endocrine metrics for nac case 20,2024-05-01T00:00:00Z,,,
+MH-ASH-CORT,mental_health,ashwagandha,merge,standardized KSM-66 dosing with salivary cortisol tracking,stress_resilience,high,P0,PMID: 33245287,pending,,,Integrate cortisol awakening response panels,2025-02-15T00:00:00Z,,,
+MH-SAFR-MOOD,mental_health,saffron,merge,affron extract vs whole stigma capsules,depressive_symptoms,high,P0,PMID: 30126126,pending,,,Monitor mood state inventories and sleep spillover,2025-02-15T00:00:00Z,,,
+MH-OMEGA-DEP,mental_health,omega_3,split,epa dominant vs dha balanced formulations,major_depression,medium,P1,PMID: 35952512,pending,,,Capture inflammatory biomarkers alongside mood endpoints,2025-02-15T00:00:00Z,,,
+MH-PROBIO-AXIS,mental_health,probiotic_blend,split,multi strain psychobiotic vs single strain,gut_brain_axis,medium,P1,PMID: 36202138,pending,,,Align with gut microbiome sequencing substudies,2025-02-15T00:00:00Z,,,
+MH-LTHR-GABA,mental_health,l_theanine,merge,200mg evening dosing with eeg alpha monitoring,anxiety_management,medium,P1,PMID: 28941944,pending,,,Track acute vs chronic anxiolytic response windows,2025-02-15T00:00:00Z,,,
+MH-LTRP-SEROTONIN,mental_health,l_tryptophan,merge,carbohydrate pairing vs isolated dosing,serotonin_modulation,medium,P1,PMID: 29279602,pending,,,Incorporate melatonin coadministration sensitivity analysis,2025-02-15T00:00:00Z,,,
+MH-MAG-GLYC,mental_health,magnesium_glycinate,merge,evening glycinate with rumination tracking,generalized_anxiety,medium,P1,PMID: 33609010,pending,,,Document subjective calmness and sleep overlap,2025-02-15T00:00:00Z,,,
+MH-RHOD-BURNOUT,mental_health,rhodiola,split,shr-5 vs salidroside enriched extracts,burnout_recovery,medium,P1,PMID: 31360150,pending,,,Focus on occupational burnout indexes and fatigue scores,2025-02-15T00:00:00Z,,,
+MH-GABA-NEURO,mental_health,gaba,split,pharma-gaba vs probiotic derived gamma aminobutyric acid,acute_stress,low,P2,PMID: 31278264,pending,,,Map vagal tone proxies with wearable hr sensors,2025-02-15T00:00:00Z,,,
+MH-PEP-NEURO,mental_health,neuropeptide_spray,split,oxytocin analog vs placebo,attachment_security,low,P2,PMID: 35600143,pending,,,Establish safety board review for home administration arms,2025-02-15T00:00:00Z,,,
+CARD-OMEGA-TRIG,cardiovascular,omega_3,merge,triglyceride lowering marine oil vs algae oil,hypertriglyceridemia,high,P0,PMID: 35861307,pending,,,Stratify diabetics vs non diabetics for lipid outcomes,2025-02-16T00:00:00Z,,,
+CARD-COQ10-HF,cardiovascular,coq10,merge,ubiquinol vs ubiquinone titration,heart_failure,high,P0,PMID: 35125316,pending,,,Include nt pro bnp shifts and exercise tolerance metrics,2025-02-16T00:00:00Z,,,
+CARD-GARL-BP,cardiovascular,garlic,merge,aged extract vs powdered tablet,hypertension,medium,P1,PMID: 35478241,pending,,,Capture ambulatory blood pressure monitoring protocols,2025-02-16T00:00:00Z,,,
+CARD-HAW-OUTPUT,cardiovascular,hawthorn,merge,standardized flavonoid extract,cardiac_output,medium,P1,PMID: 33098755,pending,,,Include six minute walk test harmonization,2025-02-16T00:00:00Z,,,
+CARD-BERG-LIPID,cardiovascular,bergamot,merge,polyphenolic fraction titration,ldl_management,medium,P1,PMID: 33410751,pending,,,Track lipoprotein particle size responses,2025-02-16T00:00:00Z,,,
+CARD-BEET-NO,cardiovascular,beetroot,split,juice concentrate vs nitrate capsule,endothelial_function,medium,P1,PMID: 35240163,pending,,,Pair flow mediated dilation with nitric oxide biomarkers,2025-02-16T00:00:00Z,,,
+CARD-NATT-FIB,cardiovascular,nattokinase,merge,dose escalation for fibrinogen clearance,thrombotic_risk,medium,P1,PMID: 36124077,pending,,,Assess coagulation panels and bleeding events,2025-02-16T00:00:00Z,,,
+CARD-TURM-CIRC,cardiovascular,turmeric_blend,merge,curcumin piperine synergy,arterial_stiffness,low,P2,PMID: 33389177,pending,,,Clarify compliance for twice daily formulations,2025-02-16T00:00:00Z,,,
+CARD-RESV-ENDO,cardiovascular,resveratrol,split,trans-resveratrol vs polydatin,endothelial_health,medium,P1,PMID: 34741784,pending,,,Tie microvascular imaging to metabolic markers,2025-02-16T00:00:00Z,,,
+CARD-TAUR-BP,cardiovascular,taurine,merge,1500mg dosing with potassium cofactor,blood_pressure_control,medium,P1,PMID: 34550123,pending,,,Measure nocturnal dipping status and arrhythmia surveillance,2025-02-16T00:00:00Z,,,
+MET-GLUC-BER,metabolic,berberine,merge,sustained release matrix,glucose_management,high,P0,PMID: 35541321,pending,automation,,"stub rollback @2025-11-05; Compare with metformin standard of care arms
+Batch generated on 2025-10-24T08:19:11.719269+00:00",2025-10-24T08:19:11.719335,,,
+MET-CINN-A1C,metabolic,cinnamon,merge,water soluble extract titration,hba1c_reduction,medium,P1,PMID: 35013202,pending,automation,,"stub rollback @2025-11-05; Track dosing adherence via sachet count
+Batch generated on 2025-10-24T08:19:11.822136+00:00",2025-10-24T08:19:11.822203,,,
+MET-ALA-MITO,metabolic,alpha_lipoic_acid,merge,racemic vs r isomer protocols,mitochondrial_support,medium,P1,PMID: 36166248,pending,automation,,"stub rollback @2025-11-05; Capture neuropathy symptom relief concurrently
+Batch generated on 2025-10-24T08:19:11.955923+00:00",2025-10-24T08:19:11.955957,,,
+MET-OMEGA-PREDIAB,metabolic,omega_3,split,epa ethyl ester vs triglyceride form,prediabetes,medium,P1,PMID: 35755209,pending,automation,,"stub rollback @2025-11-05; Integrate insulin clamp substudy data
+Batch generated on 2025-10-24T08:19:12.058569+00:00",2025-10-24T08:19:12.058632,,,
+MET-INOS-OVUL,metabolic,myo_inositol,split,myo plus d chiro ratio comparison,ovulatory_dysfunction,medium,P1,PMID: 34098124,pending,automation,,"stub rollback @2025-11-05; Monitor ovarian reserve and metabolic syndrome markers
+Batch generated on 2025-10-24T08:19:12.158049+00:00",2025-10-24T08:19:12.158085,,,
+MET-CHROM-INS,metabolic,chromium_picolinate,merge,200mcg vs 600mcg titration,insulin_sensitivity,low,P2,PMID: 33892115,pending,automation,,"stub rollback @2025-11-05; Include dietary chromium baseline assessments
+Batch generated on 2025-10-24T08:19:12.255863+00:00",2025-10-24T08:19:12.255912,,,
+MET-GLP-FIBER,metabolic,prebiotic_fiber,merge,partially hydrolyzed guar vs inulin,glp1_modulation,medium,P1,PMID: 36256014,pending,automation,,"stub rollback @2025-11-05; Tie gut hormone sampling to satiety metrics
+Batch generated on 2025-10-24T08:19:12.355168+00:00",2025-10-24T08:19:12.355215,,,
+MET-CURC-METAB,metabolic,curcumin,split,theracurmin vs phytosome blend,metabolic_syndrome,medium,P1,PMID: 33162769,pending,automation,,"stub rollback @2025-11-05; Capture waist circumference and inflammatory cytokines
+Batch generated on 2025-10-24T08:19:12.456080+00:00",2025-10-24T08:19:12.456141,,,
+IMM-ELDER-URTI,immune_health,elderberry,merge,anthocyanin standardized syrup,upper_respiratory_infections,medium,P1,PMID: 32087100,pending,automation,,"stub rollback @2025-11-05; Document viral load and symptom duration metrics
+Batch generated on 2025-10-24T08:19:12.561455+00:00",2025-10-24T08:19:12.561490,,,
+IMM-BCP-IMM,immune_health,black_cumin_seed,merge,thymoquinone rich oil,immune_modulation,medium,P1,PMID: 35295041,pending,automation,,"stub rollback @2025-11-05; Align cytokine profiling with clinical outcomes
+Batch generated on 2025-10-24T08:19:12.658006+00:00",2025-10-24T08:19:12.658087,,,
+IMM-BETA-GLUC,immune_health,beta_glucan,merge,yeast derived vs mushroom derived,immune_readiness,medium,P1,PMID: 32589619,pending,automation,,"stub rollback @2025-11-05; Include innate immunity assays and vaccine response data
+Stub entry generated on 2025-10-27T01:50:36.319480+00:00",2025-10-27T01:50:36.319490+00:00,,,
+IMM-QUERC-ALLERGY,immune_health,quercetin,merge,liposomal vs standard tablets,allergic_rhinitis,medium,P1,PMID: 33959277,pending,automation,,"stub rollback @2025-11-05; Record symptom diaries with pollen count overlays
+Stub entry generated on 2025-10-27T01:50:36.321166+00:00",2025-10-27T01:50:36.321175+00:00,,,
+IMM-LACT-ECZ,immune_health,lactobacillus_rhamnosus,split,prenatal vs postnatal supplementation,atopic_dermatitis,medium,P1,PMID: 33792759,pending,automation,,"stub rollback @2025-11-05; Segment familial allergy history cohorts
+Stub entry generated on 2025-10-27T01:50:36.323031+00:00",2025-10-27T01:50:36.323043+00:00,,,
+IMM-VITD-IMMUNE,immune_health,vitamin_d,merge,bolus vs daily maintenance dosing,immune_resilience,high,P0,PMID: 36192144,pending,automation,,"stub rollback @2025-11-05; Integrate respiratory infection severity scores
+Stub entry generated on 2025-10-27T01:50:36.324896+00:00",2025-10-27T01:50:36.324909+00:00,,,
+GUT-PROBIO-SCFAs,gut_health,probiotic_blend,merge,multi strain scfa production optimization,short_chain_fatty_acids,medium,P1,PMID: 35824610,pending,,,Pair metabolomics with symptom relief indices,2025-02-19T00:00:00Z,,,
+GUT-PREBIO-BLOAT,gut_health,prebiotic_fiber,split,phgg vs partially hydrolyzed guar gum,bloating_relief,medium,P1,PMID: 33759192,pending,,,Track fermentation tolerance windows,2025-02-19T00:00:00Z,,,
+GUT-BCO-IBS,gut_health,butyrate_complex,merge,tributyrin capsule vs sodium butyrate,ibs_management,medium,P1,PMID: 36577645,pending,,,Integrate stool inflammatory markers and qoli,2025-02-19T00:00:00Z,,,
+GUT-PEPP-DYS,gut_health,peppermint_oil,merge,enteric coated capsule standardization,ibs_dyspepsia,medium,P1,PMID: 35582121,pending,,,Include gastric emptying scans and symptom diaries,2025-02-19T00:00:00Z,,,
+GUT-ZINC-LEAK,gut_health,zinc_carnosine,merge,37.5mg vs 75mg titration,intestinal_permeability,medium,P1,PMID: 35191353,pending,,,Document lactulose mannitol ratios with histology subsets,2025-02-19T00:00:00Z,,,
+GUT-SBO-RESTORE,gut_health,soil_based_probiotic,split,consortium vs single strain,post_antibiotic_recovery,low,P2,PMID: 36022741,pending,,,Coordinate microbiome sequencing with symptom recurrence,2025-02-19T00:00:00Z,,,
+LONG-NMN-LONG,longevity,nmn,merge,oral powder vs sublingual tablet,cellular_nad_support,medium,P1,PMID: 35831071,pending,,,Monitor nad metabolites and functional mobility,2025-02-20T00:00:00Z,,,
+LONG-RESV-SIRT,longevity,resveratrol,merge,trans resveratrol with piperine,sirtuin_activation,medium,P1,PMID: 35461473,pending,,,Track mitochondrial respiration assays and frailty indices,2025-02-20T00:00:00Z,,,
+LONG-SPERM-MITO,longevity,spermidine,merge,wheat germ extract vs synthetic,autophagy_support,medium,P1,PMID: 35141563,pending,,,Capture immune senescence markers and sleep outcomes,2025-02-20T00:00:00Z,,,
+LONG-FIS-AGING,longevity,fish_oil,split,high dha vs balanced epa dha,healthy_aging,medium,P1,PMID: 34509822,pending,,,Connect telomere length change with inflammation panels,2025-02-20T00:00:00Z,,,
+LONG-ASTAX-OX,longevity,astaxanthin,merge,oil based vs beadlet delivery,oxidative_stress,medium,P1,PMID: 35289177,pending,,,Document skin carotenoid scanning and lipid peroxidation,2025-02-20T00:00:00Z,,,
+REN-CRTN-SAFE,renal_safety,creatine,merge,monohydrate vs buffered,long_term_safety,medium,P1,PMID: 35399650,pending,,,Integrate egfr trends and hydration monitoring,2025-02-21T00:00:00Z,,,
+REN-NSAID-MIT,renal_safety,nsaid_protocol,split,rotating ibuprofen vs naproxen with hydration controls,renal_risk_mitigation,medium,P1,PMID: 34978112,pending,,,Capture cystatin c and electrolyte disturbances,2025-02-21T00:00:00Z,,,
+REN-CAFF-DOSE,renal_safety,caffeine,split,habitual users vs naive controlled dosing,renal_hemodynamics,low,P2,PMID: 34051962,pending,,,Track renal blood flow imaging and sleep metrics,2025-02-21T00:00:00Z,,,
+MSK-COLL-JOINT,musculoskeletal,collagen,merge,types I and II hydrolysate comparison,joint_health,medium,P1,PMID: 35792018,pending,,,Include mri cartilage mapping and pain scales,2025-02-22T00:00:00Z,,,
+MSK-BOSW-INFL,musculoskeletal,boswellia,merge,akba standardization,osteoarthritis_pain,medium,P1,PMID: 33304454,pending,,,Ensure concomitant nsaid washout enforcement,2025-02-22T00:00:00Z,,,
+MSK-TURM-SPORT,musculoskeletal,curcumin,split,theracurmin vs phytosome for athletes,exercise_recovery,medium,P1,PMID: 36514401,pending,,,Correlate doms scores with ck reductions,2025-02-22T00:00:00Z,,,
+ONC-MTC-ADJ,oncology_support,medicinal_mushroom_blend,merge,trametes vs lentinula extracts,adjuvant_support,medium,P1,PMID: 33147812,pending,,,Track immune reconstitution and qoli,2025-02-23T00:00:00Z,,,
+ONC-CBD-SYM,oncology_support,cbd,merge,full spectrum vs isolate,symptom_management,medium,P1,PMID: 35711908,pending,,,Capture pain interference and sleep quality measures,2025-02-23T00:00:00Z,,,
+ONC-OMEGA-CHEMO,oncology_support,omega_3,split,epa enriched vs balanced regimens,chemo_tolerance,medium,P1,PMID: 34685431,pending,,,Include body weight preservation and inflammatory markers,2025-02-23T00:00:00Z,,,
+RESP-NAC-MUCO,respiratory,nac,merge,600mg vs 1200mg mucolytic protocols,airway_clearance,medium,P1,PMID: 33508015,pending,,,Combine spirometry and exacerbation frequency tracking,2025-02-24T00:00:00Z,,,
+RESP-QUERC-LUNG,respiratory,quercetin,merge,phytosome delivery vs standard tablet,lung_inflammation,medium,P1,PMID: 35320148,pending,,,Align cytokine reductions with imaging markers,2025-02-24T00:00:00Z,,,
+RESP-PEPP-COUGH,respiratory,peppermint,merge,essential oil inhalation vs lozenge,acute_cough_relief,low,P2,PMID: 36100995,pending,,,Record cough frequency via wearable acoustic sensors,2025-02-24T00:00:00Z,,,
+RESP-BROMEL-AIR,respiratory,bromelain,merge,enteric coated tablets,airway_inflammation,low,P2,PMID: 34777720,pending,,,Pair proteolytic activity assays with symptom relief,2025-02-24T00:00:00Z,,,

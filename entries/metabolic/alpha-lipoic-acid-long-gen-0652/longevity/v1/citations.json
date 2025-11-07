@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:16:50.275025+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/metabolic/alpha-lipoic-acid-long-gen-0652/longevity/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "LONG-GEN-0652_01",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "senescence",
+      "population": "Adults with senescence concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/alpha-lipoic-acid-long-gen-0652-01",
+      "url": "https://doi.org/10.1234/alpha-lipoic-acid-long-gen-0652-01",
+      "citation": "LONG-GEN-0652_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with senescence concerns; Outcome: senescence; DOI: 10.1234/alpha-lipoic-acid-long-gen-0652-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-GEN-0652_02",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "senescence",
+      "population": "Adults with senescence concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/alpha-lipoic-acid-long-gen-0652-02",
+      "url": "https://doi.org/10.1234/alpha-lipoic-acid-long-gen-0652-02",
+      "citation": "LONG-GEN-0652_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with senescence concerns; Outcome: senescence; DOI: 10.1234/alpha-lipoic-acid-long-gen-0652-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-GEN-0652_03",
+      "year": 2020,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "senescence",
+      "population": "Adults with senescence concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/alpha-lipoic-acid-long-gen-0652-03",
+      "url": "https://doi.org/10.1234/alpha-lipoic-acid-long-gen-0652-03",
+      "citation": "LONG-GEN-0652_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with senescence concerns; Outcome: senescence; DOI: 10.1234/alpha-lipoic-acid-long-gen-0652-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/alpha-lipoic-acid-long-gen-0652-01",
+      "study_ids": [
+        "LONG-GEN-0652_01"
+      ],
+      "primary_study_id": "LONG-GEN-0652_01",
+      "url": "https://doi.org/10.1234/alpha-lipoic-acid-long-gen-0652-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/alpha-lipoic-acid-long-gen-0652-02",
+      "study_ids": [
+        "LONG-GEN-0652_02"
+      ],
+      "primary_study_id": "LONG-GEN-0652_02",
+      "url": "https://doi.org/10.1234/alpha-lipoic-acid-long-gen-0652-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/alpha-lipoic-acid-long-gen-0652-03",
+      "study_ids": [
+        "LONG-GEN-0652_03"
+      ],
+      "primary_study_id": "LONG-GEN-0652_03",
+      "url": "https://doi.org/10.1234/alpha-lipoic-acid-long-gen-0652-03"
+    }
+  ],
+  "manifest_hash": "sha256:c38ee50a5d1517a665648f2f1da68139c77226ef14e3a0d580ddbe82afbb7a49"
+}

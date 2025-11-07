@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:17:30.564239+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/immune/spirulina-infl-gen-0520/inflammation/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "INFL-GEN-0520_01",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "crp_reduction",
+      "population": "Adults with crp reduction concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/spirulina-infl-gen-0520-01",
+      "url": "https://doi.org/10.1234/spirulina-infl-gen-0520-01",
+      "citation": "INFL-GEN-0520_01 (2016); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with crp reduction concerns; Outcome: crp_reduction; DOI: 10.1234/spirulina-infl-gen-0520-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "INFL-GEN-0520_02",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "crp_reduction",
+      "population": "Adults with crp reduction concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/spirulina-infl-gen-0520-02",
+      "url": "https://doi.org/10.1234/spirulina-infl-gen-0520-02",
+      "citation": "INFL-GEN-0520_02 (2017); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with crp reduction concerns; Outcome: crp_reduction; DOI: 10.1234/spirulina-infl-gen-0520-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "INFL-GEN-0520_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "crp_reduction",
+      "population": "Adults with crp reduction concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/spirulina-infl-gen-0520-03",
+      "url": "https://doi.org/10.1234/spirulina-infl-gen-0520-03",
+      "citation": "INFL-GEN-0520_03 (2018); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with crp reduction concerns; Outcome: crp_reduction; DOI: 10.1234/spirulina-infl-gen-0520-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/spirulina-infl-gen-0520-01",
+      "study_ids": [
+        "INFL-GEN-0520_01"
+      ],
+      "primary_study_id": "INFL-GEN-0520_01",
+      "url": "https://doi.org/10.1234/spirulina-infl-gen-0520-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/spirulina-infl-gen-0520-02",
+      "study_ids": [
+        "INFL-GEN-0520_02"
+      ],
+      "primary_study_id": "INFL-GEN-0520_02",
+      "url": "https://doi.org/10.1234/spirulina-infl-gen-0520-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/spirulina-infl-gen-0520-03",
+      "study_ids": [
+        "INFL-GEN-0520_03"
+      ],
+      "primary_study_id": "INFL-GEN-0520_03",
+      "url": "https://doi.org/10.1234/spirulina-infl-gen-0520-03"
+    }
+  ],
+  "manifest_hash": "sha256:59fd36bb34b547a61a30e30130b6ad875d8a8f123a91f301997aba2768f24e81"
+}

@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:44.612696+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/metabolic/cinnamon-meta-gen-0484/metabolic/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "META-GEN-0484_01",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "weight_management",
+      "population": "Adults with weight management concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/cinnamon-meta-gen-0484-01",
+      "url": "https://doi.org/10.1234/cinnamon-meta-gen-0484-01",
+      "citation": "META-GEN-0484_01 (2015); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with weight management concerns; Outcome: weight_management; DOI: 10.1234/cinnamon-meta-gen-0484-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "META-GEN-0484_02",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "weight_management",
+      "population": "Adults with weight management concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/cinnamon-meta-gen-0484-02",
+      "url": "https://doi.org/10.1234/cinnamon-meta-gen-0484-02",
+      "citation": "META-GEN-0484_02 (2016); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with weight management concerns; Outcome: weight_management; DOI: 10.1234/cinnamon-meta-gen-0484-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "META-GEN-0484_03",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "weight_management",
+      "population": "Adults with weight management concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/cinnamon-meta-gen-0484-03",
+      "url": "https://doi.org/10.1234/cinnamon-meta-gen-0484-03",
+      "citation": "META-GEN-0484_03 (2017); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with weight management concerns; Outcome: weight_management; DOI: 10.1234/cinnamon-meta-gen-0484-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/cinnamon-meta-gen-0484-01",
+      "study_ids": [
+        "META-GEN-0484_01"
+      ],
+      "primary_study_id": "META-GEN-0484_01",
+      "url": "https://doi.org/10.1234/cinnamon-meta-gen-0484-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/cinnamon-meta-gen-0484-02",
+      "study_ids": [
+        "META-GEN-0484_02"
+      ],
+      "primary_study_id": "META-GEN-0484_02",
+      "url": "https://doi.org/10.1234/cinnamon-meta-gen-0484-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/cinnamon-meta-gen-0484-03",
+      "study_ids": [
+        "META-GEN-0484_03"
+      ],
+      "primary_study_id": "META-GEN-0484_03",
+      "url": "https://doi.org/10.1234/cinnamon-meta-gen-0484-03"
+    }
+  ],
+  "manifest_hash": "sha256:de41fbfe06abedf5f96333cf5b42f0156c7273d52e289ccc83dd05b50cdf2c5d"
+}

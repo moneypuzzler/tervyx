@@ -6,7 +6,7 @@
   "category": "musculoskeletal",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 0.2198,
+  "P_effect_gt_delta": 0.9962,
   "gate_results": {
     "phi": "FAIL",
     "r": 0.9,
@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 514,
+    "total_n": 418,
     "I2": 0.0,
     "tau2": 0.0,
-    "mu_hat": 0.184578,
+    "mu_hat": 0.324709,
     "mu_CI95": [
-      0.096713,
-      0.272443
+      0.244141,
+      0.405276
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:32.521452+00:00",
+  "created": "2025-11-06T07:17:04.475174+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,54 +60,54 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/musc-msk05-01",
+      "@id": "doi:10.1234/turmeric-musc-msk05-01",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/musc-msk05-01",
+      "identifier": "doi:10.1234/turmeric-musc-msk05-01",
       "studyIds": [
-        "MUSC-MSK05-01"
+        "MUSC-MSK05_01"
       ],
-      "citation": "MUSC-MSK05-01 (2010); Journal: musculoskeletal-journal-01; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/musc-msk05-01; Adverse Events: None reported.",
-      "doi": "10.1234/musc-msk05-01",
-      "sameAs": "https://doi.org/10.1234/musc-msk05-01",
-      "datePublished": "2010",
+      "citation": "MUSC-MSK05_01 (2016); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/turmeric-musc-msk05-01; Adverse Events: None reported.",
+      "doi": "10.1234/turmeric-musc-msk05-01",
+      "sameAs": "https://doi.org/10.1234/turmeric-musc-msk05-01",
+      "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "musculoskeletal-journal-01"
+        "name": "musculoskeletal_journal"
       }
     },
     {
-      "@id": "doi:10.1234/musc-msk05-02",
+      "@id": "doi:10.1234/turmeric-musc-msk05-02",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/musc-msk05-02",
+      "identifier": "doi:10.1234/turmeric-musc-msk05-02",
       "studyIds": [
-        "MUSC-MSK05-02"
+        "MUSC-MSK05_02"
       ],
-      "citation": "MUSC-MSK05-02 (2015); Journal: musculoskeletal-journal-02; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/musc-msk05-02; Adverse Events: Transient headache.",
-      "doi": "10.1234/musc-msk05-02",
-      "sameAs": "https://doi.org/10.1234/musc-msk05-02",
-      "datePublished": "2015",
+      "citation": "MUSC-MSK05_02 (2017); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/turmeric-musc-msk05-02; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/turmeric-musc-msk05-02",
+      "sameAs": "https://doi.org/10.1234/turmeric-musc-msk05-02",
+      "datePublished": "2017",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "musculoskeletal-journal-02"
+        "name": "musculoskeletal_journal"
       }
     },
     {
-      "@id": "doi:10.1234/musc-msk05-03",
+      "@id": "doi:10.1234/turmeric-musc-msk05-03",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/musc-msk05-03",
+      "identifier": "doi:10.1234/turmeric-musc-msk05-03",
       "studyIds": [
-        "MUSC-MSK05-03"
+        "MUSC-MSK05_03"
       ],
-      "citation": "MUSC-MSK05-03 (2020); Journal: musculoskeletal-journal-03; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/musc-msk05-03; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/musc-msk05-03",
-      "sameAs": "https://doi.org/10.1234/musc-msk05-03",
-      "datePublished": "2020",
+      "citation": "MUSC-MSK05_03 (2018); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with joint health concerns; Outcome: joint_health; DOI: 10.1234/turmeric-musc-msk05-03; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/turmeric-musc-msk05-03",
+      "sameAs": "https://doi.org/10.1234/turmeric-musc-msk05-03",
+      "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "musculoskeletal-journal-03"
+        "name": "musculoskeletal_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:2c99c1e4ec87f59dd1b9c168b3463b54fe9d86a07c61ce0ab53270ee36e41b8d",
-  "audit_hash": "0x4745410211cdbefe"
+  "citations_manifest_hash": "sha256:97bc9f762accec004e2bd97b7f84dfa2d8b1743bba6ea82b8fa5e20629bd5d5e",
+  "audit_hash": "0x5159eae113053237"
 }

@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:16:49.917395+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/metabolic/curcumin-long-gen-0647/longevity/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "LONG-GEN-0647_01",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "autophagy",
+      "population": "Adults with autophagy concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/curcumin-long-gen-0647-01",
+      "url": "https://doi.org/10.1234/curcumin-long-gen-0647-01",
+      "citation": "LONG-GEN-0647_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with autophagy concerns; Outcome: autophagy; DOI: 10.1234/curcumin-long-gen-0647-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-GEN-0647_02",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "autophagy",
+      "population": "Adults with autophagy concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/curcumin-long-gen-0647-02",
+      "url": "https://doi.org/10.1234/curcumin-long-gen-0647-02",
+      "citation": "LONG-GEN-0647_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with autophagy concerns; Outcome: autophagy; DOI: 10.1234/curcumin-long-gen-0647-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-GEN-0647_03",
+      "year": 2020,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "autophagy",
+      "population": "Adults with autophagy concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/curcumin-long-gen-0647-03",
+      "url": "https://doi.org/10.1234/curcumin-long-gen-0647-03",
+      "citation": "LONG-GEN-0647_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with autophagy concerns; Outcome: autophagy; DOI: 10.1234/curcumin-long-gen-0647-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/curcumin-long-gen-0647-01",
+      "study_ids": [
+        "LONG-GEN-0647_01"
+      ],
+      "primary_study_id": "LONG-GEN-0647_01",
+      "url": "https://doi.org/10.1234/curcumin-long-gen-0647-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/curcumin-long-gen-0647-02",
+      "study_ids": [
+        "LONG-GEN-0647_02"
+      ],
+      "primary_study_id": "LONG-GEN-0647_02",
+      "url": "https://doi.org/10.1234/curcumin-long-gen-0647-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/curcumin-long-gen-0647-03",
+      "study_ids": [
+        "LONG-GEN-0647_03"
+      ],
+      "primary_study_id": "LONG-GEN-0647_03",
+      "url": "https://doi.org/10.1234/curcumin-long-gen-0647-03"
+    }
+  ],
+  "manifest_hash": "sha256:27ec3cfd700b163eb51b89e0dee3d9e7ec95c20f4fe53d7089a5cd234ed6d8bd"
+}

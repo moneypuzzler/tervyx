@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:17:06.733222+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/physiological/bcaa-musc-gen-0714/musculoskeletal/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MUSC-GEN-0714_01",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "osteoporosis",
+      "population": "Adults with osteoporosis concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/bcaa-musc-gen-0714-01",
+      "url": "https://doi.org/10.1234/bcaa-musc-gen-0714-01",
+      "citation": "MUSC-GEN-0714_01 (2016); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with osteoporosis concerns; Outcome: osteoporosis; DOI: 10.1234/bcaa-musc-gen-0714-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "MUSC-GEN-0714_02",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "osteoporosis",
+      "population": "Adults with osteoporosis concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/bcaa-musc-gen-0714-02",
+      "url": "https://doi.org/10.1234/bcaa-musc-gen-0714-02",
+      "citation": "MUSC-GEN-0714_02 (2017); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with osteoporosis concerns; Outcome: osteoporosis; DOI: 10.1234/bcaa-musc-gen-0714-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "MUSC-GEN-0714_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "osteoporosis",
+      "population": "Adults with osteoporosis concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/bcaa-musc-gen-0714-03",
+      "url": "https://doi.org/10.1234/bcaa-musc-gen-0714-03",
+      "citation": "MUSC-GEN-0714_03 (2018); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with osteoporosis concerns; Outcome: osteoporosis; DOI: 10.1234/bcaa-musc-gen-0714-03; Adverse Events: Mild GI discomfort."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/bcaa-musc-gen-0714-01",
+      "study_ids": [
+        "MUSC-GEN-0714_01"
+      ],
+      "primary_study_id": "MUSC-GEN-0714_01",
+      "url": "https://doi.org/10.1234/bcaa-musc-gen-0714-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/bcaa-musc-gen-0714-02",
+      "study_ids": [
+        "MUSC-GEN-0714_02"
+      ],
+      "primary_study_id": "MUSC-GEN-0714_02",
+      "url": "https://doi.org/10.1234/bcaa-musc-gen-0714-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/bcaa-musc-gen-0714-03",
+      "study_ids": [
+        "MUSC-GEN-0714_03"
+      ],
+      "primary_study_id": "MUSC-GEN-0714_03",
+      "url": "https://doi.org/10.1234/bcaa-musc-gen-0714-03"
+    }
+  ],
+  "manifest_hash": "sha256:5d739d4079ad1b5ef53bcacac9631ecb53f3c361e2894654efe28971b31f94a9"
+}

@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:44.129931+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/behavioral/cbd-slee-gen-0089/sleep/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "SLEE-GEN-0089_01",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "sleep_quality",
+      "population": "Adults with sleep quality concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/cbd-slee-gen-0089-01",
+      "url": "https://doi.org/10.1234/cbd-slee-gen-0089-01",
+      "citation": "SLEE-GEN-0089_01 (2016); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/cbd-slee-gen-0089-01; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "SLEE-GEN-0089_02",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "sleep_quality",
+      "population": "Adults with sleep quality concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/cbd-slee-gen-0089-02",
+      "url": "https://doi.org/10.1234/cbd-slee-gen-0089-02",
+      "citation": "SLEE-GEN-0089_02 (2017); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/cbd-slee-gen-0089-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "SLEE-GEN-0089_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "sleep_quality",
+      "population": "Adults with sleep quality concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/cbd-slee-gen-0089-03",
+      "url": "https://doi.org/10.1234/cbd-slee-gen-0089-03",
+      "citation": "SLEE-GEN-0089_03 (2018); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep quality concerns; Outcome: sleep_quality; DOI: 10.1234/cbd-slee-gen-0089-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/cbd-slee-gen-0089-01",
+      "study_ids": [
+        "SLEE-GEN-0089_01"
+      ],
+      "primary_study_id": "SLEE-GEN-0089_01",
+      "url": "https://doi.org/10.1234/cbd-slee-gen-0089-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/cbd-slee-gen-0089-02",
+      "study_ids": [
+        "SLEE-GEN-0089_02"
+      ],
+      "primary_study_id": "SLEE-GEN-0089_02",
+      "url": "https://doi.org/10.1234/cbd-slee-gen-0089-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/cbd-slee-gen-0089-03",
+      "study_ids": [
+        "SLEE-GEN-0089_03"
+      ],
+      "primary_study_id": "SLEE-GEN-0089_03",
+      "url": "https://doi.org/10.1234/cbd-slee-gen-0089-03"
+    }
+  ],
+  "manifest_hash": "sha256:9f4b60adb5c9f62ef8bffbc7e21c5515b4f98c5ce5eef689e1ccaa22bb561cc8"
+}

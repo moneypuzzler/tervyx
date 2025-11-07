@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:48:06.303473+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/metabolic/quercetin-long-gen-0686/longevity/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "LONG-GEN-0686_01",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "telomere_support",
+      "population": "Adults with telomere support concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/quercetin-long-gen-0686-01",
+      "url": "https://doi.org/10.1234/quercetin-long-gen-0686-01",
+      "citation": "LONG-GEN-0686_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/quercetin-long-gen-0686-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-GEN-0686_02",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "telomere_support",
+      "population": "Adults with telomere support concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/quercetin-long-gen-0686-02",
+      "url": "https://doi.org/10.1234/quercetin-long-gen-0686-02",
+      "citation": "LONG-GEN-0686_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/quercetin-long-gen-0686-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-GEN-0686_03",
+      "year": 2020,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "telomere_support",
+      "population": "Adults with telomere support concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/quercetin-long-gen-0686-03",
+      "url": "https://doi.org/10.1234/quercetin-long-gen-0686-03",
+      "citation": "LONG-GEN-0686_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/quercetin-long-gen-0686-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/quercetin-long-gen-0686-01",
+      "study_ids": [
+        "LONG-GEN-0686_01"
+      ],
+      "primary_study_id": "LONG-GEN-0686_01",
+      "url": "https://doi.org/10.1234/quercetin-long-gen-0686-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/quercetin-long-gen-0686-02",
+      "study_ids": [
+        "LONG-GEN-0686_02"
+      ],
+      "primary_study_id": "LONG-GEN-0686_02",
+      "url": "https://doi.org/10.1234/quercetin-long-gen-0686-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/quercetin-long-gen-0686-03",
+      "study_ids": [
+        "LONG-GEN-0686_03"
+      ],
+      "primary_study_id": "LONG-GEN-0686_03",
+      "url": "https://doi.org/10.1234/quercetin-long-gen-0686-03"
+    }
+  ],
+  "manifest_hash": "sha256:ea30c5a3ee2c9d19396c73f2d79f3e5fca96785ec611452c32b8d99ac88e47d9"
+}

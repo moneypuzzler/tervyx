@@ -1,74 +1,74 @@
 {
-  "generated": "2025-11-05T06:50:25.348889+00:00",
+  "generated": "2025-11-06T07:17:28.448104+00:00",
   "policy_fingerprint": "0x6036438e1b958d88",
   "source_evidence": "entries/immune/pycnogenol-infl-inf10/inflammation/v1/evidence.csv",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "studies": [
     {
-      "study_id": "INFL-INF10-01",
-      "year": 2014,
+      "study_id": "INFL-INF10_01",
+      "year": 2016,
       "design": "randomized controlled trial",
-      "journal": "inflammation-journal-01",
+      "journal": "inflammation_journal",
+      "outcome": "skin_inflammation",
+      "population": "Adults with skin inflammation concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/pycnogenol-infl-inf10-01",
+      "url": "https://doi.org/10.1234/pycnogenol-infl-inf10-01",
+      "citation": "INFL-INF10_01 (2016); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/pycnogenol-infl-inf10-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "INFL-INF10_02",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
       "outcome": "skin_inflammation",
       "population": "Adults with skin inflammation concerns",
       "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/infl-inf10-01",
-      "url": "https://doi.org/10.1234/infl-inf10-01",
-      "citation": "INFL-INF10-01 (2014); Journal: inflammation-journal-01; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/infl-inf10-01; Adverse Events: Mild GI discomfort."
+      "doi": "10.1234/pycnogenol-infl-inf10-02",
+      "url": "https://doi.org/10.1234/pycnogenol-infl-inf10-02",
+      "citation": "INFL-INF10_02 (2017); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/pycnogenol-infl-inf10-02; Adverse Events: Mild GI discomfort."
     },
     {
-      "study_id": "INFL-INF10-02",
-      "year": 2019,
+      "study_id": "INFL-INF10_03",
+      "year": 2018,
       "design": "randomized controlled trial",
-      "journal": "inflammation-journal-02",
-      "outcome": "skin_inflammation",
-      "population": "Adults with skin inflammation concerns",
-      "adverse_events": "Mild GI discomfort",
-      "doi": "10.1234/infl-inf10-02",
-      "url": "https://doi.org/10.1234/infl-inf10-02",
-      "citation": "INFL-INF10-02 (2019); Journal: inflammation-journal-02; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/infl-inf10-02; Adverse Events: Mild GI discomfort."
-    },
-    {
-      "study_id": "INFL-INF10-03",
-      "year": 2010,
-      "design": "randomized controlled trial",
-      "journal": "inflammation-journal-03",
+      "journal": "inflammation_journal",
       "outcome": "skin_inflammation",
       "population": "Adults with skin inflammation concerns",
       "adverse_events": "None reported",
-      "doi": "10.1234/infl-inf10-03",
-      "url": "https://doi.org/10.1234/infl-inf10-03",
-      "citation": "INFL-INF10-03 (2010); Journal: inflammation-journal-03; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/infl-inf10-03; Adverse Events: None reported."
+      "doi": "10.1234/pycnogenol-infl-inf10-03",
+      "url": "https://doi.org/10.1234/pycnogenol-infl-inf10-03",
+      "citation": "INFL-INF10_03 (2018); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with skin inflammation concerns; Outcome: skin_inflammation; DOI: 10.1234/pycnogenol-infl-inf10-03; Adverse Events: None reported."
     }
   ],
   "references": [
     {
       "type": "doi",
-      "identifier": "10.1234/infl-inf10-01",
+      "identifier": "10.1234/pycnogenol-infl-inf10-01",
       "study_ids": [
-        "INFL-INF10-01"
+        "INFL-INF10_01"
       ],
-      "primary_study_id": "INFL-INF10-01",
-      "url": "https://doi.org/10.1234/infl-inf10-01"
+      "primary_study_id": "INFL-INF10_01",
+      "url": "https://doi.org/10.1234/pycnogenol-infl-inf10-01"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/infl-inf10-02",
+      "identifier": "10.1234/pycnogenol-infl-inf10-02",
       "study_ids": [
-        "INFL-INF10-02"
+        "INFL-INF10_02"
       ],
-      "primary_study_id": "INFL-INF10-02",
-      "url": "https://doi.org/10.1234/infl-inf10-02"
+      "primary_study_id": "INFL-INF10_02",
+      "url": "https://doi.org/10.1234/pycnogenol-infl-inf10-02"
     },
     {
       "type": "doi",
-      "identifier": "10.1234/infl-inf10-03",
+      "identifier": "10.1234/pycnogenol-infl-inf10-03",
       "study_ids": [
-        "INFL-INF10-03"
+        "INFL-INF10_03"
       ],
-      "primary_study_id": "INFL-INF10-03",
-      "url": "https://doi.org/10.1234/infl-inf10-03"
+      "primary_study_id": "INFL-INF10_03",
+      "url": "https://doi.org/10.1234/pycnogenol-infl-inf10-03"
     }
   ],
-  "manifest_hash": "sha256:72f3ed78cd3f2b43ec09d579939a44f7dba01ddb4b8979eba270848f9faed518"
+  "manifest_hash": "sha256:ceb79a3844eb31a4c7638e0ed2051de935393a45fdd92327e667ff5ccec667a8"
 }

@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:17:06.011986+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/physiological/collagen-musc-gen-0704/musculoskeletal/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MUSC-GEN-0704_01",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "protein_synthesis",
+      "population": "Adults with protein synthesis concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/collagen-musc-gen-0704-01",
+      "url": "https://doi.org/10.1234/collagen-musc-gen-0704-01",
+      "citation": "MUSC-GEN-0704_01 (2016); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with protein synthesis concerns; Outcome: protein_synthesis; DOI: 10.1234/collagen-musc-gen-0704-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "MUSC-GEN-0704_02",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "protein_synthesis",
+      "population": "Adults with protein synthesis concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/collagen-musc-gen-0704-02",
+      "url": "https://doi.org/10.1234/collagen-musc-gen-0704-02",
+      "citation": "MUSC-GEN-0704_02 (2017); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with protein synthesis concerns; Outcome: protein_synthesis; DOI: 10.1234/collagen-musc-gen-0704-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "MUSC-GEN-0704_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "protein_synthesis",
+      "population": "Adults with protein synthesis concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/collagen-musc-gen-0704-03",
+      "url": "https://doi.org/10.1234/collagen-musc-gen-0704-03",
+      "citation": "MUSC-GEN-0704_03 (2018); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with protein synthesis concerns; Outcome: protein_synthesis; DOI: 10.1234/collagen-musc-gen-0704-03; Adverse Events: Mild GI discomfort."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/collagen-musc-gen-0704-01",
+      "study_ids": [
+        "MUSC-GEN-0704_01"
+      ],
+      "primary_study_id": "MUSC-GEN-0704_01",
+      "url": "https://doi.org/10.1234/collagen-musc-gen-0704-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/collagen-musc-gen-0704-02",
+      "study_ids": [
+        "MUSC-GEN-0704_02"
+      ],
+      "primary_study_id": "MUSC-GEN-0704_02",
+      "url": "https://doi.org/10.1234/collagen-musc-gen-0704-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/collagen-musc-gen-0704-03",
+      "study_ids": [
+        "MUSC-GEN-0704_03"
+      ],
+      "primary_study_id": "MUSC-GEN-0704_03",
+      "url": "https://doi.org/10.1234/collagen-musc-gen-0704-03"
+    }
+  ],
+  "manifest_hash": "sha256:6ed43e2683ca786b19717f0ca3e40c517e5377165ba08e0c37b0c41863076adc"
+}

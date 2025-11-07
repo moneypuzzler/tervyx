@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:17:08.623648+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/physiological/omega-3-musc-gen-0740/musculoskeletal/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "MUSC-GEN-0740_01",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "muscle_mass",
+      "population": "Adults with muscle mass concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/omega-3-musc-gen-0740-01",
+      "url": "https://doi.org/10.1234/omega-3-musc-gen-0740-01",
+      "citation": "MUSC-GEN-0740_01 (2016); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with muscle mass concerns; Outcome: muscle_mass; DOI: 10.1234/omega-3-musc-gen-0740-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "MUSC-GEN-0740_02",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "muscle_mass",
+      "population": "Adults with muscle mass concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/omega-3-musc-gen-0740-02",
+      "url": "https://doi.org/10.1234/omega-3-musc-gen-0740-02",
+      "citation": "MUSC-GEN-0740_02 (2017); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with muscle mass concerns; Outcome: muscle_mass; DOI: 10.1234/omega-3-musc-gen-0740-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "MUSC-GEN-0740_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "musculoskeletal_journal",
+      "outcome": "muscle_mass",
+      "population": "Adults with muscle mass concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/omega-3-musc-gen-0740-03",
+      "url": "https://doi.org/10.1234/omega-3-musc-gen-0740-03",
+      "citation": "MUSC-GEN-0740_03 (2018); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with muscle mass concerns; Outcome: muscle_mass; DOI: 10.1234/omega-3-musc-gen-0740-03; Adverse Events: Mild GI discomfort."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/omega-3-musc-gen-0740-01",
+      "study_ids": [
+        "MUSC-GEN-0740_01"
+      ],
+      "primary_study_id": "MUSC-GEN-0740_01",
+      "url": "https://doi.org/10.1234/omega-3-musc-gen-0740-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/omega-3-musc-gen-0740-02",
+      "study_ids": [
+        "MUSC-GEN-0740_02"
+      ],
+      "primary_study_id": "MUSC-GEN-0740_02",
+      "url": "https://doi.org/10.1234/omega-3-musc-gen-0740-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/omega-3-musc-gen-0740-03",
+      "study_ids": [
+        "MUSC-GEN-0740_03"
+      ],
+      "primary_study_id": "MUSC-GEN-0740_03",
+      "url": "https://doi.org/10.1234/omega-3-musc-gen-0740-03"
+    }
+  ],
+  "manifest_hash": "sha256:1101c0bb8751c4cf8b65ca00a862d5942241526cd14e91032693fbbdb2cb6188"
+}

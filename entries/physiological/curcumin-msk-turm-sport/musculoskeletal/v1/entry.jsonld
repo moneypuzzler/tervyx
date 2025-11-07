@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "physiological:curcumin-msk-turm-sport:musculoskeletal:v1",
+  "title": "Curcumin Msk Turm Sport — Musculoskeletal",
+  "category": "musculoskeletal",
+  "tier": "Black",
+  "label": "FAIL",
+  "P_effect_gt_delta": 0.9863,
+  "gate_results": {
+    "phi": "FAIL",
+    "r": 0.9,
+    "j": 0.0,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 403,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.315302,
+    "mu_CI95": [
+      0.231271,
+      0.399334
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-30"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "tier_label_system": "TEL-5",
+  "created": "2025-11-06T07:17:05.724550+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/curcumin-msk-turm-sport-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/curcumin-msk-turm-sport-01",
+      "studyIds": [
+        "MSK-TURM-SPORT_01"
+      ],
+      "citation": "MSK-TURM-SPORT_01 (2013); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with exercise recovery concerns; Outcome: exercise_recovery; DOI: 10.1234/curcumin-msk-turm-sport-01; Adverse Events: None reported.",
+      "doi": "10.1234/curcumin-msk-turm-sport-01",
+      "sameAs": "https://doi.org/10.1234/curcumin-msk-turm-sport-01",
+      "datePublished": "2013",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "musculoskeletal_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/curcumin-msk-turm-sport-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/curcumin-msk-turm-sport-02",
+      "studyIds": [
+        "MSK-TURM-SPORT_02"
+      ],
+      "citation": "MSK-TURM-SPORT_02 (2014); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with exercise recovery concerns; Outcome: exercise_recovery; DOI: 10.1234/curcumin-msk-turm-sport-02; Adverse Events: Transient headache.",
+      "doi": "10.1234/curcumin-msk-turm-sport-02",
+      "sameAs": "https://doi.org/10.1234/curcumin-msk-turm-sport-02",
+      "datePublished": "2014",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "musculoskeletal_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/curcumin-msk-turm-sport-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/curcumin-msk-turm-sport-03",
+      "studyIds": [
+        "MSK-TURM-SPORT_03"
+      ],
+      "citation": "MSK-TURM-SPORT_03 (2015); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with exercise recovery concerns; Outcome: exercise_recovery; DOI: 10.1234/curcumin-msk-turm-sport-03; Adverse Events: Transient headache.",
+      "doi": "10.1234/curcumin-msk-turm-sport-03",
+      "sameAs": "https://doi.org/10.1234/curcumin-msk-turm-sport-03",
+      "datePublished": "2015",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "musculoskeletal_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:459413d9c2253546381b8d10d9859b06d485f931d19cd54e5a98d8d318500591",
+  "audit_hash": "0x071a17ce981f910a"
+}

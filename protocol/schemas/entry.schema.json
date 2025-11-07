@@ -38,7 +38,11 @@
         "cardiovascular",
         "metabolic",
         "immune",
-        "immune_health"
+        "immune_health",
+        "inflammation",
+        "musculoskeletal",
+        "longevity",
+        "endocrine"
       ],
       "description": "Evidence category from TEL-5 taxonomy"
     },

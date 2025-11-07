@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:17:34.464666+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/immune/zinc-infl-gen-0578/inflammation/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "INFL-GEN-0578_01",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "autoimmune_support",
+      "population": "Adults with autoimmune support concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/zinc-infl-gen-0578-01",
+      "url": "https://doi.org/10.1234/zinc-infl-gen-0578-01",
+      "citation": "INFL-GEN-0578_01 (2016); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with autoimmune support concerns; Outcome: autoimmune_support; DOI: 10.1234/zinc-infl-gen-0578-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "INFL-GEN-0578_02",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "autoimmune_support",
+      "population": "Adults with autoimmune support concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/zinc-infl-gen-0578-02",
+      "url": "https://doi.org/10.1234/zinc-infl-gen-0578-02",
+      "citation": "INFL-GEN-0578_02 (2017); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with autoimmune support concerns; Outcome: autoimmune_support; DOI: 10.1234/zinc-infl-gen-0578-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "INFL-GEN-0578_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "autoimmune_support",
+      "population": "Adults with autoimmune support concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/zinc-infl-gen-0578-03",
+      "url": "https://doi.org/10.1234/zinc-infl-gen-0578-03",
+      "citation": "INFL-GEN-0578_03 (2018); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with autoimmune support concerns; Outcome: autoimmune_support; DOI: 10.1234/zinc-infl-gen-0578-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/zinc-infl-gen-0578-01",
+      "study_ids": [
+        "INFL-GEN-0578_01"
+      ],
+      "primary_study_id": "INFL-GEN-0578_01",
+      "url": "https://doi.org/10.1234/zinc-infl-gen-0578-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/zinc-infl-gen-0578-02",
+      "study_ids": [
+        "INFL-GEN-0578_02"
+      ],
+      "primary_study_id": "INFL-GEN-0578_02",
+      "url": "https://doi.org/10.1234/zinc-infl-gen-0578-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/zinc-infl-gen-0578-03",
+      "study_ids": [
+        "INFL-GEN-0578_03"
+      ],
+      "primary_study_id": "INFL-GEN-0578_03",
+      "url": "https://doi.org/10.1234/zinc-infl-gen-0578-03"
+    }
+  ],
+  "manifest_hash": "sha256:dc40ea92cb32692eb4e3022362c77de85b0e93aee0de27d18a703b66ae096edd"
+}

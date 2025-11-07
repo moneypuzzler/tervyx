@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:17:28.896477+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/immune/vitamin-e-infl-inf16/inflammation/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "INFL-INF16_01",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "joint_pain",
+      "population": "Adults with joint pain concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/vitamin-e-infl-inf16-01",
+      "url": "https://doi.org/10.1234/vitamin-e-infl-inf16-01",
+      "citation": "INFL-INF16_01 (2016); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/vitamin-e-infl-inf16-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "INFL-INF16_02",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "joint_pain",
+      "population": "Adults with joint pain concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/vitamin-e-infl-inf16-02",
+      "url": "https://doi.org/10.1234/vitamin-e-infl-inf16-02",
+      "citation": "INFL-INF16_02 (2017); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/vitamin-e-infl-inf16-02; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "INFL-INF16_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "inflammation_journal",
+      "outcome": "joint_pain",
+      "population": "Adults with joint pain concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/vitamin-e-infl-inf16-03",
+      "url": "https://doi.org/10.1234/vitamin-e-infl-inf16-03",
+      "citation": "INFL-INF16_03 (2018); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with joint pain concerns; Outcome: joint_pain; DOI: 10.1234/vitamin-e-infl-inf16-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/vitamin-e-infl-inf16-01",
+      "study_ids": [
+        "INFL-INF16_01"
+      ],
+      "primary_study_id": "INFL-INF16_01",
+      "url": "https://doi.org/10.1234/vitamin-e-infl-inf16-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/vitamin-e-infl-inf16-02",
+      "study_ids": [
+        "INFL-INF16_02"
+      ],
+      "primary_study_id": "INFL-INF16_02",
+      "url": "https://doi.org/10.1234/vitamin-e-infl-inf16-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/vitamin-e-infl-inf16-03",
+      "study_ids": [
+        "INFL-INF16_03"
+      ],
+      "primary_study_id": "INFL-INF16_03",
+      "url": "https://doi.org/10.1234/vitamin-e-infl-inf16-03"
+    }
+  ],
+  "manifest_hash": "sha256:cab3349e196bccbe7dee0f8db02ba55aa76e193bc930fab2d2b5808decb1b160"
+}

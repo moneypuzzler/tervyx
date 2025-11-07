@@ -6,7 +6,7 @@
   "category": "longevity",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 0.8872,
+  "P_effect_gt_delta": 0.9999,
   "gate_results": {
     "phi": "FAIL",
     "r": 0.9,
@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 507,
+    "total_n": 398,
     "I2": 0.0,
     "tau2": 0.0,
-    "mu_hat": 0.20418,
+    "mu_hat": 0.32451,
     "mu_CI95": [
-      0.116347,
-      0.292014
+      0.224183,
+      0.424837
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:54.129161+00:00",
+  "created": "2025-11-06T07:16:46.222326+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,54 +60,54 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/long-lon19-01",
+      "@id": "doi:10.1234/rapamycin-microdose-long-lon19-01",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/long-lon19-01",
+      "identifier": "doi:10.1234/rapamycin-microdose-long-lon19-01",
       "studyIds": [
-        "LONG-LON19-01"
+        "LONG-LON19_01"
       ],
-      "citation": "LONG-LON19-01 (2022); Journal: longevity-journal-01; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/long-lon19-01; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/long-lon19-01",
-      "sameAs": "https://doi.org/10.1234/long-lon19-01",
-      "datePublished": "2022",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "longevity-journal-01"
-      }
-    },
-    {
-      "@id": "doi:10.1234/long-lon19-02",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/long-lon19-02",
-      "studyIds": [
-        "LONG-LON19-02"
-      ],
-      "citation": "LONG-LON19-02 (2013); Journal: longevity-journal-02; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/long-lon19-02; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/long-lon19-02",
-      "sameAs": "https://doi.org/10.1234/long-lon19-02",
-      "datePublished": "2013",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "longevity-journal-02"
-      }
-    },
-    {
-      "@id": "doi:10.1234/long-lon19-03",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/long-lon19-03",
-      "studyIds": [
-        "LONG-LON19-03"
-      ],
-      "citation": "LONG-LON19-03 (2018); Journal: longevity-journal-03; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/long-lon19-03; Adverse Events: None reported.",
-      "doi": "10.1234/long-lon19-03",
-      "sameAs": "https://doi.org/10.1234/long-lon19-03",
+      "citation": "LONG-LON19_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/rapamycin-microdose-long-lon19-01; Adverse Events: None reported.",
+      "doi": "10.1234/rapamycin-microdose-long-lon19-01",
+      "sameAs": "https://doi.org/10.1234/rapamycin-microdose-long-lon19-01",
       "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "longevity-journal-03"
+        "name": "longevity_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/rapamycin-microdose-long-lon19-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/rapamycin-microdose-long-lon19-02",
+      "studyIds": [
+        "LONG-LON19_02"
+      ],
+      "citation": "LONG-LON19_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/rapamycin-microdose-long-lon19-02; Adverse Events: None reported.",
+      "doi": "10.1234/rapamycin-microdose-long-lon19-02",
+      "sameAs": "https://doi.org/10.1234/rapamycin-microdose-long-lon19-02",
+      "datePublished": "2019",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "longevity_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/rapamycin-microdose-long-lon19-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/rapamycin-microdose-long-lon19-03",
+      "studyIds": [
+        "LONG-LON19_03"
+      ],
+      "citation": "LONG-LON19_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with telomere support concerns; Outcome: telomere_support; DOI: 10.1234/rapamycin-microdose-long-lon19-03; Adverse Events: None reported.",
+      "doi": "10.1234/rapamycin-microdose-long-lon19-03",
+      "sameAs": "https://doi.org/10.1234/rapamycin-microdose-long-lon19-03",
+      "datePublished": "2020",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "longevity_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:d2537f63cc9568a803c02e23fac4af1ac73f4a2175c98e4be72832b344322b25",
-  "audit_hash": "0x9e756cf8628a007f"
+  "citations_manifest_hash": "sha256:21c27c0ba445b5dac74c7f31aa0ad5e88e5a0e210863284cd79955e23b3e9ddc",
+  "audit_hash": "0xb935c314030a7a77"
 }

@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:16:49.444040+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/metabolic/metformin-alternative-long-gen-0640/longevity/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "LONG-GEN-0640_01",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "healthspan",
+      "population": "Adults with healthspan concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/metformin-alternative-long-gen-0640-01",
+      "url": "https://doi.org/10.1234/metformin-alternative-long-gen-0640-01",
+      "citation": "LONG-GEN-0640_01 (2018); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with healthspan concerns; Outcome: healthspan; DOI: 10.1234/metformin-alternative-long-gen-0640-01; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-GEN-0640_02",
+      "year": 2019,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "healthspan",
+      "population": "Adults with healthspan concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/metformin-alternative-long-gen-0640-02",
+      "url": "https://doi.org/10.1234/metformin-alternative-long-gen-0640-02",
+      "citation": "LONG-GEN-0640_02 (2019); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with healthspan concerns; Outcome: healthspan; DOI: 10.1234/metformin-alternative-long-gen-0640-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "LONG-GEN-0640_03",
+      "year": 2020,
+      "design": "randomized controlled trial",
+      "journal": "longevity_journal",
+      "outcome": "healthspan",
+      "population": "Adults with healthspan concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/metformin-alternative-long-gen-0640-03",
+      "url": "https://doi.org/10.1234/metformin-alternative-long-gen-0640-03",
+      "citation": "LONG-GEN-0640_03 (2020); Journal: longevity_journal; Design: randomized controlled trial; Population: Adults with healthspan concerns; Outcome: healthspan; DOI: 10.1234/metformin-alternative-long-gen-0640-03; Adverse Events: None reported."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/metformin-alternative-long-gen-0640-01",
+      "study_ids": [
+        "LONG-GEN-0640_01"
+      ],
+      "primary_study_id": "LONG-GEN-0640_01",
+      "url": "https://doi.org/10.1234/metformin-alternative-long-gen-0640-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/metformin-alternative-long-gen-0640-02",
+      "study_ids": [
+        "LONG-GEN-0640_02"
+      ],
+      "primary_study_id": "LONG-GEN-0640_02",
+      "url": "https://doi.org/10.1234/metformin-alternative-long-gen-0640-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/metformin-alternative-long-gen-0640-03",
+      "study_ids": [
+        "LONG-GEN-0640_03"
+      ],
+      "primary_study_id": "LONG-GEN-0640_03",
+      "url": "https://doi.org/10.1234/metformin-alternative-long-gen-0640-03"
+    }
+  ],
+  "manifest_hash": "sha256:d59428ed893c324c7643bfdbbca9dcf15db1e74ed954942f03e272828942c134"
+}

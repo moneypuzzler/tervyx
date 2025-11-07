@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "neurological:resveratrol-cogn-gen-0130:cognition:v1",
+  "title": "Resveratrol Cogn Gen 0130 — Cognition",
+  "category": "cognition",
+  "tier": "Gold",
+  "label": "PASS",
+  "P_effect_gt_delta": 1.0,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.9,
+    "j": 0.701,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 406,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.356017,
+    "mu_CI95": [
+      0.267874,
+      0.444161
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-30"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "tier_label_system": "TEL-5",
+  "created": "2025-11-06T07:07:40.390387+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/resveratrol-cogn-gen-0130-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/resveratrol-cogn-gen-0130-01",
+      "studyIds": [
+        "COGN-GEN-0130_01"
+      ],
+      "citation": "COGN-GEN-0130_01 (2012); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with learning concerns; Outcome: learning; DOI: 10.1234/resveratrol-cogn-gen-0130-01; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/resveratrol-cogn-gen-0130-01",
+      "sameAs": "https://doi.org/10.1234/resveratrol-cogn-gen-0130-01",
+      "datePublished": "2012",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cognition_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/resveratrol-cogn-gen-0130-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/resveratrol-cogn-gen-0130-02",
+      "studyIds": [
+        "COGN-GEN-0130_02"
+      ],
+      "citation": "COGN-GEN-0130_02 (2013); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with learning concerns; Outcome: learning; DOI: 10.1234/resveratrol-cogn-gen-0130-02; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/resveratrol-cogn-gen-0130-02",
+      "sameAs": "https://doi.org/10.1234/resveratrol-cogn-gen-0130-02",
+      "datePublished": "2013",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cognition_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/resveratrol-cogn-gen-0130-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/resveratrol-cogn-gen-0130-03",
+      "studyIds": [
+        "COGN-GEN-0130_03"
+      ],
+      "citation": "COGN-GEN-0130_03 (2014); Journal: cognition_journal; Design: randomized controlled trial; Population: Adults with learning concerns; Outcome: learning; DOI: 10.1234/resveratrol-cogn-gen-0130-03; Adverse Events: None reported.",
+      "doi": "10.1234/resveratrol-cogn-gen-0130-03",
+      "sameAs": "https://doi.org/10.1234/resveratrol-cogn-gen-0130-03",
+      "datePublished": "2014",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "cognition_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:67cce68bb1eb1d31ca8265b16847084369b3fb4e14fec76b548de095578e637f",
+  "audit_hash": "0x6f31658f90b0df47"
+}

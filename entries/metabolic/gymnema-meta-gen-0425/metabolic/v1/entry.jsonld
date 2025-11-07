@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "id": "metabolic:gymnema-meta-gen-0425:metabolic:v1",
+  "title": "Gymnema Meta Gen 0425 — Metabolic",
+  "category": "metabolic",
+  "tier": "Silver",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.8423,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.9,
+    "j": 0.607,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 400,
+    "I2": 0.0,
+    "tau2": 0.0,
+    "mu_hat": 0.295251,
+    "mu_CI95": [
+      0.207055,
+      0.383448
+    ],
+    "design_breakdown": {
+      "RCT": 3,
+      "cohort": 0,
+      "other": 0
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-30"
+  },
+  "version": "v1",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "tier_label_system": "TEL-5",
+  "created": "2025-11-06T07:07:40.101419+00:00",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
+  "csl_json": {
+    "type": "report",
+    "title": "TERVYX Protocol v1.0",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Geonyeob"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "references": [
+    {
+      "@id": "doi:10.1234/gymnema-meta-gen-0425-01",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/gymnema-meta-gen-0425-01",
+      "studyIds": [
+        "META-GEN-0425_01"
+      ],
+      "citation": "META-GEN-0425_01 (2015); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with blood sugar concerns; Outcome: blood_sugar; DOI: 10.1234/gymnema-meta-gen-0425-01; Adverse Events: Transient headache.",
+      "doi": "10.1234/gymnema-meta-gen-0425-01",
+      "sameAs": "https://doi.org/10.1234/gymnema-meta-gen-0425-01",
+      "datePublished": "2015",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "metabolic_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/gymnema-meta-gen-0425-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/gymnema-meta-gen-0425-02",
+      "studyIds": [
+        "META-GEN-0425_02"
+      ],
+      "citation": "META-GEN-0425_02 (2016); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with blood sugar concerns; Outcome: blood_sugar; DOI: 10.1234/gymnema-meta-gen-0425-02; Adverse Events: None reported.",
+      "doi": "10.1234/gymnema-meta-gen-0425-02",
+      "sameAs": "https://doi.org/10.1234/gymnema-meta-gen-0425-02",
+      "datePublished": "2016",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "metabolic_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/gymnema-meta-gen-0425-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/gymnema-meta-gen-0425-03",
+      "studyIds": [
+        "META-GEN-0425_03"
+      ],
+      "citation": "META-GEN-0425_03 (2017); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with blood sugar concerns; Outcome: blood_sugar; DOI: 10.1234/gymnema-meta-gen-0425-03; Adverse Events: Transient headache.",
+      "doi": "10.1234/gymnema-meta-gen-0425-03",
+      "sameAs": "https://doi.org/10.1234/gymnema-meta-gen-0425-03",
+      "datePublished": "2017",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "metabolic_journal"
+      }
+    }
+  ],
+  "citations_manifest_hash": "sha256:c6c23aaa80cf2574d0f95997019971cb7ed55b10ce6cae250eae66e17b03f186",
+  "audit_hash": "0x0d1151cbf6dcda10"
+}

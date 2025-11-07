@@ -6,7 +6,7 @@
   "category": "inflammation",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 0.9648,
+  "P_effect_gt_delta": 0.9952,
   "gate_results": {
     "phi": "FAIL",
     "r": 0.9,
@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 524,
-    "I2": 0.0,
-    "tau2": 0.0,
-    "mu_hat": 0.290262,
+    "total_n": 420,
+    "I2": 24.3,
+    "tau2": 0.00247267,
+    "mu_hat": 0.326053,
     "mu_CI95": [
-      0.192116,
-      0.388408
+      0.226767,
+      0.425338
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:50:21.499161+00:00",
+  "created": "2025-11-06T07:17:28.236882+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,54 +60,54 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/infl-inf07-01",
+      "@id": "doi:10.1234/green-tea-infl-inf07-01",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf07-01",
+      "identifier": "doi:10.1234/green-tea-infl-inf07-01",
       "studyIds": [
-        "INFL-INF07-01"
+        "INFL-INF07_01"
       ],
-      "citation": "INFL-INF07-01 (2020); Journal: inflammation-journal-01; Design: randomized controlled trial; Population: Adults with systemic inflammation concerns; Outcome: systemic_inflammation; DOI: 10.1234/infl-inf07-01; Adverse Events: None reported.",
-      "doi": "10.1234/infl-inf07-01",
-      "sameAs": "https://doi.org/10.1234/infl-inf07-01",
-      "datePublished": "2020",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "inflammation-journal-01"
-      }
-    },
-    {
-      "@id": "doi:10.1234/infl-inf07-02",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf07-02",
-      "studyIds": [
-        "INFL-INF07-02"
-      ],
-      "citation": "INFL-INF07-02 (2011); Journal: inflammation-journal-02; Design: randomized controlled trial; Population: Adults with systemic inflammation concerns; Outcome: systemic_inflammation; DOI: 10.1234/infl-inf07-02; Adverse Events: None reported.",
-      "doi": "10.1234/infl-inf07-02",
-      "sameAs": "https://doi.org/10.1234/infl-inf07-02",
-      "datePublished": "2011",
-      "isPartOf": {
-        "@type": "Periodical",
-        "name": "inflammation-journal-02"
-      }
-    },
-    {
-      "@id": "doi:10.1234/infl-inf07-03",
-      "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/infl-inf07-03",
-      "studyIds": [
-        "INFL-INF07-03"
-      ],
-      "citation": "INFL-INF07-03 (2016); Journal: inflammation-journal-03; Design: randomized controlled trial; Population: Adults with systemic inflammation concerns; Outcome: systemic_inflammation; DOI: 10.1234/infl-inf07-03; Adverse Events: Transient headache.",
-      "doi": "10.1234/infl-inf07-03",
-      "sameAs": "https://doi.org/10.1234/infl-inf07-03",
+      "citation": "INFL-INF07_01 (2016); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with systemic inflammation concerns; Outcome: systemic_inflammation; DOI: 10.1234/green-tea-infl-inf07-01; Adverse Events: Transient headache.",
+      "doi": "10.1234/green-tea-infl-inf07-01",
+      "sameAs": "https://doi.org/10.1234/green-tea-infl-inf07-01",
       "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "inflammation-journal-03"
+        "name": "inflammation_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/green-tea-infl-inf07-02",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/green-tea-infl-inf07-02",
+      "studyIds": [
+        "INFL-INF07_02"
+      ],
+      "citation": "INFL-INF07_02 (2017); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with systemic inflammation concerns; Outcome: systemic_inflammation; DOI: 10.1234/green-tea-infl-inf07-02; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/green-tea-infl-inf07-02",
+      "sameAs": "https://doi.org/10.1234/green-tea-infl-inf07-02",
+      "datePublished": "2017",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "inflammation_journal"
+      }
+    },
+    {
+      "@id": "doi:10.1234/green-tea-infl-inf07-03",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1234/green-tea-infl-inf07-03",
+      "studyIds": [
+        "INFL-INF07_03"
+      ],
+      "citation": "INFL-INF07_03 (2018); Journal: inflammation_journal; Design: randomized controlled trial; Population: Adults with systemic inflammation concerns; Outcome: systemic_inflammation; DOI: 10.1234/green-tea-infl-inf07-03; Adverse Events: None reported.",
+      "doi": "10.1234/green-tea-infl-inf07-03",
+      "sameAs": "https://doi.org/10.1234/green-tea-infl-inf07-03",
+      "datePublished": "2018",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "inflammation_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:67bf60ab46c65521c0b296e77d471c1be562be3a31bf0ca0b6a4a9a07d9303e8",
-  "audit_hash": "0x52e7f735b112fc56"
+  "citations_manifest_hash": "sha256:e3aa7f798190345016a40e3063df620a51e6409453574d23150142610cc7f5cb",
+  "audit_hash": "0xc66691b3aba013de"
 }

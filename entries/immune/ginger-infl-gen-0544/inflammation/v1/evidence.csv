@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
+INFL-GEN-0544_01,2016,randomized controlled trial,SMD,-0.3177,-0.5089,-0.1265,73,61,some concerns,10.1234/ginger-infl-gen-0544-01,inflammation_journal,crp_reduction,Adults with crp reduction concerns,Transient headache,11
+INFL-GEN-0544_02,2017,randomized controlled trial,SMD,-0.2529,-0.381,-0.1248,65,69,low,10.1234/ginger-infl-gen-0544-02,inflammation_journal,crp_reduction,Adults with crp reduction concerns,Mild GI discomfort,9
+INFL-GEN-0544_03,2018,randomized controlled trial,SMD,-0.3991,-0.5208,-0.2774,79,73,mixed,10.1234/ginger-infl-gen-0544-03,inflammation_journal,crp_reduction,Adults with crp reduction concerns,None reported,9

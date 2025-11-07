@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-MUSC-MSK01-01,2021,randomized controlled trial,SMD,0.291,0.1025,0.4795,85,91,some concerns,10.1234/musc-msk01-01,musculoskeletal-journal-01,joint_health,Adults with joint health concerns,Mild GI discomfort,13
-MUSC-MSK01-02,2012,randomized controlled trial,SMD,0.2856,0.1147,0.4565,98,76,some concerns,10.1234/musc-msk01-02,musculoskeletal-journal-02,joint_health,Adults with joint health concerns,None reported,12
-MUSC-MSK01-03,2017,randomized controlled trial,SMD,0.2802,0.1269,0.4335,81,91,mixed,10.1234/musc-msk01-03,musculoskeletal-journal-03,joint_health,Adults with joint health concerns,Transient headache,10
+MUSC-MSK01_01,2016,randomized controlled trial,SMD,0.3177,0.1783,0.4571,82,64,mixed,10.1234/collagen-musc-msk01-01,musculoskeletal_journal,joint_health,Adults with joint health concerns,None reported,10
+MUSC-MSK01_02,2017,randomized controlled trial,SMD,0.3205,0.1755,0.4655,70,67,mixed,10.1234/collagen-musc-msk01-02,musculoskeletal_journal,joint_health,Adults with joint health concerns,Mild GI discomfort,10
+MUSC-MSK01_03,2018,randomized controlled trial,SMD,0.3349,0.2001,0.4697,61,74,low,10.1234/collagen-musc-msk01-03,musculoskeletal_journal,joint_health,Adults with joint health concerns,Mild GI discomfort,8

@@ -1,4 +1,4 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,outcome,population,adverse_events,duration_weeks
-LONG-LON07-01,2011,randomized controlled trial,SMD,0.3414,0.1612,0.5216,77,86,some concerns,10.1234/long-lon07-01,longevity-journal-01,telomere_support,Adults with telomere support concerns,Mild GI discomfort,8
-LONG-LON07-02,2016,randomized controlled trial,SMD,0.336,0.1734,0.4986,90,70,some concerns,10.1234/long-lon07-02,longevity-journal-02,telomere_support,Adults with telomere support concerns,Mild GI discomfort,13
-LONG-LON07-03,2021,randomized controlled trial,SMD,0.3306,0.1855,0.4757,73,85,mixed,10.1234/long-lon07-03,longevity-journal-03,telomere_support,Adults with telomere support concerns,None reported,11
+LONG-LON07_01,2018,randomized controlled trial,SMD,0.3852,0.186,0.5844,63,72,mixed,10.1234/spermidine-long-lon07-01,longevity_journal,telomere_support,Adults with telomere support concerns,None reported,10
+LONG-LON07_02,2019,randomized controlled trial,SMD,0.2984,0.1461,0.4507,60,74,mixed,10.1234/spermidine-long-lon07-02,longevity_journal,telomere_support,Adults with telomere support concerns,None reported,8
+LONG-LON07_03,2020,randomized controlled trial,SMD,0.3115,0.132,0.491,71,58,low,10.1234/spermidine-long-lon07-03,longevity_journal,telomere_support,Adults with telomere support concerns,None reported,9

@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:44.535427+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/metabolic/alpha-lipoic-acid-meta-gen-0483/metabolic/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "META-GEN-0483_01",
+      "year": 2015,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "metabolic_syndrome",
+      "population": "Adults with metabolic syndrome concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/alpha-lipoic-acid-meta-gen-0483-01",
+      "url": "https://doi.org/10.1234/alpha-lipoic-acid-meta-gen-0483-01",
+      "citation": "META-GEN-0483_01 (2015); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with metabolic syndrome concerns; Outcome: metabolic_syndrome; DOI: 10.1234/alpha-lipoic-acid-meta-gen-0483-01; Adverse Events: Transient headache."
+    },
+    {
+      "study_id": "META-GEN-0483_02",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "metabolic_syndrome",
+      "population": "Adults with metabolic syndrome concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/alpha-lipoic-acid-meta-gen-0483-02",
+      "url": "https://doi.org/10.1234/alpha-lipoic-acid-meta-gen-0483-02",
+      "citation": "META-GEN-0483_02 (2016); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with metabolic syndrome concerns; Outcome: metabolic_syndrome; DOI: 10.1234/alpha-lipoic-acid-meta-gen-0483-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "META-GEN-0483_03",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "metabolic_journal",
+      "outcome": "metabolic_syndrome",
+      "population": "Adults with metabolic syndrome concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/alpha-lipoic-acid-meta-gen-0483-03",
+      "url": "https://doi.org/10.1234/alpha-lipoic-acid-meta-gen-0483-03",
+      "citation": "META-GEN-0483_03 (2017); Journal: metabolic_journal; Design: randomized controlled trial; Population: Adults with metabolic syndrome concerns; Outcome: metabolic_syndrome; DOI: 10.1234/alpha-lipoic-acid-meta-gen-0483-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/alpha-lipoic-acid-meta-gen-0483-01",
+      "study_ids": [
+        "META-GEN-0483_01"
+      ],
+      "primary_study_id": "META-GEN-0483_01",
+      "url": "https://doi.org/10.1234/alpha-lipoic-acid-meta-gen-0483-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/alpha-lipoic-acid-meta-gen-0483-02",
+      "study_ids": [
+        "META-GEN-0483_02"
+      ],
+      "primary_study_id": "META-GEN-0483_02",
+      "url": "https://doi.org/10.1234/alpha-lipoic-acid-meta-gen-0483-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/alpha-lipoic-acid-meta-gen-0483-03",
+      "study_ids": [
+        "META-GEN-0483_03"
+      ],
+      "primary_study_id": "META-GEN-0483_03",
+      "url": "https://doi.org/10.1234/alpha-lipoic-acid-meta-gen-0483-03"
+    }
+  ],
+  "manifest_hash": "sha256:e9febb05b367031625e1b4851a446b37e72a28e7484042adadaca4dc66624eab"
+}

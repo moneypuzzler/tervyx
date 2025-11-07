@@ -1,0 +1,74 @@
+{
+  "generated": "2025-11-06T07:07:06.457564+00:00",
+  "policy_fingerprint": "0x6036438e1b958d88",
+  "source_evidence": "entries/behavioral/ashwagandha-slee-gen-0003/sleep/v1/evidence.csv",
+  "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
+  "studies": [
+    {
+      "study_id": "SLEE-GEN-0003_01",
+      "year": 2016,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "sleep_duration",
+      "population": "Adults with sleep duration concerns",
+      "adverse_events": "Mild GI discomfort",
+      "doi": "10.1234/ashwagandha-slee-gen-0003-01",
+      "url": "https://doi.org/10.1234/ashwagandha-slee-gen-0003-01",
+      "citation": "SLEE-GEN-0003_01 (2016); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep duration concerns; Outcome: sleep_duration; DOI: 10.1234/ashwagandha-slee-gen-0003-01; Adverse Events: Mild GI discomfort."
+    },
+    {
+      "study_id": "SLEE-GEN-0003_02",
+      "year": 2017,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "sleep_duration",
+      "population": "Adults with sleep duration concerns",
+      "adverse_events": "None reported",
+      "doi": "10.1234/ashwagandha-slee-gen-0003-02",
+      "url": "https://doi.org/10.1234/ashwagandha-slee-gen-0003-02",
+      "citation": "SLEE-GEN-0003_02 (2017); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep duration concerns; Outcome: sleep_duration; DOI: 10.1234/ashwagandha-slee-gen-0003-02; Adverse Events: None reported."
+    },
+    {
+      "study_id": "SLEE-GEN-0003_03",
+      "year": 2018,
+      "design": "randomized controlled trial",
+      "journal": "sleep_journal",
+      "outcome": "sleep_duration",
+      "population": "Adults with sleep duration concerns",
+      "adverse_events": "Transient headache",
+      "doi": "10.1234/ashwagandha-slee-gen-0003-03",
+      "url": "https://doi.org/10.1234/ashwagandha-slee-gen-0003-03",
+      "citation": "SLEE-GEN-0003_03 (2018); Journal: sleep_journal; Design: randomized controlled trial; Population: Adults with sleep duration concerns; Outcome: sleep_duration; DOI: 10.1234/ashwagandha-slee-gen-0003-03; Adverse Events: Transient headache."
+    }
+  ],
+  "references": [
+    {
+      "type": "doi",
+      "identifier": "10.1234/ashwagandha-slee-gen-0003-01",
+      "study_ids": [
+        "SLEE-GEN-0003_01"
+      ],
+      "primary_study_id": "SLEE-GEN-0003_01",
+      "url": "https://doi.org/10.1234/ashwagandha-slee-gen-0003-01"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/ashwagandha-slee-gen-0003-02",
+      "study_ids": [
+        "SLEE-GEN-0003_02"
+      ],
+      "primary_study_id": "SLEE-GEN-0003_02",
+      "url": "https://doi.org/10.1234/ashwagandha-slee-gen-0003-02"
+    },
+    {
+      "type": "doi",
+      "identifier": "10.1234/ashwagandha-slee-gen-0003-03",
+      "study_ids": [
+        "SLEE-GEN-0003_03"
+      ],
+      "primary_study_id": "SLEE-GEN-0003_03",
+      "url": "https://doi.org/10.1234/ashwagandha-slee-gen-0003-03"
+    }
+  ],
+  "manifest_hash": "sha256:e5420bf7294e8e56c852062bf628c271be052d731670b0e3c6f9340b3842ba6a"
+}

@@ -6,7 +6,7 @@
   "category": "musculoskeletal",
   "tier": "Black",
   "label": "FAIL",
-  "P_effect_gt_delta": 0.9999,
+  "P_effect_gt_delta": 0.9962,
   "gate_results": {
     "phi": "FAIL",
     "r": 0.9,
@@ -16,13 +16,13 @@
   },
   "evidence_summary": {
     "n_studies": 3,
-    "total_n": 515,
+    "total_n": 418,
     "I2": 0.0,
     "tau2": 0.0,
-    "mu_hat": 0.36332,
+    "mu_hat": 0.324709,
     "mu_CI95": [
-      0.281427,
-      0.445214
+      0.244141,
+      0.405276
     ],
     "design_breakdown": {
       "RCT": 3,
@@ -38,7 +38,7 @@
   "version": "v1",
   "policy_fingerprint": "0x6036438e1b958d88",
   "tier_label_system": "TEL-5",
-  "created": "2025-11-05T06:51:17.734081+00:00",
+  "created": "2025-11-06T07:17:04.889607+00:00",
   "preferred_citation": "Kim G. TERVYX Protocol v1.0 (2025).",
   "bibtex": "@techreport{tervyx2025, title={TERVYX Protocol v1.0}, author={Kim, Geonyeob}, year={2025}}",
   "csl_json": {
@@ -60,54 +60,54 @@
   },
   "references": [
     {
-      "@id": "doi:10.1234/musc-msk11-01",
+      "@id": "doi:10.1234/creatine-musc-msk11-01",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/musc-msk11-01",
+      "identifier": "doi:10.1234/creatine-musc-msk11-01",
       "studyIds": [
-        "MUSC-MSK11-01"
+        "MUSC-MSK11_01"
       ],
-      "citation": "MUSC-MSK11-01 (2012); Journal: musculoskeletal-journal-01; Design: randomized controlled trial; Population: Adults with muscle recovery concerns; Outcome: muscle_recovery; DOI: 10.1234/musc-msk11-01; Adverse Events: Transient headache.",
-      "doi": "10.1234/musc-msk11-01",
-      "sameAs": "https://doi.org/10.1234/musc-msk11-01",
-      "datePublished": "2012",
+      "citation": "MUSC-MSK11_01 (2016); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with muscle recovery concerns; Outcome: muscle_recovery; DOI: 10.1234/creatine-musc-msk11-01; Adverse Events: None reported.",
+      "doi": "10.1234/creatine-musc-msk11-01",
+      "sameAs": "https://doi.org/10.1234/creatine-musc-msk11-01",
+      "datePublished": "2016",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "musculoskeletal-journal-01"
+        "name": "musculoskeletal_journal"
       }
     },
     {
-      "@id": "doi:10.1234/musc-msk11-02",
+      "@id": "doi:10.1234/creatine-musc-msk11-02",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/musc-msk11-02",
+      "identifier": "doi:10.1234/creatine-musc-msk11-02",
       "studyIds": [
-        "MUSC-MSK11-02"
+        "MUSC-MSK11_02"
       ],
-      "citation": "MUSC-MSK11-02 (2017); Journal: musculoskeletal-journal-02; Design: randomized controlled trial; Population: Adults with muscle recovery concerns; Outcome: muscle_recovery; DOI: 10.1234/musc-msk11-02; Adverse Events: Mild GI discomfort.",
-      "doi": "10.1234/musc-msk11-02",
-      "sameAs": "https://doi.org/10.1234/musc-msk11-02",
+      "citation": "MUSC-MSK11_02 (2017); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with muscle recovery concerns; Outcome: muscle_recovery; DOI: 10.1234/creatine-musc-msk11-02; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/creatine-musc-msk11-02",
+      "sameAs": "https://doi.org/10.1234/creatine-musc-msk11-02",
       "datePublished": "2017",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "musculoskeletal-journal-02"
+        "name": "musculoskeletal_journal"
       }
     },
     {
-      "@id": "doi:10.1234/musc-msk11-03",
+      "@id": "doi:10.1234/creatine-musc-msk11-03",
       "@type": "ScholarlyArticle",
-      "identifier": "doi:10.1234/musc-msk11-03",
+      "identifier": "doi:10.1234/creatine-musc-msk11-03",
       "studyIds": [
-        "MUSC-MSK11-03"
+        "MUSC-MSK11_03"
       ],
-      "citation": "MUSC-MSK11-03 (2022); Journal: musculoskeletal-journal-03; Design: randomized controlled trial; Population: Adults with muscle recovery concerns; Outcome: muscle_recovery; DOI: 10.1234/musc-msk11-03; Adverse Events: None reported.",
-      "doi": "10.1234/musc-msk11-03",
-      "sameAs": "https://doi.org/10.1234/musc-msk11-03",
-      "datePublished": "2022",
+      "citation": "MUSC-MSK11_03 (2018); Journal: musculoskeletal_journal; Design: randomized controlled trial; Population: Adults with muscle recovery concerns; Outcome: muscle_recovery; DOI: 10.1234/creatine-musc-msk11-03; Adverse Events: Mild GI discomfort.",
+      "doi": "10.1234/creatine-musc-msk11-03",
+      "sameAs": "https://doi.org/10.1234/creatine-musc-msk11-03",
+      "datePublished": "2018",
       "isPartOf": {
         "@type": "Periodical",
-        "name": "musculoskeletal-journal-03"
+        "name": "musculoskeletal_journal"
       }
     }
   ],
-  "citations_manifest_hash": "sha256:4bc2414eab610ed52708e4eb194122cabb15bbca1a1e37483d2dbd708638b815",
-  "audit_hash": "0x5edd13b4b6c1bae6"
+  "citations_manifest_hash": "sha256:c770d43ca767839adc01b589d9c6f376286e6ec1ec0c9ccf72f5c04c31f90096",
+  "audit_hash": "0xfd57f277896b8850"
 }
