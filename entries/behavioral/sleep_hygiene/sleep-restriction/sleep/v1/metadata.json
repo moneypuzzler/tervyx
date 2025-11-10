@@ -1,0 +1,9 @@
+{
+  "intervention_type": "behavioral",
+  "subcategory": "sleep_hygiene",
+  "product": "sleep-restriction",
+  "outcome": "sleep",
+  "version": "v1",
+  "created": "2025-11-10T01:41:48.069459+00:00",
+  "status": "draft"
+}
