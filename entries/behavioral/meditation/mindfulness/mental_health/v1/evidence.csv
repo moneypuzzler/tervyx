@@ -1,2 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
-Lindsay2024,2024,randomized controlled trial,SMD,-0.56,-0.69,-0.43,1120,1119,low,10.1038/s41562-024-01907-7,nat_hum_behav

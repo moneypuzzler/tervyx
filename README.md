@@ -544,6 +544,115 @@ jobs:
 
 **Important**: `tools/build_protocol_entry.py` is the **only supported method** for generating compliant entry artifacts. Manual edits to JSON files will fail validation.
 
+## 📋 Evidence Curation Workflow
+
+**Critical Principle**: TERVYX's zero-hallucination guarantee **extends to evidence sourcing**. ALL data in `evidence.csv` must be **human-extracted from peer-reviewed publications** with verifiable DOIs.
+
+### ⚠️ LLM Role Restrictions
+
+**PROHIBITED** (will contaminate trust chain):
+- ❌ Extracting effect sizes from papers
+- ❌ Estimating confidence intervals
+- ❌ Generating synthetic study data
+- ❌ Making final inclusion/exclusion decisions
+- ❌ "Inferring" sample sizes or risk of bias
+
+**ALLOWED** (assistive only):
+- ✅ Literature search assistance (suggest PubMed queries)
+- ✅ DOI lookup and metadata retrieval
+- ✅ Format conversion (e.g., parsing BibTeX)
+
+**Rationale**: LLMs are prone to hallucination. Evidence data must be **100% human-verified** to maintain TERVYX's trust guarantee.
+
+### 📚 Evidence Curation Policy
+
+Full policy: [`protocol/evidence_curation_policy.yaml`](protocol/evidence_curation_policy.yaml)
+
+**Study Selection Criteria**:
+- ✅ Randomized controlled trials (RCTs) in peer-reviewed journals
+- ✅ DOI registered in CrossRef, PubMed, or equivalent
+- ✅ Full text available with extractable effect sizes
+- ✅ Sample sizes ≥10 per arm
+- ❌ Preprints, abstracts-only, retracted publications
+
+**Data Extraction Protocol**:
+1. Locate full-text article via DOI/PMC
+2. Verify study meets inclusion criteria
+3. Extract exact values from Results tables/figures
+4. Apply Cochrane RoB 2.0 for risk of bias assessment
+5. Document extraction in curator log
+6. Peer review: 20% of entries validated by second curator
+
+**Required Evidence Fields** (from `evidence.csv`):
+```csv
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,duration_weeks
+```
+
+**Example (VALID - extracted from real paper)**:
+```csv
+Abbasi2012,2012,randomized controlled trial,MD,-4.00,-5.92,-2.08,23,23,low,10.1097/MJT.0b013e31823f11fc,j_clin_hypertens,24
+```
+✅ All values match Table 2 in source paper (DOI: 10.1097/MJT.0b013e31823f11fc)
+
+**Example (INVALID - hallucinated data)**:
+```csv
+Smith2020,2020,randomized controlled trial,MD,-5.2,-7.8,-2.6,45,43,low,10.1234/fake.doi,jama
+```
+❌ DOI 10.1234/fake.doi returns 404. Effect sizes are fabricated.
+
+### 🔍 Quality Assurance
+
+**Automated Validation** (enforced in CI):
+- All DOIs must resolve to valid publications
+- Effect sizes and CIs must be numerically consistent
+- Sample sizes must be positive integers
+- Journal IDs must exist in `protocol/journal_trust/snapshot-*.json`
+- No duplicate `study_id` within entry
+
+**Human Review**:
+- Independent validator reviews ≥20% of entries
+- For Gold/Silver tier entries: double extraction by two curators
+- Discrepancies adjudicated by third curator
+
+**Audit Trail**:
+- All evidence.csv changes tracked in git with curator attribution
+- Commit message format: `feat(entry): Add RCT data for {product}-{outcome} [curator: {name}]`
+- Curator logs: `protocol/curator_logs/YYYY-MM-DD_curator_name.md`
+
+### 🚫 What NOT To Do
+
+**DO NOT create entries with**:
+- Synthetic/placeholder data ("just for testing")
+- Effect sizes "estimated" from partial information
+- LLM-generated study summaries
+- DOIs that haven't been manually verified
+
+**If you don't have real data, leave `evidence.csv` EMPTY**. An empty entry is better than a hallucinated one.
+
+### 📖 Curator Workflow Summary
+
+```bash
+# 1. Create entry scaffold
+python scripts/tervyx.py new supplements minerals magnesium-glycinate sleep
+
+# 2. Literature search (LLM-assisted OK)
+# Search PubMed for: "magnesium AND sleep AND randomized controlled trial"
+
+# 3. HUMAN extracts data from full-text papers
+# Open each paper, read Results section, fill evidence.csv with EXACT values
+
+# 4. Build artifacts (deterministic pipeline)
+python tools/build_protocol_entry.py entries/supplements/minerals/magnesium-glycinate/sleep/v1
+
+# 5. Commit with curator attribution
+git add entries/
+git commit -m "feat(entry): Add 3 RCTs for magnesium-sleep [curator: Jane Doe]"
+```
+
+**Enforcement**: CI/CD pipeline validates all DOIs and flags entries with suspicious patterns (e.g., round numbers, placeholder journal_ids).
+
+---
+
 ## 🔬 Deterministic Build Pipeline
 
 Every TEL-5 artifact is generated from **reproducible steps with zero LLM involvement in final labels**. The entire pipeline is deterministic: same evidence + same policy = identical outputs.

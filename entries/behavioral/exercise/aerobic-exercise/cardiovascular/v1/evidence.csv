@@ -1,3 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
-Lopes2021,2021,randomized controlled trial,MD,-7.1,-12.8,-1.4,30,30,low,10.1001/jamacardio.2021.2735,jama_cardiol
-Lee2024,2024,randomized controlled trial,composite,-0.35,-0.52,-0.18,101,102,low,10.1093/eurheartj/ehad827,eur_heart_j

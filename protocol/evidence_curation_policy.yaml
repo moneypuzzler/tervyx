@@ -1,0 +1,256 @@
+# TERVYX Evidence Curation Policy v1.0
+# Defines how evidence is sourced, extracted, and validated for protocol entries
+
+version: "1.0.0"
+effective_date: "2025-11-10"
+
+philosophy: |
+  TERVYX Protocol's core principle is "zero hallucination in final labels."
+  This extends to evidence sourcing: ALL data in evidence.csv must be
+  directly extracted from peer-reviewed publications with verifiable DOIs.
+
+  NO synthetic data. NO estimations. NO LLM-generated effect sizes.
+  Only human-curated, auditable citations.
+
+# ============================================================================
+# STUDY SELECTION CRITERIA
+# ============================================================================
+study_selection:
+  inclusion_criteria:
+    - "Randomized controlled trials (RCTs) published in peer-reviewed journals"
+    - "Studies with DOI registered in CrossRef, PubMed, or equivalent"
+    - "Full text available in English or with validated translation"
+    - "Clearly reported effect sizes with confidence intervals OR raw data for calculation"
+    - "Sample sizes (n_treat, n_ctrl) explicitly stated"
+    - "Study design and methods section present"
+
+  exclusion_criteria:
+    - "Preprints without peer review"
+    - "Conference abstracts without full publication"
+    - "Studies without extractable effect sizes"
+    - "Retracted publications"
+    - "Studies flagged by PubPeer or other post-publication review platforms"
+    - "Duplicate publications (same cohort, same outcome)"
+
+  preferred_sources:
+    - "PubMed/PMC indexed journals"
+    - "Cochrane Database systematic reviews (for RCT identification)"
+    - "ClinicalTrials.gov registered trials with published results"
+
+  quality_thresholds:
+    min_sample_size: 10  # per arm (n_treat >= 10, n_ctrl >= 10)
+    risk_of_bias_assessment: "Required (use Cochrane RoB 2.0 or similar)"
+
+# ============================================================================
+# DATA EXTRACTION PROTOCOL
+# ============================================================================
+data_extraction:
+  required_fields:
+    study_id:
+      description: "FirstAuthorYearLetter format (e.g., Smith2020a)"
+      validation: "Must be unique within entry"
+      source: "Citation metadata"
+
+    year:
+      description: "Publication year (integer)"
+      source: "Journal publication date or epub ahead of print"
+
+    design:
+      description: "Study design (exact string from paper)"
+      examples: ["randomized controlled trial", "double-blind RCT", "crossover RCT"]
+      source: "Methods section, study design subsection"
+
+    effect_type:
+      description: "Type of effect measure"
+      allowed_values: ["MD", "SMD", "RR", "OR", "HR"]
+      source: "Results section or meta-analysis extraction"
+      notes: "MD=mean difference, SMD=standardized mean difference"
+
+    effect_point:
+      description: "Point estimate of effect"
+      precision: "Use exact value from paper (do not round excessively)"
+      source: "Results table, forest plot, or text"
+      validation: "Must match published value exactly"
+
+    ci_low:
+      description: "Lower bound of 95% confidence interval"
+      source: "Results table or calculated from SE"
+      validation: "ci_low < effect_point < ci_high (unless boundary case)"
+
+    ci_high:
+      description: "Upper bound of 95% confidence interval"
+      source: "Results table or calculated from SE"
+
+    n_treat:
+      description: "Sample size in treatment group (integer)"
+      source: "Methods or Results, participant flow diagram"
+      notes: "Use ITT (intention-to-treat) N if available, otherwise per-protocol"
+
+    n_ctrl:
+      description: "Sample size in control group (integer)"
+      source: "Methods or Results, participant flow diagram"
+
+    risk_of_bias:
+      description: "Risk of bias assessment"
+      allowed_values: ["low", "some", "high"]
+      source: "Apply Cochrane RoB 2.0 tool"
+      notes: "Document assessment in curator notes"
+
+    doi:
+      description: "Digital Object Identifier"
+      format: "10.XXXX/..."
+      validation: "Must resolve to valid publication when prefixed with https://doi.org/"
+      source: "Journal article metadata"
+
+    journal_id:
+      description: "Journal identifier (lowercase snake_case)"
+      source: "protocol/journal_trust/snapshot-YYYY-MM-DD.json"
+      validation: "Must exist in journal trust snapshot"
+      examples: ["nat_med", "jama", "bmj", "plos_one"]
+
+    duration_weeks:
+      description: "Intervention duration in weeks (optional)"
+      source: "Methods section, intervention protocol"
+      notes: "Convert from days/months if needed (7 days = 1 week)"
+
+  extraction_workflow:
+    step_1: "Locate full-text article via DOI or PubMed Central"
+    step_2: "Verify study meets inclusion criteria"
+    step_3: "Extract data using standardized form (see tools/evidence_extraction_template.csv)"
+    step_4: "Validate extracted data against paper (double-check numbers)"
+    step_5: "Document extraction in curator log"
+    step_6: "Peer review: second curator validates at least 20% of entries"
+
+# ============================================================================
+# QUALITY ASSURANCE
+# ============================================================================
+quality_assurance:
+  validation_checks:
+    - "All DOIs must resolve to valid publications"
+    - "Effect sizes and CIs must be numerically consistent"
+    - "Sample sizes must be positive integers"
+    - "Journal IDs must exist in journal trust snapshot"
+    - "No duplicate study_id within entry"
+
+  double_extraction:
+    enabled: true
+    threshold: "For high-stakes entries (tier Gold/Silver), extract data twice by independent curators"
+    conflict_resolution: "Third curator adjudicates discrepancies"
+
+  audit_trail:
+    curator_log: "protocol/curator_logs/YYYY-MM-DD_curator_name.md"
+    required_fields: ["entry_id", "studies_extracted", "validation_status", "notes"]
+
+# ============================================================================
+# RESPONSIBILITIES
+# ============================================================================
+roles:
+  curator:
+    description: "Human expert responsible for evidence extraction"
+    qualifications: "Familiarity with systematic review methods, statistical literacy"
+    responsibilities:
+      - "Select studies meeting inclusion criteria"
+      - "Extract data accurately from source papers"
+      - "Assess risk of bias using standardized tools"
+      - "Document extraction process in curator log"
+
+  validator:
+    description: "Independent reviewer for quality assurance"
+    responsibilities:
+      - "Verify random sample of extractions (≥20%)"
+      - "Check DOI validity and data consistency"
+      - "Flag discrepancies for resolution"
+
+  llm_role:
+    description: "Large Language Models (LLMs) have ZERO role in final data extraction"
+    allowed_use_cases:
+      - "Literature search assistance (suggest PubMed queries)"
+      - "DOI lookup and metadata retrieval"
+      - "Format conversion (e.g., parsing BibTeX)"
+
+    prohibited_use_cases:
+      - "Extracting effect sizes from papers"
+      - "Estimating confidence intervals"
+      - "Generating synthetic study data"
+      - "Making final inclusion/exclusion decisions"
+
+    rationale: |
+      LLMs are prone to hallucination. Evidence data must be human-verified
+      to maintain TERVYX's trust guarantee.
+
+# ============================================================================
+# WORKFLOW SUMMARY
+# ============================================================================
+workflow:
+  # Step 1: Literature Search (LLM-assisted OK)
+  literature_search:
+    - "Use PubMed, Cochrane, or Google Scholar"
+    - "LLMs may suggest search queries or help filter results"
+    - "Human curator makes final study selection"
+
+  # Step 2: Data Extraction (Human-only)
+  data_extraction:
+    - "Curator reads full text"
+    - "Fills out evidence.csv using exact values from paper"
+    - "Documents extraction in curator log"
+
+  # Step 3: Validation (Automated + Human)
+  validation:
+    - "Run: python tools/build_protocol_entry.py <entry_dir>"
+    - "Pipeline validates data types, consistency"
+    - "Human validator spot-checks 20% of entries"
+
+  # Step 4: Build
+  build:
+    - "Deterministic pipeline generates simulation.json, entry.jsonld, citations.json"
+    - "No LLM involvement in final artifacts"
+
+# ============================================================================
+# ENFORCEMENT
+# ============================================================================
+enforcement:
+  pre_commit_hooks:
+    - "Validate all evidence.csv files have valid DOIs"
+    - "Check no duplicate study_id values"
+    - "Verify journal_id exists in snapshot"
+
+  ci_cd:
+    - "Run full validation on all entries in CI"
+    - "Fail build if any evidence.csv fails validation"
+    - "Generate curator activity report"
+
+  version_control:
+    - "All evidence.csv changes must have commit message citing curator"
+    - "Example: 'feat(entry): Add RCT data for magnesium-sleep [curator: Jane Doe]'"
+
+# ============================================================================
+# EXAMPLES
+# ============================================================================
+examples:
+  valid_entry: |
+    study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id,duration_weeks
+    Abbasi2012,2012,randomized controlled trial,MD,-4.00,-5.92,-2.08,23,23,low,10.1097/MJT.0b013e31823f11fc,j_clin_hypertens,24
+
+    # This is VALID because:
+    # - All values extracted from published paper (DOI: 10.1097/MJT.0b013e31823f11fc)
+    # - Effect size (-4.00 mm Hg reduction) matches Table 2 in source
+    # - Confidence interval matches published values
+    # - Sample sizes verified from participant flow diagram
+
+  invalid_entry: |
+    study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
+    Smith2020,2020,randomized controlled trial,MD,-5.2,-7.8,-2.6,45,43,low,10.1234/fake.doi,jama
+
+    # This is INVALID because:
+    # - DOI 10.1234/fake.doi does not resolve (404 error)
+    # - Effect size appears estimated/synthesized
+    # - No verifiable source for data extraction
+
+# ============================================================================
+# REVISION HISTORY
+# ============================================================================
+changelog:
+  - version: "1.0.0"
+    date: "2025-11-10"
+    changes: "Initial policy definition"
+    author: "TERVYX Protocol Team"
