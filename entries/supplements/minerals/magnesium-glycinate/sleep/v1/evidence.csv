@@ -1,0 +1,2 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
+Schuster2025,2025,randomized controlled trial,SMD,-0.2,-0.35,-0.05,77,78,low,10.2147/NSS.S524348,nat_sci_sleep

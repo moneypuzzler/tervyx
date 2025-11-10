@@ -51,3 +51,14 @@ AUDIT_LOG.jsonl
 htmlcov/
 .pytest_cache/
 .mypy_cache/
+coverage.xml
+
+# Intermediate entry artifacts (only committed artifacts are tracked)
+# Cache files, temporary build outputs
+entries/**/*.cache
+entries/**/*.tmp
+entries/**/.build/
+
+# Report outputs
+reports/*.tmp
+reports/*.cache

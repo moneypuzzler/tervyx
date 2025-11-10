@@ -62,14 +62,24 @@ def design_breakdown(rows: List[Dict[str, Any]]) -> Dict[str, int]:
 
 def build_entry(entry_dir: pathlib.Path, claim_text: str) -> None:
     policy = read_policy()
-    category = entry_dir.parent.name
-    version = entry_dir.name
-    substance = entry_dir.parent.parent.name
-    domain = entry_dir.parent.parent.parent.name
 
-    category_cfg = policy.get("categories", {}).get(category)
+    # Parse v2 taxonomy structure: entries/{intervention_type}/{subcategory}/{product}/{outcome}/v1
+    version = entry_dir.name                            # v1
+    outcome = entry_dir.parent.name                     # sleep, cognition, etc.
+    product = entry_dir.parent.parent.name              # magnesium-glycinate, etc.
+    subcategory = entry_dir.parent.parent.parent.name   # minerals, vitamins, etc.
+    intervention_type = entry_dir.parent.parent.parent.parent.name  # supplements, devices, etc.
+
+    # For backward compatibility, map intervention_type to normalized form
+    intervention_type_normalized = intervention_type.rstrip('s')  # supplements -> supplement
+    if intervention_type_normalized == 'supplement':
+        intervention_type_normalized = 'supplement'
+    elif intervention_type_normalized == 'device':
+        intervention_type_normalized = 'device_noninvasive'
+
+    category_cfg = policy.get("categories", {}).get(outcome)
     if not category_cfg:
-        raise ValueError(f"Category '{category}' not defined in policy.yaml")
+        raise ValueError(f"Outcome category '{outcome}' not defined in policy.yaml")
 
     delta = float(category_cfg.get("delta", 0.0))
     benefit_direction = int(category_cfg.get("benefit_direction", 1))
@@ -92,10 +102,10 @@ def build_entry(entry_dir: pathlib.Path, claim_text: str) -> None:
     snapshot = load_journal_snapshot(snapshot_rel)
     gates = evaluate_gate_governance_protocol(
         evidence_rows,
-        category,
+        outcome,
         snapshot,
         policy,
-        substance=substance.replace("-", " "),
+        substance=product.replace("-", " "),
         claim_text=claim_text,
     )
 
@@ -110,7 +120,7 @@ def build_entry(entry_dir: pathlib.Path, claim_text: str) -> None:
     label, tier = tel5_classify(P, phi_violation=phi_violation, k_violation=k_violation)
     label, tier = apply_l_gate_penalty(label, tier, l_violation)
 
-    entry_id = f"{domain}:{substance}:{category}:{version}"
+    entry_id = f"{intervention_type_normalized}:{product}:{outcome}:{version}"
 
     taxonomy_path = ROOT / "protocol" / "taxonomy" / "tel5_categories@v1.0.0.json"
     taxonomy = json.loads(taxonomy_path.read_text(encoding="utf-8"))
@@ -140,7 +150,7 @@ def build_entry(entry_dir: pathlib.Path, claim_text: str) -> None:
         "journal_trust": snapshot.get("snapshot_date", "unknown"),
     }
 
-    title = f"{substance.replace('-', ' ').title()} — {category.replace('_', ' ').title()}"
+    title = f"{product.replace('-', ' ').title()} — {outcome.replace('_', ' ').title()}"
 
     preferred_citation = "Kim G. TERVYX Protocol v1.0 (2025)."
 
@@ -151,12 +161,16 @@ def build_entry(entry_dir: pathlib.Path, claim_text: str) -> None:
         preferred_citation=preferred_citation,
     )
 
+    # Add entry_id to citations payload
+    citations_payload["entry_id"] = f"{intervention_type_normalized}:{product}:{outcome}:{version}"
+
     entry = {
         "@context": "https://schema.org/",
         "@type": "Dataset",
         "id": entry_id,
         "title": title,
-        "category": category,
+        "category": outcome,
+        "intervention_type": intervention_type_normalized,
         "tier": tier,
         "label": label,
         "P_effect_gt_delta": P,
