@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
+RHO_2018_1,2018,case-control,OR,0.022,-0.069,0.112,84,169,high,10.1021/example.2018.732,plos_one
+RHO_2019_2,2019,cohort,OR,0.191,0.067,0.316,151,66,some,10.6836/example.2019.231,plos_one
+RHO_2016_3,2016,case-control,OR,0.257,0.183,0.33,71,84,some,10.2522/example.2016.244,science

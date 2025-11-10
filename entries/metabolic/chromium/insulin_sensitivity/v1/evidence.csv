@@ -1,0 +1,5 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
+CHR_2022_1,2022,RCT,SMD,0.496,0.373,0.62,45,66,high,10.6239/example.2022.635,jama
+CHR_2020_2,2020,RCT,SMD,0.467,0.356,0.579,103,190,some,10.1379/example.2020.501,bmj
+CHR_2022_3,2022,case-control,OR,0.275,0.16,0.389,100,151,some,10.1487/example.2022.640,nature
+CHR_2020_4,2020,cohort,OR,0.093,-0.013,0.2,56,180,some,10.6603/example.2020.737,bmj

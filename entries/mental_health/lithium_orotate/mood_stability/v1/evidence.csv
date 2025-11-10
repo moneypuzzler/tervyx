@@ -1,0 +1,6 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
+LIT_2024_1,2024,cohort,OR,0.021,-0.056,0.099,145,106,some,10.7459/example.2024.148,plos_one
+LIT_2020_2,2020,cohort,OR,-0.042,-0.172,0.089,138,35,high,10.2903/example.2020.868,jama
+LIT_2022_3,2022,RCT,SMD,0.435,0.352,0.519,69,120,high,10.3004/example.2022.998,nature
+LIT_2015_4,2015,case-control,OR,-0.197,-0.258,-0.135,96,129,low,10.5479/example.2015.958,jama
+LIT_2019_5,2019,RCT,SMD,-0.175,-0.297,-0.053,39,183,low,10.1772/example.2019.462,science

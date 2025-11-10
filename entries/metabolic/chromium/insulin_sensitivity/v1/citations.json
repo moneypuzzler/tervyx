@@ -1,0 +1,55 @@
+{
+  "manifest_hash": "sha256:0e9a22af3e6f3a25bcc457470c3effc72bb734b65ff38d11247b4adc8a6d5c07",
+  "policy_fingerprint": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+  "generated": "2025-11-10T02:42:06.678931+00:00",
+  "citations": [
+    {
+      "study_id": "CHR_2022_1",
+      "doi": "10.6239/example.2022.635",
+      "pmid": null,
+      "year": 2022,
+      "journal_id": "jama",
+      "title": "Study CHR_2022_1",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "CHR_2020_2",
+      "doi": "10.1379/example.2020.501",
+      "pmid": null,
+      "year": 2020,
+      "journal_id": "bmj",
+      "title": "Study CHR_2020_2",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "CHR_2022_3",
+      "doi": "10.1487/example.2022.640",
+      "pmid": null,
+      "year": 2022,
+      "journal_id": "nature",
+      "title": "Study CHR_2022_3",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "CHR_2020_4",
+      "doi": "10.6603/example.2020.737",
+      "pmid": null,
+      "year": 2020,
+      "journal_id": "bmj",
+      "title": "Study CHR_2020_4",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    }
+  ]
+}

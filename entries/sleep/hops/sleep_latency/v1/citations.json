@@ -1,0 +1,67 @@
+{
+  "manifest_hash": "sha256:393ee234bb9fd1ac1ecb85392d9f06ca6a92326f954930961a169956cfaee958",
+  "policy_fingerprint": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+  "generated": "2025-11-10T02:42:06.677674+00:00",
+  "citations": [
+    {
+      "study_id": "HOP_2015_1",
+      "doi": "10.2951/example.2015.682",
+      "pmid": null,
+      "year": 2015,
+      "journal_id": "plos_one",
+      "title": "Study HOP_2015_1",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "HOP_2023_2",
+      "doi": "10.4113/example.2023.725",
+      "pmid": null,
+      "year": 2023,
+      "journal_id": "plos_one",
+      "title": "Study HOP_2023_2",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "HOP_2019_3",
+      "doi": "10.9274/example.2019.198",
+      "pmid": null,
+      "year": 2019,
+      "journal_id": "plos_one",
+      "title": "Study HOP_2019_3",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "HOP_2018_4",
+      "doi": "10.7011/example.2018.624",
+      "pmid": null,
+      "year": 2018,
+      "journal_id": "science",
+      "title": "Study HOP_2018_4",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "HOP_2022_5",
+      "doi": "10.1510/example.2022.806",
+      "pmid": null,
+      "year": 2022,
+      "journal_id": "plos_one",
+      "title": "Study HOP_2022_5",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    }
+  ]
+}

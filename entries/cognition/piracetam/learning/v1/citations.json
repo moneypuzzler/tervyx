@@ -1,0 +1,43 @@
+{
+  "manifest_hash": "sha256:0b6e124579370205f5ea213ea57b93331a92a5e021a9444ea0ff0ecb0e707414",
+  "policy_fingerprint": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+  "generated": "2025-11-10T02:42:06.671835+00:00",
+  "citations": [
+    {
+      "study_id": "PIR_2015_1",
+      "doi": "10.2443/example.2015.873",
+      "pmid": null,
+      "year": 2015,
+      "journal_id": "nature",
+      "title": "Study PIR_2015_1",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "PIR_2018_2",
+      "doi": "10.2845/example.2018.510",
+      "pmid": null,
+      "year": 2018,
+      "journal_id": "bmj",
+      "title": "Study PIR_2018_2",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "PIR_2021_3",
+      "doi": "10.4799/example.2021.142",
+      "pmid": null,
+      "year": 2021,
+      "journal_id": "plos_one",
+      "title": "Study PIR_2021_3",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
+GRA_2020_1,2020,cohort,OR,-0.013,-0.158,0.133,176,127,some,10.5004/example.2020.253,nature
+GRA_2023_2,2023,cohort,OR,0.397,0.256,0.539,72,63,some,10.1617/example.2023.174,plos_one
+GRA_2017_3,2017,cohort,OR,0.257,0.195,0.319,166,55,low,10.6339/example.2017.819,bmj

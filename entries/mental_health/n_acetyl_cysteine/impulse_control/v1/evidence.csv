@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
+N_A_2015_1,2015,cohort,OR,0.087,0.031,0.144,62,93,low,10.8834/example.2015.582,science
+N_A_2022_2,2022,case-control,OR,0.123,0.016,0.229,107,44,some,10.7298/example.2022.530,nature
+N_A_2022_3,2022,case-control,OR,0.15,0.076,0.223,167,175,high,10.4030/example.2022.813,nature

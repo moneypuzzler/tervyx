@@ -1,0 +1,6 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
+BER_2022_1,2022,case-control,OR,0.403,0.31,0.497,106,198,low,10.2823/example.2022.173,science
+BER_2019_2,2019,case-control,OR,0.311,0.218,0.403,33,173,low,10.1296/example.2019.544,bmj
+BER_2015_3,2015,case-control,OR,-0.084,-0.141,-0.027,121,187,low,10.1120/example.2015.576,bmj
+BER_2024_4,2024,RCT,SMD,0.266,0.177,0.355,156,66,some,10.3831/example.2024.122,science
+BER_2022_5,2022,RCT,SMD,0.444,0.315,0.574,160,174,high,10.8033/example.2022.567,plos_one

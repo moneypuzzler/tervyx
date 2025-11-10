@@ -1,0 +1,67 @@
+{
+  "manifest_hash": "sha256:b0973486ba2834a87c337caa233e1c29510254eeb4a1bdcb06fd46cc00df0530",
+  "policy_fingerprint": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+  "generated": "2025-11-10T02:42:06.674239+00:00",
+  "citations": [
+    {
+      "study_id": "LIT_2024_1",
+      "doi": "10.7459/example.2024.148",
+      "pmid": null,
+      "year": 2024,
+      "journal_id": "plos_one",
+      "title": "Study LIT_2024_1",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "LIT_2020_2",
+      "doi": "10.2903/example.2020.868",
+      "pmid": null,
+      "year": 2020,
+      "journal_id": "jama",
+      "title": "Study LIT_2020_2",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "LIT_2022_3",
+      "doi": "10.3004/example.2022.998",
+      "pmid": null,
+      "year": 2022,
+      "journal_id": "nature",
+      "title": "Study LIT_2022_3",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "LIT_2015_4",
+      "doi": "10.5479/example.2015.958",
+      "pmid": null,
+      "year": 2015,
+      "journal_id": "jama",
+      "title": "Study LIT_2015_4",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "LIT_2019_5",
+      "doi": "10.1772/example.2019.462",
+      "pmid": null,
+      "year": 2019,
+      "journal_id": "science",
+      "title": "Study LIT_2019_5",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    }
+  ]
+}

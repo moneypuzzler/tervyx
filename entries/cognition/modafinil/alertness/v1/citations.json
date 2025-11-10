@@ -1,0 +1,55 @@
+{
+  "manifest_hash": "sha256:3cbfa8d97842b00fade0d1f2b7314bec9ba90953d255c2b7e8438579c611da63",
+  "policy_fingerprint": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+  "generated": "2025-11-10T02:42:06.672419+00:00",
+  "citations": [
+    {
+      "study_id": "MOD_2019_1",
+      "doi": "10.8837/example.2019.592",
+      "pmid": null,
+      "year": 2019,
+      "journal_id": "nature",
+      "title": "Study MOD_2019_1",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "MOD_2015_2",
+      "doi": "10.9425/example.2015.932",
+      "pmid": null,
+      "year": 2015,
+      "journal_id": "plos_one",
+      "title": "Study MOD_2015_2",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "MOD_2021_3",
+      "doi": "10.4340/example.2021.237",
+      "pmid": null,
+      "year": 2021,
+      "journal_id": "bmj",
+      "title": "Study MOD_2021_3",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "MOD_2019_4",
+      "doi": "10.1823/example.2019.250",
+      "pmid": null,
+      "year": 2019,
+      "journal_id": "science",
+      "title": "Study MOD_2019_4",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    }
+  ]
+}

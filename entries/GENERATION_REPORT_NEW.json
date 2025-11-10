@@ -1,0 +1,133 @@
+{
+  "timestamp": "2025-11-10T02:39:36.325216+00:00",
+  "total_generated": 20,
+  "categories": {
+    "cardiovascular": 4,
+    "cognition": 4,
+    "mental_health": 4,
+    "sleep": 4,
+    "metabolic": 4
+  },
+  "entries": [
+    {
+      "id": "CARD-BERGAMOT-CHOL",
+      "category": "cardiovascular",
+      "substance": "bergamot",
+      "outcome": "cholesterol"
+    },
+    {
+      "id": "CARD-NATTOKIN-CLOT",
+      "category": "cardiovascular",
+      "substance": "nattokinase",
+      "outcome": "fibrinolysis"
+    },
+    {
+      "id": "CARD-GRAPE-BP",
+      "category": "cardiovascular",
+      "substance": "grape_seed_extract",
+      "outcome": "blood_pressure"
+    },
+    {
+      "id": "CARD-BEET-ENDO",
+      "category": "cardiovascular",
+      "substance": "beetroot",
+      "outcome": "endothelial_function"
+    },
+    {
+      "id": "COG-NOOPEPT-MEM",
+      "category": "cognition",
+      "substance": "noopept",
+      "outcome": "memory"
+    },
+    {
+      "id": "COG-PIRACETAM-LEARN",
+      "category": "cognition",
+      "substance": "piracetam",
+      "outcome": "learning"
+    },
+    {
+      "id": "COG-MODAF-ALERT",
+      "category": "cognition",
+      "substance": "modafinil",
+      "outcome": "alertness"
+    },
+    {
+      "id": "COG-TYROS-STRESS",
+      "category": "cognition",
+      "substance": "l_tyrosine",
+      "outcome": "stress_cognition"
+    },
+    {
+      "id": "MENT-RHOD-BURN",
+      "category": "mental_health",
+      "substance": "rhodiola",
+      "outcome": "burnout"
+    },
+    {
+      "id": "MENT-LITHIUM-MOOD",
+      "category": "mental_health",
+      "substance": "lithium_orotate",
+      "outcome": "mood_stability"
+    },
+    {
+      "id": "MENT-INOSITOL-OCD",
+      "category": "mental_health",
+      "substance": "inositol",
+      "outcome": "obsessive_compulsive"
+    },
+    {
+      "id": "MENT-NAC-IMPULSE",
+      "category": "mental_health",
+      "substance": "n_acetyl_cysteine",
+      "outcome": "impulse_control"
+    },
+    {
+      "id": "SLP-VALERIAN-DEEP",
+      "category": "sleep",
+      "substance": "valerian_root",
+      "outcome": "deep_sleep"
+    },
+    {
+      "id": "SLP-SKULLCAP-WAKE",
+      "category": "sleep",
+      "substance": "skullcap",
+      "outcome": "night_wakening"
+    },
+    {
+      "id": "SLP-MAGNOLIA-REM",
+      "category": "sleep",
+      "substance": "magnolia_bark",
+      "outcome": "rem_sleep"
+    },
+    {
+      "id": "SLP-HOPS-LATENCY",
+      "category": "sleep",
+      "substance": "hops",
+      "outcome": "sleep_latency"
+    },
+    {
+      "id": "META-BERBERINE-GLUCOSE",
+      "category": "metabolic",
+      "substance": "berberine",
+      "outcome": "glucose_control"
+    },
+    {
+      "id": "META-CHROMIUM-INSULIN",
+      "category": "metabolic",
+      "substance": "chromium",
+      "outcome": "insulin_sensitivity"
+    },
+    {
+      "id": "META-CINNAMON-A1C",
+      "category": "metabolic",
+      "substance": "cinnamon",
+      "outcome": "hba1c"
+    },
+    {
+      "id": "META-ALA-NEUROPATHY",
+      "category": "metabolic",
+      "substance": "alpha_lipoic_acid",
+      "outcome": "diabetic_neuropathy"
+    }
+  ]
+}

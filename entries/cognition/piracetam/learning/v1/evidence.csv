@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
+PIR_2015_1,2015,case-control,OR,0.352,0.254,0.451,70,96,low,10.2443/example.2015.873,nature
+PIR_2018_2,2018,RCT,SMD,0.069,-0.027,0.166,105,166,low,10.2845/example.2018.510,bmj
+PIR_2021_3,2021,RCT,SMD,0.429,0.334,0.523,88,32,low,10.4799/example.2021.142,plos_one
