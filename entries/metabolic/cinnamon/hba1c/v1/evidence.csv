@@ -1,0 +1,5 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
+CIN_2021_1,2021,cohort,OR,0.451,0.33,0.572,100,139,some,10.1032/example.2021.535,jama
+CIN_2015_2,2015,case-control,OR,0.135,0.062,0.207,61,48,some,10.7058/example.2015.538,science
+CIN_2024_3,2024,cohort,OR,-0.186,-0.259,-0.114,69,74,some,10.4791/example.2024.359,bmj
+CIN_2015_4,2015,cohort,OR,0.415,0.321,0.508,151,100,some,10.6008/example.2015.330,jama

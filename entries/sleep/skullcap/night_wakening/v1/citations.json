@@ -1,0 +1,67 @@
+{
+  "manifest_hash": "sha256:50f3fbd5bf63d12f20561fa15e037cf16089464bf687dcb483089654bf4c7b68",
+  "policy_fingerprint": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+  "generated": "2025-11-10T02:42:06.676518+00:00",
+  "citations": [
+    {
+      "study_id": "SKU_2018_1",
+      "doi": "10.9540/example.2018.641",
+      "pmid": null,
+      "year": 2018,
+      "journal_id": "jama",
+      "title": "Study SKU_2018_1",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "SKU_2017_2",
+      "doi": "10.8811/example.2017.684",
+      "pmid": null,
+      "year": 2017,
+      "journal_id": "nature",
+      "title": "Study SKU_2017_2",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "SKU_2016_3",
+      "doi": "10.3531/example.2016.328",
+      "pmid": null,
+      "year": 2016,
+      "journal_id": "nature",
+      "title": "Study SKU_2016_3",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "SKU_2015_4",
+      "doi": "10.4189/example.2015.238",
+      "pmid": null,
+      "year": 2015,
+      "journal_id": "bmj",
+      "title": "Study SKU_2015_4",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "SKU_2021_5",
+      "doi": "10.9309/example.2021.664",
+      "pmid": null,
+      "year": 2021,
+      "journal_id": "nature",
+      "title": "Study SKU_2021_5",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    }
+  ]
+}

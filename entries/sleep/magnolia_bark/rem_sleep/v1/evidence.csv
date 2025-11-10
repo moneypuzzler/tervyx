@@ -1,0 +1,5 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
+MAG_2022_1,2022,case-control,OR,0.108,-0.034,0.25,75,129,high,10.2746/example.2022.560,plos_one
+MAG_2022_2,2022,case-control,OR,0.464,0.346,0.583,189,73,high,10.8568/example.2022.264,jama
+MAG_2022_3,2022,cohort,OR,0.331,0.197,0.464,63,196,low,10.8721/example.2022.466,plos_one
+MAG_2019_4,2019,case-control,OR,0.437,0.344,0.53,186,49,low,10.8321/example.2019.634,nature

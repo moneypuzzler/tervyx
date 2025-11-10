@@ -1,0 +1,67 @@
+{
+  "manifest_hash": "sha256:14ad1827d23e0c5515819fd648c5701fff0553c4ea31a22f770c05bf9e79905c",
+  "policy_fingerprint": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+  "generated": "2025-11-10T02:42:06.668614+00:00",
+  "citations": [
+    {
+      "study_id": "BER_2021_1",
+      "doi": "10.3446/example.2021.877",
+      "pmid": null,
+      "year": 2021,
+      "journal_id": "bmj",
+      "title": "Study BER_2021_1",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "BER_2017_2",
+      "doi": "10.8160/example.2017.102",
+      "pmid": null,
+      "year": 2017,
+      "journal_id": "science",
+      "title": "Study BER_2017_2",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "BER_2016_3",
+      "doi": "10.9632/example.2016.331",
+      "pmid": null,
+      "year": 2016,
+      "journal_id": "jama",
+      "title": "Study BER_2016_3",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "BER_2021_4",
+      "doi": "10.7650/example.2021.687",
+      "pmid": null,
+      "year": 2021,
+      "journal_id": "nature",
+      "title": "Study BER_2021_4",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "BER_2015_5",
+      "doi": "10.2682/example.2015.875",
+      "pmid": null,
+      "year": 2015,
+      "journal_id": "nature",
+      "title": "Study BER_2015_5",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    }
+  ]
+}

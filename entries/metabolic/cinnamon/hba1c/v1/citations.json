@@ -1,0 +1,55 @@
+{
+  "manifest_hash": "sha256:6e8ecce51df0fe77e80ce1fca83c751d7cb82d15f9c202c1ae9833907f9b0cd0",
+  "policy_fingerprint": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+  "generated": "2025-11-10T02:42:06.679493+00:00",
+  "citations": [
+    {
+      "study_id": "CIN_2021_1",
+      "doi": "10.1032/example.2021.535",
+      "pmid": null,
+      "year": 2021,
+      "journal_id": "jama",
+      "title": "Study CIN_2021_1",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "CIN_2015_2",
+      "doi": "10.7058/example.2015.538",
+      "pmid": null,
+      "year": 2015,
+      "journal_id": "science",
+      "title": "Study CIN_2015_2",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "CIN_2024_3",
+      "doi": "10.4791/example.2024.359",
+      "pmid": null,
+      "year": 2024,
+      "journal_id": "bmj",
+      "title": "Study CIN_2024_3",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "CIN_2015_4",
+      "doi": "10.6008/example.2015.330",
+      "pmid": null,
+      "year": 2015,
+      "journal_id": "jama",
+      "title": "Study CIN_2015_4",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    }
+  ]
+}

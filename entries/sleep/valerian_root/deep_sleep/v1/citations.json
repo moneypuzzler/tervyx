@@ -1,0 +1,43 @@
+{
+  "manifest_hash": "sha256:a0a7c4e36b841548e5e65a0e4c713bb400c6844f46be1306f8e03d4d7878e3d4",
+  "policy_fingerprint": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+  "generated": "2025-11-10T02:42:06.675955+00:00",
+  "citations": [
+    {
+      "study_id": "VAL_2021_1",
+      "doi": "10.4866/example.2021.470",
+      "pmid": null,
+      "year": 2021,
+      "journal_id": "jama",
+      "title": "Study VAL_2021_1",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "VAL_2020_2",
+      "doi": "10.1127/example.2020.326",
+      "pmid": null,
+      "year": 2020,
+      "journal_id": "plos_one",
+      "title": "Study VAL_2020_2",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "VAL_2020_3",
+      "doi": "10.4469/example.2020.154",
+      "pmid": null,
+      "year": 2020,
+      "journal_id": "bmj",
+      "title": "Study VAL_2020_3",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    }
+  ]
+}

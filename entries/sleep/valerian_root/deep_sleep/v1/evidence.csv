@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
+VAL_2021_1,2021,RCT,SMD,-0.08,-0.177,0.018,96,188,high,10.4866/example.2021.470,jama
+VAL_2020_2,2020,RCT,SMD,0.163,0.059,0.267,79,60,low,10.1127/example.2020.326,plos_one
+VAL_2020_3,2020,case-control,OR,0.372,0.252,0.491,149,195,high,10.4469/example.2020.154,bmj

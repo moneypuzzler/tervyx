@@ -1,0 +1,43 @@
+{
+  "manifest_hash": "sha256:cd03cd995d62633c372c65673bed99208467ffc9f9befd4e2a5844abe627cad0",
+  "policy_fingerprint": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+  "generated": "2025-11-10T02:42:06.670034+00:00",
+  "citations": [
+    {
+      "study_id": "GRA_2020_1",
+      "doi": "10.5004/example.2020.253",
+      "pmid": null,
+      "year": 2020,
+      "journal_id": "nature",
+      "title": "Study GRA_2020_1",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "GRA_2023_2",
+      "doi": "10.1617/example.2023.174",
+      "pmid": null,
+      "year": 2023,
+      "journal_id": "plos_one",
+      "title": "Study GRA_2023_2",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "GRA_2017_3",
+      "doi": "10.6339/example.2017.819",
+      "pmid": null,
+      "year": 2017,
+      "journal_id": "bmj",
+      "title": "Study GRA_2017_3",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    }
+  ]
+}

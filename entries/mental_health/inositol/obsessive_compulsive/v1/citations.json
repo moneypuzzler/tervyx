@@ -1,0 +1,43 @@
+{
+  "manifest_hash": "sha256:103cdc1f450428098f247c567c20e5af5ae7360c3e5fff37ab812dd1156727b7",
+  "policy_fingerprint": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+  "generated": "2025-11-10T02:42:06.674803+00:00",
+  "citations": [
+    {
+      "study_id": "INO_2018_1",
+      "doi": "10.4074/example.2018.727",
+      "pmid": null,
+      "year": 2018,
+      "journal_id": "jama",
+      "title": "Study INO_2018_1",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "INO_2023_2",
+      "doi": "10.5507/example.2023.750",
+      "pmid": null,
+      "year": 2023,
+      "journal_id": "nature",
+      "title": "Study INO_2023_2",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "INO_2024_3",
+      "doi": "10.8906/example.2024.936",
+      "pmid": null,
+      "year": 2024,
+      "journal_id": "plos_one",
+      "title": "Study INO_2024_3",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    }
+  ]
+}

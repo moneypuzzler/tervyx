@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
+INO_2018_1,2018,cohort,OR,0.24,0.172,0.309,134,54,low,10.4074/example.2018.727,jama
+INO_2023_2,2023,RCT,SMD,0.192,0.047,0.337,132,110,some,10.5507/example.2023.750,nature
+INO_2024_3,2024,case-control,OR,0.441,0.355,0.528,65,114,high,10.8906/example.2024.936,plos_one

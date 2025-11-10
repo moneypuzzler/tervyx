@@ -1,0 +1,6 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
+BEE_2016_1,2016,case-control,OR,0.284,0.191,0.377,60,103,high,10.8484/example.2016.576,nature
+BEE_2022_2,2022,case-control,OR,0.487,0.365,0.609,198,145,high,10.4714/example.2022.969,plos_one
+BEE_2016_3,2016,case-control,OR,0.125,0.058,0.193,166,173,high,10.5173/example.2016.576,bmj
+BEE_2018_4,2018,RCT,SMD,0.082,-0.053,0.217,148,158,some,10.7368/example.2018.782,science
+BEE_2016_5,2016,cohort,OR,-0.097,-0.185,-0.008,66,135,high,10.6376/example.2016.401,nature

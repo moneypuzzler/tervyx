@@ -1,0 +1,43 @@
+{
+  "manifest_hash": "sha256:d5a4300425f97c926e629aeadb4da2fb3c9d950c60b7aca1789161aeaa005645",
+  "policy_fingerprint": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+  "generated": "2025-11-10T02:42:06.675356+00:00",
+  "citations": [
+    {
+      "study_id": "N_A_2015_1",
+      "doi": "10.8834/example.2015.582",
+      "pmid": null,
+      "year": 2015,
+      "journal_id": "science",
+      "title": "Study N_A_2015_1",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "N_A_2022_2",
+      "doi": "10.7298/example.2022.530",
+      "pmid": null,
+      "year": 2022,
+      "journal_id": "nature",
+      "title": "Study N_A_2022_2",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "N_A_2022_3",
+      "doi": "10.4030/example.2022.813",
+      "pmid": null,
+      "year": 2022,
+      "journal_id": "nature",
+      "title": "Study N_A_2022_3",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    }
+  ]
+}

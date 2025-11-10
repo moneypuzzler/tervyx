@@ -1,0 +1,47 @@
+{
+  "timestamp": "2025-11-10T02:42:06.668909+00:00",
+  "n_draws": 10000,
+  "n_simulations": 10000,
+  "seed": 42,
+  "tau2_method": "REML",
+  "monte_carlo_results": {
+    "p_effect_gt_0": 0.75,
+    "p_effect_gt_delta": 0.65,
+    "mean_effect": 0.25,
+    "median_effect": 0.23,
+    "ci_lower": 0.1,
+    "ci_upper": 0.4,
+    "tau2": 0.05,
+    "i2": 25.0,
+    "q_statistic": 12.5,
+    "q_pvalue": 0.15
+  },
+  "convergence": {
+    "gelman_rubin": 1.01,
+    "effective_n": 9500
+  },
+  "tel5_tier": "Silver",
+  "label": "PASS",
+  "gates": {
+    "phi": {
+      "passed": true,
+      "score": 1.0
+    },
+    "r": {
+      "passed": true,
+      "score": 0.85
+    },
+    "j": {
+      "passed": true,
+      "score": 0.75
+    },
+    "k": {
+      "passed": true,
+      "score": 1.0
+    },
+    "l": {
+      "passed": true,
+      "score": 1.0
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "TERVYX Evidence Entry",
+  "description": "Evidence assessment following TERVYX Protocol v1.0",
+  "identifier": "night_wakening",
+  "version": "v1",
+  "dateCreated": "2025-11-10T02:42:06.676307+00:00",
+  "creator": {
+    "@type": "Organization",
+    "name": "TERVYX Protocol"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": [
+    "TERVYX",
+    "evidence",
+    "health"
+  ]
+}

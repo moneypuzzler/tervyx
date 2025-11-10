@@ -1,0 +1,43 @@
+{
+  "manifest_hash": "sha256:055390dcd5e42eb500c29dc05ff516c12e44d29b299196599afb4fdeb90c9be2",
+  "policy_fingerprint": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+  "generated": "2025-11-10T02:42:06.673676+00:00",
+  "citations": [
+    {
+      "study_id": "RHO_2018_1",
+      "doi": "10.1021/example.2018.732",
+      "pmid": null,
+      "year": 2018,
+      "journal_id": "plos_one",
+      "title": "Study RHO_2018_1",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "RHO_2019_2",
+      "doi": "10.6836/example.2019.231",
+      "pmid": null,
+      "year": 2019,
+      "journal_id": "plos_one",
+      "title": "Study RHO_2019_2",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "RHO_2016_3",
+      "doi": "10.2522/example.2016.244",
+      "pmid": null,
+      "year": 2016,
+      "journal_id": "science",
+      "title": "Study RHO_2016_3",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    }
+  ]
+}

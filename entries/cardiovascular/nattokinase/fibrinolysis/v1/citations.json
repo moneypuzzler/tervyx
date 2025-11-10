@@ -1,0 +1,43 @@
+{
+  "manifest_hash": "sha256:8a5e7e73f03bac2425f3ca67679319e5c07b9bd047fd81080aa0cb64d64ab057",
+  "policy_fingerprint": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+  "generated": "2025-11-10T02:42:06.669465+00:00",
+  "citations": [
+    {
+      "study_id": "NAT_2017_1",
+      "doi": "10.5199/example.2017.748",
+      "pmid": null,
+      "year": 2017,
+      "journal_id": "plos_one",
+      "title": "Study NAT_2017_1",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "NAT_2020_2",
+      "doi": "10.1641/example.2020.529",
+      "pmid": null,
+      "year": 2020,
+      "journal_id": "science",
+      "title": "Study NAT_2020_2",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "NAT_2023_3",
+      "doi": "10.6009/example.2023.147",
+      "pmid": null,
+      "year": 2023,
+      "journal_id": "science",
+      "title": "Study NAT_2023_3",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    }
+  ]
+}

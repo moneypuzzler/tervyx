@@ -1,0 +1,6 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
+SKU_2018_1,2018,case-control,OR,0.405,0.327,0.482,160,140,some,10.9540/example.2018.641,jama
+SKU_2017_2,2017,case-control,OR,0.492,0.418,0.566,86,199,low,10.8811/example.2017.684,nature
+SKU_2016_3,2016,case-control,OR,0.056,-0.086,0.198,124,124,low,10.3531/example.2016.328,nature
+SKU_2015_4,2015,cohort,OR,0.47,0.366,0.573,185,61,high,10.4189/example.2015.238,bmj
+SKU_2021_5,2021,RCT,SMD,0.29,0.174,0.407,186,189,low,10.9309/example.2021.664,nature

@@ -1,0 +1,55 @@
+{
+  "manifest_hash": "sha256:f7248e31bc4c2037d6881ce25a30791281471fb16ec2440da9f850eb466f9c0f",
+  "policy_fingerprint": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+  "generated": "2025-11-10T02:42:06.677115+00:00",
+  "citations": [
+    {
+      "study_id": "MAG_2022_1",
+      "doi": "10.2746/example.2022.560",
+      "pmid": null,
+      "year": 2022,
+      "journal_id": "plos_one",
+      "title": "Study MAG_2022_1",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "MAG_2022_2",
+      "doi": "10.8568/example.2022.264",
+      "pmid": null,
+      "year": 2022,
+      "journal_id": "jama",
+      "title": "Study MAG_2022_2",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "MAG_2022_3",
+      "doi": "10.8721/example.2022.466",
+      "pmid": null,
+      "year": 2022,
+      "journal_id": "plos_one",
+      "title": "Study MAG_2022_3",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "MAG_2019_4",
+      "doi": "10.8321/example.2019.634",
+      "pmid": null,
+      "year": 2019,
+      "journal_id": "nature",
+      "title": "Study MAG_2019_4",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    }
+  ]
+}

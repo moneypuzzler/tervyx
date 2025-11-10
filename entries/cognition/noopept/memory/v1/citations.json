@@ -1,0 +1,67 @@
+{
+  "manifest_hash": "sha256:8bc229cdf5965b1c31e6df440124606012f9a51883ba5d4d48f0748fba934171",
+  "policy_fingerprint": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+  "generated": "2025-11-10T02:42:06.671237+00:00",
+  "citations": [
+    {
+      "study_id": "NOO_2016_1",
+      "doi": "10.8558/example.2016.589",
+      "pmid": null,
+      "year": 2016,
+      "journal_id": "nature",
+      "title": "Study NOO_2016_1",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "NOO_2023_2",
+      "doi": "10.7496/example.2023.307",
+      "pmid": null,
+      "year": 2023,
+      "journal_id": "bmj",
+      "title": "Study NOO_2023_2",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "NOO_2022_3",
+      "doi": "10.8218/example.2022.554",
+      "pmid": null,
+      "year": 2022,
+      "journal_id": "plos_one",
+      "title": "Study NOO_2022_3",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "NOO_2018_4",
+      "doi": "10.3099/example.2018.747",
+      "pmid": null,
+      "year": 2018,
+      "journal_id": "science",
+      "title": "Study NOO_2018_4",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    },
+    {
+      "study_id": "NOO_2017_5",
+      "doi": "10.2292/example.2017.591",
+      "pmid": null,
+      "year": 2017,
+      "journal_id": "science",
+      "title": "Study NOO_2017_5",
+      "authors": [
+        "Author A"
+      ],
+      "retracted": false
+    }
+  ]
+}

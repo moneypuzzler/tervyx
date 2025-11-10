@@ -1,0 +1,6 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
+HOP_2015_1,2015,RCT,SMD,0.353,0.209,0.497,147,143,some,10.2951/example.2015.682,plos_one
+HOP_2023_2,2023,RCT,SMD,-0.064,-0.157,0.03,57,34,high,10.4113/example.2023.725,plos_one
+HOP_2019_3,2019,case-control,OR,0.125,-0.002,0.252,163,36,high,10.9274/example.2019.198,plos_one
+HOP_2018_4,2018,case-control,OR,0.498,0.384,0.612,63,172,high,10.7011/example.2018.624,science
+HOP_2022_5,2022,case-control,OR,0.172,0.067,0.277,79,72,high,10.1510/example.2022.806,plos_one

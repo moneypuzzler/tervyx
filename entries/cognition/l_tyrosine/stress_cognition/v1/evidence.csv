@@ -1,0 +1,5 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
+L_T_2016_1,2016,RCT,SMD,0.415,0.268,0.562,159,191,high,10.6423/example.2016.566,science
+L_T_2024_2,2024,case-control,OR,0.219,0.117,0.322,188,155,some,10.4013/example.2024.123,nature
+L_T_2019_3,2019,RCT,SMD,0.359,0.299,0.419,172,67,some,10.2654/example.2019.915,bmj
+L_T_2015_4,2015,RCT,SMD,0.182,0.089,0.275,66,175,some,10.9745/example.2015.463,plos_one
