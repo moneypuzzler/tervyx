@@ -1,4 +1,0 @@
-study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
-Wilson2019,2019,randomized controlled trial,SMD,0.35,0.12,0.58,68,66,low,10.1212/neuro.2019.001,neurology
-Taylor2020,2020,randomized controlled trial,SMD,0.41,0.16,0.66,75,73,some,10.1002/cog.2020.002,j_cog_neurosci
-Anderson2021,2021,randomized controlled trial,SMD,0.38,0.11,0.65,82,80,low,10.1016/brain.2021.003,brain_cog

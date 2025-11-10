@@ -4,6 +4,8 @@
   "product": "magnesium-glycinate",
   "outcome": "sleep",
   "version": "v1",
-  "created": "2025-11-10T01:41:48.055784+00:00",
-  "status": "draft"
+  "created": "2025-11-10T01:55:03.058292+00:00",
+  "status": "draft",
+  "data_source": "verified_pubmed_citations",
+  "notes": "All studies verified from PubMed/PMC with DOI validation"
 }

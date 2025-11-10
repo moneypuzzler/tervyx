@@ -1,4 +1,3 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
-Garcia2017,2017,randomized controlled trial,MD,-8.5,-12.3,-4.7,85,83,low,10.1161/circ.2017.001,circulation
-Martinez2018,2018,randomized controlled trial,MD,-7.2,-10.8,-3.6,92,90,some,10.1093/cvd.2018.002,eur_heart_j
-Rodriguez2019,2019,randomized controlled trial,MD,-9.1,-13.2,-5.0,78,76,low,10.1016/cardio.2019.003,jacc
+Lopes2021,2021,randomized controlled trial,MD,-7.1,-12.8,-1.4,30,30,low,10.1001/jamacardio.2021.2735,jama_cardiol
+Lee2024,2024,randomized controlled trial,composite,-0.35,-0.52,-0.18,101,102,low,10.1093/eurheartj/ehad827,eur_heart_j
