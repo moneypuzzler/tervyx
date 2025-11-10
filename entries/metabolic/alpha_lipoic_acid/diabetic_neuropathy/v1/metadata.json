@@ -1,8 +1,8 @@
 {
-  "entry_id": "META-ALA-NEUROPATHY",
-  "created": "2025-11-10T02:39:36.305425+00:00",
-  "status": "pending",
+  "entry_id": "ALPHA_LIPOIC_ACID-DIABETIC_NEUROPATHY",
+  "created": "2025-11-10T03:21:25.218200+00:00",
+  "status": "completed",
   "category": "metabolic",
-  "priority": "high",
-  "evidence_tier": "P0"
+  "real_data": true,
+  "pubmed_validated": true
 }

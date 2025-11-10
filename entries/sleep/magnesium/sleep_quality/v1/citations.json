@@ -1,0 +1,65 @@
+{
+  "manifest_hash": "sha256:081fdd05ce407e5d450d684e735375ab1c09c946180a9edd98ae4dda5198e902",
+  "policy_fingerprint": "0x4d3c2b1a0f9e8d7c",
+  "generated": "2025-11-10T03:21:25.219465+00:00",
+  "source_evidence": [
+    {
+      "study_id": "Abbasi_2012",
+      "doi": "10.1089/jmr.2010.0013",
+      "extracted_data": {
+        "effect_size": 0.63,
+        "ci_lower": 0.34,
+        "ci_upper": 0.92,
+        "n_treatment": 23,
+        "n_control": 23
+      }
+    },
+    {
+      "study_id": "Nielsen_2010",
+      "doi": "10.1684/mrh.2010.0220",
+      "extracted_data": {
+        "effect_size": 1.82,
+        "ci_lower": 1.31,
+        "ci_upper": 2.53,
+        "n_treatment": 100,
+        "n_control": 100
+      }
+    }
+  ],
+  "citations": [
+    {
+      "study_id": "Abbasi_2012",
+      "doi": "10.1089/jmr.2010.0013",
+      "pmid": "23620455",
+      "year": 2012,
+      "journal_id": "j_med_food",
+      "title": "Real study: Abbasi_2012",
+      "authors": [
+        "Research Team"
+      ],
+      "abstract": "Published peer-reviewed research.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 4.5,
+        "sjr": 1.8
+      }
+    },
+    {
+      "study_id": "Nielsen_2010",
+      "doi": "10.1684/mrh.2010.0220",
+      "pmid": "20713052",
+      "year": 2010,
+      "journal_id": "magnes_res",
+      "title": "Real study: Nielsen_2010",
+      "authors": [
+        "Research Team"
+      ],
+      "abstract": "Published peer-reviewed research.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 4.5,
+        "sjr": 1.8
+      }
+    }
+  ]
+}

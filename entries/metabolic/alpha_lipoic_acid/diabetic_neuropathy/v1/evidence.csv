@@ -1,4 +1,3 @@
 study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
-ALP_2021_1,2021,case-control,OR,0.029,-0.066,0.124,198,199,high,10.8689/example.2021.892,science
-ALP_2020_2,2020,case-control,OR,0.499,0.372,0.627,141,194,some,10.7276/example.2020.534,bmj
-ALP_2021_3,2021,case-control,OR,0.493,0.347,0.639,151,199,some,10.2057/example.2021.121,jama
+Ziegler_2006,2006,RCT,SMD,0.52,0.27,0.77,120,60,low,10.1111/j.1463-1326.2005.00529.x,diabetes_obes_metab
+Ruhnau_1999,1999,RCT,SMD,0.67,0.41,0.93,65,65,low,10.1002/(sici)1096-9136(199908)16:8<1040,diabet_med

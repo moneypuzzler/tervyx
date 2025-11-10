@@ -1,8 +1,8 @@
 {
-  "entry_id": "META-BERBERINE-GLUCOSE",
-  "created": "2025-11-10T02:39:36.303160+00:00",
-  "status": "pending",
+  "entry_id": "BERBERINE-GLUCOSE_CONTROL",
+  "created": "2025-11-10T03:21:25.217316+00:00",
+  "status": "completed",
   "category": "metabolic",
-  "priority": "high",
-  "evidence_tier": "P0"
+  "real_data": true,
+  "pubmed_validated": true
 }

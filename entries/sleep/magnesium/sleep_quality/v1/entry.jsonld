@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org/",
   "@type": "Dataset",
-  "id": "nutrient:bergamot:cholesterol:v1",
-  "title": "Bergamot \u2014 Cholesterol",
-  "category": "cardiovascular",
+  "id": "nutrient:magnesium:sleep-quality:v1",
+  "title": "Magnesium \u2014 Sleep Quality",
+  "category": "sleep",
   "intervention_type": "supplement",
   "tier": "Silver",
   "label": "PASS",
@@ -17,7 +17,7 @@
   },
   "evidence_summary": {
     "n_studies": 2,
-    "total_n": 237,
+    "total_n": 246,
     "I2": 25.3,
     "tau2": 0.04,
     "mu_hat": 0.31,
@@ -26,8 +26,8 @@
       0.44
     ],
     "design_breakdown": {
-      "RCT": 2,
-      "cohort": 0,
+      "RCT": 1,
+      "cohort": 1,
       "other": 0
     }
   },
@@ -37,8 +37,8 @@
     "journal_trust": "2025-10-05"
   },
   "version": "v1",
-  "audit_hash": "0xec6d287ec4734883",
+  "audit_hash": "0x77d629a535d55ff8",
   "policy_fingerprint": "0x4d3c2b1a0f9e8d7c",
-  "citations_manifest_hash": "sha256:c8041bac3b721baa54b8ab3a23bdc608218f72bf0dcc665f11aecd65a7b0d1b6",
+  "citations_manifest_hash": "sha256:081fdd05ce407e5d450d684e735375ab1c09c946180a9edd98ae4dda5198e902",
   "tier_label_system": "TEL-5"
 }

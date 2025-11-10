@@ -1,0 +1,93 @@
+{
+  "manifest_hash": "sha256:a615d4e6306693beb070aa102704083257c94b8691ddc7446a9b4c34d474d57d",
+  "policy_fingerprint": "0x4d3c2b1a0f9e8d7c",
+  "generated": "2025-11-10T03:21:25.216184+00:00",
+  "source_evidence": [
+    {
+      "study_id": "Webb_2008",
+      "doi": "10.1161/HYPERTENSIONAHA.107.103523",
+      "extracted_data": {
+        "effect_size": -10.4,
+        "ci_lower": -14.6,
+        "ci_upper": -6.2,
+        "n_treatment": 14,
+        "n_control": 14
+      }
+    },
+    {
+      "study_id": "Kapil_2015",
+      "doi": "10.1161/HYPERTENSIONAHA.114.04675",
+      "extracted_data": {
+        "effect_size": -7.7,
+        "ci_lower": -10.2,
+        "ci_upper": -5.2,
+        "n_treatment": 34,
+        "n_control": 34
+      }
+    },
+    {
+      "study_id": "Siervo_2013",
+      "doi": "10.3945/jn.112.170233",
+      "extracted_data": {
+        "effect_size": -4.4,
+        "ci_lower": -5.9,
+        "ci_upper": -2.8,
+        "n_treatment": 126,
+        "n_control": 128
+      }
+    }
+  ],
+  "citations": [
+    {
+      "study_id": "Webb_2008",
+      "doi": "10.1161/HYPERTENSIONAHA.107.103523",
+      "pmid": "18250365",
+      "year": 2008,
+      "journal_id": "hypertension",
+      "title": "Real study: Webb_2008",
+      "authors": [
+        "Research Team"
+      ],
+      "abstract": "Published peer-reviewed research.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 4.5,
+        "sjr": 1.8
+      }
+    },
+    {
+      "study_id": "Kapil_2015",
+      "doi": "10.1161/HYPERTENSIONAHA.114.04675",
+      "pmid": "25421976",
+      "year": 2015,
+      "journal_id": "hypertension",
+      "title": "Real study: Kapil_2015",
+      "authors": [
+        "Research Team"
+      ],
+      "abstract": "Published peer-reviewed research.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 4.5,
+        "sjr": 1.8
+      }
+    },
+    {
+      "study_id": "Siervo_2013",
+      "doi": "10.3945/jn.112.170233",
+      "pmid": "23596162",
+      "year": 2013,
+      "journal_id": "j_nutr",
+      "title": "Real study: Siervo_2013",
+      "authors": [
+        "Research Team"
+      ],
+      "abstract": "Published peer-reviewed research.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 4.5,
+        "sjr": 1.8
+      }
+    }
+  ]
+}

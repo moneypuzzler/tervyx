@@ -7,28 +7,28 @@
   "intervention_type": "supplement",
   "tier": "Silver",
   "label": "PASS",
-  "P_effect_gt_delta": 0.677,
+  "P_effect_gt_delta": 0.72,
   "gate_results": {
     "phi": "PASS",
-    "r": 0.79,
-    "j": 0.77,
+    "r": 0.85,
+    "j": 0.78,
     "k": "PASS",
     "l": "PASS"
   },
   "evidence_summary": {
-    "n_studies": 3,
-    "total_n": 465,
-    "I2": 37.6,
-    "tau2": 0.093,
-    "mu_hat": 0.193,
+    "n_studies": 2,
+    "total_n": 74,
+    "I2": 25.3,
+    "tau2": 0.04,
+    "mu_hat": 0.31,
     "mu_CI95": [
-      0.159,
-      0.345
+      0.18,
+      0.44
     ],
     "design_breakdown": {
-      "RCT": 0,
+      "RCT": 2,
       "cohort": 0,
-      "other": 3
+      "other": 0
     }
   },
   "policy_refs": {
@@ -37,16 +37,8 @@
     "journal_trust": "2025-10-05"
   },
   "version": "v1",
-  "audit_hash": "0x3f3c4f5ef7745e48",
+  "audit_hash": "0x16ba3ddc5de83f43",
   "policy_fingerprint": "0x4d3c2b1a0f9e8d7c",
-  "citations_manifest_hash": "sha256:8a5e7e73f03bac2425f3ca67679319e5c07b9bd047fd81080aa0cb64d64ab057",
-  "tier_label_system": "TEL-5",
-  "name": "TERVYX Evidence: nattokinase for fibrinolysis",
-  "description": "Systematic evidence assessment following TERVYX Protocol v1.0",
-  "dateCreated": "2025-11-10T03:15:18.582385+00:00",
-  "creator": {
-    "@type": "Organization",
-    "name": "TERVYX Protocol Consortium"
-  },
-  "license": "https://creativecommons.org/licenses/by/4.0/"
+  "citations_manifest_hash": "sha256:c870d650a50fd1fa31c4f532adf66a4575606e333099fe002f17775af026e6a0",
+  "tier_label_system": "TEL-5"
 }
