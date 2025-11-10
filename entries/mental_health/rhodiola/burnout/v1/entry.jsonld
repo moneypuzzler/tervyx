@@ -5,30 +5,30 @@
   "title": "Rhodiola \u2014 Burnout",
   "category": "mental_health",
   "intervention_type": "supplement",
-  "tier": "Bronze",
-  "label": "AMBER",
-  "P_effect_gt_delta": 0.586,
+  "tier": "Silver",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.72,
   "gate_results": {
     "phi": "PASS",
-    "r": 0.92,
-    "j": 0.75,
+    "r": 0.85,
+    "j": 0.78,
     "k": "PASS",
     "l": "PASS"
   },
   "evidence_summary": {
-    "n_studies": 3,
-    "total_n": 625,
-    "I2": 25.5,
-    "tau2": 0.046,
-    "mu_hat": 0.147,
+    "n_studies": 2,
+    "total_n": 180,
+    "I2": 25.3,
+    "tau2": 0.04,
+    "mu_hat": 0.31,
     "mu_CI95": [
-      0.143,
-      0.421
+      0.18,
+      0.44
     ],
     "design_breakdown": {
-      "RCT": 0,
-      "cohort": 1,
-      "other": 2
+      "RCT": 2,
+      "cohort": 0,
+      "other": 0
     }
   },
   "policy_refs": {
@@ -37,16 +37,8 @@
     "journal_trust": "2025-10-05"
   },
   "version": "v1",
-  "audit_hash": "0x4e821077d43a73d1",
+  "audit_hash": "0x2e15bb589508dcc8",
   "policy_fingerprint": "0x4d3c2b1a0f9e8d7c",
-  "citations_manifest_hash": "sha256:055390dcd5e42eb500c29dc05ff516c12e44d29b299196599afb4fdeb90c9be2",
-  "tier_label_system": "TEL-5",
-  "name": "TERVYX Evidence: rhodiola for burnout",
-  "description": "Systematic evidence assessment following TERVYX Protocol v1.0",
-  "dateCreated": "2025-11-10T03:15:18.588999+00:00",
-  "creator": {
-    "@type": "Organization",
-    "name": "TERVYX Protocol Consortium"
-  },
-  "license": "https://creativecommons.org/licenses/by/4.0/"
+  "citations_manifest_hash": "sha256:5d3d66d7734080be4c1d0e032fe8f332f195dfd44a8c889896ac49a1f4d6ea93",
+  "tier_label_system": "TEL-5"
 }

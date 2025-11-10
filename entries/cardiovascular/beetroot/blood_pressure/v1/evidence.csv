@@ -1,0 +1,4 @@
+study_id,year,design,effect_type,effect_point,ci_low,ci_high,n_treat,n_ctrl,risk_of_bias,doi,journal_id
+Webb_2008,2008,RCT,MD,-10.4,-14.6,-6.2,14,14,low,10.1161/HYPERTENSIONAHA.107.103523,hypertension
+Kapil_2015,2015,RCT,MD,-7.7,-10.2,-5.2,34,34,low,10.1161/HYPERTENSIONAHA.114.04675,hypertension
+Siervo_2013,2013,meta-analysis,MD,-4.4,-5.9,-2.8,126,128,low,10.3945/jn.112.170233,j_nutr

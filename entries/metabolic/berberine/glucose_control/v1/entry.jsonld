@@ -5,30 +5,30 @@
   "title": "Berberine \u2014 Glucose Control",
   "category": "metabolic",
   "intervention_type": "supplement",
-  "tier": "Gold",
+  "tier": "Silver",
   "label": "PASS",
-  "P_effect_gt_delta": 0.91,
+  "P_effect_gt_delta": 0.72,
   "gate_results": {
     "phi": "PASS",
-    "r": 0.8,
-    "j": 0.64,
+    "r": 0.85,
+    "j": 0.78,
     "k": "PASS",
     "l": "PASS"
   },
   "evidence_summary": {
-    "n_studies": 5,
-    "total_n": 1374,
-    "I2": 32.7,
-    "tau2": 0.03,
-    "mu_hat": 0.14,
+    "n_studies": 2,
+    "total_n": 213,
+    "I2": 25.3,
+    "tau2": 0.04,
+    "mu_hat": 0.31,
     "mu_CI95": [
-      0.063,
-      0.482
+      0.18,
+      0.44
     ],
     "design_breakdown": {
       "RCT": 2,
       "cohort": 0,
-      "other": 3
+      "other": 0
     }
   },
   "policy_refs": {
@@ -37,16 +37,8 @@
     "journal_trust": "2025-10-05"
   },
   "version": "v1",
-  "audit_hash": "0x4a618265f0de6242",
+  "audit_hash": "0xdd31d3b002a91598",
   "policy_fingerprint": "0x4d3c2b1a0f9e8d7c",
-  "citations_manifest_hash": "sha256:3554070ab259ad815a25e29207d296ea7cc8c1ccdf6474ef05dcc4c99601672d",
-  "tier_label_system": "TEL-5",
-  "name": "TERVYX Evidence: berberine for glucose_control",
-  "description": "Systematic evidence assessment following TERVYX Protocol v1.0",
-  "dateCreated": "2025-11-10T03:15:18.596463+00:00",
-  "creator": {
-    "@type": "Organization",
-    "name": "TERVYX Protocol Consortium"
-  },
-  "license": "https://creativecommons.org/licenses/by/4.0/"
+  "citations_manifest_hash": "sha256:212f50f36ba2dd16cc9453b1d0764723036675162f35195688df593c9592b395",
+  "tier_label_system": "TEL-5"
 }
