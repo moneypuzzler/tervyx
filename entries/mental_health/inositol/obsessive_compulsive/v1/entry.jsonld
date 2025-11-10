@@ -1,19 +1,52 @@
 {
   "@context": "https://schema.org/",
   "@type": "Dataset",
-  "name": "TERVYX Evidence Entry",
-  "description": "Evidence assessment following TERVYX Protocol v1.0",
-  "identifier": "obsessive_compulsive",
+  "id": "nutrient:inositol:obsessive-compulsive:v1",
+  "title": "Inositol \u2014 Obsessive Compulsive",
+  "category": "mental_health",
+  "intervention_type": "supplement",
+  "tier": "Silver",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.625,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.8,
+    "j": 0.65,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 609,
+    "I2": 27.1,
+    "tau2": 0.029,
+    "mu_hat": 0.316,
+    "mu_CI95": [
+      0.102,
+      0.313
+    ],
+    "design_breakdown": {
+      "RCT": 1,
+      "cohort": 1,
+      "other": 1
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
   "version": "v1",
-  "dateCreated": "2025-11-10T02:42:06.674609+00:00",
+  "audit_hash": "0x44cabc9945230d74",
+  "policy_fingerprint": "0x4d3c2b1a0f9e8d7c",
+  "citations_manifest_hash": "sha256:103cdc1f450428098f247c567c20e5af5ae7360c3e5fff37ab812dd1156727b7",
+  "tier_label_system": "TEL-5",
+  "name": "TERVYX Evidence: inositol for obsessive_compulsive",
+  "description": "Systematic evidence assessment following TERVYX Protocol v1.0",
+  "dateCreated": "2025-11-10T03:15:18.590805+00:00",
   "creator": {
     "@type": "Organization",
-    "name": "TERVYX Protocol"
+    "name": "TERVYX Protocol Consortium"
   },
-  "license": "https://creativecommons.org/licenses/by/4.0/",
-  "keywords": [
-    "TERVYX",
-    "evidence",
-    "health"
-  ]
+  "license": "https://creativecommons.org/licenses/by/4.0/"
 }

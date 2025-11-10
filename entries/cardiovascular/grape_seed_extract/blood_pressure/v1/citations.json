@@ -1,7 +1,42 @@
 {
   "manifest_hash": "sha256:cd03cd995d62633c372c65673bed99208467ffc9f9befd4e2a5844abe627cad0",
-  "policy_fingerprint": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
-  "generated": "2025-11-10T02:42:06.670034+00:00",
+  "policy_fingerprint": "0x4d3c2b1a0f9e8d7c",
+  "generated": "2025-11-10T03:15:18.582923+00:00",
+  "source_evidence": [
+    {
+      "study_id": "GRA_2020_1",
+      "doi": "10.5004/example.2020.253",
+      "extracted_data": {
+        "effect_size": -0.013,
+        "ci_lower": -0.158,
+        "ci_upper": 0.133,
+        "n_treatment": 176,
+        "n_control": 127
+      }
+    },
+    {
+      "study_id": "GRA_2023_2",
+      "doi": "10.1617/example.2023.174",
+      "extracted_data": {
+        "effect_size": 0.397,
+        "ci_lower": 0.256,
+        "ci_upper": 0.539,
+        "n_treatment": 72,
+        "n_control": 63
+      }
+    },
+    {
+      "study_id": "GRA_2017_3",
+      "doi": "10.6339/example.2017.819",
+      "extracted_data": {
+        "effect_size": 0.257,
+        "ci_lower": 0.195,
+        "ci_upper": 0.319,
+        "n_treatment": 166,
+        "n_control": 55
+      }
+    }
+  ],
   "citations": [
     {
       "study_id": "GRA_2020_1",
@@ -9,11 +44,17 @@
       "pmid": null,
       "year": 2020,
       "journal_id": "nature",
-      "title": "Study GRA_2020_1",
+      "title": "Study GRA_2020_1: Intervention effects",
       "authors": [
-        "Author A"
+        "Smith J",
+        "Jones A"
       ],
-      "retracted": false
+      "abstract": "Study examining intervention effects.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 2.3,
+        "sjr": 1.51
+      }
     },
     {
       "study_id": "GRA_2023_2",
@@ -21,11 +62,17 @@
       "pmid": null,
       "year": 2023,
       "journal_id": "plos_one",
-      "title": "Study GRA_2023_2",
+      "title": "Study GRA_2023_2: Intervention effects",
       "authors": [
-        "Author A"
+        "Smith J",
+        "Jones A"
       ],
-      "retracted": false
+      "abstract": "Study examining intervention effects.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 3.6,
+        "sjr": 1.34
+      }
     },
     {
       "study_id": "GRA_2017_3",
@@ -33,11 +80,21 @@
       "pmid": null,
       "year": 2017,
       "journal_id": "bmj",
-      "title": "Study GRA_2017_3",
+      "title": "Study GRA_2017_3: Intervention effects",
       "authors": [
-        "Author A"
+        "Smith J",
+        "Jones A"
       ],
-      "retracted": false
+      "abstract": "Study examining intervention effects.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 4.9,
+        "sjr": 1.87
+      }
     }
-  ]
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "generator": "TERVYX Pipeline v1.0"
+  }
 }

@@ -1,19 +1,52 @@
 {
   "@context": "https://schema.org/",
   "@type": "Dataset",
-  "name": "TERVYX Evidence Entry",
-  "description": "Evidence assessment following TERVYX Protocol v1.0",
-  "identifier": "deep_sleep",
+  "id": "nutrient:valerian-root:deep-sleep:v1",
+  "title": "Valerian Root \u2014 Deep Sleep",
+  "category": "sleep",
+  "intervention_type": "supplement",
+  "tier": "Silver",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.791,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.7,
+    "j": 0.69,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 767,
+    "I2": 31.1,
+    "tau2": 0.088,
+    "mu_hat": 0.224,
+    "mu_CI95": [
+      0.162,
+      0.326
+    ],
+    "design_breakdown": {
+      "RCT": 2,
+      "cohort": 0,
+      "other": 1
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
   "version": "v1",
-  "dateCreated": "2025-11-10T02:42:06.675746+00:00",
+  "audit_hash": "0xac461dd8d3c56936",
+  "policy_fingerprint": "0x4d3c2b1a0f9e8d7c",
+  "citations_manifest_hash": "sha256:a0a7c4e36b841548e5e65a0e4c713bb400c6844f46be1306f8e03d4d7878e3d4",
+  "tier_label_system": "TEL-5",
+  "name": "TERVYX Evidence: valerian_root for deep_sleep",
+  "description": "Systematic evidence assessment following TERVYX Protocol v1.0",
+  "dateCreated": "2025-11-10T03:15:18.592524+00:00",
   "creator": {
     "@type": "Organization",
-    "name": "TERVYX Protocol"
+    "name": "TERVYX Protocol Consortium"
   },
-  "license": "https://creativecommons.org/licenses/by/4.0/",
-  "keywords": [
-    "TERVYX",
-    "evidence",
-    "health"
-  ]
+  "license": "https://creativecommons.org/licenses/by/4.0/"
 }

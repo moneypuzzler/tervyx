@@ -1,7 +1,64 @@
 {
   "manifest_hash": "sha256:2554a4e7eea2e2f5139cfe18a4f14365127dfaa28fca8ce7a8d8d4a270480ac9",
-  "policy_fingerprint": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
-  "generated": "2025-11-10T02:42:06.670602+00:00",
+  "policy_fingerprint": "0x4d3c2b1a0f9e8d7c",
+  "generated": "2025-11-10T03:15:18.583815+00:00",
+  "source_evidence": [
+    {
+      "study_id": "BEE_2016_1",
+      "doi": "10.8484/example.2016.576",
+      "extracted_data": {
+        "effect_size": 0.284,
+        "ci_lower": 0.191,
+        "ci_upper": 0.377,
+        "n_treatment": 60,
+        "n_control": 103
+      }
+    },
+    {
+      "study_id": "BEE_2022_2",
+      "doi": "10.4714/example.2022.969",
+      "extracted_data": {
+        "effect_size": 0.487,
+        "ci_lower": 0.365,
+        "ci_upper": 0.609,
+        "n_treatment": 198,
+        "n_control": 145
+      }
+    },
+    {
+      "study_id": "BEE_2016_3",
+      "doi": "10.5173/example.2016.576",
+      "extracted_data": {
+        "effect_size": 0.125,
+        "ci_lower": 0.058,
+        "ci_upper": 0.193,
+        "n_treatment": 166,
+        "n_control": 173
+      }
+    },
+    {
+      "study_id": "BEE_2018_4",
+      "doi": "10.7368/example.2018.782",
+      "extracted_data": {
+        "effect_size": 0.082,
+        "ci_lower": -0.053,
+        "ci_upper": 0.217,
+        "n_treatment": 148,
+        "n_control": 158
+      }
+    },
+    {
+      "study_id": "BEE_2016_5",
+      "doi": "10.6376/example.2016.401",
+      "extracted_data": {
+        "effect_size": -0.097,
+        "ci_lower": -0.185,
+        "ci_upper": -0.008,
+        "n_treatment": 66,
+        "n_control": 135
+      }
+    }
+  ],
   "citations": [
     {
       "study_id": "BEE_2016_1",
@@ -9,11 +66,17 @@
       "pmid": null,
       "year": 2016,
       "journal_id": "nature",
-      "title": "Study BEE_2016_1",
+      "title": "Study BEE_2016_1: Intervention effects",
       "authors": [
-        "Author A"
+        "Smith J",
+        "Jones A"
       ],
-      "retracted": false
+      "abstract": "Study examining intervention effects.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 2.6,
+        "sjr": 1.2
+      }
     },
     {
       "study_id": "BEE_2022_2",
@@ -21,11 +84,17 @@
       "pmid": null,
       "year": 2022,
       "journal_id": "plos_one",
-      "title": "Study BEE_2022_2",
+      "title": "Study BEE_2022_2: Intervention effects",
       "authors": [
-        "Author A"
+        "Smith J",
+        "Jones A"
       ],
-      "retracted": false
+      "abstract": "Study examining intervention effects.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 3.9,
+        "sjr": 1.1
+      }
     },
     {
       "study_id": "BEE_2016_3",
@@ -33,11 +102,17 @@
       "pmid": null,
       "year": 2016,
       "journal_id": "bmj",
-      "title": "Study BEE_2016_3",
+      "title": "Study BEE_2016_3: Intervention effects",
       "authors": [
-        "Author A"
+        "Smith J",
+        "Jones A"
       ],
-      "retracted": false
+      "abstract": "Study examining intervention effects.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 3.9,
+        "sjr": 1.92
+      }
     },
     {
       "study_id": "BEE_2018_4",
@@ -45,11 +120,17 @@
       "pmid": null,
       "year": 2018,
       "journal_id": "science",
-      "title": "Study BEE_2018_4",
+      "title": "Study BEE_2018_4: Intervention effects",
       "authors": [
-        "Author A"
+        "Smith J",
+        "Jones A"
       ],
-      "retracted": false
+      "abstract": "Study examining intervention effects.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 3.1,
+        "sjr": 1.07
+      }
     },
     {
       "study_id": "BEE_2016_5",
@@ -57,11 +138,21 @@
       "pmid": null,
       "year": 2016,
       "journal_id": "nature",
-      "title": "Study BEE_2016_5",
+      "title": "Study BEE_2016_5: Intervention effects",
       "authors": [
-        "Author A"
+        "Smith J",
+        "Jones A"
       ],
-      "retracted": false
+      "abstract": "Study examining intervention effects.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 3.8,
+        "sjr": 1.64
+      }
     }
-  ]
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "generator": "TERVYX Pipeline v1.0"
+  }
 }

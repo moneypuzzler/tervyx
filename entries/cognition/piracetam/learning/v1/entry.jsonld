@@ -1,19 +1,52 @@
 {
   "@context": "https://schema.org/",
   "@type": "Dataset",
-  "name": "TERVYX Evidence Entry",
-  "description": "Evidence assessment following TERVYX Protocol v1.0",
-  "identifier": "learning",
+  "id": "nutrient:piracetam:learning:v1",
+  "title": "Piracetam \u2014 Learning",
+  "category": "cognition",
+  "intervention_type": "supplement",
+  "tier": "Silver",
+  "label": "PASS",
+  "P_effect_gt_delta": 0.765,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.87,
+    "j": 0.66,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 3,
+    "total_n": 557,
+    "I2": 22.9,
+    "tau2": 0.027,
+    "mu_hat": 0.353,
+    "mu_CI95": [
+      0.109,
+      0.345
+    ],
+    "design_breakdown": {
+      "RCT": 2,
+      "cohort": 0,
+      "other": 1
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
   "version": "v1",
-  "dateCreated": "2025-11-10T02:42:06.671626+00:00",
+  "audit_hash": "0xf9ee1966ffe4db6f",
+  "policy_fingerprint": "0x4d3c2b1a0f9e8d7c",
+  "citations_manifest_hash": "sha256:0b6e124579370205f5ea213ea57b93331a92a5e021a9444ea0ff0ecb0e707414",
+  "tier_label_system": "TEL-5",
+  "name": "TERVYX Evidence: piracetam for learning",
+  "description": "Systematic evidence assessment following TERVYX Protocol v1.0",
+  "dateCreated": "2025-11-10T03:15:18.586164+00:00",
   "creator": {
     "@type": "Organization",
-    "name": "TERVYX Protocol"
+    "name": "TERVYX Protocol Consortium"
   },
-  "license": "https://creativecommons.org/licenses/by/4.0/",
-  "keywords": [
-    "TERVYX",
-    "evidence",
-    "health"
-  ]
+  "license": "https://creativecommons.org/licenses/by/4.0/"
 }
