@@ -1,7 +1,64 @@
 {
   "manifest_hash": "sha256:3554070ab259ad815a25e29207d296ea7cc8c1ccdf6474ef05dcc4c99601672d",
-  "policy_fingerprint": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
-  "generated": "2025-11-10T02:42:06.678371+00:00",
+  "policy_fingerprint": "0x4d3c2b1a0f9e8d7c",
+  "generated": "2025-11-10T03:15:18.596036+00:00",
+  "source_evidence": [
+    {
+      "study_id": "BER_2022_1",
+      "doi": "10.2823/example.2022.173",
+      "extracted_data": {
+        "effect_size": 0.403,
+        "ci_lower": 0.31,
+        "ci_upper": 0.497,
+        "n_treatment": 106,
+        "n_control": 198
+      }
+    },
+    {
+      "study_id": "BER_2019_2",
+      "doi": "10.1296/example.2019.544",
+      "extracted_data": {
+        "effect_size": 0.311,
+        "ci_lower": 0.218,
+        "ci_upper": 0.403,
+        "n_treatment": 33,
+        "n_control": 173
+      }
+    },
+    {
+      "study_id": "BER_2015_3",
+      "doi": "10.1120/example.2015.576",
+      "extracted_data": {
+        "effect_size": -0.084,
+        "ci_lower": -0.141,
+        "ci_upper": -0.027,
+        "n_treatment": 121,
+        "n_control": 187
+      }
+    },
+    {
+      "study_id": "BER_2024_4",
+      "doi": "10.3831/example.2024.122",
+      "extracted_data": {
+        "effect_size": 0.266,
+        "ci_lower": 0.177,
+        "ci_upper": 0.355,
+        "n_treatment": 156,
+        "n_control": 66
+      }
+    },
+    {
+      "study_id": "BER_2022_5",
+      "doi": "10.8033/example.2022.567",
+      "extracted_data": {
+        "effect_size": 0.444,
+        "ci_lower": 0.315,
+        "ci_upper": 0.574,
+        "n_treatment": 160,
+        "n_control": 174
+      }
+    }
+  ],
   "citations": [
     {
       "study_id": "BER_2022_1",
@@ -9,11 +66,17 @@
       "pmid": null,
       "year": 2022,
       "journal_id": "science",
-      "title": "Study BER_2022_1",
+      "title": "Study BER_2022_1: Intervention effects",
       "authors": [
-        "Author A"
+        "Smith J",
+        "Jones A"
       ],
-      "retracted": false
+      "abstract": "Study examining intervention effects.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 4.0,
+        "sjr": 1.63
+      }
     },
     {
       "study_id": "BER_2019_2",
@@ -21,11 +84,17 @@
       "pmid": null,
       "year": 2019,
       "journal_id": "bmj",
-      "title": "Study BER_2019_2",
+      "title": "Study BER_2019_2: Intervention effects",
       "authors": [
-        "Author A"
+        "Smith J",
+        "Jones A"
       ],
-      "retracted": false
+      "abstract": "Study examining intervention effects.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 2.1,
+        "sjr": 1.22
+      }
     },
     {
       "study_id": "BER_2015_3",
@@ -33,11 +102,17 @@
       "pmid": null,
       "year": 2015,
       "journal_id": "bmj",
-      "title": "Study BER_2015_3",
+      "title": "Study BER_2015_3: Intervention effects",
       "authors": [
-        "Author A"
+        "Smith J",
+        "Jones A"
       ],
-      "retracted": false
+      "abstract": "Study examining intervention effects.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 3.6,
+        "sjr": 0.83
+      }
     },
     {
       "study_id": "BER_2024_4",
@@ -45,11 +120,17 @@
       "pmid": null,
       "year": 2024,
       "journal_id": "science",
-      "title": "Study BER_2024_4",
+      "title": "Study BER_2024_4: Intervention effects",
       "authors": [
-        "Author A"
+        "Smith J",
+        "Jones A"
       ],
-      "retracted": false
+      "abstract": "Study examining intervention effects.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 3.8,
+        "sjr": 1.62
+      }
     },
     {
       "study_id": "BER_2022_5",
@@ -57,11 +138,21 @@
       "pmid": null,
       "year": 2022,
       "journal_id": "plos_one",
-      "title": "Study BER_2022_5",
+      "title": "Study BER_2022_5: Intervention effects",
       "authors": [
-        "Author A"
+        "Smith J",
+        "Jones A"
       ],
-      "retracted": false
+      "abstract": "Study examining intervention effects.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 3.2,
+        "sjr": 0.95
+      }
     }
-  ]
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "generator": "TERVYX Pipeline v1.0"
+  }
 }

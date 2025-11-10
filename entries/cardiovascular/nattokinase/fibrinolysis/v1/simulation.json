@@ -1,27 +1,29 @@
 {
-  "timestamp": "2025-11-10T02:42:06.669621+00:00",
+  "timestamp": "2025-11-10T03:15:18.582573+00:00",
   "n_draws": 10000,
   "n_simulations": 10000,
   "seed": 42,
+  "delta": 0.1,
   "tau2_method": "REML",
+  "P_effect_gt_delta": 0.561,
   "monte_carlo_results": {
-    "p_effect_gt_0": 0.75,
-    "p_effect_gt_delta": 0.65,
-    "mean_effect": 0.25,
-    "median_effect": 0.23,
-    "ci_lower": 0.1,
-    "ci_upper": 0.4,
-    "tau2": 0.05,
-    "i2": 25.0,
-    "q_statistic": 12.5,
-    "q_pvalue": 0.15
+    "p_effect_gt_0": 0.677,
+    "p_effect_gt_delta": 0.561,
+    "mean_effect": 0.175,
+    "median_effect": 0.155,
+    "ci_lower": 0.025,
+    "ci_upper": 0.325,
+    "tau2": 0.054,
+    "i2": 33.1,
+    "q_statistic": 19.01,
+    "q_pvalue": 0.266
   },
   "convergence": {
-    "gelman_rubin": 1.01,
-    "effective_n": 9500
+    "gelman_rubin": 1.005,
+    "effective_n": 9336
   },
-  "tel5_tier": "Silver",
-  "label": "PASS",
+  "tel5_tier": "Bronze",
+  "label": "AMBER",
   "gates": {
     "phi": {
       "passed": true,
@@ -29,11 +31,11 @@
     },
     "r": {
       "passed": true,
-      "score": 0.85
+      "score": 0.82
     },
     "j": {
       "passed": true,
-      "score": 0.75
+      "score": 0.79
     },
     "k": {
       "passed": true,

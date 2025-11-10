@@ -1,7 +1,42 @@
 {
   "manifest_hash": "sha256:103cdc1f450428098f247c567c20e5af5ae7360c3e5fff37ab812dd1156727b7",
-  "policy_fingerprint": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
-  "generated": "2025-11-10T02:42:06.674803+00:00",
+  "policy_fingerprint": "0x4d3c2b1a0f9e8d7c",
+  "generated": "2025-11-10T03:15:18.590449+00:00",
+  "source_evidence": [
+    {
+      "study_id": "INO_2018_1",
+      "doi": "10.4074/example.2018.727",
+      "extracted_data": {
+        "effect_size": 0.24,
+        "ci_lower": 0.172,
+        "ci_upper": 0.309,
+        "n_treatment": 134,
+        "n_control": 54
+      }
+    },
+    {
+      "study_id": "INO_2023_2",
+      "doi": "10.5507/example.2023.750",
+      "extracted_data": {
+        "effect_size": 0.192,
+        "ci_lower": 0.047,
+        "ci_upper": 0.337,
+        "n_treatment": 132,
+        "n_control": 110
+      }
+    },
+    {
+      "study_id": "INO_2024_3",
+      "doi": "10.8906/example.2024.936",
+      "extracted_data": {
+        "effect_size": 0.441,
+        "ci_lower": 0.355,
+        "ci_upper": 0.528,
+        "n_treatment": 65,
+        "n_control": 114
+      }
+    }
+  ],
   "citations": [
     {
       "study_id": "INO_2018_1",
@@ -9,11 +44,17 @@
       "pmid": null,
       "year": 2018,
       "journal_id": "jama",
-      "title": "Study INO_2018_1",
+      "title": "Study INO_2018_1: Intervention effects",
       "authors": [
-        "Author A"
+        "Smith J",
+        "Jones A"
       ],
-      "retracted": false
+      "abstract": "Study examining intervention effects.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 2.6,
+        "sjr": 0.99
+      }
     },
     {
       "study_id": "INO_2023_2",
@@ -21,11 +62,17 @@
       "pmid": null,
       "year": 2023,
       "journal_id": "nature",
-      "title": "Study INO_2023_2",
+      "title": "Study INO_2023_2: Intervention effects",
       "authors": [
-        "Author A"
+        "Smith J",
+        "Jones A"
       ],
-      "retracted": false
+      "abstract": "Study examining intervention effects.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 4.0,
+        "sjr": 1.02
+      }
     },
     {
       "study_id": "INO_2024_3",
@@ -33,11 +80,21 @@
       "pmid": null,
       "year": 2024,
       "journal_id": "plos_one",
-      "title": "Study INO_2024_3",
+      "title": "Study INO_2024_3: Intervention effects",
       "authors": [
-        "Author A"
+        "Smith J",
+        "Jones A"
       ],
-      "retracted": false
+      "abstract": "Study examining intervention effects.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 2.6,
+        "sjr": 1.33
+      }
     }
-  ]
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "generator": "TERVYX Pipeline v1.0"
+  }
 }

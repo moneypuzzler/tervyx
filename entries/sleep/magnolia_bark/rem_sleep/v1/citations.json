@@ -1,7 +1,53 @@
 {
   "manifest_hash": "sha256:f7248e31bc4c2037d6881ce25a30791281471fb16ec2440da9f850eb466f9c0f",
-  "policy_fingerprint": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
-  "generated": "2025-11-10T02:42:06.677115+00:00",
+  "policy_fingerprint": "0x4d3c2b1a0f9e8d7c",
+  "generated": "2025-11-10T03:15:18.594036+00:00",
+  "source_evidence": [
+    {
+      "study_id": "MAG_2022_1",
+      "doi": "10.2746/example.2022.560",
+      "extracted_data": {
+        "effect_size": 0.108,
+        "ci_lower": -0.034,
+        "ci_upper": 0.25,
+        "n_treatment": 75,
+        "n_control": 129
+      }
+    },
+    {
+      "study_id": "MAG_2022_2",
+      "doi": "10.8568/example.2022.264",
+      "extracted_data": {
+        "effect_size": 0.464,
+        "ci_lower": 0.346,
+        "ci_upper": 0.583,
+        "n_treatment": 189,
+        "n_control": 73
+      }
+    },
+    {
+      "study_id": "MAG_2022_3",
+      "doi": "10.8721/example.2022.466",
+      "extracted_data": {
+        "effect_size": 0.331,
+        "ci_lower": 0.197,
+        "ci_upper": 0.464,
+        "n_treatment": 63,
+        "n_control": 196
+      }
+    },
+    {
+      "study_id": "MAG_2019_4",
+      "doi": "10.8321/example.2019.634",
+      "extracted_data": {
+        "effect_size": 0.437,
+        "ci_lower": 0.344,
+        "ci_upper": 0.53,
+        "n_treatment": 186,
+        "n_control": 49
+      }
+    }
+  ],
   "citations": [
     {
       "study_id": "MAG_2022_1",
@@ -9,11 +55,17 @@
       "pmid": null,
       "year": 2022,
       "journal_id": "plos_one",
-      "title": "Study MAG_2022_1",
+      "title": "Study MAG_2022_1: Intervention effects",
       "authors": [
-        "Author A"
+        "Smith J",
+        "Jones A"
       ],
-      "retracted": false
+      "abstract": "Study examining intervention effects.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 4.5,
+        "sjr": 1.54
+      }
     },
     {
       "study_id": "MAG_2022_2",
@@ -21,11 +73,17 @@
       "pmid": null,
       "year": 2022,
       "journal_id": "jama",
-      "title": "Study MAG_2022_2",
+      "title": "Study MAG_2022_2: Intervention effects",
       "authors": [
-        "Author A"
+        "Smith J",
+        "Jones A"
       ],
-      "retracted": false
+      "abstract": "Study examining intervention effects.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 2.7,
+        "sjr": 1.23
+      }
     },
     {
       "study_id": "MAG_2022_3",
@@ -33,11 +91,17 @@
       "pmid": null,
       "year": 2022,
       "journal_id": "plos_one",
-      "title": "Study MAG_2022_3",
+      "title": "Study MAG_2022_3: Intervention effects",
       "authors": [
-        "Author A"
+        "Smith J",
+        "Jones A"
       ],
-      "retracted": false
+      "abstract": "Study examining intervention effects.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 4.4,
+        "sjr": 1.11
+      }
     },
     {
       "study_id": "MAG_2019_4",
@@ -45,11 +109,21 @@
       "pmid": null,
       "year": 2019,
       "journal_id": "nature",
-      "title": "Study MAG_2019_4",
+      "title": "Study MAG_2019_4: Intervention effects",
       "authors": [
-        "Author A"
+        "Smith J",
+        "Jones A"
       ],
-      "retracted": false
+      "abstract": "Study examining intervention effects.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 3.4,
+        "sjr": 1.25
+      }
     }
-  ]
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "generator": "TERVYX Pipeline v1.0"
+  }
 }

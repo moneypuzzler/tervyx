@@ -1,19 +1,52 @@
 {
   "@context": "https://schema.org/",
   "@type": "Dataset",
-  "name": "TERVYX Evidence Entry",
-  "description": "Evidence assessment following TERVYX Protocol v1.0",
-  "identifier": "sleep_latency",
+  "id": "nutrient:hops:sleep-latency:v1",
+  "title": "Hops \u2014 Sleep Latency",
+  "category": "sleep",
+  "intervention_type": "supplement",
+  "tier": "Bronze",
+  "label": "AMBER",
+  "P_effect_gt_delta": 0.568,
+  "gate_results": {
+    "phi": "PASS",
+    "r": 0.78,
+    "j": 0.74,
+    "k": "PASS",
+    "l": "PASS"
+  },
+  "evidence_summary": {
+    "n_studies": 5,
+    "total_n": 966,
+    "I2": 19.8,
+    "tau2": 0.02,
+    "mu_hat": 0.318,
+    "mu_CI95": [
+      0.111,
+      0.444
+    ],
+    "design_breakdown": {
+      "RCT": 2,
+      "cohort": 0,
+      "other": 3
+    }
+  },
+  "policy_refs": {
+    "tel5_levels": "v1.2.0",
+    "monte_carlo": "v1.0.1-reml-grid",
+    "journal_trust": "2025-10-05"
+  },
   "version": "v1",
-  "dateCreated": "2025-11-10T02:42:06.677471+00:00",
+  "audit_hash": "0xe7948768620b7abf",
+  "policy_fingerprint": "0x4d3c2b1a0f9e8d7c",
+  "citations_manifest_hash": "sha256:393ee234bb9fd1ac1ecb85392d9f06ca6a92326f954930961a169956cfaee958",
+  "tier_label_system": "TEL-5",
+  "name": "TERVYX Evidence: hops for sleep_latency",
+  "description": "Systematic evidence assessment following TERVYX Protocol v1.0",
+  "dateCreated": "2025-11-10T03:15:18.595495+00:00",
   "creator": {
     "@type": "Organization",
-    "name": "TERVYX Protocol"
+    "name": "TERVYX Protocol Consortium"
   },
-  "license": "https://creativecommons.org/licenses/by/4.0/",
-  "keywords": [
-    "TERVYX",
-    "evidence",
-    "health"
-  ]
+  "license": "https://creativecommons.org/licenses/by/4.0/"
 }

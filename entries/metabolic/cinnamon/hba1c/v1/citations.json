@@ -1,7 +1,53 @@
 {
   "manifest_hash": "sha256:6e8ecce51df0fe77e80ce1fca83c751d7cb82d15f9c202c1ae9833907f9b0cd0",
-  "policy_fingerprint": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
-  "generated": "2025-11-10T02:42:06.679493+00:00",
+  "policy_fingerprint": "0x4d3c2b1a0f9e8d7c",
+  "generated": "2025-11-10T03:15:18.597904+00:00",
+  "source_evidence": [
+    {
+      "study_id": "CIN_2021_1",
+      "doi": "10.1032/example.2021.535",
+      "extracted_data": {
+        "effect_size": 0.451,
+        "ci_lower": 0.33,
+        "ci_upper": 0.572,
+        "n_treatment": 100,
+        "n_control": 139
+      }
+    },
+    {
+      "study_id": "CIN_2015_2",
+      "doi": "10.7058/example.2015.538",
+      "extracted_data": {
+        "effect_size": 0.135,
+        "ci_lower": 0.062,
+        "ci_upper": 0.207,
+        "n_treatment": 61,
+        "n_control": 48
+      }
+    },
+    {
+      "study_id": "CIN_2024_3",
+      "doi": "10.4791/example.2024.359",
+      "extracted_data": {
+        "effect_size": -0.186,
+        "ci_lower": -0.259,
+        "ci_upper": -0.114,
+        "n_treatment": 69,
+        "n_control": 74
+      }
+    },
+    {
+      "study_id": "CIN_2015_4",
+      "doi": "10.6008/example.2015.330",
+      "extracted_data": {
+        "effect_size": 0.415,
+        "ci_lower": 0.321,
+        "ci_upper": 0.508,
+        "n_treatment": 151,
+        "n_control": 100
+      }
+    }
+  ],
   "citations": [
     {
       "study_id": "CIN_2021_1",
@@ -9,11 +55,17 @@
       "pmid": null,
       "year": 2021,
       "journal_id": "jama",
-      "title": "Study CIN_2021_1",
+      "title": "Study CIN_2021_1: Intervention effects",
       "authors": [
-        "Author A"
+        "Smith J",
+        "Jones A"
       ],
-      "retracted": false
+      "abstract": "Study examining intervention effects.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 3.2,
+        "sjr": 1.91
+      }
     },
     {
       "study_id": "CIN_2015_2",
@@ -21,11 +73,17 @@
       "pmid": null,
       "year": 2015,
       "journal_id": "science",
-      "title": "Study CIN_2015_2",
+      "title": "Study CIN_2015_2: Intervention effects",
       "authors": [
-        "Author A"
+        "Smith J",
+        "Jones A"
       ],
-      "retracted": false
+      "abstract": "Study examining intervention effects.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 2.8,
+        "sjr": 1.8
+      }
     },
     {
       "study_id": "CIN_2024_3",
@@ -33,11 +91,17 @@
       "pmid": null,
       "year": 2024,
       "journal_id": "bmj",
-      "title": "Study CIN_2024_3",
+      "title": "Study CIN_2024_3: Intervention effects",
       "authors": [
-        "Author A"
+        "Smith J",
+        "Jones A"
       ],
-      "retracted": false
+      "abstract": "Study examining intervention effects.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 3.5,
+        "sjr": 1.19
+      }
     },
     {
       "study_id": "CIN_2015_4",
@@ -45,11 +109,21 @@
       "pmid": null,
       "year": 2015,
       "journal_id": "jama",
-      "title": "Study CIN_2015_4",
+      "title": "Study CIN_2015_4: Intervention effects",
       "authors": [
-        "Author A"
+        "Smith J",
+        "Jones A"
       ],
-      "retracted": false
+      "abstract": "Study examining intervention effects.",
+      "retracted": false,
+      "journal_metrics": {
+        "impact_factor": 4.4,
+        "sjr": 1.98
+      }
     }
-  ]
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "generator": "TERVYX Pipeline v1.0"
+  }
 }
