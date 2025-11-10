@@ -211,6 +211,23 @@ audit:
   include_audit_hash: true
   hash_algorithm: "sha256"
 
+# Policy fingerprinting configuration
+policy_fingerprinting:
+  enabled: true
+  algorithm: "sha256"
+  truncate_to: 16  # First 16 hex chars (64 bits)
+  format: "0x{fingerprint}"
+  inputs:
+    - "policy.yaml"  # This file
+    - "protocol/journal_trust/snapshot-2025-10-30.json"  # J* snapshot
+    - "protocol/phi_rules.yaml"  # Φ gate rules
+    - "protocol/L_rules.yaml"    # L gate rules
+  description: |
+    Policy fingerprint ensures reproducible builds. All entry artifacts
+    must reference the same policy fingerprint to guarantee consistency.
+    Computed via: SHA256(policy.yaml || journal_snapshot || gate_rules)
+  example: "0xbe3a798944b1c64b"
+
 # Patent and trademark information
 intellectual_property:
   patent:
