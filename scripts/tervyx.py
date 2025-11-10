@@ -193,15 +193,16 @@ def append_audit_log(record: Dict[str, Any]) -> None:
 
 def cmd_new(args: argparse.Namespace) -> None:
     meta = {
-        "domain": args.domain,
-        "slug": args.slug,
-        "category": args.category,
+        "intervention_type": args.intervention_type,
+        "subcategory": args.subcategory,
+        "product": args.product,
+        "outcome": args.outcome,
         "version": "v1",
         "created": datetime.utcnow().isoformat() + "Z",
         "status": "draft",
     }
 
-    entry_dir = ROOT / "entries" / args.domain / args.slug / args.category / "v1"
+    entry_dir = ROOT / "entries" / args.intervention_type / args.subcategory / args.product / args.outcome / "v1"
     ensure_directory(entry_dir)
 
     # evidence.csv: header only — no synthetic placeholder rows
@@ -447,8 +448,8 @@ def build_parser() -> argparse.ArgumentParser:
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=(
             "Examples:\n"
-            "  tervyx new nutrient melatonin sleep\n"
-            "  tervyx build entries/nutrient/melatonin/sleep/v1 --category sleep\n"
+            "  tervyx new supplements minerals magnesium-glycinate sleep\n"
+            "  tervyx build entries/supplements/minerals/magnesium-glycinate/sleep/v1 --category sleep\n"
         ),
     )
 
@@ -456,9 +457,10 @@ def build_parser() -> argparse.ArgumentParser:
 
     # new
     p_new = subparsers.add_parser("new", help="Create an empty entry scaffold")
-    p_new.add_argument("domain", help="Domain (e.g. nutrient, botanical, intervention)")
-    p_new.add_argument("slug", help="Slug (kebab-case identifier, e.g. magnesium-glycinate)")
-    p_new.add_argument("category", help="Evidence category (e.g. sleep, cognition)")
+    p_new.add_argument("intervention_type", help="Intervention type (e.g. supplements, devices, behavioral, foods)")
+    p_new.add_argument("subcategory", help="Subcategory (e.g. minerals, vitamins, wearables)")
+    p_new.add_argument("product", help="Product slug (kebab-case, e.g. magnesium-glycinate)")
+    p_new.add_argument("outcome", help="Outcome category (e.g. sleep, cognition, anxiety)")
     p_new.set_defaults(func=cmd_new)
 
     # build
